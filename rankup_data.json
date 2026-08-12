@@ -4,6 +4,8 @@
     "Benefits": [
       "Base Main Attributes / Child: 2 / Teen: 3 / Adult: 4 / Senior: 3.",
       "Base Social Attributes / Child: 2 / Teen: 2 / Adult: 4 / Senior: 6.",
+      "Main Attribute Points Gained 0. (Total Main Attribute Points 0)",
+      "Social Attribute Points Gained 0. (Total Social Attribute Points 0)",
       "5 Skill Points to distribute. (Total of 5 Skill Points)",
       "Skill Limit 1 (can’t have more than 1 Point on a single Skill).",
       "Can Target a maximum of 1.",
@@ -13,8 +15,8 @@
   "Rookie": {
     "Training Points Required": 5,
     "Benefits": [
-      "2 more Points to distribute on Main Attributes.",
-      "2 more Points to distribute on Social Attributes.",
+      "Main Attribute Points Gained 2. (Total Main Attribute Points 2)",
+      "Social Attribute Points Gained 2. (Total Social Attribute Points 2)",
       "5 more Skill Points to distribute. (Total of 10 Skill Points)",
       "Skill Limit 2 (can’t have more than 2 Points on a single Skill).",
       "Can Target a maximum of 2.",
@@ -24,8 +26,8 @@
   "Standard": {
     "Training Points Required": 15,
     "Benefits": [
-      "2 more Points to distribute on Main Attributes.",
-      "2 more Points to distribute on Social Attributes.",
+      "Main Attribute Points Gained 2. (Total Main Attribute Points 4)",
+      "Social Attribute Points Gained 2. (Total Social Attribute Points 4)",
       "4 more Skill Points to distribute. (Total of 14 Skill Points)",
       "Skill Limit 3 (can’t have more than 3 Points in a single Skill).",
       "Can Target a maximum of 3.",
@@ -35,8 +37,8 @@
   "Advanced": {
     "Training Points Required": 25,
     "Benefits": [
-      "2 more Points to distribute on Main Attributes.",
-      "2 more Points to distribute on Social Attributes.",
+      "Main Attribute Points Gained 2. (Total Main Attribute Points 6)",
+      "Social Attribute Points Gained 2. (Total Social Attribute Points 6)",
       "3 more Skill Points to distribute. (Total of 17 Skill Points)",
       "Skill Limit 4 (can’t have more than 4 Points in a single Skill).",
       "Can Target a maximum of 4.",
@@ -46,8 +48,8 @@
   "Expert": {
     "Training Points Required": 30,
     "Benefits": [
-      "2 more Points to distribute on Main Attributes.",
-      "2 more Points to distribute on Social Attributes.",
+      "Main Attribute Points Gained 2. (Total Main Attribute Points 8)",
+      "Social Attribute Points Gained 2. (Total Social Attribute Points 8)",
       "2 more Skill Point to distribute. (Total of 19 Skill Points)",
       "Skill Limit 5 (can’t have more than 5 Points in a single Skill).",
       "Can Target a maximum of 5.",
@@ -58,8 +60,8 @@
     "Training Points Required": 35,
     "Benefits": [
       "Can raise a single Main or Social Attribute up to 1 above its normal limit.",
-      "2 more Points to distribute on Main Attributes.",
-      "2 more Points to distribute on Social Attributes.",
+      "Main Attribute Points Gained 2. (Total Main Attribute Points 10)",
+      "Social Attribute Points Gained 2. (Total Social Attribute Points 10)",
       "2 more Skill Point to distribute. (Total of 21 Skill Points)",
       "Skill Limit 5 (can’t have more than 5 Points in a single Skill).",
       "Can Target a maximum of 6.",
@@ -70,8 +72,8 @@
     "Training Points Required": 40,
     "Benefits": [
       "Can raise two Main or Social Attributes up to 1 above their normal limit.",
-      "1 more Points to distribute on Main Attributes.",
-      "1 more Points to distribute on Social Attributes.",
+      "Main Attribute Points Gained 1. (Total Main Attribute Points 11)",
+      "Social Attribute Points Gained 1. (Total Social Attribute Points 11)",
       "2 more Skill Point to distribute. (Total of 23 Skill Points)",
       "Skill Limit 6 (can’t have more than 6 Points in a single Skill).",
       "Can Target a maximum of 8.",
@@ -82,8 +84,8 @@
     "Training Points Required": 50,
     "Benefits": [
       "Can raise three Main or Social Attributes up to 2 above their normal limit.",
-      "1 more Points to distribute on Main Attributes.",
-      "1 more Points to distribute on Social Attributes.",
+      "Main Attribute Points Gained 1. (Total Main Attribute Points 12)",
+      "Social Attribute Points Gained 1. (Total Social Attribute Points 12)",
       "2 more Skill Point to distribute. (Total of 25 Skill Points)",
       "Skill Limit 6 (can’t have more than 6 Points in a single Skill).",
       "Can Target a maximum of 10.",

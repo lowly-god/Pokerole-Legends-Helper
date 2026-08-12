@@ -1979,7 +1979,15 @@ SLASH_COMMANDS.append(pkmn_search_ability)
 
 async def pkmnmovehelper(move, version: str):
     global database
-    return list(database.query_table('pkmnMoves', 'name', move, version=version)[0])[1:]
+    found = list(database.query_table('pkmnMoves', 'name', move, version=version)[0])[1:]
+
+    # v3 move data sometimes uses "Physical" as the Damage1 label.
+    # In Legends, physical damage uses Strength; Special is already correct.
+    # Normalize it here so /move and every other move consumer use Strength.
+    if found[3] and str(found[3]).strip().lower() == "physical":
+        found[3] = "Strength"
+
+    return found
 
 
 async def move_backend(movename, version: str):
