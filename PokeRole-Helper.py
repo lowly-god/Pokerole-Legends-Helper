@@ -38,7 +38,11 @@ test_guilds = [669326419641237509]  # , 709299031968579625]
 SLASH_COMMANDS = []
 
 load_dotenv()
+
 if not dev_env:
+    print("POKEROLE_TOKEN set:", bool(os.getenv('POKEROLE_TOKEN')))
+    print("DISCORD_TOKEN set:", bool(os.getenv('DISCORD_TOKEN')))
+
     token = os.getenv('POKEROLE_TOKEN') or os.getenv('DISCORD_TOKEN')
 else:
     token = os.getenv('BETA_TOKEN')
