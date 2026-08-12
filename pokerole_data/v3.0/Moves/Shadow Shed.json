@@ -7,7 +7,7 @@
     "Accuracy1": "Insight",
     "Accuracy2": "Nature",
     "Target": "All Foes",
-    "Effect": "Removes any effects from Foe’s ongoing Support Moves. (Terrain, Weather, Aqua Ring, Reflect, Safeguard etc).",
+    "Effect": "removes any effects from Foe’s ongoing Support Moves. (Terrain, Weather, Aqua Ring, Reflect, Safeguard etc).",
     "Description": "A shadowy aura eliminates Foe’s ongoing support Moves.",
     "_id": "shadow-shed",
     "Attributes": {},
