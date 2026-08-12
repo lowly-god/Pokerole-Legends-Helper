@@ -37,8 +37,8 @@
   "Evolutions": [
     {
       "From": "Stonjourner",
-      "Kind": "Special",
-      "Special": "Stonjourner (Rune Stone)"
+      "Kind": "Stone",
+      "Item": "Rune Stone"
     }
   ],
   "Image": "",

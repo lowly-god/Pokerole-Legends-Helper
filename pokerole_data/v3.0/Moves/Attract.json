@@ -7,8 +7,8 @@
   "Accuracy1": "Beauty",
   "Accuracy2": "Charm",
   "Target": "Foe",
-  "Effect": "Target is now In Love with the User.",
-  "Description": "Through their good looks and coquetish attitude, the Pokémon makes everyone develop a crush on them.",
+  "Effect": "Make the Target fall In Love with the User.",
+  "Description": "Through their good looks and coquettish attitude, the Pokémon makes everyone develop a crush on them.",
   "_id": "attract",
   "Attributes": {},
   "AddedEffects": {

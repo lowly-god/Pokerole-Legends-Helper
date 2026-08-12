@@ -39,6 +39,11 @@
       "From": "Duraludon",
       "Kind": "Level",
       "Speed": "Slow"
+    },
+    {
+      "From": "Duraludon",
+      "Kind": "Item",
+      "Item": "Metal Alloy"
     }
   ],
   "Image": "archaludon.png",

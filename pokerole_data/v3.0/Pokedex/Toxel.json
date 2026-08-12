@@ -46,6 +46,11 @@
       "Kind": "Level",
       "Speed": "Slow",
       "Special": "Introvert"
+    },
+    {
+      "To": "Toxtricity (Orrean Smouldering Form)",
+      "Kind": "Stone",
+      "Item": "Fire Stone"
     }
   ],
   "Image": "toxel.png",

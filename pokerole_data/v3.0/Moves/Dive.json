@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Stealth",
   "Target": "Foe",
-  "Effect": "Charge Move. Out of Range while Charging. Vulnerable while charging to: Scald/ Surf/ Whirlpool/ Freeze-Dry/ Sheer Cold. Out of battle allows the Pokemon to move underwater carrying someone without risk of drowning.",
+  "Effect": "Charge Move. Out of Range while Charging. Vulnerable while charging to: Scald/ Surf/ Whirlpool/ Freeze-Dry/ Sheer Cold. Out of battle allows the Pokémon to move underwater carrying someone without risk of drowning.",
   "Description": "Just look at the world around you right here on the ocean floor, such wonderful things surround you. What more are you lookin’ for?",
   "_id": "dive",
   "Attributes": {

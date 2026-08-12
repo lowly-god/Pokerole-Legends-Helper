@@ -34,7 +34,13 @@
     "Pounds": 23.0
   },
   "DexDescription": "Pansnear, lurks in the darkness of dense forests, using its sharp instincts and keen hearing, it stalks its prey, though not to eat, only to play pranks on.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Simisnear",
+      "Kind": "Stone",
+      "Item": "Dusk Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

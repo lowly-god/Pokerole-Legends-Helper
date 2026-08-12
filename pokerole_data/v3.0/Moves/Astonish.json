@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Stealth",
   "Target": "Foe",
-  "Effect": "Roll 3 Chance Dice to Flinch the Foe.",
+  "Effect": "Roll 3 Chance Dice to Flinch the Target.",
   "Description": "The user sneaks behind their target to jump scare them.",
   "_id": "astonish",
   "Attributes": {},

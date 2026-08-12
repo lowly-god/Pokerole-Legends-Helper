@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Recoil. Roll 1 Chance die to inflict 3rd Degree Burn on the Target.",
+  "Effect": "Recoil. Roll 1 Chance Die to inflict Burn (3) on the Target.",
   "Description": "A reckless blazing charge against their foe, ends up with an explosive collision",
   "_id": "flare-blitz",
   "Attributes": {

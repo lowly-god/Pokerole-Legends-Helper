@@ -37,8 +37,8 @@
   "Evolutions": [
     {
       "From": "Sizzlipede",
-      "Kind": "Special",
-      "Special": "Sizzlipede (Amber Onyx)"
+      "Kind": "Stone",
+      "Item": "Amber Onyx"
     }
   ],
   "Image": "",

@@ -8,7 +8,7 @@
   "Accuracy2": "Athletic/Brawl",
   "Target": "Foe",
   "Effect": "Lethal. High Critical.",
-  "Description": "The Pokémon holds their claws together and starts spinning as if they were a drill. They can puncture a hole into any surface from walls and floors to their foes.",
+  "Description": "The Pokémon holds their claws together and starts spinning as if they were a drill. They can puncture a hole into any surface from walls and floors to their Targets.",
   "_id": "drill-run",
   "Attributes": {
     "HighCritical": true,

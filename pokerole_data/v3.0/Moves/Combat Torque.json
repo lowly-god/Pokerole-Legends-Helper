@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Lethal. Ranged. Roll 3 Chance dice to Paralyze the Target.",
+  "Effect": "Lethal. Ranged. Roll 3 Chance Dice to Paralyze the Target.",
   "Description": "After shaking and beating their target up, the user will attempt to immovilize them.",
   "_id": "combat-torque",
   "Attributes": {

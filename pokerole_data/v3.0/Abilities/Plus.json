@@ -1,6 +1,6 @@
 {
-    "Name": "Plus",
-    "Effect": "If an ally Pokemon has the ability \"Minus\", Increase by 2 the Special Attribute of this Pokemon.",
-    "Description": "This Pokemon has a natural Positive charge. It will attract negative charge and repel other positive charge. It has a red blush all the time.",
-    "_id": "plus"
+  "Name": "Plus",
+  "Effect": "If an allied Pokémon Pokémon has the ability \"Minus\", Increase by 2 the Special Attribute of this Pokémon.",
+  "Description": "This Pokémon has a natural Positive charge. It will attract negative charge and repel other positive charge. It has a red blush all the time.",
+  "_id": "plus"
 }

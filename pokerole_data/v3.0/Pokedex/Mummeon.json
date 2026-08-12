@@ -34,7 +34,13 @@
     "Pounds": 53.0
   },
   "DexDescription": "This mummified Pokémon is said to curse anyone who looks into its Unown eye. It appears on ancient hieroglyphs in temples throughout the world.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Eevee",
+      "Kind": "Stone",
+      "Item": "Dusk Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

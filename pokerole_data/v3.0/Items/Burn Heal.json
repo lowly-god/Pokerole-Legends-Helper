@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "Medicine",
   "Category": "Medicine",
-  "Description": "Cures 1 level of Burn Status Condition",
+  "Description": "Cures 1 level of Burn Status Condition. Evolves: Phlask → Noxial (Exothermic Form).",
   "OneUse": true,
   "TrainerPrice": "250",
   "Cures": "",

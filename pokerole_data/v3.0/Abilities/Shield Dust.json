@@ -1,6 +1,6 @@
 {
-    "Name": "Shield Dust",
-    "Effect": "This Pokemon is not affected by any effects triggered by Chance Dice of foes.",
-    "Description": "This Pokemon constantly generates specs of dust to shield and protect itself.",
-    "_id": "shield-dust"
+  "Name": "Shield Dust",
+  "Effect": "This Pokémon is not affected by any effects triggered by Chance Dice of opposing Pokémon.",
+  "Description": "This Pokémon constantly generates specs of dust to shield and protect itself.",
+  "_id": "shield-dust"
 }

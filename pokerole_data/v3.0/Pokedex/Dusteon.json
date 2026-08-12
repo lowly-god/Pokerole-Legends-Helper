@@ -34,7 +34,13 @@
     "Pounds": 54.0
   },
   "DexDescription": "It wanders the desert, often guiding lost travellers. People who live in locations where this Pokémon resides have long associated it with dust devils and sand storms.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Eevee",
+      "Kind": "Stone",
+      "Item": "Desert Rose"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

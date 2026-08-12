@@ -39,6 +39,11 @@
       "From": "Kubfu",
       "Kind": "Special",
       "Special": "Finishing Trials of Darkness"
+    },
+    {
+      "From": "Kubfu",
+      "Kind": "Item",
+      "Item": "Scroll of Darkness"
     }
   ],
   "Image": "urshifu-single-strike-style-form.png",

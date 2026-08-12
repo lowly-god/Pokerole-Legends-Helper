@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Stealth",
   "Target": "Foe's Battlefield",
-  "Effect": "Reaction 4. Support Moves that would target the user or its side of the field are inflicted to the foe performing the Move or that foe's side of the field instead.",
+  "Effect": "Reaction 4. Support Moves that would Target the User or its side of the field are redirected to the Pokémon performing the Move or that Pokémon's side of the field instead.",
   "Description": "Through a swift mind trick the Pokémon trick the foe into pouring their ill intent on itself.",
   "_id": "magic-coat",
   "Attributes": {

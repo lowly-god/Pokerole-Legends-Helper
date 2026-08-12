@@ -36,7 +36,7 @@
   "DexDescription": "This Pokémon is known for its wild dizziness inducing performances, where it flips through the air. It is thought to have inspired circus harlequins.",
   "Evolutions": [
     {
-      "From": "Mime Jr.",
+      "From": "Mime Jr",
       "Kind": "Special",
       "Special": "Mime Jr. (Female / Using Double Slap)"
     }

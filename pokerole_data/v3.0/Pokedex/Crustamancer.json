@@ -34,7 +34,13 @@
     "Pounds": 183.0
   },
   "DexDescription": "Beaches with well kept dunes are usually home to Crustamancer. They painstakingly sculpt the sand into interesting patterns somewhat like a zen garden.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Cracolite",
+      "Kind": "Stone",
+      "Item": "Water Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

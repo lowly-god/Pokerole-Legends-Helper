@@ -7,7 +7,7 @@
   "Accuracy1": "SameAsBaseMove",
   "Accuracy2": "",
   "Target": "All Foes",
-  "Effect": "Reduce by 1 the Strength of those Affected.",
+  "Effect": "Reduce by 1 the Strength of those affected.",
   "Description": "",
   "_id": "max_wyrmwind",
   "Attributes": {

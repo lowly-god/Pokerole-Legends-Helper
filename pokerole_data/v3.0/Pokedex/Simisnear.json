@@ -34,7 +34,13 @@
     "Pounds": 67.0
   },
   "DexDescription": "It is said that wherever Similar appears, misfortune follows, as it has a habit of manipulating shadows to mislead travellers and cause chaos.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Pansnear",
+      "Kind": "Stone",
+      "Item": "Dusk Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

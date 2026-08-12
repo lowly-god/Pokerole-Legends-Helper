@@ -37,8 +37,8 @@
   "Evolutions": [
     {
       "From": "Wailord",
-      "Kind": "Special",
-      "Special": "Wailord (Feather Stone)"
+      "Kind": "Stone",
+      "Item": "Feather Stone"
     }
   ],
   "Image": "",

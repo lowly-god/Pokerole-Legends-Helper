@@ -40,6 +40,11 @@
       "Kind": "Item",
       "Item": "Peat Moss",
       "Special": "Moon Ritual"
+    },
+    {
+      "From": "Ursaring",
+      "Kind": "Item",
+      "Item": "Peat Block"
     }
   ],
   "Image": "ursaluna.png",

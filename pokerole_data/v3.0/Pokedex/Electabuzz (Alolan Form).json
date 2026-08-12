@@ -34,7 +34,13 @@
     "Pounds": 66.0
   },
   "DexDescription": "It feasts from striking lighting, which it converts into energy. It's abilities have grown stronger since evolving.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Electivire (Alolan Form)",
+      "Kind": "Stone",
+      "Item": "Fire Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

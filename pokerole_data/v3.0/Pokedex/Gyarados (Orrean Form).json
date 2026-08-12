@@ -34,7 +34,13 @@
     "Pounds": 865.0
   },
   "DexDescription": "It can be found in deep underground lakes and waterfalls. It’s crystalline protrusions glow with a bright bioluminescence. It’s temper is somehow even worse than the standard form.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Magikarp (Orrean Form)",
+      "Kind": "Stone",
+      "Item": "Precious Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

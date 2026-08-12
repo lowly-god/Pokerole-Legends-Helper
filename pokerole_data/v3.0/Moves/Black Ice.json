@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity/Insight",
   "Accuracy2": "Stealth",
   "Target": "Battlefield",
-  "Effect": "Entry Hazard. Foes that enter the Battlefield have their Dexterity reduced by 1, Additionally if Foes Non-Ranged Physical attacks miss, they take 1 Dice of Damage.",
+  "Effect": "Entry Hazard. Targets that enter the Battlefield have their Dexterity reduced by 1, Additionally if Targets Non-Ranged Physical attacks miss, they take 1 Dice of Damage.",
   "Description": "The User lays a trap of slippery ice around the opponent's side of the Battlefield.",
   "_id": "black-ice",
   "Attributes": {},

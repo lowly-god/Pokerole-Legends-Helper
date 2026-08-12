@@ -39,6 +39,11 @@
       "From": "Dipplin",
       "Kind": "Item",
       "Item": "Syrupy Seed"
+    },
+    {
+      "From": "Dipplin",
+      "Kind": "Item",
+      "Item": "Syrupy Apple"
     }
   ],
   "Image": "hydrapple.png",

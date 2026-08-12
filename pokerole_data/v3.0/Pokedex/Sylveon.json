@@ -40,6 +40,11 @@
       "Kind": "Stat",
       "Stat": "Loyalty",
       "Value": 5
+    },
+    {
+      "From": "Eevee",
+      "Kind": "Stone",
+      "Item": "Shiny Stone"
     }
   ],
   "Image": "sylveon.png",

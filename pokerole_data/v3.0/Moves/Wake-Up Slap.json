@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "*If the foe has the Sleep Status, Add 2 Extra Dice to the Damage Pool. Wake up the foe after dealing damage.",
+  "Effect": "If the Target has the Sleep Status, Add 2 Extra Dice to the Damage Pool. Wake up the Target after dealing damage.",
   "Description": "Wakey wakey, sleepy head!",
   "_id": "wake-up-slap",
   "Attributes": {},

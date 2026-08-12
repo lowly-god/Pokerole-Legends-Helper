@@ -39,6 +39,11 @@
       "To": "Arcanine",
       "Kind": "Stone",
       "Item": "Fire Stone"
+    },
+    {
+      "To": "Arcanine (Orrean Form)",
+      "Kind": "Stone",
+      "Item": "Ice Stone"
     }
   ],
   "Image": "growlithe.png",

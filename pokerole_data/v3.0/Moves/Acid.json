@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "All Foes",
-  "Effect": "Roll 1 Chance die to Reduce by 1 the Sp. Defense of those affected.",
+  "Effect": "Roll 1 Chance Die to Reduce by 1 the Sp. Defense of those affected.",
   "Description": "The Pokémon spits an acidic gunk into the foe that immediately gives burning sensation. Keep away from the eyes and wash with abundant water.",
   "_id": "acid",
   "Attributes": {},

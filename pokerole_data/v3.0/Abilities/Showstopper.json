@@ -1,6 +1,6 @@
 {
-    "Name": "Showstopper",
-    "Effect": "The User’s Damaging Moves gain: Roll 2 Chance Dice to Flinch the Foe. (This does not affect the User’s Moves that can already Flinch the Foe).",
-    "Description": "",
-    "_id": "showstopper"
+  "Name": "Showstopper",
+  "Effect": "The User’s Damaging Moves gain: Roll 2 Chance Dice to Flinch the Target. (This does not affect the User’s Moves that can already Flinch the Target).",
+  "Description": "",
+  "_id": "showstopper"
 }

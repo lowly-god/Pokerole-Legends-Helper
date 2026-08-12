@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Reaction 1. Out of battle, double the Pokemon's movement speed.",
+  "Effect": "Reaction 1. Out of battle, double the Pokémon's movement speed.",
   "Description": "An attackas fight as lightning.",
   "_id": "quick-attack",
   "Attributes": {

@@ -7,7 +7,7 @@
   "Accuracy1": "Will",
   "Accuracy2": "Stealth",
   "Target": "Self",
-  "Effect": "If the user faints this Round due to damage frm a Physical or Special Move, the Pokemon who dealt the damage is dealt damage equal to their remaining Hp. This Move will fail if it was used the previous Round.",
+  "Effect": "If the user faints this Round due to damage from a Physical or Special Move, the Pokémon who dealt the damage is dealt damage equal to their remaining HP. This Move will fail if it was used the previous Round.",
   "Description": "Through a mystical bond, everyone who brings disgrace to this Pokémon will suffer the exact same fate.",
   "_id": "destiny-bond",
   "Attributes": {

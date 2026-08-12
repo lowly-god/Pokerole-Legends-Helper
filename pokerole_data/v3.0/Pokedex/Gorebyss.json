@@ -39,6 +39,11 @@
       "From": "Clamperl",
       "Kind": "Trade",
       "Item": "Dragon Scale"
+    },
+    {
+      "From": "Clamperl",
+      "Kind": "Item",
+      "Item": "Deep Sea Scale"
     }
   ],
   "Image": "gorebyss.png",

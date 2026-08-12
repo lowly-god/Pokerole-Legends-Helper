@@ -7,7 +7,7 @@
   "Accuracy1": "Tough",
   "Accuracy2": "Intimidate",
   "Target": "Foe",
-  "Effect": "Switcher Move for the User. Reduce by 1 the Foe's Strength and Special.",
+  "Effect": "Switcher Move for the User. Reduce by 1 the Target's Strength and Special.",
   "Description": "The user throws one last threat against the foe before taking their leave. The foe is left too frightened to try to stand up against the user and their gang.",
   "_id": "parting-shot",
   "Attributes": {

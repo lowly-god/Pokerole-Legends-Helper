@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Change the Target's Ability to \"Simple\". Whole Scene Duration. This effect does not end by switching out the affected Pokemon.",
+  "Effect": "Change the Target's Ability to \"Simple\". Whole Scene Duration. This effect does not end by switching out the affected Pokémon.",
   "Description": "A weak mental beam that doesn’t hurt or confuse the target but it does change their view of life as they start to take a simpler apporach to things.",
   "_id": "simple-beam",
   "Attributes": {

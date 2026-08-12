@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Ranged. Roll 3 Chance Dice to Flinch the Foe.",
+  "Effect": "Ranged. Roll 3 Chance Dice to Flinch the Target.",
   "Description": "",
   "_id": "mountain_gale",
   "Attributes": {

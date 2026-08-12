@@ -1,6 +1,6 @@
 {
-    "Name": "Gigantic",
-    "Effect": "This Pokémon's single Target Moves become Target All Foes.",
-    "Description": "",
-    "_id": "gigantic"
+  "Name": "Gigantic",
+  "Effect": "This Pokémon's single Target Moves become Target All opposing Pokémon.",
+  "Description": "",
+  "_id": "gigantic"
 }

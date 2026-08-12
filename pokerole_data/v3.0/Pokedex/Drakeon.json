@@ -34,7 +34,13 @@
     "Pounds": 65.0
   },
   "DexDescription": "Drakeon's diamond hard scales glisten in an array of dazzling colors in the light. Legend has it that these magical scales have the power to work miracles.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Eevee",
+      "Kind": "Stone",
+      "Item": "Rune Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

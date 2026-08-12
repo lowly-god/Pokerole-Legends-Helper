@@ -39,6 +39,11 @@
       "From": "Clamperl",
       "Kind": "Trade",
       "Item": "Dragon Fang"
+    },
+    {
+      "From": "Clamperl",
+      "Kind": "Item",
+      "Item": "Deep Sea Tooth"
     }
   ],
   "Image": "huntail.png",

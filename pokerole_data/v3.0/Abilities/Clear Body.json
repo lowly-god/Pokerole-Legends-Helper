@@ -1,6 +1,6 @@
 {
-    "Name": "Clear Body",
-    "Effect": "Other Pokemon cannot Increase or Reduce the Attributes of this Pokemon. This Pokemon can still Increase or Reduce its own Attributes.",
-    "Description": "The Pokemon is completely aware of all its body surroundings, trying to sneak on it will be incredibly difficult.",
-    "_id": "clear-body"
+  "Name": "Clear Body",
+  "Effect": "Other Pokémon cannot Increase or Reduce the Attributes of this Pokémon. This Pokémon can still Increase or Reduce its own Attributes.",
+  "Description": "The Pokémon is completely aware of all its body surroundings, trying to sneak on it will be incredibly difficult.",
+  "_id": "clear-body"
 }

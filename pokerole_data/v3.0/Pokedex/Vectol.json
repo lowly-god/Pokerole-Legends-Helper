@@ -34,7 +34,13 @@
     "Pounds": 6.0
   },
   "DexDescription": "Vectol was a computer virus that infected the Pokémon Storage system. The process that converts data into matter has given it physical form.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Vectol.2",
+      "Kind": "Item",
+      "Item": "Corrupted Drive"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

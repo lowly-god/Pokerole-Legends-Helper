@@ -39,6 +39,11 @@
       "To": "Polteageist",
       "Kind": "Item",
       "Item": "Cracked Pot"
+    },
+    {
+      "To": "Polteageist",
+      "Kind": "Item",
+      "Item": "Chipped Pot"
     }
   ],
   "Image": "sinistea.png",

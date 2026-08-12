@@ -1,6 +1,6 @@
 {
-    "Name": "Big Pecks",
-    "Effect": "This Pokemon cannot have its Defense reduced.",
-    "Description": "This tenacious Pokemon uses its beak to cover its weak spots.",
-    "_id": "big-pecks"
+  "Name": "Big Pecks",
+  "Effect": "This Pokémon cannot have its Defense reduced.",
+  "Description": "This tenacious Pokémon uses its beak to cover its weak spots.",
+  "_id": "big-pecks"
 }

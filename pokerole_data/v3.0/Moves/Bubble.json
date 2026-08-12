@@ -8,7 +8,7 @@
   "Accuracy2": "Channel",
   "Target": "All Foes",
   "Effect": "Roll 1 Chance Die to Reduce by 1 the Dexterity of those affected.",
-  "Description": "Dozens of bubbles are sent floating through the battlefield. The foes can’t resist the temptation to burst the pretty bubbles, only for the bubbles to explode for real when they do.",
+  "Description": "Dozens of bubbles are sent floating through the battlefield. The Targets can’t resist the temptation to burst the pretty bubbles, only for the bubbles to explode for real when they do.",
   "_id": "bubble",
   "Attributes": {},
   "AddedEffects": {

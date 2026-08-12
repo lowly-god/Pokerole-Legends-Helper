@@ -1,6 +1,6 @@
 {
-    "Name": "Curious Medicine",
-    "Effect": "When this Pokemon comes into battle, remove all Attribute Increases and Reductions on all Ally Pokemon in range. Outside of battle, the Pokemon is able to create potions that may heal HP or deal damage at the storyteller's discretion.",
-    "Description": "This Pokemon likes to mix disgusting substances to supposedly create medicine. The resulting potions are dubious at best, toxic at worst.",
-    "_id": "curious-medicine"
+  "Name": "Curious Medicine",
+  "Effect": "When this Pokémon comes into battle, remove all Attribute Increases and Reductions on all allied Pokémon in range. Outside of battle, the Pokémon is able to create potions that may heal HP or deal damage at the Storyteller's discretion.",
+  "Description": "This Pokémon likes to mix disgusting substances to supposedly create medicine. The resulting potions are dubious at best, toxic at worst.",
+  "_id": "curious-medicine"
 }

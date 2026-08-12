@@ -8,7 +8,7 @@
   "Accuracy2": "Channel",
   "Target": "Foe",
   "Effect": "Never Miss. Projectile Move.",
-  "Description": "By channeling their own aura, the user launches an energy sphere that causes harm on an spiritual level more than a physical one.",
+  "Description": "By channeling their own aura, the user launches an energy sphere that causes harm on a spiritual level more than a physical one.",
   "_id": "aura-sphere",
   "Attributes": {
     "ProjectileMove": true,

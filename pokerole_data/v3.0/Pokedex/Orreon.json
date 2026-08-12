@@ -34,7 +34,13 @@
     "Pounds": 73.0
   },
   "DexDescription": "Orreon grew odd mineral based protrusions on its form when it evolved, sprouting a pair of rocky horns. The horns often break during combat, but regrow over time.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Eevee",
+      "Kind": "Stone",
+      "Item": "Precious Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

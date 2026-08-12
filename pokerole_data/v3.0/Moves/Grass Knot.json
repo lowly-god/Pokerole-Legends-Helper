@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Nature",
   "Target": "Foe",
-  "Effect": "*Add 1 Extra Damage Dice for every 50kg of weight on the foe, up to 4 Dice may be added this way.",
+  "Effect": "Add 1 Extra Damage Dice for every 50kg of weight on the Target, up to 4 Dice may be added this way.",
   "Description": "The user snares the foe’s feet with a grass tangle to make it fall into the ground. The bigger they are, the harder they fall.",
   "_id": "grass-knot",
   "Attributes": {},

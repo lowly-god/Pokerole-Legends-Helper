@@ -37,8 +37,8 @@
   "Evolutions": [
     {
       "From": "Charcadet",
-      "Kind": "Special",
-      "Special": "Wearing Auspicious Armor"
+      "Kind": "Item",
+      "Item": "Auspicious Armor"
     }
   ],
   "Image": "armarouge.png",

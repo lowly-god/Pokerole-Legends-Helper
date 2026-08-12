@@ -34,7 +34,13 @@
     "Pounds": 65.0
   },
   "DexDescription": "Upon evolving from exposure to a rare poisonous mineral. It gained the ability to create gaseous vapours that are highly toxic.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Eevee",
+      "Kind": "Stone",
+      "Item": "Toxin Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

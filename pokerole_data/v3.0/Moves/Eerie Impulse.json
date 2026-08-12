@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Intimidate",
   "Target": "Foe",
-  "Effect": "Reduce foe's Special by 2.",
+  "Effect": "Reduce the Target's Special by 2.",
   "Description": "The user radiates electricity around itself so the foe will think twice about attacking.",
   "_id": "eerie-impulse",
   "Attributes": {},

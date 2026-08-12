@@ -39,6 +39,11 @@
       "From": "Cherubi",
       "Kind": "Level",
       "Speed": "Fast"
+    },
+    {
+      "To": "Faerry",
+      "Kind": "Stone",
+      "Item": "Dawn Stone"
     }
   ],
   "Image": "cherrim.png",

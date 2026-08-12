@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Accuracy -3. Lethal. Inflict 3rd Degree Burn on the Target.",
+  "Effect": "Accuracy -3. Lethal. Inflict Burn (3) on the Target.",
   "Description": "The user sets their target on fire with unforgiving flames. Abandon all hope.",
   "_id": "inferno",
   "Attributes": {

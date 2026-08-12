@@ -1,13 +1,13 @@
 {
-    "Name": "Beedrillite",
-    "_id": "beedrillite",
-    "Source": "Core 3.0+",
-    "PMD": false,
-    "Pocket": "HeldItems",
-    "Category": "MegaStone",
-    "Description": "Makes Beedrill Mega-evolve into Mega-Beedrill",
-    "OneUse": false,
-    "TrainerPrice": "Not for Sale",
-    "ForPokemon": "beedrill",
-    "Image": "beedrillite.png"
+  "Name": "Beedrillite",
+  "_id": "beedrillite",
+  "Source": "Core 3.0+",
+  "PMD": false,
+  "Pocket": "HeldItems",
+  "Category": "MegaStone",
+  "Description": "Mega Stone. Affects: Beedrill → Beedrill (Mega Form).",
+  "OneUse": false,
+  "TrainerPrice": "Not for Sale",
+  "ForPokemon": "beedrill",
+  "Image": "beedrillite.png"
 }

@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "*If there is a Force field on the Target's side of the field, destroy it and add 2 Extra Dice to the Damage Pool.",
+  "Effect": "If there is a Force Field on the Target's side of the field, destroy it and add 2 Extra Dice to the Damage Pool.",
   "Description": "The Pokémon uses a karate technique to chop through tall piles of bricks. No matter how many layers you pile up, they’ll break regardless.",
   "_id": "brick-break",
   "Attributes": {

@@ -7,7 +7,7 @@
   "Accuracy1": "SameAsBaseMove",
   "Accuracy2": "",
   "Target": "All Foes",
-  "Effect": "Increase he Strength of Userand Allies in Range by 1.",
+  "Effect": "Increase the Strength of User and Allies in Range by 1.",
   "Description": "",
   "_id": "max_knuckle",
   "Attributes": {

@@ -37,8 +37,8 @@
   "Evolutions": [
     {
       "From": "Trubbish",
-      "Kind": "Special",
-      "Special": "Trubbish (Water Stone)"
+      "Kind": "Stone",
+      "Item": "Water Stone"
     }
   ],
   "Image": "",

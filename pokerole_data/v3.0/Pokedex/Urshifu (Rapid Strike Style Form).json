@@ -39,6 +39,11 @@
       "From": "Kubfu",
       "Kind": "Special",
       "Special": "Finishing Trials of Water"
+    },
+    {
+      "From": "Kubfu",
+      "Kind": "Item",
+      "Item": "Scroll of Waters"
     }
   ],
   "Image": "urshifu-rapid-strike-style-form.png",

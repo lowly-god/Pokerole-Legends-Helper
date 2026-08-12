@@ -39,6 +39,11 @@
       "From": "Pawmot",
       "Kind": "Level",
       "Speed": "Slow"
+    },
+    {
+      "To": "Pawmot",
+      "Kind": "Level",
+      "Speed": "Slow"
     }
   ],
   "Image": "pawmot.png",

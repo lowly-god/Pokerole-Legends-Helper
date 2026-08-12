@@ -34,7 +34,13 @@
     "Pounds": 128.0
   },
   "DexDescription": "A special ink oozes from its tail to mark its territory. They are skilled artists, known for painting action scenes from great battles. If they study their painting for a long time, they learn those moves.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Streagle",
+      "Kind": "Stone",
+      "Item": "Link Stone"
+    }
+  ],
   "Image": "smeargle.png",
   "Moves": [
     {

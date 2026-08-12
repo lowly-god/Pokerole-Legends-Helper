@@ -37,8 +37,8 @@
   "Evolutions": [
     {
       "From": "Toxel",
-      "Kind": "Special",
-      "Special": "Toxel (Fire Stone)"
+      "Kind": "Stone",
+      "Item": "Fire Stone"
     }
   ],
   "Image": "",

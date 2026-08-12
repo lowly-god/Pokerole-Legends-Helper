@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Roll 4 Chance Dice to Reduce 1 Success from all Accuracy rolls of the foe. Outside of battle, obscuring effects last for a whole scene.",
+  "Effect": "Roll 4 Chance Dice to Reduce 1 Success from all Accuracy rolls of the Target. Outside of battle, obscuring effects last for a whole scene.",
   "Description": "The foe is engulfed by a pitch-black darkness that obscure its vision and torments its mind.",
   "_id": "night-daze",
   "Attributes": {},

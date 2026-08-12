@@ -34,7 +34,13 @@
     "Pounds": 7.0
   },
   "DexDescription": "The pollen from its limbs causes powerful drowsiness that eventually knock out its opponents. It flies lowly in the evening, hunting for people's dreams.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Skiploom (Unovan Form)",
+      "Kind": "Stone",
+      "Item": "Toxin Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

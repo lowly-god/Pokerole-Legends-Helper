@@ -1,6 +1,6 @@
 {
-    "Name": "Wild Magic",
-    "Effect": "The User's Damaging Moves gain: Roll 1 Chance Dice to Burn (1), 1 to Frostbite (1), 1 to Paralyze, 1 to Confuse.",
-    "Description": "",
-    "_id": "wild-magic"
+  "Name": "Wild Magic",
+  "Effect": "The User's Damaging Moves gain: Roll 1 Chance Die to inflict Burn (1), 1 to inflict Frostbite (1), 1 to Paralyze, and 1 to Confuse.",
+  "Description": "",
+  "_id": "wild-magic"
 }

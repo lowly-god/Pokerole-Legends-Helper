@@ -1,6 +1,6 @@
 {
-    "Name": "Bad Luck",
-    "Effect": "While this Pokémon is out, Foe's must get one additional success to Critical Hit.",
-    "Description": "",
-    "_id": "bad-luck"
+  "Name": "Bad Luck",
+  "Effect": "While this Pokémon is out, Target's must get one additional success to Critical Hit.",
+  "Description": "",
+  "_id": "bad-luck"
 }

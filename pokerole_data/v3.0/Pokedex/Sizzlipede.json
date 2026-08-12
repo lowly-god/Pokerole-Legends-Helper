@@ -39,6 +39,11 @@
       "To": "Centiskorch",
       "Kind": "Level",
       "Speed": "Slow"
+    },
+    {
+      "To": "Centirage",
+      "Kind": "Stone",
+      "Item": "Amber Onyx"
     }
   ],
   "Image": "sizzlipede.png",

@@ -7,8 +7,8 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Athletic",
   "Target": "Foe",
-  "Effect": "Recoil. Roll 3 Chance die to Paralyze the Target.",
-  "Description": "The Pokémon charges their most powerful electric attack but instead of releasing it, they run at top speed to crash agains their foe with it.",
+  "Effect": "Recoil. Roll 3 Chance Die to Paralyze the Target.",
+  "Description": "The Pokémon charges their most powerful electric attack but instead of releasing it, they run at top speed to crash against their foe with it.",
   "_id": "volt-tackle",
   "Attributes": {
     "Recoil": true

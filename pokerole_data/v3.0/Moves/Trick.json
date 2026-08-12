@@ -7,7 +7,7 @@
   "Accuracy1": "Clever",
   "Accuracy2": "Charm/Stealth",
   "Target": "Foe",
-  "Effect": "The User and the Target switch their Held Item. If only one Pokemon is holding an Item, it gives it away.",
+  "Effect": "The User and the Target switch their Held Item. If only one Pokémon is holding an Item, it gives it away.",
   "Description": "The user controls its target’s mind to make them do a simple non-hostile action, such as walking or handing an item. Although some Pokémon use simple sleigh of hand.",
   "_id": "trick",
   "Attributes": {},

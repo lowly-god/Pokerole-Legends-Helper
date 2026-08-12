@@ -34,7 +34,13 @@
     "Pounds": 123.0
   },
   "DexDescription": "Hakamo-o are actually quadrupedal, but stand up during battle for intimidation and flexibility. Their main fighting plan is to rush in and swing about wildly until something goes down.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Kommo-o (Orrean Form)",
+      "Kind": "Stone",
+      "Item": "Toxin Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

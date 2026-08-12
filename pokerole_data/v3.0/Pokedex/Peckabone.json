@@ -34,7 +34,13 @@
     "Pounds": 29.0
   },
   "DexDescription": "It is vindictive and temperamental, it hops around still unable to fly long distances yet. It feasts of carrion when it finds it.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Rexquiem",
+      "Kind": "Item",
+      "Item": "Reaper Cloth"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

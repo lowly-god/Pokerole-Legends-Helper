@@ -34,7 +34,13 @@
     "Pounds": 15.0
   },
   "DexDescription": "In the deep dark old forests it calls home, wailing can be heard from Hystearic. If anything goes wrong for it, it breaks down in tears.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Wystearia",
+      "Kind": "Stone",
+      "Item": "Leaf Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

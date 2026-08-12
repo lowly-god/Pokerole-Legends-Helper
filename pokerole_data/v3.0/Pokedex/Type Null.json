@@ -34,7 +34,13 @@
     "Pounds": 265.0
   },
   "DexDescription": "A synthetic Pokémon made by the Aether Foundation. Currently only three specimens exist in cryogenic stasis, but they are deemed too dangerous even with a limiter helmet on. They must never be reanimated.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Silvally",
+      "Kind": "Level",
+      "Speed": "Slow"
+    }
+  ],
   "Image": "type-null.png",
   "Moves": [
     {

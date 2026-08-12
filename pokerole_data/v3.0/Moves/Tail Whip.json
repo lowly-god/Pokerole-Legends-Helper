@@ -8,7 +8,7 @@
   "Accuracy2": "Perform",
   "Target": "All Foes",
   "Effect": "Reduce by 1 the Defense of those affected.",
-  "Description": "The Pokémon whips their tail in such an adorable way the foes let their guard down.",
+  "Description": "The Pokémon whips their tail in such an adorable way the Targets let their guard down.",
   "_id": "tail-whip",
   "Attributes": {},
   "AddedEffects": {

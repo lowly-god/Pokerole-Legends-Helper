@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Athletic",
   "Target": "Foe",
-  "Effect": "*If the User has a Held Item, Reduce 2 Dice to the Damage Pool of this Move.",
+  "Effect": "If the User has a Held Item, Reduce 2 Dice to the Damage Pool of this Move.",
   "Description": "The Pokémon is quick and graceful, they cartwheel, contort and make a double back jump before landing onthe foe. Their best perfomance is done when they are unburdened.",
   "_id": "acrobatics",
   "Attributes": {},

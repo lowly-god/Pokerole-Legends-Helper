@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Accuracy -1. High Critical. Roll 2 Chance Dice to inflict 2nd Degree Burn on the Target.",
+  "Effect": "Accuracy -1. High Critical. Roll 2 Chance Dice to inflict Burn (2) on the Target.",
   "Description": "Setting their legs ablaze, the Pokémon throws a mighty kick that sears the sides of the foe.",
   "_id": "blaze-kick",
   "Attributes": {

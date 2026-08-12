@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "*Add 1 Extra Die of Damage for every 50kgs the User is above the Target. Up to 4 Dice may be added this way.",
+  "Effect": "Add 1 Extra Die of Damage for every 50kgs the User is above the Target. Up to 4 Dice may be added this way.",
   "Description": "The Pokémon sets themselves ablaze and dives a cannonball against their foe.",
   "_id": "heat-crash",
   "Attributes": {},

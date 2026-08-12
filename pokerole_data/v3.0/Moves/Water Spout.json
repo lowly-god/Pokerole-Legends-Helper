@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "All Foes",
-  "Effect": "Lethal. *Reduce 1 Die from the Damage Pool for every missing HP the User has. Up to 5 Dice may be removed this way.",
+  "Effect": "Lethal. Reduce 1 Die from the Damage Pool for every missing HP the User has. Up to 5 Dice may be removed this way.",
   "Description": "This Move alone may be the reason the earth is 70% water.",
   "_id": "water-spout",
   "Attributes": {

@@ -37,8 +37,8 @@
   "Evolutions": [
     {
       "From": "Chatot",
-      "Kind": "Special",
-      "Special": "Chatot (*Feather Stone)"
+      "Kind": "Stone",
+      "Item": "Feather Stone"
     }
   ],
   "Image": "",

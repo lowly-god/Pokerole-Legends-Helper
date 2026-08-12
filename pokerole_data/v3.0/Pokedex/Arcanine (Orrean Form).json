@@ -37,8 +37,8 @@
   "Evolutions": [
     {
       "From": "Growlithe",
-      "Kind": "Special",
-      "Special": "K. Growlithe (Ice Stone)"
+      "Kind": "Stone",
+      "Item": "Ice Stone"
     }
   ],
   "Image": "",

@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Bite Move. If the target Pokemon is holding a berry, the User eats it and gains its effects.",
+  "Effect": "Bite Move. If the Target Pokémon is holding a berry, the User eats it and gains its effects.",
   "Description": "The Pokémon nibbles at their foe in hopes of finding something tasty to snack on.",
   "_id": "bug-bite",
   "Attributes": {

@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Cutter Move. Ignore Shield Moves & Force Fields active on the foe or their side of the field.",
+  "Effect": "Cutter Move. Ignore Shield Moves & Force Fields active on the Target or their side of the field.",
   "Description": "With a mighty light, the Pokémon cleaves through the foe’s protections and strikes like a boulder.",
   "_id": "mighty-cleave",
   "Attributes": {

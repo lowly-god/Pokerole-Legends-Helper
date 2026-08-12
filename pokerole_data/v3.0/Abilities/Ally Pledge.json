@@ -1,6 +1,6 @@
 {
-    "Name": "Ally Pledge",
-    "Effect": "When an Ally faints raise this Pokémon’s Strength by 2.",
-    "Description": "",
-    "_id": "ally-pledge"
+  "Name": "Ally Pledge",
+  "Effect": "When an allied Pokémon faints raise this Pokémon’s Strength by 2.",
+  "Description": "",
+  "_id": "ally-pledge"
 }

@@ -34,7 +34,13 @@
     "Pounds": 127.0
   },
   "DexDescription": "It draws in air through its tail, then transforms it into fire and uses it like a tongue. You can see them defending Durant's colonies from predators so they can be the only ones who can eat them.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Heatmega",
+      "Kind": "Stone",
+      "Item": "Adamantite Stone"
+    }
+  ],
   "Image": "heatmor.png",
   "Moves": [
     {

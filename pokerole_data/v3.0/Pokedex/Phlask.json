@@ -34,7 +34,13 @@
     "Pounds": 23.0
   },
   "DexDescription": "Laboratory glassware possessed by a playful but frightening spirit. It is known to spew chemicals onto random objects to see what happens.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Noxial (Exothermic Form)",
+      "Kind": "Item",
+      "Item": "Burn Heal"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

@@ -34,7 +34,13 @@
     "Pounds": 16.0
   },
   "DexDescription": "It is said to be an omen of good luck to see Seraphish flying through the skies. The halo that floats above its head are particularly prized as they are made of solid gold.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Halofin",
+      "Kind": "Stone",
+      "Item": "Shiny Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

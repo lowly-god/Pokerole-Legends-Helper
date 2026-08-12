@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Nature",
   "Target": "All Allies",
-  "Effect": "Cure Status Ailments (All Burn degrees, Freeze, Paralysis, All Poison & Sleep) on the Targets.",
+  "Effect": "Cure Status Ailments (All Burn degrees, Frostbite, Paralysis, All Poison & Sleep) on the Targets.",
   "Description": "The Pokémon releases a series of essential oils and herbal scents to refresh themselves and their companions.",
   "_id": "aromatherapy",
   "Attributes": {},

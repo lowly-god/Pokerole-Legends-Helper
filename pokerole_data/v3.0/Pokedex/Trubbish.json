@@ -39,6 +39,11 @@
       "To": "Garbodor",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Garbocean",
+      "Kind": "Stone",
+      "Item": "Water Stone"
     }
   ],
   "Image": "trubbish.png",

@@ -36,9 +36,9 @@
   "DexDescription": "Capsiwisp seeks to absorb life force to satiate itself. Encounters with Capsiwisp induce a sense of unease, as if one's life force is slowly sapped away by its presence. Legends speak of Capsiwisp as a harbinger of barren fields.",
   "Evolutions": [
     {
-      "From": "Capsighoul In Sunny Weather",
+      "From": "Capsighoul",
       "Kind": "Special",
-      "Special": "Capsighoul In Sunny Weather"
+      "Special": "Sunny Weather"
     }
   ],
   "Image": "",

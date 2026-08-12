@@ -41,6 +41,11 @@
       "Stat": "Happiness",
       "Value": 4,
       "Special": "Moonlight"
+    },
+    {
+      "From": "Eevee",
+      "Kind": "Stone",
+      "Item": "Moon Stone"
     }
   ],
   "Image": "umbreon.png",

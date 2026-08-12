@@ -7,8 +7,8 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "All Foes",
-  "Effect": "Accuracy -2. Lethal. Unique. Ignore the Target's immunity to Water-Type Damage. If a Target is \"Out of Range\" due to using a Move, this Move hits anyways.",
-  "Description": "The Pokémon sends a giant pulse underwater that creates a chain reaction in the tides, creating a series of tsunami waves. Not even water-pokemon can surf through these wild currents.",
+  "Effect": "Accuracy -2. Lethal. Unique. Ignore the Target's immunity to Water-Type Damage. If a Target is \"Out of Range\" due to using a Move, this Move hits anyway.",
+  "Description": "The Pokémon sends a giant pulse underwater that creates a chain reaction in the tides, creating a series of tsunami waves. Not even water-Pokémon can surf through these wild currents.",
   "_id": "origin-pulse",
   "Attributes": {
     "Lethal": true,

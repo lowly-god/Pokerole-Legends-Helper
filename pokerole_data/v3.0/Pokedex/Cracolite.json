@@ -34,7 +34,13 @@
     "Pounds": 82.0
   },
   "DexDescription": "Cracolite makes its home on chilly shores. In the summer it digs down deep beneath the sand to wait out the hot Weather.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Crustamancer",
+      "Kind": "Stone",
+      "Item": "Water Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

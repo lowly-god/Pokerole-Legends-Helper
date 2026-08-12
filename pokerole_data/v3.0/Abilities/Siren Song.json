@@ -1,6 +1,6 @@
 {
-    "Name": "Siren Song",
-    "Effect": "The User's Sound Moves gain Roll 3 Chance Dice to Infatuate the Foe.",
-    "Description": "",
-    "_id": "siren-song"
+  "Name": "Siren Song",
+  "Effect": "The User's Sound Moves gain Roll 3 Chance Dice to Infatuate the Target.",
+  "Description": "",
+  "_id": "siren-song"
 }

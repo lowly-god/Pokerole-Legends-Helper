@@ -39,6 +39,11 @@
       "From": "Baltoy",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Clayngel",
+      "Kind": "Stone",
+      "Item": "Rune Stone"
     }
   ],
   "Image": "claydol.png",

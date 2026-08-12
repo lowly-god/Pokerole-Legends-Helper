@@ -37,8 +37,8 @@
   "Evolutions": [
     {
       "From": "Heatmor",
-      "Kind": "Special",
-      "Special": "Heatmor (*Adamantite Stone)"
+      "Kind": "Stone",
+      "Item": "Adamantite Stone"
     }
   ],
   "Image": "",

@@ -34,7 +34,13 @@
     "Pounds": 19.0
   },
   "DexDescription": "Using its silhouette to ward off enemies, it prefers hiding in darker spots where visibility isn't as high. It's prone to attacking anyone that gets too close while its eating.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Leavanny (Orrean Form)",
+      "Kind": "Stone",
+      "Item": "Rune Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

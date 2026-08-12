@@ -39,6 +39,11 @@
       "From": "Slowpoke",
       "Kind": "Trade",
       "Item": "King's Rock"
+    },
+    {
+      "From": "Slowpoke",
+      "Kind": "Item",
+      "Item": "Kings Rock"
     }
   ],
   "Image": "slowking.png",

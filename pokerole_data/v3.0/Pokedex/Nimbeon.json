@@ -34,7 +34,13 @@
     "Pounds": 15.0
   },
   "DexDescription": "Nimbeon summons clouds, its body is almost weightless. Some ancient religions believe Nimbeon to be the messengers of gods.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Eevee",
+      "Kind": "Stone",
+      "Item": "Feather Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

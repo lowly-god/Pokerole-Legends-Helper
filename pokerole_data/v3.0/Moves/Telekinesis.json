@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Make the Target immune to Ground-Type Moves. The Target can't Evade. Duration 2 Rounds.",
+  "Effect": "Grant the Target immunity to Ground-Type Moves. The Target can't Evade. Duration 2 Rounds.",
   "Description": "The target levitates from the ground as the user’s telekinetic powers prevent its movement.",
   "_id": "telekinesis",
   "Attributes": {

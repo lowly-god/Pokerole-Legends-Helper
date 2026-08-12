@@ -1,6 +1,6 @@
 {
-    "Name": "Fire Mane",
-    "Effect": "This Pokemon’s Damaging Fire-Type Moves gain +1 Damage Dice.",
-    "Description": "",
-    "_id": "fire-mane"
+  "Name": "Fire Mane",
+  "Effect": "This Pokémon’s Damaging Fire-Type Moves gain +1 Damage Dice.",
+  "Description": "",
+  "_id": "fire-mane"
 }

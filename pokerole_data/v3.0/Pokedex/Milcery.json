@@ -39,6 +39,11 @@
       "To": "Alcremie",
       "Kind": "Special",
       "Special": "Berry & Whisk"
+    },
+    {
+      "To": "Alcremie",
+      "Kind": "Item",
+      "Item": "Sweets [Various]"
     }
   ],
   "Image": "milcery.png",

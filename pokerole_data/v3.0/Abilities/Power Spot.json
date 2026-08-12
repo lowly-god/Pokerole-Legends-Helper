@@ -1,6 +1,6 @@
 {
-    "Name": "Power Spot",
-    "Effect": "Add 1 Extra die to the Damage Pools from Physical and Special Moves by Allies in Range. This Effect does not stack in the same Allies if multiple Pokemon have this Ability.",
-    "Description": "The Pokemon releases a mysterious energy that messes up with electronics and compasses but can somehow make you feel very energized.",
-    "_id": "power-spot"
+  "Name": "Power Spot",
+  "Effect": "Add 1 Extra die to the Damage Pools from Physical and Special Moves by allied Pokémon in Range. This Effect does not stack in the same allied Pokémon if multiple Pokémon have this Ability.",
+  "Description": "The Pokémon releases a mysterious energy that messes up with electronics and compasses but can somehow make you feel very energized.",
+  "_id": "power-spot"
 }

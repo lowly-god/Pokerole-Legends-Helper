@@ -44,6 +44,11 @@
       "To": "Dragonite",
       "Kind": "Level",
       "Speed": "Slow"
+    },
+    {
+      "To": "Dragonite (Orrean Form)",
+      "Kind": "Special",
+      "Special": "Dragonair (Loyalty 5)"
     }
   ],
   "Image": "dragonair.png",

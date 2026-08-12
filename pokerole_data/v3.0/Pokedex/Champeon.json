@@ -34,7 +34,13 @@
     "Pounds": 59.0
   },
   "DexDescription": "Champeon has a dauntless spirit, no matter how many times it gets beaten down, it will refuse to give up. The older and more experienced this Pokémon gets, the more scars it has.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Eevee",
+      "Kind": "Stone",
+      "Item": "Brave Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

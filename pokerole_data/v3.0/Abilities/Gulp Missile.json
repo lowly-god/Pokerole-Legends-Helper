@@ -1,6 +1,6 @@
 {
-    "Name": "Gulp Missile",
-    "Effect": "If this Pokemon uses the Moves Surf or Dive, it will change forms after dealing damage. \"Gulping Form\" at full or more than half HP remaining, \"Gorging Form\" at half or less HP. If the Pokemon is dealt damage by a foe while in any of these Forms, deal 2 Dice of Damage and an effect to that foe. The user returns to its regular form afterwards. Unique Ability.",
-    "Description": "This Pokemon is an excellent hunter, when diving into a pool of water it will always come out with prey. And it will sometimes use the prey as a weapon.",
-    "_id": "gulp-missile"
+  "Name": "Gulp Missile",
+  "Effect": "If this Pokémon uses the Moves Surf or Dive, it will change forms after dealing Damage. \"Gulping Form\" at full or more than half HP remaining, \"Gorging Form\" at half or less HP. If the Pokémon is dealt Damage by an opposing Pokémon while in either of these Forms, deal 2 Dice of Damage and an effect to that opposing Pokémon. The User returns to its regular form afterwards. Unique Ability.",
+  "Description": "This Pokémon is an excellent hunter, when diving into a pool of water it will always come out with prey. And it will sometimes use the prey as a weapon.",
+  "_id": "gulp-missile"
 }

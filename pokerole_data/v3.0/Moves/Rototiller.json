@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Nature",
   "Target": "Battlefield",
-  "Effect": "Increase by 1 the Strength and Special of all Grass-Type Pokemon.",
+  "Effect": "Increase by 1 the Strength and Special of all Grass-Type Pokémon.",
   "Description": "The Pokémon digs around the battlefield to soften the soil and make it ideal for harvest.",
   "_id": "rototiller",
   "Attributes": {},

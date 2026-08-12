@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Accuracy -1. Blocks. Ongoing Damage. Duration 4 Rounds. Increase the Target's difficultty to Evade at Storyteller's discretion.",
+  "Effect": "Accuracy -1. Blocks. Ongoing Damage. Duration 4 Rounds. Increase the Target's difficulty to Evade at Storyteller's discretion.",
   "Description": "The Pokémon uses all their strength to restrain to the foe and keep them in place.",
   "_id": "bind",
   "Attributes": {

@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Intimidate",
   "Target": "Foe",
-  "Effect": "*Add 2 Extra Dice to the Damage Pool of this Move is the User failed the Accuracy roll of the last Move it performed.",
+  "Effect": "Add 2 Extra Dice to the Damage Pool of this Move is the User failed the Accuracy roll of the last Move it performed.",
   "Description": "The Pokémon is a hot-head whose temper grows ever fiercer when dealing with frustration.",
   "_id": "temper-flare",
   "Attributes": {},

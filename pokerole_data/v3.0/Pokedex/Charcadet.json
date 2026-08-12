@@ -37,13 +37,13 @@
   "Evolutions": [
     {
       "To": "Armarouge",
-      "Kind": "Special",
-      "Special": "Wearing Auspicious Armor"
+      "Kind": "Item",
+      "Item": "Auspicious Armor"
     },
     {
       "To": "Ceruledge",
-      "Kind": "Special",
-      "Special": "Wearing Malicious Armor"
+      "Kind": "Item",
+      "Item": "Malicious Armor"
     }
   ],
   "Image": "charcadet.png",

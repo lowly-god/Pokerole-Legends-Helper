@@ -7,8 +7,8 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "All Foes",
-  "Effect": "Roll 1 Chance Die to Freeze those affected.",
-  "Description": "A light layer of snow flakes covers the foes, as the layers pile up the possibilities to be trapped into the snow increase.",
+  "Effect": "Roll 1 Chance Die to inflict Frostbite (1) on those affected.",
+  "Description": "A light layer of snow flakes covers the Targets, as the layers pile up the possibilities to be trapped into the snow increase.",
   "_id": "powder-snow",
   "Attributes": {},
   "AddedEffects": {

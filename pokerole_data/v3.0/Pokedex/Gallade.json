@@ -37,7 +37,7 @@
   "Evolutions": [
     {
       "From": "Kirlia",
-      "Kind": "Special",
+      "Kind": "Stone",
       "Item": "Dawn Stone",
       "Gender": "Male"
     },

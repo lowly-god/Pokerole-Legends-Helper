@@ -39,6 +39,11 @@
       "From": "Sinistea",
       "Kind": "Item",
       "Item": "Cracked Pot"
+    },
+    {
+      "From": "Sinistea",
+      "Kind": "Item",
+      "Item": "Chipped Pot"
     }
   ],
   "Image": "polteageist.png",

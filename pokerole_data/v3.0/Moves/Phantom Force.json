@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Stealth",
   "Target": "Foe",
-  "Effect": "Charge move. Out of Range while Charging. Lethal. Ignore any Cover, Shield Moves, and/or Force Fields active on the Target.",
+  "Effect": "Charge Move. Out of Range while Charging. Lethal. Ignore any Cover, Shield Moves, and/or Force Fields active on the Target.",
   "Description": "The Pokémon disappears into a dark dimension to infiltrate even the most impenetrable fortress. It may reappear during its next action.",
   "_id": "phantom-force",
   "Attributes": {

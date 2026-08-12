@@ -37,8 +37,8 @@
   "Evolutions": [
     {
       "From": "Phlask",
-      "Kind": "Special",
-      "Special": "Phlask (Holding Burn Heal)"
+      "Kind": "Item",
+      "Item": "Burn Heal"
     }
   ],
   "Image": "",

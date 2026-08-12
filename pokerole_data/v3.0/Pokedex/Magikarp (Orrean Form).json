@@ -34,7 +34,13 @@
     "Pounds": 83.0
   },
   "DexDescription": "Found in a large underground lake in the Orrelborous region during a mining survey. Despite its body being partly made of rock it is a lot of a better swimmer than its other form.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Gyarados (Orrean Form)",
+      "Kind": "Stone",
+      "Item": "Precious Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

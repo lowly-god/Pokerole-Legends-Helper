@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Accuracy -1. Bite Move. Roll 2 Chance Dice to Flinch the Target. Roll 2 Chance Dice to inflict 1st Degree Burn on the Target.",
+  "Effect": "Accuracy -1. Bite Move. Roll 2 Chance Dice to Flinch the Target. Roll 2 Chance Dice to inflict Burn (1) on the Target.",
   "Description": "The Pokémon bites the foe with their mouth ablaze, tearing and searing their foe’s flesh in a single attack.",
   "_id": "fire-fang",
   "Attributes": {

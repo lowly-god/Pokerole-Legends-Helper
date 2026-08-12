@@ -7,7 +7,7 @@
   "Accuracy1": "Clever",
   "Accuracy2": "Nature/Intimidate",
   "Target": "Foe",
-  "Effect": "Replace the Target's Ability with \"Insomnia\". Whole Scene Duration. This effect does not end by switching out the affected Pokemon.",
+  "Effect": "Replace the Target's Ability with \"Insomnia\". Whole Scene Duration. This effect does not end by switching out the affected Pokémon.",
   "Description": "The user plants the seed of doubt and uncertainty on its foe. The foe becomes such a worrywart that they can’t even sleep at night.",
   "_id": "worry-seed",
   "Attributes": {

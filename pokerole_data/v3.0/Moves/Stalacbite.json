@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Roll 2 Chance Dice to Flinch the Foe and 2 to lower the Foe's Defense by 1.",
+  "Effect": "Bite Move. Roll 2 Chance Dice to Flinch the Target and 2 to lower the Target's Defense by 1.",
   "Description": "The User uses its stalactite and stalagmite like jaws to bite down on the Foe.",
   "_id": "stalacbite",
   "Attributes": {},

@@ -8,7 +8,7 @@
   "Accuracy2": "Intimidate",
   "Target": "Self",
   "Effect": "Increase by 1 the User's Strength and Defense score and Accuracy Pools.",
-  "Description": "The Pokémon curls up into themselves. Foes soon realize this is not the position of a prey in hiding, but of a hunter about to spit their venom.",
+  "Description": "The Pokémon curls up into themselves. Targets soon realize this is not the position of a prey in hiding, but of a hunter about to spit their venom.",
   "_id": "coil",
   "Attributes": {},
   "AddedEffects": {

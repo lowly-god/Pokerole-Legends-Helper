@@ -8,7 +8,7 @@
   "Accuracy2": "Brawl",
   "Target": "All Foes",
   "Effect": "Reduce by 1 the Strength of those affected.",
-  "Description": "The Pokémon will make a long swipe at using its tail. All foes fall to the ground and come up pretty bruised.",
+  "Description": "The Pokémon will make a long swipe at using its tail. All Targets fall to the ground and come up pretty bruised.",
   "_id": "breaking-swipe",
   "Attributes": {},
   "AddedEffects": {

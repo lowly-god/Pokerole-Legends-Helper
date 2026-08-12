@@ -34,7 +34,13 @@
     "Pounds": 4.0
   },
   "DexDescription": "It mimics the cries of other Pokémon to trick them and prevent attacks. Chatot who live with humans learn words and phrases, but it's unknown it they really know their meaning. Their imitations are very convincing.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Admirmimic",
+      "Kind": "Stone",
+      "Item": "Feather Stone"
+    }
+  ],
   "Image": "chatot.png",
   "Moves": [
     {

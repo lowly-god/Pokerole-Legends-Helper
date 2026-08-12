@@ -1,6 +1,6 @@
 {
-    "Name": "Stench",
-    "Effect": "Reduce the chance of wild Pokemon encounters at Storyteller's discretion. Whenever this Pokemon is hit with a Non-Ranged Physical Move, Roll 1 Chance Die to Flinch the foe. ",
-    "Description": "This Pokemon can emit a smell so unpleasant it repels other people and Pokemon.",
-    "_id": "stench"
+  "Name": "Stench",
+  "Effect": "Reduce the chance of wild Pokémon encounters at Storyteller's discretion. Whenever this Pokémon is hit with a Non-Ranged Physical Move, Roll 1 Chance Die to Flinch the Target.",
+  "Description": "This Pokémon can emit a smell so unpleasant it repels other people and Pokémon.",
+  "_id": "stench"
 }

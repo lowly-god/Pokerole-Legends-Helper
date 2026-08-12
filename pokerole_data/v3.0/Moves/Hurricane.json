@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Accuracy -2. Lethal. Wind Move. Roll 3 Chance Dice to Confuse the Target. Rain Weather eliminates Low Accuracy. Sunny Weather increases to Accuracy -4. If the Target is Out of Range due to using \"Fly\", \"Bounce\" or \"Sky Drop\", this Move hits anyways.",
+  "Effect": "Accuracy -2. Lethal. Wind Move. Roll 3 Chance Dice to Confuse the Target. Rain Weather removes the Accuracy penalty. Sunny Weather increases to Accuracy -4. If the Target is Out of Range due to using \"Fly\", \"Bounce\" or \"Sky Drop\", this Move hits anyway.",
   "Description": "The Pokémon calls upon fierce gale winds. It’ll be difficult to summon the tempest on a clear day, but a little rain will enhance it into a typhoon. Other pokémon in the air are in most danger.",
   "_id": "hurricane",
   "Attributes": {

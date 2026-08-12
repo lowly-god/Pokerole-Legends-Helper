@@ -1,6 +1,6 @@
 {
-    "Name": "Commander",
-    "Effect": "If there is an Allied Dodonzo on the field, increase its Attributes and Defenses by 2. Dodonzo is blocked for the rest of the scene. All damage that would be dealt to this Pokemon is dealt to Dodonzo instead. Unique Ability.",
-    "Description": "The Pokemon has a strategic mind, even if its body is frail it can device clever plans and tell its Dodonzo friend exactly what to do.",
-    "_id": "commander"
+  "Name": "Commander",
+  "Effect": "If there is an Allied Dondozo on the field, increase its Attributes and Defenses by 2. Dondozo is blocked for the rest of the scene. All damage that would be dealt to this Pokémon is dealt to Dondozo instead. Unique Ability.",
+  "Description": "The Pokémon has a strategic mind, even if its body is frail it can device clever plans and tell its Dondozo friend exactly what to do.",
+  "_id": "commander"
 }

@@ -87,43 +87,63 @@
     },
     {
       "To": "Noxeon",
-      "Kind": "Special",
-      "Special": "Toxin Stone"
+      "Kind": "Stone",
+      "Item": "Toxin Stone"
     },
     {
       "To": "Orreon",
-      "Kind": "Special",
-      "Special": "Precious Stone"
+      "Kind": "Stone",
+      "Item": "Precious Stone"
     },
     {
       "To": "Champeon",
-      "Kind": "Special",
-      "Special": "Brave Stone"
+      "Kind": "Stone",
+      "Item": "Brave Stone"
     },
     {
       "To": "Dusteon",
-      "Kind": "Special",
-      "Special": "Desert Rose"
+      "Kind": "Stone",
+      "Item": "Desert Rose"
     },
     {
       "To": "Papilleon",
-      "Kind": "Special",
-      "Special": "Amber Onyx"
+      "Kind": "Stone",
+      "Item": "Amber Onyx"
     },
     {
       "To": "Mummeon",
-      "Kind": "Special",
-      "Special": "Dusk Stone"
+      "Kind": "Stone",
+      "Item": "Dusk Stone"
     },
     {
       "To": "Nimbeon",
-      "Kind": "Special",
-      "Special": "Feather Stone"
+      "Kind": "Stone",
+      "Item": "Feather Stone"
     },
     {
       "To": "Glaveon",
-      "Kind": "Special",
-      "Special": "Adamantite Stone"
+      "Kind": "Stone",
+      "Item": "Adamantite Stone"
+    },
+    {
+      "To": "Umbreon",
+      "Kind": "Stone",
+      "Item": "Moon Stone"
+    },
+    {
+      "To": "Espeon",
+      "Kind": "Stone",
+      "Item": "Dawn Stone"
+    },
+    {
+      "To": "Sylveon",
+      "Kind": "Stone",
+      "Item": "Shiny Stone"
+    },
+    {
+      "To": "Drakeon",
+      "Kind": "Stone",
+      "Item": "Rune Stone"
     }
   ],
   "Image": "eevee.png",

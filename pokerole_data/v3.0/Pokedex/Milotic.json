@@ -40,6 +40,11 @@
       "Kind": "Stat",
       "Stat": "Beauty",
       "Value": 5
+    },
+    {
+      "From": "Feebas",
+      "Kind": "Item",
+      "Item": "Prism Scale"
     }
   ],
   "Image": "milotic.png",

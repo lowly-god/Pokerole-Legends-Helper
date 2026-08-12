@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Nature",
   "Target": "All Foes",
-  "Effect": "Those affected cannot Evade Moves. Out of Battle, it will attract wild Pokemon.",
+  "Effect": "Those affected cannot Evade Moves. Out of Battle, it will attract wild Pokémon.",
   "Description": "The Pokémon releases a sweet aroma that lulls their enemies into a false sense of security",
   "_id": "sweet-scent",
   "Attributes": {},

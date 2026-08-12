@@ -34,7 +34,13 @@
     "Pounds": 29.0
   },
   "DexDescription": "When threatened, Panpsych releases a powerful psychic pulse that can disorient foes, leaving them momentarily unable to tell reality from illusion.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Simipsych",
+      "Kind": "Stone",
+      "Item": "Dawn Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

@@ -34,7 +34,13 @@
     "Pounds": 79.0
   },
   "DexDescription": "It is fiercely protective of smaller Pokémon, but avoids conflict if possible and will try to intimidate predators instead. The leaves on Leavanny's arms are razor sharp.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Swadloon (Orrean Form)",
+      "Kind": "Stone",
+      "Item": "Rune Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

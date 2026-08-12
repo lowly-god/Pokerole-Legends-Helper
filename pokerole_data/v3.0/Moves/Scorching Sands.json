@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Roll 3 Chance Dice to inflict 1st Degree Burn on the foe.",
+  "Effect": "Roll 3 Chance Dice to inflict Burn (1) on the Target.",
   "Description": "The sand around the user heats to scorching temperatures as it is thrown against their foe.",
   "_id": "scorching-sands",
   "Attributes": {},

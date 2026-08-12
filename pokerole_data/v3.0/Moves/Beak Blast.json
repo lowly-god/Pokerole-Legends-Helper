@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Charge Move. Ranged. Projectile Move. *If the User is hit by a Non-Ranged Physical Move while this Move is charging, inflict 2nd Degree Burn on the attacker.",
+  "Effect": "Charge Move. Ranged. Projectile Move. If the User is hit by a Non-Ranged Physical Move while this Move is charging, inflict Burn (2) on the attacker.",
   "Description": "The Pokémon gets ready to release a boiling gas through its beak, which gets incredibly hot. The resulting blast sounds like a train’s horn.",
   "_id": "beak-blast",
   "Attributes": {

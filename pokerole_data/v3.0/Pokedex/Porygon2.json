@@ -44,6 +44,11 @@
       "To": "Porygon-Z",
       "Kind": "Trade",
       "Item": "Dubious Disc"
+    },
+    {
+      "To": "Porygon 3",
+      "Kind": "Item",
+      "Item": "Satellite Parts"
     }
   ],
   "Image": "porygon2.png",

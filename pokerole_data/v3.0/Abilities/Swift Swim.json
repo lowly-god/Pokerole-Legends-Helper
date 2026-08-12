@@ -1,6 +1,6 @@
 {
-    "Name": "Swift Swim",
-    "Effect": "While Rain Weather is active, Increase this Pokemon's Dexterity Attribute by 2.",
-    "Description": "The Pokemon will move faster in water than on land, even a puddle-covered roadway will allow it to use its full speed.",
-    "_id": "swift-swim"
+  "Name": "Swift Swim",
+  "Effect": "While Rain Weather is active, Increase this Pokémon's Dexterity Attribute by 2.",
+  "Description": "The Pokémon will move faster in water than on land, even a puddle-covered roadway will allow it to use its full speed.",
+  "_id": "swift-swim"
 }

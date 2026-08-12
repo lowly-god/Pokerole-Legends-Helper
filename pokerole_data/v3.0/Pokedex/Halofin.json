@@ -34,7 +34,13 @@
     "Pounds": 10.0
   },
   "DexDescription": "When the sun begins to set you can see shoals of Halofin darting through the sky like tiny moving celestial bodies.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Seraphish",
+      "Kind": "Stone",
+      "Item": "Shiny Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

@@ -34,7 +34,13 @@
     "Pounds": 64.0
   },
   "DexDescription": "It's wing like ears and antennae pick up the slightest vibrations in air currents, allowing it to fight almost blind.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Eevee",
+      "Kind": "Stone",
+      "Item": "Amber Onyx"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

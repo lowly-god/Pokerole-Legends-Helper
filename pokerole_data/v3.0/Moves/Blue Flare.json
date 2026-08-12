@@ -7,8 +7,8 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Accuracy -2. Lethal. Unique. Roll 2 Chance Dice to inflict 3rd Degree Burn on the Target.",
-  "Description": "Reshiram surrounds itself with giant blue flame that is unleashed with an earth shattering explosion. Receiving this attack directly might competely engulf you in fire.",
+  "Effect": "Accuracy -2. Lethal. Unique. Roll 2 Chance Dice to inflict Burn (3) on the Target.",
+  "Description": "Reshiram surrounds itself with giant blue flame that is unleashed with an earth shattering explosion. Receiving this attack directly might completely engulf you in fire.",
   "_id": "blue-flare",
   "Attributes": {
     "AccuracyReduction": -2,

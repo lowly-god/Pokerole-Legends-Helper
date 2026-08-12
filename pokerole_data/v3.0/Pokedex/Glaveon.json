@@ -34,7 +34,13 @@
     "Pounds": 62.0
   },
   "DexDescription": "Glaveon's body turned into a malleable metal when it evolved. The glaive like tail, claws and teeth remain as hard as tempered steel though.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Eevee",
+      "Kind": "Stone",
+      "Item": "Adamantite Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

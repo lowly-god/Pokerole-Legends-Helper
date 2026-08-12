@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Charm",
   "Target": "Foe",
-  "Effect": "Paralyze the foe.",
+  "Effect": "Paralyze the Target.",
   "Description": "The Pokémon gives a cute nuzzle at their target, it looks adorable until you see the sparks.",
   "_id": "nuzzle",
   "Attributes": {},

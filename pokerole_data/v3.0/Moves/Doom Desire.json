@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Charm",
   "Target": "Foe",
-  "Effect": "Unique. This Move's damage is dealt at the beginning of the next Rund. Ignore Shield Moves, Force Field, Cover & Substitute decoys. If the target retires or switches out from battle, the damage will be dealt to the next opponent or to one of its allies. Extra effects may be added at Storyteller's Discretion.",
+  "Effect": "Unique. This Move's damage is dealt at the beginning of the next Round. Ignore Shield Moves, Force Field, Cover & Substitute decoys. If the Target retires or switches out from battle, the damage will be dealt to the next opponent or to one of its allies. Extra effects may be added at Storyteller's Discretion.",
   "Description": "Be careful what you wish for, this Pokémon will read your most intimate wishes and make them come true in very twisted ways.",
   "_id": "doom-desire",
   "Attributes": {

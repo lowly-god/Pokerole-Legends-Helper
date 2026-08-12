@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Nature",
   "Target": "Area",
-  "Effect": "Accuracy -2. Lethal. Wind Move. Roll 3 Chance Dice to Freeze those affected.",
+  "Effect": "Accuracy -2. Lethal. Wind Move. Roll 3 Chance Dice to inflict Frostbite (1) on those affected.",
   "Description": "A furious storm ravages the battlefield, cold winds swirl in such a menacing way that you don’t know if the chill comes from the ice or the sheer terror invading you.",
   "_id": "bleakwind-storm",
   "Attributes": {

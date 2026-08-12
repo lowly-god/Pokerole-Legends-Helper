@@ -39,6 +39,11 @@
       "From": "Mienfoo",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Mieneira",
+      "Kind": "Stone",
+      "Item": "Brave Stone"
     }
   ],
   "Image": "mienshao.png",

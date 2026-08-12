@@ -39,6 +39,11 @@
       "From": "Wailmer",
       "Kind": "Level",
       "Speed": "Slow"
+    },
+    {
+      "To": "Collosoar",
+      "Kind": "Stone",
+      "Item": "Feather Stone"
     }
   ],
   "Image": "wailord.png",

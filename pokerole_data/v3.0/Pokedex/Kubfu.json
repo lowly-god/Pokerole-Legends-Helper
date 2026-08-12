@@ -44,6 +44,16 @@
       "To": "Urshifu (Rapid Strike Style Form)",
       "Kind": "Special",
       "Special": "Finishing Trials of Water"
+    },
+    {
+      "To": "Urshifu (Rapid Strike Style Form)",
+      "Kind": "Item",
+      "Item": "Scroll of Waters"
+    },
+    {
+      "To": "Urshifu (Single Strike Style Form)",
+      "Kind": "Item",
+      "Item": "Scroll of Darkness"
     }
   ],
   "Image": "kubfu.png",

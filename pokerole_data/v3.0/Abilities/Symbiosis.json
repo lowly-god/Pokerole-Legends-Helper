@@ -1,6 +1,6 @@
 {
-    "Name": "Symbiosis",
-    "Effect": "If an ally loses or spends its Held Item, this Pokemon will immediately give the one it's holding to the ally as a free action. ",
-    "Description": "This Pokemon enjoys forming a mutually-beneficial relationship with any ally it teams up with.",
-    "_id": "symbiosis"
+  "Name": "Symbiosis",
+  "Effect": "If an allied Pokémon loses or spends its Held Item, this Pokémon will immediately give the one it's holding to the allied Pokémon as a free action.",
+  "Description": "This Pokémon enjoys forming a mutually-beneficial relationship with any ally it teams up with.",
+  "_id": "symbiosis"
 }

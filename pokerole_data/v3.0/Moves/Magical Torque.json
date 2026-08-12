@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Lethal. Ranged. Roll 3 Chance dice to Confuse the Target.",
+  "Effect": "Lethal. Ranged. Roll 3 Chance Dice to Confuse the Target.",
   "Description": "With the flick of a wand the user is spun around in a magic swirl that leaves them absolutely dizzy.",
   "_id": "magical-torque",
   "Attributes": {

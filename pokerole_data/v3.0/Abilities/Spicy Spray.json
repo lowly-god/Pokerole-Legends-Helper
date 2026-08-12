@@ -1,6 +1,6 @@
 {
-    "Name": "Spicy Spray",
-    "Effect": "When this Pokemon is hit by a Damaging Move, inflict the attacker with Burn (1).",
-    "Description": "",
-    "_id": "spicy-spray"
+  "Name": "Spicy Spray",
+  "Effect": "When this Pokémon is hit by a Damaging Move, inflict the attacker with Burn (1).",
+  "Description": "",
+  "_id": "spicy-spray"
 }

@@ -1,6 +1,6 @@
 {
-    "Name": "Mega Sol",
-    "Effect": "All Moves used by this Pokemon are treated as if Sunny Weather was in effect, regardless of what Weather is currently in effect.",
-    "Description": "",
-    "_id": "mega-sol"
+  "Name": "Mega Sol",
+  "Effect": "All Moves used by this Pokémon are treated as if Sunny Weather was in effect, regardless of what Weather is currently in effect.",
+  "Description": "",
+  "_id": "mega-sol"
 }

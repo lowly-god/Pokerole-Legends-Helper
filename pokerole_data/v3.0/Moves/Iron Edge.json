@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Cutter Move. Lethal. High Critical. Learned Advanced by: Honedge, Duoblade, Aegislash, Legiondary, Scizor, Skarmory, G. Meowth, Perrserker, E. Zangoose, Pawniard, Bisharp, Kingambit, Empoleon, Lucario, Duraludon, Zacian, Sandslash, A. Sandslash, Metang, Metagross, Iron Valiant, Escavalier, Sneasel, Weavile, Drilburr, Excadrill, Ninjask, Zangoose, Kabutops, Armaldo, Iron Jungle, Iron Radiance. Mirror Shield The User reflects Damage off of its polished form, back at the Foe's ally. Type: Steel -- Support Target: User -- Power: 0 Accuracy Dice: COOL + BEAUTY / CHANNEL Effect: Accuracy -3. Shield. Reaction 3. Reduce 3 Damage this Pokémon would receive from a Damaging Special Move. Roll Damage Dice of the same Type equal to any Damage prevented in this way to a random Ally of the Foe.",
+  "Effect": "Cutter Move. Lethal. High Critical.",
   "Description": "The User makes a powerful strike with a metallic blade or blade like claw.",
   "_id": "iron-edge",
   "Attributes": {},

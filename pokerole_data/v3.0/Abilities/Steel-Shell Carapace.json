@@ -1,6 +1,6 @@
 {
-    "Name": "Steel-Shell Carapace",
-    "Effect": "Fire-Type Moves deal 1 less Damage to this Pokémon. This Pokémon is immune to Burn 1 and Burn 2 Statuses. Add +2 Bonus Dice to the Damage Pool of this Pokémon's Water-Type Moves.",
-    "Description": "",
-    "_id": "steel-shell-carapace"
+  "Name": "Steel-Shell Carapace",
+  "Effect": "Fire-Type Moves deal 1 less Damage to this Pokémon. This Pokémon is immune to Burn (1) and Burn (2) Statuses. Add +2 Bonus Dice to the Damage Pool of this Pokémon's Water-Type Moves.",
+  "Description": "",
+  "_id": "steel-shell-carapace"
 }

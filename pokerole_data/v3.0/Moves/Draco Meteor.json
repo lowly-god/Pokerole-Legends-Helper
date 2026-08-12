@@ -7,8 +7,8 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Accuracy -1. lethal. Reduce User's Special by 2.",
-  "Description": "The Pokémon summons a meteor to fall from the sky directly into their foes, dealing a brutal amount of damage. An impressive display if power that demands a lot of energy.",
+  "Effect": "Accuracy -1. Lethal. Reduce User's Special by 2.",
+  "Description": "The Pokémon summons a meteor to fall from the sky directly into their Targets, dealing a brutal amount of damage. An impressive display if power that demands a lot of energy.",
   "_id": "draco-meteor",
   "Attributes": {
     "Lethal": true,

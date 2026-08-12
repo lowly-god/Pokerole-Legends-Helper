@@ -41,6 +41,11 @@
       "Stat": "Happiness",
       "Value": 4,
       "Special": "Sunlight"
+    },
+    {
+      "From": "Eevee",
+      "Kind": "Stone",
+      "Item": "Dawn Stone"
     }
   ],
   "Image": "espeon.png",

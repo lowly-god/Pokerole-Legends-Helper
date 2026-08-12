@@ -42,12 +42,12 @@
     },
     {
       "To": "Gardevoir",
-      "Kind": "Special",
+      "Kind": "Stone",
       "Item": "Dawn Stone"
     },
     {
       "To": "Gallade",
-      "Kind": "Special",
+      "Kind": "Stone",
       "Item": "Dawn Stone"
     }
   ],

@@ -37,8 +37,8 @@
   "Evolutions": [
     {
       "From": "Mienshao",
-      "Kind": "Special",
-      "Special": "Mienshao (Brave Stone)"
+      "Kind": "Stone",
+      "Item": "Brave Stone"
     }
   ],
   "Image": "",

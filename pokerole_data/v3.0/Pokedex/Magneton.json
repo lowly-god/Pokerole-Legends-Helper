@@ -44,6 +44,11 @@
       "To": "Magnezone",
       "Kind": "Level",
       "Speed": "Slow"
+    },
+    {
+      "To": "Magnework",
+      "Kind": "Stone",
+      "Item": "Rune Stone"
     }
   ],
   "Image": "magneton.png",

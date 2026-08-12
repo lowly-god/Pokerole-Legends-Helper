@@ -37,8 +37,8 @@
   "Evolutions": [
     {
       "From": "Durant",
-      "Kind": "Special",
-      "Special": "Durant (*Adamantite Stone)"
+      "Kind": "Stone",
+      "Item": "Adamantite Stone"
     }
   ],
   "Image": "",

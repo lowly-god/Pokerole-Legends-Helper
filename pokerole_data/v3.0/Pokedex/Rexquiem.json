@@ -34,7 +34,13 @@
     "Pounds": 111.0
   },
   "DexDescription": "It is a carrion eater, known colloquially known as the desert reaper.  When night falls and the air chills it silently glides through the night above the sands looking for the dead.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Peckabone",
+      "Kind": "Item",
+      "Item": "Reaper Cloth"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

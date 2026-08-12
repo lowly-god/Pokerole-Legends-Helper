@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "This Move's damage is dealt at the beginning of the next Round. Ignore Shield Moves, Force Field, Cover & Substitute. If the target restires or switches out from battle, the damage will be dealt to the next opponent or to one of its allies.",
+  "Effect": "This Move's damage is dealt at the beginning of the next Round. Ignore Shield Moves, Force Field, Cover & Substitute. If the Target retires or switches out from battle, the damage will be dealt to the next opponent or to one of its allies.",
   "Description": "The Pokémon foresees something terrible happening. Although when it tries to see their own future, the images are ever changing.",
   "_id": "future-sight",
   "Attributes": {

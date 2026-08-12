@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Ally's Battlefield",
-  "Effect": "Force Field. Those affected are immune to all Status Ailements/Conditions. Previously inflicted Status Ailments/Conditions remain. Duration 4 Rounds.",
+  "Effect": "Force Field. Those affected are immune to all Status Ailments/Conditions. Previously inflicted Status Ailments/Conditions remain. Duration 4 Rounds.",
   "Description": "A force field covers half of the battlefield and filters out all impurities and ill intentions coming from the other side.",
   "_id": "safeguard",
   "Attributes": {

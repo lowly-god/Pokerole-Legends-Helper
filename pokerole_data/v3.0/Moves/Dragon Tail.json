@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Accuracy -1. Late Reaction 6. Switcher Move for the Foe. In the wild, the battle may end.",
+  "Effect": "Accuracy -1. Late Reaction 6. Switcher Move for the Target. In the wild, the battle may end.",
   "Description": "The Pokémon sends their opponent flying up to 100ft in the air with a strong flick of their tail.",
   "_id": "dragon-tail",
   "Attributes": {

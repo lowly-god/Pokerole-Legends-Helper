@@ -37,8 +37,8 @@
   "Evolutions": [
     {
       "From": "Smeargle",
-      "Kind": "Special",
-      "Special": "Smeargle (Link Stone / Trade)"
+      "Kind": "Stone",
+      "Item": "Link Stone"
     }
   ],
   "Image": "",

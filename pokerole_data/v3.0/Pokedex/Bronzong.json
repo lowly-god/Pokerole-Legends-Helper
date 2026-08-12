@@ -39,6 +39,11 @@
       "From": "Bronzor",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Bronzelord",
+      "Kind": "Stone",
+      "Item": "Rune Stone"
     }
   ],
   "Image": "bronzong.png",

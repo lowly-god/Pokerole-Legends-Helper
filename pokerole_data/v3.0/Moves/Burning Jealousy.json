@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Channel",
   "Target": "All Foes",
-  "Effect": "*Inflict 1st Degree Burn on all affected Targets with Increased Attributes.",
+  "Effect": "Inflict Burn (1) on all affected Targets with Increased Attributes.",
   "Description": "The user can’t stand the idea that others are better than them. Their jealousy manifests in the form of a fiery aura that sticks to those the user despises de most.",
   "_id": "burning-jealousy",
   "Attributes": {},

@@ -1,6 +1,6 @@
 {
-    "Name": "Execution",
-    "Effect": "This Pokémon may not have its Strength or Special reduced by any other Active Combatants, it may still reduce its own Stats however. Additionally whenever it defeats a Foe it heals 1HP.",
-    "Description": "",
-    "_id": "execution"
+  "Name": "Execution",
+  "Effect": "This Pokémon may not have its Strength or Special reduced by any other Active Combatants, it may still reduce its own Stats however. Additionally whenever it defeats an opposing Pokémon it heals 1HP.",
+  "Description": "",
+  "_id": "execution"
 }

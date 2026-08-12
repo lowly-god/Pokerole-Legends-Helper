@@ -37,8 +37,8 @@
   "Evolutions": [
     {
       "From": "Charcadet",
-      "Kind": "Special",
-      "Special": "Wearing Malicious Armor"
+      "Kind": "Item",
+      "Item": "Malicious Armor"
     }
   ],
   "Image": "ceruledge.png",

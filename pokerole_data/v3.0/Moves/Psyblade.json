@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity/Insight",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Lethal. Cutter Move. *If Electric Terrain is active, add 2 Extra Dice to the Damage pool of this Move.",
+  "Effect": "Lethal. Cutter Move. If Electric Terrain is active, add 2 Extra Dice to the Damage pool of this Move.",
   "Description": "The Pokémon attacks using an ethereal blade. Electric energy will increase the sharpness of its edge.",
   "_id": "psyblade",
   "Attributes": {

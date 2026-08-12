@@ -1,6 +1,6 @@
 {
-    "Name": "Eggcelent",
-    "Effect": "If this Pokémon uses the Move Softboiled, it now also cures Status Conditions and may target Allies in Battle. If it uses Egg Bomb, change it to Fairy-Type and remove its Reduced Accuracy.",
-    "Description": "",
-    "_id": "eggcelent"
+  "Name": "Eggcelent",
+  "Effect": "If this Pokémon uses the Move Soft-Boiled, it now also cures Status Conditions and may Target allied Pokémon in Battle. If it uses Egg Bomb, change it to Fairy-Type and remove its Reduced Accuracy.",
+  "Description": "",
+  "_id": "eggcelent"
 }

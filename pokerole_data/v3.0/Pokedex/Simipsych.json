@@ -34,7 +34,13 @@
     "Pounds": 63.0
   },
   "DexDescription": "Known for its eerie calmness, Simipsych can communicate telepathically with those it trusts, sharing visions and thoughts directly into their minds.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Panpsych",
+      "Kind": "Stone",
+      "Item": "Dawn Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

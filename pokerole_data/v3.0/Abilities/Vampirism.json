@@ -1,6 +1,6 @@
 {
-    "Name": "Vampirism",
-    "Effect": "When the User hits the Foe with a Damaging Move the User Heals 1HP.",
-    "Description": "",
-    "_id": "vampirism"
+  "Name": "Vampirism",
+  "Effect": "When the User hits the Target with a Damaging Move the User Heals 1HP.",
+  "Description": "",
+  "_id": "vampirism"
 }

@@ -34,7 +34,13 @@
     "Pounds": 28.0
   },
   "DexDescription": "Even having evolved it still throws tantrums, however it lashes out at those who annoy it rather then wailing.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Hystearic",
+      "Kind": "Stone",
+      "Item": "Leaf Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

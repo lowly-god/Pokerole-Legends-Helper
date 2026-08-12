@@ -7,7 +7,7 @@
   "Accuracy1": "SameAsBaseMove",
   "Accuracy2": "",
   "Target": "All Foes",
-  "Effect": "Reduce by 1 the Sp. Defense of those Affected.",
+  "Effect": "Reduce by 1 the Sp. Defense of those affected.",
   "Description": "",
   "_id": "max_darkness",
   "Attributes": {

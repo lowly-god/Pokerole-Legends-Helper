@@ -36,9 +36,9 @@
   "DexDescription": "Its presence not only enhances the spiciness of nearby peppers but also ignites them with unprecedented intensity, resulting in people developing a high tolerance for spice due to its influence in the fields.",
   "Evolutions": [
     {
-      "From": "Capsighoul In Rain Weather",
+      "From": "Capsighoul",
       "Kind": "Special",
-      "Special": "Capsighoul In Rain Weather"
+      "Special": "Rain Weather"
     }
   ],
   "Image": "",

@@ -1,4 +1,5 @@
 import json
+import hashlib
 import re
 import sqlite3
 from pathlib import Path
@@ -94,6 +95,45 @@ class Database:
         cursor.close()
         self.connection_commit(version)
 
+    def _source_fingerprint(self, version: str):
+        """Hash the JSON data that feeds the SQLite cache.
+
+        The database is generated data. Hosting updates can replace JSON files
+        without deleting the existing SQLite file, so table-presence checks alone
+        are not enough to notice changed move/Pokémon/ability/item data.
+        """
+        digest = hashlib.sha256()
+        base = Path(data_path) / version
+        for folder in data_folders.values():
+            path = base / folder.lstrip('/')
+            if not path.exists():
+                continue
+            for source in sorted(path.glob('*.json'), key=lambda p: p.name.casefold()):
+                digest.update(source.name.encode('utf-8'))
+                digest.update(b'\0')
+                digest.update(source.read_bytes())
+                digest.update(b'\0')
+        return digest.hexdigest()
+
+    def _get_stored_fingerprint(self, version: str):
+        cursor = self.get_cursor(version)
+        cursor.execute('CREATE TABLE IF NOT EXISTS dataMeta (key text PRIMARY KEY, value text)')
+        cursor.execute('SELECT value FROM dataMeta WHERE key="source_fingerprint"')
+        row = cursor.fetchone()
+        cursor.close()
+        self.connection_commit(version)
+        return row[0] if row else None
+
+    def _store_fingerprint(self, version: str, fingerprint: str):
+        cursor = self.get_cursor(version)
+        cursor.execute('CREATE TABLE IF NOT EXISTS dataMeta (key text PRIMARY KEY, value text)')
+        cursor.execute(
+            'INSERT OR REPLACE INTO dataMeta (key, value) VALUES (?, ?)',
+            ('source_fingerprint', fingerprint)
+        )
+        cursor.close()
+        self.connection_commit(version)
+
     def checkIntegrity(self, version = "v3.0"):
         cursor = self.get_cursor(version=version)
         cursor.execute('SELECT name FROM sqlite_master WHERE type="table" AND name NOT LIKE "SQLITE_%"')
@@ -101,11 +141,23 @@ class Database:
         result = [x[0] for x in result] #strip the single tuple to be a readable string
         cursor.close()
 
+        rebuilt = False
         for val in table_names.values():
             if val not in result:
                 print(f'Needed to refresh the {version} tables, "{val}" was missing')
                 self.reloadLists(version=version)
+                rebuilt = True
                 break
+
+        # v3.0 is actively customized in this bot. Rebuild its generated SQLite
+        # tables automatically whenever the tracked JSON source changes.
+        if version == "v3.0":
+            fingerprint = self._source_fingerprint(version)
+            stored = self._get_stored_fingerprint(version)
+            if not rebuilt and stored != fingerprint:
+                print(f'Needed to refresh the {version} tables, source JSON changed')
+                self.reloadLists(version=version)
+            self._store_fingerprint(version, fingerprint)
 
     def instantiateAllLists(self, version: str):
         self.build_tables(version=version)

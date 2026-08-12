@@ -36,9 +36,9 @@
   "DexDescription": "Porygon 2 where upgraded to serve as satellites for a certain augmented reality project, based in Duskfork city.",
   "Evolutions": [
     {
-      "From": "Porygon 2",
-      "Kind": "Special",
-      "Special": "Porygon 2 (*Satellite Parts)"
+      "From": "Porygon2",
+      "Kind": "Item",
+      "Item": "Satellite Parts"
     }
   ],
   "Image": "",

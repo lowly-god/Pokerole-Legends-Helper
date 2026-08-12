@@ -34,7 +34,13 @@
     "Pounds": 22.0
   },
   "DexDescription": "Exposed to an unknown code Vectol has upgraded to Vectol.2. It feeds by using its stinger to download data, leaving computers a buggy corrupted mess afterwards.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Vectol",
+      "Kind": "Item",
+      "Item": "Corrupted Drive"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

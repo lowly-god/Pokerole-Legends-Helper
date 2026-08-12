@@ -39,6 +39,11 @@
       "From": "Poliwhirl",
       "Kind": "Trade",
       "Item": "King's Rock"
+    },
+    {
+      "From": "Poliwhirl",
+      "Kind": "Item",
+      "Item": "Kings Rock"
     }
   ],
   "Image": "politoed.png",

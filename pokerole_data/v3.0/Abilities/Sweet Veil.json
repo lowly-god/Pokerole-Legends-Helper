@@ -1,6 +1,6 @@
 {
-    "Name": "Sweet Veil",
-    "Effect": "Increase the chance of wild Pokemon encounters at Storyteller's discretion. The Pokemon and allies in range are immune to the Sleep status.",
-    "Description": "This Pokemon's delicious aroma will wake the appetite of all Pokemon nearby.",
-    "_id": "sweet-veil"
+  "Name": "Sweet Veil",
+  "Effect": "Increase the chance of wild Pokémon encounters at Storyteller's discretion. The Pokémon and allied Pokémon in range are immune to the Sleep status.",
+  "Description": "This Pokémon's delicious aroma will wake the appetite of all Pokémon nearby.",
+  "_id": "sweet-veil"
 }

@@ -34,7 +34,13 @@
     "Pounds": 30.0
   },
   "DexDescription": "It is known that they worked as guards for an ancient civilization and a few can still be seen patrolling its borders, following the same route for centuries. They attack people who sneak through their barriers.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Sigileye",
+      "Kind": "Stone",
+      "Item": "Rune Stone"
+    }
+  ],
   "Image": "sigilyph.png",
   "Moves": [
     {

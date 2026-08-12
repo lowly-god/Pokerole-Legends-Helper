@@ -34,7 +34,13 @@
     "Pounds": 4.0
   },
   "DexDescription": "Roselia has begun to find its place in its new environment. It carries the desert with it now, wearing a veil of sand.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Roserade (Orrean Form)",
+      "Kind": "Stone",
+      "Item": "Desert Rose"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

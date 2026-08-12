@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Athletic",
   "Target": "Self",
-  "Effect": "Increase the User's Strength by 1. *This effect can stack up to 3 times.",
+  "Effect": "Increase the User's Strength by 1. This effect can stack up to 3 times.",
   "Description": "This Pokémon doesn’t smooth the rough edges, they make them sharper and sharper.",
   "_id": "sharpen",
   "Attributes": {},

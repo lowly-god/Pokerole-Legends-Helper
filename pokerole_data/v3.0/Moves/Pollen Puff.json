@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Nature",
   "Target": "Ally",
-  "Effect": "Projectile Move. * Or target One Ally. *When this move is used against an ally, it will heal 2 HP instead of damage, Spend 1 Will Point to get this effect.",
+  "Effect": "Projectile Move. Or Target the Target. When this move is used against the Target, it will heal 2 HP instead of damage, Spend 1 Will Point to get this effect.",
   "Description": "The Pokémon creates a puff of pollen that explodes on the foe's face and gives them a terrible allergy. When consumed, these puffs are sweet and very nutritious.",
   "_id": "pollen-puff",
   "Attributes": {

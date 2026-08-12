@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Accuracy -1. Roll 5 Chance Dice to Reduce 1 Success from all Accuracy Rolls of the foe.",
+  "Effect": "Accuracy -1. Roll 5 Chance Dice to Reduce 1 Success from all Accuracy Rolls of the Target.",
   "Description": "A cluster of leaves and twigs swirls around the foe, getting in its eyes and making it difficult to aim properly",
   "_id": "leaf-tornado",
   "Attributes": {

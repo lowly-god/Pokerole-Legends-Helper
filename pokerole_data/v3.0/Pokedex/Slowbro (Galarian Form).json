@@ -39,6 +39,11 @@
       "From": "Slowpoke (Galarian Form)",
       "Kind": "Special",
       "Special": "Grab Shellder by Tongue"
+    },
+    {
+      "From": "Slowpoke (Galarian Form)",
+      "Kind": "Item",
+      "Item": "Galarica Cuff"
     }
   ],
   "Image": "slowbro-galarian-form.png",

@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Nature",
   "Target": "Area",
-  "Effect": "Ranged. If the Target is out of range due to using the Move \"Dig\" this Move hits anyways.",
+  "Effect": "Ranged. If the Target is out of range due to using the Move \"Dig\" this Move hits anyway.",
   "Description": "The user calls the forces of nature. The earth shakes violently and everything crumbles to the ground.",
   "_id": "earthquake",
   "Attributes": {

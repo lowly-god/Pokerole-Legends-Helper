@@ -37,8 +37,8 @@
   "Evolutions": [
     {
       "From": "Cherrim",
-      "Kind": "Special",
-      "Special": "Cherrim (Dawn Stone)"
+      "Kind": "Stone",
+      "Item": "Dawn Stone"
     }
   ],
   "Image": "",

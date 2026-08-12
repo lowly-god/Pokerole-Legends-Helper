@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Roll 3 Chance Dice to flinch the Target.",
+  "Effect": "Roll 3 Chance Dice to Flinch the Target.",
   "Description": "The Pokémon charges to cure the foe’s iron deficit.",
   "_id": "iron-head",
   "Attributes": {},

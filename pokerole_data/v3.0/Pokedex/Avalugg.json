@@ -39,6 +39,11 @@
       "From": "Bergmite",
       "Kind": "Level",
       "Speed": "Slow"
+    },
+    {
+      "To": "Gigalanche",
+      "Kind": "Special",
+      "Special": "Avalugg (Slow)"
     }
   ],
   "Image": "avalugg.png",

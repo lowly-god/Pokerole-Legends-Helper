@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Reaction 2. Out of battle, triple the Pokemon's movement speed.",
+  "Effect": "Reaction 2. Out of battle, triple the Pokémon's movement speed.",
   "Description": "Gotta go extremely fast.",
   "_id": "extreme-speed",
   "Attributes": {

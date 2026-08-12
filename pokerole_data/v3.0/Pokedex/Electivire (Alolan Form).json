@@ -34,7 +34,13 @@
     "Pounds": 305.0
   },
   "DexDescription": "It's reckless and has a short temper. Blue bolts of lighting spark off of its beard and fire burns from its arms if it gets agitated.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Electabuzz (Alolan Form)",
+      "Kind": "Stone",
+      "Item": "Fire Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

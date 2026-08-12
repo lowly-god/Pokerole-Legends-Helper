@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "*If the Target is already Poisoned, add 2 Extra Dice to the Damage Pool.",
+  "Effect": "If the Target is already Poisoned, add 2 Extra Dice to the Damage Pool.",
   "Description": "The Pokémon identifies the weakest prey and makes an opportunistic shot.",
   "_id": "venoshock",
   "Attributes": {},

@@ -39,6 +39,11 @@
       "From": "Elgyem",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Aileyahn",
+      "Kind": "Stone",
+      "Item": "Rune Stone"
     }
   ],
   "Image": "beheeyem.png",

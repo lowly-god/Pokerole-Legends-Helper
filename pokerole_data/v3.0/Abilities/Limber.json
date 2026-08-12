@@ -1,6 +1,6 @@
 {
-    "Name": "Limber",
-    "Effect": "This Pokemon is immune to Paralysis Status Ailment.",
-    "Description": "The muscles of this Pokemon are incredibly flexible and elastic. Easing their movement, agility, and grace.",
-    "_id": "limber"
+  "Name": "Limber",
+  "Effect": "This Pokémon is immune to Paralysis Status Ailment.",
+  "Description": "The muscles of this Pokémon are incredibly flexible and elastic. Easing their movement, agility, and grace.",
+  "_id": "limber"
 }

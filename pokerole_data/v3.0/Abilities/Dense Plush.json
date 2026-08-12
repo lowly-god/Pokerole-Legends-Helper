@@ -1,6 +1,6 @@
 {
-    "Name": "Dense Plush",
-    "Effect": "attacks that are not super effective against this Pokémon deal 1 less Damage.",
-    "Description": "",
-    "_id": "dense-plush"
+  "Name": "Dense Plush",
+  "Effect": "Attacks that are not super effective against this Pokémon deal 1 less Damage.",
+  "Description": "",
+  "_id": "dense-plush"
 }
