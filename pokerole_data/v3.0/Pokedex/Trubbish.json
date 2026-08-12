@@ -84,6 +84,10 @@
       "Name": "Swallow"
     },
     {
+      "Learned": "Standard",
+      "Name": "Poison Jab"
+    },
+    {
       "Learned": "Advanced",
       "Name": "Take Down"
     },

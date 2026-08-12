@@ -292,3 +292,153 @@ Winter Joy$100
 Wonder Guard$100
 Wonder Skin$100
 Zen Mode$100
+Accelerate$100
+All Consuming Void$100
+Ally Pledge$100
+Alphabetize$100
+Anger Shell$100
+Apex Predator$100
+Armor Mace$100
+Armor Tail$100
+As One$100
+Bad Luck$100
+Balance$100
+Baleful Eye$100
+Battle Master$100
+Beads of Ruin$100
+Blank Canvas$100
+Breach The Depths$100
+Bubble Vision$100
+Bullet Time$100
+Capsaicin Core$100
+Capture$100
+Chilling Neigh$100
+Clairvoyant$100
+Commander$100
+Conceal$100
+Conductor$100
+Coral Guard$100
+Corruption$100
+Costar$100
+Cud Chew$100
+Curious Medicine$100
+Dense Plush$100
+Diurnal$100
+Double Barrel$100
+Dragon Maw$100
+Dragonize$100
+Duality$100
+Duellist$100
+Earth Eater$100
+Eelevate$100
+Eggcelent$100
+Electromorphosis$100
+Elemental Boost$100
+Embody Aspect$100
+Evolution Drive$100
+Execution$100
+Expert$100
+Feedback$100
+Field Support$100
+Fighting Spirit$100
+Fire Mane$100
+Fist Flurry$100
+Flash Freeze$100
+Flinty Spirit$100
+Frightening Aura$100
+Fury of the Hive$100
+Gigantic$100
+Gloom Stalker$100
+Good As Gold$100
+Grim Neigh$100
+Guard Dog$100
+Hadron Engine$100
+Hospitality$100
+Illusionary Defenses$100
+Improved RKS System$100
+Inexorable$100
+Ink Spray$100
+Intrusive Thoughts$100
+Invisibility$100
+Kelp Eater$100
+Kinetic Clockwork$100
+Legionnaire$100
+Lingering Aroma$100
+Liquid Assassin$100
+Masterpiece$100
+Mega Drill$100
+Mega Sol$100
+Mesmerize$100
+Mind's Eye$100
+Multi-Maw$100
+Mycelium Might$100
+Necrovenom$100
+Night Cloak$100
+Nocturnal$100
+Novice$100
+Opportunist$100
+Orichalcum Pulse$100
+Parasomnia$100
+Plague Pack$100
+Poison Puppeteer$100
+Poisoned Treats$100
+Polished Coat$100
+Polluted Atmosphere$100
+Prime Fury$100
+Prism Refraction$100
+Protosynthesis$100
+Purifying Salt$100
+Pyrostatic$100
+Quark Drive$100
+Quick Draw$100
+Radiant Defender$100
+Re-Routing$100
+Reality Warping Swarm$100
+Regal Majesty$100
+Rocky Payload$100
+Seed Sower$100
+Self-Sufficient$100
+Serendipitous Wishes$100
+Sharpness$100
+Showstopper$100
+Siren Song$100
+Skewed Odds$100
+Sleepwalker$100
+Soothing Aroma$100
+Soothing Melody$100
+Sovereign's Steel$100
+Space-Time Distortion$100
+Spellcaster$100
+Spicy Spray$100
+Steel-Shell Carapace$100
+Storm Warning$100
+Stormy Disposition$100
+Sub-Zero Surfer$100
+Supersweet Syrup$100
+Supreme Overlord$100
+Swashbuckler$100
+Sword of Ruin$100
+Tablets of Ruin$100
+Tempest's Fury$100
+Temporal Fracture$100
+Tera Shell$100
+Tera Shift$100
+Teraform Zero$100
+Thermal Exchange$100
+Time Split$100
+Toxic Chain$100
+Toxic Debris$100
+Toxin Tax$100
+Transistor$100
+Triple Threat$100
+Tyrant$100
+Unseen Fist$100
+Vampirism$100
+Veil of Night$100
+Vessel of Ruin$100
+Web Master$100
+Well-Baked Body$100
+Wild Magic$100
+Wind Power$100
+Wind Rider$100
+Zero to Hero$100

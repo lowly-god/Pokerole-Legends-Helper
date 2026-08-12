@@ -729,3 +729,325 @@ Zap Cannon$100
 Zen Headbutt$100
 Zing Zap$100
 Zippy Zap$100
+Absolute Zero$100
+Acid Downpour$100
+Acid Rain$100
+All-Out Pummeling$100
+Alluring Voice$100
+Ambush$100
+Anti-Gravity$100
+Aqua Cutter$100
+Aqua Fang$100
+Aqua Step$100
+Aqua Surge$100
+Armor Cannon$100
+Asteroid Shot$100
+Astral Barrage$100
+Aura Snare$100
+Aura Strike$100
+Axe Kick$100
+Barb Barrage$100
+Barbed Spines$100
+Barrier Blast$100
+Beguiling Influence$100
+Binding Chain$100
+Bitter Blade$100
+Bitter Malice$100
+Black Hole Eclipse$100
+Black Ice$100
+Blazing Torque$100
+Bleakwind Storm$100
+Blockade Barrage$100
+Blood Moon$100
+Bloom Doom$100
+Brace$100
+Breach$100
+Breakneck Blitz$100
+Bulk Breaker$100
+Burning Bulwark$100
+Burning Jealousy$100
+Caustic Breath$100
+Cauterize$100
+Ceaseless Edge$100
+Cheap Shot$100
+Chic Chop$100
+Chilling Water$100
+Chilly Reception$100
+Chivalrous Stab$100
+Chloroblast$100
+Choke Hold$100
+Clash$100
+Cleansing Fire$100
+Coaching$100
+Collision Course$100
+Combat Torque$100
+Comeuppance$100
+Continental Crush$100
+Contrict$100
+Corkscrew Crash$100
+Corrosive Gas$100
+Cosmic Corrosion$100
+Cryocontamination$100
+Curse (Non-Ghost)$100
+Dark Magic$100
+Decimation$100
+Devastating Drake$100
+Devouring Abyss$100
+Dire Claw$100
+Discombobulate$100
+Doodle$100
+Double Shock$100
+Draco Jaw$100
+Dragon Cheer$100
+Dragon Energy$100
+Dragon Slayer$100
+Dreamweave$100
+Dual Cannon$100
+Dual Wingbeat$100
+Dust Devil$100
+Edgestitch$100
+Eerie Spell$100
+Electro Drift$100
+Electro Shot$100
+Electro Whip$100
+Embody Element$100
+Entomb$100
+Esper Wing$100
+Evasion$100
+Evil Eye$100
+Expanding Force$100
+Fate's Edge$100
+Fickle Beam$100
+Fiery Wrath$100
+Fillet Away$100
+Fin Blade$100
+Firewall$100
+Fisticuffs$100
+Flip Turn$100
+Flirty Kiss$100
+Flower Trick$100
+Freezing Glare$100
+Frost Slash$100
+Frostfire$100
+Frozen Crash$100
+Gaia Force$100
+Geopsychic Glyph$100
+Gigaton Hammer$100
+Gigavolt Havoc$100
+Glacial Lance$100
+Glaive Rush$100
+Grassy Glide$100
+Hard Press$100
+Harrowing Wrath$100
+Headlong Rush$100
+Heart Breaker$100
+Hellfire$100
+Hidden Power Of The Swarm$100
+Hoarfrost Moon$100
+Hold Hands$100
+Honor Blade$100
+Hull Rend$100
+Hydro Steam$100
+Hydro Vortex$100
+Hyper Drill$100
+Ice Spinner$100
+Imperial Majesty$100
+Incredible Feat$100
+Infernal Parade$100
+Infernal Riff$100
+Inferno Overdrive$100
+Iron Edge$100
+Ivy Cudgel$100
+Jet Punch$100
+Jet Strike$100
+Jungle Healing$100
+Kowtow Cleave$100
+Lapidify$100
+Lash Out$100
+Last Respects$100
+Leaf Shield$100
+Lumina Crash$100
+Lunar Blessing$100
+Magical Torque$100
+Magma Crunch$100
+Magma Drift$100
+Make It Rain$100
+Malignant Chain$100
+Many Eyed Portal$100
+Matcha Gotcha$100
+Max Airstream$100
+Max Darkness$100
+Max Flare$100
+Max Flutterby$100
+Max Geyser$100
+Max Guard$100
+Max Hailstorm$100
+Max Knuckle$100
+Max Lightning$100
+Max Mindstorm$100
+Max Ooze$100
+Max Overgrowth$100
+Max Phantasm$100
+Max Quake$100
+Max Rockfall$100
+Max Starfall$100
+Max Steelspike$100
+Max Strike$100
+Max Wyrmwind$100
+Meditative Trance$100
+Meltdown$100
+Meteor Beam$100
+Miasma$100
+Mighty Cleave$100
+Mirror Shield$100
+Misty Explosion$100
+Moonveil Dance$100
+Mortal Spin$100
+Mountain Gale$100
+Mystical Power$100
+Necromancy$100
+Neurotoxin Needle$100
+Never-Ending Nightmare$100
+Noxious Torque$100
+Null Room$100
+Order Up$100
+Paper Cutter$100
+Parasitize$100
+Petrifying Gaze$100
+Piledriver$100
+Pollution$100
+Poltergeist$100
+Population Bomb$100
+Pounce$100
+Power Shift$100
+Primal Instinct$100
+Psy-Vortex$100
+Psyblade$100
+Psybolt$100
+Psychic Noise$100
+Psyshield Bash$100
+Pulse Strike$100
+Rage Fist$100
+Raging Bull$100
+Raging Fury$100
+Rainbow Beam$100
+Resonating Chime$100
+Revitalisation Pulse$100
+Revival Blessing$100
+Rippling Refrain$100
+Rising Voltage$100
+Ruination$100
+Runewrap Spear$100
+Salt Cure$100
+Sandsear Storm$100
+Sandstorm Serenade$100
+Savage Spin-Out$100
+Sawblade Strike$100
+Scale Shot$100
+Scorching Sands$100
+Scrap Metal$100
+Screaming Cyclone$100
+Shadow Blast$100
+Shadow Blitz$100
+Shadow Bolt$100
+Shadow Break$100
+Shadow Chill$100
+Shadow Down$100
+Shadow End$100
+Shadow Fire$100
+Shadow Half$100
+Shadow Hold$100
+Shadow Kunai$100
+Shadow Mist$100
+Shadow Panic$100
+Shadow Rave$100
+Shadow Rush$100
+Shadow Shed$100
+Shadow Storm$100
+Shadow Terrain$100
+Shadow Tide$100
+Shadow Wave$100
+Shattered Psyche$100
+Shed Tail$100
+Shell Side Arm$100
+Shelter$100
+Shield Bash$100
+Silk Trap$100
+Singularity$100
+Siphon Life-Force$100
+Skitter Smack$100
+Snowscape$100
+Snowy Terrain$100
+Song Of Time$100
+Spectral Slash$100
+Spectral Tentacles$100
+Spectrum Analysis$100
+Spicy Extract$100
+Spin Out$100
+Spiritual Static$100
+Springtide Storm$100
+Stalacbite$100
+Starlight Blitz$100
+Stasis Lock$100
+Steel Carapace$100
+Steel Roller$100
+Steelthorn Swipe$100
+Stone Axe$100
+Strange Brew$100
+Strength $100
+Struggle (Physical)$100
+Struggle (Special)$100
+Struggle Throw$100
+Subzero Slammer$100
+Sugar Rush$100
+Supercell Slam$100
+Supersonic Skystrike$100
+Surging Strikes$100
+Swarm Buff$100
+Swarm Defend$100
+Swarm Sting$100
+Syrup Bomb$100
+Tachyon Cutter$100
+Take Heart$100
+Tectonic Rage$100
+Temper Flare$100
+Temporal Rift$100
+Temporal Shift$100
+Tera Blast$100
+Tera Starstorm$100
+Terrain Pulse$100
+Terrorize$100
+Tesla Shock$100
+Thunder Cage$100
+Thunderclap$100
+Thunderous Kick$100
+Tidy Up$100
+Torch Song$100
+Trailblaze$100
+Triple Arrows$100
+Triple Axel$100
+Triple Dive$100
+Tropic Storm$100
+Twilight Zone$100
+Twin Beam$100
+Twin Jolt$100
+Twinkle Tackle$100
+Tyrant's Shadow$100
+Uncontrolled Burn Off$100
+Upper Hand$100
+Uproot$100
+Velvet Scales$100
+Victory Dance$100
+Vile Assault$100
+Virus Pulse$100
+Vorpal Blade$100
+Wave Crash$100
+Web Ball$100
+Wicked Blow$100
+Wicked Torque$100
+Wildbolt Storm$100
+Wraithfire Gnash$100
+Z-Darkening Skies$100
+Z-Energy Reflection$100
+Z-Psychic Sands$100
+Z-Spiked Pummelling$100

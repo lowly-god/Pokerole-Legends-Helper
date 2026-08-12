@@ -16,8 +16,8 @@
   "Insight": 2,
   "MaxInsight": 5,
   "Ability1": "Stench",
-  "Ability2": "Aftermath",
-  "HiddenAbility": "",
+  "Ability2": "",
+  "HiddenAbility": "Aftermath",
   "EventAbilities": "",
   "RecommendedRank": "Advanced",
   "GenderType": "",
@@ -74,6 +74,10 @@
     {
       "Learned": "Standard",
       "Name": "Clear Smog"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Poison Jab"
     },
     {
       "Learned": "Advanced",
