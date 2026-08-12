@@ -1,0 +1,16 @@
+{
+    "Name": "Scrap Metal",
+    "Type": "Steel",
+    "Power": 3,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Dexterity",
+    "Accuracy2": "Channel",
+    "Target": "Foe",
+    "Effect": "Ranged. Cutter Move. Roll 3 Chance Dice to Poison the Foe.",
+    "Description": "The User hurls unsanitary rusted, jagged scrap metal at the Foe.",
+    "_id": "scrap-metal",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

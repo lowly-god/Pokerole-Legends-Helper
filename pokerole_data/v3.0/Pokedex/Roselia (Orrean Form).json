@@ -1,0 +1,153 @@
+{
+  "Number": 315,
+  "DexID": "0315F1",
+  "Name": "Roselia (Orrean Form)",
+  "Type1": "Ground",
+  "Type2": "Fighting",
+  "BaseHP": 4,
+  "Strength": 1,
+  "MaxStrength": 3,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 1,
+  "MaxInsight": 3,
+  "Ability1": "Dry Skin",
+  "Ability2": "Technician",
+  "HiddenAbility": "Sand Veil",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "roselia-orrean-form",
+  "DexCategory": "Desert Rose Pokémon",
+  "Height": {
+    "Meters": 0.3,
+    "Feet": 1.0
+  },
+  "Weight": {
+    "Kilograms": 1.8,
+    "Pounds": 4.0
+  },
+  "DexDescription": "Roselia has begun to find its place in its new environment. It carries the desert with it now, wearing a veil of sand.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Mud Slap"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sand Tomb"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Camouflage"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bulk Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Attract"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Reversal"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Spikes"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Detect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Vacuum Wave"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Nature Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sandstorm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fire Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Scorching Sands"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dust Devil"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Power Gem"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Aura Sphere"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Revenge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Gaia Force"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Final Gambit"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Giga Drain"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flirty Kiss"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Asteroid Shot"
+    }
+  ]
+}

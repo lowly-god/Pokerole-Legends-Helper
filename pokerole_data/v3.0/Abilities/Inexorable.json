@@ -1,0 +1,6 @@
+{
+    "Name": "Inexorable",
+    "Effect": "The User's Damaging Moves gain +1 additional Damage Dice if it has a higher Initiative then the Target.",
+    "Description": "",
+    "_id": "inexorable"
+}

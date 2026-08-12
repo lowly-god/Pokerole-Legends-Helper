@@ -1,0 +1,13 @@
+{
+  "Name": "Mysterious Charm",
+  "_id": "mysterious-charm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Items",
+  "Category": "Special Items",
+  "Description": "Hidden Ability Luck Check drops to 60+",
+  "OneUse": false,
+  "TrainerPrice": "35000",
+  "Cures": "",
+  "Image": ""
+}

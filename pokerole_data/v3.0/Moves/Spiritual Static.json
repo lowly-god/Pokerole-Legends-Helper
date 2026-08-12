@@ -1,0 +1,16 @@
+{
+    "Name": "Spiritual Static",
+    "Type": "Electric",
+    "Power": 2,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Insight",
+    "Accuracy2": "Channel",
+    "Target": "All Foes",
+    "Effect": "Sound Move. Roll 3 Chance Dice to Confuse those affected. (Increase the Chance Dice of this Move to 5 in Midnight Weather).",
+    "Description": "The User manifests a creepy EVP signal that fills those who hear it with fear.",
+    "_id": "spiritual-static",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Lemonade",
+  "_id": "lemonade",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Provisions",
+  "Category": "Provisions",
+  "Description": "Heal 6HP single use",
+  "OneUse": true,
+  "TrainerPrice": "400",
+  "Cures": "",
+  "Image": ""
+}

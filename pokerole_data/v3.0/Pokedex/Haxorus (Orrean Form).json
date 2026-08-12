@@ -1,0 +1,177 @@
+{
+  "Number": 612,
+  "DexID": "0612F1",
+  "Name": "Haxorus (Orrean Form)",
+  "Type1": "Dragon",
+  "Type2": "Rock",
+  "BaseHP": 5,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Mold Breaker",
+  "Ability2": "Flinty Spirit",
+  "HiddenAbility": "Rock Head",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "haxorus-orrean-form",
+  "DexCategory": "Flint Dragon Pokémon",
+  "Height": {
+    "Meters": 1.85,
+    "Feet": 6.08
+  },
+  "Weight": {
+    "Kilograms": 166.5,
+    "Pounds": 367.0
+  },
+  "DexDescription": "It is very strong, its tail and horns are made of a flint like material nearly as hard as steel. If they get chipped or Damaged they regrow very fast.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Horn Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sandstorm"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Accelerock"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dragon Claw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rock Smash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stalacbite"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Tail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Drill Run"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dual Chop"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Rage"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stealth Rock"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Head Smash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Guillotine"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Megahorn"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wide Guard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Giga Impact"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Rock Polish"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "First Impression"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Earthquake"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Draco Meteor"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Iron Edge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    }
+  ]
+}

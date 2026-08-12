@@ -1,0 +1,16 @@
+{
+    "Name": "Shadow Half",
+    "Type": "Shadow",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Insight",
+    "Accuracy2": "Nature",
+    "Target": "Battlefield",
+    "Effect": "Reduce HP of those affected by half (Rounded Down). If successful spend 1 Will Point to activate.",
+    "Description": "A shadowy aura's energy cuts everyone's HP by half.",
+    "_id": "shadow-half",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

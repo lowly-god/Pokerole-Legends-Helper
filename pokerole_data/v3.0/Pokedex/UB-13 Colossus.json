@@ -1,0 +1,157 @@
+{
+  "Number": 1120,
+  "DexID": "1120",
+  "Name": "UB-13 Colossus",
+  "Type1": "Water",
+  "Type2": "Grass",
+  "BaseHP": 7,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 4,
+  "MaxVitality": 8,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Beast Boost",
+  "Ability2": "",
+  "HiddenAbility": "Rock Head",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "ub-13-colossus",
+  "DexCategory": "Ultra Beast",
+  "Height": {
+    "Meters": 5.23,
+    "Feet": 17.17
+  },
+  "Weight": {
+    "Kilograms": 663.6,
+    "Pounds": 1463.0
+  },
+  "DexDescription": "Aether Foundation Log #2034: UB-Colossus is thought to inhabit deep sea trenches in its natural environment. It's body appears to be a collection of micro-organisms similar to coral, rather then one being. The strange space between its horn like jaws seems to be a portal.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Roar"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Whirlpool"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dive"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aqua Tail"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Water Pulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Energy Ball"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stalacbite"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Horn Drill"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rock Polish"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Giga Drain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Curse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Synthesis"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Head Smash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shadow Tide"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Surf"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Horn Leech"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Aqua Surge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Chloroblast"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Many Eyed Portal"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hydro Pump"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Decimation"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lapidify"
+    }
+  ]
+}

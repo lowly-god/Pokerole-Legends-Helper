@@ -1,0 +1,153 @@
+{
+  "Number": 860,
+  "DexID": "0860F1",
+  "Name": "Morgrem (Orrean Form)",
+  "Type1": "Rock",
+  "Type2": "Dark",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Invisibility",
+  "Ability2": "Levitate",
+  "HiddenAbility": "Prankster",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "M",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "morgrem-orrean-form",
+  "DexCategory": "Gargoyle Pokémon",
+  "Height": {
+    "Meters": 0.81,
+    "Feet": 2.67
+  },
+  "Weight": {
+    "Kilograms": 59.9,
+    "Pounds": 132.0
+  },
+  "DexDescription": "They prefer to make their home on older buildings, where they can blend in better with the masonry. They hunt bird Pokémon and vermin.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Confide"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rock Blast"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Accelerock"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bullet Punch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Snarl"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Wing Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Payback"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stealth Rock"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Smack Down"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sucker Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Claw"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Power-Up Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Rock Polish"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wide Guard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sky Attack"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Phantom Force"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Lapidify"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cheap Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Rain"
+    }
+  ]
+}

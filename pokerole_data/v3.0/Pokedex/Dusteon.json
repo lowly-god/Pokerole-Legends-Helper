@@ -1,0 +1,149 @@
+{
+  "Number": 1029,
+  "DexID": "1029",
+  "Name": "Dusteon",
+  "Type1": "Ground",
+  "Type2": "",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Shield Dust",
+  "Ability2": "",
+  "HiddenAbility": "Sand Force",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "dusteon",
+  "DexCategory": "Desert Pokémon",
+  "Height": {
+    "Meters": 1.04,
+    "Feet": 3.42
+  },
+  "Weight": {
+    "Kilograms": 24.5,
+    "Pounds": 54.0
+  },
+  "DexDescription": "It wanders the desert, often guiding lost travellers. People who live in locations where this Pokémon resides have long associated it with dust devils and sand storms.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sand Tomb"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sandstorm"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mud Sport"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fury Swipes"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Nature Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Scorching Sands"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Earthquake"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gaia Force"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heat Wave"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dust Devil"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wish"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Baton Pass"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Fissure"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Asteroid Shot"
+    }
+  ]
+}

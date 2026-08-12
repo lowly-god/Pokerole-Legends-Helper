@@ -1,0 +1,16 @@
+{
+    "Name": "Aqua Fang",
+    "Type": "Water",
+    "Power": 3,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Strength",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Roll 3 Chance Dice to Flinch the Foe.",
+    "Description": "The User bites down on the Target with water-infused fangs.",
+    "_id": "aqua-fang",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

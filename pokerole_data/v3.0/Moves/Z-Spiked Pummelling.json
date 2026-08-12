@@ -1,0 +1,18 @@
+{
+    "Name": "Z-Spiked Pummelling",
+    "Type": "Fighting",
+    "Power": "2 + HAPPINESS + LOYALTY",
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Strength",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Lethal. Successive Actions. Roll 1 Chance Dice to Flinch the Foe.",
+    "Description": "The User lays a flurry of blows, tipped with vicious spikes on its Foe.",
+    "_id": "z-spiked-pummelling",
+    "Attributes": {
+        "ZMove": true
+    },
+    "AddedEffects": {},
+    "Category": "Physical"
+}

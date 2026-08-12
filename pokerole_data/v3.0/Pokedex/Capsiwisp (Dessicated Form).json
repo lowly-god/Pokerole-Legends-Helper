@@ -1,0 +1,167 @@
+{
+  "Number": 1165,
+  "DexID": "1165F2",
+  "Name": "Capsiwisp (Dessicated Form)",
+  "Type1": "Ghost",
+  "Type2": "Fire",
+  "BaseHP": 5,
+  "Strength": 1,
+  "MaxStrength": 3,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Capsaicin Core",
+  "Ability2": "Dry Skin",
+  "HiddenAbility": "Flame Body",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "capsiwisp-dessicated-form",
+  "DexCategory": "Dried Pepper Pokémon",
+  "Height": {
+    "Meters": 0.58,
+    "Feet": 1.92
+  },
+  "Weight": {
+    "Kilograms": 13.2,
+    "Pounds": 29.0
+  },
+  "DexDescription": "Capsiwisp seeks to absorb life force to satiate itself. Encounters with Capsiwisp induce a sense of unease, as if one's life force is slowly sapped away by its presence. Legends speak of Capsiwisp as a harbinger of barren fields.",
+  "Evolutions": [
+    {
+      "From": "Capsighoul In Sunny Weather",
+      "Kind": "Special",
+      "Special": "Capsighoul In Sunny Weather"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Ember"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Night Shade"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Will-O-Wisp"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fire Spin"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Embargo"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hex"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Curse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psych Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Worry Seed"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Spicy Extract"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heat Wave"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Seed Bomb"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cleansing Fire"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Strength Sap"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Pain Split"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Overheat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Siphon Life-Force"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Scorching Sands"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Burning Jealousy"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Giga Drain"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cauterize"
+    }
+  ]
+}

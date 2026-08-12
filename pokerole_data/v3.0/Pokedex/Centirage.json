@@ -1,0 +1,163 @@
+{
+  "Number": 1044,
+  "DexID": "1044",
+  "Name": "Centirage",
+  "Type1": "Bug",
+  "Type2": "Dragon",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Merciless",
+  "Ability2": "Unnerve",
+  "HiddenAbility": "Anger Point",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "centirage",
+  "DexCategory": "Rage Filled Pokémon",
+  "Height": {
+    "Meters": 2.87,
+    "Feet": 9.42
+  },
+  "Weight": {
+    "Kilograms": 109.3,
+    "Pounds": 241.0
+  },
+  "DexDescription": "It lost its fiery abilities upon evolving into this form. Now It stalks as a solitary predator. Anything that disturbs it will feel the wrath of its imperious rage.",
+  "Evolutions": [
+    {
+      "From": "Sizzlipede",
+      "Kind": "Special",
+      "Special": "Sizzlipede (Amber Onyx)"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Wrap"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Poison Sting"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fury Cutter"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Pounce"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Coil"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bug Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Vice Grip"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dragon Rage"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Poison Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fell Stinger"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Glare"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Rush"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Tail"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lunge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Breaking Swipe"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Skitter Smack"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Megahorn"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Laser Focus"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Glaive Rush"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Stomping Tantrum"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dire Claw"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    }
+  ]
+}

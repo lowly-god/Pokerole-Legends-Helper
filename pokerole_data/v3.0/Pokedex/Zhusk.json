@@ -1,0 +1,137 @@
+{
+  "Number": 1062,
+  "DexID": "1062",
+  "Name": "Zhusk",
+  "Type1": "Grass",
+  "Type2": "Psychic",
+  "BaseHP": 3,
+  "Strength": 1,
+  "MaxStrength": 3,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Regenerator",
+  "Ability2": "Harvest",
+  "HiddenAbility": "Effect Spore",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "zhusk",
+  "DexCategory": "Corn Collective Pokémon",
+  "Height": {
+    "Meters": 0.41,
+    "Feet": 1.33
+  },
+  "Weight": {
+    "Kilograms": 10.4,
+    "Pounds": 23.0
+  },
+  "DexDescription": "Zhusk are actually a collection of smaller individual Pokémon united by a common goal of wanderlust. In a pinch they can launch members of the colony at foes.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Absorb"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Growth"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Hypnosis"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybolt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Seed Bomb"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Leech Seed"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Nature Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Petal Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Grassy Terrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Giga Drain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Leaf Shield"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dream Eater"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Ingrain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Uproot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Worry Seed"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Rest"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sleep Talk"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Meditative Trance"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Expanding Force"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Trick Room"
+    }
+  ]
+}

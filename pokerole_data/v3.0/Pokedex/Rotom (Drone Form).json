@@ -1,0 +1,145 @@
+{
+  "Number": 479,
+  "DexID": "0479F7",
+  "Name": "Rotom (Drone Form)",
+  "Type1": "Electric",
+  "Type2": "Flying",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 3,
+  "MaxDexterity": 7,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Capture",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "rotom-drone-form",
+  "DexCategory": "Plasma Pokémon",
+  "Height": {
+    "Meters": 0.3,
+    "Feet": 1.0
+  },
+  "Weight": {
+    "Kilograms": 4.1,
+    "Pounds": 9.0
+  },
+  "DexDescription": "Rotom inhabited a custom made drone. It is widely used for capturing footage in colosseum and tournament battles among other things.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Thunder Wave"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Lock-On"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Thunder Shock"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Charge"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Electro Ball"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Shock Wave"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hex"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Discharge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Air Cutter"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Thunderbolt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Substitute"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Trick"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Twin Jolt"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Thunder"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Uproar"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Poltergeist"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Eerie Impulse"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Volt Switch"
+    }
+  ]
+}

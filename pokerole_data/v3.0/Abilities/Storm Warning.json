@@ -1,0 +1,6 @@
+{
+    "Name": "Storm Warning",
+    "Effect": "When this Pokémon comes out, it automatically starts the effects of Rain Weather and Electric Terrain. The effects end when the Pokémon leaves the battle. (In case of stalemate the Pokémon with higher Will might keep the dominant Weather / Terrain)",
+    "Description": "",
+    "_id": "storm-warning"
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Eviolite",
+  "_id": "eviolite",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "If User can Evolve still, it gets +1 Defense and Sp.D",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

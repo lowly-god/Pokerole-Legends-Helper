@@ -1,0 +1,149 @@
+{
+  "Number": 1127,
+  "DexID": "1127",
+  "Name": "UB-20 Kite",
+  "Type1": "Poison",
+  "Type2": "Flying",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 4,
+  "MaxDexterity": 8,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Beast Boost",
+  "Ability2": "",
+  "HiddenAbility": "Polluted Atmosphere",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "ub-20-kite",
+  "DexCategory": "Ultra Beast",
+  "Height": {
+    "Meters": 0.69,
+    "Feet": 2.25
+  },
+  "Weight": {
+    "Kilograms": 12.7,
+    "Pounds": 28.0
+  },
+  "DexDescription": "Aether Foundation Log #1684: It clings to the underside of caves, taking to the skies at night. It seems to resemble aquatic Pokémon like Mantine more then those usually found in the skies. It's unclear how it manages to fly. The tip of its tail is coated with a strong venom.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Poison Sting"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Pluck"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Coil"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Poison Tail"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aerial Ace"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Pin Missile"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Embody Element"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Quash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cheap Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Rain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fell Stinger"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Toxic Spikes"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Armor"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Foul Play"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fly"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Leech Life"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Parting Shot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Power Whip"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gunk Shot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Barbed Spines"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Phantom Force"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Parasitize"
+    }
+  ]
+}

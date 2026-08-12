@@ -1,0 +1,137 @@
+{
+  "Number": 787,
+  "DexID": "0787F1",
+  "Name": "Tapu Bulu (Corrupted Form)",
+  "Type1": "Steel",
+  "Type2": "Fighting",
+  "BaseHP": 5,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 3,
+  "MaxDexterity": 7,
+  "Vitality": 4,
+  "MaxVitality": 8,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Beast Boost",
+  "Ability2": "",
+  "HiddenAbility": "Full Metal Body",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "tapu-bulu-corrupted-form",
+  "DexCategory": "Corrupted Island Guardian",
+  "Height": {
+    "Meters": 1.91,
+    "Feet": 6.25
+  },
+  "Weight": {
+    "Kilograms": 45.4,
+    "Pounds": 100.0
+  },
+  "DexDescription": "Aether Foundation Log #3777: The guardian of Ula'Ula island was corrupted by a strange power that emanated from an Ultra Wormhole.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Withdraw"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Arm Thrust"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Force Palm"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bulk Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Detect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sky Uppercut"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Counter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Iron Head"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Reversal"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Amnesia"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bullet Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Metal Burst"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hammer Arm"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Body Press"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Upper Hand"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wide Guard"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Shield Bash"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Belly Drum"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Z-Spiked Pummelling"
+    }
+  ]
+}

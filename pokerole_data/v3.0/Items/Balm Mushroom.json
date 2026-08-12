@@ -1,0 +1,13 @@
+{
+  "Name": "Balm Mushroom",
+  "_id": "balm-mushroom",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Miscellaneous",
+  "Description": "Valuable item",
+  "OneUse": true,
+  "TrainerPrice": "7500",
+  "Cures": "",
+  "Image": ""
+}

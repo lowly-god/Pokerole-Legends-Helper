@@ -1,0 +1,137 @@
+{
+  "Number": 1151,
+  "DexID": "1151",
+  "Name": "Iron Hammer",
+  "Type1": "Fighting",
+  "Type2": "Steel",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Quark Drive",
+  "Ability2": "",
+  "HiddenAbility": "Infiltrator",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "iron-hammer",
+  "DexCategory": "Paradox Pokémon",
+  "Height": {
+    "Meters": 0.71,
+    "Feet": 2.33
+  },
+  "Weight": {
+    "Kilograms": 115.7,
+    "Pounds": 255.0
+  },
+  "DexDescription": "This creature wields a hammer that should be far too heavy for it. It has been seen breaking up rocks and ore with it. What it uses the resultant minerals for is unknown however.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Baby-Doll Eyes"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Rock Smash"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Spectrum Analysis"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Brutal Swing"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Play Rough"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Knock Off"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Circle Throw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Take Down"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Detect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Meteor Mash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Chip Away"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Wide Guard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hammer Arm"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gigaton Hammer"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heavy Slam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Ice Hammer"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Electric Terrain"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dragon Hammer"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Giga Impact"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Shift Gear"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "Name": "Honor Blade",
+    "Type": "Dragon",
+    "Power": 3,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Strength/Dexterity",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Cutter Move. Never Miss. This Move may be used 1 additional time per Round, but only to Clash.",
+    "Description": "The User singles out its Target for an honorable duel.",
+    "_id": "honor-blade",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

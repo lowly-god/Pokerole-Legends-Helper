@@ -1,0 +1,141 @@
+{
+  "Number": 1058,
+  "DexID": "1058",
+  "Name": "Peckabone",
+  "Type1": "Flying",
+  "Type2": "Dark",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 1,
+  "MaxInsight": 3,
+  "Ability1": "Big Pecks",
+  "Ability2": "Intimidate",
+  "HiddenAbility": "Pressure",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "peckabone",
+  "DexCategory": "Carrion Eater Pokémon",
+  "Height": {
+    "Meters": 0.69,
+    "Feet": 2.25
+  },
+  "Weight": {
+    "Kilograms": 13.2,
+    "Pounds": 29.0
+  },
+  "DexDescription": "It is vindictive and temperamental, it hops around still unable to fly long distances yet. It feasts of carrion when it finds it.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Pluck"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Frustration"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Shadow Sneak"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Grudge"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Swagger"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Whirlwind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Wing Attack"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bone Rush"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Punishment"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Razor Wind"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dust Devil"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Parting Shot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Brave Bird"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Nasty Plot"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "Number": 1050,
+  "DexID": "1050",
+  "Name": "Fauxeary",
+  "Type1": "Ghost",
+  "Type2": "",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 1,
+  "MaxSpecial": 3,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Fluffy",
+  "Ability2": "Synchronize",
+  "HiddenAbility": "Field Support",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "fauxeary",
+  "DexCategory": "Faux Rabbit Pokémon",
+  "Height": {
+    "Meters": 0.41,
+    "Feet": 1.33
+  },
+  "Weight": {
+    "Kilograms": 4.5,
+    "Pounds": 10.0
+  },
+  "DexDescription": "Appearing amidst the laughter of children and the warmth of homes, it seeks love, though often does not receive it due to its rather scary appearance.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Defense Curl"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Baby-Doll Eyes"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Foresight"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "After You"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Frustration"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Shadow Punch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Baton Pass"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Shadow Sneak"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Curse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Kick"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Breach"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aura Strike"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bounce"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Jump Kick"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Foul Play"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Poltergeist"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Return"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Healing Wish"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Harrowing Wrath"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Fake Out"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Energy Root",
+  "_id": "energy-root",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Heals 10HP may lower happiness",
+  "OneUse": true,
+  "TrainerPrice": "1000",
+  "Cures": "",
+  "Image": ""
+}

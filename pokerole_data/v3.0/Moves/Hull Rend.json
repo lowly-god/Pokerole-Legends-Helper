@@ -1,0 +1,16 @@
+{
+    "Name": "Hull Rend",
+    "Type": "Water",
+    "Power": 3,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Strength",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Bite Move. If the Target is a Vehicle: Add +4 additional Damage Dice and Roll 4 Chance Dice to *Breach.",
+    "Description": "The User attempts to take a huge bite out of the Foe, with a mouth so large it can destroy the hull of vessels.",
+    "_id": "hull-rend",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

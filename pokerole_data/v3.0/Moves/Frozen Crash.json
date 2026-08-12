@@ -1,0 +1,16 @@
+{
+    "Name": "Frozen Crash",
+    "Type": "Ice",
+    "Power": 5,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Strength",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Recoil.",
+    "Description": "The User chills its body to the point it begins to harden, then launches itself at the Foe.",
+    "_id": "frozen-crash",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

@@ -1,0 +1,59 @@
+{
+  "Number": 876,
+  "DexID": "0876F3",
+  "Name": "Indeedee (Mega Form)",
+  "Type1": "Psychic",
+  "Type2": "Normal",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 4,
+  "MaxInsight": 8,
+  "Ability1": "Magic Bounce",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "M",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "indeedee-mega-form",
+  "DexCategory": "Emotion Pokémon",
+  "Height": {
+    "Meters": 1.22,
+    "Feet": 4.0
+  },
+  "Weight": {
+    "Kilograms": 31.3,
+    "Pounds": 69.0
+  },
+  "DexDescription": "The male of the species. These intelligent Pokémon touch each other's horns to communicate. They love to help and be of service because they gather power from feelings of gratitude.",
+  "Evolutions": [
+    {
+      "From": "Indeedee (Mega Form)",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Advanced",
+      "Name": "Heart Breaker"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rainbow Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Null Room"
+    }
+  ]
+}

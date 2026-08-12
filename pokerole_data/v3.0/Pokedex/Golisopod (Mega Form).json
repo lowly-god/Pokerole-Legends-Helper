@@ -1,0 +1,143 @@
+{
+  "Number": 768,
+  "DexID": "0768F2",
+  "Name": "Golisopod (Mega Form)",
+  "Type1": "Bug",
+  "Type2": "Steel",
+  "BaseHP": 5,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 1,
+  "MaxDexterity": 3,
+  "Vitality": 4,
+  "MaxVitality": 8,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Steel-Shell Carapace",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "golisopod-mega-form",
+  "DexCategory": "Hard Scale Pokémon",
+  "Height": {
+    "Meters": 2.31,
+    "Feet": 7.58
+  },
+  "Weight": {
+    "Kilograms": 147.9,
+    "Pounds": 326.0
+  },
+  "DexDescription": "This Pokémon is a rare sight, for most Wimpods never evolve and, when they do, Golisopod spend most of their lives in deep sea caves, meditating. It is extremely strong: its claws can tear through everything.",
+  "Evolutions": [
+    {
+      "From": "Golisopod",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Struggle Bug"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Defense Curl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Rock Smash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fury Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mud Shot"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bug Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sucker Punch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rollout"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Spikes"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Pin Missile"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Razor Shell"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Liquidation"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "First Impression"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wide Guard"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Aqua Jet"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Skitter Smack"
+    }
+  ]
+}

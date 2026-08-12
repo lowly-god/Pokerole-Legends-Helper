@@ -1,0 +1,155 @@
+{
+  "Number": 1068,
+  "DexID": "1068",
+  "Name": "Garbocean",
+  "Type1": "Water",
+  "Type2": "Poison",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Stench",
+  "Ability2": "Sticky Hold",
+  "HiddenAbility": "Storm Drain",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "garbocean",
+  "DexCategory": "Trash Heap Pokémon",
+  "Height": {
+    "Meters": 1.35,
+    "Feet": 4.42
+  },
+  "Weight": {
+    "Kilograms": 83.9,
+    "Pounds": 185.0
+  },
+  "DexDescription": "Garbocean was bio-engineered in a lab to help clean the ocean of trash off the coasts of Orre and Orrelborous.",
+  "Evolutions": [
+    {
+      "From": "Trubbish",
+      "Kind": "Special",
+      "Special": "Trubbish (Water Stone)"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Water Gun"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Poison Gas"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Recycle"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Acid Spray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Water Pulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Amnesia"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Infestation"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Clear Smog"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Brine"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Pollution"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Toxic Spikes"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Armor"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stockpile"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swallow"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Spit Up"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sludge Wave"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Aqua Ring"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hydro Pump"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Purify"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Scrap Metal"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gunk Shot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Meltdown"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Rain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Fang"
+    }
+  ]
+}

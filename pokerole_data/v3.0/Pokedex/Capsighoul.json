@@ -1,0 +1,145 @@
+{
+  "Number": 1055,
+  "DexID": "1055",
+  "Name": "Capsighoul",
+  "Type1": "Ghost",
+  "Type2": "Fire",
+  "BaseHP": 4,
+  "Strength": 1,
+  "MaxStrength": 3,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 1,
+  "MaxInsight": 3,
+  "Ability1": "Capsaicin Core",
+  "Ability2": "Regenerator",
+  "HiddenAbility": "Flame Body",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "capsighoul",
+  "DexCategory": "Ghost Pepper Pokémon",
+  "Height": {
+    "Meters": 0.51,
+    "Feet": 1.67
+  },
+  "Weight": {
+    "Kilograms": 12.7,
+    "Pounds": 28.0
+  },
+  "DexDescription": "This elusive Pokémon roams fields at night, leaving behind a faint ghost of a spicy aroma. Its presence is known to enhance the spiciness of nearby peppers.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Ember"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Night Shade"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Will-O-Wisp"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fire Spin"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Embargo"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hex"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Curse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psych Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Worry Seed"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Spicy Extract"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heat Wave"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Seed Bomb"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cleansing Fire"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Overheat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Siphon Life-Force"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Burning Jealousy"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Giga Drain"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cauterize"
+    }
+  ]
+}

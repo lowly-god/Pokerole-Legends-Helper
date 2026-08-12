@@ -1,0 +1,145 @@
+{
+  "Number": 170,
+  "DexID": "0170F1",
+  "Name": "Chinchou (Orrean Form)",
+  "Type1": "Ghost",
+  "Type2": "Electric",
+  "BaseHP": 3,
+  "Strength": 1,
+  "MaxStrength": 3,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Volt Absorb",
+  "Ability2": "Illuminate",
+  "HiddenAbility": "Breach The Depths",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "chinchou-orrean-form",
+  "DexCategory": "Anglerfish Pokémon",
+  "Height": {
+    "Meters": 0.51,
+    "Feet": 1.67
+  },
+  "Weight": {
+    "Kilograms": 11.8,
+    "Pounds": 26.0
+  },
+  "DexDescription": "It uses its strange baleful lights to lure prey, it lives in the deep ocean where no natural light reaches.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Thunder Wave"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Flail"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mean Look"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Eerie Impulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hex"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Shadow Sneak"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Water Gun"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Electro Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Signal Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Charge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Take Down"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Spark"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bubble Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Discharge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hydro Pump"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Aqua Ring"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Psybeam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Breach"
+    }
+  ]
+}

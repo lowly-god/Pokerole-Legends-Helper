@@ -1,0 +1,145 @@
+{
+  "Number": 1064,
+  "DexID": "1064",
+  "Name": "Macrabra",
+  "Type1": "Bug",
+  "Type2": "Dark",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Conceal",
+  "Ability2": "",
+  "HiddenAbility": "Shadow Shield",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "macrabra",
+  "DexCategory": "Ventricle Shell Pokémon",
+  "Height": {
+    "Meters": 0.53,
+    "Feet": 1.75
+  },
+  "Weight": {
+    "Kilograms": 19.1,
+    "Pounds": 42.0
+  },
+  "DexDescription": "Inside the shell of Macrabra is an intricate system of chambers that it can use to hide in. They also resonate sound in curious ways, instruments made from them are often quite sought after.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Withdraw"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Scratch"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bug Bite"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bug Buzz"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Crabhammer"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cheap Shot"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fury Cutter"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Foul Play"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sucker Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "First Impression"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Parasitize"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Crush Claw"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shadow Claw"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lunge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "U-Turn"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Shadow Tide"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Brace"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Toxic"
+    }
+  ]
+}

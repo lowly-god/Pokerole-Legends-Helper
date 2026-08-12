@@ -1,0 +1,161 @@
+{
+  "Number": 659,
+  "DexID": "0659F1",
+  "Name": "Bunnelby (Ruskovan Form)",
+  "Type1": "Ground",
+  "Type2": "Ice",
+  "BaseHP": 3,
+  "Strength": 1,
+  "MaxStrength": 3,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 1,
+  "MaxSpecial": 3,
+  "Insight": 1,
+  "MaxInsight": 3,
+  "Ability1": "Cheek Pouch",
+  "Ability2": "Snow Cloak",
+  "HiddenAbility": "Huge Power",
+  "EventAbilities": "",
+  "RecommendedRank": "Starter",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "bunnelby-ruskovan-form",
+  "DexCategory": "Digging Pokémon",
+  "Height": {
+    "Meters": 0.41,
+    "Feet": 1.33
+  },
+  "Weight": {
+    "Kilograms": 5.0,
+    "Pounds": 11.0
+  },
+  "DexDescription": "It lives on the Tundra and above the snowline, making elaborate burrows. It's main predator is Tungryph.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Quick Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ice Ball"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mud Slap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Slap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Odor Sleuth"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bounce"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ice Punch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hail"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bulk Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rototiller"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Frost Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bulldoze"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Earthquake"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Super Fang"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Aurora Veil"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Black Ice"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Snowy Terrain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hammer Arm"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Ice Hammer"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Frozen Crash"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Belly Drum"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Rollout"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Discombobulate"
+    }
+  ]
+}

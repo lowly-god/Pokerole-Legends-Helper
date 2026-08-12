@@ -1,0 +1,6 @@
+{
+    "Name": "Reality Warping Swarm",
+    "Effect": "If any Active Combatant starts their Turn within the Swarm, they take 1 Dice of Damage.",
+    "Description": "",
+    "_id": "reality-warping-swarm"
+}

@@ -1,0 +1,135 @@
+{
+  "Number": 272,
+  "DexID": "0272F1",
+  "Name": "Ludicolo (Mega Form)",
+  "Type1": "Water",
+  "Type2": "Grass",
+  "BaseHP": 6,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Dancer",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "ludicolo-mega-form",
+  "DexCategory": "Carefree Pokémon",
+  "Height": {
+    "Meters": 1.68,
+    "Feet": 5.5
+  },
+  "Weight": {
+    "Kilograms": 61.7,
+    "Pounds": 136.0
+  },
+  "DexDescription": "Ludicolo starts dancing at the sound of music. Pokémon and people will dance as well. They are said to appear when children sing. They love festive places and parties.",
+  "Evolutions": [
+    {
+      "From": "Ludicolo",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Absorb"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Water Gun"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Nature Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Teeter Dance"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fury Swipes"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mist"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mega Drain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Knock Off"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bubble Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Energy Ball"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Zen Headbutt"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Giga Drain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Counter"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Entrainment"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hydro Pump"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Ice Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Tropic Storm"
+    }
+  ]
+}

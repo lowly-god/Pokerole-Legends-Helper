@@ -1,0 +1,155 @@
+{
+  "Number": 359,
+  "DexID": "0359F1",
+  "Name": "Absol (Mega Z Form)",
+  "Type1": "Dark",
+  "Type2": "Ghost",
+  "BaseHP": 5,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 4,
+  "MaxDexterity": 8,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Tough Claws",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "absol-mega-z-form",
+  "DexCategory": "Disaster Pokémon",
+  "Height": {
+    "Meters": 1.19,
+    "Feet": 3.92
+  },
+  "Weight": {
+    "Kilograms": 49.0,
+    "Pounds": 108.0
+  },
+  "DexDescription": "It is said that this Pokémon can live for 100 years. It has a bad reputation: whenever one is seen, a disaster is soon to follow - earthquakes, forest fires, and tidal waves. Absol lead a lonely life.",
+  "Evolutions": [
+    {
+      "From": "Absol",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Scratch"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Quick Attack"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Knock Off"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Feint"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Detect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Pursuit"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Me First"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Razor Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Focus Energy"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sucker Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Megahorn"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psycho Cut"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Perish Song"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Future Sight"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Play Rough"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hex"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shadow Tide"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heart Breaker"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Absolute Zero"
+    }
+  ]
+}

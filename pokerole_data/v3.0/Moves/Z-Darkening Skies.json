@@ -1,0 +1,18 @@
+{
+    "Name": "Z-Darkening Skies",
+    "Type": "Flying",
+    "Power": "5  + HAPPINESS + LOYALTY",
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Strength",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Lethal. Roll 2 Chance Dice to Flinch the Foe. Roll 2 Chance Dice to Reduce the Foe's Strength by 1. Add 2 Dice to the Damage Pool of this Move in Midnight Weather.",
+    "Description": "The User flies high, blotting out the sun above the Target before crashing back down on them.",
+    "_id": "z-darkening-skies",
+    "Attributes": {
+        "ZMove": true
+    },
+    "AddedEffects": {},
+    "Category": "Physical"
+}

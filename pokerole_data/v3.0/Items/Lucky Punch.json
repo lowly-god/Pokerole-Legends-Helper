@@ -1,0 +1,13 @@
+{
+  "Name": "Lucky Punch",
+  "_id": "lucky-punch",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Chansey and Blissey’s Moves gain High Critical",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

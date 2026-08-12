@@ -1,0 +1,16 @@
+{
+    "Name": "Spectral Tentacles",
+    "Type": "Dark",
+    "Power": 3,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Special",
+    "Accuracy2": "Channel",
+    "Target": "All Foes",
+    "Effect": "Blocks. Ongoing. Roll 3 Chance Dice to Block those affected. Each Foe Blocked in this way takes 2 Dice of Damage at the end of the Round. Duration 4 Rounds.",
+    "Description": "The User manifests strange dark spectral tentacles to apprehend and restrict its foes.",
+    "_id": "spectral-tentacles",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

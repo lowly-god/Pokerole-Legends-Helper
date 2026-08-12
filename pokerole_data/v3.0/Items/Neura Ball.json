@@ -1,0 +1,13 @@
+{
+  "Name": "Neura Ball",
+  "_id": "neura-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Other Balls",
+  "Category": "Other Balls",
+  "Description": "4d6, if Trainer has neural augmentation they may roll 4d6 + Will",
+  "OneUse": true,
+  "TrainerPrice": "N/A",
+  "Cures": "",
+  "Image": ""
+}

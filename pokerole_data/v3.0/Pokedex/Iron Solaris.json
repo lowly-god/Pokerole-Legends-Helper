@@ -1,0 +1,137 @@
+{
+  "Number": 1152,
+  "DexID": "1152",
+  "Name": "Iron Solaris",
+  "Type1": "Dragon",
+  "Type2": "Fire",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Quark Drive",
+  "Ability2": "",
+  "HiddenAbility": "Diurnal",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "iron-solaris",
+  "DexCategory": "Paradox Pokémon",
+  "Height": {
+    "Meters": 2.03,
+    "Feet": 6.67
+  },
+  "Weight": {
+    "Kilograms": 95.3,
+    "Pounds": 210.0
+  },
+  "DexDescription": "Iron Solaris seems to absorb radiation from solar rays, converting them into heat which it then uses to attack.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Ember"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Dragon Rage"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Spectrum Analysis"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Caustic Breath"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Will-O-Wisp"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fire Spin"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sonic Boom"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flamethrower"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imperial Majesty"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Electric Terrain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Charge Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Solar Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Overheat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Bug Buzz"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Uncontrolled Burn Off"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Draco Meteor"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Inferno"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Sandstorm Serenade"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cauterize"
+    }
+  ]
+}

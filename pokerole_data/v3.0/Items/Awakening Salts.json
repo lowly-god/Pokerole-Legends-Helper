@@ -1,0 +1,13 @@
+{
+  "Name": "Awakening Salts",
+  "_id": "awakening-salts",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Medicine",
+  "Category": "Medicine",
+  "Description": "Cures Sleep Status Condition",
+  "OneUse": true,
+  "TrainerPrice": "250",
+  "Cures": "",
+  "Image": ""
+}

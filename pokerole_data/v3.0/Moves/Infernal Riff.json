@@ -1,0 +1,16 @@
+{
+    "Name": "Infernal Riff",
+    "Type": "Fire",
+    "Power": 3,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Special",
+    "Accuracy2": "Perform",
+    "Target": "All Foes",
+    "Effect": "Sound Move.",
+    "Description": "The User creates a hellish sound that you can't help but groove to.",
+    "_id": "infernal-riff",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

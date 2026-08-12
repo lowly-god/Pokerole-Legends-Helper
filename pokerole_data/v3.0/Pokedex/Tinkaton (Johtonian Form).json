@@ -1,0 +1,149 @@
+{
+  "Number": 959,
+  "DexID": "0959F1",
+  "Name": "Tinkaton (Johtonian Form)",
+  "Type1": "Steel",
+  "Type2": "Ghost",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Mold Breaker",
+  "Ability2": "Infiltrator",
+  "HiddenAbility": "Sharpness",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "tinkaton-johtonian-form",
+  "DexCategory": "Spectral Swordsman Pokémon",
+  "Height": {
+    "Meters": 0.76,
+    "Feet": 2.5
+  },
+  "Weight": {
+    "Kilograms": 44.5,
+    "Pounds": 98.0
+  },
+  "DexDescription": "The blade glows with a baleful blue light, its edge honed to an impossibly sharp edge. Some say it is able to cut the fabric of reality itself when it swings it.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fury Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Metal Sound"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thief"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Curse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Shadow Sneak"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Edge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spectral Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Snatch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Brutal Swing"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psycho Cut"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sacred Sword"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gear Up"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Phantom Force"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Play Rough"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Metal Burst"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Destiny Bond"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Slayer"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Scrap Metal"
+    }
+  ]
+}

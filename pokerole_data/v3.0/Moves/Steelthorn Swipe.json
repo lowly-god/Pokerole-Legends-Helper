@@ -1,0 +1,16 @@
+{
+    "Name": "Steelthorn Swipe",
+    "Type": "Steel",
+    "Power": 3,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Dexterity",
+    "Accuracy2": "Alert",
+    "Target": "Foe",
+    "Effect": "Cutter Move. If the User is Asleep this Move gains Reaction 1. Never Miss.",
+    "Description": "This Pokémon uses its blinding speed and reflexes to swipe at the opponent.",
+    "_id": "steelthorn-swipe",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

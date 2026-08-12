@@ -1,0 +1,141 @@
+{
+  "Number": 1028,
+  "DexID": "1028",
+  "Name": "Champeon",
+  "Type1": "Fighting",
+  "Type2": "",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "No Guard",
+  "Ability2": "",
+  "HiddenAbility": "Anger Point",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "champeon",
+  "DexCategory": "Brawler Pokémon",
+  "Height": {
+    "Meters": 1.02,
+    "Feet": 3.33
+  },
+  "Weight": {
+    "Kilograms": 26.8,
+    "Pounds": 59.0
+  },
+  "DexDescription": "Champeon has a dauntless spirit, no matter how many times it gets beaten down, it will refuse to give up. The older and more experienced this Pokémon gets, the more scars it has.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Tail Whip"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Low Kick"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Detect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Kick"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Feint Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Take Down"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Counter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bulk Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Brick Break"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flame Charge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Quick Guard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Retaliate"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Submission"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psych Up"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sucker Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Stomping Tantrum"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wish"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Extreme Speed"
+    }
+  ]
+}

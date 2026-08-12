@@ -1,0 +1,141 @@
+{
+  "Number": 1134,
+  "DexID": "1134",
+  "Name": "UB-27 Wraith",
+  "Type1": "Dragon",
+  "Type2": "Ghost",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 7,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Beast Boost",
+  "Ability2": "",
+  "HiddenAbility": "Mold Breaker",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "ub-27-wraith",
+  "DexCategory": "Ultra Beast",
+  "Height": {
+    "Meters": 1.7,
+    "Feet": 5.58
+  },
+  "Weight": {
+    "Kilograms": 67.1,
+    "Pounds": 148.0
+  },
+  "DexDescription": "Aether Foundation Log #2997: UB-Wraith’s wrappings seem to glow with energy, becoming brighter when it is enraged. Upon closer inspection the markings appear to be some form of language, though it shares no commonalities with any known dialects. It appears to be able to control them as if they where extensions of its body rather then a covering.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Twister"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Wrap"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Night Shade"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ominous Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Will-O-Wisp"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dragon Breath"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hidden Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Breach"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Burning Jealousy"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Miasma"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Siphon Life-Force"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Runewrap Spear"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Draco Meteor"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hoarfrost Moon"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imperial Majesty"
+    }
+  ]
+}

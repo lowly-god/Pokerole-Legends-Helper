@@ -1,0 +1,13 @@
+{
+  "Name": "Rusted Sword",
+  "_id": "rusted-sword",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Items",
+  "Category": "Special Items",
+  "Description": "Allows Zacian to transform",
+  "OneUse": false,
+  "TrainerPrice": "60000",
+  "Cures": "",
+  "Image": ""
+}

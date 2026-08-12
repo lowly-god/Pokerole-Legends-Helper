@@ -1,0 +1,155 @@
+{
+  "Number": 1042,
+  "DexID": "1042",
+  "Name": "Mieneira",
+  "Type1": "Fighting",
+  "Type2": "Dragon",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Inner Focus",
+  "Ability2": "Dancer",
+  "HiddenAbility": "Reckless",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "mieneira",
+  "DexCategory": "Martial Arts Pokémon",
+  "Height": {
+    "Meters": 1.5,
+    "Feet": 4.92
+  },
+  "Weight": {
+    "Kilograms": 44.5,
+    "Pounds": 98.0
+  },
+  "DexDescription": "It sees fighting as a dance, unfortunately its partners never live up to its expectations.",
+  "Evolutions": [
+    {
+      "From": "Mienshao",
+      "Kind": "Special",
+      "Special": "Mienshao (Brave Stone)"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Pound"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Meditate"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Detect"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Slap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Force Palm"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dragon Breath"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Reversal"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Blaze Kick"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reversal"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aura Sphere"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aura Strike"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Drain Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Jump Kick"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "U-Turn"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Imperial Majesty"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "High Jump Kick"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wide Guard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Breaking Swipe"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dual Chop"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    }
+  ]
+}

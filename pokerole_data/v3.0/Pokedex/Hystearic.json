@@ -1,0 +1,145 @@
+{
+  "Number": 1106,
+  "DexID": "1106",
+  "Name": "Hystearic",
+  "Type1": "Grass",
+  "Type2": "Fairy",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 1,
+  "MaxDexterity": 3,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Moody",
+  "Ability2": "",
+  "HiddenAbility": "Contrary",
+  "EventAbilities": "",
+  "RecommendedRank": "Starter",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "hystearic",
+  "DexCategory": "Mandrake Pokémon",
+  "Height": {
+    "Meters": 0.33,
+    "Feet": 1.08
+  },
+  "Weight": {
+    "Kilograms": 6.8,
+    "Pounds": 15.0
+  },
+  "DexDescription": "In the deep dark old forests it calls home, wailing can be heard from Hystearic. If anything goes wrong for it, it breaks down in tears.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Pound"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Fake Tears"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Disarming Voice"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Magical Leaf"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Draining Kiss"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thief"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bullet Seed"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Grass Whistle"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Grass Knot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Ingrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Synthesis"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fisticuffs"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Seed Bomb"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Grassy Terrain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Alluring Voice"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Floral Healing"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spirit Break"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Strength Sap"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Uproot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Forest's Curse"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Power Whip"
+    }
+  ]
+}

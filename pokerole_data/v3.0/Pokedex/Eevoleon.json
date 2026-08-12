@@ -1,0 +1,149 @@
+{
+  "Number": 1035,
+  "DexID": "1035",
+  "Name": "Eevoleon",
+  "Type1": "Normal",
+  "Type2": "",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Mimicry",
+  "Ability2": "Adaptability",
+  "HiddenAbility": "Protean",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "eevoleon",
+  "DexCategory": "Adapted Pokémon",
+  "Height": {
+    "Meters": 1.07,
+    "Feet": 3.5
+  },
+  "Weight": {
+    "Kilograms": 29.0,
+    "Pounds": 64.0
+  },
+  "DexDescription": "Eevoleon, was discovered recently. This evolution of Eevee seems to have a completely stabilized DNA. It can harness the power of the entire type spectrum.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Shadow Sneak"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Covet"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Power Gem"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Knock Off"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Iron Tail"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Low Kick"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Embody Element"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Terrain Pulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Thunderbolt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Jet"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Poison Jab"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acrobatics"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Double-Edge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Nature Power"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Ice Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "U-Turn"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dust Devil"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Reflect Type"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wish"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hyper Voice"
+    }
+  ]
+}

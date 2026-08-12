@@ -1,0 +1,13 @@
+{
+  "Name": "Dragon Fang",
+  "_id": "dragon-fang",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Dragon Moves gain +1 additional Damage Dice",
+  "OneUse": false,
+  "TrainerPrice": "2500",
+  "Cures": "",
+  "Image": ""
+}

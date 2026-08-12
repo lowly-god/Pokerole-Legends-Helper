@@ -1,0 +1,179 @@
+{
+  "Number": 1069,
+  "DexID": "1069",
+  "Name": "Eruptoise",
+  "Type1": "Fire",
+  "Type2": "Water",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 1,
+  "MaxDexterity": 3,
+  "Vitality": 4,
+  "MaxVitality": 8,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "White Smoke",
+  "Ability2": "Drought",
+  "HiddenAbility": "Shell Armor",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "eruptoise",
+  "DexCategory": "Steam Vent Pokémon",
+  "Height": {
+    "Meters": 0.99,
+    "Feet": 3.25
+  },
+  "Weight": {
+    "Kilograms": 117.9,
+    "Pounds": 260.0
+  },
+  "DexDescription": "Many famous hot springs have Eruptoise living near by, the waters can reach exceedingly high temperatures where they congregate.",
+  "Evolutions": [
+    {
+      "From": "Torkoal",
+      "Kind": "Special",
+      "Special": "Torkoal (Slow)"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Ember"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Smog"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Withdraw"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Rapid Spin"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Smokescreen"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Water Gun"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flame Wheel"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Curse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Amnesia"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fire Spin"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Body Slam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Water Sport"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Scald"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lava Plume"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flamethrower"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heat Wave"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hydro Steam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Inferno"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shell Smash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Strange Steam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Clear Smog"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Scorching Sands"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Eruption"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Water Spout"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cauterize"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Magma Drift"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Uncontrolled Burn Off"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gaia Force"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Brace"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Fang"
+    }
+  ]
+}

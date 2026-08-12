@@ -1,0 +1,13 @@
+{
+  "Name": "Wide Lens",
+  "_id": "wide-lens",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "The holder’s Moves gain +1 Accuracy Dice",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,157 @@
+{
+  "Number": 611,
+  "DexID": "0611F1",
+  "Name": "Fraxure (Orrean Form)",
+  "Type1": "Dragon",
+  "Type2": "Rock",
+  "BaseHP": 4,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 1,
+  "MaxSpecial": 3,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Mold Breaker",
+  "Ability2": "Flinty Spirit",
+  "HiddenAbility": "Rock Head",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "fraxure-orrean-form",
+  "DexCategory": "Flint Tusk Pokémon",
+  "Height": {
+    "Meters": 0.99,
+    "Feet": 3.25
+  },
+  "Weight": {
+    "Kilograms": 37.6,
+    "Pounds": 83.0
+  },
+  "DexDescription": "It has an angry temperament, and will but heads with other Pokémon and people in its territory.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Horn Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sandstorm"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Accelerock"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dragon Claw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rock Smash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stalacbite"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Tail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dual Chop"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Rage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Head Smash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Guillotine"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Megahorn"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wide Guard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Giga Impact"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Rock Polish"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "First Impression"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Earthquake"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Counter"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    }
+  ]
+}

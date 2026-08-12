@@ -1,0 +1,16 @@
+{
+    "Name": "Neurotoxin Needle",
+    "Type": "Poison",
+    "Power": 4,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Dexterity",
+    "Accuracy2": "Channel",
+    "Target": "Foe",
+    "Effect": "Roll 2 Chance Dice to Paralyze and 2 to Poison the Foe.",
+    "Description": "The User shoots a horrible toxin covered needle into the Foe.",
+    "_id": "neurotoxin-needle",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

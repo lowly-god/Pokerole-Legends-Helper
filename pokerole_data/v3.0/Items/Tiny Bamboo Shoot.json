@@ -1,0 +1,13 @@
+{
+  "Name": "Tiny Bamboo Shoot",
+  "_id": "tiny-bamboo-shoot",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Miscellaneous",
+  "Description": "Valuable item",
+  "OneUse": true,
+  "TrainerPrice": "375",
+  "Cures": "",
+  "Image": ""
+}

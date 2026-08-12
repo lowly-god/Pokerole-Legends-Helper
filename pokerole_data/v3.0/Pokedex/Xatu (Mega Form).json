@@ -1,0 +1,139 @@
+{
+  "Number": 178,
+  "DexID": "0178F1",
+  "Name": "Xatu (Mega Form)",
+  "Type1": "Psychic",
+  "Type2": "Flying",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Clairvoyant",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "xatu-mega-form",
+  "DexCategory": "Mystic Pokémon",
+  "Height": {
+    "Meters": 1.57,
+    "Feet": 5.17
+  },
+  "Weight": {
+    "Kilograms": 31.3,
+    "Pounds": 69.0
+  },
+  "DexDescription": "Xatu is known to stand motionless while staring at the sun all day long. Some people revere it as a mystical Pokémon out of their belief that Xatu have the power to see into the future.",
+  "Evolutions": [
+    {
+      "From": "Xatu",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Peck"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Night Shade"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Teleport"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Miracle Eye"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Me First"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Ominous Wind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lucky Chant"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stored Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psycho Shift"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Guard Swap"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Power Swap"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wish"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Future Sight"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Roost"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Heat Wave"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybolt"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Singularity"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "Number": 1166,
+  "DexID": "1166F2",
+  "Name": "Spectrelec (Aerodactyl Form)",
+  "Type1": "Ghost",
+  "Type2": "Rock",
+  "BaseHP": 4,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 3,
+  "MaxDexterity": 7,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Levitate",
+  "Ability2": "",
+  "HiddenAbility": "Nocturnal",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "spectrelec-aerodactyl-form",
+  "DexCategory": "Possessed Bone Pokémon",
+  "Height": {
+    "Meters": 1.83,
+    "Feet": 6.0
+  },
+  "Weight": {
+    "Kilograms": 97.5,
+    "Pounds": 215.0
+  },
+  "DexDescription": "Vengeful spirits possessed fossils at a dig site! Sometimes that which is buried best remains that way.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Curse"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bone Club"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rock Tomb"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cheap Shot"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mean Look"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Bone"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bone Rush"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rock Polish"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Poltergeist"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Wing Attack"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Accelerock"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Harrowing Wrath"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Stealth Rock"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Head Smash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Acrobatics"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Sky Drop"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lapidify"
+    }
+  ]
+}

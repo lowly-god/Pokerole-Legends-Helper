@@ -1,0 +1,149 @@
+{
+  "Number": 1030,
+  "DexID": "1030",
+  "Name": "Papilleon",
+  "Type1": "Bug",
+  "Type2": "",
+  "BaseHP": 6,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Serene Grace",
+  "Ability2": "",
+  "HiddenAbility": "Super Luck",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "papilleon",
+  "DexCategory": "Insectoid Pokémon",
+  "Height": {
+    "Meters": 1.09,
+    "Feet": 3.58
+  },
+  "Weight": {
+    "Kilograms": 29.0,
+    "Pounds": 64.0
+  },
+  "DexDescription": "It's wing like ears and antennae pick up the slightest vibrations in air currents, allowing it to fight almost blind.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Struggle Bug"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Silver Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Powder"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sleep Powder"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psywave"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Charm"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Disarming Voice"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Signal Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Snatch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "U-Turn"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Air Cutter"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Quiver Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Breath"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nature Power"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Bug Buzz"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonlight"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wish"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Giga Drain"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tail Glow"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Parasitize"
+    }
+  ]
+}

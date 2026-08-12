@@ -1,0 +1,129 @@
+{
+  "Number": 1109,
+  "DexID": "1109",
+  "Name": "Halofin",
+  "Type1": "Fairy",
+  "Type2": "Flying",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Misty Surge",
+  "Ability2": "Swift Swim",
+  "HiddenAbility": "Gale Wings",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "halofin",
+  "DexCategory": "Angel Fish Pokémon",
+  "Height": {
+    "Meters": 0.46,
+    "Feet": 1.5
+  },
+  "Weight": {
+    "Kilograms": 4.5,
+    "Pounds": 10.0
+  },
+  "DexDescription": "When the sun begins to set you can see shoals of Halofin darting through the sky like tiny moving celestial bodies.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Baby-Doll Eyes"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Gust"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fairy Wind"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Draining Kiss"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aqua Ring"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Charm"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sweet Kiss"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Razor Wind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mist"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Misty Terrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hidden Power"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonlight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lucky Chant"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hurricane"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hoarfrost Moon"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Alchemist’s Tools",
+  "_id": "alchemist-s-tools",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Tools",
+  "Category": "Tools",
+  "Description": "Gives +2 Bonus Dice to checks made when crafting Healing Items",
+  "OneUse": false,
+  "TrainerPrice": "10000",
+  "Cures": "",
+  "Image": ""
+}

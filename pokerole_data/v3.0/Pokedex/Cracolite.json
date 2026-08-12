@@ -1,0 +1,149 @@
+{
+  "Number": 1053,
+  "DexID": "1053",
+  "Name": "Cracolite",
+  "Type1": "Water",
+  "Type2": "Ground",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 1,
+  "MaxDexterity": 3,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 1,
+  "MaxSpecial": 3,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Shell Armor",
+  "Ability2": "Tough Claws",
+  "HiddenAbility": "Water Bubble",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "cracolite",
+  "DexCategory": "Dune Landscaper Pokémon",
+  "Height": {
+    "Meters": 0.81,
+    "Feet": 2.67
+  },
+  "Weight": {
+    "Kilograms": 37.2,
+    "Pounds": 82.0
+  },
+  "DexDescription": "Cracolite makes its home on chilly shores. In the summer it digs down deep beneath the sand to wait out the hot Weather.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Scratch"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bubble"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Withdraw"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Mud Slap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bubble Beam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Clamp"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Soak"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bulldoze"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Crabhammer"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Ring"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rototiller"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Chip Away"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Aqua Cutter"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "X-Scissor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Razor Shell"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Shore Up"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Ice Hammer"
+    }
+  ]
+}

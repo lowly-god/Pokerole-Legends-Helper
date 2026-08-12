@@ -1,0 +1,141 @@
+{
+  "Number": 1142,
+  "DexID": "1142",
+  "Name": "Terror Byte",
+  "Type1": "Normal",
+  "Type2": "Dragon",
+  "BaseHP": 5,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 6,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Protosynthesis",
+  "Ability2": "",
+  "HiddenAbility": "Strong Jaw",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "terror-byte",
+  "DexCategory": "Paradox Pokémon",
+  "Height": {
+    "Meters": 1.12,
+    "Feet": 3.67
+  },
+  "Weight": {
+    "Kilograms": 54.9,
+    "Pounds": 121.0
+  },
+  "DexDescription": "It is similar to a creature described in Occulture magazine. Supposedly it has a biting force of 10000 psi.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Recycle"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Primal Instinct"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mean Look"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Take Down"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hyper Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fire Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Thunder Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Ice Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Super Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Claw"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Draco Jaw"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Giga Impact"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Endeavor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Head Smash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Facade"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Aerial Ace"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Zen Headbutt"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Firewall"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Fang"
+    }
+  ]
+}

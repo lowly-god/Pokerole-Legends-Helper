@@ -1,0 +1,13 @@
+{
+  "Name": "Dragon Scale",
+  "_id": "dragon-scale",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Evolves Seadra into Kingdra",
+  "OneUse": true,
+  "TrainerPrice": "8000",
+  "Cures": "",
+  "Image": ""
+}

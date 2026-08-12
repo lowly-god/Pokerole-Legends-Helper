@@ -1,0 +1,16 @@
+{
+    "Name": "Acid Rain",
+    "Type": "Poison",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Special/Insight",
+    "Accuracy2": "Nature",
+    "Target": "Battlefield",
+    "Effect": "Activate Acid Rain Weather. Duration 4 Rounds.",
+    "Description": "The User summons a toxic downpour, inflicting Damage on all Pokémon in the battle over time, as the corrosive rain eats away at their health.",
+    "_id": "acid-rain",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

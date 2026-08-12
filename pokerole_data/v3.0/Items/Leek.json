@@ -1,0 +1,13 @@
+{
+  "Name": "Leek",
+  "_id": "leek",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Farfetch’d, G. Farfetch’d and Sirfetch’d’s Moves gain High Crit",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

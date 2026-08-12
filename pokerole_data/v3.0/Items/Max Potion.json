@@ -1,0 +1,13 @@
+{
+  "Name": "Max Potion",
+  "_id": "max-potion",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Medicine",
+  "Category": "Medicine",
+  "Description": "Restores full HP",
+  "OneUse": true,
+  "TrainerPrice": "1000",
+  "Cures": "",
+  "Image": ""
+}

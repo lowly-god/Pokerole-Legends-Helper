@@ -1,0 +1,13 @@
+{
+  "Name": "Aspear Berry",
+  "_id": "aspear-berry",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Cures Frostbite (1), Frostbite (2)",
+  "OneUse": true,
+  "TrainerPrice": "200",
+  "Cures": "",
+  "Image": ""
+}

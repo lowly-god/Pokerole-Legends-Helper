@@ -1,0 +1,13 @@
+{
+  "Name": "Soothe Bell",
+  "_id": "soothe-bell",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "The holder gains Happiness and Loyalty quicker",
+  "OneUse": false,
+  "TrainerPrice": "5000",
+  "Cures": "",
+  "Image": ""
+}

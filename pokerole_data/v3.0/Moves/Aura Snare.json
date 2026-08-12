@@ -1,0 +1,16 @@
+{
+    "Name": "Aura Snare",
+    "Type": "Psychic",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Insight",
+    "Accuracy2": "Alert/Aura",
+    "Target": "Foe",
+    "Effect": "All the User's Moves against the Target have Never Miss.",
+    "Description": "The User tracks its quarry with relentless precision.",
+    "_id": "aura-snare",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

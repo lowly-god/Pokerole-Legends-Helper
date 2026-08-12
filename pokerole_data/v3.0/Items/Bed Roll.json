@@ -1,0 +1,13 @@
+{
+  "Name": "Bed Roll",
+  "_id": "bed-roll",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Adventuring Gear",
+  "Category": "Adventuring Gear",
+  "Description": "Bed roll",
+  "OneUse": false,
+  "TrainerPrice": "300",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,16 @@
+{
+    "Name": "Piledriver",
+    "Type": "Ground",
+    "Power": 3,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Dexterity",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "This Move has Flying Sub-Typing.",
+    "Description": "The User grabs the Target, taking to the air before bringing the Target down head-first, driving it into the ground.",
+    "_id": "piledriver",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Lum Berry",
+  "_id": "lum-berry",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Full Heal",
+  "OneUse": true,
+  "TrainerPrice": "650",
+  "Cures": "",
+  "Image": ""
+}

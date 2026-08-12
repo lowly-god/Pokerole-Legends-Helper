@@ -1,0 +1,16 @@
+{
+    "Name": "Anti-Gravity",
+    "Type": "Psychic",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Special/Clever",
+    "Accuracy2": "Channel",
+    "Target": "Foe",
+    "Effect": "All Active Combatants gain Immunity to Ground-Type Moves. Lasts 4 Rounds.",
+    "Description": "The User uses an odd power to reduce the effects of gravity in a small area temporarily.",
+    "_id": "anti-gravity",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

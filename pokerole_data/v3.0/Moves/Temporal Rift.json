@@ -1,0 +1,16 @@
+{
+    "Name": "Temporal Rift",
+    "Type": "Dragon",
+    "Power": 4,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Special",
+    "Accuracy2": "Channel",
+    "Target": "Foe",
+    "Effect": "Lethal. Roll 3 Chance Dice to *Petrify the Foe.",
+    "Description": "The User causes a rift in time, focussing its energy onto the Foe.",
+    "_id": "temporal-rift",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

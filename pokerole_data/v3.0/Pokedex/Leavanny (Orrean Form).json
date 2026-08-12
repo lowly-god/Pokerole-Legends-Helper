@@ -1,0 +1,137 @@
+{
+  "Number": 542,
+  "DexID": "0542F1",
+  "Name": "Leavanny (Orrean Form)",
+  "Type1": "Bug",
+  "Type2": "Dragon",
+  "BaseHP": 5,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Sharpness",
+  "Ability2": "Swarm",
+  "HiddenAbility": "Anger Point",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "leavanny-orrean-form",
+  "DexCategory": "Samurai Pokémon",
+  "Height": {
+    "Meters": 1.45,
+    "Feet": 4.75
+  },
+  "Weight": {
+    "Kilograms": 35.8,
+    "Pounds": 79.0
+  },
+  "DexDescription": "It is fiercely protective of smaller Pokémon, but avoids conflict if possible and will try to intimidate predators instead. The leaves on Leavanny's arms are razor sharp.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "String Shot"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Razor Leaf"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fury Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "False Swipe"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dual Chop"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Baton Pass"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Honor Blade"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Leaf Blade"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fell Stinger"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cross Poison"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Breaking Swipe"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "First Impression"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "X-Scissor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Sacred Sword"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Discombobulate"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Vorpal Blade"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    }
+  ]
+}

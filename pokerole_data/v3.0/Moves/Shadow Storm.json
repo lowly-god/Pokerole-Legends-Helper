@@ -1,0 +1,16 @@
+{
+    "Name": "Shadow Storm",
+    "Type": "Shadow",
+    "Power": 3,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Special",
+    "Accuracy2": "Channel",
+    "Target": "All Foes",
+    "Effect": "Wind Move. In Shadow Terrain this Move gains +2 additional Damage Dice.",
+    "Description": "A shadowy aura is used to whip up a vicious tornado.",
+    "_id": "shadow-storm",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

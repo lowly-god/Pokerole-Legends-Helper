@@ -1,0 +1,16 @@
+{
+    "Name": "Cauterize",
+    "Type": "Fire",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Clever",
+    "Accuracy2": "Channel",
+    "Target": "One Ally",
+    "Effect": "Basic Heal. Stabilizes Lethal Damage. The Target suffers Burn (1).",
+    "Description": "The User seals wounds with its intense heat, leaving minor burns around the area.",
+    "_id": "cauterize",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

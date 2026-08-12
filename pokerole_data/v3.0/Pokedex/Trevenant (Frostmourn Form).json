@@ -1,0 +1,145 @@
+{
+  "Number": 709,
+  "DexID": "0709F1",
+  "Name": "Trevenant (Frostmourn Form)",
+  "Type1": "Ghost",
+  "Type2": "Grass",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Flash Freeze",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "trevenant-frostmourn-form",
+  "DexCategory": "White-Wood Tree Pokémon",
+  "Height": {
+    "Meters": 2.49,
+    "Feet": 8.17
+  },
+  "Weight": {
+    "Kilograms": 102.5,
+    "Pounds": 226.0
+  },
+  "DexDescription": "During unseasonably long and cold winters in the east of Kalos, Frostmourn Trevenant is said to wander the woods. Foresters and hunters nearby fear its wrath and move their camps elsewhere.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Branch Poke"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Leech Seed"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hex"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Growth"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Feint Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Absolute Zero"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Horn Leech"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Curse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Ingrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Uproot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imprison"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Disable"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Ice Shard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Brutal Swing"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Phantom Force"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wood Hammer"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Destiny Bond"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Forest's Curse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Ice Hammer"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Harrowing Wrath"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Frozen Crash"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Grudge"
+    }
+  ]
+}

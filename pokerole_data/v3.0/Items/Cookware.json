@@ -1,0 +1,13 @@
+{
+  "Name": "Cookware",
+  "_id": "cookware",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Adventuring Gear",
+  "Category": "Adventuring Gear",
+  "Description": "Allows creating meals and Pokémon Food from ingredients",
+  "OneUse": false,
+  "TrainerPrice": "800",
+  "Cures": "",
+  "Image": ""
+}

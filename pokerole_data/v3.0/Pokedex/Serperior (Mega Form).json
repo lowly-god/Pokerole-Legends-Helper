@@ -1,0 +1,159 @@
+{
+  "Number": 497,
+  "DexID": "0497F1",
+  "Name": "Serperior (Mega Form)",
+  "Type1": "Grass",
+  "Type2": "Dragon",
+  "BaseHP": 6,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Regal Majesty",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "serperior-mega-form",
+  "DexCategory": "Regal Pokémon",
+  "Height": {
+    "Meters": 3.71,
+    "Feet": 12.17
+  },
+  "Weight": {
+    "Kilograms": 131.1,
+    "Pounds": 289.0
+  },
+  "DexDescription": "It stops enemies dead in their tracks with just one intense glare. It is a noble and proud Pokémon. It is not aggressive, but it can be very stubborn. It takes a really strong foe for it to take the fight seriously.",
+  "Evolutions": [
+    {
+      "From": "Serperior",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Vine Whip"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Wrap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Growth"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Leaf Tornado"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Leech Seed"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mega Drain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Slam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Leaf Blade"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Glare"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Giga Drain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Coil"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Tail"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Aqua Tail"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gastro Acid"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wring Out"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Knock Off"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Leaf Storm"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Mirror Coat"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Synthesis"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Frenzy Plant"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imperial Majesty"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Leaf Shield"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Tropic Storm"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    }
+  ]
+}

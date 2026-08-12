@@ -1,0 +1,13 @@
+{
+  "Name": "Bug Gem",
+  "_id": "bug-gem",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Gems",
+  "Category": "Gems",
+  "Description": "Single Use. A Damaging Bug-Type Move gains +2 Dice when rolling Damage.",
+  "OneUse": true,
+  "TrainerPrice": "300",
+  "Cures": "",
+  "Image": ""
+}

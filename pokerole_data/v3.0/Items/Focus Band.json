@@ -1,0 +1,13 @@
+{
+  "Name": "Focus Band",
+  "_id": "focus-band",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "If the holder would be OHKOd roll 3 Chance Dice, if successful it remains on 1HP instead",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

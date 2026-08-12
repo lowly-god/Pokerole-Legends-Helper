@@ -1,0 +1,131 @@
+{
+  "Number": 925,
+  "DexID": "0925F1",
+  "Name": "Maushold (Mega Form)",
+  "Type1": "Normal",
+  "Type2": "Ghost",
+  "BaseHP": 6,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Skill Link",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "maushold-mega-form",
+  "DexCategory": "Family Pokémon",
+  "Height": {
+    "Meters": 0.46,
+    "Feet": 1.5
+  },
+  "Weight": {
+    "Kilograms": 3.2,
+    "Pounds": 7.0
+  },
+  "DexDescription": "When two Tandemaus love each other very very much they'll start a loving family. The larger pair will protect the little ones but if the foe is too strong, all the family will join to bring down the menace.",
+  "Evolutions": [
+    {
+      "From": "Maushold",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Pound"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Baby-Doll Eyes"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Echoed Voice"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Tidy Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Super Fang"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bullet Seed"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Hit"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Follow Me"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Encore"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Play Rough"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hyper Voice"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Charm"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Beat Up"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Copycat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Population Bomb"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Baton Pass"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Substitute"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Agility"
+    }
+  ]
+}

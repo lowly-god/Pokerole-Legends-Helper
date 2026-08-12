@@ -1,0 +1,13 @@
+{
+  "Name": "Regular Ingredient",
+  "_id": "regular-ingredient",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Provisions",
+  "Category": "Provisions",
+  "Description": "Used with Cooking Skill",
+  "OneUse": true,
+  "TrainerPrice": "30",
+  "Cures": "",
+  "Image": ""
+}

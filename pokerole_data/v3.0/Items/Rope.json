@@ -1,0 +1,13 @@
+{
+  "Name": "Rope",
+  "_id": "rope",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Adventuring Gear",
+  "Category": "Adventuring Gear",
+  "Description": "50ft",
+  "OneUse": false,
+  "TrainerPrice": "200",
+  "Cures": "",
+  "Image": ""
+}

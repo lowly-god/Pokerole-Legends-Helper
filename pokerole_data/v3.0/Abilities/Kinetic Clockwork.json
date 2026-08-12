@@ -1,0 +1,6 @@
+{
+    "Name": "Kinetic Clockwork",
+    "Effect": "If the User is hit by a Non-Ranged Physical attack increase its Dexterity or Special by 1 at random. (Up to 3 points may be added this way)",
+    "Description": "",
+    "_id": "kinetic-clockwork"
+}

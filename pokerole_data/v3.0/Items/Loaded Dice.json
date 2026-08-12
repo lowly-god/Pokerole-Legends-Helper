@@ -1,0 +1,13 @@
+{
+  "Name": "Loaded Dice",
+  "_id": "loaded-dice",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "The holder’s Successive Actions gain +1 Accuracy Dice",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

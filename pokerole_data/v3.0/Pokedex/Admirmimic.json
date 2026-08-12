@@ -1,0 +1,167 @@
+{
+  "Number": 1039,
+  "DexID": "1039",
+  "Name": "Admirmimic",
+  "Type1": "Normal",
+  "Type2": "Flying",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Keen Eye",
+  "Ability2": "Swashbuckler",
+  "HiddenAbility": "Mimicry",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "admirmimic",
+  "DexCategory": "Mimicry Pokémon",
+  "Height": {
+    "Meters": 1.12,
+    "Feet": 3.67
+  },
+  "Weight": {
+    "Kilograms": 17.7,
+    "Pounds": 39.0
+  },
+  "DexDescription": "Admirmimic are often used by sailors to convey messages across large vessels. Owning an  Admirmimic is seen as a sign of Status among pirate captains, and they are normally taught many crude sayings.",
+  "Evolutions": [
+    {
+      "From": "Chatot",
+      "Kind": "Special",
+      "Special": "Chatot (*Feather Stone)"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Confide"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Peck"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sonic Boom"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Mirror Move"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Chatter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sing"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fury Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Round"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mimic"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Echoed Voice"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Jet Strike"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Screech"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hyper Voice"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Roost"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mirror Move"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Uproar"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Synchronoise"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Feather Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Crush Claw"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Play Rough"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hurricane"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Foul Play"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Boomburst"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    }
+  ]
+}

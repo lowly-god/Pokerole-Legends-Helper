@@ -1,0 +1,165 @@
+{
+  "Number": 1129,
+  "DexID": "1129",
+  "Name": "UB-22 Siren",
+  "Type1": "Water",
+  "Type2": "Normal",
+  "BaseHP": 6,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 7,
+  "Ability1": "Beast Boost",
+  "Ability2": "",
+  "HiddenAbility": "Unaware",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "ub-22-siren",
+  "DexCategory": "Ultra Beast",
+  "Height": {
+    "Meters": 1.4,
+    "Feet": 4.58
+  },
+  "Weight": {
+    "Kilograms": 69.9,
+    "Pounds": 154.0
+  },
+  "DexDescription": "Aether Foundation Log #095: UB-Siren's voice seems to be able to distort reality, creating ripples in the fabric of reality itself.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Sing"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Bubble"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Echoed Voice"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Me First"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Metronome"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Round"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Disarming Voice"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rainbow Beam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Water Pulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Whirlpool"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Surf"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hyper Voice"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lovely Kiss"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Life Dew"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Moonlight"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Brine"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Encore"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Captivate"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lucky Chant"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Alluring Voice"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Perish Song"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Extrasensory"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nature Power"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Rippling Refrain"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hydro Pump"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Synchronoise"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Beguiling Influence"
+    }
+  ]
+}

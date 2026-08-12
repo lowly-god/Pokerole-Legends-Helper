@@ -1,0 +1,13 @@
+{
+  "Name": "Sled",
+  "_id": "sled",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Adventuring Gear",
+  "Category": "Adventuring Gear",
+  "Description": "Can be dragged behind a strong Pokémon on snow or sand",
+  "OneUse": false,
+  "TrainerPrice": "1000",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,145 @@
+{
+  "Number": 1045,
+  "DexID": "1045",
+  "Name": "Cruskull",
+  "Type1": "Ghost",
+  "Type2": "",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 1,
+  "MaxSpecial": 3,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Frightening Aura",
+  "Ability2": "",
+  "HiddenAbility": "Shell Armor",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "cruskull",
+  "DexCategory": "Coconut Crab Pokémon",
+  "Height": {
+    "Meters": 0.46,
+    "Feet": 1.5
+  },
+  "Weight": {
+    "Kilograms": 17.2,
+    "Pounds": 38.0
+  },
+  "DexDescription": "It's visage has often been a cause of fright among travellers to distant shores. Despite its crab like appearance it tends to prefer to live above the tide line, it has been known to climb coconut trees.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Scratch"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fury Cutter"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Withdraw"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Crabhammer"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Vice Grip"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Curse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Shadow Bone"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bone Rush"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Crush Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cross Chop"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "X-Scissor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shell Smash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Guillotine"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Harrowing Wrath"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Superpower"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Protect"
+    }
+  ]
+}

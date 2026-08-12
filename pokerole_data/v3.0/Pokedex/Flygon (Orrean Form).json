@@ -1,0 +1,153 @@
+{
+  "Number": 330,
+  "DexID": "0330F1",
+  "Name": "Flygon (Orrean Form)",
+  "Type1": "Bug",
+  "Type2": "Dragon",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Levitate",
+  "Ability2": "Compound Eyes",
+  "HiddenAbility": "Sand Stream",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "flygon-orrean-form",
+  "DexCategory": "Mystic Pokémon",
+  "Height": {
+    "Meters": 2.06,
+    "Feet": 6.75
+  },
+  "Weight": {
+    "Kilograms": 86.2,
+    "Pounds": 190.0
+  },
+  "DexDescription": "The flapping of its wings sounds like singing. To prevent detection by enemies, it hides itself by flapping up a cloud of desert sand.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sonic Boom"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Mud Slap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Silver Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Caustic Breath"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Screech"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sandstorm"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Uproar"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Supersonic"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Acid Spray"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imperial Majesty"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dust Devil"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Tail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sandstorm Serenade"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Bug Buzz"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Quiver Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gaia Force"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Boomburst"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gastro Acid"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Draco Meteor"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Heat Wave"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Parasitize"
+    }
+  ]
+}

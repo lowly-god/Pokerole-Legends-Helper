@@ -1,0 +1,13 @@
+{
+  "Name": "Assault Vest",
+  "_id": "assault-vest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "+2 Sp.D but prevents use of Support Moves",
+  "OneUse": false,
+  "TrainerPrice": "10000",
+  "Cures": "",
+  "Image": ""
+}

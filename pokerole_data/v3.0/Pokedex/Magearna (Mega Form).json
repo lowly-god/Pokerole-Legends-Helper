@@ -1,0 +1,151 @@
+{
+  "Number": 801,
+  "DexID": "0801F1",
+  "Name": "Magearna (Mega Form)",
+  "Type1": "Steel",
+  "Type2": "Fairy",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 4,
+  "MaxSpecial": 9,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Kinetic Clockwork",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Champion",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "magearna-mega-form",
+  "DexCategory": "Artificial Pokémon",
+  "Height": {
+    "Meters": 0.99,
+    "Feet": 3.25
+  },
+  "Weight": {
+    "Kilograms": 80.3,
+    "Pounds": 177.0
+  },
+  "DexDescription": "500 years ago a famous scientist left a manuscript with details on how to create a mechanical Pokémon. His investigation led to the creation of the modern Pokéball.",
+  "Evolutions": [
+    {
+      "From": "Magearna",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Gyro Ball"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Defense Curl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Rollout"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Gear Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sonic Boom"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybeam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aurora Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mind Reader"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shift Gear"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mirror Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lucky Chant"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heal Bell"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heart Swap"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Crafty Shield"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Head"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Aura Sphere"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Flash Cannon"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Pain Split"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Synchronoise"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Zap Cannon"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fleur Cannon"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Trump Card"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dazzling Gleam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Magnet Rise"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "Number": 858,
+  "DexID": "0858F1",
+  "Name": "Hatterene (Alolan Form)",
+  "Type1": "Water",
+  "Type2": "Fairy",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Liquid Voice",
+  "Ability2": "Oblivious",
+  "HiddenAbility": "Rain Dish",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "F",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "hatterene-alolan-form",
+  "DexCategory": "Siren Pokémon",
+  "Height": {
+    "Meters": 2.08,
+    "Feet": 6.83
+  },
+  "Weight": {
+    "Kilograms": 48.1,
+    "Pounds": 106.0
+  },
+  "DexDescription": "It is said that its voice has the power to control and influence others. It is deeply protective of the waters it calls home.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Sing"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Sweet Kiss"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Baby-Doll Eyes"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bubble"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Round"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confide"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Water Pulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Charm"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Disarming Voice"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aqua Tail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Misty Terrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Attract"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flirty Kiss"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Perish Song"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mist"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Charm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Ring"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Brine"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hydro Pump"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Alluring Voice"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heart Breaker"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hyper Voice"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nature Power"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Life Dew"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Spirit Break"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hoarfrost Moon"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Beguiling Influence"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Sparkling Aria"
+    }
+  ]
+}

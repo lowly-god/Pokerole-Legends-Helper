@@ -1,0 +1,161 @@
+{
+  "Number": 660,
+  "DexID": "0660F1",
+  "Name": "Diggersby (Ruskovan Form)",
+  "Type1": "Ground",
+  "Type2": "Ice",
+  "BaseHP": 4,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Cheek Pouch",
+  "Ability2": "Snow Cloak",
+  "HiddenAbility": "Huge Power",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "diggersby-ruskovan-form",
+  "DexCategory": "Digging Pokémon",
+  "Height": {
+    "Meters": 0.99,
+    "Feet": 3.25
+  },
+  "Weight": {
+    "Kilograms": 42.2,
+    "Pounds": 93.0
+  },
+  "DexDescription": "It freezes ice like claws on its huge ears. It uses these for excavation and fighting.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Quick Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ice Ball"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mud Slap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Slap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Odor Sleuth"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bounce"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ice Punch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hail"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bulk Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rototiller"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Frost Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bulldoze"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Earthquake"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Super Fang"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Aurora Veil"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Black Ice"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Snowy Terrain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hammer Arm"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Ice Hammer"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Frozen Crash"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Belly Drum"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Rollout"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Discombobulate"
+    }
+  ]
+}

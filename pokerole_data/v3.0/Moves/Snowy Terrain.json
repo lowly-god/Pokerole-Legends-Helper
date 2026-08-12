@@ -1,0 +1,16 @@
+{
+    "Name": "Snowy Terrain",
+    "Type": "Ice",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Special/Insight",
+    "Accuracy2": "Nature",
+    "Target": "Battlefield",
+    "Effect": "Terrain. For the next 4 Rounds. All Ice-Type Moves have +1 Bonus Dice to their Damage Pools. Non Ice-Type Active Combatants Dexterity is reduced by 1.",
+    "Description": "The User suddenly chills the area, blanketing it in a gentle frost. The chill of the air hinders the Movement of those not accustomed to the cold and snow, slowing their speed as they navigate through the wintry landscape.",
+    "_id": "snowy-terrain",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

@@ -1,0 +1,179 @@
+{
+  "Number": 36,
+  "DexID": "0036F1",
+  "Name": "Clefable (Mega Form)",
+  "Type1": "Fairy",
+  "Type2": "Flying",
+  "BaseHP": 6,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Magic Bounce",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "clefable-mega-form",
+  "DexCategory": "Fairy Pokémon",
+  "Height": {
+    "Meters": 1.4,
+    "Feet": 4.58
+  },
+  "Weight": {
+    "Kilograms": 43.1,
+    "Pounds": 95.0
+  },
+  "DexDescription": "There are not many records about it in the wild. They are timid but playful. Clefable uses its wings to skip lightly as if it was flying. Its bouncy step lets it walk on water. On quiet, moonlit nights, it strolls near quiet lakes.",
+  "Evolutions": [
+    {
+      "From": "Clefable",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Pound"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sing"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Disarming Voice"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Slap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Encore"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Defense Curl"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Metronome"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bestow"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Follow Me"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Minimize"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "After You"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stored Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cosmic Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Charm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Life Dew"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lucky Chant"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Body Slam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonlight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wake-Up Slap"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gravity"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Meteor Mash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Copycat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Healing Wish"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Heal Pulse"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Misty Explosion"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Meteor Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flirty Kiss"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heart Breaker"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rainbow Beam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Asteroid Shot"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Zinc",
+  "_id": "zinc",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Supplements",
+  "Category": "Supplements",
+  "Description": "+1 Insight. Lasts One Month",
+  "OneUse": true,
+  "TrainerPrice": "10000",
+  "Cures": "",
+  "Image": ""
+}

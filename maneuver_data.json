@@ -1,0 +1,4246 @@
+{
+  "weapons": [
+    {
+      "name": "Aura Combat Skill",
+      "aliases": [
+        "aura",
+        "aura combat",
+        "aura combat skill"
+      ],
+      "kind": "Combat Skill",
+      "details": "Those gifted in Aura are often very good in combat, being able to sense their opponents and infuse their attacks with this mystical power.\nTraits: Characters who have at least 3 Skill Points in Aura may make other attacks they are able to normally do using Aura instead of Brawl or Weapons. Characters using the Aura skill gain access to the following basic Maneuvers.",
+      "maneuvers": [
+        {
+          "name": "Aura Infused Blow",
+          "description": "The User strikes at the flow, while infusing their attacks with aura power.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "STRENGTH / DEXTERITY + AURA",
+          "effect": "Never Miss.",
+          "notes": "",
+          "source": "Aura Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Pre-empt",
+          "description": "The User focusses on the battle, reading the Foe’s Movements and intentions.",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "—",
+          "accuracy": "INSIGHT + AURA",
+          "effect": "The User may make an additional Evasion or Clash per Round (as long as they have the Actions to do so).",
+          "notes": "",
+          "source": "Aura Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Aura Ora-Ora-Ora",
+          "description": "The User lays a furious flurry of blows on the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "User",
+          "power": "1",
+          "accuracy": "DEXTERITY + AURA",
+          "effect": "Successive Actions.",
+          "notes": "",
+          "source": "Aura Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        },
+        {
+          "name": "Stunning Blow",
+          "description": "The User strikes at the Foe’s nerves or pressure points attempting to slow their Movements.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY / INSIGHT + AURA",
+          "effect": "Roll 5 Chance Dice to Paralyze the Target.",
+          "notes": "",
+          "source": "Aura Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Axes",
+      "aliases": [
+        "axe",
+        "axes"
+      ],
+      "kind": "Weapon Category",
+      "details": "A Weapon that can either be used to hack at or be thrown at the enemy. Not as much finesse as a sword, but still just as deadly.\nTraits: Characters wielding an axe gain access to two basic Maneuvers.",
+      "maneuvers": [
+        {
+          "name": "Gouging Hacks",
+          "description": "The User hacks at the enemy savagely.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "Successive Actions. Lethal.",
+          "notes": "",
+          "source": "Axes",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Whirling Death",
+          "description": "The User throws an axe at the Foe, the sound of it whirling through the air being often the last thing the enemy hears.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Lethal.",
+          "notes": "",
+          "source": "Axes",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Furious Gouge",
+          "description": "The User hacks at the Foe furiously.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "High Critical. Lethal.",
+          "notes": "",
+          "source": "Axes",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Blowpipes",
+      "aliases": [
+        "blowpipe",
+        "blowpipes"
+      ],
+      "kind": "Weapon Category",
+      "details": "Blowpipes lean into precise, silent attacks and their payloads are often coated with various compounds, producing additional effects.\nTraits: A character using a blowpipe may declare at the beginning of the Round they will only make 3 Actions. They may add +1 Dice to the Damage Pool of their attacks made with this Weapon that Round. Characters wielding a blowpipe gain access to two basic Maneuvers.",
+      "maneuvers": [
+        {
+          "name": "Deadeye Shot",
+          "description": "The User fires a precise shot at the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal.",
+          "notes": "",
+          "source": "Blowpipes",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Precise Aim",
+          "description": "The User steadies themself, slows their heart rate and takes a shot.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY / INSIGHT + WEAPONS",
+          "effect": "Accuracy +1. Ranged. Projectile. Late Reaction 4. Lethal.",
+          "notes": "",
+          "source": "Blowpipes",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Coated Dart",
+          "description": "The User launches a dart covered in a strange compound at the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. Roll 3 Chance Dice to Poison the Target.",
+          "notes": "",
+          "source": "Blowpipes",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Bows and Crossbows",
+      "aliases": [
+        "bow",
+        "bows",
+        "crossbow",
+        "crossbows",
+        "bow and crossbow",
+        "bows and crossbows"
+      ],
+      "kind": "Weapon Category",
+      "details": "The human race has created a lot of ways of killing each other, over time we’ve decided its often best to do so from a distance where the person you’re attempting to kill can’t do the same to you. Arrows and Bolts may have to be purchased or crafted at the Storyteller’s discretion.\nTraits: Characters wielding a bow or crossbow gain access to two basic types of ranged Maneuvers.",
+      "maneuvers": [
+        {
+          "name": "Deadeye Shot",
+          "description": "The User fires a precise shot at the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal.",
+          "notes": "",
+          "source": "Bows and Crossbows",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Charged Shot",
+          "description": "The User takes their time and draws back the string to the maximum.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "5",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Charge. Lethal.",
+          "notes": "",
+          "source": "Bows and Crossbows",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Burning Shot",
+          "description": "The User ignites their projectile, then fires a flaming shot at the Foe.",
+          "type": "Fire",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Lethal. Projectile. Roll 3 Chance Dice to Burn (1) the Target.",
+          "notes": "",
+          "source": "Bows and Crossbows",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Channelling Combat Skill",
+      "aliases": [
+        "channel",
+        "channelling",
+        "channeling",
+        "channelling combat skill",
+        "channeling combat skill"
+      ],
+      "kind": "Combat Skill",
+      "details": "Those gifted with mystical abilities are able to bend the battlefield and their opponents to their will.\nTraits: Characters making a non-Weapon attack with the Channel Skill may choose to make the Target All Foes, or add +2 Bonus Dice to the Damage Pool of their Maneuver, but in doing so they immediately suffer 1 Level of Exhaustion. (For more see P37). Characters using the Channel Skill gain access to two basic Maneuvers.",
+      "maneuvers": [
+        {
+          "name": "Arcane Blast",
+          "description": "The User unleashes their power towards their enemy.",
+          "type": "Typeless",
+          "category": "Special",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "SPECIAL + CHANNEL",
+          "effect": "",
+          "notes": "",
+          "source": "Channelling Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Stun-Lock",
+          "description": "The User attempts to painfully stun the Foe, stopping them in their tracks.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "SPECIAL + CHANNEL",
+          "effect": "Roll 5 Chance Dice to Flinch the Target.",
+          "notes": "",
+          "source": "Channelling Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Psionic Barrage",
+          "description": "The User unleashes a barrage of psionic power, but is left drained afterwards.",
+          "type": "Typeless",
+          "category": "Special",
+          "target": "All Foes",
+          "power": "5",
+          "accuracy": "SPECIAL + CHANNEL",
+          "effect": "The User immediately takes 2 Level of Exhaustion.",
+          "notes": "",
+          "source": "Channelling Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        },
+        {
+          "name": "Mindscape",
+          "description": "The User envisions a strange realm in their minds eye and makes it tangible.",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Battlefield",
+          "power": "—",
+          "accuracy": "CLEVER + CHANNEL",
+          "effect": "The User sets Psychic Terrain. Duration 4 Rounds.",
+          "notes": "",
+          "source": "Channelling Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Clubs, Flails, Hammers and Maces",
+      "aliases": [
+        "club",
+        "clubs",
+        "flail",
+        "flails",
+        "hammer",
+        "hammers",
+        "mace",
+        "maces"
+      ],
+      "kind": "Weapon Category",
+      "details": "Large blunt weapons that deal crushing powerful crushing blows.\nTraits: Characters wielding a bow or crossbow gain access to two basic types of Maneuvers.",
+      "maneuvers": [
+        {
+          "name": "Crushing Strike",
+          "description": "The User brings down their Weapon on the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "STRENGTH + WEAPONS",
+          "effect": "Lethal.",
+          "notes": "",
+          "source": "Clubs, Flails, Hammers and Maces",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Bludgeon",
+          "description": "The User strikes at the Foe, enough to Damage but not to kill.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Roll 3 Chance Dice to Flinch the Target.",
+          "notes": "",
+          "source": "Clubs, Flails, Hammers and Maces",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Skull Sunder",
+          "description": "The User strikes at the Foe’s head with full force attempting to annihilate them.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "5",
+          "accuracy": "STRENGTH + WEAPONS",
+          "effect": "Recharge. Lethal.",
+          "notes": "",
+          "source": "Clubs, Flails, Hammers and Maces",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Daggers, Knives and Short Blades",
+      "aliases": [
+        "dagger",
+        "daggers",
+        "knife",
+        "knives",
+        "short blade",
+        "short blades"
+      ],
+      "kind": "Weapon Category",
+      "details": "A simple short blade, they comes in many varieties and shapes, such as a Stiletto knife, Wakizashi or even a Gyarados’ fang.\nTraits: Characters wielding a Dagger, Knife or Short Blade gain access to two basic Maneuvers.",
+      "maneuvers": [
+        {
+          "name": "Double Strike",
+          "description": "The User lashes out striking the Foe multiple times.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Double Action. High Critical. Lethal.",
+          "notes": "",
+          "source": "Daggers, Knives and Short Blades",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Skewering Throw",
+          "description": "The User flicks a blade at the Target.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Lethal.",
+          "notes": "",
+          "source": "Daggers, Knives and Short Blades",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Hidden Blade",
+          "description": "The User attempts to feint the Foe, producing a blade from seemingly thin air.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY + STEALTH",
+          "effect": "Late Reaction 6. High Critical. Lethal. This Move can only be used after the Target rolls a Damaging Move.",
+          "notes": "",
+          "source": "Daggers, Knives and Short Blades",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        },
+        {
+          "name": "Whisper Slash",
+          "description": "The silently lunges at the Foe, slashing with a razor sharp edge.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Never Miss. High Critical. Lethal.",
+          "notes": "",
+          "source": "Daggers, Knives and Short Blades",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Energy Weapons",
+      "aliases": [
+        "energy weapon",
+        "energy weapons",
+        "laser weapon",
+        "plasma weapon",
+        "power weapon"
+      ],
+      "kind": "Weapon Category",
+      "details": "These high-tech weapons use concentrated electrical energy, plasma, or focussed light to deal Damage. Other weapons may have the Energy Weapon keyword, though only Firearms may have the Laser or Plasma sub-type.\nLaser sub-type Traits: Maneuvers made with this Weapon do Special Damage, and gain Roll 1 Chance Dice to ignore Defenses.\nPlasma sub-type Traits: Overheat. Maneuvers made with this Weapon do Special Fire-Type Damage, gain +1 Damage Dice and Roll 2 Chance Dice to Burn (1).\nOverheat: After firing this Weapon, roll a 1D100 Luck Check, on a 20 or lower, the Weapon overheats and the wielder must spend 1 additional Turn for it to cool down, before it can be used again.\nPower sub-type Traits: Maneuvers made with this Weapon do Electric-Type Damage and gain High Critical, Roll 1 Chance Dice to Paralyze.",
+      "maneuvers": []
+    },
+    {
+      "name": "Firearms",
+      "aliases": [
+        "firearm",
+        "firearms",
+        "gun",
+        "guns"
+      ],
+      "kind": "Weapon Category",
+      "details": "Firearms are all deadly and deal devastating Damage, but diversify into various styles.\nTraits: Characters wielding a firearm gain access to two basic Maneuvers. A firearm must have (only) one of the following sub-types.\nSingle Shot sub-type Traits: Maneuvers made using this Weapon deal +1 Damage Dice.\nBurst sub-type Traits: Maneuvers using this Weapon may be made as Double Actions.\nAutomatic sub-type Traits: Maneuvers made using this Weapon have -1 Accuracy and -1 Damage Dice but may be made as Successive Actions.",
+      "maneuvers": [
+        {
+          "name": "Deadeye Shot",
+          "description": "The User fires a precise shot at the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. High Critical.",
+          "notes": "",
+          "source": "Firearms",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Crippling Shot",
+          "description": "The User aims specifically for points on the Foe’s anatomy that will cripple them.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. Roll 3 Chance Dice to Paralyze the Target.",
+          "notes": "",
+          "source": "Firearms",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Fast Draw",
+          "description": "The User draws, aims and shoots in a split-second.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. Reaction 3.",
+          "notes": "",
+          "source": "Firearms",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        },
+        {
+          "name": "Piercing Shot",
+          "description": "The User fires a Round specifically designed to go through heavy armor.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. Reduce the Target’s Defense by 1.",
+          "notes": "",
+          "source": "Firearms",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        },
+        {
+          "name": "Precise Aim",
+          "description": "The User steadies themself, slows their heart rate and takes a shot.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY / INSIGHT + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. Never Miss. Late Reaction 4.",
+          "notes": "",
+          "source": "Firearms",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Great Weapons",
+      "aliases": [
+        "great weapon",
+        "great weapons",
+        "two handed weapon",
+        "two-handed weapon"
+      ],
+      "kind": "Weapon Category",
+      "details": "Great weapons such as a Two-handed Sword, War Hammer or Great Axe. They’re very heavy and somewhat cumbersome but can deal a lot of Damage.\nTraits: Characters wielding a Great Weapon require 3 Strength and their Dexterity is decreased by 1. and may not use a shield or dual wield while using this Weapon. Characters wielding a great Weapon gain access to two basic Maneuvers.",
+      "maneuvers": [
+        {
+          "name": "Crushing Blow",
+          "description": "The User brings their full force and the weight of their Weapon down on the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "4",
+          "accuracy": "STRENGTH + WEAPONS",
+          "effect": "Lethal.",
+          "notes": "",
+          "source": "Great Weapons",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Arcing Cleave",
+          "description": "The User swings their Weapon Round attempting to hit multiple enemies.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "After rolling Damage, you may roll 1 Dice of Damage against two other Targets. Lethal.",
+          "notes": "",
+          "source": "Great Weapons",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Wild Spin",
+          "description": "The User swings their Weapon in a spinning motion, attempting to hit multiple enemies.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "All Foes",
+          "power": "3",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "Rampage. Lethal. Until the User’s next Action they have +1 Defense and Special Defense.",
+          "notes": "",
+          "source": "Great Weapons",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Halberds, Spears and Polearms",
+      "aliases": [
+        "halberd",
+        "halberds",
+        "spear",
+        "spears",
+        "polearm",
+        "polearms"
+      ],
+      "kind": "Weapon Category",
+      "details": "Spears and various types of Polearms have a long reach compared to other melee weapons.\nTraits: Characters wielding a Weapon of this type may make Non-Ranged attacks without triggering contact effects. Characters wielding them gain access to two basic Maneuvers.",
+      "maneuvers": [
+        {
+          "name": "Piercing Thrust",
+          "description": "The User jabs at the Foe from a distance.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Lethal. This Maneuver does not trigger the Target’s contact effects.",
+          "notes": "",
+          "source": "Halberds, Spears and Polearms",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Sentinels Reach",
+          "description": "The User keeps the Foe in combat, not letting them escape.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Blocks. This Maneuver does not trigger the Target’s contact effects.",
+          "notes": "",
+          "source": "Halberds, Spears and Polearms",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Impaling Throw",
+          "description": "The User launches their Weapon at the Foe, hoping to impale them.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY + ATHLETIC",
+          "effect": "Ranged. High Critical.",
+          "notes": "",
+          "source": "Halberds, Spears and Polearms",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Improvised Weapons",
+      "aliases": [
+        "improvised weapon",
+        "improvised weapons"
+      ],
+      "kind": "Weapon Category",
+      "details": "A broom, chair, a metal pipe, bottle, or even a humble rock etc.\nTraits: Characters wielding an improvised Weapon gain access to two basic Maneuvers. (Certain Improvised Weapons may make Stronger or Weaker attacks or have additional effects at the Storyteller’s discretion)",
+      "maneuvers": [
+        {
+          "name": "Swinging Crash",
+          "description": "The User swings an improvised Weapon hoping to strike the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "???.",
+          "notes": "",
+          "source": "Improvised Weapons",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Chuck It",
+          "description": "The User hurls an improvised Weapon at the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "DEXTERITY + ATHLETIC",
+          "effect": "Ranged. ???.",
+          "notes": "",
+          "source": "Improvised Weapons",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Kobudo",
+          "description": "The User has learned to masterfully use their environment and anything in it during a fight.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "Ranged. ???.",
+          "notes": "",
+          "source": "Improvised Weapons",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Kusarigama",
+      "aliases": [
+        "kusarigama"
+      ],
+      "kind": "Weapon Category",
+      "details": "Curved hand-sickle(s) attached to a long chain with a counterweight. The chain controls distance, snaring, tripping, and creating openings so the sickle can finish the job.\nTraits: Characters wielding a kusarigama gain access to two basic Maneuvers.",
+      "maneuvers": [
+        {
+          "name": "Binding Reap",
+          "description": "The User swings one blade towards their Foe, binding and sharply pulling them towards them.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Roll 3 Chance Dice to deal Ongoing Damage 1. Duration: until the User Targets a different Active Combatant.",
+          "notes": "",
+          "source": "Kusarigama",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Unbalance",
+          "description": "The User swings their Weapon wildly, attempting to unbalance the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. the Target’s next Non-Reaction Move or Maneuver is made at Late Reaction 6.",
+          "notes": "",
+          "source": "Kusarigama",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Swinging Slashes",
+          "description": "The User makes multiple vicious slashes at the Foe while swinging the counterweight.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Successive Actions.",
+          "notes": "",
+          "source": "Kusarigama",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Kunai, Throwing Darts and Throwing Stars",
+      "aliases": [
+        "kunai",
+        "throwing dart",
+        "throwing darts",
+        "throwing star",
+        "throwing stars"
+      ],
+      "kind": "Weapon Category",
+      "details": "Ancient types of ranged weapons, proceeding the bow and arrow. But still deadly effective in the right hands.\nTraits: The usual rule of using an Action to swap between weapons does not apply to weapons of this type. Characters wielding kunai, throwing darts or stars gain access to two basic Maneuvers.",
+      "maneuvers": [
+        {
+          "name": "Skewering Throw",
+          "description": "The User flicks a blade at the Target.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Lethal.",
+          "notes": "",
+          "source": "Kunai, Throwing Darts and Throwing Stars",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Piercing Wind",
+          "description": "The whips a collection of thrown blades at the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Successive Actions. Lethal.",
+          "notes": "",
+          "source": "Kunai, Throwing Darts and Throwing Stars",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Coated Dart",
+          "description": "The User launches a dart covered in a strange compound at the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. Roll 3 Chance Dice to Poison the Target.",
+          "notes": "",
+          "source": "Kunai, Throwing Darts and Throwing Stars",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        },
+        {
+          "name": "Deflect",
+          "description": "The User flicks a blade, deflecting a projectile or thrown item.",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "0",
+          "accuracy": "DEXTERITY + ALERT",
+          "effect": "Accuracy -2. Ranged. Reaction 3. Destroy a thrown Poke Ball or Block all Damage from a single Target physical Ranged Projectile attack completely (at the Storyteller’s discretion).",
+          "notes": "",
+          "source": "Kunai, Throwing Darts and Throwing Stars",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Nunchaku and Staves",
+      "aliases": [
+        "nunchaku",
+        "nunchuck",
+        "nunchucks",
+        "staff",
+        "staves"
+      ],
+      "kind": "Weapon Category",
+      "details": "Blunt but powerful weapons often wielded defensively and favoured by martial artists.\nTraits: Characters wielding Nunchaku or Staves gain access to two basic Maneuvers.",
+      "maneuvers": [
+        {
+          "name": "Serpentine Strike",
+          "description": "The User spins their Weapon in a fast circular motion, catching the Foe off guard.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Reaction 1.",
+          "notes": "",
+          "source": "Nunchaku and Staves",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Spinning Deflect",
+          "description": "The User spins their Weapon in an attempt to deflect and disarm the Foe.",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "0",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Reaction 3. Shield. Reduce 3 Damage from a Damaging attack. Roll 3 Chance Dice to Disarm the Target.",
+          "notes": "",
+          "source": "Nunchaku and Staves",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Whirpool Riposte",
+          "description": "The User counters with a strong riposte after receiving Damage.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "Varies",
+          "accuracy": "INSIGHT / DEXTERITY + WEAPONS",
+          "effect": "This Move can only deal Damage if the Target has dealt Special Damage to the User this Round. Roll the same Damage Pool as your Target plus 2 Extra Dice.",
+          "notes": "",
+          "source": "Nunchaku and Staves",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        },
+        {
+          "name": "Whirlwind Riposte",
+          "description": "The User sacrifices defense for an empowered returned strike.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "Varies",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "This Move can only deal Damage if the Target has dealt Physical Damage to the User this Round. Roll the same Damage Pool as your Target plus 2 Extra Dice.",
+          "notes": "",
+          "source": "Nunchaku and Staves",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Swords",
+      "aliases": [
+        "sword",
+        "swords"
+      ],
+      "kind": "Weapon Category",
+      "details": "They come in many shapes and sizes, from Scimitars to Fencing Rapiers, some say the pen is mightier but obviously those people haven’t been a real fight.\nTraits: Characters wielding a Sword gain access to two basic Maneuvers.",
+      "maneuvers": [
+        {
+          "name": "Sweeping Slash",
+          "description": "The User slashes at the Foe with a sharp edged blade.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "Lethal.",
+          "notes": "",
+          "source": "Swords",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Parry",
+          "description": "The User attempts to deflect a Foe’s attack.",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "—",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "Reaction 1. Shield. Reduce 2 Damage the User would receive from a Damaging attack. If the Target used a Non-Ranged Physical attack roll 1 Dice of Damage against them.",
+          "notes": "",
+          "source": "Swords",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Disarming Flourish",
+          "description": "The User attempts to disarm the Foe with a series of quick thrusts and turns.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY / INSIGHT + WEAPONS",
+          "effect": "Roll 4 Chance Dice to Disarm the Target. In the case of Pokémon remove their Held Item.",
+          "notes": "",
+          "source": "Swords",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        },
+        {
+          "name": "Piercing Lunge",
+          "description": "The User lunges for the Foe’s weak point.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "High Critical. Lethal.",
+          "notes": "",
+          "source": "Swords",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Shields",
+      "aliases": [
+        "shield",
+        "shields"
+      ],
+      "kind": "Weapon Category",
+      "details": "Shields offer decent protection and in a push can be used a Weapon.\nTraits: Characters using two handed or great weapons may not use a shield.\nCharacters using a shield have +1 Defense and Special Defense but get -1 to their Accuracy rolls with other weapons they are also wielding.\nCharacters wielding a Shield gain access to the following basic Maneuvers.",
+      "maneuvers": [
+        {
+          "name": "Shield Strike",
+          "description": "The User bashes the Foe with their shield.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "STRENGTH + WEAPONS",
+          "effect": "",
+          "notes": "",
+          "source": "Shields",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Shield of Valor",
+          "description": "The User brings their shield up to protect themself or an Ally.",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User / One Ally",
+          "power": "—",
+          "accuracy": "VITALITY + WEAPONS",
+          "effect": "Reaction 5. Shield. Reduce 3 Damage the User or the Target would receive from a Damaging attack.",
+          "notes": "",
+          "source": "Shields",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Protective Strike",
+          "description": "The User brings their shield up quickly before striking at their Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "Set Damage",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Reaction 5. Shield. Set Damage. May only be used when an attack successfully hits the User or a Target. Lessen the Damage from that attack by 3. Deal 1 Damage to the attacker.",
+          "notes": "",
+          "source": "Shields",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Unarmed Combat Skill",
+      "aliases": [
+        "unarmed",
+        "unarmed combat",
+        "brawl",
+        "unarmed combat skill"
+      ],
+      "kind": "Combat Skill",
+      "details": "Why bother with complex weapons or fancy gadgets when your fists and feet or a solid headbutt can get the job done?\nTraits: Characters who use the Brawl skill (Unarmed) gain access to two basic Maneuvers:",
+      "maneuvers": [
+        {
+          "name": "Unarmed Strike",
+          "description": "The User strikes at the Foe with a basic attack.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "STRENGTH / DEXTERITY + BRAWL",
+          "effect": "",
+          "notes": "",
+          "source": "Unarmed Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Haymaker",
+          "description": "The User winds up a powerful blow that may leave the Foe stunned.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "STRENGTH + BRAWL",
+          "effect": "Late Reaction 5. Roll 3 Chance Dice to Flinch the Target.",
+          "notes": "",
+          "source": "Unarmed Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Disarming Strike",
+          "description": "You Strike at the Foe’s wrist, attempting to disarm them.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY / INSIGHT + BRAWL",
+          "effect": "Roll 3 Chance Dice to Disarm the Target. In the case of Pokémon they lose their Held Item.",
+          "notes": "",
+          "source": "Unarmed Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        },
+        {
+          "name": "Flying Fist Flurry",
+          "description": "The User lands a succession of strikes on the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "DEXTERITY + BRAWL",
+          "effect": "Successive Actions.",
+          "notes": "",
+          "source": "Unarmed Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        },
+        {
+          "name": "Hullbury Kiss",
+          "description": "The User headbutts the Foe at full force.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "5",
+          "accuracy": "STRENGTH / TOUGH + BRAWL",
+          "effect": "Recoil.",
+          "notes": "",
+          "source": "Unarmed Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        },
+        {
+          "name": "Knockout Punch",
+          "description": "The User attempts to OHKO the Foe with a single hit.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "—",
+          "accuracy": "DEXTERITY + BRAWL",
+          "effect": "Accuracy -5. Deal Damage equal to the Target’s remaining HP +1.",
+          "notes": "",
+          "source": "Unarmed Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        },
+        {
+          "name": "Leaping Elbow Drop",
+          "description": "The User leaps at the Foe, crashing down with their full weight behind their elbow on them.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "4",
+          "accuracy": "DEXTERITY + PERFORM",
+          "effect": "Roll 3 Chance Dice to Paralyze the Target. After dealing Damage, reduce the User's Dexterity by 1.",
+          "notes": "",
+          "source": "Unarmed Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        },
+        {
+          "name": "Pre-Emptive Blow",
+          "description": "The User senses the Foe’s intent and tries to outspeed them.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + BRAWL",
+          "effect": "Late Reaction 6. This Move can only be used after the Target rolls a Damaging Move.",
+          "notes": "",
+          "source": "Unarmed Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Blood Thirsty Axes",
+      "aliases": [
+        "Blood Thirsty Axes",
+        "Blood Thirsty Axes (Dual Hand Axes)"
+      ],
+      "kind": "Special Equipment",
+      "details": "This pair of battle worn, rune engraved axes are known to send their wielder into a berserk rage. Perhaps it is just the way they feel in your hand, or perhaps the spirit of a long dead warrior resides in them.\nAdditional Traits: The User can declare they won't make any Evasions at the start of the Round. If they do, all attacks made with these weapons gain +1 Damage Dice.",
+      "maneuvers": [
+        {
+          "name": "Berserker's Fury",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "TOUGH + BRAWL",
+          "effect": "Increase the User’s Strength and Defense by 1.",
+          "notes": "",
+          "source": "Blood Thirsty Axes (Dual Hand Axes)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Blazing Armor",
+      "aliases": [
+        "Blazing Armor",
+        "Blazing Armor (Half-Plate)"
+      ],
+      "kind": "Special Equipment",
+      "details": "This mystical armor seems to resemble that which Armarouge and Ceruledge use.\nAdditional Traits: While wearing this armor, the wearer’s Maneuvers do Fire-Type Damage, the wearer also gains Resistance to Fire-Type Damage.",
+      "maneuvers": [
+        {
+          "name": "Blazing Blitz",
+          "description": "",
+          "type": "Fire",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "5",
+          "accuracy": "STRENGTH + BRAWL / WEAPONS",
+          "effect": "High Critical. Roll 3 Chance Dice to Burn (1) the Target. If successful, spend 3 Will Points to activate.",
+          "notes": "",
+          "source": "Blazing Armor (Half-Plate)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Codex of the Unown",
+      "aliases": [
+        "Codex of the Unown",
+        "Codex of the Unown (Book)"
+      ],
+      "kind": "Special Equipment",
+      "details": "This ancient tome is filled with mysterious symbols. It resonates with a strong mystical energy.\nTraits: The wielder’s unarmed Special attacks gain +1 Damage Dice.",
+      "maneuvers": [
+        {
+          "name": "Glyphs of the Unspoken",
+          "description": "",
+          "type": "Psychic",
+          "category": "Special",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "CLEVER + CHANNEL / LORE",
+          "effect": "Sound Move. High Critical. Roll 5 Chance Dice to Confuse the Target.",
+          "notes": "",
+          "source": "Codex of the Unown (Book)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Echo Gauntlets",
+      "aliases": [
+        "Echo Gauntlets",
+        "Echo Gauntlets (Dual Gauntlets)"
+      ],
+      "kind": "Special Equipment",
+      "details": "These mysterious gauntlets seem to amplify the aura abilities of those using them.\nTraits: The User’s Aura Skill is Increased by 1 while wielding these weapons. Unarmed attacks the wearer makes gain +1 Damage Dice.",
+      "maneuvers": [
+        {
+          "name": "Spiritual Resonance",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "—",
+          "accuracy": "INSIGHT + AURA",
+          "effect": "The Target may not Evade Maneuvers performed by the User. Add the successes of this Maneuver to any rolls made to track the Target outside of combat.",
+          "notes": "",
+          "source": "Echo Gauntlets (Dual Gauntlets)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "EX-Suit",
+      "aliases": [
+        "EX-Suit",
+        "EX-Suit (Power Armor)"
+      ],
+      "kind": "Special Equipment",
+      "details": "This strange high-tech, armored bodysuit gives its wearer supernatural strength and speed.\nTraits: Characters wearing this armor have +2 Defense and Special Defense.",
+      "maneuvers": [
+        {
+          "name": "Augmented Abilities",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "INSIGHT + TECHNOLOGY",
+          "effect": "Reaction 3. Increase the User’s Strength and Dexterity by 2. If successful spend 2 Will Points to activate.",
+          "notes": "",
+          "source": "EX-Suit (Power Armor)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Gunblade",
+      "aliases": [
+        "Gunblade",
+        "Gunblade (Sword / Firearm)"
+      ],
+      "kind": "Special Equipment",
+      "details": "This elegant and masterfully crafted Weapon can be used to both cut and shoot.\nTraits: Single Shot. The wielder gains access to their normal Sword Maneuvers and Crippling Shot from the Firearm list.",
+      "maneuvers": [
+        {
+          "name": "Trigger-Finger Finisher",
+          "description": "",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "COOL / BEAUTY + WEAPONS",
+          "effect": "Ranged. Projectile. Reaction 6. Never Miss. High Critical. (This Maneuver may only be Used immediately after you have successfully rolled Damage against the Target with a Non-Ranged Maneuver using this Weapon).",
+          "notes": "",
+          "source": "Gunblade (Sword / Firearm)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Needle Pistol",
+      "aliases": [
+        "Needle Pistol",
+        "Needle Pistol (Firearm)"
+      ],
+      "kind": "Special Equipment",
+      "details": "This long barrelled, masterwork laser pistol is elegantly wrought, with silver filligree decorating it.\nAdditional Traits: Energy Weapon (Laser). Burst.",
+      "maneuvers": [
+        {
+          "name": "Needlepoint",
+          "description": "",
+          "type": "Typeless",
+          "category": "Special",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY / COOL + WEAPONS",
+          "effect": "Double Action. Roll 2 Chance Dice to ignore Defenses.",
+          "notes": "",
+          "source": "Needle Pistol (Firearm)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "NoH Face",
+      "aliases": [
+        "NoH Face",
+        "NoH Face (Mask)"
+      ],
+      "kind": "Special Equipment",
+      "details": "The mask's surface shimmers with memetic camouflage. Strange tech that obscures the wearer’s face and often fully “bricks” surveillance and ocular devices that catch sight of them.\nTraits: Characters wearing this mask gain +1 Point in the Stealth Skill. Moves, Maneuvers and Commands that target the wearer lose Never Miss.",
+      "maneuvers": [
+        {
+          "name": "Digital Camo",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "INSIGHT + STEALTH",
+          "effect": "Reaction 3. Shield Move. Reduce by 3 the Damage the User would receive from an attack. Roll 3 Chance Dice to Confuse the Attacker.",
+          "notes": "",
+          "source": "NoH Face (Mask)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Obliterator",
+      "aliases": [
+        "Obliterator",
+        "Obliterator (Firearm)"
+      ],
+      "kind": "Special Equipment",
+      "details": "This large cannon-like firearm wreaks utter devastation when it is fired.\nAdditional Traits: Single Shot. Other attacks made with this Weapon have -1 Accuracy and gain +1 Damage Dice. If a Character with less then 3 Strength is wielding this Weapon, all attacks made with it gain Recoil.",
+      "maneuvers": [
+        {
+          "name": "Obliteration",
+          "description": "",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "6",
+          "accuracy": "DEXTERITY / COOL + WEAPONS",
+          "effect": "Accuracy -2. Ranged. Projectile. Lethal. Recharge.",
+          "notes": "",
+          "source": "Obliterator (Firearm)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Overquil Spine Blowpipe",
+      "aliases": [
+        "Overquil Spine Blowpipe",
+        "Overquil Spine Blowpipe (Blowpipe)"
+      ],
+      "kind": "Special Equipment",
+      "details": "This ornately carved blowpipe coats its payload in Tetrodotoxin, causing its victims to suffer a horrible death.\nAdditional Traits: All attacks made with this Weapon gain Roll 2 Chance Dice to Badly Poison the Foe.",
+      "maneuvers": [
+        {
+          "name": "Paralyzing Needle",
+          "description": "",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "High Critical. Roll 5 Chance Dice to Paralyze the Target.",
+          "notes": "",
+          "source": "Overquil Spine Blowpipe (Blowpipe)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Personal Shield Emitter",
+      "aliases": [
+        "Personal Shield Emitter",
+        "Personal Shield Emitter (Shield)"
+      ],
+      "kind": "Special Equipment",
+      "details": "The AI in this emitter can (usually) detect when the wearer would be severely damaged and prevents it, by projecting a temporary but very powerful forcefield around them.\nTraits: Once used the device must recharge for 3 Rounds.",
+      "maneuvers": [
+        {
+          "name": "Forcefield",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "INSIGHT + STEALTH",
+          "effect": "Reaction 6. Shield Move. Negate all Damage and effects the User would receive.",
+          "notes": "",
+          "source": "Personal Shield Emitter (Shield)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Psi-Enhancer",
+      "aliases": [
+        "Psi-Enhancer",
+        "Psi-Enhancer (Neural Augmentation)"
+      ],
+      "kind": "Special Equipment",
+      "details": "This curious augmentation was developed by a shady organisation, who where attempting to enhance the ability of those with psychic powers. They where successful, but the test subject destroyed their facility and escaped by manipulating their tech against them.\nTraits: The implantee gains +1 to their Special Attribute.",
+      "maneuvers": [
+        {
+          "name": "Technoshred",
+          "description": "",
+          "type": "Typeless",
+          "category": "Special",
+          "target": "User",
+          "power": "3",
+          "accuracy": "SPECIAL + CHANNEL",
+          "effect": "If the User is in the Facility, Foundry or Urbanized Field-Types or in a Technology filled location: This Maneuver does Steel-Type Damage and gains +2 Damage Dice.",
+          "notes": "",
+          "source": "Psi-Enhancer (Neural Augmentation)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Repeating Crossbow",
+      "aliases": [
+        "Repeating Crossbow",
+        "Repeating Crossbow (Crossbow)"
+      ],
+      "kind": "Special Equipment",
+      "details": "This high tech crossbow uses racks of bolts and can fire extremely fast.\nAdditional Traits: Deadeye Shot may be made as a Double Action.",
+      "maneuvers": [
+        {
+          "name": "Rapid Fire",
+          "description": "",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Accuracy -1. Ranged. Projectile. Reaction 1. Successive Actions.",
+          "notes": "",
+          "source": "Repeating Crossbow (Crossbow)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Seviper’s Fang",
+      "aliases": [
+        "Seviper’s Fang",
+        "Seviper’s Fang (Dagger)",
+        "Seviper's Fang"
+      ],
+      "kind": "Special Equipment",
+      "details": "This dagger made from a carved Seviper fang still holds a trace of potent venom.\nAdditional Traits: Other attacks made with this Weapon gain: Roll 2 Chance Dice to Poison the Foe.",
+      "maneuvers": [
+        {
+          "name": "Venomous Puncture",
+          "description": "",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Roll 3 Chance Dice to Badly Poison the Target.",
+          "notes": "",
+          "source": "Seviper’s Fang (Dagger)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Silph Co. Synapse-X",
+      "aliases": [
+        "Silph Co. Synapse-X",
+        "Silph Co. Synapse-X (Neural Augmentation)"
+      ],
+      "kind": "Special Equipment",
+      "details": "The gold standard in neural augmentation. Allows the user to do almost anything they could usually do with a top end computer or smart phone. Apparently it boosts cognitive processes too...\nTraits: The implantee gains +1 to their Clever Attribute and +1 Technology Skill Point.",
+      "maneuvers": [
+        {
+          "name": "Augmented Intuition",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "CLEVER + TECHNOLOGY",
+          "effect": "The next Maneuver the User performs has 2 automatic successes added onto their Accuracy Roll.",
+          "notes": "",
+          "source": "Silph Co. Synapse-X (Neural Augmentation)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Snag Machine",
+      "aliases": [
+        "Snag Machine",
+        "Snag Machine (Capture Tech)"
+      ],
+      "kind": "Special Equipment",
+      "details": "An illegal device that corrupts a thrown Poke Ball, allowing it to bypass the encryption usually preventing Trainer registered Pokémon from being caught. You wouldn’t use it for evil though... right?\nTraits: Allows the capture of Trainer owned Pokémon.",
+      "maneuvers": [
+        {
+          "name": "Snag",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "DEXTERITY + ATHLETIC / TECHNOLOGY",
+          "effect": "The next Poke Ball you throw may capture a Trainer owned Pokémon.",
+          "notes": "",
+          "source": "Snag Machine (Capture Tech)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Soul Devourer",
+      "aliases": [
+        "Soul Devourer",
+        "Soul Devourer (Sword)"
+      ],
+      "kind": "Special Equipment",
+      "details": "This strange black bladed scimitar is inlaid with obsidian. It is said to be a Honedge, that in life was a particularly twisted and violent individual. It feasts on the souls of those slain by its edge, but might just turn on its wielder.\nAdditional Traits: When rolling Damage against a Foe with any attack made using this Weapon, roll a D100 Luck Check. On a 90+, if the Foe is on Pain Penalties (Or would be, ignoring spent Will). Deal Lethal Damage equal to its Max HP +1. If it is a 95+ the prior effect applies except the Foe does not need to be on Pain Penalties. If the Luck Check is a 20 or lower the attack goes off as normal, but the User takes half their remaining HP (rounded down) as Damage.",
+      "maneuvers": [
+        {
+          "name": "Soul Rend",
+          "description": "",
+          "type": "Ghost",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "High Critical. Never Miss. Lethal.",
+          "notes": "",
+          "source": "Soul Devourer (Sword)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Spear of Judgement",
+      "aliases": [
+        "Spear of Judgement",
+        "Spear of Judgement (Spear)"
+      ],
+      "kind": "Special Equipment",
+      "details": "This spear is made from a strange white metal. Its balanced perfectly and has gold trimming with emeralds inlaid in its filigree.\nAdditional Traits: When the User makes an attack with this Weapon. The Type of Damage dealt can be chosen.",
+      "maneuvers": [
+        {
+          "name": "Verdict of the Divine",
+          "description": "",
+          "type": "???",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "4",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "This Maneuver does not trigger the Target’s contact effects. Never Miss. Roll 3 Chance Dice to change the Field-Type to Holy Ground.",
+          "notes": "",
+          "source": "Spear of Judgement (Spear)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique",
+          "aliases": [
+            "Verdict of the Devine"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stim Synthesizer",
+      "aliases": [
+        "Stim Synthesizer",
+        "Stim Synthesizer (Medipack)"
+      ],
+      "kind": "Special Equipment",
+      "details": "This curious device chemically synthesizes compounds from the local environment to boost the immune system and treat minor injuries.\nTraits: The device creates 1 Healing Item of the Storyteller’s choice per day.",
+      "maneuvers": [
+        {
+          "name": "Stim Shot",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User or One Ally",
+          "power": "0",
+          "accuracy": "CLEVER + MEDICINE",
+          "effect": "Basic Heal. Cures Poisoned, Burn (1) and Paralyzed. If successful spend 1 Will Point to Activate.",
+          "notes": "",
+          "source": "Stim Synthesizer (Medipack)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Swordmaster Zacharia Kinzoku’s Katana",
+      "aliases": [
+        "Swordmaster Zacharia Kinzoku’s Katana",
+        "Swordmaster Zacharia Kinzoku’s Katana (Sword)",
+        "Swordmaster Zacharia Kinzoku's Katana"
+      ],
+      "kind": "Special Equipment",
+      "details": "This beautiful sword cuts with an edge so fine that foes may not realise they have been cut with it until they are already dead.\nAdditional Traits: Other attacks made with this Weapon gain High Critical.",
+      "maneuvers": [
+        {
+          "name": "You’re Already Dead",
+          "description": "",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "—",
+          "accuracy": "COOL / BEAUTY + WEAPONS",
+          "effect": "Accuracy -5. Lethal. Reaction 1. Deal Damage equal to the Target’s remaining HP +1.",
+          "notes": "",
+          "source": "Swordmaster Zacharia Kinzoku’s Katana (Sword)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Winged Bow",
+      "aliases": [
+        "Winged Bow",
+        "Winged Bow (Bow)"
+      ],
+      "kind": "Special Equipment",
+      "details": "This ornate ash-wood long bow has carved feathers along its limbs. Arrows fired from it seem to alight in an icy blue, fiery orange or electric yellow.\nAdditional Traits: Other attacks made with this Weapon gain 1 Chance Dice to Frostbite (1), 1 to Burn (1) and 1 to Paralyze.",
+      "maneuvers": [
+        {
+          "name": "Arrow of the Sky Triad",
+          "description": "",
+          "type": "Flying",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY / COOL + WEAPONS",
+          "effect": "High Critical. Roll 2 Chance Dice to Frostbite (1), 2 to Burn (1), and 2 to Paralyze.",
+          "notes": "",
+          "source": "Winged Bow (Bow)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Wraps of the Iron Fist",
+      "aliases": [
+        "Wraps of the Iron Fist",
+        "Wraps of the Iron Fist (Wrappings)"
+      ],
+      "kind": "Special Equipment",
+      "details": "These bindings where blessed in a monastery on a high peak. They grant the wearer strength and fortitude in combat.\nTraits: Characters wielding this Weapon gain +1 Defense and Special Defense. All unarmed attacks the wearer makes gain 1 Chance Dice to Flinch the Foe.",
+      "maneuvers": [
+        {
+          "name": "Steel Palmed Strike",
+          "description": "",
+          "type": "Steel",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "STRENGTH / TOUGH + BRAWL",
+          "effect": "High Critical.",
+          "notes": "",
+          "source": "Wraps of the Iron Fist (Wrappings)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    }
+  ],
+  "maneuvers": [
+    {
+      "name": "Aura Infused Blow",
+      "aliases": [
+        "Aura Infused Blow"
+      ],
+      "variants": [
+        {
+          "name": "Aura Infused Blow",
+          "description": "The User strikes at the flow, while infusing their attacks with aura power.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "STRENGTH / DEXTERITY + AURA",
+          "effect": "Never Miss.",
+          "notes": "",
+          "source": "Aura Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Pre-empt",
+      "aliases": [
+        "Pre-empt"
+      ],
+      "variants": [
+        {
+          "name": "Pre-empt",
+          "description": "The User focusses on the battle, reading the Foe’s Movements and intentions.",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "—",
+          "accuracy": "INSIGHT + AURA",
+          "effect": "The User may make an additional Evasion or Clash per Round (as long as they have the Actions to do so).",
+          "notes": "",
+          "source": "Aura Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Aura Ora-Ora-Ora",
+      "aliases": [
+        "Aura Ora-Ora-Ora"
+      ],
+      "variants": [
+        {
+          "name": "Aura Ora-Ora-Ora",
+          "description": "The User lays a furious flurry of blows on the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "User",
+          "power": "1",
+          "accuracy": "DEXTERITY + AURA",
+          "effect": "Successive Actions.",
+          "notes": "",
+          "source": "Aura Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Stunning Blow",
+      "aliases": [
+        "Stunning Blow"
+      ],
+      "variants": [
+        {
+          "name": "Stunning Blow",
+          "description": "The User strikes at the Foe’s nerves or pressure points attempting to slow their Movements.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY / INSIGHT + AURA",
+          "effect": "Roll 5 Chance Dice to Paralyze the Target.",
+          "notes": "",
+          "source": "Aura Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Gouging Hacks",
+      "aliases": [
+        "Gouging Hacks"
+      ],
+      "variants": [
+        {
+          "name": "Gouging Hacks",
+          "description": "The User hacks at the enemy savagely.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "Successive Actions. Lethal.",
+          "notes": "",
+          "source": "Axes",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Whirling Death",
+      "aliases": [
+        "Whirling Death"
+      ],
+      "variants": [
+        {
+          "name": "Whirling Death",
+          "description": "The User throws an axe at the Foe, the sound of it whirling through the air being often the last thing the enemy hears.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Lethal.",
+          "notes": "",
+          "source": "Axes",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Furious Gouge",
+      "aliases": [
+        "Furious Gouge"
+      ],
+      "variants": [
+        {
+          "name": "Furious Gouge",
+          "description": "The User hacks at the Foe furiously.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "High Critical. Lethal.",
+          "notes": "",
+          "source": "Axes",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Deadeye Shot",
+      "aliases": [
+        "Deadeye Shot"
+      ],
+      "variants": [
+        {
+          "name": "Deadeye Shot",
+          "description": "The User fires a precise shot at the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal.",
+          "notes": "",
+          "source": "Blowpipes",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Deadeye Shot",
+          "description": "The User fires a precise shot at the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal.",
+          "notes": "",
+          "source": "Bows and Crossbows",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Deadeye Shot",
+          "description": "The User fires a precise shot at the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. High Critical.",
+          "notes": "",
+          "source": "Firearms",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Precise Aim",
+      "aliases": [
+        "Precise Aim"
+      ],
+      "variants": [
+        {
+          "name": "Precise Aim",
+          "description": "The User steadies themself, slows their heart rate and takes a shot.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY / INSIGHT + WEAPONS",
+          "effect": "Accuracy +1. Ranged. Projectile. Late Reaction 4. Lethal.",
+          "notes": "",
+          "source": "Blowpipes",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Precise Aim",
+          "description": "The User steadies themself, slows their heart rate and takes a shot.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY / INSIGHT + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. Never Miss. Late Reaction 4.",
+          "notes": "",
+          "source": "Firearms",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Coated Dart",
+      "aliases": [
+        "Coated Dart"
+      ],
+      "variants": [
+        {
+          "name": "Coated Dart",
+          "description": "The User launches a dart covered in a strange compound at the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. Roll 3 Chance Dice to Poison the Target.",
+          "notes": "",
+          "source": "Blowpipes",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        },
+        {
+          "name": "Coated Dart",
+          "description": "The User launches a dart covered in a strange compound at the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. Roll 3 Chance Dice to Poison the Target.",
+          "notes": "",
+          "source": "Kunai, Throwing Darts and Throwing Stars",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Charged Shot",
+      "aliases": [
+        "Charged Shot"
+      ],
+      "variants": [
+        {
+          "name": "Charged Shot",
+          "description": "The User takes their time and draws back the string to the maximum.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "5",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Charge. Lethal.",
+          "notes": "",
+          "source": "Bows and Crossbows",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Burning Shot",
+      "aliases": [
+        "Burning Shot"
+      ],
+      "variants": [
+        {
+          "name": "Burning Shot",
+          "description": "The User ignites their projectile, then fires a flaming shot at the Foe.",
+          "type": "Fire",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Lethal. Projectile. Roll 3 Chance Dice to Burn (1) the Target.",
+          "notes": "",
+          "source": "Bows and Crossbows",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Arcane Blast",
+      "aliases": [
+        "Arcane Blast"
+      ],
+      "variants": [
+        {
+          "name": "Arcane Blast",
+          "description": "The User unleashes their power towards their enemy.",
+          "type": "Typeless",
+          "category": "Special",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "SPECIAL + CHANNEL",
+          "effect": "",
+          "notes": "",
+          "source": "Channelling Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Stun-Lock",
+      "aliases": [
+        "Stun-Lock"
+      ],
+      "variants": [
+        {
+          "name": "Stun-Lock",
+          "description": "The User attempts to painfully stun the Foe, stopping them in their tracks.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "SPECIAL + CHANNEL",
+          "effect": "Roll 5 Chance Dice to Flinch the Target.",
+          "notes": "",
+          "source": "Channelling Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Psionic Barrage",
+      "aliases": [
+        "Psionic Barrage"
+      ],
+      "variants": [
+        {
+          "name": "Psionic Barrage",
+          "description": "The User unleashes a barrage of psionic power, but is left drained afterwards.",
+          "type": "Typeless",
+          "category": "Special",
+          "target": "All Foes",
+          "power": "5",
+          "accuracy": "SPECIAL + CHANNEL",
+          "effect": "The User immediately takes 2 Level of Exhaustion.",
+          "notes": "",
+          "source": "Channelling Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Mindscape",
+      "aliases": [
+        "Mindscape"
+      ],
+      "variants": [
+        {
+          "name": "Mindscape",
+          "description": "The User envisions a strange realm in their minds eye and makes it tangible.",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Battlefield",
+          "power": "—",
+          "accuracy": "CLEVER + CHANNEL",
+          "effect": "The User sets Psychic Terrain. Duration 4 Rounds.",
+          "notes": "",
+          "source": "Channelling Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Crushing Strike",
+      "aliases": [
+        "Crushing Strike"
+      ],
+      "variants": [
+        {
+          "name": "Crushing Strike",
+          "description": "The User brings down their Weapon on the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "STRENGTH + WEAPONS",
+          "effect": "Lethal.",
+          "notes": "",
+          "source": "Clubs, Flails, Hammers and Maces",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Bludgeon",
+      "aliases": [
+        "Bludgeon"
+      ],
+      "variants": [
+        {
+          "name": "Bludgeon",
+          "description": "The User strikes at the Foe, enough to Damage but not to kill.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Roll 3 Chance Dice to Flinch the Target.",
+          "notes": "",
+          "source": "Clubs, Flails, Hammers and Maces",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Skull Sunder",
+      "aliases": [
+        "Skull Sunder"
+      ],
+      "variants": [
+        {
+          "name": "Skull Sunder",
+          "description": "The User strikes at the Foe’s head with full force attempting to annihilate them.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "5",
+          "accuracy": "STRENGTH + WEAPONS",
+          "effect": "Recharge. Lethal.",
+          "notes": "",
+          "source": "Clubs, Flails, Hammers and Maces",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Double Strike",
+      "aliases": [
+        "Double Strike"
+      ],
+      "variants": [
+        {
+          "name": "Double Strike",
+          "description": "The User lashes out striking the Foe multiple times.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Double Action. High Critical. Lethal.",
+          "notes": "",
+          "source": "Daggers, Knives and Short Blades",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Skewering Throw",
+      "aliases": [
+        "Skewering Throw"
+      ],
+      "variants": [
+        {
+          "name": "Skewering Throw",
+          "description": "The User flicks a blade at the Target.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Lethal.",
+          "notes": "",
+          "source": "Daggers, Knives and Short Blades",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Skewering Throw",
+          "description": "The User flicks a blade at the Target.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Lethal.",
+          "notes": "",
+          "source": "Kunai, Throwing Darts and Throwing Stars",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Hidden Blade",
+      "aliases": [
+        "Hidden Blade"
+      ],
+      "variants": [
+        {
+          "name": "Hidden Blade",
+          "description": "The User attempts to feint the Foe, producing a blade from seemingly thin air.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY + STEALTH",
+          "effect": "Late Reaction 6. High Critical. Lethal. This Move can only be used after the Target rolls a Damaging Move.",
+          "notes": "",
+          "source": "Daggers, Knives and Short Blades",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Whisper Slash",
+      "aliases": [
+        "Whisper Slash"
+      ],
+      "variants": [
+        {
+          "name": "Whisper Slash",
+          "description": "The silently lunges at the Foe, slashing with a razor sharp edge.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Never Miss. High Critical. Lethal.",
+          "notes": "",
+          "source": "Daggers, Knives and Short Blades",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Crippling Shot",
+      "aliases": [
+        "Crippling Shot"
+      ],
+      "variants": [
+        {
+          "name": "Crippling Shot",
+          "description": "The User aims specifically for points on the Foe’s anatomy that will cripple them.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. Roll 3 Chance Dice to Paralyze the Target.",
+          "notes": "",
+          "source": "Firearms",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Fast Draw",
+      "aliases": [
+        "Fast Draw"
+      ],
+      "variants": [
+        {
+          "name": "Fast Draw",
+          "description": "The User draws, aims and shoots in a split-second.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. Reaction 3.",
+          "notes": "",
+          "source": "Firearms",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Piercing Shot",
+      "aliases": [
+        "Piercing Shot"
+      ],
+      "variants": [
+        {
+          "name": "Piercing Shot",
+          "description": "The User fires a Round specifically designed to go through heavy armor.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. Reduce the Target’s Defense by 1.",
+          "notes": "",
+          "source": "Firearms",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Crushing Blow",
+      "aliases": [
+        "Crushing Blow"
+      ],
+      "variants": [
+        {
+          "name": "Crushing Blow",
+          "description": "The User brings their full force and the weight of their Weapon down on the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "4",
+          "accuracy": "STRENGTH + WEAPONS",
+          "effect": "Lethal.",
+          "notes": "",
+          "source": "Great Weapons",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Arcing Cleave",
+      "aliases": [
+        "Arcing Cleave"
+      ],
+      "variants": [
+        {
+          "name": "Arcing Cleave",
+          "description": "The User swings their Weapon Round attempting to hit multiple enemies.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "After rolling Damage, you may roll 1 Dice of Damage against two other Targets. Lethal.",
+          "notes": "",
+          "source": "Great Weapons",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Wild Spin",
+      "aliases": [
+        "Wild Spin"
+      ],
+      "variants": [
+        {
+          "name": "Wild Spin",
+          "description": "The User swings their Weapon in a spinning motion, attempting to hit multiple enemies.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "All Foes",
+          "power": "3",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "Rampage. Lethal. Until the User’s next Action they have +1 Defense and Special Defense.",
+          "notes": "",
+          "source": "Great Weapons",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Piercing Thrust",
+      "aliases": [
+        "Piercing Thrust"
+      ],
+      "variants": [
+        {
+          "name": "Piercing Thrust",
+          "description": "The User jabs at the Foe from a distance.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Lethal. This Maneuver does not trigger Target's contact effects.",
+          "notes": "",
+          "source": "Halberds, Spears and Polearms",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Sentinels Reach",
+      "aliases": [
+        "Sentinels Reach"
+      ],
+      "variants": [
+        {
+          "name": "Sentinels Reach",
+          "description": "The User keeps the Foe in combat, not letting them escape.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Blocks. This Maneuver does not trigger Target's contact effects.",
+          "notes": "",
+          "source": "Halberds, Spears and Polearms",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Impaling Throw",
+      "aliases": [
+        "Impaling Throw"
+      ],
+      "variants": [
+        {
+          "name": "Impaling Throw",
+          "description": "The User launches their Weapon at the Foe, hoping to impale them.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY + ATHLETIC",
+          "effect": "Ranged. High Critical.",
+          "notes": "",
+          "source": "Halberds, Spears and Polearms",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Swinging Crash",
+      "aliases": [
+        "Swinging Crash"
+      ],
+      "variants": [
+        {
+          "name": "Swinging Crash",
+          "description": "The User swings an improvised Weapon hoping to strike the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "???.",
+          "notes": "",
+          "source": "Improvised Weapons",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Chuck It",
+      "aliases": [
+        "Chuck It"
+      ],
+      "variants": [
+        {
+          "name": "Chuck It",
+          "description": "The User hurls an improvised Weapon at the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "DEXTERITY + ATHLETIC",
+          "effect": "Ranged. ???.",
+          "notes": "",
+          "source": "Improvised Weapons",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Kobudo",
+      "aliases": [
+        "Kobudo"
+      ],
+      "variants": [
+        {
+          "name": "Kobudo",
+          "description": "The User has learned to masterfully use their environment and anything in it during a fight.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "Ranged. ???.",
+          "notes": "",
+          "source": "Improvised Weapons",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Binding Reap",
+      "aliases": [
+        "Binding Reap"
+      ],
+      "variants": [
+        {
+          "name": "Binding Reap",
+          "description": "The User swings one blade towards their Foe, binding and sharply pulling them towards them.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Roll 3 Chance Dice to deal Ongoing Damage 1. Duration: until the User Targets a different Active Combatant.",
+          "notes": "",
+          "source": "Kusarigama",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Unbalance",
+      "aliases": [
+        "Unbalance"
+      ],
+      "variants": [
+        {
+          "name": "Unbalance",
+          "description": "The User swings their Weapon wildly, attempting to unbalance the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. the Target’s next Non-Reaction Move or Maneuver is made at Late Reaction 6.",
+          "notes": "",
+          "source": "Kusarigama",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Swinging Slashes",
+      "aliases": [
+        "Swinging Slashes"
+      ],
+      "variants": [
+        {
+          "name": "Swinging Slashes",
+          "description": "The User makes multiple vicious slashes at the Foe while swinging the counterweight.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Successive Actions.",
+          "notes": "",
+          "source": "Kusarigama",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Piercing Wind",
+      "aliases": [
+        "Piercing Wind"
+      ],
+      "variants": [
+        {
+          "name": "Piercing Wind",
+          "description": "The whips a collection of thrown blades at the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Successive Actions. Lethal.",
+          "notes": "",
+          "source": "Kunai, Throwing Darts and Throwing Stars",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Deflect",
+      "aliases": [
+        "Deflect"
+      ],
+      "variants": [
+        {
+          "name": "Deflect",
+          "description": "The User flicks a blade, deflecting a projectile or thrown item.",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "0",
+          "accuracy": "DEXTERITY + ALERT",
+          "effect": "Accuracy -2. Ranged. Reaction 3. Destroy a thrown Poke Ball or block all Damage from a single Target physical Ranged Projectile attack completely (at the Storyteller’s discretion).",
+          "notes": "",
+          "source": "Kunai, Throwing Darts and Throwing Stars",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Serpentine Strike",
+      "aliases": [
+        "Serpentine Strike"
+      ],
+      "variants": [
+        {
+          "name": "Serpentine Strike",
+          "description": "The User spins their Weapon in a fast circular motion, catching the Foe off guard.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Reaction 1.",
+          "notes": "",
+          "source": "Nunchaku and Staves",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Spinning Deflect",
+      "aliases": [
+        "Spinning Deflect"
+      ],
+      "variants": [
+        {
+          "name": "Spinning Deflect",
+          "description": "The User spins their Weapon in an attempt to deflect and disarm the Foe.",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "0",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Reaction 3. Shield. Reduce 3 Damage from a Damaging attack. Roll 3 Chance Dice to Disarm the Target.",
+          "notes": "",
+          "source": "Nunchaku and Staves",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Whirpool Riposte",
+      "aliases": [
+        "Whirpool Riposte"
+      ],
+      "variants": [
+        {
+          "name": "Whirpool Riposte",
+          "description": "The User counters with a strong riposte after receiving Damage.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "Varies",
+          "accuracy": "INSIGHT / DEXTERITY + WEAPONS",
+          "effect": "This Move can only deal Damage if the Target has dealt Special Damage to the User this Round. Roll the same Damage Pool as your Target plus 2 Extra Dice.",
+          "notes": "",
+          "source": "Nunchaku and Staves",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Whirlwind Riposte",
+      "aliases": [
+        "Whirlwind Riposte"
+      ],
+      "variants": [
+        {
+          "name": "Whirlwind Riposte",
+          "description": "The User sacrifices defense for an empowered returned strike.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "Varies",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "This Move can only deal Damage if the Target has dealt Physical Damage to the User this Round. Roll the same Damage Pool as your Target plus 2 Extra Dice.",
+          "notes": "",
+          "source": "Nunchaku and Staves",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Sweeping Slash",
+      "aliases": [
+        "Sweeping Slash"
+      ],
+      "variants": [
+        {
+          "name": "Sweeping Slash",
+          "description": "The User slashes at the Foe with a sharp edged blade.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "Lethal.",
+          "notes": "",
+          "source": "Swords",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Parry",
+      "aliases": [
+        "Parry"
+      ],
+      "variants": [
+        {
+          "name": "Parry",
+          "description": "The User attempts to deflect a Foe’s attack.",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "—",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "Reaction 1. Shield. Reduce 2 Damage the User would receive from a Damaging attack. If the Target used a Non-Ranged Physical attack roll 1 Dice of Damage against them.",
+          "notes": "",
+          "source": "Swords",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Disarming Flourish",
+      "aliases": [
+        "Disarming Flourish"
+      ],
+      "variants": [
+        {
+          "name": "Disarming Flourish",
+          "description": "The User attempts to disarm the Foe with a series of quick thrusts and turns.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY / INSIGHT + WEAPONS",
+          "effect": "Roll 4 Chance Dice to Disarm the Target. In the case of Pokémon remove their Held Item.",
+          "notes": "",
+          "source": "Swords",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Piercing Lunge",
+      "aliases": [
+        "Piercing Lunge"
+      ],
+      "variants": [
+        {
+          "name": "Piercing Lunge",
+          "description": "The User lunges for the Foe’s weak point.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "High Critical. Lethal.",
+          "notes": "",
+          "source": "Swords",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Shield Strike",
+      "aliases": [
+        "Shield Strike"
+      ],
+      "variants": [
+        {
+          "name": "Shield Strike",
+          "description": "The User bashes the Foe with their shield.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "STRENGTH + WEAPONS",
+          "effect": "",
+          "notes": "",
+          "source": "Shields",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Shield of Valor",
+      "aliases": [
+        "Shield of Valor"
+      ],
+      "variants": [
+        {
+          "name": "Shield of Valor",
+          "description": "The User brings their shield up to protect themself or an Ally.",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User / One Ally",
+          "power": "—",
+          "accuracy": "VITALITY + WEAPONS",
+          "effect": "Reaction 5. Shield. Reduce 3 Damage the User or Target would receive from a Damaging attack.",
+          "notes": "",
+          "source": "Shields",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Protective Strike",
+      "aliases": [
+        "Protective Strike"
+      ],
+      "variants": [
+        {
+          "name": "Protective Strike",
+          "description": "The User brings their shield up quickly before striking at their Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "Set Damage",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Reaction 5. Shield. Set Damage. May only be used when an attack successfully hits the User or an Ally. Lessen the Damage from that attack by 3. Deal 1 Damage to the attacker.",
+          "notes": "",
+          "source": "Shields",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Unarmed Strike",
+      "aliases": [
+        "Unarmed Strike"
+      ],
+      "variants": [
+        {
+          "name": "Unarmed Strike",
+          "description": "The User strikes at the Foe with a basic attack.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "STRENGTH / DEXTERITY + BRAWL",
+          "effect": "",
+          "notes": "",
+          "source": "Unarmed Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Haymaker",
+      "aliases": [
+        "Haymaker"
+      ],
+      "variants": [
+        {
+          "name": "Haymaker",
+          "description": "The User winds up a powerful blow that may leave the Foe stunned.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "STRENGTH + BRAWL",
+          "effect": "Late Reaction 5. Roll 3 Chance Dice to Flinch the Target.",
+          "notes": "",
+          "source": "Unarmed Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Disarming Strike",
+      "aliases": [
+        "Disarming Strike"
+      ],
+      "variants": [
+        {
+          "name": "Disarming Strike",
+          "description": "You Strike at the Foe’s wrist, attempting to disarm them.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY / INSIGHT + BRAWL",
+          "effect": "Roll 3 Chance Dice to Disarm the Target. In the case of Pokémon they lose their Held Item.",
+          "notes": "",
+          "source": "Unarmed Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Flying Fist Flurry",
+      "aliases": [
+        "Flying Fist Flurry"
+      ],
+      "variants": [
+        {
+          "name": "Flying Fist Flurry",
+          "description": "The User lands a succession of strikes on the Foe.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "DEXTERITY + BRAWL",
+          "effect": "Successive Actions.",
+          "notes": "",
+          "source": "Unarmed Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Hullbury Kiss",
+      "aliases": [
+        "Hullbury Kiss"
+      ],
+      "variants": [
+        {
+          "name": "Hullbury Kiss",
+          "description": "The User headbutts the Foe at full force.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "5",
+          "accuracy": "STRENGTH / TOUGH + BRAWL",
+          "effect": "Recoil.",
+          "notes": "",
+          "source": "Unarmed Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Knockout Punch",
+      "aliases": [
+        "Knockout Punch"
+      ],
+      "variants": [
+        {
+          "name": "Knockout Punch",
+          "description": "The User attempts to OHKO the Foe with a single hit.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "—",
+          "accuracy": "DEXTERITY + BRAWL",
+          "effect": "Accuracy -5. Deal Damage equal to the Target’s remaining HP +1.",
+          "notes": "",
+          "source": "Unarmed Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Leaping Elbow Drop",
+      "aliases": [
+        "Leaping Elbow Drop"
+      ],
+      "variants": [
+        {
+          "name": "Leaping Elbow Drop",
+          "description": "The User leaps at the Foe, crashing down with their full weight behind their elbow on them.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "4",
+          "accuracy": "DEXTERITY + PERFORM",
+          "effect": "Roll 3 Chance Dice to Paralyze the Target. After dealing Damage, reduce the User's Dexterity by 1.",
+          "notes": "",
+          "source": "Unarmed Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Pre-Emptive Blow",
+      "aliases": [
+        "Pre-Emptive Blow"
+      ],
+      "variants": [
+        {
+          "name": "Pre-Emptive Blow",
+          "description": "The User senses the Foe’s intent and tries to outspeed them.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + BRAWL",
+          "effect": "Late Reaction 6. This Move can only be used after the Target rolls a Damaging Move.",
+          "notes": "",
+          "source": "Unarmed Combat Skill",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
+      "name": "Berserker's Fury",
+      "aliases": [
+        "Berserker's Fury"
+      ],
+      "variants": [
+        {
+          "name": "Berserker's Fury",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "TOUGH + BRAWL",
+          "effect": "Increase the User’s Strength and Defense by 1.",
+          "notes": "",
+          "source": "Blood Thirsty Axes (Dual Hand Axes)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Blazing Blitz",
+      "aliases": [
+        "Blazing Blitz"
+      ],
+      "variants": [
+        {
+          "name": "Blazing Blitz",
+          "description": "",
+          "type": "Fire",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "5",
+          "accuracy": "STRENGTH + BRAWL / WEAPONS",
+          "effect": "High Critical. Roll 3 Chance Dice to Burn (1) the Target. If successful, spend 3 Will Points to activate.",
+          "notes": "",
+          "source": "Blazing Armor (Half-Plate)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Glyphs of the Unspoken",
+      "aliases": [
+        "Glyphs of the Unspoken"
+      ],
+      "variants": [
+        {
+          "name": "Glyphs of the Unspoken",
+          "description": "",
+          "type": "Psychic",
+          "category": "Special",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "CLEVER + CHANNEL / LORE",
+          "effect": "Sound Move. High Critical. Roll 5 Chance Dice to Confuse the Target.",
+          "notes": "",
+          "source": "Codex of the Unown (Book)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Spiritual Resonance",
+      "aliases": [
+        "Spiritual Resonance"
+      ],
+      "variants": [
+        {
+          "name": "Spiritual Resonance",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "—",
+          "accuracy": "INSIGHT + AURA",
+          "effect": "The Target may not Evade Maneuvers performed by the User. Add the successes of this Maneuver to any rolls made to track the Target outside of combat.",
+          "notes": "",
+          "source": "Echo Gauntlets (Dual Gauntlets)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Augmented Abilities",
+      "aliases": [
+        "Augmented Abilities"
+      ],
+      "variants": [
+        {
+          "name": "Augmented Abilities",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "INSIGHT + TECHNOLOGY",
+          "effect": "Reaction 3. Increase the User’s Strength and Dexterity by 2. If successful spend 2 Will Points to activate.",
+          "notes": "",
+          "source": "EX-Suit (Power Armor)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Trigger-Finger Finisher",
+      "aliases": [
+        "Trigger-Finger Finisher"
+      ],
+      "variants": [
+        {
+          "name": "Trigger-Finger Finisher",
+          "description": "",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "COOL / BEAUTY + WEAPONS",
+          "effect": "Ranged. Projectile. Reaction 6. Never Miss. High Critical. (This Maneuver may only be Used immediately after you have successfully rolled Damage against the Target with a Non-Ranged Maneuver using this Weapon).",
+          "notes": "",
+          "source": "Gunblade (Sword / Firearm)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Needlepoint",
+      "aliases": [
+        "Needlepoint"
+      ],
+      "variants": [
+        {
+          "name": "Needlepoint",
+          "description": "",
+          "type": "Typeless",
+          "category": "Special",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY / COOL + WEAPONS",
+          "effect": "Double Action. Roll 2 Chance Dice to ignore Defenses.",
+          "notes": "",
+          "source": "Needle Pistol (Firearm)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Digital Camo",
+      "aliases": [
+        "Digital Camo"
+      ],
+      "variants": [
+        {
+          "name": "Digital Camo",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "INSIGHT + STEALTH",
+          "effect": "Reaction 3. Shield Move. Reduce by 3 the Damage the User would receive from an attack. Roll 3 Chance Dice to Confuse the Attacker.",
+          "notes": "",
+          "source": "NoH Face (Mask)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Obliteration",
+      "aliases": [
+        "Obliteration"
+      ],
+      "variants": [
+        {
+          "name": "Obliteration",
+          "description": "",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "6",
+          "accuracy": "DEXTERITY / COOL + WEAPONS",
+          "effect": "Accuracy -2. Ranged. Projectile. Lethal. Recharge.",
+          "notes": "",
+          "source": "Obliterator (Firearm)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Paralyzing Needle",
+      "aliases": [
+        "Paralyzing Needle"
+      ],
+      "variants": [
+        {
+          "name": "Paralyzing Needle",
+          "description": "",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "High Critical. Roll 5 Chance Dice to Paralyze the Target.",
+          "notes": "",
+          "source": "Overquil Spine Blowpipe (Blowpipe)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Forcefield",
+      "aliases": [
+        "Forcefield"
+      ],
+      "variants": [
+        {
+          "name": "Forcefield",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "INSIGHT + STEALTH",
+          "effect": "Reaction 6. Shield Move. Negate all Damage and effects the User would receive.",
+          "notes": "",
+          "source": "Personal Shield Emitter (Shield)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Technoshred",
+      "aliases": [
+        "Technoshred"
+      ],
+      "variants": [
+        {
+          "name": "Technoshred",
+          "description": "",
+          "type": "Typeless",
+          "category": "Special",
+          "target": "User",
+          "power": "3",
+          "accuracy": "SPECIAL + CHANNEL",
+          "effect": "If the User is in the Facility, Foundry or Urbanized Field-Types or in a Technology filled location: This Maneuver does Steel-Type Damage and gains +2 Damage Dice.",
+          "notes": "",
+          "source": "Psi-Enhancer (Neural Augmentation)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Rapid Fire",
+      "aliases": [
+        "Rapid Fire"
+      ],
+      "variants": [
+        {
+          "name": "Rapid Fire",
+          "description": "",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Accuracy -1. Ranged. Projectile. Reaction 1. Successive Actions.",
+          "notes": "",
+          "source": "Repeating Crossbow (Crossbow)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Venomous Puncture",
+      "aliases": [
+        "Venomous Puncture"
+      ],
+      "variants": [
+        {
+          "name": "Venomous Puncture",
+          "description": "",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Roll 3 Chance Dice to Badly Poison the Target.",
+          "notes": "",
+          "source": "Seviper’s Fang (Dagger)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Augmented Intuition",
+      "aliases": [
+        "Augmented Intuition"
+      ],
+      "variants": [
+        {
+          "name": "Augmented Intuition",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "CLEVER + TECHNOLOGY",
+          "effect": "The next Maneuver the User performs has 2 automatic successes added onto their Accuracy Roll.",
+          "notes": "",
+          "source": "Silph Co. Synapse-X (Neural Augmentation)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Snag",
+      "aliases": [
+        "Snag"
+      ],
+      "variants": [
+        {
+          "name": "Snag",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "DEXTERITY + ATHLETIC / TECHNOLOGY",
+          "effect": "The next Poke Ball you throw may capture a Trainer owned Pokémon.",
+          "notes": "",
+          "source": "Snag Machine (Capture Tech)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Soul Rend",
+      "aliases": [
+        "Soul Rend"
+      ],
+      "variants": [
+        {
+          "name": "Soul Rend",
+          "description": "",
+          "type": "Ghost",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "High Critical. Never Miss. Lethal.",
+          "notes": "",
+          "source": "Soul Devourer (Sword)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Verdict of the Divine",
+      "aliases": [
+        "Verdict of the Devine"
+      ],
+      "variants": [
+        {
+          "name": "Verdict of the Divine",
+          "description": "",
+          "type": "???",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "4",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "This Maneuver does not trigger the Target’s contact effects. Never Miss. Roll 3 Chance Dice to change the Field-Type to Holy Ground.",
+          "notes": "",
+          "source": "Spear of Judgement (Spear)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Stim Shot",
+      "aliases": [
+        "Stim Shot"
+      ],
+      "variants": [
+        {
+          "name": "Stim Shot",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User or One Ally",
+          "power": "0",
+          "accuracy": "CLEVER + MEDICINE",
+          "effect": "Basic Heal. Cures Poisoned, Burn (1) and Paralyzed. If successful spend 1 Will Point to Activate.",
+          "notes": "",
+          "source": "Stim Synthesizer (Medipack)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "You’re Already Dead",
+      "aliases": [
+        "You’re Already Dead"
+      ],
+      "variants": [
+        {
+          "name": "You’re Already Dead",
+          "description": "",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "—",
+          "accuracy": "COOL / BEAUTY + WEAPONS",
+          "effect": "Accuracy -5. Lethal. Reaction 1. Deal Damage equal to the Target’s remaining HP +1.",
+          "notes": "",
+          "source": "Swordmaster Zacharia Kinzoku’s Katana (Sword)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Arrow of the Sky Triad",
+      "aliases": [
+        "Arrow of the Sky Triad"
+      ],
+      "variants": [
+        {
+          "name": "Arrow of the Sky Triad",
+          "description": "",
+          "type": "Flying",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY / COOL + WEAPONS",
+          "effect": "High Critical. Roll 2 Chance Dice to Frostbite (1), 2 to Burn (1), and 2 to Paralyze.",
+          "notes": "",
+          "source": "Winged Bow (Bow)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Steel Palmed Strike",
+      "aliases": [
+        "Steel Palmed Strike"
+      ],
+      "variants": [
+        {
+          "name": "Steel Palmed Strike",
+          "description": "",
+          "type": "Steel",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "STRENGTH / TOUGH + BRAWL",
+          "effect": "High Critical.",
+          "notes": "",
+          "source": "Wraps of the Iron Fist (Wrappings)",
+          "source_kind": "Special Equipment",
+          "tier": "Unique"
+        }
+      ]
+    },
+    {
+      "name": "Arceus Protect Me",
+      "aliases": [
+        "Arceus Protect Me"
+      ],
+      "variants": [
+        {
+          "name": "Arceus Protect Me",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "TOUGH + LORE",
+          "effect": "Reaction 1. Increase the User’s Defense and Special Defense by 2. remove this Bonus after the next time the Character receives Damage from an attack.",
+          "notes": "Suggested: Advanced Rank, Mystic, Pugilist, Ranger, Warrior or Templar Perk.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Battlefield Bandaging",
+      "aliases": [
+        "Battlefield Bandaging"
+      ],
+      "variants": [
+        {
+          "name": "Battlefield Bandaging",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "One Ally",
+          "power": "0",
+          "accuracy": "INSIGHT / CLEVER + MEDICINE",
+          "effect": "Basic Heal. Heal 3 points of Damage or 1 point of Lethal Damage. (A Target may only benefit from this effect once per Scene).",
+          "notes": "Prerequisite: 3 Points in Medicine Skill or Barber Surgeon Perk.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Catchy Tune",
+      "aliases": [
+        "Catchy Tune"
+      ],
+      "variants": [
+        {
+          "name": "Catchy Tune",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "0",
+          "accuracy": "COOL / CUTE + PERFORM",
+          "effect": "the Target gets -1 to all its rolls for the rest of the Round.",
+          "notes": "Suggested: Standard Rank, Bard or Gifted Musician Perk.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Challenge Honor",
+      "aliases": [
+        "Challenge Honor"
+      ],
+      "variants": [
+        {
+          "name": "Challenge Honor",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "0",
+          "accuracy": "COOL + ETIQUETTE",
+          "effect": "The User and Target must Target each other with their single Target Actions for the rest of the Round.",
+          "notes": "Suggested: Advanced Rank, Bard, Pokémon Hunter, Pugilist, Ranger, Warrior.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Clash",
+      "aliases": [
+        "Clash"
+      ],
+      "variants": [
+        {
+          "name": "Clash",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "STRENGTH / SPECIAL + BRAWL / CHANNEL / AURA / WEAPONS",
+          "effect": "Reaction 6. Match the number of successes on the Accuracy roll of a Move or Maneuver that targets the User or an Ally. If Successful the User Clashes. This Maneuver is not affected by the Multiple Action difficulty chart.",
+          "notes": "Suggested: Starter Rank.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Cunning Trap",
+      "aliases": [
+        "Cunning Trap"
+      ],
+      "variants": [
+        {
+          "name": "Cunning Trap",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Battlefield",
+          "power": "0",
+          "accuracy": "INSIGHT / CLEVER + CRAFTS",
+          "effect": "Entry Hazard. Target’s entering the Battlefield will lose 1 HP, this effect does not stack. (Non-Grounded Active Combatants are immune to this effect. May be used before an Encounter at Storyteller’s Discretion).",
+          "notes": "Suggested: Standard Rank, Artisan, Rogue, Ranger, Technomancer.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Duellist's Swagger",
+      "aliases": [
+        "Duellist's Swagger"
+      ],
+      "variants": [
+        {
+          "name": "Duellist's Swagger",
+          "description": "The User taunts the Foe, drawing their ire.",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "—",
+          "accuracy": "TOUGH / CLEVER + ETIQUETTE",
+          "effect": "Reaction 3. The Target must Target the User with its next Damaging attack.",
+          "notes": "Suggested: Standard Rank, Bard, Rogue, Warrior.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Evade",
+      "aliases": [
+        "Evade"
+      ],
+      "variants": [
+        {
+          "name": "Evade",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "DEXTERITY + EVASION",
+          "effect": "Reaction 6. Match the number of successes on the Accuracy roll of a Move or Maneuver that targets the User. If Successful the User Evades. This Maneuver is not affected by the Multiple Action difficulty chart.",
+          "notes": "Suggested: Starter Rank.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Fancy Footwork",
+      "aliases": [
+        "Fancy Footwork"
+      ],
+      "variants": [
+        {
+          "name": "Fancy Footwork",
+          "description": "The User dances through combat, avoiding the melee.",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "—",
+          "accuracy": "BEAUTY + EVASION",
+          "effect": "The User may make up to 5 Evasions per Round. (As long as they have the Actions to do so).",
+          "notes": "Suggested: Expert Rank, Bard, Pugilist, Ranger, Rogue, Warrior.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Fight Dirty",
+      "aliases": [
+        "Fight Dirty"
+      ],
+      "variants": [
+        {
+          "name": "Fight Dirty",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "0",
+          "accuracy": "CLEVER + BRAWL",
+          "effect": "Roll 1D6 to Reduce a Target's Stat by 1. 1. Strength, 2. Dexterity, 3. Vitality, 4. Insight, 5. Accuracy, 6. Defense / Special Defense.",
+          "notes": "Suggested: Standard Rank, Bard, Pokémon Hunter, Pugilist, Ranger, Rogue, Technomancer, Warrior.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Fighter’s Cunning",
+      "aliases": [
+        "Fighter’s Cunning"
+      ],
+      "variants": [
+        {
+          "name": "Fighter’s Cunning",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "INSIGHT / CLEVER + ALERT",
+          "effect": "The User makes their next Maneuver with Reaction 1 and if it is a Damaging Maneuver it gains +1 additional Damage Dice.",
+          "notes": "Suggested: Advanced Rank, Mystic, Pokémon Hunter, Pugilist, Ranger, Rogue, Warrior.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Grapple",
+      "aliases": [
+        "Grapple"
+      ],
+      "variants": [
+        {
+          "name": "Grapple",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "0",
+          "accuracy": "TOUGH + BRAWL",
+          "effect": "Blocks. User and Target have Accuracy Reduced by 2 Against any Target except each other. Resist DC: Same as User’s Accuracy roll for this Maneuver, DEXTERITY + Evasion or STRENGTH + BRAWL.",
+          "notes": "Suggested: Standard Rank, Pokémon Hunter, Pugilist, Rogue, Warrior.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Help",
+      "aliases": [
+        "Help"
+      ],
+      "variants": [
+        {
+          "name": "Help",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "One Ally",
+          "power": "0",
+          "accuracy": "VARIES",
+          "effect": "The User gives the Target +2 Bonus Dice to their next Skill Check or Accuracy roll.",
+          "notes": "Suggested: All.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Hoennian Fire",
+      "aliases": [
+        "Hoennian Fire"
+      ],
+      "variants": [
+        {
+          "name": "Hoennian Fire",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "CLEVER + NATURE / TECHNOLOGY",
+          "effect": "The User’s Damaging Maneuvers gain 2 Chance Dice to Burn (1) the Target.",
+          "notes": "Suggested: Advanced Rank, Artisan, or Alchemical Artisan, Imbued Weapons Perks.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Inspire",
+      "aliases": [
+        "Inspire"
+      ],
+      "variants": [
+        {
+          "name": "Inspire",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "One Ally",
+          "power": "0",
+          "accuracy": "COOL / BEAUTY + PERFORM",
+          "effect": "The User gives the Target +2 Bonus Dice to whatever Action they are taking.",
+          "notes": "Suggested: Advanced Rank, Bard, Mystic, Warrior.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Lay Of The Land",
+      "aliases": [
+        "Lay Of The Land"
+      ],
+      "variants": [
+        {
+          "name": "Lay Of The Land",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User or One Ally",
+          "power": "0",
+          "accuracy": "INSIGHT + NATURE",
+          "effect": "Damaging effects of the active Field-Type or Terrain may be Ignored.",
+          "notes": "Suggested: Advanced Rank, Ranger, or Survivalist, Traveller, Pack Ratatta Perks.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Masterful Distraction",
+      "aliases": [
+        "Masterful Distraction"
+      ],
+      "variants": [
+        {
+          "name": "Masterful Distraction",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "0",
+          "accuracy": "CLEVER + PERFORM",
+          "effect": "the Target gets -2 successes to its Clash and Evasion Rolls for the rest of the Round.",
+          "notes": "Suggested: Advanced Rank, Artisan, Bard, Mystic, Rogue, Technomancer.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Meld With Shadows",
+      "aliases": [
+        "Meld With Shadows"
+      ],
+      "variants": [
+        {
+          "name": "Meld With Shadows",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "DEXTERITY / SPECIAL + STEALTH",
+          "effect": "The User cannot be targeted by Non-Sound Moves and Maneuvers. This effect ends if the User uses a Maneuver.",
+          "notes": "Suggested: Ace Rank, Rogue or Ghost Touched Perk.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Mesmeric Command",
+      "aliases": [
+        "Mesmeric Command"
+      ],
+      "variants": [
+        {
+          "name": "Mesmeric Command",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "0",
+          "accuracy": "SPECIAL / CLEVER + EMPATHY",
+          "effect": "Accuracy -3. the Target is Charmed. Spend 1 Will Point to activate if successful.",
+          "notes": "Suggested: Ace Rank, Bard, Mystic, Technomancer.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Paladin’s Protection",
+      "aliases": [
+        "Paladin’s Protection"
+      ],
+      "variants": [
+        {
+          "name": "Paladin’s Protection",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "One Ally",
+          "power": "0",
+          "accuracy": "VITALITY + ALERT",
+          "effect": "Reaction 3. Shield. Reduce Damage the Target would receive by 3.",
+          "notes": "Suggested: Advanced Rank, Mystic, Ranger, Warrior or Templar Perk.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Pocket Sand",
+      "aliases": [
+        "Pocket Sand"
+      ],
+      "variants": [
+        {
+          "name": "Pocket Sand",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "0",
+          "accuracy": "CLEVER + STEALTH",
+          "effect": "Reduce the Target’s Accuracy by 1.",
+          "notes": "Suggested: Rookie Rank, Artisan, Ranger, Rogue or Scoundrel’s Intuition Perk.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Psy-Knack",
+      "aliases": [
+        "Psy-Knack"
+      ],
+      "variants": [
+        {
+          "name": "Psy-Knack",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "One Ally",
+          "power": "0",
+          "accuracy": "INSIGHT + CHANNEL",
+          "effect": "Increase the User’s choice of an Allies Strength, Dexterity, Vitality, or Insight by 1 for the rest of the Scene. (This Bonus is removed if this Maneuver is used on a different Target or Stat).",
+          "notes": "Suggested: Advanced Rank, Mystic or Psionic Empowerment Perk.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Quick-Hack",
+      "aliases": [
+        "Quick-Hack"
+      ],
+      "variants": [
+        {
+          "name": "Quick-Hack",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "0",
+          "accuracy": "COOL / CLEVER + TECHNOLOGY",
+          "effect": "Roll 1D6 to determine effect. 1. Burn (1) the Target, 2. Reduce Target's Strength and Special by 1, 3. Confuse the Target, 4. Frostbite (1) the Target, 5. Reduce Target's Defense and Special Defense by 1, 6. Put the Target to Sleep. (A Target may only suffer one effect. Certain Targets may not be affected by this Maneuver at the Storyteller’s discretion).",
+          "notes": "Suggested: Advanced Rank, Technomancer or Tech Expert Perk.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Rallying Call",
+      "aliases": [
+        "Rallying Call"
+      ],
+      "variants": [
+        {
+          "name": "Rallying Call",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User and Allies",
+          "power": "0",
+          "accuracy": "TOUGH / COOL + PERFORM",
+          "effect": "Sound Move. Increase the Strength of the User and Allies in range by 1.",
+          "notes": "Prerequisite: Inspiring Personality Perk.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Rally Allies",
+      "aliases": [
+        "Rally Allies"
+      ],
+      "variants": [
+        {
+          "name": "Rally Allies",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User and Allies",
+          "power": "0",
+          "accuracy": "VITALITY / COOL + PERFORM",
+          "effect": "Sound Move. Restore 1HP and 1 Will to User and Allies. (Spend 1 Will Point to activate if successful). This effect may only be used once per Scene.",
+          "notes": "Suggested: Advanced Rank, Bard, Ranger, Pugilist, Warrior or Inspiring Personality Perk.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Rapid Switch",
+      "aliases": [
+        "Rapid Switch"
+      ],
+      "variants": [
+        {
+          "name": "Rapid Switch",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "DEXTERITY + ALERT",
+          "effect": "Reaction 1. Switcher Move. Switch or send in a Pokémon.",
+          "notes": "Suggested: Advanced Rank, Bard, Rogue, Pokémon Hunter or Hit And Run Perk.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Read Intent",
+      "aliases": [
+        "Read Intent"
+      ],
+      "variants": [
+        {
+          "name": "Read Intent",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "0",
+          "accuracy": "INSIGHT + EMPATHY",
+          "effect": "The User’s Evasion checks against the Target are made with +2 Bonus Dice for the rest of the Scene.",
+          "notes": "Suggested: Advanced Rank, Mystic, Pugilist, Ranger, Rogue, Technomancer, Warrior or Aura Skill.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Size Up Opponent",
+      "aliases": [
+        "Size Up Opponent"
+      ],
+      "variants": [
+        {
+          "name": "Size Up Opponent",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "0",
+          "accuracy": "INSIGHT + ETIQUETTE / TECHNOLOGY",
+          "effect": "The User’s gains +1 additional Damage Dice on attacks made against the Target for the rest of the Scene.",
+          "notes": "Suggested: Standard Rank, Pugilist, Ranger, Rogue, Warrior.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Summon Spirits",
+      "aliases": [
+        "Summon Spirits"
+      ],
+      "variants": [
+        {
+          "name": "Summon Spirits",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "SPECIAL / COOL + CHANNEL",
+          "effect": "When the User successfully Damages a Target with a Maneuver, Roll 2 Ghost-Type Damage against them too.",
+          "notes": "Suggested: Expert Rank, Bard, Mystic or Talented Medium Perk.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Touch From Beyond",
+      "aliases": [
+        "Touch From Beyond"
+      ],
+      "variants": [
+        {
+          "name": "Touch From Beyond",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "0",
+          "accuracy": "SPECIAL + CHANNEL",
+          "effect": "Reduce the Target’s Dexterity, Strength and Special by 1.",
+          "notes": "Prerequisite: Talented Medium Perk.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Unnatural Reflexes",
+      "aliases": [
+        "Unnatural Reflexes"
+      ],
+      "variants": [
+        {
+          "name": "Unnatural Reflexes",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "DEXTERITY + ATHLETIC",
+          "effect": "The User may make 1 additional Clash or Evade per Round.",
+          "notes": "Suggested: Advanced Rank, Mystic, Pugilist, Ranger, Rogue, Technomancer, or Lightning Reflexes Perk.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    },
+    {
+      "name": "Warrior’s Spirit",
+      "aliases": [
+        "Warrior’s Spirit"
+      ],
+      "variants": [
+        {
+          "name": "Warrior’s Spirit",
+          "description": "",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "VITALITY / TOUGH + NATURE",
+          "effect": "Increase the User’s Strength and Defense by 1.",
+          "notes": "Suggested: Rookie Rank, Pugilist, Warrior.",
+          "source": "Non-Weapon Maneuver",
+          "source_kind": "Non-Weapon",
+          "tier": "Learned"
+        }
+      ]
+    }
+  ]
+}

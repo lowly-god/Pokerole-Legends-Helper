@@ -1,0 +1,159 @@
+{
+  "Number": 338,
+  "DexID": "0338F1",
+  "Name": "Solrock (Mega Form)",
+  "Type1": "Rock",
+  "Type2": "Fire",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Diurnal",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "solrock-mega-form",
+  "DexCategory": "Meteorite Pokémon",
+  "Height": {
+    "Meters": 1.22,
+    "Feet": 4.0
+  },
+  "Weight": {
+    "Kilograms": 158.8,
+    "Pounds": 350.0
+  },
+  "DexDescription": "People say it came from space. They release the purest light when they get angry. Usually found absorbing solar light during the day, Solrock can emit blinding lights and burning heat while spinning.",
+  "Evolutions": [
+    {
+      "From": "Solrock",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Harden"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Morning Sun"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fire Spin"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rock Throw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hypnosis"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rock Polish"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rock Slide"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Zen Headbutt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psywave"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cosmic Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Solar Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heal Block"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Wonder Room"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Stone Edge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Flare Blitz"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Explosion"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Meteor Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Overheat"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Skill Swap"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gaia Force"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Anti-Gravity"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Asteroid Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lapidify"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cauterize"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Regional Map",
+  "_id": "regional-map",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Adventuring Gear",
+  "Category": "Adventuring Gear",
+  "Description": "Map of a region",
+  "OneUse": false,
+  "TrainerPrice": "500",
+  "Cures": "",
+  "Image": ""
+}

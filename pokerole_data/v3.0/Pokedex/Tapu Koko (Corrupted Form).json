@@ -1,0 +1,141 @@
+{
+  "Number": 785,
+  "DexID": "0785F1",
+  "Name": "Tapu Koko (Corrupted Form)",
+  "Type1": "Flying",
+  "Type2": "Dark",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 4,
+  "MaxDexterity": 8,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 4,
+  "MaxInsight": 8,
+  "Ability1": "Beast Boost",
+  "Ability2": "",
+  "HiddenAbility": "Speed Boost",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "tapu-koko-corrupted-form",
+  "DexCategory": "Corrupted Island Guardian",
+  "Height": {
+    "Meters": 1.83,
+    "Feet": 6.0
+  },
+  "Weight": {
+    "Kilograms": 20.4,
+    "Pounds": 45.0
+  },
+  "DexDescription": "Aether Foundation Log #3779: The guardian of Melemele island was corrupted by a strange power that emanated from an Ultra Wormhole.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Withdraw"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Peck"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Pluck"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Feint Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Wing Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Defog"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mirror Move"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Assurance"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Knock Off"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Jet Strike"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dual Wingbeat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Snatch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sucker Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Cheap Shot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Acrobatics"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Play Rough"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Parting Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sky Attack"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Brave Bird"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wild Charge"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Z-Darkening Skies"
+    }
+  ]
+}

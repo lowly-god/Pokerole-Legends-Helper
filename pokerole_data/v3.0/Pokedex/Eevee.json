@@ -1,0 +1,220 @@
+{
+  "Number": 133,
+  "DexID": "0133",
+  "Name": "Eevee",
+  "Type1": "Normal",
+  "Type2": "",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Run Away",
+  "Ability2": "Adaptability",
+  "HiddenAbility": "Mimicry",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": true,
+  "_id": "eevee",
+  "DexCategory": "Evolution Pokémon",
+  "Height": {
+    "Meters": 0.3,
+    "Feet": 1.0
+  },
+  "Weight": {
+    "Kilograms": 6.4,
+    "Pounds": 14.0
+  },
+  "DexDescription": "Eevee has an unstable genetic makeup that suddenly mutates to fit its environment. Radiation from various stones causes it to evolve.",
+  "Evolutions": [
+    {
+      "To": "Vaporeon",
+      "Kind": "Stone",
+      "Item": "Water Stone"
+    },
+    {
+      "To": "Jolteon",
+      "Kind": "Stone",
+      "Item": "Thunder Stone"
+    },
+    {
+      "To": "Flareon",
+      "Kind": "Stone",
+      "Item": "Fire Stone"
+    },
+    {
+      "To": "Espeon",
+      "Kind": "Special",
+      "Stat": "Happiness",
+      "Value": 4,
+      "Special": "Sunlight"
+    },
+    {
+      "To": "Umbreon",
+      "Kind": "Special",
+      "Stat": "Happiness",
+      "Value": 4,
+      "Special": "Moonlight"
+    },
+    {
+      "To": "Leafeon",
+      "Kind": "Stone",
+      "Item": "Leaf Stone"
+    },
+    {
+      "To": "Glaceon",
+      "Kind": "Stone",
+      "Item": "Ice Stone"
+    },
+    {
+      "To": "Sylveon",
+      "Kind": "Stat",
+      "Stat": "Loyalty",
+      "Value": 5
+    },
+    {
+      "To": "Eevoleon",
+      "Kind": "Special",
+      "Special": "Loyalty 5"
+    },
+    {
+      "To": "Noxeon",
+      "Kind": "Special",
+      "Special": "Toxin Stone"
+    },
+    {
+      "To": "Orreon",
+      "Kind": "Special",
+      "Special": "Precious Stone"
+    },
+    {
+      "To": "Champeon",
+      "Kind": "Special",
+      "Special": "Brave Stone"
+    },
+    {
+      "To": "Dusteon",
+      "Kind": "Special",
+      "Special": "Desert Rose"
+    },
+    {
+      "To": "Papilleon",
+      "Kind": "Special",
+      "Special": "Amber Onyx"
+    },
+    {
+      "To": "Mummeon",
+      "Kind": "Special",
+      "Special": "Dusk Stone"
+    },
+    {
+      "To": "Nimbeon",
+      "Kind": "Special",
+      "Special": "Feather Stone"
+    },
+    {
+      "To": "Glaveon",
+      "Kind": "Special",
+      "Special": "Adamantite Stone"
+    }
+  ],
+  "Image": "eevee.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Tail Whip"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Quick Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Baby-Doll Eyes"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Copycat"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Covet"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rainbow Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Double-Edge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Charm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Take Down"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Baton Pass"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Refresh"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Nature Power"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Last Resort"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Trump Card"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wish"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Terrain Pulse"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Embody Element"
+    }
+  ]
+}

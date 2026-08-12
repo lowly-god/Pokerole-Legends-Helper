@@ -1,0 +1,16 @@
+{
+    "Name": "Shadow Tide",
+    "Type": "Dark",
+    "Power": 3,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Special",
+    "Accuracy2": "Channel",
+    "Target": "Area",
+    "Effect": "Roll 3 Chance Dice to reduce Accuracy of those affected by 1. (If this Move is used by a Water-Type Pokémon, Damage is dealt as if it had STAB).",
+    "Description": "The User conjures a wave of darkness to swamp the opposing side.",
+    "_id": "shadow-tide",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

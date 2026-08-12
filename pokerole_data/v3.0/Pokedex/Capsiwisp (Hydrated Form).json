@@ -1,0 +1,167 @@
+{
+  "Number": 1165,
+  "DexID": "1165F1",
+  "Name": "Capsiwisp (Hydrated Form)",
+  "Type1": "Ghost",
+  "Type2": "Fire",
+  "BaseHP": 5,
+  "Strength": 1,
+  "MaxStrength": 3,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Capsaicin Core",
+  "Ability2": "Leaf Guard",
+  "HiddenAbility": "Flame Body",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "capsiwisp-hydrated-form",
+  "DexCategory": "Succulent Pepper Pokémon",
+  "Height": {
+    "Meters": 0.61,
+    "Feet": 2.0
+  },
+  "Weight": {
+    "Kilograms": 15.4,
+    "Pounds": 34.0
+  },
+  "DexDescription": "Its presence not only enhances the spiciness of nearby peppers but also ignites them with unprecedented intensity, resulting in people developing a high tolerance for spice due to its influence in the fields.",
+  "Evolutions": [
+    {
+      "From": "Capsighoul In Rain Weather",
+      "Kind": "Special",
+      "Special": "Capsighoul In Rain Weather"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Ember"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Night Shade"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Will-O-Wisp"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fire Spin"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Embargo"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hex"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Curse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psych Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Worry Seed"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Spicy Extract"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heat Wave"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Seed Bomb"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cleansing Fire"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Synthesis"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Nature Power"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Overheat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Siphon Life-Force"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Solar Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Burning Jealousy"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Giga Drain"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cauterize"
+    }
+  ]
+}

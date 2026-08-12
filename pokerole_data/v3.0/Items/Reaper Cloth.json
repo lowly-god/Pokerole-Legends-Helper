@@ -1,0 +1,13 @@
+{
+  "Name": "Reaper Cloth",
+  "_id": "reaper-cloth",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Evolves Dusclops into Dusknoir / Peckabone into Rexquiem",
+  "OneUse": true,
+  "TrainerPrice": "8000",
+  "Cures": "",
+  "Image": ""
+}

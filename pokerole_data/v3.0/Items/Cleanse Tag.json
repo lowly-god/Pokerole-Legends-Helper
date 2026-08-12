@@ -1,0 +1,13 @@
+{
+  "Name": "Cleanse Tag",
+  "_id": "cleanse-tag",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Drives away wild Pokémon / ???",
+  "OneUse": false,
+  "TrainerPrice": "2000",
+  "Cures": "",
+  "Image": ""
+}

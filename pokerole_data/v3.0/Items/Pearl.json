@@ -1,0 +1,13 @@
+{
+  "Name": "Pearl",
+  "_id": "pearl",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Miscellaneous",
+  "Description": "Valuable item",
+  "OneUse": false,
+  "TrainerPrice": "1000",
+  "Cures": "",
+  "Image": ""
+}

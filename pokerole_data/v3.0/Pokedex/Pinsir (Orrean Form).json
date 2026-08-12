@@ -1,0 +1,149 @@
+{
+  "Number": 127,
+  "DexID": "0127F1",
+  "Name": "Pinsir (Orrean Form)",
+  "Type1": "Bug",
+  "Type2": "Dark",
+  "BaseHP": 4,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Opportunist",
+  "Ability2": "Prime Fury",
+  "HiddenAbility": "Wind Rider",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "pinsir-orrean-form",
+  "DexCategory": "Stag Beetle Pokémon",
+  "Height": {
+    "Meters": 1.68,
+    "Feet": 5.5
+  },
+  "Weight": {
+    "Kilograms": 50.8,
+    "Pounds": 112.0
+  },
+  "DexDescription": "Pinsir's horns have a crushing power next to no other, it can crush solid stone between them. The buzzing from its wings can reach an ear splitting cacophony during summer.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Vice Grip"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Focus Energy"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fury Cutter"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Screech"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Knock Off"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bug Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Reversal"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Horn Attack"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Brutal Swing"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Brick Break"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "U-Turn"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "X-Scissor"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Choke Hold"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acrobatics"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Megahorn"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lunge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Guillotine"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "First Impression"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lash Out"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Lock-On"
+    }
+  ]
+}

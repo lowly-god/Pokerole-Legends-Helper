@@ -1,0 +1,16 @@
+{
+    "Name": "Choke Hold",
+    "Type": "Fighting",
+    "Power": 3,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Strength",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Blocks. Both the User and Target. Whole Scene Duration.",
+    "Description": "The User grapples the Target in a chokehold, preventing either side from switching out.",
+    "_id": "choke-hold",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

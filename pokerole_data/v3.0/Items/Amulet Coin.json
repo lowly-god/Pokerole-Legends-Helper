@@ -1,0 +1,13 @@
+{
+  "Name": "Amulet Coin",
+  "_id": "amulet-coin",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Prize Money has a 1.5x multiplier",
+  "OneUse": false,
+  "TrainerPrice": "20000",
+  "Cures": "",
+  "Image": ""
+}

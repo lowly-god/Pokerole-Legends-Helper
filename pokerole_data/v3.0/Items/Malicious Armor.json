@@ -1,0 +1,13 @@
+{
+  "Name": "Malicious Armor",
+  "_id": "malicious-armor",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Evolves Charcadet into Ceruledge",
+  "OneUse": true,
+  "TrainerPrice": "8000",
+  "Cures": "",
+  "Image": ""
+}

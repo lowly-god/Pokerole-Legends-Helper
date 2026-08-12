@@ -1,0 +1,145 @@
+{
+  "Number": 1016,
+  "DexID": "1016F1",
+  "Name": "Fezandipiti (Kantonian Form)",
+  "Type1": "Flying",
+  "Type2": "Fairy",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Simple",
+  "Ability2": "",
+  "HiddenAbility": "Technician",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "M",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "fezandipiti-kantonian-form",
+  "DexCategory": "Vain Bird Pokémon",
+  "Height": {
+    "Meters": 1.4,
+    "Feet": 4.58
+  },
+  "Weight": {
+    "Kilograms": 29.0,
+    "Pounds": 64.0
+  },
+  "DexDescription": "Fezandipiti is vain and impulsive. It is always preening and cleaning its plumage in an attempt to make itself look more beautiful.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Peck"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Disarming Voice"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Quick Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Kick"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flirty Kiss"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Attract"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Beat Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Tail Slap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Wing Attack"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flatter"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Play Rough"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Secret Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aerial Ace"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Return"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Alluring Voice"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Roost"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dual Wingbeat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Acrobatics"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Baton Pass"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Facade"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Thrash"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Brave Bird"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    }
+  ]
+}

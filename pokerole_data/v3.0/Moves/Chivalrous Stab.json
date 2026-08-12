@@ -1,0 +1,16 @@
+{
+    "Name": "Chivalrous Stab",
+    "Type": "Steel",
+    "Power": 5,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Strength",
+    "Accuracy2": "Etiquette",
+    "Target": "Foe",
+    "Effect": "Cutter Move. Lethal. Never Miss. Decrease the User’s Strength and Special Defense by 1.",
+    "Description": "The User draws in its Foe, before stabbing directly towards the heart with its lance like blade.",
+    "_id": "chivalrous-stab",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

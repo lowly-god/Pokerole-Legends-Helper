@@ -1,0 +1,13 @@
+{
+  "Name": "Relaxed Mint",
+  "_id": "relaxed-mint",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Items",
+  "Category": "Special Items",
+  "Description": "Changes a Pokémon’s Nature to Relaxed.",
+  "OneUse": true,
+  "TrainerPrice": "15000",
+  "Cures": "",
+  "Image": ""
+}

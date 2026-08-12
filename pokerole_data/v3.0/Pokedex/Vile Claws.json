@@ -1,0 +1,141 @@
+{
+  "Number": 1143,
+  "DexID": "1143",
+  "Name": "Vile Claws",
+  "Type1": "Dark",
+  "Type2": "Poison",
+  "BaseHP": 5,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 3,
+  "MaxDexterity": 7,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Protosynthesis",
+  "Ability2": "",
+  "HiddenAbility": "Gloom Stalker",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "vile-claws",
+  "DexCategory": "Paradox Pokémon",
+  "Height": {
+    "Meters": 1.14,
+    "Feet": 3.75
+  },
+  "Weight": {
+    "Kilograms": 34.9,
+    "Pounds": 77.0
+  },
+  "DexDescription": "It is similar to a creature described in a research journal, that was apparently a vicious predator. It uses its sharp claws to slice its prey limb from limb.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Scratch"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Quick Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Primal Instinct"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cheap Shot"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mean Look"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Shadow Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Poison Jab"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sucker Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dire Claw"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Embody Element"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Punishment"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Quick Guard"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Revenge"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Parting Shot"
+    }
+  ]
+}

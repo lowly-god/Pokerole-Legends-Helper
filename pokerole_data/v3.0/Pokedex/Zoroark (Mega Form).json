@@ -1,0 +1,155 @@
+{
+  "Number": 571,
+  "DexID": "0571F2",
+  "Name": "Zoroark (Mega Form)",
+  "Type1": "Dark",
+  "Type2": "",
+  "BaseHP": 5,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 3,
+  "MaxDexterity": 7,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Illusionary Defenses",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "zoroark-mega-form",
+  "DexCategory": "Illusion Fox Pokémon",
+  "Height": {
+    "Meters": 1.78,
+    "Feet": 5.83
+  },
+  "Weight": {
+    "Kilograms": 92.1,
+    "Pounds": 203.0
+  },
+  "DexDescription": "They live in groups. Their lair's entrance is protected with their illusions and mirages. They have been known to fool entire towns with their tricks. Their illusions can hide their tails now, but they still remain mute.",
+  "Evolutions": [
+    {
+      "From": "Zoroark",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Scratch"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Feint Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fury Swipes"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Copycat"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Pursuit"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Knock Off"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fake Tears"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "U-Turn"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Imprison"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Embargo"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Punishment"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Night Daze"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Foul Play"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Detect"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Extrasensory"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Lash Out"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cheap Shot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shadow Tide"
+    }
+  ]
+}

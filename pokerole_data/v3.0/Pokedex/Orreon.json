@@ -1,0 +1,145 @@
+{
+  "Number": 1027,
+  "DexID": "1027",
+  "Name": "Orreon",
+  "Type1": "Rock",
+  "Type2": "",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Rock Head",
+  "Ability2": "",
+  "HiddenAbility": "Sturdy",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "orreon",
+  "DexCategory": "Rock Horns Pokémon",
+  "Height": {
+    "Meters": 1.07,
+    "Feet": 3.5
+  },
+  "Weight": {
+    "Kilograms": 33.1,
+    "Pounds": 73.0
+  },
+  "DexDescription": "Orreon grew odd mineral based protrusions on its form when it evolved, sprouting a pair of rocky horns. The horns often break during combat, but regrow over time.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Accelerock"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Smack Down"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Horn Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Take Down"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Howl"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rock Polish"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stealth Rock"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stone Edge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Submission"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Head Smash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wide Guard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Head Charge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Megahorn"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Headlong Rush"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wish"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Earthquake"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Asteroid Shot"
+    }
+  ]
+}

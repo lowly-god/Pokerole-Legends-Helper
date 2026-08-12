@@ -1,0 +1,13 @@
+{
+  "Name": "Revive",
+  "_id": "revive",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Medicine",
+  "Category": "Medicine",
+  "Description": "Revive a fainted Pokémon at Half Health. Rounded Down",
+  "OneUse": true,
+  "TrainerPrice": "1500",
+  "Cures": "",
+  "Image": ""
+}

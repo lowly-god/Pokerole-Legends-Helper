@@ -1,0 +1,13 @@
+{
+  "Name": "Berry Juice",
+  "_id": "berry-juice",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Provisions",
+  "Category": "Provisions",
+  "Description": "Heal 2HP may be used as Held Item",
+  "OneUse": true,
+  "TrainerPrice": "400",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,149 @@
+{
+  "Number": 856,
+  "DexID": "0856F1",
+  "Name": "Hatenna (Alolan Form)",
+  "Type1": "Water",
+  "Type2": "Fairy",
+  "BaseHP": 3,
+  "Strength": 1,
+  "MaxStrength": 3,
+  "Dexterity": 1,
+  "MaxDexterity": 3,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Liquid Voice",
+  "Ability2": "Oblivious",
+  "HiddenAbility": "Rain Dish",
+  "EventAbilities": "",
+  "RecommendedRank": "Starter",
+  "GenderType": "F",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "hatenna-alolan-form",
+  "DexCategory": "Wave Hair Pokémon",
+  "Height": {
+    "Meters": 0.36,
+    "Feet": 1.17
+  },
+  "Weight": {
+    "Kilograms": 3.2,
+    "Pounds": 7.0
+  },
+  "DexDescription": "It burbles and hums to itself, while bobbing atop the waves. Water that Hatenna is found in is often said to be the purest in the world.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Sing"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Sweet Kiss"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Baby-Doll Eyes"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bubble"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Round"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confide"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Water Pulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Charm"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Disarming Voice"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Perish Song"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mist"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Charm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Ring"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Brine"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Alluring Voice"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heart Breaker"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hyper Voice"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nature Power"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Life Dew"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Spirit Break"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hoarfrost Moon"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Speed Swap"
+    }
+  ]
+}

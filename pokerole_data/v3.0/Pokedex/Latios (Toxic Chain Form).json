@@ -1,0 +1,133 @@
+{
+  "Number": 381,
+  "DexID": "0381F1",
+  "Name": "Latios (Toxic Chain Form)",
+  "Type1": "Dragon",
+  "Type2": "Poison",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Toxic Chain",
+  "Ability2": "",
+  "HiddenAbility": "Levitate",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "M",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "latios-toxic-chain-form",
+  "DexCategory": "Toxic Chain Pokémon",
+  "Height": {
+    "Meters": 2.01,
+    "Feet": 6.58
+  },
+  "Weight": {
+    "Kilograms": 59.9,
+    "Pounds": 132.0
+  },
+  "DexDescription": "Its personality has shifted to something nasty and vindictive after Pecharunt's influence affected it.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Poison Sting"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Pulse Strike"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Poison Gas"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dragon Tail"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Poison Tail"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Breaking Swipe"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Assurance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Coil"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Poison Jab"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic Fangs"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Claw"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dire Claw"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Amnesia"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gunk Shot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Camouflage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Luster Purge"
+    }
+  ]
+}

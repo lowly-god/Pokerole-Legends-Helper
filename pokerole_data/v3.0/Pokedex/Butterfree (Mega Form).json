@@ -1,0 +1,139 @@
+{
+  "Number": 12,
+  "DexID": "0012F1",
+  "Name": "Butterfree (Mega Form)",
+  "Type1": "Bug",
+  "Type2": "Flying",
+  "BaseHP": 6,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "No Guard",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "butterfree-mega-form",
+  "DexCategory": "Butterfly Pokémon",
+  "Height": {
+    "Meters": 1.22,
+    "Feet": 4.0
+  },
+  "Weight": {
+    "Kilograms": 35.4,
+    "Pounds": 78.0
+  },
+  "DexDescription": "It can be found in forests and plains. It loves the honey in some flowers even with tiny amounts of pollen. Its wings are covered by dust that allows it to fly even when it's raining.",
+  "Evolutions": [
+    {
+      "From": "Butterfree",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "String Shot"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Harden"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Gust"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bug Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Supersonic"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Poison Powder"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Stun Spore"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sleep Powder"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybeam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Whirlwind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Captivate"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Signal Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rage Powder"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Quiver Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Bug Buzz"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Electroweb"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Twister"
+    }
+  ]
+}

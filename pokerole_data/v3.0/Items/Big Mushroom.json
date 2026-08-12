@@ -1,0 +1,13 @@
+{
+  "Name": "Big Mushroom",
+  "_id": "big-mushroom",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Miscellaneous",
+  "Description": "Valuable item",
+  "OneUse": true,
+  "TrainerPrice": "2500",
+  "Cures": "",
+  "Image": ""
+}

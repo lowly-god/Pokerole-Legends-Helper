@@ -1,0 +1,13 @@
+{
+  "Name": "Razor Fang",
+  "_id": "razor-fang",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "User’s Damaging Moves gain Roll 3 Chance Dice to Flinch / Evolves Gligar into Gliscor",
+  "OneUse": false,
+  "TrainerPrice": "8000",
+  "Cures": "",
+  "Image": ""
+}

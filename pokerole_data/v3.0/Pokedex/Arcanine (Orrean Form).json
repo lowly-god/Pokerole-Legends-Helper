@@ -1,0 +1,163 @@
+{
+  "Number": 59,
+  "DexID": "0059F1",
+  "Name": "Arcanine (Orrean Form)",
+  "Type1": "Fire",
+  "Type2": "Ice",
+  "BaseHP": 6,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Flash Fire",
+  "Ability2": "Flash Freeze",
+  "HiddenAbility": "Justified",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "arcanine-orrean-form",
+  "DexCategory": "Legendary Pokémon",
+  "Height": {
+    "Meters": 1.91,
+    "Feet": 6.25
+  },
+  "Weight": {
+    "Kilograms": 154.2,
+    "Pounds": 340.0
+  },
+  "DexDescription": "Having adapted to the colder climate of the mountain peaks it calls home. It looks down upon the region in its majesty. It's sow white fur is engulfed in flame.",
+  "Evolutions": [
+    {
+      "From": "Growlithe",
+      "Kind": "Special",
+      "Special": "K. Growlithe (Ice Stone)"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Roar"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Ember"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Powder Snow"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Extreme Speed"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Snowy Terrain"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aurora Veil"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Avalanche"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Absolute Zero"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Frostfire"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heat Wave"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Howl"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fire Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Ice Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hail"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Blizzard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Flare Blitz"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Burn Up"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Morning Sun"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Retaliate"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Cleansing Fire"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wild Charge"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cauterize"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Uncontrolled Burn Off"
+    }
+  ]
+}

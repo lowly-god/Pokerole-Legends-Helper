@@ -1,0 +1,16 @@
+{
+    "Name": "Velvet Scales",
+    "Type": "Dragon",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Vitality",
+    "Accuracy2": "Nature",
+    "Target": "Self",
+    "Effect": "Accuracy -3. Increase User's Defense by 3.",
+    "Description": "The User puts power into its scales, increasing its defense.",
+    "_id": "velvet-scales",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

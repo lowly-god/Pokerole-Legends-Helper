@@ -1,0 +1,165 @@
+{
+  "Number": 773,
+  "DexID": "0773F1",
+  "Name": "Silvally (Improved RKS System Form)",
+  "Type1": "Normal",
+  "Type2": "Normal",
+  "BaseHP": 6,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Improved RKS System",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "silvally-improved-rks-system-form",
+  "DexCategory": "Synthetic Pokémon",
+  "Height": {
+    "Meters": 2.36,
+    "Feet": 7.75
+  },
+  "Weight": {
+    "Kilograms": 106.1,
+    "Pounds": 234.0
+  },
+  "DexDescription": "The original RKS system has been improved upon. Granting Silvally the ability to use multiple drives at once.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Rage"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Pursuit"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Imprison"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aerial Ace"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Crush Claw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Double Hit"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Metal Sound"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Take Down"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fire Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Ice Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Poison Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Thunder Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Fang"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Tri Attack"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Head"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "X-Scissor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Razor Wind"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Punishment"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Double-Edge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heal Block"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shadow Claw"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Multi-Attack"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Parting Shot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Last Resort"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Swords Dance"
+    }
+  ]
+}

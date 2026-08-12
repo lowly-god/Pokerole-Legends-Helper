@@ -1,0 +1,145 @@
+{
+  "Number": 1117,
+  "DexID": "1117",
+  "Name": "Vectol",
+  "Type1": "Poison",
+  "Type2": "",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Volt Absorb",
+  "Ability2": "Feedback",
+  "HiddenAbility": "Corruption",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "vectol",
+  "DexCategory": "Virus Pokémon",
+  "Height": {
+    "Meters": 0.15,
+    "Feet": 0.5
+  },
+  "Weight": {
+    "Kilograms": 2.7,
+    "Pounds": 6.0
+  },
+  "DexDescription": "Vectol was a computer virus that infected the Pokémon Storage system. The process that converts data into matter has given it physical form.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Scratch"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Conversion"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Poison Sting"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Conversion 2"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Detect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Poison Tail"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Spark"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Signal Beam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Substitute"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Disable"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Electroweb"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lock-On"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Venoshock"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Breach"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Pursuit"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Switcheroo"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Virus Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Cross Poison"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Giga Drain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Acupressure"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Poison Jab"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Magnet Rise"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Null Room"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Firewall"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Parasitize"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "Number": 163,
+  "DexID": "0163F1",
+  "Name": "Hoothoot (Orrean Form)",
+  "Type1": "Ghost",
+  "Type2": "Flying",
+  "BaseHP": 3,
+  "Strength": 1,
+  "MaxStrength": 3,
+  "Dexterity": 1,
+  "MaxDexterity": 3,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Insomnia",
+  "Ability2": "Forewarn",
+  "HiddenAbility": "Shadow Shield",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "hoothoot-orrean-form",
+  "DexCategory": "Owl Pokémon",
+  "Height": {
+    "Meters": 0.71,
+    "Feet": 2.33
+  },
+  "Weight": {
+    "Kilograms": 20.9,
+    "Pounds": 46.0
+  },
+  "DexDescription": "Hoothoots tail appears to look like a view into space itself, many have attempted to decipher if it is a view into known parts of the cosmos.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Foresight"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Hypnosis"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Night Shade"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Peck"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ominous Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Absolute Zero"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Nightmare"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybeam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dream Eater"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mist"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Snatch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonlight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Haze"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shadow Tide"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dream Eater"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Feather Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hurricane"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Extrasensory"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Jet Strike"
+    }
+  ]
+}

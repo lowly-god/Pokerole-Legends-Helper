@@ -1,0 +1,16 @@
+{
+    "Name": "Wraithfire Gnash",
+    "Type": "Ghost",
+    "Power": 3,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Tough",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Bite Move. Roll 2 chance Dice to Burn (1) and 2 to Frostbite (1) the Foe.",
+    "Description": "The User bites down with an odd cold fire wreathing its maw.",
+    "_id": "wraithfire-gnash",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

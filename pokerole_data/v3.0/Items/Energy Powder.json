@@ -1,0 +1,13 @@
+{
+  "Name": "Energy Powder",
+  "_id": "energy-powder",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "4 Units of Healing may lower happiness",
+  "OneUse": true,
+  "TrainerPrice": "450",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Rawst Berry",
+  "_id": "rawst-berry",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Cures Burn (1), Burn (2)",
+  "OneUse": true,
+  "TrainerPrice": "200",
+  "Cures": "",
+  "Image": ""
+}

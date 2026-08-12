@@ -1,0 +1,13 @@
+{
+  "Name": "Fresh Water",
+  "_id": "fresh-water",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Provisions",
+  "Category": "Provisions",
+  "Description": "Heal 3HP single use",
+  "OneUse": true,
+  "TrainerPrice": "200",
+  "Cures": "",
+  "Image": ""
+}

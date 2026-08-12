@@ -1,0 +1,169 @@
+{
+  "Number": 1095,
+  "DexID": "1095",
+  "Name": "Voodoll",
+  "Type1": "Psychic",
+  "Type2": "Dark",
+  "BaseHP": 3,
+  "Strength": 1,
+  "MaxStrength": 3,
+  "Dexterity": 1,
+  "MaxDexterity": 3,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Synchronize",
+  "Ability2": "Aftermath",
+  "HiddenAbility": "Prankster",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "voodoll",
+  "DexCategory": "Voodoo Pokémon",
+  "Height": {
+    "Meters": 0.48,
+    "Feet": 1.58
+  },
+  "Weight": {
+    "Kilograms": 2.6,
+    "Pounds": 5.7
+  },
+  "DexDescription": "Ceremonial dolls possessed by the vengeful spirits they where once used to channel. They like to corrupt troubled children, encouraging them to inflict harm on others.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Baby-Doll Eyes"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Acupressure"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Night Shade"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Payback"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybeam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Substitute"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Will-O-Wisp"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Knock Off"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hex"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Draining Kiss"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psybolt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Disable"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Teleport"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Edgestitch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Future Sight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Pain Split"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Synchronoise"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Virus Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cheap Shot"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flirty Kiss"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Beguiling Influence"
+    }
+  ]
+}

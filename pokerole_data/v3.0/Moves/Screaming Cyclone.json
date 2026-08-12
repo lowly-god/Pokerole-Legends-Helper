@@ -1,0 +1,16 @@
+{
+    "Name": "Screaming Cyclone",
+    "Type": "Flying",
+    "Power": 4,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Special",
+    "Accuracy2": "Channel",
+    "Target": "Area",
+    "Effect": "Wind Move. Those affected spend 2 Will points without any benefit.",
+    "Description": "The User spins its body at 131 kilometres an hour, creating a horrifying vacuum filled with spectral screams.",
+    "_id": "screaming-cyclone",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

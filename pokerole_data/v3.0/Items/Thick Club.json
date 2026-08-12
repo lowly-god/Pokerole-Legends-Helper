@@ -1,0 +1,13 @@
+{
+  "Name": "Thick Club",
+  "_id": "thick-club",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "If Cubone or Marowak hold this they gain +1 Strength",
+  "OneUse": false,
+  "TrainerPrice": "5000",
+  "Cures": "",
+  "Image": ""
+}

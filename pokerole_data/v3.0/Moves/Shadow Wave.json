@@ -1,0 +1,16 @@
+{
+    "Name": "Shadow Wave",
+    "Type": "Shadow",
+    "Power": "Set Damage",
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Special",
+    "Accuracy2": "Channel",
+    "Target": "All Foes",
+    "Effect": "Ignore Defenses. Those affected take 2 Set Damage.",
+    "Description": "Shadowy aura waves are loosed to inflict Damage.",
+    "_id": "shadow-wave",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

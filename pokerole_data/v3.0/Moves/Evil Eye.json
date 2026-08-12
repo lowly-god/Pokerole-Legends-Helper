@@ -1,0 +1,16 @@
+{
+    "Name": "Evil Eye",
+    "Type": "Psychic",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Clever",
+    "Accuracy2": "Channel",
+    "Target": "Foe",
+    "Effect": "Roll 1D6 to inflict the Foe with a random Status Condition: 1. Confusion, 2. Poison, 3. Paralysis, 4. Burn (1), 5. Frostbite (1), 6. Sleep.",
+    "Description": "The User hypnotizes the Foe into thinking it has a malady of some kind.",
+    "_id": "evil-eye",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

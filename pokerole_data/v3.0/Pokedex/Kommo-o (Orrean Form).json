@@ -1,0 +1,157 @@
+{
+  "Number": 784,
+  "DexID": "0784F1",
+  "Name": "Kommo-o (Orrean Form)",
+  "Type1": "Dragon",
+  "Type2": "Poison",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Inexorable",
+  "Ability2": "Bulletproof",
+  "HiddenAbility": "Overcoat",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "kommo-o-orrean-form",
+  "DexCategory": "Vile Pokémon",
+  "Height": {
+    "Meters": 2.03,
+    "Feet": 6.67
+  },
+  "Weight": {
+    "Kilograms": 98.0,
+    "Pounds": 216.0
+  },
+  "DexDescription": "As the apex predator of their habitat, they've grown in size and developed a toxin strong enough to cause fainting. It uses the scent of this toxin to track down prey that escaped an assault.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Poison Sting"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Caustic Breath"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Odor Sleuth"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Noble Roar"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Pursuit"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Gastro Acid"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Acid Armor"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dragon Claw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Tail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Poison Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Rain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Tail"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Vile Assault"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Belly Drum"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lunge"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Glaive Rush"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Gunk Shot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Superpower"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imperial Majesty"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    }
+  ]
+}

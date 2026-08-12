@@ -1,0 +1,123 @@
+{
+  "Number": 670,
+  "DexID": "0670F2",
+  "Name": "Floette (Mega Eternal Flower Form)",
+  "Type1": "Fairy",
+  "Type2": "",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 7,
+  "Ability1": "Fairy Aura",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "F",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "floette-mega-eternal-flower-form",
+  "DexCategory": "Immortal Pokémon",
+  "Height": {
+    "Meters": 0.2,
+    "Feet": 0.67
+  },
+  "Weight": {
+    "Kilograms": 100.7,
+    "Pounds": 222.0
+  },
+  "DexDescription": "An ancient king used a terrifying Weapon to revive his friend. Sacrificing many lives to bring it back. This Floette holds the “Eternal Flower” and is functionally immortal.",
+  "Evolutions": [
+    {
+      "From": "Floette (Eternal Flower Form)",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Vine Whip"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fairy Wind"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Lucky Chant"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Razor Leaf"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Wish"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Magical Leaf"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Grassy Terrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Misty Terrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Nature Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Petal Blizzard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aromatherapy"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Petal Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Solar Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Light Of Ruin"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Heal Bell"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Camouflage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Magic Coat"
+    }
+  ]
+}

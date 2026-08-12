@@ -1,0 +1,137 @@
+{
+  "Number": 280,
+  "DexID": "0280F1",
+  "Name": "Ralts (Johtonian Form)",
+  "Type1": "Psychic",
+  "Type2": "Water",
+  "BaseHP": 3,
+  "Strength": 1,
+  "MaxStrength": 3,
+  "Dexterity": 1,
+  "MaxDexterity": 3,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 1,
+  "MaxInsight": 3,
+  "Ability1": "Synchronize",
+  "Ability2": "Clear Body",
+  "HiddenAbility": "Hydration",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "ralts-johtonian-form",
+  "DexCategory": "Shell Helmet Pokémon",
+  "Height": {
+    "Meters": 0.41,
+    "Feet": 1.33
+  },
+  "Weight": {
+    "Kilograms": 6.4,
+    "Pounds": 14.0
+  },
+  "DexDescription": "The Johtonian form of Ralts lives in oceanic caves. It's shell like helmet slips down over its eyes often.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Withdraw"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bubble"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybolt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Water Pulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Charm"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hypnosis"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Heal Block"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Skill Swap"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic Terrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Soak"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Draining Kiss"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Chilling Water"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Aqua Ring"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Teleport"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Razor Shell"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Shadow Tide"
+    }
+  ]
+}

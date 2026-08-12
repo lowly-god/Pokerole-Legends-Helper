@@ -1,0 +1,13 @@
+{
+  "Name": "Absolite",
+  "_id": "absolite",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Mega Stones",
+  "Category": "Mega Stones",
+  "Description": "Mega Stone. Allows the corresponding Pokémon to Mega Evolve.",
+  "OneUse": false,
+  "TrainerPrice": "70000",
+  "Cures": "",
+  "Image": ""
+}

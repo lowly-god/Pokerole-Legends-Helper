@@ -1,0 +1,13 @@
+{
+  "Name": "Riding Saddle",
+  "_id": "riding-saddle",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Adventuring Gear",
+  "Category": "Adventuring Gear",
+  "Description": "Allows Riding/Climbing/Flying/Surfing/Lava Surfing on Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "1500",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Metronome",
+  "_id": "metronome",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Successive Actions and Rampage Moves gain +1 Damage Dice",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

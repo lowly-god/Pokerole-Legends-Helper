@@ -1,0 +1,141 @@
+{
+  "Number": 214,
+  "DexID": "0214F1",
+  "Name": "Heracross (Orrean Form)",
+  "Type1": "Bug",
+  "Type2": "Psychic",
+  "BaseHP": 4,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Inner Focus",
+  "Ability2": "Psychic Surge",
+  "HiddenAbility": "Field Support",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "heracross-orrean-form",
+  "DexCategory": "Gemstone Horn Pokémon",
+  "Height": {
+    "Meters": 1.6,
+    "Feet": 5.25
+  },
+  "Weight": {
+    "Kilograms": 57.6,
+    "Pounds": 127.0
+  },
+  "DexDescription": "It's iridescent wings sparkle with the colors of the rainbow. In the arid regions it calls home, they are often encouraged into gardens by nobility as a sign of Status due to their beautiful jewelled carapace.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Struggle Bug"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Screech"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cosmic Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Silver Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Horn Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psychic Noise"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Zen Headbutt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aerial Ace"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Extrasensory"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Signal Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Vacuum Wave"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "X-Scissor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Focus Blast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Synchronoise"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Bug Buzz"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Megahorn"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Quiver Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dazzling Gleam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tail Glow"
+    }
+  ]
+}

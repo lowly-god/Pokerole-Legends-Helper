@@ -1,0 +1,157 @@
+{
+  "Number": 1114,
+  "DexID": "1114",
+  "Name": "Saphoni",
+  "Type1": "Fighting",
+  "Type2": "Dark",
+  "BaseHP": 4,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Prime Fury",
+  "Ability2": "",
+  "HiddenAbility": "Tough Claws",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "saphoni",
+  "DexCategory": "Oni Pokémon",
+  "Height": {
+    "Meters": 1.91,
+    "Feet": 6.25
+  },
+  "Weight": {
+    "Kilograms": 118.4,
+    "Pounds": 261.0
+  },
+  "DexDescription": "It lives high in the mountains, in caves. It hates Crimsoni, and if they ever meet battle always ensues.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bulk Up"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Focus Energy"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Rock Smash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Seismic Toss"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mat Block"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Knock Off"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Brick Break"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Counter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thief"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reversal"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Ice Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Ice Shard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Absolute Zero"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Quick Guard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Brutal Swing"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sucker Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Storm Throw"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Frozen Crash"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Block"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Punishment"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wide Guard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    }
+  ]
+}

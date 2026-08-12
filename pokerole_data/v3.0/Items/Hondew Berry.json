@@ -1,0 +1,13 @@
+{
+  "Name": "Hondew Berry",
+  "_id": "hondew-berry",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "+1 Happiness, -1 Special",
+  "OneUse": true,
+  "TrainerPrice": "500",
+  "Cures": "",
+  "Image": ""
+}

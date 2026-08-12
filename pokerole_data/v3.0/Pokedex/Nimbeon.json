@@ -1,0 +1,149 @@
+{
+  "Number": 1032,
+  "DexID": "1032",
+  "Name": "Nimbeon",
+  "Type1": "Flying",
+  "Type2": "",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Cotton Down",
+  "Ability2": "",
+  "HiddenAbility": "Gale Wings",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "nimbeon",
+  "DexCategory": "Divine Messenger Pokémon",
+  "Height": {
+    "Meters": 0.97,
+    "Feet": 3.17
+  },
+  "Weight": {
+    "Kilograms": 6.8,
+    "Pounds": 15.0
+  },
+  "DexDescription": "Nimbeon summons clouds, its body is almost weightless. Some ancient religions believe Nimbeon to be the messengers of gods.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Sing"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Gust"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Charm"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Roost"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Swift"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Feather Dance"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fairy Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Encore"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Air Cutter"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Silver Wind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Defog"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hurricane"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Morning Sun"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dazzling Gleam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Razor Wind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wish"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Blizzard"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Thunder"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Comet Shard",
+  "_id": "comet-shard",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Miscellaneous",
+  "Description": "Valuable item",
+  "OneUse": false,
+  "TrainerPrice": "12500",
+  "Cures": "",
+  "Image": ""
+}

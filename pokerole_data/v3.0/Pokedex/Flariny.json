@@ -1,0 +1,173 @@
+{
+  "Number": 1087,
+  "DexID": "1087",
+  "Name": "Flariny",
+  "Type1": "Fire",
+  "Type2": "Dark",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Levitate",
+  "Ability2": "",
+  "HiddenAbility": "Prankster",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "flariny",
+  "DexCategory": "Fury Pokémon",
+  "Height": {
+    "Meters": 0.74,
+    "Feet": 2.42
+  },
+  "Weight": {
+    "Kilograms": 19.1,
+    "Pounds": 42.0
+  },
+  "DexDescription": "Flariny where originally thought to be demons in ancient times. They congregate around those with darkness in their hearts, finding small ways to punish them.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Ember"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fury Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Knock Off"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fire Fang"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flame Charge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Parting Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Will-O-Wisp"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Payback"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embargo"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Memento"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Leech Life"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Perish Song"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lash Out"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fire Lash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Grudge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Flare Blitz"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Comeuppance"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Baton Pass"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Darkest Lariat"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cheap Shot"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cauterize"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hellfire"
+    }
+  ]
+}

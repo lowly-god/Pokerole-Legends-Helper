@@ -1,0 +1,171 @@
+{
+  "Number": 149,
+  "DexID": "0149F1",
+  "Name": "Dragonite (Orrean Form)",
+  "Type1": "Dragon",
+  "Type2": "Fairy",
+  "BaseHP": 6,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Multiscale",
+  "Ability2": "",
+  "HiddenAbility": "Radiant Defender",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "dragonite-orrean-form",
+  "DexCategory": "Faerie Dragon Pokémon",
+  "Height": {
+    "Meters": 2.21,
+    "Feet": 7.25
+  },
+  "Weight": {
+    "Kilograms": 210.0,
+    "Pounds": 463.0
+  },
+  "DexDescription": "It lives near large lakes and rivers. Often locally known as a guardian or spirit of the water itself.",
+  "Evolutions": [
+    {
+      "From": "Dragonair",
+      "Kind": "Special",
+      "Special": "Dragonair (Loyalty 5)"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Wrap"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Twister"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Thunder Wave"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fairy Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Play Rough"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thunder Punch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dragon Rage"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fire Punch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Slam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Rush"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Ring"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Tail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fisticuffs"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Tail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hyper Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonlight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Imperial Majesty"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Draco Meteor"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Extreme Speed"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hurricane"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rainbow Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Fang"
+    }
+  ]
+}

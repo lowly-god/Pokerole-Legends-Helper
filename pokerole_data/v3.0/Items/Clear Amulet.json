@@ -1,0 +1,13 @@
+{
+  "Name": "Clear Amulet",
+  "_id": "clear-amulet",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Holder’s stats cannot be reduced by Foes",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

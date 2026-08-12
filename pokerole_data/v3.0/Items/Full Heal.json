@@ -1,0 +1,13 @@
+{
+  "Name": "Full Heal",
+  "_id": "full-heal",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Medicine",
+  "Category": "Medicine",
+  "Description": "Fully Cures any Status Condition except for Exhausted",
+  "OneUse": true,
+  "TrainerPrice": "600",
+  "Cures": "",
+  "Image": ""
+}

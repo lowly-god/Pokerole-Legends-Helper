@@ -1,0 +1,16 @@
+{
+    "Name": "Dragon Slayer",
+    "Type": "Steel",
+    "Power": 3,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Dexterity",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Accuracy -1. Add 1 Extra Dice to the Damage Pool of this Move when used against a Dragon-Type and an additional +1 when used against Targets larger then 10'00\".",
+    "Description": "The User employs a technique tailored to Target large adversaries, striking at their vulnerabilities for increased Damage. Particularly effective against Dragons.",
+    "_id": "dragon-slayer",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

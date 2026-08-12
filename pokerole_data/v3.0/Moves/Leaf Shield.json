@@ -1,0 +1,16 @@
+{
+    "Name": "Leaf Shield",
+    "Type": "Grass",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Vitality",
+    "Accuracy2": "Nature",
+    "Target": "Self",
+    "Effect": "Increase the User's Defense and Special Defense by 1. In Sunny Weather Increase them both by 2.",
+    "Description": "The User cloaks itself in protective leaves.",
+    "_id": "leaf-shield",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

@@ -1,0 +1,145 @@
+{
+  "Number": 1116,
+  "DexID": "1116",
+  "Name": "Calvictor",
+  "Type1": "Fighting",
+  "Type2": "Steel",
+  "BaseHP": 4,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 4,
+  "MaxVitality": 8,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Expert",
+  "Ability2": "",
+  "HiddenAbility": "Ally Pledge",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "calvictor",
+  "DexCategory": "Warrior Pokémon",
+  "Height": {
+    "Meters": 0.51,
+    "Feet": 1.67
+  },
+  "Weight": {
+    "Kilograms": 10.2,
+    "Pounds": 22.5
+  },
+  "DexDescription": "Armies often used to have Calvictor on their side when entering battle. Their sword and shield combo is a threat to any opponent. They willingly serve as sentinels for Ruskovan Villages and are frequently seen partnered with local law enforcement.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Pound"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fury Cutter"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Focus Energy"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rock Smash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Revenge"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Knock Off"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Heavy Slam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Edge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Quick Guard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Slayer"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aura Strike"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Baton Pass"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Incredible Feat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Counter"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shield Bash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Iron Head"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Guillotine"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Vorpal Blade"
+    }
+  ]
+}

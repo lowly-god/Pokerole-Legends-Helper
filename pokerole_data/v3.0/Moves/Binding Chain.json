@@ -1,0 +1,16 @@
+{
+    "Name": "Binding Chain",
+    "Type": "Poison",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Insight",
+    "Accuracy2": "Nature",
+    "Target": "Foe",
+    "Effect": "Accuracy -2. Increase the Foe’s Strength and Special by 1. Inflicts *Charmed.",
+    "Description": "The User shackles the Foe to its will, increasing its power and turning it into a thrall.",
+    "_id": "binding-chain",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

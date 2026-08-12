@@ -1,0 +1,195 @@
+{
+  "Number": 849,
+  "DexID": "0849F2",
+  "Name": "Toxtricity (Orrean Smouldering Form)",
+  "Type1": "Fire",
+  "Type2": "Poison",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Punk Rock",
+  "Ability2": "Galvanize",
+  "HiddenAbility": "Solid Rock",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "toxtricity-orrean-smouldering-form",
+  "DexCategory": "Punk Rock Pokémon",
+  "Height": {
+    "Meters": 1.6,
+    "Feet": 5.25
+  },
+  "Weight": {
+    "Kilograms": 39.9,
+    "Pounds": 88.0
+  },
+  "DexDescription": "It burns the poison in its body, and spews out toxic fumes as it attacks. This same technique can be used to create great belching raspy noises, akin to the singers from heavy metal bands. It is known as the smouldering form.",
+  "Evolutions": [
+    {
+      "From": "Toxel",
+      "Kind": "Special",
+      "Special": "Toxel (Fire Stone)"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Ember"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fire Fang"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fire Spin"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flame Burst"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Will-O-Wisp"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flail"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Tearful Look"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Acid"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Acid Spray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Noble Roar"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Rain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flamethrower"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hyper Voice"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Venoshock"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Belch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Screech"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Infernal Riff"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Overheat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Pollution"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swagger"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Poison Jab"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shift Gear"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Boomburst"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Power-Up Punch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Metal Sound"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Round"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Meltdown"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Caustic Breath"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Electro Whip"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twin Jolt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cauterize"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Virus Pulse"
+    }
+  ]
+}

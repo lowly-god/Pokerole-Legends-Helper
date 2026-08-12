@@ -1,0 +1,145 @@
+{
+  "Number": 625,
+  "DexID": "0625F1",
+  "Name": "Bisharp (Kalosian Form)",
+  "Type1": "Steel",
+  "Type2": "Normal",
+  "BaseHP": 4,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Defiant",
+  "Ability2": "Battle Armor",
+  "HiddenAbility": "Duellist",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "bisharp-kalosian-form",
+  "DexCategory": "Sword Blade Pokémon",
+  "Height": {
+    "Meters": 1.6,
+    "Feet": 5.25
+  },
+  "Weight": {
+    "Kilograms": 69.9,
+    "Pounds": 154.0
+  },
+  "DexDescription": "Its tactical knowledge has developed as it has grown. It is an expert at hand to hand combat. Many a castle has owed a successful defense to the Bisharp that fought alongside the soldiers.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Scratch"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fury Cutter"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Metal Sound"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Counter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "False Swipe"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Edge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embargo"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Laser Focus"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psycho Cut"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sacred Sword"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gear Up"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Guillotine"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "X-Scissor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Chip Away"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Final Gambit"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dual Chop"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Retaliate"
+    }
+  ]
+}

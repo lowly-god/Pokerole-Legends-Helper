@@ -1,0 +1,13 @@
+{
+  "Name": "Rocky Helmet",
+  "_id": "rocky-helmet",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Foes making Contact with the holder take 1 Damage",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

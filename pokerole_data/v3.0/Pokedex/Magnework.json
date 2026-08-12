@@ -1,0 +1,171 @@
+{
+  "Number": 1103,
+  "DexID": "1103",
+  "Name": "Magnework",
+  "Type1": "Electric",
+  "Type2": "Steel",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Kinetic Clockwork",
+  "Ability2": "Magnet Pull",
+  "HiddenAbility": "Levitate",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "magnework",
+  "DexCategory": "Clockwork Pokémon",
+  "Height": {
+    "Meters": 1.14,
+    "Feet": 3.75
+  },
+  "Weight": {
+    "Kilograms": 198.7,
+    "Pounds": 438.0
+  },
+  "DexDescription": "It's body seems to be powered by a form of clockwork. Strong magnetic fields wind the strange gears its insides are comprised of.",
+  "Evolutions": [
+    {
+      "From": "Magneton",
+      "Kind": "Special",
+      "Special": "Magneton (Rune Stone)"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Supersonic"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Thunder Shock"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sonic Boom"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Magnetic Flux"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Electric Terrain"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thunder Wave"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Magnet Rise"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Screech"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Electro Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mirror Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Magnet Bomb"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Spark"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Metal Sound"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flash Cannon"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twin Jolt"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Barrier"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Mirror Coat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Discharge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lock-On"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gyro Ball"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Zap Cannon"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shift Gear"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Null Room"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Anti-Gravity"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Steel Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Rising Voltage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Double Shock"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mirror Shield"
+    }
+  ]
+}

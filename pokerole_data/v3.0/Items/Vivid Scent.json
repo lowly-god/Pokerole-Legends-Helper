@@ -1,0 +1,13 @@
+{
+  "Name": "Vivid Scent",
+  "_id": "vivid-scent",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Incense",
+  "Category": "Incense",
+  "Description": "+2 Happiness and Loyalty if used on [Shadow] Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "6500",
+  "Cures": "",
+  "Image": ""
+}

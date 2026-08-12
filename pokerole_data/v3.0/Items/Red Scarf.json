@@ -1,0 +1,13 @@
+{
+  "Name": "Red Scarf",
+  "_id": "red-scarf",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Increases holder’s Cool by 1",
+  "OneUse": false,
+  "TrainerPrice": "3000",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,16 @@
+{
+    "Name": "Sawblade Strike",
+    "Type": "Steel",
+    "Power": 4,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Strength",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Cutter Move. Lethal. High Critical.",
+    "Description": "The User closes in with the Target, striking it with spinning chainsaw like blades.",
+    "_id": "sawblade-strike",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

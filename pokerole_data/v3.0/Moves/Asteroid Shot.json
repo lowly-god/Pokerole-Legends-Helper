@@ -1,0 +1,16 @@
+{
+    "Name": "Asteroid Shot",
+    "Type": "Rock",
+    "Power": 2,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Dexterity",
+    "Accuracy2": "Channel",
+    "Target": "Foe",
+    "Effect": "Never Miss. Projectile. Roll 1 Chance Dice to Burn (1) the Foe.",
+    "Description": "The User summons an asteroid to strike down upon the Foe.",
+    "_id": "asteroid-shot",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

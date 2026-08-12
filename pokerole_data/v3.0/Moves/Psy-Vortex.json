@@ -1,0 +1,16 @@
+{
+    "Name": "Psy-Vortex",
+    "Type": "Psychic",
+    "Power": 3,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Special",
+    "Accuracy2": "Channel",
+    "Target": "Foe",
+    "Effect": "Blocks. In Rain Weather or in aquatic locations: This Move gains +2 additional Damage Dice and Water Sub-Typing.",
+    "Description": "The User manifests its psychic powers in the form of a raging vortex.",
+    "_id": "psy-vortex",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

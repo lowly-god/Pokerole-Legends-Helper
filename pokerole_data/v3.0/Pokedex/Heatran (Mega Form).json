@@ -1,0 +1,131 @@
+{
+  "Number": 485,
+  "DexID": "0485F1",
+  "Name": "Heatran (Mega Form)",
+  "Type1": "Fire",
+  "Type2": "Steel",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 4,
+  "MaxInsight": 7,
+  "Ability1": "Earth Eater",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "heatran-mega-form",
+  "DexCategory": "Lava Drone Pokémon",
+  "Height": {
+    "Meters": 2.79,
+    "Feet": 9.17
+  },
+  "Weight": {
+    "Kilograms": 569.7,
+    "Pounds": 1256.0
+  },
+  "DexDescription": "An old painting showed a similar Pokémon standing atop an erupting volcano.",
+  "Evolutions": [
+    {
+      "From": "Heatran",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Ace",
+      "Name": "Fire Spin"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Fire Fang"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Iron Head"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Lava Plume"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Metal Sound"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Earth Power"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Heat Wave"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Stone Edge"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Magma Storm"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Stomping Tantrum"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cauterize"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Magma Drift"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Uncontrolled Burn Off"
+    }
+  ]
+}

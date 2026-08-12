@@ -1,0 +1,13 @@
+{
+  "Name": "Flame Orb",
+  "_id": "flame-orb",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "The holder suffers Burn (2) at the end of the first Round",
+  "OneUse": false,
+  "TrainerPrice": "5000",
+  "Cures": "",
+  "Image": ""
+}

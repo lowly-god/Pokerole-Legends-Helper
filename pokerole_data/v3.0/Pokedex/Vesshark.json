@@ -1,0 +1,161 @@
+{
+  "Number": 1162,
+  "DexID": "1162",
+  "Name": "Vesshark",
+  "Type1": "Ghost",
+  "Type2": "Water",
+  "BaseHP": 8,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 4,
+  "MaxVitality": 8,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Gigantic",
+  "Ability2": "",
+  "HiddenAbility": "Mold Breaker",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "vesshark",
+  "DexCategory": "Psychopomp Pokémon",
+  "Height": {
+    "Meters": 11.46,
+    "Feet": 37.58
+  },
+  "Weight": {
+    "Kilograms": 646.8,
+    "Pounds": 1426.0
+  },
+  "DexDescription": "There is a myth that Vesshark carries the souls of those who died at sea to the afterlife. Sailors both equally fear and respect it. Legend states that an ancient captain denied fate and refused to die, and that they still sail the seas running from Vesshark to this day.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Shadow Sneak"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rage"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Headbutt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aqua Tail"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Body Slam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Roar"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Ring"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mist"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mean Look"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dive"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Surf"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stalacbite"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Liquidation"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Ice Fang"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Aqua Surge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Phantom Force"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Harrowing Wrath"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spirit Shackle"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Shadow Tide"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Breach"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Anchor Shot"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "Number": 545,
+  "DexID": "0545F1",
+  "Name": "Scolipede (Mega Form)",
+  "Type1": "Bug",
+  "Type2": "Poison",
+  "BaseHP": 6,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 4,
+  "MaxVitality": 8,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Execution",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "scolipede-mega-form",
+  "DexCategory": "Megapede Pokémon",
+  "Height": {
+    "Meters": 1.75,
+    "Feet": 5.75
+  },
+  "Weight": {
+    "Kilograms": 106.1,
+    "Pounds": 234.0
+  },
+  "DexDescription": "Highly aggressive, it uses the claws on its neck to immobilize its prey and then inject them with poison to finish them off. Be very careful around this Pokémon as it will chase you relentlessly until it gets you.",
+  "Evolutions": [
+    {
+      "From": "Scolipede",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Poison Sting"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Defense Curl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Rollout"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Pursuit"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Poison Tail"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Screech"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bug Bite"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Venoshock"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Gyro Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Strength"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Take Down"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Rock Climb"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Venom Drench"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Skitter Smack"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Baton Pass"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Double-Edge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Steamroller"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Megahorn"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Smart Strike"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Aqua Tail"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Superpower"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Parasitize"
+    }
+  ]
+}

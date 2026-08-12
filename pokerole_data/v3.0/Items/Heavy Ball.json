@@ -1,0 +1,13 @@
+{
+  "Name": "Heavy Ball",
+  "_id": "heavy-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Artisan Balls",
+  "Category": "Artisan Balls",
+  "Description": "4d6 base; +1d6 for each 50lbs above 200lbs up to max of +10",
+  "OneUse": true,
+  "TrainerPrice": "1600",
+  "Cures": "",
+  "Image": ""
+}

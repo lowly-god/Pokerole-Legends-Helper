@@ -1,0 +1,16 @@
+{
+    "Name": "Dual Cannon",
+    "Type": "Steel",
+    "Power": 3,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Special",
+    "Accuracy2": "Channel",
+    "Target": "Foe",
+    "Effect": "Double Action.",
+    "Description": "The User fire's two impressive bursts from its cannons.",
+    "_id": "dual-cannon",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

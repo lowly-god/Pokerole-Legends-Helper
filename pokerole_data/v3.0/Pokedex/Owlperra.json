@@ -1,0 +1,137 @@
+{
+  "Number": 1036,
+  "DexID": "1036",
+  "Name": "Owlperra",
+  "Type1": "Psychic",
+  "Type2": "Flying",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Healer",
+  "Ability2": "Serene Grace",
+  "HiddenAbility": "Soothing Melody",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "owlperra",
+  "DexCategory": "Au Pair Pokémon",
+  "Height": {
+    "Meters": 1.14,
+    "Feet": 3.75
+  },
+  "Weight": {
+    "Kilograms": 0.0,
+    "Pounds": 0.0
+  },
+  "DexDescription": "Owlperra are often used by noble families to protect and care for their children. It is also not unheard of for them to be used as assistants by doctors or healers.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Sing"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Peck"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Gust"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Psywave"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hidden Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Disarming Voice"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Roost"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Heal Bell"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Defog"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Extrasensory"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cosmic Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Feather Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mirror Move"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dreamweave"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Future Sight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonlight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psychic Terrain"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Meditative Trance"
+    }
+  ]
+}

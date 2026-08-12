@@ -1,0 +1,13 @@
+{
+  "Name": "High-Performance Pokémon Food",
+  "_id": "high-performance-pok-mon-food",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Provisions",
+  "Category": "Provisions",
+  "Description": "1 days food, Add +2 Bonus Dice to next Training roll",
+  "OneUse": true,
+  "TrainerPrice": "200",
+  "Cures": "",
+  "Image": ""
+}

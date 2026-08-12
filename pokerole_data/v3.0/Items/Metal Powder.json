@@ -1,0 +1,13 @@
+{
+  "Name": "Metal Powder",
+  "_id": "metal-powder",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "if Ditto holds this it gains +2 Defense",
+  "OneUse": false,
+  "TrainerPrice": "5000",
+  "Cures": "",
+  "Image": ""
+}

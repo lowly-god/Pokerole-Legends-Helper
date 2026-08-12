@@ -1,0 +1,16 @@
+{
+    "Name": "Aura Strike",
+    "Type": "Fighting",
+    "Power": 3,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Insight",
+    "Accuracy2": "Brawl/Aura",
+    "Target": "Foe",
+    "Effect": "Never Miss.",
+    "Description": "The User senses the Foe's aura, then strikes with the added force of its own.",
+    "_id": "aura-strike",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

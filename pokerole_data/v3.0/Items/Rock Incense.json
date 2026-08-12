@@ -1,0 +1,13 @@
+{
+  "Name": "Rock Incense",
+  "_id": "rock-incense",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Rock Moves gain +1 additional Damage Dice",
+  "OneUse": false,
+  "TrainerPrice": "2500",
+  "Cures": "",
+  "Image": ""
+}

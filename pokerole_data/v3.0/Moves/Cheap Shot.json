@@ -1,0 +1,16 @@
+{
+    "Name": "Cheap Shot",
+    "Type": "Dark",
+    "Power": 2,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Dexterity",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "This Move is always counted as a critical hit. Add 2 Extra Dice to the Damage Pool of this Move regardless of the amount of successes rolled.",
+    "Description": "The User distracts the Foe, then targets its weak spot with a vicious attack.",
+    "_id": "cheap-shot",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

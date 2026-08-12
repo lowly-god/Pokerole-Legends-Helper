@@ -1,0 +1,16 @@
+{
+    "Name": "Swarm Defend",
+    "Type": "Bug",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Vitality",
+    "Accuracy2": "Etiquette",
+    "Target": "Self",
+    "Effect": "Increase the User’s Defense and Special Defense by 1.",
+    "Description": "The swarm reinforces their defenses.",
+    "_id": "swarm-defend",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

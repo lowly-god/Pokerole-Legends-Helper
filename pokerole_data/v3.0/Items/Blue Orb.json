@@ -1,0 +1,13 @@
+{
+  "Name": "Blue Orb",
+  "_id": "blue-orb",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Items",
+  "Category": "Special Items",
+  "Description": "Allows Kyogre to transform",
+  "OneUse": false,
+  "TrainerPrice": "80000",
+  "Cures": "",
+  "Image": ""
+}

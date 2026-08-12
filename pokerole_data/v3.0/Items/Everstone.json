@@ -1,0 +1,13 @@
+{
+  "Name": "Everstone",
+  "_id": "everstone",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Prevents the holder from Evolving",
+  "OneUse": false,
+  "TrainerPrice": "1000",
+  "Cures": "",
+  "Image": ""
+}

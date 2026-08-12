@@ -1,0 +1,16 @@
+{
+    "Name": "Meditative Trance",
+    "Type": "Psychic",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Cool/Clever",
+    "Accuracy2": "Nature",
+    "Target": "Self",
+    "Effect": "Roll half of the User’s HP as Neutral Damage to itself, ignore defenses. Increase User’s Special by 3.",
+    "Description": "The User slips into a meditative trance, becoming oblivious to anything outside of its mind.",
+    "_id": "meditative-trance",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

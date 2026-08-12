@@ -1,0 +1,143 @@
+{
+  "Number": 99,
+  "DexID": "0099F1",
+  "Name": "Kingler (Mega Form)",
+  "Type1": "Water",
+  "Type2": "Steel",
+  "BaseHP": 6,
+  "Strength": 4,
+  "MaxStrength": 9,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 4,
+  "MaxVitality": 8,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Sovereign's Steel",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "kingler-mega-form",
+  "DexCategory": "Pincer Pokémon",
+  "Height": {
+    "Meters": 1.37,
+    "Feet": 4.5
+  },
+  "Weight": {
+    "Kilograms": 84.4,
+    "Pounds": 186.0
+  },
+  "DexDescription": "Its pincers grow peculiarly large. If it lifts the pincers too fast, it may lose its balance and stagger. If one of its pincers is damaged, it will detach it from its body. It will regrow after a few days.",
+  "Evolutions": [
+    {
+      "From": "Kingler",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Bubble"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Mud Sport"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Water Gun"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Vice Grip"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bubble Beam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Harden"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mud Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Wide Guard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Razor Shell"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stomp"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Crabhammer"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Slam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hammer Arm"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Brine"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Guillotine"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Brutal Swing"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "X-Scissor"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Room Service",
+  "_id": "room-service",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "If Trick Room is in effect the holder acts last in initiative",
+  "OneUse": true,
+  "TrainerPrice": "5000",
+  "Cures": "",
+  "Image": ""
+}

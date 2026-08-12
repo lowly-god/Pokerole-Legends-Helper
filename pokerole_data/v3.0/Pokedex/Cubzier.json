@@ -1,0 +1,157 @@
+{
+  "Number": 1097,
+  "DexID": "1097",
+  "Name": "Cubzier",
+  "Type1": "Fire",
+  "Type2": "Fairy",
+  "BaseHP": 3,
+  "Strength": 1,
+  "MaxStrength": 3,
+  "Dexterity": 1,
+  "MaxDexterity": 3,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Aroma Veil",
+  "Ability2": "Misty Surge",
+  "HiddenAbility": "Soothing Aroma",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "cubzier",
+  "DexCategory": "Incense Tiger Pokémon",
+  "Height": {
+    "Meters": 0.66,
+    "Feet": 2.17
+  },
+  "Weight": {
+    "Kilograms": 11.3,
+    "Pounds": 25.0
+  },
+  "DexDescription": "A native of the far off Pachir region. It's body can switch between solid or gas at will. It is often seen at temples where the scent of its incense fills the air.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Lick"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Smokescreen"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Ember"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Aromatic Mist"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Strange Steam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aromatherapy"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flame Burst"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Will-O-Wisp"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sweet Scent"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cleansing Fire"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Haze"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mist"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Clear Smog"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Yawn"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rest"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Snore"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sleep Talk"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Morning Sun"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heat Wave"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Amnesia"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fire Blast"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Magic Coat"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Miasma"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Misty Explosion"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cauterize"
+    }
+  ]
+}

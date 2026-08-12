@@ -1,0 +1,173 @@
+{
+  "Number": 319,
+  "DexID": "0319F1",
+  "Name": "Sharpedo (Orrean Form)",
+  "Type1": "Ghost",
+  "Type2": "Ground",
+  "BaseHP": 4,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Rough Skin",
+  "Ability2": "Sand Rush",
+  "HiddenAbility": "Speed Boost",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "sharpedo-orrean-form",
+  "DexCategory": "Brutal Pokémon",
+  "Height": {
+    "Meters": 1.83,
+    "Feet": 6.0
+  },
+  "Weight": {
+    "Kilograms": 177.4,
+    "Pounds": 391.0
+  },
+  "DexDescription": "It's glowing baleful red eyes are often the last thing an unweary traveller in the desert sees after feeling the sands rumble beneath them.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sand Tomb"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Frustration"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Jaw Lock"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Will-O-Wisp"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Swagger"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Shadow Sneak"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Curse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Foul Play"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "U-Turn"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Bone"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bone Rush"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stalacbite"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sandstorm"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Skull Bash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Rush"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Grudge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Drill Run"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Snatch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Poison Fang"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Harrowing Wrath"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Scorching Sands"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Headlong Rush"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Phantom Force"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Entomb"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Fissure"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Psychic Fangs"
+    }
+  ]
+}

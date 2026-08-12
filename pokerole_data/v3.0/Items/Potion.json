@@ -1,0 +1,13 @@
+{
+  "Name": "Potion",
+  "_id": "potion",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Medicine",
+  "Category": "Medicine",
+  "Description": "2 Units of healing",
+  "OneUse": true,
+  "TrainerPrice": "250",
+  "Cures": "",
+  "Image": ""
+}

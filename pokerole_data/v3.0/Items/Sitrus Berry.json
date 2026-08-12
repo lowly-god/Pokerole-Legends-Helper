@@ -1,0 +1,13 @@
+{
+  "Name": "Sitrus Berry",
+  "_id": "sitrus-berry",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Heals 3HP",
+  "OneUse": true,
+  "TrainerPrice": "400",
+  "Cures": "",
+  "Image": ""
+}

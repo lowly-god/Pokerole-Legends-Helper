@@ -1,0 +1,13 @@
+{
+  "Name": "World Map",
+  "_id": "world-map",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Adventuring Gear",
+  "Category": "Adventuring Gear",
+  "Description": "Map of the world",
+  "OneUse": false,
+  "TrainerPrice": "3500",
+  "Cures": "",
+  "Image": ""
+}

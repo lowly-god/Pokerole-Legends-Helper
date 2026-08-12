@@ -1,0 +1,13 @@
+{
+  "Name": "Punching Gloves",
+  "_id": "punching-gloves",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Fist Moves gain +1 Damage Dice, and prevents Foe’s Contact Effects from triggering",
+  "OneUse": false,
+  "TrainerPrice": "5000",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Terrain Extender",
+  "_id": "terrain-extender",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Holder’s set Terrain lasts 8 Rounds",
+  "OneUse": false,
+  "TrainerPrice": "5000",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,149 @@
+{
+  "Number": 89,
+  "DexID": "0089F1",
+  "Name": "Muk (Delta Form)",
+  "Type1": "Poison",
+  "Type2": "Psychic",
+  "BaseHP": 6,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 4,
+  "MaxSpecial": 7,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Intrusive Thoughts",
+  "Ability2": "Stench",
+  "HiddenAbility": "Toxin Tax",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "muk-delta-form",
+  "DexCategory": "Delta Pokémon",
+  "Height": {
+    "Meters": 1.37,
+    "Feet": 4.5
+  },
+  "Weight": {
+    "Kilograms": 66.2,
+    "Pounds": 146.0
+  },
+  "DexDescription": "This Muk gained strange powers from irradiated matter it consumed, in the waste disposal of a certain evil organisation’s headquarters.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Poison Gas"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Pound"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Disable"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Harden"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Venom Drench"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sludge"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Acid Spray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Minimize"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Disable"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sludge Bomb"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Minimize"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fling"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Extrasensory"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Screech"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Pollution"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Rain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gunk Shot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Acid Armor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Belch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Memento"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sludge Wave"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Stored Power"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Meltdown"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Expanding Force"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Shadow Sneak"
+    }
+  ]
+}

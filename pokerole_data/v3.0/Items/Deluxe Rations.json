@@ -1,0 +1,13 @@
+{
+  "Name": "Deluxe Rations",
+  "_id": "deluxe-rations",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Provisions",
+  "Category": "Special Provisions",
+  "Description": "1 days food, Heals 6HP, 3 Will Points, Gain +1 Bonus Stamina Point",
+  "OneUse": true,
+  "TrainerPrice": "N/A",
+  "Cures": "",
+  "Image": ""
+}

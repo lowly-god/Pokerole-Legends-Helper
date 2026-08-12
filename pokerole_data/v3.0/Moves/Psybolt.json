@@ -1,0 +1,16 @@
+{
+    "Name": "Psybolt",
+    "Type": "Psychic",
+    "Power": 2,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Dexterity",
+    "Accuracy2": "Channel",
+    "Target": "Foe",
+    "Effect": "Reaction 1.",
+    "Description": "A flash of psychic power strikes the Foe in the blink of an eye.",
+    "_id": "psybolt",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

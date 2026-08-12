@@ -1,0 +1,157 @@
+{
+  "Number": 475,
+  "DexID": "0475F1",
+  "Name": "Gallade (Johtonian Form)",
+  "Type1": "Psychic",
+  "Type2": "Water",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Defiant",
+  "Ability2": "Clear Body",
+  "HiddenAbility": "Hydration",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "M",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "gallade-johtonian-form",
+  "DexCategory": "Wave Warrior Pokémon",
+  "Height": {
+    "Meters": 1.68,
+    "Feet": 5.5
+  },
+  "Weight": {
+    "Kilograms": 49.9,
+    "Pounds": 110.0
+  },
+  "DexDescription": "It's gel like fins have hard cartilage inside, the edges are sharp and can cause nasty wounds if it slices with them. The gel contains a stinging toxin that can be lethal if left untreated. Its a fast swimmer and fast on land too.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Jet Punch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Jet Punch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Attract"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Charm"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aqua Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Pulse Strike"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Glare"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic Terrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flip Turn"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psycho Cut"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fin Blade"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heart Breaker"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Guard Swap"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Teleport"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wide Guard"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Life Dew"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fisticuffs"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Vorpal Blade"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Slayer"
+    }
+  ]
+}

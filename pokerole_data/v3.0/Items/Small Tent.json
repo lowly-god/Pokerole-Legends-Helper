@@ -1,0 +1,13 @@
+{
+  "Name": "Small Tent",
+  "_id": "small-tent",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Adventuring Gear",
+  "Category": "Adventuring Gear",
+  "Description": "Sleeps 2",
+  "OneUse": false,
+  "TrainerPrice": "1000",
+  "Cures": "",
+  "Image": ""
+}

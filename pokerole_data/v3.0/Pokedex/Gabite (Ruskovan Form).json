@@ -1,0 +1,153 @@
+{
+  "Number": 444,
+  "DexID": "0444F1",
+  "Name": "Gabite (Ruskovan Form)",
+  "Type1": "Dragon",
+  "Type2": "Ice",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Snow Cloak",
+  "Ability2": "Slush Rush",
+  "HiddenAbility": "Rough Skin",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "gabite-ruskovan-form",
+  "DexCategory": "Snow Shark Pokémon",
+  "Height": {
+    "Meters": 1.4,
+    "Feet": 4.58
+  },
+  "Weight": {
+    "Kilograms": 55.8,
+    "Pounds": 123.0
+  },
+  "DexDescription": "Gabite known for its agility, becoming even more formidable in Ruskova's icy terrain. It guards its glittering treasures fiercely and hunts with unmatched prowess, swiftly traversing both land and frozen wastes.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Dragon Rage"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Take Down"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ice Fang"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ice Shard"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dragon Rush"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Black Ice"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Avalanche"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Icicle Spear"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Frost Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Frozen Crash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Stalacbite"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Breaking Swipe"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dual Chop"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Iron Head"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Absolute Zero"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "Number": 415,
+  "DexID": "0415F2",
+  "Name": "Combee (Swarm Form)",
+  "Type1": "Bug",
+  "Type2": "Flying",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 3,
+  "MaxDexterity": 7,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Fury of the Hive",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "combee-swarm-form",
+  "DexCategory": "Bee Swarm Pokémon",
+  "Height": {
+    "Meters": 1.4,
+    "Feet": 4.58
+  },
+  "Weight": {
+    "Kilograms": 40.8,
+    "Pounds": 90.0
+  },
+  "DexDescription": "It forms hives around trees. It flies all day sipping the nectar from flowers to make honey. It is usually born a male. If a female is born, it will grow into a Vespiquen and start its own hive.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Sweet Scent"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Gust"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bug Bite"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Poison Sting"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Struggle Bug"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bug Buzz"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fury Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Pursuit"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Swagger"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fell Stinger"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swift"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Captivate"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Signal Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Glare"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Air Cutter"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Jet Strike"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Destiny Bond"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Endeavor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swarm Sting"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swarm Defend"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swarm Buff"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Ominous Wind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Parasitize"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Giga Impact"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hyper Beam"
+    }
+  ]
+}

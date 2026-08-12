@@ -1,0 +1,161 @@
+{
+  "Number": 646,
+  "DexID": "0646F3",
+  "Name": "Kyurem (Primal Form)",
+  "Type1": "Dragon",
+  "Type2": "Ice",
+  "BaseHP": 7,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 3,
+  "MaxDexterity": 7,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Protean",
+  "Ability2": "Pyrostatic",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Champion",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "kyurem-primal-form",
+  "DexCategory": "Perfected Pokémon",
+  "Height": {
+    "Meters": 3.43,
+    "Feet": 11.25
+  },
+  "Weight": {
+    "Kilograms": 368.8,
+    "Pounds": 813.0
+  },
+  "DexDescription": "Through the use of more powerful Gene Splicer technology, Kyurem has been perfected, the way it was meant to be. It has now been fused with both Reshiram and Zekrom.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Icy Wind"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Dragon Rage"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Imprison"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thunder Fang"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fire Fang"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ice Fang"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dragon Breath"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Glaciate"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Noble Roar"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Ice Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imperial Majesty"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dual Chop"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Rush"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wish"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Blizzard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hoarfrost Moon"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Topsy-Turvy"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Draco Meteor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Fusion Flare"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Blue Flare"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Fusion Bolt"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Bolt Strike"
+    }
+  ]
+}

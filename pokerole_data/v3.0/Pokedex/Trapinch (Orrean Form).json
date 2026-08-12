@@ -1,0 +1,129 @@
+{
+  "Number": 328,
+  "DexID": "0328F1",
+  "Name": "Trapinch (Orrean Form)",
+  "Type1": "Bug",
+  "Type2": "Ground",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 1,
+  "MaxDexterity": 3,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Hyper Cutter",
+  "Ability2": "Arena Trap",
+  "HiddenAbility": "Sand Spit",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "trapinch-orrean-form",
+  "DexCategory": "Ant Pit Pokémon",
+  "Height": {
+    "Meters": 0.71,
+    "Feet": 2.33
+  },
+  "Weight": {
+    "Kilograms": 15.0,
+    "Pounds": 33.0
+  },
+  "DexDescription": "It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bug Bite"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Mud Slap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sand Tomb"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fury Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rock Slide"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bulldoze"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Skitter Smack"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sandstorm"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lunge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Megahorn"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Earthquake"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dual Chop"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Quiver Dance"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Superpower"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Fissure"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tail Glow"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Parasitize"
+    }
+  ]
+}

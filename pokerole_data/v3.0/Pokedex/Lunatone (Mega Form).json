@@ -1,0 +1,163 @@
+{
+  "Number": 337,
+  "DexID": "0337F1",
+  "Name": "Lunatone (Mega Form)",
+  "Type1": "Rock",
+  "Type2": "Psychic",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Nocturnal",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "lunatone-mega-form",
+  "DexCategory": "Meteorite Pokémon",
+  "Height": {
+    "Meters": 0.99,
+    "Feet": 3.25
+  },
+  "Weight": {
+    "Kilograms": 167.8,
+    "Pounds": 370.0
+  },
+  "DexDescription": "First found where a meteorite fell. For this reason, it's believed it came from space. Its eyes fill people with dread and lure them to sleep. They become very active and extremely powerful during full moons.",
+  "Evolutions": [
+    {
+      "From": "Lunatone",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Harden"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Moonlight"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rock Throw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hypnosis"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rock Polish"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Power Gem"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Embargo"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psyshock"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cosmic Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psywave"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heal Block"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rock Slide"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Magic Room"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Stone Edge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Future Sight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Explosion"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Meteor Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Trick Room"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Skill Swap"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gaia Force"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hoarfrost Moon"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Anti-Gravity"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Asteroid Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lapidify"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "Number": 242,
+  "DexID": "0242F1",
+  "Name": "Blissey (Mega Form)",
+  "Type1": "Normal",
+  "Type2": "Fairy",
+  "BaseHP": 12,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 4,
+  "MaxInsight": 8,
+  "Ability1": "Eggcelent",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "F",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "blissey-mega-form",
+  "DexCategory": "Happiness Pokémon",
+  "Height": {
+    "Meters": 1.55,
+    "Feet": 5.08
+  },
+  "Weight": {
+    "Kilograms": 47.0,
+    "Pounds": 103.0
+  },
+  "DexDescription": "Whoever takes a bite of a Blissey's egg becomes loving and caring to everyone. They are compassionate, healing anyone who's injured. Their presence makes everyone smile. An intelligent and empathetic Pokémon.",
+  "Evolutions": [
+    {
+      "From": "Blissey",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Pound"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Defense Curl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Tail Whip"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Disarming Voice"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Slap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Refresh"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Echoed Voice"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Soft Boiled"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bestow"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heal Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Take Down"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Minimize"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fling"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sing"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Egg Bomb"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aromatherapy"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Attract"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Life Dew"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Double-Edge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Healing Wish"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hyper Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Counter"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Metronome"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Last Resort"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flirty Kiss"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heart Breaker"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rainbow Beam"
+    }
+  ]
+}

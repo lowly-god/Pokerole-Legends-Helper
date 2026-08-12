@@ -1,0 +1,149 @@
+{
+  "Number": 1026,
+  "DexID": "1026",
+  "Name": "Noxeon",
+  "Type1": "Poison",
+  "Type2": "",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Neutralizing Gas",
+  "Ability2": "",
+  "HiddenAbility": "Toxin Tax",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "noxeon",
+  "DexCategory": "Noxious Pokémon",
+  "Height": {
+    "Meters": 1.04,
+    "Feet": 3.42
+  },
+  "Weight": {
+    "Kilograms": 29.5,
+    "Pounds": 65.0
+  },
+  "DexDescription": "Upon evolving from exposure to a rare poisonous mineral. It gained the ability to create gaseous vapours that are highly toxic.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Poison Gas"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Smog"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Coil"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Miasma"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Haze"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hex"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Swagger"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Venoshock"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Clear Smog"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Pollution"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Power Gem"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Purify"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Caustic Breath"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Rain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Acid Armor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Venom Drench"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Parting Shot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wish"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Memento"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Pain Split"
+    }
+  ]
+}

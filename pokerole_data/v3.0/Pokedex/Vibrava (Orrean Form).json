@@ -1,0 +1,149 @@
+{
+  "Number": 329,
+  "DexID": "0329F1",
+  "Name": "Vibrava (Orrean Form)",
+  "Type1": "Bug",
+  "Type2": "Dragon",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Levitate",
+  "Ability2": "Compound Eyes",
+  "HiddenAbility": "Sand Stream",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "vibrava-orrean-form",
+  "DexCategory": "Vibration Pokémon",
+  "Height": {
+    "Meters": 1.09,
+    "Feet": 3.58
+  },
+  "Weight": {
+    "Kilograms": 15.0,
+    "Pounds": 33.0
+  },
+  "DexDescription": "It looses ultrasonic waves by rubbing its wings together. Since a Vibrava's wings are still in the process of growing, it can only fly short distances.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sonic Boom"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Mud Slap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Silver Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Caustic Breath"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Screech"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sandstorm"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Uproar"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Supersonic"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Acid Spray"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imperial Majesty"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dust Devil"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Tail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Bug Buzz"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Quiver Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Boomburst"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gastro Acid"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Air Cutter"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Heat Wave"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dual Wingbeat"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Parasitize"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    }
+  ]
+}

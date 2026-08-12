@@ -1,0 +1,13 @@
+{
+  "Name": "Pecha Berry",
+  "_id": "pecha-berry",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Cures Poison",
+  "OneUse": true,
+  "TrainerPrice": "200",
+  "Cures": "",
+  "Image": ""
+}

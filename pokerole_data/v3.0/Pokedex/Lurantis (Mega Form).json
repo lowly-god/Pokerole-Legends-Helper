@@ -1,0 +1,167 @@
+{
+  "Number": 754,
+  "DexID": "0754F1",
+  "Name": "Lurantis (Mega Form)",
+  "Type1": "Grass",
+  "Type2": "Dragon",
+  "BaseHP": 6,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Sharpness",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "lurantis-mega-form",
+  "DexCategory": "Bloom Sickle Pokémon",
+  "Height": {
+    "Meters": 1.04,
+    "Feet": 3.42
+  },
+  "Weight": {
+    "Kilograms": 24.9,
+    "Pounds": 55.0
+  },
+  "DexDescription": "Considered to be one of the most beautiful Grass-Type Pokémon due to its lovely coloration. They require a lot of maintenance and constant grooming, so they'll only trust a Trainer who is up for the job.",
+  "Evolutions": [
+    {
+      "From": "Lurantis",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Fury Cutter"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leafage"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Razor Leaf"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Growth"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ingrain"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sweet Scent"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Worry Seed"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Weather Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swagger"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aromatherapy"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Brick Break"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Synthesis"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Leaf Blade"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dual Chop"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "X-Scissor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Solar Blade"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Solar Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Petal Blizzard"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Leaf Storm"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Cross Poison"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Honor Blade"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heart Breaker"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Leaf Shield"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Tropic Storm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Uproot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    }
+  ]
+}

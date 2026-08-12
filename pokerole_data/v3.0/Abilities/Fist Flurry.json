@@ -1,0 +1,6 @@
+{
+    "Name": "Fist Flurry",
+    "Effect": "The User's Fist Move Moves gain Successive Action, This effect can only be used if this Pokémon hasn't used any Moves this Round, no attacks or Clashes can be made after using a Move like this.",
+    "Description": "",
+    "_id": "fist-flurry"
+}

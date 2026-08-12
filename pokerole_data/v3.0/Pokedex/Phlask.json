@@ -1,0 +1,145 @@
+{
+  "Number": 1048,
+  "DexID": "1048",
+  "Name": "Phlask",
+  "Type1": "Poison",
+  "Type2": "Ghost",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Stench",
+  "Ability2": "Aftermath",
+  "HiddenAbility": "Power of Alchemy",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "phlask",
+  "DexCategory": "Alchemy Pokémon",
+  "Height": {
+    "Meters": 0.33,
+    "Feet": 1.08
+  },
+  "Weight": {
+    "Kilograms": 10.4,
+    "Pounds": 23.0
+  },
+  "DexDescription": "Laboratory glassware possessed by a playful but frightening spirit. It is known to spew chemicals onto random objects to see what happens.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Smokescreen"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Smog"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Acid"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Acid Rain"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Disable"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Poison Gas"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Miasma"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Spray"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Self Destruct"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Toxic Spikes"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sludge Bomb"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hex"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Imprison"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Destiny Bond"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Energy Ball"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Substitute"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Virus Pulse"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Explosion"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Terrorize"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Meltdown"
+    }
+  ]
+}

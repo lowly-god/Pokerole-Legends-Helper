@@ -1,0 +1,181 @@
+{
+  "Number": 1088,
+  "DexID": "1088",
+  "Name": "Infury",
+  "Type1": "Fire",
+  "Type2": "Dark",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 3,
+  "MaxDexterity": 7,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Levitate",
+  "Ability2": "",
+  "HiddenAbility": "Prankster",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "infury",
+  "DexCategory": "Fury Pokémon",
+  "Height": {
+    "Meters": 1.63,
+    "Feet": 5.33
+  },
+  "Weight": {
+    "Kilograms": 57.2,
+    "Pounds": 126.0
+  },
+  "DexDescription": "Legends surround Infury, it was thought that it would carry to the souls of evil people to torment eternal in the afterlife.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Ember"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fury Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Knock Off"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fire Fang"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flame Charge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Parting Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Will-O-Wisp"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Payback"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embargo"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Memento"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Leech Life"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Perish Song"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lash Out"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fire Lash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Grudge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Flare Blitz"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Comeuppance"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Baton Pass"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Darkest Lariat"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cheap Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heart Breaker"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cauterize"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hellfire"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Uncontrolled Burn Off"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Eject Button",
+  "_id": "eject-button",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "If the holder is Damaged it Switches Out",
+  "OneUse": true,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

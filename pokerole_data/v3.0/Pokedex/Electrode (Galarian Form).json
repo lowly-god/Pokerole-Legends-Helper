@@ -1,0 +1,161 @@
+{
+  "Number": 101,
+  "DexID": "0101F1",
+  "Name": "Electrode (Galarian Form)",
+  "Type1": "Fire",
+  "Type2": "Grass",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 4,
+  "MaxDexterity": 8,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Soundproof",
+  "Ability2": "Seed Sower",
+  "HiddenAbility": "Aftermath",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "electrode-galarian-form",
+  "DexCategory": "Explosive Pokémon",
+  "Height": {
+    "Meters": 1.22,
+    "Feet": 4.0
+  },
+  "Weight": {
+    "Kilograms": 66.2,
+    "Pounds": 146.0
+  },
+  "DexDescription": "It has a short fuse in both senses of the phrase. They are often employed during sieges by careful saboteurs. Though often this ends up being more detrimental to those using them than the enemy.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leafage"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sonic Boom"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Ember"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rapid Spin"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fire Spin"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Will-O-Wisp"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Take Down"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Screech"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flame Charge"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bullet Seed"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Stun Spore"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Seed Bomb"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Self Destruct"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swift"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Screech"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Leech Seed"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Burn Up"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Chloroblast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shift Gear"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Energy Ball"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Explosion"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gyro Ball"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Grassy Terrain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Flare Blitz"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Worry Seed"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Eruption"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cauterize"
+    }
+  ]
+}

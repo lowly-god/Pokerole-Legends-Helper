@@ -1,0 +1,71 @@
+{
+  "Number": 1037,
+  "DexID": "1037",
+  "Name": "Streagle",
+  "Type1": "Normal",
+  "Type2": "",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Blank Canvas",
+  "Ability2": "Technician",
+  "HiddenAbility": "Masterpiece",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "streagle",
+  "DexCategory": "Painter Pokémon",
+  "Height": {
+    "Meters": 1.27,
+    "Feet": 4.17
+  },
+  "Weight": {
+    "Kilograms": 78.5,
+    "Pounds": 173.0
+  },
+  "DexDescription": "Streagle has a greater grasp on many artistic methods then it did as a Smeargle and as such its artistic abilities have improved greatly.",
+  "Evolutions": [
+    {
+      "From": "Smeargle",
+      "Kind": "Special",
+      "Special": "Smeargle (Link Stone / Trade)"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Sketch"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sketch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sketch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sketch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sketch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Sketch"
+    }
+  ]
+}

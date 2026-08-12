@@ -1,0 +1,13 @@
+{
+  "Name": "Tech Ball",
+  "_id": "tech-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Artisan Balls",
+  "Category": "Artisan Balls",
+  "Description": "4d6 base; +3d6 if used on \"inorganic\" Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "500",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,169 @@
+{
+  "Number": 1139,
+  "DexID": "1139",
+  "Name": "Storm Tyrant",
+  "Type1": "Electric",
+  "Type2": "Dragon",
+  "BaseHP": 4,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Protosynthesis",
+  "Ability2": "",
+  "HiddenAbility": "Tyrant",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "storm-tyrant",
+  "DexCategory": "Paradox Pokémon",
+  "Height": {
+    "Meters": 0.48,
+    "Feet": 1.58
+  },
+  "Weight": {
+    "Kilograms": 14.1,
+    "Pounds": 31.0
+  },
+  "DexDescription": "This creature that resembles Pikachu is terrifying, the sharp claws, teeth and horns seem to allude to a much different demeanour then the cute electric mouse Pokémon most are familiar with.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Scratch"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Thunder Shock"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Primal Instinct"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "False Swipe"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thunder Wave"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Spark"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Charge"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Focus Energy"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Electro Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Tail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Breath"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Imperial Majesty"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Discharge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Thunder"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wild Charge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Claw"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Volt Tackle"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Iron Tail"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cheap Shot"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Caustic Breath"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twin Jolt"
+    }
+  ]
+}

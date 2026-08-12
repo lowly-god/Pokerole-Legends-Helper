@@ -1,0 +1,13 @@
+{
+  "Name": "Shell Bell",
+  "_id": "shell-bell",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "The holder heals 1HP each time it inflicts Damage with a Move",
+  "OneUse": false,
+  "TrainerPrice": "10000",
+  "Cures": "",
+  "Image": ""
+}

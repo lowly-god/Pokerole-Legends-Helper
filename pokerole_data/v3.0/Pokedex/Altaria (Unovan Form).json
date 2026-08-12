@@ -1,0 +1,149 @@
+{
+  "Number": 334,
+  "DexID": "0334F1",
+  "Name": "Altaria (Unovan Form)",
+  "Type1": "Electric",
+  "Type2": "Dragon",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Static",
+  "Ability2": "Cloud Nine",
+  "HiddenAbility": "Storm Warning",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "altaria-unovan-form",
+  "DexCategory": "Stormcloud Pokémon",
+  "Height": {
+    "Meters": 1.09,
+    "Feet": 3.58
+  },
+  "Weight": {
+    "Kilograms": 20.4,
+    "Pounds": 45.0
+  },
+  "DexDescription": "Altaria make their homes in high peaks and take to the sky during storms.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Peck"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Gust"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sing"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Thunder Shock"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thunder Wave"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thunderbolt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Feather Dance"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Twister"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Electro Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twin Jolt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Cheer"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Discharge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Thunder"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Roost"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Volt Switch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Imperial Majesty"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hurricane"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Alluring Voice"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Draco Meteor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Meadow Plate",
+  "_id": "meadow-plate",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Grass Moves gain +1 additional Damage Dice",
+  "OneUse": false,
+  "TrainerPrice": "2500",
+  "Cures": "",
+  "Image": ""
+}

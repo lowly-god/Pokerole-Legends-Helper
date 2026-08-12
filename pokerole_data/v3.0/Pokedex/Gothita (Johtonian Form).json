@@ -1,0 +1,125 @@
+{
+  "Number": 574,
+  "DexID": "0574F1",
+  "Name": "Gothita (Johtonian Form)",
+  "Type1": "Psychic",
+  "Type2": "Fairy",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 1,
+  "MaxSpecial": 3,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Frisk",
+  "Ability2": "Defiant",
+  "HiddenAbility": "Dancer",
+  "EventAbilities": "",
+  "RecommendedRank": "Starter",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "gothita-johtonian-form",
+  "DexCategory": "Royalty Pokémon",
+  "Height": {
+    "Meters": 0.38,
+    "Feet": 1.25
+  },
+  "Weight": {
+    "Kilograms": 5.0,
+    "Pounds": 11.0
+  },
+  "DexDescription": "It imitates human royalty, often decorating and adorning itself with flowers and trinkets, though these often weigh it down making it clumsy.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Pound"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Baby-Doll Eyes"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fake Tears"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Double Slap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Draining Kiss"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flatter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Heart Stamp"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Meditate"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flirty Kiss"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Pulse Strike"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Play Rough"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Decorate"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aura Strike"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Misty Terrain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Discombobulate"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Snatch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Lunar Dance"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Spirit Break"
+    }
+  ]
+}

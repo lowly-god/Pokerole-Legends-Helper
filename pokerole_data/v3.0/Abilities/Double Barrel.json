@@ -1,0 +1,6 @@
+{
+    "Name": "Double Barrel",
+    "Effect": "User's Damaging Moves gain Double Action. This does not affect Moves that are Multi-Action already.",
+    "Description": "",
+    "_id": "double-barrel"
+}

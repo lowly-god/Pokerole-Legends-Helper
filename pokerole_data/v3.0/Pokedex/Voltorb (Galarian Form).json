@@ -1,0 +1,161 @@
+{
+  "Number": 100,
+  "DexID": "0100F1",
+  "Name": "Voltorb (Galarian Form)",
+  "Type1": "Fire",
+  "Type2": "Grass",
+  "BaseHP": 3,
+  "Strength": 1,
+  "MaxStrength": 3,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Soundproof",
+  "Ability2": "Seed Sower",
+  "HiddenAbility": "Aftermath",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "voltorb-galarian-form",
+  "DexCategory": "Explosive Pokémon",
+  "Height": {
+    "Meters": 0.51,
+    "Feet": 1.67
+  },
+  "Weight": {
+    "Kilograms": 12.7,
+    "Pounds": 28.0
+  },
+  "DexDescription": "Highly dangerous and prone to exploding at random. If you see the wick like protrusion catch aflame, run! When it explodes it spreads its seeds.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leafage"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sonic Boom"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Ember"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rapid Spin"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fire Spin"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Will-O-Wisp"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Take Down"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Screech"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flame Charge"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bullet Seed"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Stun Spore"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Seed Bomb"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Self Destruct"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swift"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Screech"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Leech Seed"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Burn Up"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Chloroblast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shift Gear"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Energy Ball"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Explosion"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gyro Ball"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Grassy Terrain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Flare Blitz"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Worry Seed"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Eruption"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cauterize"
+    }
+  ]
+}

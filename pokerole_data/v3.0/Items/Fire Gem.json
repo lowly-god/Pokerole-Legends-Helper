@@ -1,0 +1,13 @@
+{
+  "Name": "Fire Gem",
+  "_id": "fire-gem",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Gems",
+  "Category": "Gems",
+  "Description": "Single Use. A Damaging Fire-Type Move gains +2 Dice when rolling Damage.",
+  "OneUse": true,
+  "TrainerPrice": "300",
+  "Cures": "",
+  "Image": ""
+}

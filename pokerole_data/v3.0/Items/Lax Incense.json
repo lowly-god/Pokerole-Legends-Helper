@@ -1,0 +1,13 @@
+{
+  "Name": "Lax Incense",
+  "_id": "lax-incense",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Foes targetting the holder have -1 accuracy",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

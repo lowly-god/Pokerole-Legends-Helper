@@ -1,0 +1,157 @@
+{
+  "Number": 1057,
+  "DexID": "1057",
+  "Name": "Arachdriia",
+  "Type1": "Bug",
+  "Type2": "Ground",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Stakeout",
+  "Ability2": "",
+  "HiddenAbility": "Inexorable",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "arachdriia",
+  "DexCategory": "Ambush Pokémon",
+  "Height": {
+    "Meters": 1.4,
+    "Feet": 4.58
+  },
+  "Weight": {
+    "Kilograms": 75.7,
+    "Pounds": 167.0
+  },
+  "DexDescription": "It carves out large underground tunnel systems it uses as nests and larders for its captured food.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "String Shot"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Mud Slap"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bug Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mud Bomb"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Pounce"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Spider Web"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Pursuit"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Web Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "U-Turn"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cheap Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sticky Web"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bounce"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Skitter Smack"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fissure"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Entomb"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lunge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Poison Fang"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sucker Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Silk Trap"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Fell Stinger"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Smack Down"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Substitute"
+    }
+  ]
+}

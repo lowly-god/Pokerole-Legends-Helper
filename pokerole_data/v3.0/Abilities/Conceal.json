@@ -1,0 +1,6 @@
+{
+    "Name": "Conceal",
+    "Effect": "The first time this Pokémon would receive Damage during a battle, reduce that Damage to zero. Entry Hazards, Weather Conditions and Status Ailments do not trigger this Ability.",
+    "Description": "",
+    "_id": "conceal"
+}

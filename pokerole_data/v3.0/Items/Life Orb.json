@@ -1,0 +1,13 @@
+{
+  "Name": "Life Orb",
+  "_id": "life-orb",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Holder’s Damaging Moves deal +2 additional Dice of Damage, but gain Recoil",
+  "OneUse": false,
+  "TrainerPrice": "10000",
+  "Cures": "",
+  "Image": ""
+}

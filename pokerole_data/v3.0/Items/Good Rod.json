@@ -1,0 +1,13 @@
+{
+  "Name": "Good Rod",
+  "_id": "good-rod",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Tools",
+  "Category": "Tools",
+  "Description": "Can catch Pokémon Advanced rank or lower",
+  "OneUse": false,
+  "TrainerPrice": "2000",
+  "Cures": "",
+  "Image": ""
+}

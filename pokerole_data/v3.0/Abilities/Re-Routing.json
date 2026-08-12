@@ -1,0 +1,6 @@
+{
+    "Name": "Re-Routing",
+    "Effect": "You may reduce a Moves Power by 1 to change its targeting to All Foes if it would otherwise only Target One Foe. You may increase the Power of a Move that hits All Foes by 1 and change its targeting to a Single Foe.",
+    "Description": "",
+    "_id": "re-routing"
+}

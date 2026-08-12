@@ -1,0 +1,16 @@
+{
+    "Name": "Song Of Time",
+    "Type": "Psychic",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Special",
+    "Accuracy2": "Nature",
+    "Target": "Self",
+    "Effect": "Reaction 1. The User does not suffer from Multiple Action Penalties for the rest of the Round. (Out of battle effects at the Storyteller’s discretion).",
+    "Description": "The User sings a magical melody that effects time.",
+    "_id": "song-of-time",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

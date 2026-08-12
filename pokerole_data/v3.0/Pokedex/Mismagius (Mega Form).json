@@ -1,0 +1,159 @@
+{
+  "Number": 429,
+  "DexID": "0429F1",
+  "Name": "Mismagius (Mega Form)",
+  "Type1": "Ghost",
+  "Type2": "Psychic",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Spellcaster",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "mismagius-mega-form",
+  "DexCategory": "Magical Pokémon",
+  "Height": {
+    "Meters": 1.02,
+    "Feet": 3.33
+  },
+  "Weight": {
+    "Kilograms": 5.4,
+    "Pounds": 12.0
+  },
+  "DexDescription": "Extremely rare. Their cries sound like incantations; hearing them gives you bad headaches and hallucinations. It is said that some Mismagius are benevolent and have granted good fortune to people they like.",
+  "Evolutions": [
+    {
+      "From": "Mismagius",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Psywave"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Shadow Sneak"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hex"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mean Look"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Pain Split"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psybeam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Feint Attack"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Payback"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Grudge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Extrasensory"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Power Gem"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Mystical Fire"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Magical Leaf"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Destiny Bond"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Perish Song"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Foul Play"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dazzling Gleam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Edgestitch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Siphon Life-Force"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Absolute Zero"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Miasma"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Null Room"
+    }
+  ]
+}

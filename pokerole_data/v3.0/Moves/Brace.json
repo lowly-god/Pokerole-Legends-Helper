@@ -1,0 +1,16 @@
+{
+    "Name": "Brace",
+    "Type": "Normal",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Vitality/Insight",
+    "Accuracy2": "Alert",
+    "Target": "Self",
+    "Effect": "Reduce User's Strength + Special by 1, Increase User's Defense + Special Defense by 1. The User is Immune to Critical Hits until the end of the Round.",
+    "Description": "The User sacrifices offensive prowess for heightened resilience.",
+    "_id": "brace",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Exp Share",
+  "_id": "exp-share",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Items",
+  "Category": "Special Items",
+  "Description": "The holder gains 1 Training Point for each victory claimed by other Pokémon in the party",
+  "OneUse": false,
+  "TrainerPrice": "20000",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,149 @@
+{
+  "Number": 1079,
+  "DexID": "1079",
+  "Name": "Spidream",
+  "Type1": "Bug",
+  "Type2": "Fairy",
+  "BaseHP": 3,
+  "Strength": 1,
+  "MaxStrength": 3,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Mesmerize",
+  "Ability2": "",
+  "HiddenAbility": "Bad Dreams",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "spidream",
+  "DexCategory": "Dreamweaver Pokémon",
+  "Height": {
+    "Meters": 0.38,
+    "Feet": 1.25
+  },
+  "Weight": {
+    "Kilograms": 12.7,
+    "Pounds": 28.0
+  },
+  "DexDescription": "It is said that you will have sweet dreams if Spidream make their webs around your house. Research suggests that Spidream inspired the design of Dream Catchers.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Struggle Bug"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Aromatic Mist"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Hypnosis"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Night Shade"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dreamweave"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Web Ball"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Spider Web"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybeam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fairy Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "String Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Silver Wind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Moonlight"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Decorate"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Misty Terrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hex"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sticky Web"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dream Eater"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nightmare"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Signal Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Quiver Dance"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Electroweb"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Crafty Shield"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Shadow Tide"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "Number": 1153,
+  "DexID": "1153",
+  "Name": "Iron Worm",
+  "Type1": "Bug",
+  "Type2": "Electric",
+  "BaseHP": 4,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 4,
+  "MaxDexterity": 8,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Quark Drive",
+  "Ability2": "",
+  "HiddenAbility": "Inexorable",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "iron-worm",
+  "DexCategory": "Paradox Pokémon",
+  "Height": {
+    "Meters": 2.84,
+    "Feet": 9.33
+  },
+  "Weight": {
+    "Kilograms": 141.1,
+    "Pounds": 311.0
+  },
+  "DexDescription": "Binary code can be seen cycling on the underside of this creature. Attempts to decipher it have as of yet been unsuccessful as it rarely shows its underside.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Wrap"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Thunder Wave"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bug Bite"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Spectrum Analysis"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Lunge"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Screech"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rage Powder"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fury Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Spark"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ion Deluge"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sharpen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fire Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fell Stinger"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Edge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Electric Terrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Thunder Fang"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wild Charge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Steel Roller"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fire Lash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Extreme Speed"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Embody Element"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Giga Impact"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Shift Gear"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twin Jolt"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "Name": "Max Phantasm",
+  "Type": "Ghost",
+  "Power": 2,
+  "Damage1": "SameAsBasePower",
+  "Damage2": "",
+  "Accuracy1": "SameAsBaseMove",
+  "Accuracy2": "",
+  "Target": "All Foes",
+  "Effect": "Reduce by 1 the Defense of those Affected.",
+  "Description": "",
+  "_id": "max_phantasm",
+  "Attributes": {
+    "MaxMove": true
+  },
+  "AddedEffects": {},
+  "Category": "Physical/Special"
+}

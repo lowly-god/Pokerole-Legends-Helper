@@ -1,0 +1,145 @@
+{
+  "Number": 1112,
+  "DexID": "1112",
+  "Name": "Jourmarine",
+  "Type1": "Dragon",
+  "Type2": "Dark",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Strong Jaw",
+  "Ability2": "Nocturnal",
+  "HiddenAbility": "Veil of Night",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "jourmarine",
+  "DexCategory": "Moonlight Eel Pokémon",
+  "Height": {
+    "Meters": 5.69,
+    "Feet": 18.67
+  },
+  "Weight": {
+    "Kilograms": 119.3,
+    "Pounds": 263.0
+  },
+  "DexDescription": "Jourmarine is a nocturnal hunter, hiding out in cliff side overhangs and caverns during the day and taking to the skies at night.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Wrap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Foul Play"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Breaking Swipe"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Payback"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hyper Fang"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aerial Ace"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Tail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Body Slam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Thunder Fang"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonlight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Draco Jaw"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psychic Fangs"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sky Attack"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Glaive Rush"
+    }
+  ]
+}

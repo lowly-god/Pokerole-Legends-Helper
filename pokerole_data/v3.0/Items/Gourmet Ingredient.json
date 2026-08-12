@@ -1,0 +1,13 @@
+{
+  "Name": "Gourmet Ingredient",
+  "_id": "gourmet-ingredient",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Provisions",
+  "Category": "Provisions",
+  "Description": "Used with Cooking Skill",
+  "OneUse": true,
+  "TrainerPrice": "200",
+  "Cures": "",
+  "Image": ""
+}

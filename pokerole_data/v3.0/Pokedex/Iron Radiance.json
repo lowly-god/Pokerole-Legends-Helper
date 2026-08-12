@@ -1,0 +1,153 @@
+{
+  "Number": 1154,
+  "DexID": "1154",
+  "Name": "Iron Radiance",
+  "Type1": "Fire",
+  "Type2": "Steel",
+  "BaseHP": 6,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Quark Drive",
+  "Ability2": "",
+  "HiddenAbility": "Radiant Defender",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "iron-radiance",
+  "DexCategory": "Paradox Pokémon",
+  "Height": {
+    "Meters": 3.1,
+    "Feet": 10.17
+  },
+  "Weight": {
+    "Kilograms": 166.5,
+    "Pounds": 367.0
+  },
+  "DexDescription": "This creature seems to resemble a mechanical version of a legendary Pokémon from the Johto region.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Gust"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Ember"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Defog"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Spectrum Analysis"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mirror Shot"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Jet Strike"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Feather Dance"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Steel Wing"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flash Cannon"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Weather Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Electric Terrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hard Press"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sacred Fire"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dazzling Gleam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Extrasensory"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Autotomize"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Brave Bird"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wish"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Steel Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Sky Attack"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hurricane"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cauterize"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Edge"
+    }
+  ]
+}

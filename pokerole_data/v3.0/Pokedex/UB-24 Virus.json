@@ -1,0 +1,157 @@
+{
+  "Number": 1131,
+  "DexID": "1131",
+  "Name": "UB-24 Virus",
+  "Type1": "Ice",
+  "Type2": "Poison",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 4,
+  "MaxDexterity": 8,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Beast Boost",
+  "Ability2": "",
+  "HiddenAbility": "Snow Warning",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "ub-24-virus",
+  "DexCategory": "Ultra Beast",
+  "Height": {
+    "Meters": 0.05,
+    "Feet": 0.17
+  },
+  "Weight": {
+    "Kilograms": 0.5,
+    "Pounds": 1.0
+  },
+  "DexDescription": "Aether Foundation Log #146: When the unseasonable Weather started and people and Pokémon kept getting sick, we where sent to investigate. Despite UB-Virus’s tiny size it should not be underestimated.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Acid"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Poison Gas"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Stun Spore"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Absolute Zero"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Infestation"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hail"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Venoshock"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Haze"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mist"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Acid Spray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Recycle"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Purify"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hidden Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Memento"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Caustic Breath"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Toxic Thread"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Virus Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Freeze Dry"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Ice Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Acid Armor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Giga Drain"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Cryocontamination"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Sheer Cold"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Pollution"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Parasitize"
+    }
+  ]
+}

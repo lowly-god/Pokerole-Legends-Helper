@@ -1,0 +1,16 @@
+{
+    "Name": "Singularity",
+    "Type": "Psychic",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Special/Clever",
+    "Accuracy2": "Nature",
+    "Target": "Battlefield",
+    "Effect": "For the next 4 Rounds Type-Effectiveness and Immunities are ignored.",
+    "Description": "A strong psychic force warps the fabric of space neutralizing type effectiveness.",
+    "_id": "singularity",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

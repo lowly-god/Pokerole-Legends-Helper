@@ -1,0 +1,16 @@
+{
+    "Name": "Caustic Breath",
+    "Type": "Dragon",
+    "Power": 2,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Dexterity",
+    "Accuracy2": "Channel",
+    "Target": "Foe",
+    "Effect": "Roll 1 Chance Dice to reduce the Foe's Defense and Special Defense by 1.",
+    "Description": "A noxious surge of corrosive breath envelopes the Foe, potentially eroding the Foe's defenses.",
+    "_id": "caustic-breath",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

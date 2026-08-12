@@ -1,0 +1,13 @@
+{
+  "Name": "Calcium",
+  "_id": "calcium",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Supplements",
+  "Category": "Supplements",
+  "Description": "+1 Special. Lasts One Month",
+  "OneUse": true,
+  "TrainerPrice": "10000",
+  "Cures": "",
+  "Image": ""
+}

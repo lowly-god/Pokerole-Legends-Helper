@@ -1,0 +1,13 @@
+{
+  "Name": "Tiny Mushroom",
+  "_id": "tiny-mushroom",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Miscellaneous",
+  "Description": "Valuable item",
+  "OneUse": true,
+  "TrainerPrice": "250",
+  "Cures": "",
+  "Image": ""
+}

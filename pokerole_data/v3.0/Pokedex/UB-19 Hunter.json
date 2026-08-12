@@ -1,0 +1,149 @@
+{
+  "Number": 1126,
+  "DexID": "1126",
+  "Name": "UB-19 Hunter",
+  "Type1": "Steel",
+  "Type2": "",
+  "BaseHP": 6,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 7,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 4,
+  "MaxInsight": 8,
+  "Ability1": "Beast Boost",
+  "Ability2": "",
+  "HiddenAbility": "Thermal Exchange",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "ub-19-hunter",
+  "DexCategory": "Ultra Beast",
+  "Height": {
+    "Meters": 1.17,
+    "Feet": 3.83
+  },
+  "Weight": {
+    "Kilograms": 75.7,
+    "Pounds": 167.0
+  },
+  "DexDescription": "Aether Foundation Log #2027: Despite not having obvious sensory organs it manages to track its quarry anywhere. It's body appears to be made of a plasma like material with solid metal plates on part of its body. It's theorized it feeds from auras and can identify prey from them.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Quick Attack"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Harden"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Odor Sleuth"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Iron Head"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Screech"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thunder Wave"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Zen Headbutt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Block"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Smart Strike"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lock-On"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aura Strike"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Body Slam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Extreme Speed"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Skull Bash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shield Bash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Metal Burst"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Baton Pass"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Aura Snare"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wild Charge"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Shift Gear"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    }
+  ]
+}

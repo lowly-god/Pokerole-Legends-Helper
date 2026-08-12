@@ -1,0 +1,6 @@
+{
+    "Name": "Thermal Exchange",
+    "Effect": "When hit with a Fire-Type Move for the first time: Increase the User’s Strength by 1. This Pokémon is immune to the Burn Status Condition.",
+    "Description": "",
+    "_id": "thermal-exchange"
+}

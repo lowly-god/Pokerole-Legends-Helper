@@ -1,0 +1,153 @@
+{
+  "Number": 1108,
+  "DexID": "1108",
+  "Name": "Skyphozoa",
+  "Type1": "Flying",
+  "Type2": "Water",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Stormy Disposition",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "skyphozoa",
+  "DexCategory": "Cloud Jelly Pokémon",
+  "Height": {
+    "Meters": 1.83,
+    "Feet": 6.0
+  },
+  "Weight": {
+    "Kilograms": 34.9,
+    "Pounds": 77.0
+  },
+  "DexDescription": "It floats in the troposphere gaining ionic charge as storms form. It discharges this electrical energy from its tentacles, using them to stun and ensnare prey. When angered its form has changes.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Wrap"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bubble"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Gust"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thunder Shock"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Water Pulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Soak"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Water Sport"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Charge"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thunder Wave"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Chilling Water"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Thunderbolt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Defog"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hydro Pump"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Thunder"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Aqua Ring"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Discharge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Electric Terrain"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hydro Steam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hurricane"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    }
+  ]
+}

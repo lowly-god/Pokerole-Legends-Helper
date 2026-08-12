@@ -1,0 +1,175 @@
+{
+  "Number": 1041,
+  "DexID": "1041",
+  "Name": "Durengine",
+  "Type1": "Bug",
+  "Type2": "Steel",
+  "BaseHP": 7,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Swarm",
+  "Ability2": "Hustle",
+  "HiddenAbility": "Thermal Exchange",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "durengine",
+  "DexCategory": "Iron Centipede Pokémon",
+  "Height": {
+    "Meters": 0.43,
+    "Feet": 1.42
+  },
+  "Weight": {
+    "Kilograms": 104.8,
+    "Pounds": 231.0
+  },
+  "DexDescription": "It is only found usually where a nest has many Heatmor or a Heatmega preying on it. Heatmor will think twice before fighting a Durengine.",
+  "Evolutions": [
+    {
+      "From": "Durant",
+      "Kind": "Special",
+      "Special": "Durant (*Adamantite Stone)"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Fury Cutter"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Vice Grip"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Beat Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bug Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hyper Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Infestation"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Guillotine"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Screech"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Thunder Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "X-Scissor"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Edge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Metal Sound"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "First Impression"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Head"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Steel Roller"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Guillotine"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Entrainment"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Stone Edge"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Superpower"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Shift Gear"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Thunder Fang"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Parasitize"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mirror Shield"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Premier Ball",
+  "_id": "premier-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Standard Balls",
+  "Category": "Standard Balls",
+  "Description": "5d6. Gift for every ten balls purchased",
+  "OneUse": true,
+  "TrainerPrice": "N/A",
+  "Cures": "",
+  "Image": ""
+}

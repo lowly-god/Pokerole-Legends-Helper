@@ -1,0 +1,141 @@
+{
+  "Number": 1145,
+  "DexID": "1145",
+  "Name": "Two-Faced Maw",
+  "Type1": "Dark",
+  "Type2": "Ground",
+  "BaseHP": 6,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Protosynthesis",
+  "Ability2": "",
+  "HiddenAbility": "Multi-Maw",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "two-faced-maw",
+  "DexCategory": "Paradox Pokémon",
+  "Height": {
+    "Meters": 3.45,
+    "Feet": 11.33
+  },
+  "Weight": {
+    "Kilograms": 411.4,
+    "Pounds": 907.0
+  },
+  "DexDescription": "A strange creature that resembles Farigiraf closely. Its two heads work together to corner prey, with the smaller head directing the larger one through psychic signals. It is said to have hunted enormous Pokémon across ancient grasslands.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Mud Slap"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Primal Instinct"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Stomp"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Stockpile"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Swallow"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Spit Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hyper Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "High Horsepower"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Spikes"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Jaw Lock"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stalacbite"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Zen Headbutt"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Stomping Tantrum"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psychic Fangs"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Quash"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Earthquake"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Rampage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Punishment"
+    }
+  ]
+}

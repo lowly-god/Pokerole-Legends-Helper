@@ -1,0 +1,13 @@
+{
+  "Name": "Joy Scent",
+  "_id": "joy-scent",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Incense",
+  "Category": "Incense",
+  "Description": "+1 Happiness or Loyalty if used on [Shadow] Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "2000",
+  "Cures": "",
+  "Image": ""
+}

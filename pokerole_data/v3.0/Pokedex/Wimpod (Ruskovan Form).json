@@ -1,0 +1,65 @@
+{
+  "Number": 767,
+  "DexID": "0767F1",
+  "Name": "Wimpod (Ruskovan Form)",
+  "Type1": "Bug",
+  "Type2": "Ice",
+  "BaseHP": 3,
+  "Strength": 1,
+  "MaxStrength": 3,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 1,
+  "MaxSpecial": 3,
+  "Insight": 1,
+  "MaxInsight": 3,
+  "Ability1": "Wimp Out",
+  "Ability2": "",
+  "HiddenAbility": "Ice Scales",
+  "EventAbilities": "",
+  "RecommendedRank": "Starter",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "wimpod-ruskovan-form",
+  "DexCategory": "Turn Tail Pokémon",
+  "Height": {
+    "Meters": 0.51,
+    "Feet": 1.67
+  },
+  "Weight": {
+    "Kilograms": 11.8,
+    "Pounds": 26.0
+  },
+  "DexDescription": "It hides out around frozen lakes and the icy shores of the Ruskovan coast. Stealing scraps from fisherman.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Struggle Bug"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Tail Whip"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Defense Curl"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ice Shard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Black Ice"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Lunge"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Soul Dew",
+  "_id": "soul-dew",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Items",
+  "Category": "Special Items",
+  "Description": "Latios’ and Latias’ Dragon and Psychic Moves gain +1 additional Damage Dice",
+  "OneUse": false,
+  "TrainerPrice": "15000",
+  "Cures": "",
+  "Image": ""
+}

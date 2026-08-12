@@ -1,0 +1,16 @@
+{
+    "Name": "Swarm Sting",
+    "Type": "Bug",
+    "Power": 3,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Strength/Dexterity",
+    "Accuracy2": "Etiquette",
+    "Target": "Foe",
+    "Effect": "Roll 3 Chance Dice to Flinch the Foe. Roll 3 Chance Dice to Paralyze the Foe.",
+    "Description": "The swarm attacks on mass.",
+    "_id": "swarm-sting",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

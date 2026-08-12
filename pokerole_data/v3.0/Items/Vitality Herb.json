@@ -1,0 +1,13 @@
+{
+  "Name": "Vitality Herb",
+  "_id": "vitality-herb",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Full Restore may lower happiness",
+  "OneUse": true,
+  "TrainerPrice": "1600",
+  "Cures": "",
+  "Image": ""
+}

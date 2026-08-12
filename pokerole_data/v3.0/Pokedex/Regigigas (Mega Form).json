@@ -1,0 +1,159 @@
+{
+  "Number": 486,
+  "DexID": "0486F1",
+  "Name": "Regigigas (Mega Form)",
+  "Type1": "Normal",
+  "Type2": "",
+  "BaseHP": 6,
+  "Strength": 4,
+  "MaxStrength": 9,
+  "Dexterity": 4,
+  "MaxDexterity": 8,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Analytic",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Champion",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "regigigas-mega-form",
+  "DexCategory": "Colossal Pokémon",
+  "Height": {
+    "Meters": 4.34,
+    "Feet": 14.25
+  },
+  "Weight": {
+    "Kilograms": 886.3,
+    "Pounds": 1954.0
+  },
+  "DexDescription": "A very old legend tells about the King of Giants, who could crush a mountain with its grip and mold living titans from the rubble.",
+  "Evolutions": [
+    {
+      "From": "Regigigas",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Master",
+      "Name": "Strength"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Payback"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Revenge"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Foresight"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Headbutt"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Dizzy Punch"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Bulldoze"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Knock Off"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Iron Head"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Mega Punch"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Fire Punch"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Ice Punch"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Thunder Punch"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Zen Headbutt"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Psych Up"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Hammer Arm"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Heavy Slam"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Wide Guard"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Substitute"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Giga Impact"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Hidden Power"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Superpower"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Power Shift"
+    },
+    {
+      "Learned": "Master",
+      "Name": "Crush Grip"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gaia Force"
+    }
+  ]
+}

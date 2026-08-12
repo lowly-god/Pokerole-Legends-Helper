@@ -1,0 +1,161 @@
+{
+  "Number": 227,
+  "DexID": "0227F1",
+  "Name": "Skarmory (Orrean Form)",
+  "Type1": "Steel",
+  "Type2": "Fairy",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 7,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Polished Coat",
+  "Ability2": "Levitate",
+  "HiddenAbility": "Sturdy",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "skarmory-orrean-form",
+  "DexCategory": "Armor Bird Pokémon",
+  "Height": {
+    "Meters": 1.7,
+    "Feet": 5.58
+  },
+  "Weight": {
+    "Kilograms": 100.7,
+    "Pounds": 222.0
+  },
+  "DexDescription": "The colorful plumage of its tail is used to attract a mate. It's carapace gleams, and Skarmory flying during sunny days are known to be eye watering sun strike.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Peck"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Flash"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mirror Shot"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Metal Sound"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Whirlwind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fury Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Wing Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fairy Wind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mirror Coat"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flash Cannon"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dazzling Gleam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Steel Wing"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Attract"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Spikes"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heart Breaker"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Edge"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Brave Bird"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Steel Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Spirit Break"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Jet Strike"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Brace"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mirror Shield"
+    }
+  ]
+}

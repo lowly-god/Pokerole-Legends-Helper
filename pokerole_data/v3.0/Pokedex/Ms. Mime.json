@@ -1,0 +1,175 @@
+{
+  "Number": 1081,
+  "DexID": "1081",
+  "Name": "Ms. Mime",
+  "Type1": "Psychic",
+  "Type2": "Normal",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 7,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Filter",
+  "Ability2": "Screen Cleaner",
+  "HiddenAbility": "Technician",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "ms-mime",
+  "DexCategory": "Harlequin Pokémon",
+  "Height": {
+    "Meters": 1.35,
+    "Feet": 4.42
+  },
+  "Weight": {
+    "Kilograms": 41.7,
+    "Pounds": 92.0
+  },
+  "DexDescription": "This Pokémon is known for its wild dizziness inducing performances, where it flips through the air. It is thought to have inspired circus harlequins.",
+  "Evolutions": [
+    {
+      "From": "Mime Jr.",
+      "Kind": "Special",
+      "Special": "Mime Jr. (Female / Using Double Slap)"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Barrier"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Psych Up"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Double Slap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Disable"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Barrier Blast"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flirty Kiss"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Copycat"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Encore"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Role Play"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Trick"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heart Stamp"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Pulse Strike"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Beat Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "U-Turn"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mimic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Discombobulate"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heart Breaker"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Substitute"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Teeter Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Power Swap"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Thrash"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Double Kick"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Magic Coat"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fisticuffs"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Null Room"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Bitter Poffin",
+  "_id": "bitter-poffin",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Poffins",
+  "Category": "Poffins",
+  "Description": "+1 Clever. Lasts One Month",
+  "OneUse": true,
+  "TrainerPrice": "5500",
+  "Cures": "",
+  "Image": ""
+}

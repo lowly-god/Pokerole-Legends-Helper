@@ -1,0 +1,141 @@
+{
+  "Number": 1056,
+  "DexID": "1056",
+  "Name": "Arachdii",
+  "Type1": "Bug",
+  "Type2": "Ground",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 1,
+  "MaxSpecial": 3,
+  "Insight": 1,
+  "MaxInsight": 3,
+  "Ability1": "Stakeout",
+  "Ability2": "",
+  "HiddenAbility": "Inexorable",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "arachdii",
+  "DexCategory": "Ambush Pokémon",
+  "Height": {
+    "Meters": 0.36,
+    "Feet": 1.17
+  },
+  "Weight": {
+    "Kilograms": 12.2,
+    "Pounds": 27.0
+  },
+  "DexDescription": "It burrows underground to sleep, when it senses vibrations nearby it emerges, leaping into the air and pouncing on its prey.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "String Shot"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Mud Slap"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bug Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mud Bomb"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Pounce"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Spider Web"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Pursuit"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Web Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "U-Turn"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cheap Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sticky Web"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bounce"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Skitter Smack"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lunge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Poison Fang"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Silk Trap"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Toxic Thread"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Smack Down"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Substitute"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Super Potion",
+  "_id": "super-potion",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Medicine",
+  "Category": "Medicine",
+  "Description": "6 Units of healing",
+  "OneUse": true,
+  "TrainerPrice": "600",
+  "Cures": "",
+  "Image": ""
+}

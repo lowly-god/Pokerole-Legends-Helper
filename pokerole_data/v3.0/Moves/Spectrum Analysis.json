@@ -1,0 +1,16 @@
+{
+    "Name": "Spectrum Analysis",
+    "Type": "Psychic",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Insight",
+    "Accuracy2": "Nature",
+    "Target": "Foe",
+    "Effect": "The User ignores the Target’s Immunities from Type-Effectiveness or Abilities.",
+    "Description": "The User scans the Target down to the molecular level, determining the best way to defeat it.",
+    "_id": "spectrum-analysis",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

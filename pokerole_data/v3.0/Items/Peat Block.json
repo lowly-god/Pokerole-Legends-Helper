@@ -1,0 +1,13 @@
+{
+  "Name": "Peat Block",
+  "_id": "peat-block",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Evolves Ursaring into Ursaluna",
+  "OneUse": true,
+  "TrainerPrice": "8000",
+  "Cures": "",
+  "Image": ""
+}

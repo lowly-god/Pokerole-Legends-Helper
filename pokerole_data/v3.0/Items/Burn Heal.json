@@ -1,0 +1,13 @@
+{
+  "Name": "Burn Heal",
+  "_id": "burn-heal",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Medicine",
+  "Category": "Medicine",
+  "Description": "Cures 1 level of Burn Status Condition",
+  "OneUse": true,
+  "TrainerPrice": "250",
+  "Cures": "",
+  "Image": ""
+}

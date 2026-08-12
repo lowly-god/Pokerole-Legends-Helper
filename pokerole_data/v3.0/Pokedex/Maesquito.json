@@ -1,0 +1,145 @@
+{
+  "Number": 1052,
+  "DexID": "1052",
+  "Name": "Maesquito",
+  "Type1": "Bug",
+  "Type2": "Normal",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Conductor",
+  "Ability2": "",
+  "HiddenAbility": "Levitate",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "maesquito",
+  "DexCategory": "Symphony Pokémon",
+  "Height": {
+    "Meters": 1.07,
+    "Feet": 3.5
+  },
+  "Weight": {
+    "Kilograms": 41.7,
+    "Pounds": 92.0
+  },
+  "DexDescription": "Swarms of Maesquito fly through the skies on summer evenings, the leader conducts the others in a deafening symphony.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Supersonic"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Struggle Bug"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Round"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Infestation"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flatter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Screech"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sing"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Uproar"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Leech Life"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Silver Wind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bug Buzz"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Encore"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Baton Pass"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Follow Me"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hyper Voice"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Parasitize"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Perish Song"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Metal Sound"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Captivate"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Boomburst"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Alluring Voice"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Quiver Dance"
+    }
+  ]
+}

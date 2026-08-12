@@ -1,0 +1,173 @@
+{
+  "Number": 1093,
+  "DexID": "1093",
+  "Name": "Haggerene",
+  "Type1": "Poison",
+  "Type2": "Fairy",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 3,
+  "MaxInsight": 7,
+  "Ability1": "Magician",
+  "Ability2": "Healer",
+  "HiddenAbility": "Magic Guard",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "haggerene",
+  "DexCategory": "Witchcraft Pokémon",
+  "Height": {
+    "Meters": 2.13,
+    "Feet": 7.0
+  },
+  "Weight": {
+    "Kilograms": 5.9,
+    "Pounds": 13.0
+  },
+  "DexDescription": "In the forests where Haggerene live there are often strange phenomena such as natural barriers made of twisting thorns. The local populations of other forest dwelling Pokémon pay them tribute and in return Haggerene treats them when they are sick.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Play Nice"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Disarming Voice"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Psybeam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Purify"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Magical Leaf"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Clear Smog"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Poison Gas"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Will-O-Wisp"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mean Look"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Rain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Crafty Shield"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Miasma"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hex"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Strange Brew"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Floral Healing"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lucky Chant"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Toxic Thread"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Power Gem"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Life Dew"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Future Sight"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Magic Coat"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Mystical Fire"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Eerie Spell"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heart Breaker"
+    }
+  ]
+}

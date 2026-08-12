@@ -1,0 +1,141 @@
+{
+  "Number": 576,
+  "DexID": "0576F1",
+  "Name": "Gothitelle (Johtonian Form)",
+  "Type1": "Psychic",
+  "Type2": "Fairy",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Queenly Majesty",
+  "Ability2": "Defiant",
+  "HiddenAbility": "Dancer",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "gothitelle-johtonian-form",
+  "DexCategory": "Royalty Pokémon",
+  "Height": {
+    "Meters": 1.5,
+    "Feet": 4.92
+  },
+  "Weight": {
+    "Kilograms": 44.0,
+    "Pounds": 97.0
+  },
+  "DexDescription": "It is vain and standoffish, fully believing itself to be royalty. It bosses around other weaker Pokémon as if they where servants.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Pound"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Baby-Doll Eyes"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fake Tears"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Double Slap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Draining Kiss"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flatter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Heart Stamp"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Meditate"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flirty Kiss"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Pulse Strike"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Play Rough"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Decorate"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aura Strike"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonveil Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Misty Terrain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psycho Cut"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Discombobulate"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Snatch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Lunar Dance"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Spirit Break"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Beguiling Influence"
+    }
+  ]
+}

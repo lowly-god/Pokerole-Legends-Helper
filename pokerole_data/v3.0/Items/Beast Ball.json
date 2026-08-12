@@ -1,0 +1,13 @@
+{
+  "Name": "Beast Ball",
+  "_id": "beast-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Other Balls",
+  "Category": "Other Balls",
+  "Description": "8d6 if used on Ultra Beasts, 1d6 if used on Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "N/A",
+  "Cures": "",
+  "Image": ""
+}

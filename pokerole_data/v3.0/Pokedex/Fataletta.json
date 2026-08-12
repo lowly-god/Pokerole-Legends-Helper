@@ -1,0 +1,161 @@
+{
+  "Number": 1092,
+  "DexID": "1092",
+  "Name": "Fataletta",
+  "Type1": "Bug",
+  "Type2": "Dark",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 7,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Serene Grace",
+  "Ability2": "",
+  "HiddenAbility": "Dancer",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "fataletta",
+  "DexCategory": "Fatal Ballerina Pokémon",
+  "Height": {
+    "Meters": 1.4,
+    "Feet": 4.58
+  },
+  "Weight": {
+    "Kilograms": 35.4,
+    "Pounds": 78.0
+  },
+  "DexDescription": "During its mating season many Pirouby follow it. If it doesn't like one of them, it eats it.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "String Shot"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Web Ball"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bug Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Teeter Dance"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Spider Web"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Baby-Doll Eyes"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flatter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flirty Kiss"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rapid Spin"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sticky Web"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Quiver Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Leech Life"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Poison Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Throat Chop"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sucker Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "U-Turn"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fisticuffs"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Skitter Smack"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lunge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Foul Play"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heart Breaker"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Power Trip"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Baton Pass"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Parasitize"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Silk Trap"
+    }
+  ]
+}

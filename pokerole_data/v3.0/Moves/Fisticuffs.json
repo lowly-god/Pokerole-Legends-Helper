@@ -1,0 +1,16 @@
+{
+    "Name": "Fisticuffs",
+    "Type": "Fairy",
+    "Power": 3,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Strength/Dexterity",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Fist Move. Roll 3 Chance Dice to reduce the Foe's Defense by 1.",
+    "Description": "The User holds its fists up and dukes it out with the opponent.",
+    "_id": "fisticuffs",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

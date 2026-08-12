@@ -1,0 +1,13 @@
+{
+  "Name": "Relic Crown",
+  "_id": "relic-crown",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Miscellaneous",
+  "Description": "Valuable item",
+  "OneUse": false,
+  "TrainerPrice": "45000",
+  "Cures": "",
+  "Image": ""
+}

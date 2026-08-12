@@ -1,0 +1,169 @@
+{
+  "Number": 1085,
+  "DexID": "1085",
+  "Name": "Hydrench",
+  "Type1": "Water",
+  "Type2": "Dragon",
+  "BaseHP": 4,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Drizzle",
+  "Ability2": "Swift Swim",
+  "HiddenAbility": "Rock Head",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "hydrench",
+  "DexCategory": "Hydra Pokémon",
+  "Height": {
+    "Meters": 2.03,
+    "Feet": 6.67
+  },
+  "Weight": {
+    "Kilograms": 165.1,
+    "Pounds": 364.0
+  },
+  "DexDescription": "An ancient myth states that a hero fought Hydrench and managed to cut off its head, but he was then struck down and killed by it when it grew two more.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Water Gun"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Focus Energy"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dragon Breath"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Twister"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Headbutt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aqua Tail"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dragon Tail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Life Dew"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Body Slam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Rush"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Ring"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Wide Guard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Surf"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hyper Voice"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hydro Pump"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Liquidation"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Ice Fang"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Flip Turn"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hydro Pump"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Head Smash"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Aqua Surge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imperial Majesty"
+    }
+  ]
+}

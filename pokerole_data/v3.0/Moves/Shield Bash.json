@@ -1,0 +1,16 @@
+{
+    "Name": "Shield Bash",
+    "Type": "Steel",
+    "Power": "Varies",
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Strength",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Roll the User’s current Defense +3 as Damage against the Foe.",
+    "Description": "The User transforms its defensive posture into an offensive strike.",
+    "_id": "shield-bash",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

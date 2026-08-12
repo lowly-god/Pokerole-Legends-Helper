@@ -1,0 +1,153 @@
+{
+  "Number": 1090,
+  "DexID": "1090",
+  "Name": "Tungryph",
+  "Type1": "Ice",
+  "Type2": "Flying",
+  "BaseHP": 6,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Guts",
+  "Ability2": "Snow Cloak",
+  "HiddenAbility": "Pressure",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "tungryph",
+  "DexCategory": "Gryphon Pokémon",
+  "Height": {
+    "Meters": 1.91,
+    "Feet": 6.25
+  },
+  "Weight": {
+    "Kilograms": 221.8,
+    "Pounds": 489.0
+  },
+  "DexDescription": "The ultimate hunter, it is a master of the cold skies. It is a noble Pokémon, and there are stories of ancient heroes riding them into battle.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Peck"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Ice Ball"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Mist"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fury Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aurora Veil"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bulk Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Wing Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Haze"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Take Down"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Feather Dance"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Avalanche"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aerial Ace"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Body Slam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Snowy Terrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acrobatics"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Absolute Zero"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Triple Axel"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Frozen Crash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Brave Bird"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Blizzard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Roost"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Body Press"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Sheer Cold"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Outrage"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Revival Herb",
+  "_id": "revival-herb",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Max Revive may lower happiness",
+  "OneUse": true,
+  "TrainerPrice": "2800",
+  "Cures": "",
+  "Image": ""
+}

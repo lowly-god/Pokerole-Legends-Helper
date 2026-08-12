@@ -1,0 +1,149 @@
+{
+  "Number": 1107,
+  "DexID": "1107",
+  "Name": "Wystearia",
+  "Type1": "Grass",
+  "Type2": "Fairy",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Moody",
+  "Ability2": "",
+  "HiddenAbility": "Contrary",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "wystearia",
+  "DexCategory": "Mandrake Pokémon",
+  "Height": {
+    "Meters": 0.58,
+    "Feet": 1.92
+  },
+  "Weight": {
+    "Kilograms": 12.7,
+    "Pounds": 28.0
+  },
+  "DexDescription": "Even having evolved it still throws tantrums, however it lashes out at those who annoy it rather then wailing.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Pound"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Fake Tears"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Disarming Voice"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Magical Leaf"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Draining Kiss"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thief"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bullet Seed"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Grass Whistle"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Grass Knot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Ingrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Synthesis"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fisticuffs"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Seed Bomb"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Grassy Terrain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Alluring Voice"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Floral Healing"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spirit Break"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Strength Sap"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Uproot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Perish Song"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Forest's Curse"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Power Whip"
+    }
+  ]
+}

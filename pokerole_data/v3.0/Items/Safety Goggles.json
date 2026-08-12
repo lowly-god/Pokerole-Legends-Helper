@@ -1,0 +1,13 @@
+{
+  "Name": "Safety Goggles",
+  "_id": "safety-goggles",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "The holder is is protected from Damage from Sandstorm Weather, and Moves with the keywords Powder or Spore",
+  "OneUse": false,
+  "TrainerPrice": "5000",
+  "Cures": "",
+  "Image": ""
+}

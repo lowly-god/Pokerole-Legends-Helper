@@ -1,0 +1,149 @@
+{
+  "Number": 786,
+  "DexID": "0786F1",
+  "Name": "Tapu Lele (Corrupted Form)",
+  "Type1": "Normal",
+  "Type2": "Ghost",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 4,
+  "MaxVitality": 8,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 4,
+  "MaxInsight": 8,
+  "Ability1": "Beast Boost",
+  "Ability2": "",
+  "HiddenAbility": "Conceal",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "tapu-lele-corrupted-form",
+  "DexCategory": "Corrupted Island Guardian",
+  "Height": {
+    "Meters": 1.22,
+    "Feet": 4.0
+  },
+  "Weight": {
+    "Kilograms": 18.6,
+    "Pounds": 41.0
+  },
+  "DexDescription": "Aether Foundation Log #3780: The guardian of Akala island was corrupted by a strange power that emanated from an Ultra Wormhole.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Withdraw"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fake Tears"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Swift"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Night Shade"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rainbow Beam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hidden Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Terrain Pulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Weather Ball"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ominous Wind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flatter"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mirror Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Misty Terrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Amnesia"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Destiny Bond"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psyshock"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hyper Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Mirror Coat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Poltergeist"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Metal Burst"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Z-Energy Reflection"
+    }
+  ]
+}

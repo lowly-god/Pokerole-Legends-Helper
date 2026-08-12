@@ -1,0 +1,151 @@
+{
+  "Number": 1099,
+  "DexID": "1099",
+  "Name": "Faerry",
+  "Type1": "Grass",
+  "Type2": "Fairy",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Soothing Aroma",
+  "Ability2": "Chlorophyll",
+  "HiddenAbility": "Flower Gift",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "faerry",
+  "DexCategory": "Fae Blossom Pokémon",
+  "Height": {
+    "Meters": 0.64,
+    "Feet": 2.08
+  },
+  "Weight": {
+    "Kilograms": 14.5,
+    "Pounds": 32.0
+  },
+  "DexDescription": "Faerry gives off a soothing aroma that calms even the most aggressive Pokémon. Its petals shimmer in the sunlight. It blooms in response to emotional energy, glowing brighter in the presence of joy and love. Faerry’s petals are prized for their calming effects, and it is often associated with celebrations and festivals.",
+  "Evolutions": [
+    {
+      "From": "Cherrim",
+      "Kind": "Special",
+      "Special": "Cherrim (Dawn Stone)"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Sweet Kiss"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Absorb"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Growth"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fairy Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Magical Leaf"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aromatic Mist"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Take Down"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Leech Seed"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flower Shield"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sleep Powder"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stun Spore"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Worry Seed"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Petal Blizzard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Solar Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lucky Chant"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Floral Healing"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Alluring Voice"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Petal Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Morning Sun"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Aromatherapy"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Heal Pulse"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Healing Wish"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sugar Rush"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Zoom Lens",
+  "_id": "zoom-lens",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "If the holder is after the Foe in Initiative, it gains +2 Accuracy Dice to Moves targetting that Foe",
+  "OneUse": false,
+  "TrainerPrice": "10000",
+  "Cures": "",
+  "Image": ""
+}

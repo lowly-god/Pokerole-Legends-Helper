@@ -1,0 +1,149 @@
+{
+  "Number": 1121,
+  "DexID": "1121",
+  "Name": "UB-14 Cyclone",
+  "Type1": "Flying",
+  "Type2": "Ghost",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Beast Boost",
+  "Ability2": "",
+  "HiddenAbility": "Tempest's Fury",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "ub-14-cyclone",
+  "DexCategory": "Ultra Beast",
+  "Height": {
+    "Meters": 3.48,
+    "Feet": 11.42
+  },
+  "Weight": {
+    "Kilograms": 5.0,
+    "Pounds": 11.0
+  },
+  "DexDescription": "Aether Foundation Log #299: UB-Cyclone has appeared in the skies during heavy storms, cyclones, and tornados. It's body constantly rotates at a speed of 131 Kilometres an hour around the central eye.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Gust"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Night Shade"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ominous Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Embargo"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Razor Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Defog"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Whirlwind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Glare"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Weather Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mean Look"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hurricane"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Night Daze"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Tropic Storm"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Terrorize"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Screaming Cyclone"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Thunder"
+    }
+  ]
+}

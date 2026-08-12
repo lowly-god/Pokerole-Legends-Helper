@@ -1,0 +1,13 @@
+{
+  "Name": "Rare Bone",
+  "_id": "rare-bone",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Miscellaneous",
+  "Description": "Valuable item",
+  "OneUse": false,
+  "TrainerPrice": "2500",
+  "Cures": "",
+  "Image": ""
+}

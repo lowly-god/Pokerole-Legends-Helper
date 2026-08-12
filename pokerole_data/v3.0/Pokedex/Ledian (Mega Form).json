@@ -1,0 +1,143 @@
+{
+  "Number": 166,
+  "DexID": "0166F1",
+  "Name": "Ledian (Mega Form)",
+  "Type1": "Bug",
+  "Type2": "Fighting",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Fist Flurry",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "ledian-mega-form",
+  "DexCategory": "Five Star Pokémon",
+  "Height": {
+    "Meters": 1.57,
+    "Feet": 5.17
+  },
+  "Weight": {
+    "Kilograms": 38.6,
+    "Pounds": 85.0
+  },
+  "DexDescription": "When the stars flicker in the night sky, it flutters about scattering a glowing powder. The spot patterns on its back grow larger or smaller at night depending on the number of stars in the sky.",
+  "Evolutions": [
+    {
+      "From": "Ledian",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Supersonic"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Comet Punch"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Swift"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mach Punch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Struggle Bug"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Roost"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Silver Wind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Baton Pass"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bug Buzz"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Double-Edge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Thunder Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Ice Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Power-Up Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Focus Punch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Sweet Scent"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Acrobatics"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Infestation"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Jet Strike"
+    }
+  ]
+}

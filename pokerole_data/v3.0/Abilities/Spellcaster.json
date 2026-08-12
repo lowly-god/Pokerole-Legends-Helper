@@ -1,0 +1,6 @@
+{
+    "Name": "Spellcaster",
+    "Effect": "This Pokémon may use Special for its primary Accuracy and Damage Pools instead of what it would normally need to roll. (Instead of Dexterity + Perform, Strength +3. It may roll Special + Perform, Special +3 etc).",
+    "Description": "",
+    "_id": "spellcaster"
+}

@@ -1,0 +1,16 @@
+{
+    "Name": "Swarm Buff",
+    "Type": "Bug",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Tough",
+    "Accuracy2": "Etiquette",
+    "Target": "Self",
+    "Effect": "Increase the User’s Strength and Special by 1.",
+    "Description": "The swarm becomes even more agitated.",
+    "_id": "swarm-buff",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Choice Band",
+  "_id": "choice-band",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Holder has +2 Strength but may only use 1 Move",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

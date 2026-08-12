@@ -1,0 +1,13 @@
+{
+  "Name": "Utility Umbrella",
+  "_id": "utility-umbrella",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Protects the holder from Rain and Sunny Weather",
+  "OneUse": false,
+  "TrainerPrice": "2500",
+  "Cures": "",
+  "Image": ""
+}

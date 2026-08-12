@@ -1,0 +1,149 @@
+{
+  "Number": 1125,
+  "DexID": "1125",
+  "Name": "UB-18 Gorgon",
+  "Type1": "Poison",
+  "Type2": "Fairy",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 3,
+  "MaxInsight": 7,
+  "Ability1": "Beast Boost",
+  "Ability2": "",
+  "HiddenAbility": "Perish Body",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "ub-18-gorgon",
+  "DexCategory": "Ultra Beast",
+  "Height": {
+    "Meters": 1.35,
+    "Feet": 4.42
+  },
+  "Weight": {
+    "Kilograms": 55.8,
+    "Pounds": 123.0
+  },
+  "DexDescription": "Aether Foundation Log #1007: UB-Gorgon should be approached with extreme caution. It's gaze is able to petrify. Multiple casualties and fatalities have been accounted to this UB.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Mean Look"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Poison Sting"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Acid Spray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Coil"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Draining Kiss"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sweet Kiss"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Glare"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Poison Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Rain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Venoshock"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flirty Kiss"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sucker Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Poison Jab"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Purify"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Virus Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heart Breaker"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dazzling Gleam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Petrifying Gaze"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Misty Terrain"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Venom Drench"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lapidify"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "Number": 110,
+  "DexID": "0110F1",
+  "Name": "Weezing (Mega Form)",
+  "Type1": "Poison",
+  "Type2": "Psychic",
+  "BaseHP": 6,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 4,
+  "MaxVitality": 7,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Triple Threat",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "weezing-mega-form",
+  "DexCategory": "Poison Gas Pokémon",
+  "Height": {
+    "Meters": 1.35,
+    "Feet": 4.42
+  },
+  "Weight": {
+    "Kilograms": 12.2,
+    "Pounds": 27.0
+  },
+  "DexDescription": "They are considered a pest in urban areas. They wait until night to roam and eat from the trash cans in the neighborhood. If it finds a filthy and unkept house it will make its nest in there.",
+  "Evolutions": [
+    {
+      "From": "Weezing",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Poison Gas"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Smog"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Smokescreen"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Clear Smog"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Assurance"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sludge"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Haze"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Double Hit"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Self Destruct"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sludge Bomb"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Memento"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Gyro Ball"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heat Wave"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Venom Drench"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Belch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Explosion"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Destiny Bond"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Toxic Spikes"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Corrosive Gas"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Rain"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Meltdown"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Pollution"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Virus Pulse"
+    }
+  ]
+}

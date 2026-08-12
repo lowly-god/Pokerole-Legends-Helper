@@ -1,0 +1,145 @@
+{
+  "Number": 1110,
+  "DexID": "1110",
+  "Name": "Seraphish",
+  "Type1": "Fairy",
+  "Type2": "Flying",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Misty Surge",
+  "Ability2": "Swift Swim",
+  "HiddenAbility": "Gale Wings",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "seraphish",
+  "DexCategory": "Angel Fish Pokémon",
+  "Height": {
+    "Meters": 0.97,
+    "Feet": 3.17
+  },
+  "Weight": {
+    "Kilograms": 7.3,
+    "Pounds": 16.0
+  },
+  "DexDescription": "It is said to be an omen of good luck to see Seraphish flying through the skies. The halo that floats above its head are particularly prized as they are made of solid gold.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Baby-Doll Eyes"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Gust"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fairy Wind"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Draining Kiss"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aqua Ring"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Charm"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sweet Kiss"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Razor Wind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mist"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Misty Terrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hidden Power"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dazzling Gleam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonlight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Attract"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lucky Chant"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wish"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hurricane"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hoarfrost Moon"
+    }
+  ]
+}

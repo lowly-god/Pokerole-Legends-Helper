@@ -1,0 +1,13 @@
+{
+  "Name": "Gourmet Rations",
+  "_id": "gourmet-rations",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Provisions",
+  "Category": "Provisions",
+  "Description": "1 days food, Heals 2HP",
+  "OneUse": true,
+  "TrainerPrice": "500",
+  "Cures": "",
+  "Image": ""
+}

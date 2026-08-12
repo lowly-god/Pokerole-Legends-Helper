@@ -1,0 +1,155 @@
+{
+  "Number": 154,
+  "DexID": "0154F1",
+  "Name": "Meganium (Mega Form)",
+  "Type1": "Grass",
+  "Type2": "Fairy",
+  "BaseHP": 6,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 7,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 7,
+  "Ability1": "Mega Sol",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "meganium-mega-form",
+  "DexCategory": "Herb Pokémon",
+  "Height": {
+    "Meters": 1.88,
+    "Feet": 6.17
+  },
+  "Weight": {
+    "Kilograms": 224.5,
+    "Pounds": 495.0
+  },
+  "DexDescription": "Meganium's breath has the power to revive dead grass and plants. The aroma that comes from its petals contains a substance that calms aggressive feelings and helps others to restore health.",
+  "Evolutions": [
+    {
+      "From": "Meganium",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Razor Leaf"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sweet Scent"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Poison Powder"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Synthesis"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Natural Gift"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Magical Leaf"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Nature Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Body Slam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aromatherapy"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Petal Blizzard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Giga Drain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Counter"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Solar Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Petal Dance"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Heal Pulse"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Grassy Terrain"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dragon Rush"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Frenzy Plant"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Leaf Shield"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Tropic Storm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    }
+  ]
+}

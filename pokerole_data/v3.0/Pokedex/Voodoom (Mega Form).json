@@ -1,0 +1,163 @@
+{
+  "Number": 1096,
+  "DexID": "1096F1",
+  "Name": "Voodoom (Mega Form)",
+  "Type1": "Psychic",
+  "Type2": "Dark",
+  "BaseHP": 6,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 7,
+  "Ability1": "Spellcaster",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "voodoom-mega-form",
+  "DexCategory": "Voodoo Pokémon",
+  "Height": {
+    "Meters": 1.22,
+    "Feet": 4.0
+  },
+  "Weight": {
+    "Kilograms": 19.1,
+    "Pounds": 42.0
+  },
+  "DexDescription": "Using powerful sorcery they are said to curse, those who have wronged them, channelling the spirits of powerful practitioners from beyond the grave.",
+  "Evolutions": [
+    {
+      "From": "Voodoom",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Baby-Doll Eyes"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Acupressure"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Payback"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybeam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Substitute"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Will-O-Wisp"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Knock Off"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hex"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Draining Kiss"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psybolt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Disable"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dark Magic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Teleport"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Edgestitch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Future Sight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Pain Split"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Expanding Force"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Poltergeist"
+    }
+  ]
+}

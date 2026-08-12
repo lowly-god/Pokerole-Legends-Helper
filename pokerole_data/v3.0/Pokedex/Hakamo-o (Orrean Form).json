@@ -1,0 +1,153 @@
+{
+  "Number": 783,
+  "DexID": "0783F1",
+  "Name": "Hakamo-o (Orrean Form)",
+  "Type1": "Dragon",
+  "Type2": "Poison",
+  "BaseHP": 4,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Inexorable",
+  "Ability2": "Bulletproof",
+  "HiddenAbility": "Overcoat",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "hakamo-o-orrean-form",
+  "DexCategory": "Vile Pokémon",
+  "Height": {
+    "Meters": 1.37,
+    "Feet": 4.5
+  },
+  "Weight": {
+    "Kilograms": 55.8,
+    "Pounds": 123.0
+  },
+  "DexDescription": "Hakamo-o are actually quadrupedal, but stand up during battle for intimidation and flexibility. Their main fighting plan is to rush in and swing about wildly until something goes down.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Poison Sting"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Caustic Breath"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Odor Sleuth"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Noble Roar"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Pursuit"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Gastro Acid"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Acid Armor"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dragon Claw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Tail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Poison Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Rain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Tail"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Belly Drum"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lunge"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dragon Rush"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dire Claw"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Superpower"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imperial Majesty"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Upgrade",
+  "_id": "upgrade",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Evolves Porygon into Porygon 2",
+  "OneUse": true,
+  "TrainerPrice": "8000",
+  "Cures": "",
+  "Image": ""
+}

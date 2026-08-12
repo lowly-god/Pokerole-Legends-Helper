@@ -1,0 +1,13 @@
+{
+  "Name": "DNA Splicers",
+  "_id": "dna-splicers",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Items",
+  "Category": "Special Items",
+  "Description": "Allows Kyurem to fuse with Reshiram / Zekrom",
+  "OneUse": false,
+  "TrainerPrice": "80000",
+  "Cures": "",
+  "Image": ""
+}

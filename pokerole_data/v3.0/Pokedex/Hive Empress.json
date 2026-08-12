@@ -1,0 +1,141 @@
+{
+  "Number": 1144,
+  "DexID": "1144",
+  "Name": "Hive Empress",
+  "Type1": "Bug",
+  "Type2": "Poison",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Protosynthesis",
+  "Ability2": "",
+  "HiddenAbility": "Regal Majesty",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "hive-empress",
+  "DexCategory": "Paradox Pokémon",
+  "Height": {
+    "Meters": 1.57,
+    "Feet": 5.17
+  },
+  "Weight": {
+    "Kilograms": 54.4,
+    "Pounds": 120.0
+  },
+  "DexDescription": "A strange creature that resembles Vespiquen closely. It has been known to conquer hives of Vespiquen, killing it and taking its Combee workers for itself. Hives they construct can grow to massive sizes.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Sweet Scent"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Poison Sting"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bug Bite"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Primal Instinct"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Acid"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Venom Drench"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sludge"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Silver Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Gust"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sludge Bomb"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Power Gem"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Parasitize"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bug Buzz"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Stockpile"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Attack Order"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Defend Order"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heal Order"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swarm Buff"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Sludge Wave"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Infestation"
+    }
+  ]
+}

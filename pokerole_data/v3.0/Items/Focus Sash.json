@@ -1,0 +1,13 @@
+{
+  "Name": "Focus Sash",
+  "_id": "focus-sash",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "The first time the holder would be OHKOd it remains on 1HP instead",
+  "OneUse": true,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

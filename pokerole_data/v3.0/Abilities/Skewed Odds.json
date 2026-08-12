@@ -1,0 +1,6 @@
+{
+    "Name": "Skewed Odds",
+    "Effect": "This Pokémon reverses its Action Costs. (So its first Action would be at -5 while its last would be -0 successes)",
+    "Description": "",
+    "_id": "skewed-odds"
+}

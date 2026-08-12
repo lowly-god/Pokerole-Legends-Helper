@@ -1,0 +1,16 @@
+{
+    "Name": "Frostfire",
+    "Type": "Ice",
+    "Power": 5,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Dexterity",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Recoil. The Target suffers Burn (1).",
+    "Description": "The User wreaths itself in a strange blue fire that burns cold, before charging full speed at the Target.",
+    "_id": "frostfire",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

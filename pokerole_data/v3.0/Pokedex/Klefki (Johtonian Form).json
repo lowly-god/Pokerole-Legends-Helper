@@ -1,0 +1,145 @@
+{
+  "Number": 707,
+  "DexID": "0707F1",
+  "Name": "Klefki (Johtonian Form)",
+  "Type1": "Steel",
+  "Type2": "Dark",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Prankster",
+  "Ability2": "Iron Barbs",
+  "HiddenAbility": "Sharpness",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "klefki-johtonian-form",
+  "DexCategory": "Kleptomaniac Pokémon",
+  "Height": {
+    "Meters": 0.18,
+    "Feet": 0.58
+  },
+  "Weight": {
+    "Kilograms": 3.2,
+    "Pounds": 7.0
+  },
+  "DexDescription": "It collects small sharp objects such as knives and thrown weapons. It's temperament is nasty, though the right Trainer can win its hard won affection.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Snatch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Spikes"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Metal Sound"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mirror Shot"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thief"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Recycle"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Parting Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Instruct"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Foul Play"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Switcheroo"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Edge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shadow Kunai"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Cheap Shot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Flash Cannon"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Switcheroo"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Quash"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Psybolt"
+    }
+  ]
+}

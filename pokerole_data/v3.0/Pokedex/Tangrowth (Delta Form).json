@@ -1,0 +1,157 @@
+{
+  "Number": 465,
+  "DexID": "0465F1",
+  "Name": "Tangrowth (Delta Form)",
+  "Type1": "Grass",
+  "Type2": "Water",
+  "BaseHP": 8,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 3,
+  "MaxVitality": 7,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Grassy Surge",
+  "Ability2": "",
+  "HiddenAbility": "Libero",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "tangrowth-delta-form",
+  "DexCategory": "Delta Pokémon",
+  "Height": {
+    "Meters": 2.9,
+    "Feet": 9.5
+  },
+  "Weight": {
+    "Kilograms": 382.4,
+    "Pounds": 843.0
+  },
+  "DexDescription": "An escaped genetic experiment ended up causing havoc in a swampy area and destroyed a monorail track.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Block"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Constrict"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Mud Slap"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Vine Whip"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Water Pulse"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Absorb"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ingrain"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Uproot"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bulldoze"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Liquidation"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Giga Drain"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Muddy Water"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Nature Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Grassy Terrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Earth Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Poison Jab"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Knock Off"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Earthquake"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hydro Pump"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gaia Force"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Power Whip"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Tropic Storm"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Aqua Surge"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Amnesia"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Chloroblast"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wood Hammer"
+    }
+  ]
+}

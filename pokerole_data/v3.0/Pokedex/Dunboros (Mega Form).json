@@ -1,0 +1,163 @@
+{
+  "Number": 1067,
+  "DexID": "1067F1",
+  "Name": "Dunboros (Mega Form)",
+  "Type1": "Normal",
+  "Type2": "Dragon",
+  "BaseHP": 7,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Wind Rider",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "dunboros-mega-form",
+  "DexCategory": "Ouroboros Pokémon",
+  "Height": {
+    "Meters": 4.72,
+    "Feet": 15.5
+  },
+  "Weight": {
+    "Kilograms": 52.6,
+    "Pounds": 116.0
+  },
+  "DexDescription": "Some say the region of Orrelborous was formed by a giant Dunboros. It does not seem to intake any nutrients, gaining all it needs from its own tail apparently.",
+  "Evolutions": [
+    {
+      "From": "Dunboros",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Defense Curl"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Flail"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Rollout"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Mud Slap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Screech"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Body Slam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Glare"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Tail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Yawn"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Drill Run"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Roost"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hyper Drill"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Double-Edge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Endeavor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hyper Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hurricane"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Rush"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Imperial Majesty"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Draco Meteor"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Trump Card"
+    }
+  ]
+}

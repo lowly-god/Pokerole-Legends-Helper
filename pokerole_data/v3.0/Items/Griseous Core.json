@@ -1,0 +1,13 @@
+{
+  "Name": "Griseous Core",
+  "_id": "griseous-core",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Items",
+  "Category": "Special Items",
+  "Description": "Giratina’s Dragon and Ghost Moves gain +1 additional Damage Dice or allows it transform",
+  "OneUse": false,
+  "TrainerPrice": "80000",
+  "Cures": "",
+  "Image": ""
+}

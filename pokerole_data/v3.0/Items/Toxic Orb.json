@@ -1,0 +1,13 @@
+{
+  "Name": "Toxic Orb",
+  "_id": "toxic-orb",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "The holder is Badly Poisoned at the end of the first Round",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

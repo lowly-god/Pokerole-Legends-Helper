@@ -1,0 +1,16 @@
+{
+    "Name": "Hidden Power Of The Swarm",
+    "Type": "Normal",
+    "Power": 2,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Special",
+    "Accuracy2": "Channel",
+    "Target": "Random Foe",
+    "Effect": "Successive Actions. Choose a Damage-Type for each attack you are making and apply the correlating effect. Bug, Dragon, Fairy, Fighting, Flying, Ground, Normal, Rock, Steel, Water: Add +1 Damage Dice. Dark: Roll 2 Chance Dice to Flinch the Foe. Ghost: Roll 2 Chance Dice to Confuse the Foe. Electric: Roll 2 Chance Dice to Paralyze the Foe. Grass: Roll 2 Chance Dice to *Leech the Foe. Poison: Roll 2 Chance Dice to Poison the Foe. Psychic: Roll 2 Chance Dice to put the Foe to Sleep. Fire: Roll 2 Chance Dice to Burn (1) the Foe. Ice: Roll 2 Chance Dice to Frostbite (1) the Foe.",
+    "Description": "The swarm launches many strange powers at the Foe.",
+    "_id": "hidden-power-of-the-swarm",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

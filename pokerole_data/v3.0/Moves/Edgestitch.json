@@ -1,0 +1,16 @@
+{
+    "Name": "Edgestitch",
+    "Type": "Ghost",
+    "Power": 4,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Special",
+    "Accuracy2": "Channel",
+    "Target": "Foe",
+    "Effect": "Reduces both the User and Target's Special Defense by 1.",
+    "Description": "The User tears the Target's very soul from the seams.",
+    "_id": "edgestitch",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

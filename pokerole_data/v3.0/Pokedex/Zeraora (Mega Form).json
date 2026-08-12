@@ -1,0 +1,139 @@
+{
+  "Number": 807,
+  "DexID": "0807F1",
+  "Name": "Zeraora (Mega Form)",
+  "Type1": "Electric",
+  "Type2": "",
+  "BaseHP": 4,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 4,
+  "MaxDexterity": 8,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Electromorphosis",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Champion",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "zeraora-mega-form",
+  "DexCategory": "Thunderclap Pokémon",
+  "Height": {
+    "Meters": 1.5,
+    "Feet": 4.92
+  },
+  "Weight": {
+    "Kilograms": 44.5,
+    "Pounds": 98.0
+  },
+  "DexDescription": "An unfriendly creature was spotted in Alola. Witnesses mentioned it electrified its claws and tore its foes apart with them. It disappeared into the wilderness and has not been sighted again.",
+  "Evolutions": [
+    {
+      "From": "Zeraora",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Ace",
+      "Name": "Scratch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Spark"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Quick Attack"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Fury Swipes"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Volt Switch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Snarl"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Charge"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Thunder Punch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Power-Up Punch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wild Charge"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Quick Guard"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Discharge"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Drain Punch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Fire Punch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Plasma Fists"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Mega Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Electro Whip"
+    }
+  ]
+}

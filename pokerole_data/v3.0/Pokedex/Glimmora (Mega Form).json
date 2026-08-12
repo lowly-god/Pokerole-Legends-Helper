@@ -1,0 +1,143 @@
+{
+  "Number": 970,
+  "DexID": "0970F1",
+  "Name": "Glimmora (Mega Form)",
+  "Type1": "Rock",
+  "Type2": "Poison",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Merciless",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "glimmora-mega-form",
+  "DexCategory": "Ore Pokémon",
+  "Height": {
+    "Meters": 2.79,
+    "Feet": 9.17
+  },
+  "Weight": {
+    "Kilograms": 76.7,
+    "Pounds": 169.0
+  },
+  "DexDescription": "Graceful, but tough as stone. If they sense danger they'll open the petals on their body to display a beautiful but deadly crystal flower. They release powerful beams of energy at the slightest provocation.",
+  "Evolutions": [
+    {
+      "From": "Glimmora",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Rock Throw"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Harden"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Smack Down"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Acid Spray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rock Polish"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Stealth Rock"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Venoshock"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mortal Spin"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Spiky Shield"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sandstorm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dazzling Gleam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rock Slide"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Power Gem"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Acid Armor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sludge Wave"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Self Destruct"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Flash Cannon"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Solar Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hyper Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Rain"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Asteroid Shot"
+    }
+  ]
+}

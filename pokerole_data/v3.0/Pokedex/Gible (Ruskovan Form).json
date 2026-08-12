@@ -1,0 +1,125 @@
+{
+  "Number": 443,
+  "DexID": "0443F1",
+  "Name": "Gible (Ruskovan Form)",
+  "Type1": "Dragon",
+  "Type2": "Ice",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 1,
+  "MaxDexterity": 3,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 1,
+  "MaxSpecial": 3,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Snow Cloak",
+  "Ability2": "Ice Scales",
+  "HiddenAbility": "Rough Skin",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "gible-ruskovan-form",
+  "DexCategory": "Snow Shark Pokémon",
+  "Height": {
+    "Meters": 0.71,
+    "Feet": 2.33
+  },
+  "Weight": {
+    "Kilograms": 20.4,
+    "Pounds": 45.0
+  },
+  "DexDescription": "This variant of Gible thrives in the snow-covered landscape of Ruskova. It effortlessly glides through deep snow, as if navigating icy waters. Beware its fierce nature and powerful jaws.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Dragon Rage"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Take Down"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ice Fang"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ice Shard"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Black Ice"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Avalanche"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Rush"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Double-Edge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Frost Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Frozen Crash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Stalacbite"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Snowy Terrain"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Iron Head"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Absolute Zero"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    }
+  ]
+}

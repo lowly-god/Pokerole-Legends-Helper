@@ -1,0 +1,16 @@
+{
+    "Name": "Terrorize",
+    "Type": "Ghost",
+    "Power": 5,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Special",
+    "Accuracy2": "Intimidate",
+    "Target": "Foe",
+    "Effect": "Roll 2 Chance Dice to Confuse the Foe. Recharge.",
+    "Description": "The Target is ensnared in nightmarish visions, haunted by unsettling phantoms, possibly succumbing to confusion as it battles inner terrors.",
+    "_id": "terrorize",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

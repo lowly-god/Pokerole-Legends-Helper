@@ -1,0 +1,161 @@
+{
+  "Number": 164,
+  "DexID": "0164F1",
+  "Name": "Noctowl (Orrean Form)",
+  "Type1": "Ghost",
+  "Type2": "Flying",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Veil of Night",
+  "Ability2": "Nocturnal",
+  "HiddenAbility": "Shadow Shield",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "noctowl-orrean-form",
+  "DexCategory": "Owl Pokémon",
+  "Height": {
+    "Meters": 1.6,
+    "Feet": 5.25
+  },
+  "Weight": {
+    "Kilograms": 60.3,
+    "Pounds": 133.0
+  },
+  "DexDescription": "Legend has it that when Noctowl takes flight in the evening, causing night to fall over the land, trailing from its tail feathers.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Foresight"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Hypnosis"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Night Shade"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Peck"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ominous Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Absolute Zero"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Nightmare"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybeam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dream Eater"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mist"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Snatch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonlight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Haze"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shadow Tide"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dream Eater"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Feather Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hurricane"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Extrasensory"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Jet Strike"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hoarfrost Moon"
+    }
+  ]
+}

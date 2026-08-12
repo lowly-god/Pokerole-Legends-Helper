@@ -1,0 +1,16 @@
+{
+    "Name": "Cryocontamination",
+    "Type": "Ice",
+    "Power": 4,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Special",
+    "Accuracy2": "Channel",
+    "Target": "Area",
+    "Effect": "Roll 3 Chance Dice to Poison those affected.",
+    "Description": "A frost begins to creep forth from the User, all who touch it become violently ill.",
+    "_id": "cryocontamination",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

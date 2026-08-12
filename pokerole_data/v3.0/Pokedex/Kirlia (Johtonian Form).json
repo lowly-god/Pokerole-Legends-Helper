@@ -1,0 +1,153 @@
+{
+  "Number": 281,
+  "DexID": "0281F1",
+  "Name": "Kirlia (Johtonian Form)",
+  "Type1": "Psychic",
+  "Type2": "Water",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Synchronize",
+  "Ability2": "Clear Body",
+  "HiddenAbility": "Hydration",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "kirlia-johtonian-form",
+  "DexCategory": "Mesoglea Frill Pokémon",
+  "Height": {
+    "Meters": 0.79,
+    "Feet": 2.58
+  },
+  "Weight": {
+    "Kilograms": 20.0,
+    "Pounds": 44.0
+  },
+  "DexDescription": "It's clear bioluminescent frills are made of a similar substance to the bodies of Jellicent and Tentacruel. It dances in the shallows as it hones its powers.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bubble"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybolt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flirty Kiss"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Water Pulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Charm"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hypnosis"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Heal Block"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Cutter"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic Terrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Soak"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Draining Kiss"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Chilling Water"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heart Breaker"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Flip Turn"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Aqua Ring"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Teleport"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hydro Pump"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Life Dew"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fisticuffs"
+    }
+  ]
+}

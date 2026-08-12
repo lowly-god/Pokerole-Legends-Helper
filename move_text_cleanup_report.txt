@@ -1,0 +1,7 @@
+MOVE TEXT CLEANUP REPORT
+========================
+
+Moves changed: 0
+Low Accuracy replacements: 0
+Redundant Effect target labels removed: 0
+

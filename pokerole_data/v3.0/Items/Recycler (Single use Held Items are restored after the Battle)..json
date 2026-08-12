@@ -1,0 +1,13 @@
+{
+  "Name": "Recycler (Single use Held Items are restored after the Battle).",
+  "_id": "recycler-single-use-held-items-are-restored-after-the-battle",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Items",
+  "Category": "Special Items",
+  "Description": "No additional effect listed.",
+  "OneUse": false,
+  "TrainerPrice": "35000",
+  "Cures": "",
+  "Image": ""
+}

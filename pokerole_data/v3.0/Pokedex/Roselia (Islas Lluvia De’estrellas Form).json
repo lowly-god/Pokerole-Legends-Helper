@@ -1,0 +1,141 @@
+{
+  "Number": 315,
+  "DexID": "0315F2",
+  "Name": "Roselia (Islas Lluvia De’estrellas Form)",
+  "Type1": "Grass",
+  "Type2": "Steel",
+  "BaseHP": 4,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Sleepwalker",
+  "Ability2": "Infiltrator",
+  "HiddenAbility": "Technician",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "roselia-islas-lluvia-de-estrellas-form",
+  "DexCategory": "Sleeping Thorn Pokémon",
+  "Height": {
+    "Meters": 0.38,
+    "Feet": 1.25
+  },
+  "Weight": {
+    "Kilograms": 4.5,
+    "Pounds": 10.0
+  },
+  "DexDescription": "When Budew managed to control its sleepwalking it evolves into Roselia. They do almost everything while asleep, so they can often wander away from their original home. When they detect enemies nearby, they wake up and swiftly run away back home.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Leafage"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Growth"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Snore"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Magnet Bomb"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Razor Leaf"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Leech Seed"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sleep Talk"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Slack Off"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Yawn"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Spikes"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Leaf Blade"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bullet Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Knock Off"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aromatherapy"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Leaf Shield"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Solar Blade"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Head"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Ingrain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Uproot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Petal Dance"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Spiky Shield"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Fury Cutter"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Curse"
+    }
+  ]
+}

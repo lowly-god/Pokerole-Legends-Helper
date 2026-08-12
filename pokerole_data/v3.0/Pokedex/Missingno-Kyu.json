@@ -1,0 +1,149 @@
+{
+  "Number": 1158,
+  "DexID": "1158",
+  "Name": "Missingno-Kyu",
+  "Type1": "Ghost",
+  "Type2": "",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 7,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Corruption",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "missingno-kyu",
+  "DexCategory": "Corrupted Pokémon",
+  "Height": {
+    "Meters": 0.2,
+    "Feet": 0.67
+  },
+  "Weight": {
+    "Kilograms": 0.7,
+    "Pounds": 1.5
+  },
+  "DexDescription": "A glitch inside an augment reality video game, that was developed in the Duskfork city. It somehow manifested outside of the game and became real.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Conversion"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Disable"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Lock-On"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Curse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Conversion 2"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Play Rough"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Shadow Sneak"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mirror Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Virus Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Pain Split"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Firewall"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Breach"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Spark"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Expanding Force"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Mirror Coat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Counter"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Electroweb"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Harrowing"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Discombobulate"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Lapidify"
+    }
+  ]
+}

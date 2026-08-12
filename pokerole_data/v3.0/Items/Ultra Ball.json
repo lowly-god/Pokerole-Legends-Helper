@@ -1,0 +1,13 @@
+{
+  "Name": "Ultra Ball",
+  "_id": "ultra-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Standard Balls",
+  "Category": "Standard Balls",
+  "Description": "8d6",
+  "OneUse": true,
+  "TrainerPrice": "1200",
+  "Cures": "",
+  "Image": ""
+}

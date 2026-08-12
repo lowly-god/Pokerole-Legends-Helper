@@ -1,0 +1,16 @@
+{
+    "Name": "Shadow Mist",
+    "Type": "Shadow",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Tough",
+    "Accuracy2": "Intimidate",
+    "Target": "All Foes",
+    "Effect": "Those affected can not Evade Moves performed by the User.",
+    "Description": "A shadowy aura sharply cuts the Foe's evasiveness.",
+    "_id": "shadow-mist",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

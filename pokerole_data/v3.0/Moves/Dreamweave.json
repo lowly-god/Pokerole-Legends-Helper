@@ -1,0 +1,16 @@
+{
+    "Name": "Dreamweave",
+    "Type": "Fairy",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Special",
+    "Accuracy2": "Channel",
+    "Target": "Battlefield",
+    "Effect": "Sleeping Foes lose 1HP at the end of the Round, the User gains 1HP for each Foe Damaged in this way.",
+    "Description": "The User covers the Battlefield in a dream-like strange web, causing those sleeping to lose health.",
+    "_id": "dreamweave",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

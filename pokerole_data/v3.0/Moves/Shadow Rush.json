@@ -1,0 +1,16 @@
+{
+    "Name": "Shadow Rush",
+    "Type": "Shadow",
+    "Power": 4,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Dexterity",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Recoil. Late Reaction 6. This Move can only be used after the Target rolls a Damaging Move.",
+    "Description": "The User executes a surprising tackle, with little regard for itself, while exuding a shadowy aura.",
+    "_id": "shadow-rush",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

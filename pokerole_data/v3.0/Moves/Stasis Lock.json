@@ -1,0 +1,16 @@
+{
+    "Name": "Stasis Lock",
+    "Type": "Psychic",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Clever",
+    "Accuracy2": "Channel",
+    "Target": "Battlefield",
+    "Effect": "Blocks all Pokémon except the User. Battlefield Effects do not end and cannot be changed until the User is removed from the Battle.",
+    "Description": "The User stasis locks the Battlefield.",
+    "_id": "stasis-lock",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

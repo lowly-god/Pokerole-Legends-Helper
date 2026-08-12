@@ -1,0 +1,153 @@
+{
+  "Number": 1070,
+  "DexID": "1070",
+  "Name": "Pansnear",
+  "Type1": "Dark",
+  "Type2": "",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Gluttony",
+  "Ability2": "",
+  "HiddenAbility": "Elemental Boost",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "pansnear",
+  "DexCategory": "Devious Monkey Pokémon",
+  "Height": {
+    "Meters": 0.61,
+    "Feet": 2.0
+  },
+  "Weight": {
+    "Kilograms": 10.4,
+    "Pounds": 23.0
+  },
+  "DexDescription": "Pansnear, lurks in the darkness of dense forests, using its sharp instincts and keen hearing, it stalks its prey, though not to eat, only to play pranks on.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Scratch"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Play Nice"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Lick"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Snarl"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fury Swipes"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Yawn"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Switcheroo"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thief"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Amnesia"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fling"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acrobatics"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cheap Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sucker Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Natural Gift"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Parting Shot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Bullet Seed"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Comeuppance"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Disarming Voice"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Torment"
+    }
+  ]
+}

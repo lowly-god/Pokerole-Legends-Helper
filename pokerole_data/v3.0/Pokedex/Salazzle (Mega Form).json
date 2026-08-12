@@ -1,0 +1,175 @@
+{
+  "Number": 758,
+  "DexID": "0758F1",
+  "Name": "Salazzle (Mega Form)",
+  "Type1": "Fire",
+  "Type2": "Poison",
+  "BaseHP": 6,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 7,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Tyrant",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "F",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "salazzle-mega-form",
+  "DexCategory": "Toxic Lizard Pokémon",
+  "Height": {
+    "Meters": 1.37,
+    "Feet": 4.5
+  },
+  "Weight": {
+    "Kilograms": 25.9,
+    "Pounds": 57.0
+  },
+  "DexDescription": "This Pokémon is Female only. It releases a powerful toxic gas that is filled with pheromones that help her keep her reverse harem of Salandit in check. This gas can be purified into expensive perfumes.",
+  "Evolutions": [
+    {
+      "From": "Salazzle",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Scratch"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Poison Gas"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Ember"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sweet Scent"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dragon Rage"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Smog"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Slap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Venoshock"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Incinerate"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Captivate"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Encore"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Disable"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flame Burst"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Venom Drench"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Flamethrower"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Poison Fang"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fire Lash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Tail"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Endeavor"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Attract"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Overheat"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heart Breaker"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cauterize"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Rain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Virus Pulse"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Beguiling Influence"
+    }
+  ]
+}

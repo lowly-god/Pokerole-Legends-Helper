@@ -1,0 +1,153 @@
+{
+  "Number": 1146,
+  "DexID": "1146",
+  "Name": "Iron Evolution",
+  "Type1": "Steel",
+  "Type2": "",
+  "BaseHP": 4,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Evolution Drive",
+  "Ability2": "",
+  "HiddenAbility": "Protean",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "iron-evolution",
+  "DexCategory": "Paradox Pokémon",
+  "Height": {
+    "Meters": 1.19,
+    "Feet": 3.92
+  },
+  "Weight": {
+    "Kilograms": 73.9,
+    "Pounds": 163.0
+  },
+  "DexDescription": "Iron Evolution seems to resemble a robotic fusion of Eevee's various evolutions. It was illustrated in Occulture Magazine.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Focus Energy"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Spectrum Analysis"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Swift"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mirror Shot"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Iron Tail"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Metal Sound"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Nature Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flash Cannon"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Last Resort"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Terrain Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wild Charge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Autotomize"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Retaliate"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wish"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Steel Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Baton Pass"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Brace"
+    }
+  ]
+}

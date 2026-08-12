@@ -1,0 +1,13 @@
+{
+  "Name": "Paralyze Heal",
+  "_id": "paralyze-heal",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Medicine",
+  "Category": "Medicine",
+  "Description": "Cures Paralyzed Status Condition",
+  "OneUse": true,
+  "TrainerPrice": "250",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Naughty Mint",
+  "_id": "naughty-mint",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Items",
+  "Category": "Special Items",
+  "Description": "Changes a Pokémon’s Nature to Naughty.",
+  "OneUse": true,
+  "TrainerPrice": "15000",
+  "Cures": "",
+  "Image": ""
+}

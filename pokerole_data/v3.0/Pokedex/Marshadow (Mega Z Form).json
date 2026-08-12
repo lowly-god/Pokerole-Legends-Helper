@@ -1,0 +1,159 @@
+{
+  "Number": 802,
+  "DexID": "0802F2",
+  "Name": "Marshadow (Mega Z Form)",
+  "Type1": "Fighting",
+  "Type2": "Ghost",
+  "BaseHP": 6,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 4,
+  "MaxDexterity": 8,
+  "Vitality": 4,
+  "MaxVitality": 8,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 3,
+  "MaxInsight": 7,
+  "Ability1": "Moxie",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Champion",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "marshadow-mega-z-form",
+  "DexCategory": "Gloomdweller Pokémon",
+  "Height": {
+    "Meters": 0.76,
+    "Feet": 2.5
+  },
+  "Weight": {
+    "Kilograms": 22.7,
+    "Pounds": 50.0
+  },
+  "DexDescription": "There is an old children's story about a boy who lost his shadow and the shadow became a Pokémon. There is a debate to which Pokémon the story is referring.",
+  "Evolutions": [
+    {
+      "From": "Marshadow",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Ace",
+      "Name": "Fire Punch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Ice Punch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Thunder Punch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Copycat"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Shadow Sneak"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Feint"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Rolling Kick"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dizzy Punch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Pursuit"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Counter"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Role Play"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Shadow Punch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Force Palm"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Assurance"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Sucker Punch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Drain Punch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Psych Up"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Spectral Thief"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Laser Focus"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Jump Kick"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Endeavor"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Poison Jab"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Throat Chop"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Superpower"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fisticuffs"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Edgestitch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Siphon Life-Force"
+    }
+  ]
+}

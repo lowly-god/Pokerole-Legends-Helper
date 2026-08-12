@@ -1,0 +1,16 @@
+{
+    "Name": "Siphon Life-Force",
+    "Type": "Ghost",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Special",
+    "Accuracy2": "Channel",
+    "Target": "Foe",
+    "Effect": "Accuracy -1. The Foe becomes *Leeched.",
+    "Description": "The User slowly saps the Foe’s vitality to nourish itself.",
+    "_id": "siphon-life-force",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Sport Ball",
+  "_id": "sport-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Other Balls",
+  "Category": "Other Balls",
+  "Description": "7d6, Only given out during Pokémon catching contests",
+  "OneUse": true,
+  "TrainerPrice": "N/A",
+  "Cures": "",
+  "Image": ""
+}

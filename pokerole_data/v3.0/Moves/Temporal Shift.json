@@ -1,0 +1,16 @@
+{
+    "Name": "Temporal Shift",
+    "Type": "Steel",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Insight",
+    "Accuracy2": "Nature",
+    "Target": "Foe",
+    "Effect": "Increase the User’s Dexterity, Special, Defense and Special Defense by 1.",
+    "Description": "The User channels its temporal duality, enhancing its abilities.",
+    "_id": "temporal-shift",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

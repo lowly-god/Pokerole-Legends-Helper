@@ -1,0 +1,145 @@
+{
+  "Number": 1133,
+  "DexID": "1133",
+  "Name": "UB-26 Radiance",
+  "Type1": "Fairy",
+  "Type2": "Electric",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Beast Boost",
+  "Ability2": "",
+  "HiddenAbility": "Radiant Defender",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "ub-26-radiance",
+  "DexCategory": "Ultra Beast",
+  "Height": {
+    "Meters": 1.27,
+    "Feet": 4.17
+  },
+  "Weight": {
+    "Kilograms": 129.3,
+    "Pounds": 285.0
+  },
+  "DexDescription": "Aether Foundation Log #1399: UB-Radiance seems to absorb light from its surroundings, which it then unleashes as unrelenting energy. Its whiskers are full of a constant charge of electricity.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Nuzzle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Flash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Misty Terrain"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Play Rough"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Spark"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dazzling Gleam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Roar"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Thunder Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Spirit Break"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Electric Terrain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonlight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wild Charge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Body Slam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "U-Turn"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Extreme Speed"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Starlight Blitz"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mirror Shield"
+    }
+  ]
+}

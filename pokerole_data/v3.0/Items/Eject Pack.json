@@ -1,0 +1,13 @@
+{
+  "Name": "Eject Pack",
+  "_id": "eject-pack",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "If the holder’s Attributes are reduced it Switches Out",
+  "OneUse": true,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

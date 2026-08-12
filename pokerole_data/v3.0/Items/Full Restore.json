@@ -1,0 +1,13 @@
+{
+  "Name": "Full Restore",
+  "_id": "full-restore",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Medicine",
+  "Category": "Medicine",
+  "Description": "Restores full HP and Status Conditions",
+  "OneUse": true,
+  "TrainerPrice": "2000",
+  "Cures": "",
+  "Image": ""
+}

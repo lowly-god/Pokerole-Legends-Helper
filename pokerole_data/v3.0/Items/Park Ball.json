@@ -1,0 +1,13 @@
+{
+  "Name": "Park Ball",
+  "_id": "park-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Other Balls",
+  "Category": "Other Balls",
+  "Description": "7d6, Only given out during special events",
+  "OneUse": true,
+  "TrainerPrice": "N/A",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,6 @@
+{
+    "Name": "Temporal Fracture",
+    "Effect": "If Psychic Terrain is in effect or the User is holding an Energy Booster: Increase this Pokémon's highest Attribute by +1. If Special is its highest attribute, increase it by 2 instead.",
+    "Description": "",
+    "_id": "temporal-fracture"
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Ice Heal",
+  "_id": "ice-heal",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Medicine",
+  "Category": "Medicine",
+  "Description": "Cures 1 level of Frostbitten Status Condition",
+  "OneUse": true,
+  "TrainerPrice": "250",
+  "Cures": "",
+  "Image": ""
+}

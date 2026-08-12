@@ -1,0 +1,153 @@
+{
+  "Number": 1150,
+  "DexID": "1150",
+  "Name": "Iron Jungle",
+  "Type1": "Grass",
+  "Type2": "Steel",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Quark Drive",
+  "Ability2": "",
+  "HiddenAbility": "Re-Routing",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "iron-jungle",
+  "DexCategory": "Paradox Pokémon",
+  "Height": {
+    "Meters": 2.21,
+    "Feet": 7.25
+  },
+  "Weight": {
+    "Kilograms": 311.2,
+    "Pounds": 686.0
+  },
+  "DexDescription": "It seems to draw in energy from its surroundings, it has been observed consuming organic vegetation. It is assumed it converts it into energy.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Electric Terrain"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Gust"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Razor Leaf"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Spectrum Analysis"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Synthesis"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ingrain"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mirror Shot"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Grassy Glide"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Leaf Shield"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Magical Leaf"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flash Cannon"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Head"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Amnesia"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Leaf Blade"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Uproot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Air Cutter"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Autotomize"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Solar Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Solar Blade"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Tropic Storm"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Thunderbolt"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Uproot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Nature Power"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Steel Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Edge"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "Name": "Necromancy",
+    "Type": "Ghost",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Special/Clever",
+    "Accuracy2": "Channel",
+    "Target": "Self",
+    "Effect": "The User cuts it HP in half (Rounded Down), Restore consciousness and half HP (Rounded Down) to an Ally. This Move fails if the User is not at full health. If successful Spend 2 Will points to activate.",
+    "Description": "The User sacrifices its life-force to revive an Ally.",
+    "_id": "necromancy",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

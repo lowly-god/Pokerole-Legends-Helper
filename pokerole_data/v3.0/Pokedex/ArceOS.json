@@ -1,0 +1,153 @@
+{
+  "Number": 1163,
+  "DexID": "1163",
+  "Name": "ArceOS",
+  "Type1": "Steel",
+  "Type2": "",
+  "BaseHP": 6,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 4,
+  "MaxDexterity": 7,
+  "Vitality": 4,
+  "MaxVitality": 8,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 4,
+  "MaxInsight": 8,
+  "Ability1": "Protean",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Champion",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "arceos",
+  "DexCategory": "Unknown Pokémon",
+  "Height": {
+    "Meters": 0.0,
+    "Feet": 0.0
+  },
+  "Weight": {
+    "Kilograms": 0.0,
+    "Pounds": 0.0
+  },
+  "DexDescription": "This being was an AI that gained sentience, in a mechanical body. Its judgement could wreak devastation on the world. It seems to resemble the futuristic Paradox Pokémon... It inspired the new study of Technotheology.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Gravity"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Magnet Rise"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Perish Song"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Curse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Breach"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Firewall"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Extreme Speed"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lunge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Inferno"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Phantom Force"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Frenzy Plant"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aura Sphere"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Ice Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Miasma"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Tide"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Smart Strike"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Zap Cannon"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Draco Meteor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hurricane"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Diamond Storm"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gaia Force"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Judgment"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Light Of Ruin"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Necromancy"
+    }
+  ]
+}

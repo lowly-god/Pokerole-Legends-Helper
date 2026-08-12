@@ -1,0 +1,16 @@
+{
+    "Name": "Resonating Chime",
+    "Type": "Steel",
+    "Power": 3,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Special",
+    "Accuracy2": "Perform",
+    "Target": "Area",
+    "Effect": "Sound Move. Any Active Combatants currently Asleep automatically wake up.",
+    "Description": "The User creates a very loud chime as if ringing a huge bell.",
+    "_id": "resonating-chime",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

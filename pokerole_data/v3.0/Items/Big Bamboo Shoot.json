@@ -1,0 +1,13 @@
+{
+  "Name": "Big Bamboo Shoot",
+  "_id": "big-bamboo-shoot",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Miscellaneous",
+  "Description": "Valuable item",
+  "OneUse": true,
+  "TrainerPrice": "1500",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Mild Mint",
+  "_id": "mild-mint",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Items",
+  "Category": "Special Items",
+  "Description": "Changes a Pokémon’s Nature to Mild.",
+  "OneUse": true,
+  "TrainerPrice": "15000",
+  "Cures": "",
+  "Image": ""
+}

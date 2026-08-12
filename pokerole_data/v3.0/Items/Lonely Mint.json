@@ -1,0 +1,13 @@
+{
+  "Name": "Lonely Mint",
+  "_id": "lonely-mint",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Items",
+  "Category": "Special Items",
+  "Description": "Changes a Pokémon’s Nature to Lonely.",
+  "OneUse": true,
+  "TrainerPrice": "15000",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,202 @@
+{
+  "Dual Wielder": {
+    "Rank": "Starter / Rookie / Standard",
+    "Description": "You’re used to fighting with two weapons at once.",
+    "Effect": "While wielding two Weapons you may choose to halve the Damage Dice of your Maneuvers rounded down, but make them as Double Actions."
+  },
+  "Fisherman": {
+    "Rank": "Starter / Rookie / Standard",
+    "Description": "To you there’s nothing better then sitting and casting your line in the water.",
+    "Effect": "You get +2 Bonus Dice to Skill checks made when fishing. You gain +1 Bonus Dice to your Seal Checks when capturing Pokémon that you landed while fishing."
+  },
+  "Inspiring Personality": {
+    "Rank": "Starter / Rookie / Standard",
+    "Description": "You’re magnetic, people always seem to innately like and react favourably to you.",
+    "Effect": "You gain +1 Bonus Dice to social checks when interacting with people or Pokémon. You gain 1 point in the Supporters Notoriety Skill. You may add a Maneuver to your sheet: Rallying Call."
+  },
+  "Lightning Reflexes": {
+    "Rank": "Starter / Rookie / Standard",
+    "Description": "You’re fast as heck, boy!",
+    "Effect": "You gain +2 Bonus Dice to Initiative and +1 Point in the Evasion Skill."
+  },
+  "Lucky": {
+    "Rank": "Starter / Rookie / Standard",
+    "Description": "You where just born lucky, everything always seems to work out for you in the end, no matter what.",
+    "Effect": "You get +1 Point in the Luck Skill. Once a day you may re-roll a failed roll."
+  },
+  "Master Chef": {
+    "Rank": "Starter / Rookie / Standard",
+    "Description": "You’re a wizard in the kitchen, and meals you cook seem to restore the fighting spirit of anyone that partakes of them.",
+    "Effect": "You get +2 points in the Cooking Skill. Once a day, when preparing food, if you get at least 4 successes on the roll for doing so. People and Pokémon who consume it restore 2 Will Points."
+  },
+  "Mono-Type Specialist": {
+    "Rank": "Starter / Rookie / Standard",
+    "Description": "You love one type above all others, and have devoted yourself to mastering it.",
+    "Effect": "Once per Battle, you may treat an attack that your Pokemon is weak to, as instead being double resisted. This Perk may only be used while all Pokemon on your Team share at least one Type."
+  },
+  "Gifted Musician": {
+    "Rank": "Starter / Rookie / Standard",
+    "Description": "You are musically gifted, being able to pick up and play almost any instrument in an instant.",
+    "Effect": "You gain +2 Bonus Dice on rolls related to music. Once per day you may play a song and heal 1HP of those who listen. You also gain 1 point in the Fame Notoriety Skill."
+  },
+  "Occultist": {
+    "Rank": "Starter / Rookie / Standard",
+    "Description": "You have studied the lesser known facets of the universe. Some of the things you know would drive a lesser researcher mad...",
+    "Effect": "You gain +2 Bonus Dice to Skill Checks regarding mystical or strange phenomena."
+  },
+  "Psionic Empowerment": {
+    "Rank": "Starter / Rookie / Standard",
+    "Description": "You’ve developed a strange technique that enhances your mystical attacks.",
+    "Effect": "You may choose if your Maneuvers are resisted with the Foe's Defense or Special Defense."
+  },
+  "Scoundrel’s Intuition": {
+    "Rank": "Starter / Rookie / Standard",
+    "Description": "You know exactly how to pick an opening and take it during a fight.",
+    "Effect": "You may add Reaction 6 or Late Reaction 6 to one of your Maneuvers or to one of your Pokémon’s Moves once per battle."
+  },
+  "Sponsored Trainer": {
+    "Rank": "Starter / Rookie / Standard",
+    "Description": "You’ve made an impression in a performance field, such as the Colosseum or Contest circuit and potential patrons often approach you.",
+    "Effect": "You get a 25% discount at certain shops (at the Storyteller’s discretion). You also gain +1 point in the Sponsors Notoriety Skill."
+  },
+  "Survivalist": {
+    "Rank": "Starter / Rookie / Standard",
+    "Description": "You know the secrets of the wilderness and how to make use of natural resources.",
+    "Effect": "You gain +2 Bonus Dice to checks made for foraging, perception, Poke Ball and Medicine crafting."
+  },
+  "Tech Expert": {
+    "Rank": "Starter / Rookie / Standard",
+    "Description": "You are very proficient with the complex workings and complicated processes needed to use and create advanced machinery.",
+    "Effect": "You gain +1 point in the Technology Skill. You may re-roll a failed Technology Skill Check once per day."
+  },
+  "Templar": {
+    "Rank": "Starter / Rookie / Standard",
+    "Description": "Your devotion and faith to your chosen deity guides your hand in combat.",
+    "Effect": "You may choose for your attacks to deal Typed Damage and roll 1 Chance Dice to inflict a Status Condition. (Choose a Type and Status Condition related to a particular legendary, deity or theme that fits your character. Cannot be the Charmed Status)."
+  },
+  "Traveller": {
+    "Rank": "Starter / Rookie / Standard",
+    "Description": "Your home is the road... or waves, or skies, or stars.",
+    "Effect": "You get +1 point in the Handling Skill. You gain +1 Bonus Dice to Skill Checks relating to navigation."
+  },
+  "Well Connected": {
+    "Rank": "Starter / Rookie / Standard",
+    "Description": "You always know just the right people to ask...",
+    "Effect": "You get +2 Bonus Dice to Social Skill Checks when attempting to find a specific item, piece of information, person etc. You get 15% more when selling goods or getting paid for a service rendered. You also gain 1 point in the Connections Notoriety Skill."
+  },
+  "Alchemical Artisan": {
+    "Rank": "Advanced / Expert",
+    "Description": "Your training in alchemical reagents and natural components is unparalleled.",
+    "Effect": "You gain +1 Bonus Dice to checks using the Crafting, Technology and Medicine Skills. When crafting Poke Balls you need 1 less success required to create HQ versions. When crafting healing items, you Round up instead of down for the amount created."
+  },
+  "Aura Adept": {
+    "Rank": "Advanced / Expert",
+    "Description": "You’ve honed your aura reading and manipulating abilities.",
+    "Effect": "You gain +1 point in the Aura skill. You may add a Maneuver to your sheet: Aura Ora-Ora-Ora."
+  },
+  "Beautiful Movements": {
+    "Rank": "Advanced / Expert",
+    "Description": "You see battle as a dance, and lead your foes on a merry jig throughout it.",
+    "Effect": "You may make an additional 2 Clash Actions a Round (as long as you have the Actions to do so)."
+  },
+  "Built Different": {
+    "Rank": "Advanced / Expert",
+    "Description": "You’re just built different. Maybe you’re just bigger or tougher then the rest, or maybe you’re an average anime protagonist.",
+    "Effect": "You may use a shield while using a typically two handed Great Weapon. You may ignore the Strength requirements for Great Weapons."
+  },
+  "Combat Medic": {
+    "Rank": "Advanced / Expert",
+    "Description": "You’re a dab hand with a needle and thread and healing items seem to do more when you’re the one to prescribe them.",
+    "Effect": "When using any healing items on people or Pokémon outside of combat, you may make a Medicine Skill Check, for every success over 4, heal that many Extra points of Damage. You may add a Maneuver to your sheet: Battlefield Bandaging."
+  },
+  "Diva": {
+    "Rank": "Advanced / Expert",
+    "Description": "You find yourself drawn to the stage, and your fans are devoted to you.",
+    "Effect": "You gain +1 point in the Perform Skill and +1 point in the Notoriety Skill of your choice. Once per Contest you may re-draw a single Trick or Mishap card."
+  },
+  "Gifted": {
+    "Rank": "Advanced / Expert",
+    "Description": "Your journey hasn’t just been physical, its also been about self improvement.",
+    "Effect": "You gain either 1 additional Physical or Social attribute point. You may exceed your limit by 1 in whichever stat you choose."
+  },
+  "Godly Stamina": {
+    "Rank": "Advanced / Expert",
+    "Description": "You’re fit as a fiddle and you seem to recover faster than others when you overexert yourself.",
+    "Effect": "You spend less Stamina Points than others would (at the Storyteller’s discretion) and you recover from 2 Levels of Exhaustion when you would usually recover from 1."
+  },
+  "Green Thumbed": {
+    "Rank": "Advanced / Expert",
+    "Description": "You feel most at home in the garden or with Grass-Type Pokémon.",
+    "Effect": "You gain +1 point in the Nature Skill. You and your Pokémon heal +1 additional HP when using Herbs or Berries."
+  },
+  "Imbued Weapons": {
+    "Rank": "Advanced / Expert",
+    "Description": "You know how craft various concoctions used to coat weapons and always keep a small stash of them on you for your personal use.",
+    "Effect": "At the beginning of the day you may choose to coat your Weapon or ammunition in a substance of your choice: Confusion, Poison, Paralysis, Burn (1), Frostbite (1). Granting your attacks made with it 2 Chance Dice to inflict that Status Condition."
+  },
+  "Life Stealing Blade": {
+    "Rank": "Advanced / Expert",
+    "Description": "Your time with a certain cursed weapon has imbued a sinister ability to you.",
+    "Effect": "Prerequisite: Must wield the cursed sword Soul Devourer. When you successfully make an attack with Soul Devourer, Roll 1 Chance Dice to inflict Leeched on the Target."
+  },
+  "Martial Adept": {
+    "Rank": "Advanced / Expert",
+    "Description": "Your military training has been rigorous and as a result you’re more proficient with martial equipment.",
+    "Effect": "You are not able to be Disarmed during combat. Additionally you receive -1 less Dexterity penalty from wearing various armor types."
+  },
+  "Martial Arts Prodigy": {
+    "Rank": "Advanced / Expert",
+    "Description": "You’re a master of fighting, possibly in multiple different disciplines.",
+    "Effect": "Your unarmed attacks deal +1 Dice of Damage. You may add a Maneuver to your sheet: Disarming Strike."
+  },
+  "Monster Hunter": {
+    "Rank": "Advanced / Expert",
+    "Description": "You’re used to taking on terrifyingly strong Pokémon, either for sport or as a job.",
+    "Effect": "You get +1 additional Damage Dice on Maneuvers made against Pokémon of a higher Rank than you. You also get +1 guaranteed success when attempting to capture Pokémon of a higher Rank than you."
+  },
+  "Mounted Combat Expert": {
+    "Rank": "Advanced / Expert",
+    "Description": "You and your faithful steed have trained together in the art of mounted combat.",
+    "Effect": "You and your Pokémon do not suffer the reduced Accuracy penalty when engaging in Mounted Combat. Additionally, you gain +1 Point in the Handling Skill."
+  },
+  "Pokémon Master (In Training)": {
+    "Rank": "Advanced / Expert",
+    "Description": "You’ve got a knack for battling, and you know how to raise your Pokémon properly.",
+    "Effect": "Your Pokémon naturally regain +1 additional Will Point per day and Pokémon you catch start at base Happiness and Loyalty 3 (If conditions would lower them during catching, they still do from there however)."
+  },
+  "Psionic Overload": {
+    "Rank": "Advanced / Expert",
+    "Description": "You are able to unleash the full power of your psychic abilities.",
+    "Effect": "You may choose to make a Skill Check using the Channel Skill with 3 guaranteed successes. But in doing so you immediately take 2 levels of Exhaustion. You may add a Maneuver to you sheet: Psionic Barrage."
+  },
+  "Shadow": {
+    "Rank": "Advanced / Expert",
+    "Description": "You’re naturally stealthy and find it easy to stay hidden.",
+    "Effect": "You gain +2 Points in the Stealth Skill and may add a Maneuver to your Sheet: Meld With Shadows."
+  },
+  "Student of Life": {
+    "Rank": "Advanced / Expert",
+    "Description": "You learn constantly, picking up little bits and pieces from everywhere you go.",
+    "Effect": "You gain 3 additional Skill Points. You may only spend them up to your current Rank allows however."
+  },
+  "Talented Medium": {
+    "Rank": "Advanced / Expert",
+    "Description": "You’ve grown able to commune with the spirits at ease and you know how to utilise their aid to sabotage your enemies by laying curses on them.",
+    "Effect": "You gain +1 point in the Channel Skill. You may add a Maneuver to your sheet: Touch from Beyond."
+  },
+  "Telepathic Bond": {
+    "Rank": "Advanced / Expert",
+    "Description": "You are able to reach your mind out to others gifted with psionic ability. You gain 1 point in the Channel Skill. You may converse psionically with people or Pokémon who are also psychically gifted or send a simple message to those who aren't (within 100ft range). Other effects at the Storyteller’s discretion.",
+    "Effect": ""
+  },
+  "Unarmed Defense": {
+    "Rank": "Advanced / Expert",
+    "Description": "“Armor? Nah I don’t need that.”",
+    "Effect": "You gain a permanent Defense and Special Defense Bonus equal to half of your current Rank, rounded down. This Bonus only applies while you are not wearing Armor."
+  },
+  "Upcycler": {
+    "Rank": "Advanced / Expert",
+    "Description": "You’re able to spot value where others aren’t, and create treasure from trash.",
+    "Effect": "You gain +1 point in the Crafts Skill. You may break down unneeded items, such as Adventuring Equipment, Armor, Weapons, Poke Balls, Healing or Held Items into useful parts, then make a Crafts Skill Check to remake them into something different (at the Storyteller’s discretion)."
+  }
+}

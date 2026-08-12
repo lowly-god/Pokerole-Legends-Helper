@@ -1,0 +1,13 @@
+{
+  "Name": "Blunder Policy",
+  "_id": "blunder-policy",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "If the User misses due to Accuracy, they gain +2 Special",
+  "OneUse": true,
+  "TrainerPrice": "10000",
+  "Cures": "",
+  "Image": ""
+}

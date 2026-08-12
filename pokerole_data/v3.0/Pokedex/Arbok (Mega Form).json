@@ -1,0 +1,159 @@
+{
+  "Number": 24,
+  "DexID": "0024F1",
+  "Name": "Arbok (Mega Form)",
+  "Type1": "Poison",
+  "Type2": "Ghost",
+  "BaseHP": 5,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 7,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Necrovenom",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "arbok-mega-form",
+  "DexCategory": "Cobra Pokémon",
+  "Height": {
+    "Meters": 3.99,
+    "Feet": 13.08
+  },
+  "Weight": {
+    "Kilograms": 73.5,
+    "Pounds": 162.0
+  },
+  "DexDescription": "This Pokémon has an incredibly strong constricting power. Once it wraps its body around its foe, escaping is almost impossible. The pattern on its body glows in the dark like a terrifying face.",
+  "Evolutions": [
+    {
+      "From": "Arbok",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Wrap"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Poison Sting"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Glare"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Screech"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Acid"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ice Fang"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thunder Fang"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fire Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stockpile"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Spit Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swallow"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Spray"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mud Bomb"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sludge Bomb"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gastro Acid"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Belch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Haze"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Coil"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gunk Shot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Poison Fang"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Iron Tail"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Aqua Tail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Rain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Virus Pulse"
+    }
+  ]
+}

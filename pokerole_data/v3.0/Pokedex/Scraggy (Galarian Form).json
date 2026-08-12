@@ -1,0 +1,145 @@
+{
+  "Number": 559,
+  "DexID": "0559F1",
+  "Name": "Scraggy (Galarian Form)",
+  "Type1": "Fighting",
+  "Type2": "Fairy",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 1,
+  "MaxSpecial": 3,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Moxie",
+  "Ability2": "Overcoat",
+  "HiddenAbility": "Intimidate",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "scraggy-galarian-form",
+  "DexCategory": "Suited Pokémon",
+  "Height": {
+    "Meters": 0.64,
+    "Feet": 2.08
+  },
+  "Weight": {
+    "Kilograms": 12.7,
+    "Pounds": 28.0
+  },
+  "DexDescription": "It often trips on its tails. It has a jovial nature but is always happy to throw down if it needs too.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Low Kick"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Feint Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Headbutt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bulk Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Play Rough"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Payback"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Counter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Detect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Arm Thrust"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Force Palm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fisticuffs"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Chip Away"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Power-Up Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Facade"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swagger"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Brick Break"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Focus Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Head Smash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Final Gambit"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spirit Break"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Fire Punch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Thunder Punch"
+    }
+  ]
+}

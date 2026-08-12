@@ -1,0 +1,13 @@
+{
+  "Name": "Hyper Potion",
+  "_id": "hyper-potion",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Medicine",
+  "Category": "Medicine",
+  "Description": "14 Units of healing",
+  "OneUse": true,
+  "TrainerPrice": "1200",
+  "Cures": "",
+  "Image": ""
+}

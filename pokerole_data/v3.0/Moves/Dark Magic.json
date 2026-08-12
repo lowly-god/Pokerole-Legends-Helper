@@ -1,0 +1,16 @@
+{
+    "Name": "Dark Magic",
+    "Type": "Dark",
+    "Power": 3,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Special",
+    "Accuracy2": "Channel",
+    "Target": "Foe",
+    "Effect": "Roll 1D6 to reduce the Foe's stat by 1 at random. 1. Strength, 2. Dexterity, 3. Defense, 4. Special, 5. Special Defense, 6. Accuracy.",
+    "Description": "The User summons strange dark powers that it curses the Target with.",
+    "_id": "dark-magic",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

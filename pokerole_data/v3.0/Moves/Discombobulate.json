@@ -1,0 +1,16 @@
+{
+    "Name": "Discombobulate",
+    "Type": "Normal",
+    "Power": 1,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Dexterity",
+    "Accuracy2": "Perform",
+    "Target": "Random Foe",
+    "Effect": "Reaction 1. Successive Actions.",
+    "Description": "The User performs an elaborate series of twists, turns and flips seemingly attacking at random.",
+    "_id": "discombobulate",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

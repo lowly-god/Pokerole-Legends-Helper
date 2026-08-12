@@ -1,0 +1,16 @@
+{
+    "Name": "Shadow Terrain",
+    "Type": "Shadow",
+    "Power": 0,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Insight",
+    "Accuracy2": "Nature",
+    "Target": "Battlefield",
+    "Effect": "Terrain. Non Shadow-Type Active Combatants take 1 Damage at the end of the Round.",
+    "Description": "The User manifests a darkness that hurts all but Shadow Pokémon for 4 turns.",
+    "_id": "shadow-terrain",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

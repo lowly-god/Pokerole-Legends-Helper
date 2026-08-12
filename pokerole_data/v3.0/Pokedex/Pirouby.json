@@ -1,0 +1,125 @@
+{
+  "Number": 1091,
+  "DexID": "1091",
+  "Name": "Pirouby",
+  "Type1": "Bug",
+  "Type2": "",
+  "BaseHP": 3,
+  "Strength": 1,
+  "MaxStrength": 3,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 1,
+  "MaxSpecial": 3,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Serene Grace",
+  "Ability2": "",
+  "HiddenAbility": "Dancer",
+  "EventAbilities": "",
+  "RecommendedRank": "Starter",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "pirouby",
+  "DexCategory": "Ballet Dancer Pokémon",
+  "Height": {
+    "Meters": 0.76,
+    "Feet": 2.5
+  },
+  "Weight": {
+    "Kilograms": 15.0,
+    "Pounds": 33.0
+  },
+  "DexDescription": "It dances in graceful Movements as it spins its web. Appearing innocent it attracts its prey.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "String Shot"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Web Ball"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bug Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Teeter Dance"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Spider Web"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Baby-Doll Eyes"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flatter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flirty Kiss"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Pounce"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rapid Spin"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sticky Web"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Quiver Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "U-Turn"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fisticuffs"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Skitter Smack"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lunge"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Baton Pass"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Parasitize"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Silk Trap"
+    }
+  ]
+}

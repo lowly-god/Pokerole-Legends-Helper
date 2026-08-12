@@ -1,0 +1,13 @@
+{
+  "Name": "Rare Candy",
+  "_id": "rare-candy",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Supplements",
+  "Category": "Supplements",
+  "Description": "+1 Attribute / Social Attribute. Pokémon may only gain this effect once",
+  "OneUse": true,
+  "TrainerPrice": "25000",
+  "Cures": "",
+  "Image": ""
+}

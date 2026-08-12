@@ -1,0 +1,13 @@
+{
+  "Name": "Terasta Rock",
+  "_id": "terasta-rock",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Terasta Shards",
+  "Category": "Terasta Shards",
+  "Description": "When held by a Pokémon and used with a Terastal Orb allows use of Terastalization outside of Paldea.",
+  "OneUse": false,
+  "TrainerPrice": "20000",
+  "Cures": "",
+  "Image": ""
+}

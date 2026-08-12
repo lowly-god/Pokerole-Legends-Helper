@@ -1,0 +1,157 @@
+{
+  "Number": 1061,
+  "DexID": "1061",
+  "Name": "Dupedillo",
+  "Type1": "Ground",
+  "Type2": "Normal",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 4,
+  "MaxVitality": 8,
+  "Special": 1,
+  "MaxSpecial": 3,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Battle Armor",
+  "Ability2": "Unaware",
+  "HiddenAbility": "Tough Claws",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "dupedillo",
+  "DexCategory": "Unknown Pokémon",
+  "Height": {
+    "Meters": 0.97,
+    "Feet": 3.17
+  },
+  "Weight": {
+    "Kilograms": 64.9,
+    "Pounds": 143.0
+  },
+  "DexDescription": "Dupedillo is great at digging, and its tough claws aid it in battle. It still is more likely to curl up then choose to fight most opponents though.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Defense Curl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Mud Slap"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Withdraw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fury Swipes"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sand Tomb"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rollout"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Focus Energy"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Smack Down"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bulldoze"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Double-Edge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Brutal Swing"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Choke Hold"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Stomping Tantrum"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Endeavor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Last Resort"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Double Kick"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Edge"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Belly Drum"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Earthquake"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Brace"
+    }
+  ]
+}

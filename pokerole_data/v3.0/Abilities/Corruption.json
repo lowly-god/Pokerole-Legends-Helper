@@ -1,0 +1,6 @@
+{
+    "Name": "Corruption",
+    "Effect": "If this Pokémon hits its Foe with a Damaging attack, Roll 3 Chance Dice to inflict the Foe with a Curse. (Effects of the Move Curse from a Ghost-Type User).",
+    "Description": "",
+    "_id": "corruption"
+}

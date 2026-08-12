@@ -1,0 +1,137 @@
+{
+  "Number": 856,
+  "DexID": "0856F2",
+  "Name": "Hatenna (Orrean Form)",
+  "Type1": "Poison",
+  "Type2": "Fairy",
+  "BaseHP": 3,
+  "Strength": 1,
+  "MaxStrength": 3,
+  "Dexterity": 1,
+  "MaxDexterity": 3,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Magician",
+  "Ability2": "Healer",
+  "HiddenAbility": "Magic Guard",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "F",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "hatenna-orrean-form",
+  "DexCategory": "Witchcraft Pokémon",
+  "Height": {
+    "Meters": 0.41,
+    "Feet": 1.33
+  },
+  "Weight": {
+    "Kilograms": 3.2,
+    "Pounds": 7.0
+  },
+  "DexDescription": "Hatenna learns from its extended family or coven. It is cheeky and vindictive, and often feuds with Impidimp.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Play Nice"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Disarming Voice"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Psybeam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Purify"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Magical Leaf"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Clear Smog"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Poison Gas"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Will-O-Wisp"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Draining Kiss"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Rain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Crafty Shield"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Miasma"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hex"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Floral Healing"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lucky Chant"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dazzling Gleam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Magic Coat"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Mystical Fire"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Eerie Spell"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Travel Rations",
+  "_id": "travel-rations",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Provisions",
+  "Category": "Provisions",
+  "Description": "1 days food for a human character",
+  "OneUse": true,
+  "TrainerPrice": "30",
+  "Cures": "",
+  "Image": ""
+}

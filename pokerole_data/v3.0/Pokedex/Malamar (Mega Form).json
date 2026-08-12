@@ -1,0 +1,151 @@
+{
+  "Number": 687,
+  "DexID": "0687F1",
+  "Name": "Malamar (Mega Form)",
+  "Type1": "Dark",
+  "Type2": "Psychic",
+  "BaseHP": 6,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 4,
+  "MaxInsight": 8,
+  "Ability1": "Power Spot",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "malamar-mega-form",
+  "DexCategory": "Overturning Pokémon",
+  "Height": {
+    "Meters": 2.9,
+    "Feet": 9.5
+  },
+  "Weight": {
+    "Kilograms": 69.4,
+    "Pounds": 153.0
+  },
+  "DexDescription": "It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off to eat it. These Pokémon are difficult to handle as they use their Psychic abilities for evil purposes.",
+  "Evolutions": [
+    {
+      "From": "Malamar",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Peck"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Psywave"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Constrict"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hypnosis"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Pluck"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Reversal"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Payback"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swagger"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psybeam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Switcheroo"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psycho Cut"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Topsy-Turvy"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Foul Play"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Superpower"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Baton Pass"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Guard Swap"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Lash Out"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cheap Shot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shadow Tide"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Beguiling Influence"
+    }
+  ]
+}

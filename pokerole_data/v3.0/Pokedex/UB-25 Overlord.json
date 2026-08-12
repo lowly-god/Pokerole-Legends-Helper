@@ -1,0 +1,149 @@
+{
+  "Number": 1132,
+  "DexID": "1132",
+  "Name": "UB-25 Overlord",
+  "Type1": "Bug",
+  "Type2": "Dark",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Beast Boost",
+  "Ability2": "",
+  "HiddenAbility": "Tyrant",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "ub-25-overlord",
+  "DexCategory": "Ultra Beast",
+  "Height": {
+    "Meters": 1.52,
+    "Feet": 5.0
+  },
+  "Weight": {
+    "Kilograms": 54.9,
+    "Pounds": 121.0
+  },
+  "DexDescription": "Aether Foundation Log #1354: UB-Overlord seems to wordlessly command both people and Pokémon to achieve its nefarious plans.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Struggle Bug"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Flatter"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Focus Energy"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Silver Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Vacuum Wave"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Embargo"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Court Change"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Spotlight"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Signal Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Me First"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Parting Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Quiver Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Encore"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Pain Split"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Attack Order"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Defend Order"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heal Order"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Night Daze"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Focus Blast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Bug Buzz"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tyrant's Shadow"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tail Glow"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Torment"
+    }
+  ]
+}

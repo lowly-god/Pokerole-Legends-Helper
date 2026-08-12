@@ -1,0 +1,13 @@
+{
+  "Name": "Shed Shell",
+  "_id": "shed-shell",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "The holder ignores effects that would prevent Switching",
+  "OneUse": false,
+  "TrainerPrice": "2000",
+  "Cures": "",
+  "Image": ""
+}

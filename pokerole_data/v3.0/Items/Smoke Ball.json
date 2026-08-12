@@ -1,0 +1,13 @@
+{
+  "Name": "Smoke Ball",
+  "_id": "smoke-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "The holder can always Flee from Battle",
+  "OneUse": false,
+  "TrainerPrice": "2000",
+  "Cures": "",
+  "Image": ""
+}

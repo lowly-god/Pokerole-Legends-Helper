@@ -1,0 +1,153 @@
+{
+  "Number": 1130,
+  "DexID": "1130",
+  "Name": "UB-23 Pyramid",
+  "Type1": "Rock",
+  "Type2": "Psychic",
+  "BaseHP": 8,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 4,
+  "MaxVitality": 8,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 4,
+  "MaxInsight": 8,
+  "Ability1": "Beast Boost",
+  "Ability2": "",
+  "HiddenAbility": "Levitate",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "ub-23-pyramid",
+  "DexCategory": "Ultra Beast",
+  "Height": {
+    "Meters": 20.19,
+    "Feet": 66.25
+  },
+  "Weight": {
+    "Kilograms": 19999999.8,
+    "Pounds": 44092452.0
+  },
+  "DexDescription": "Aether Foundation Log #3219: UB-Pyramid first appeared above Heahea city, and wrought destruction with its odd powers. The strangest part was when it had finished, it settled down and appeared to go to sleep in the space where the city hall had once stood. It refused to wake again after.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Harden"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Stored Power"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Asteroid Shot"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psyshock"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Power Gem"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Yawn"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Amnesia"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Barrier"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Meteor Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rest"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Snore"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sleep Talk"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sandstorm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cosmic Power"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Expanding Force"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psychic Terrain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dust Devil"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Trick Room"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wide Guard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Future Sight"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Geopsychic Glyph"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Meditative Trance"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Lapidify"
+    }
+  ]
+}

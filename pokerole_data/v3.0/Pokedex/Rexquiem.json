@@ -1,0 +1,173 @@
+{
+  "Number": 1059,
+  "DexID": "1059",
+  "Name": "Rexquiem",
+  "Type1": "Ghost",
+  "Type2": "Dark",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Levitate",
+  "Ability2": "Intimidate",
+  "HiddenAbility": "Pressure",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "rexquiem",
+  "DexCategory": "Desert Reaper Pokémon",
+  "Height": {
+    "Meters": 1.7,
+    "Feet": 5.58
+  },
+  "Weight": {
+    "Kilograms": 50.3,
+    "Pounds": 111.0
+  },
+  "DexDescription": "It is a carrion eater, known colloquially known as the desert reaper.  When night falls and the air chills it silently glides through the night above the sands looking for the dead.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Pluck"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Frustration"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Shadow Sneak"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Grudge"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Swagger"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Whirlwind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Wing Attack"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Bone"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bone Rush"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Punishment"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Razor Wind"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shadow Tide"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Scorching Sands"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shadow Claw"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Harrowing Wrath"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hurricane"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Brave Bird"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Decimation"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Siphon Life-Force"
+    }
+  ]
+}

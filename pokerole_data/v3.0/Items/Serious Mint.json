@@ -1,0 +1,13 @@
+{
+  "Name": "Serious Mint",
+  "_id": "serious-mint",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Items",
+  "Category": "Special Items",
+  "Description": "Changes a Pokémon’s Nature to Serious.",
+  "OneUse": true,
+  "TrainerPrice": "15000",
+  "Cures": "",
+  "Image": ""
+}

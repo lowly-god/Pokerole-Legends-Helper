@@ -1,0 +1,151 @@
+{
+  "Number": 1102,
+  "DexID": "1102",
+  "Name": "Sigileye",
+  "Type1": "Psychic",
+  "Type2": "Flying",
+  "BaseHP": 6,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 4,
+  "MaxInsight": 8,
+  "Ability1": "Wonder Skin",
+  "Ability2": "Magic Guard",
+  "HiddenAbility": "Baleful Eye",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "sigileye",
+  "DexCategory": "Avianoid Pokémon",
+  "Height": {
+    "Meters": 1.5,
+    "Feet": 4.92
+  },
+  "Weight": {
+    "Kilograms": 17.7,
+    "Pounds": 39.0
+  },
+  "DexDescription": "It's gaze can hypnotise those that look at it. It guards ancient places of power and worship.",
+  "Evolutions": [
+    {
+      "From": "Sigilyph",
+      "Kind": "Special",
+      "Special": "Sigilyph (Rune Stone)"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Psywave"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Gust"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Gravity"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Miracle Eye"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hypnosis"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybeam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Whirlwind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cosmic Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Mirror Move"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Synchronoise"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sky Attack"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Skill Swap"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Expanding Force"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Anti-Gravity"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Singularity"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Telekinesis"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Psycho Shift"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hurricane"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Beguiling Influence"
+    }
+  ]
+}

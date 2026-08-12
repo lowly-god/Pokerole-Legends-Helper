@@ -1,0 +1,13 @@
+{
+  "Name": "Shiny Charm",
+  "_id": "shiny-charm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Items",
+  "Category": "Special Items",
+  "Description": "Shiny Luck Check drops to 70+",
+  "OneUse": false,
+  "TrainerPrice": "35000",
+  "Cures": "",
+  "Image": ""
+}

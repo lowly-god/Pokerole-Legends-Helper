@@ -1,0 +1,16 @@
+{
+    "Name": "Twin Jolt",
+    "Type": "Electric",
+    "Power": 2,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Dexterity",
+    "Accuracy2": "Channel",
+    "Target": "Foe",
+    "Effect": "Reaction 1. Double Action.",
+    "Description": "The User sends two fast bursts of electricity at the Foe, giving it no time to react.",
+    "_id": "twin-jolt",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

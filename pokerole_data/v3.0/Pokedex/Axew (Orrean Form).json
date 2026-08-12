@@ -1,0 +1,145 @@
+{
+  "Number": 610,
+  "DexID": "0610F1",
+  "Name": "Axew (Orrean Form)",
+  "Type1": "Dragon",
+  "Type2": "Rock",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 1,
+  "MaxSpecial": 3,
+  "Insight": 1,
+  "MaxInsight": 3,
+  "Ability1": "Mold Breaker",
+  "Ability2": "Flinty Spirit",
+  "HiddenAbility": "Rock Head",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "axew-orrean-form",
+  "DexCategory": "Flint Tusk Pokémon",
+  "Height": {
+    "Meters": 0.61,
+    "Feet": 2.0
+  },
+  "Weight": {
+    "Kilograms": 18.6,
+    "Pounds": 41.0
+  },
+  "DexDescription": "It obsessively chips and sharpens the flint like protrusions that grow from its face. They grow at a very fast rate and if not chipped down can pose a threat to Axew's health.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Horn Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sandstorm"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Accelerock"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dragon Claw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rock Smash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stalacbite"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dual Chop"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Rage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Head Smash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Guillotine"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Megahorn"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wide Guard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Rock Polish"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "First Impression"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Earthquake"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Counter"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "Name": "Incredible Feat",
+    "Type": "Fighting",
+    "Power": 6,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Strength",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Accuracy -3. Add +2 Bonus Dice to the Accuracy Pool of this Move, for each time this Move misses the Target.",
+    "Description": "The User channels unfathomable power into a strike that shall echo through the annals of legend.",
+    "_id": "incredible-feat",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

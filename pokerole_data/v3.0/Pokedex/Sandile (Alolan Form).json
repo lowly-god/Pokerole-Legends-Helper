@@ -1,0 +1,145 @@
+{
+  "Number": 551,
+  "DexID": "0551F1",
+  "Name": "Sandile (Alolan Form)",
+  "Type1": "Water",
+  "Type2": "Ground",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 1,
+  "MaxSpecial": 3,
+  "Insight": 1,
+  "MaxInsight": 3,
+  "Ability1": "Moxie",
+  "Ability2": "Bubble Vision",
+  "HiddenAbility": "Strong Jaw",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "sandile-alolan-form",
+  "DexCategory": "Crocodile Pokémon",
+  "Height": {
+    "Meters": 0.71,
+    "Feet": 2.33
+  },
+  "Weight": {
+    "Kilograms": 15.0,
+    "Pounds": 33.0
+  },
+  "DexDescription": "It lives in swampy tropical rivers. It plays in the mud near the river banks. It keeps a constant bubble over each of its eyes which keep them clean and improve its vision under water.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Rage"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Mud Slap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Muddy Water"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mud Bomb"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Embargo"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Swagger"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Soak"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Tail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Beat Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Thrash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Fang"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Liquidation"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Stomping Tantrum"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Flip Turn"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Earthquake"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Iron Tail"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Stalacbite"
+    }
+  ]
+}

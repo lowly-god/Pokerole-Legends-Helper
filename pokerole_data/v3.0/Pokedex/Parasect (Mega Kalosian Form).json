@@ -1,0 +1,159 @@
+{
+  "Number": 47,
+  "DexID": "0047F2",
+  "Name": "Parasect (Mega Kalosian Form)",
+  "Type1": "Bug",
+  "Type2": "Psychic",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Intrusive Thoughts",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "parasect-mega-kalosian-form",
+  "DexCategory": "Mushroom Pokémon",
+  "Height": {
+    "Meters": 1.37,
+    "Feet": 4.5
+  },
+  "Weight": {
+    "Kilograms": 46.7,
+    "Pounds": 103.0
+  },
+  "DexDescription": "The colony of mushrooms on Parasect's back produce a dull bioluminescence. Waving its claws it can manipulate objects with psionic power, crushing them with a force of 180 PSI.",
+  "Evolutions": [
+    {
+      "From": "Parasect (Kalosian Form)",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Scratch"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Stun Spore"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Poison Powder"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sleep Powder"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fury Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Struggle Bug"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Growth"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psywave"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Infestation"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Leech Life"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Parasitize"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic Terrain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spore"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Giga Drain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psycho Cut"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Rage Powder"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Quiver Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "X-Scissor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dream Eater"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Pollen Puff"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Fell Stinger"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wide Guard"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Moonlight"
+    }
+  ]
+}

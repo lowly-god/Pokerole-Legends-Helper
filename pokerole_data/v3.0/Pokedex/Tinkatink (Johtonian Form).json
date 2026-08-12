@@ -1,0 +1,129 @@
+{
+  "Number": 957,
+  "DexID": "0957F1",
+  "Name": "Tinkatink (Johtonian Form)",
+  "Type1": "Steel",
+  "Type2": "Ghost",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 1,
+  "MaxDexterity": 3,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 1,
+  "MaxSpecial": 3,
+  "Insight": 1,
+  "MaxInsight": 3,
+  "Ability1": "Mold Breaker",
+  "Ability2": "Infiltrator",
+  "HiddenAbility": "Sharpness",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "tinkatink-johtonian-form",
+  "DexCategory": "Spectral Swordsmith Pokémon",
+  "Height": {
+    "Meters": 0.41,
+    "Feet": 1.33
+  },
+  "Weight": {
+    "Kilograms": 9.1,
+    "Pounds": 20.0
+  },
+  "DexDescription": "It's body seems to be a gel like exterior coating the skeleton. It carries with it a stone blade made of chipped flint.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fury Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Metal Sound"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thief"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Curse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Shadow Sneak"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Scrap Metal"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Grudge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Claw"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Snatch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gear Up"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "False Swipe"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Play Rough"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Metal Burst"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Destiny Bond"
+    }
+  ]
+}

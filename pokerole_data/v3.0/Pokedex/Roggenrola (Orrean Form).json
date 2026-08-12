@@ -1,0 +1,133 @@
+{
+  "Number": 524,
+  "DexID": "0524F1",
+  "Name": "Roggenrola (Orrean Form)",
+  "Type1": "Rock",
+  "Type2": "Fire",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 1,
+  "MaxDexterity": 2,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 1,
+  "MaxSpecial": 3,
+  "Insight": 1,
+  "MaxInsight": 3,
+  "Ability1": "Sturdy",
+  "Ability2": "Drought",
+  "HiddenAbility": "Rock Head",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "roggenrola-orrean-form",
+  "DexCategory": "Mantle Pokémon",
+  "Height": {
+    "Meters": 0.41,
+    "Feet": 1.33
+  },
+  "Weight": {
+    "Kilograms": 17.7,
+    "Pounds": 39.0
+  },
+  "DexDescription": "It is made from compressed rock, though its core is roiling molten magma.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Harden"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Headbutt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rock Blast"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mud Slap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flame Wheel"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stealth Rock"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sandstorm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rock Slide"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flame Charge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Smack Down"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Stone Edge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Explosion"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heavy Slam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Stomping Tantrum"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gravity"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heat Crash"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Lock-On"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Magnitude"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Flare Blitz"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cauterize"
+    }
+  ]
+}

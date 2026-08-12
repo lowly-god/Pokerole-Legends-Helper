@@ -1,0 +1,13 @@
+{
+  "Name": "Big Nugget",
+  "_id": "big-nugget",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Miscellaneous",
+  "Description": "Valuable item",
+  "OneUse": false,
+  "TrainerPrice": "20000",
+  "Cures": "",
+  "Image": ""
+}

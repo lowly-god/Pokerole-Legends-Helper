@@ -1,0 +1,143 @@
+{
+  "Number": 26,
+  "DexID": "0026F2",
+  "Name": "Raichu (Mega Y Form)",
+  "Type1": "Electric",
+  "Type2": "",
+  "BaseHP": 6,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "No Guard",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "raichu-mega-y-form",
+  "DexCategory": "Rapid Jolt Pokémon",
+  "Height": {
+    "Meters": 0.99,
+    "Feet": 3.25
+  },
+  "Weight": {
+    "Kilograms": 30.4,
+    "Pounds": 67.0
+  },
+  "DexDescription": "When electricity builds on its body, it starts to emit a faint glow and it becomes more aggressive than it normally is. They live in forests but are rare to find in the wild.",
+  "Evolutions": [
+    {
+      "From": "Raichu",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Thunder Shock"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Tail Whip"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Play Nice"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thunder Wave"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Quick Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Thunder Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Spark"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Electric Terrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Thunderbolt"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Discharge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wild Charge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Thunder"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Volt Tackle"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Rising Voltage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wish"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Grass Knot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Surf"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Fly"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twin Jolt"
+    }
+  ]
+}

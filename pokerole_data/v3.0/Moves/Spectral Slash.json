@@ -1,0 +1,16 @@
+{
+    "Name": "Spectral Slash",
+    "Type": "Ghost",
+    "Power": 4,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Strength",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Cutter Move. Lethal. High Critical.",
+    "Description": "With a baleful spectral blade honed to an impossibly fine edge, the User slashes at the Foe.",
+    "_id": "spectral-slash",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

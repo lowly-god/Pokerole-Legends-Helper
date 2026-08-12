@@ -1,0 +1,13 @@
+{
+  "Name": "De-Petrification Gel",
+  "_id": "de-petrification-gel",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Medicine",
+  "Category": "Medicine",
+  "Description": "Cures Petrified Status Condition",
+  "OneUse": true,
+  "TrainerPrice": "250",
+  "Cures": "",
+  "Image": ""
+}

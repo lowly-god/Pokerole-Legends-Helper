@@ -1,0 +1,16 @@
+{
+    "Name": "Frost Slash",
+    "Type": "Ice",
+    "Power": 3,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Dexterity",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Cutter Move. High Critical. Roll 3 Chance Dice to Frostbite (1) the Foe.",
+    "Description": "The User creates jagged ice over its claws.",
+    "_id": "frost-slash",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

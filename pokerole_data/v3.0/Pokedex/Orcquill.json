@@ -1,0 +1,153 @@
+{
+  "Number": 1077,
+  "DexID": "1077",
+  "Name": "Orcquill",
+  "Type1": "Dark",
+  "Type2": "Steel",
+  "BaseHP": 8,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 3,
+  "MaxInsight": 7,
+  "Ability1": "Ink Spray",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "orcquill",
+  "DexCategory": "Calligraphy Pokémon",
+  "Height": {
+    "Meters": 3.73,
+    "Feet": 12.25
+  },
+  "Weight": {
+    "Kilograms": 277.6,
+    "Pounds": 612.0
+  },
+  "DexDescription": "It lives far out to sea, its glass like body polished to dull lustre by the ocean waves. Though strong, it usually sprays ink and escapes rather than engaging in battle.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Water Gun"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Noble Roar"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Iron Tail"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Snarl"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Soak"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Assurance"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Metal Sound"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Doodle"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Body Slam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Tail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Memento"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flash Cannon"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heavy Slam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Foul Play"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hydro Pump"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Night Daze"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shadow Tide"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Amnesia"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Edge"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Life Dew"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Aqua Surge"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Double Iron Bash"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Sketch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mirror Shield"
+    }
+  ]
+}

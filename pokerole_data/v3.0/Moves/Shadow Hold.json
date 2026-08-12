@@ -1,0 +1,16 @@
+{
+    "Name": "Shadow Hold",
+    "Type": "Shadow",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Tough/Clever",
+    "Accuracy2": "Intimidate",
+    "Target": "All Foes",
+    "Effect": "Blocks. Reduce the Defense of those affected by 2.",
+    "Description": "A shadowy aura sharply cuts the Foe's Defense.",
+    "_id": "shadow-hold",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

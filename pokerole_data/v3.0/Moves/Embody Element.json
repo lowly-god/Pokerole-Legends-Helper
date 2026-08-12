@@ -1,0 +1,16 @@
+{
+    "Name": "Embody Element",
+    "Type": "Normal",
+    "Power": 3,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Dexterity/Insight",
+    "Accuracy2": "Brawl",
+    "Target": "Random Foe",
+    "Effect": "The Type of this Move is decided by the environment.",
+    "Description": "The User draws power from its surroundings before launching an attack.",
+    "_id": "embody-element",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

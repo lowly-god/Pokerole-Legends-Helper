@@ -1,0 +1,149 @@
+{
+  "Number": 1047,
+  "DexID": "1047F1",
+  "Name": "Chimaooze (Plague King Form)",
+  "Type1": "Poison",
+  "Type2": "Dark",
+  "BaseHP": 7,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Plague Pack",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "chimaooze-plague-king-form",
+  "DexCategory": "King Ooze Pokémon",
+  "Height": {
+    "Meters": 2.26,
+    "Feet": 7.42
+  },
+  "Weight": {
+    "Kilograms": 118.4,
+    "Pounds": 261.0
+  },
+  "DexDescription": "Chimaooze is a strange ooze like Pokémon often found in rubbish dumps, middens and sewers. In small numbers they are not too dangerous but when they swarm they can become a plague on a town or settlement. Raiding food stores and causing illness. The ooze its body is made of is incredibly toxic to most other living things. It's rumoured that when many Chimaooze gather a king emerges as they combine into one giant form.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Poison Gas"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Feint Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sludge"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Poison Jab"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Screech"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Acid Spray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Acid Armor"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sludge Bomb"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Coil"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Poison Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Giga Drain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embargo"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Foul Play"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Gastro Acid"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sludge Wave"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shadow Tide"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Cheap Shot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Facade"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Leech Life"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Gunk Shot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Parting Shot"
+    }
+  ]
+}

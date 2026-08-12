@@ -1,0 +1,149 @@
+{
+  "Number": 189,
+  "DexID": "0189F1",
+  "Name": "Jumpluff (Unovan Form)",
+  "Type1": "Poison",
+  "Type2": "Psychic",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Parasomnia",
+  "Ability2": "Infiltrator",
+  "HiddenAbility": "Prankster",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "jumpluff-unovan-form",
+  "DexCategory": "Somniferous Pollen Pokémon",
+  "Height": {
+    "Meters": 0.84,
+    "Feet": 2.75
+  },
+  "Weight": {
+    "Kilograms": 3.2,
+    "Pounds": 7.0
+  },
+  "DexDescription": "The pollen from its limbs causes powerful drowsiness that eventually knock out its opponents. It flies lowly in the evening, hunting for people's dreams.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Tail Whip"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Pain Split"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Acid"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sleep Powder"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Poison Powder"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Stun Spore"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Nightmare"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybeam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Miasma"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dream Eater"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cotton Spore"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cotton Guard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Leech Seed"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mean Look"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Venoshock"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Rage Powder"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonlight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Leaf Shield"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psychic Terrain"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Giga Drain"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Destiny Bond"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Spore"
+    }
+  ]
+}

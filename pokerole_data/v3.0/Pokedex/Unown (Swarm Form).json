@@ -1,0 +1,45 @@
+{
+  "Number": 201,
+  "DexID": "0201F2",
+  "Name": "Unown (Swarm Form)",
+  "Type1": "Psychic",
+  "Type2": "",
+  "BaseHP": 12,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Reality Warping Swarm",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "unown-swarm-form",
+  "DexCategory": "Symbol Pokémon",
+  "Height": {
+    "Meters": 2.34,
+    "Feet": 7.67
+  },
+  "Weight": {
+    "Kilograms": 99.8,
+    "Pounds": 220.0
+  },
+  "DexDescription": "When many Unown gather together they can warp the very fabric of reality itself. Often painfully for those involved.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Hidden Power Of The Swarm"
+    }
+  ]
+}

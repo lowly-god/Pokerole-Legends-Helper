@@ -1,0 +1,163 @@
+{
+  "Number": 1105,
+  "DexID": "1105",
+  "Name": "Aileyahn",
+  "Type1": "Psychic",
+  "Type2": "Steel",
+  "BaseHP": 6,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 7,
+  "Ability1": "Analytic",
+  "Ability2": "Synchronize",
+  "HiddenAbility": "Feedback",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "aileyahn",
+  "DexCategory": "Cerebral Pokémon",
+  "Height": {
+    "Meters": 1.22,
+    "Feet": 4.0
+  },
+  "Weight": {
+    "Kilograms": 45.4,
+    "Pounds": 100.0
+  },
+  "DexDescription": "Some say it came from space, but the markings on its body resemble those found on ancient ruins and other strange ancient Pokémon.",
+  "Evolutions": [
+    {
+      "From": "Beheeyem",
+      "Kind": "Special",
+      "Special": "Beheeyem (Rune Stone)"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Imprison"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Teleport"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Miracle Eye"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybeam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Power Split"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Guard Split"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Meteor Beam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mirror Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cosmic Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Metal Sound"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Zen Headbutt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Anti-Gravity"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Singularity"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Flash Cannon"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psychic Terrain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wonder Room"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Null Room"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Expanding Force"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Steel Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Teleport"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Meditative Trance"
+    }
+  ]
+}

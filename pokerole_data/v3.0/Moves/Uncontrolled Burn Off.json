@@ -1,0 +1,16 @@
+{
+    "Name": "Uncontrolled Burn Off",
+    "Type": "Fire",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Insight",
+    "Accuracy2": "Channel",
+    "Target": "Battlefield",
+    "Effect": "Destroy any active Terrain-Types. All Non Fire-Type Active Combatants not removed from battle before the beginning of the next Round, will suffer Burn (1). This Move fails if no Terrain-Type is active.",
+    "Description": "The User sends out a curtain of flame, burning off the terrain and setting the Battlefield ablaze.",
+    "_id": "uncontrolled-burn-off",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

@@ -1,0 +1,16 @@
+{
+    "Name": "Magma Crunch",
+    "Type": "Fire",
+    "Power": 4,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Strength",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Roll 4 Chance Dice to Burn (2) the Foe. Lethal.",
+    "Description": "The User bites down on the Foe with its pincers, it then drools molten magma on them.",
+    "_id": "magma-crunch",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

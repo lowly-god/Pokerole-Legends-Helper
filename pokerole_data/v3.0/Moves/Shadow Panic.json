@@ -1,0 +1,16 @@
+{
+    "Name": "Shadow Panic",
+    "Type": "Shadow",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Tough",
+    "Accuracy2": "Intimidate",
+    "Target": "All Foes",
+    "Effect": "Accuracy -2. Confuse those affected.",
+    "Description": "A shadowy aura emanates to cause a Confuse condition.",
+    "_id": "shadow-panic",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

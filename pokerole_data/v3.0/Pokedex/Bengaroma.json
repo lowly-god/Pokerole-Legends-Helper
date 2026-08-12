@@ -1,0 +1,161 @@
+{
+  "Number": 1098,
+  "DexID": "1098",
+  "Name": "Bengaroma",
+  "Type1": "Fire",
+  "Type2": "Fairy",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 3,
+  "MaxInsight": 7,
+  "Ability1": "Aroma Veil",
+  "Ability2": "Misty Surge",
+  "HiddenAbility": "Soothing Aroma",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "bengaroma",
+  "DexCategory": "Incense Tiger Pokémon",
+  "Height": {
+    "Meters": 1.35,
+    "Feet": 4.42
+  },
+  "Weight": {
+    "Kilograms": 27.2,
+    "Pounds": 60.0
+  },
+  "DexDescription": "Despite its predator like look, it is very friendly and affectionate. It's known to be a very lazy Pokémon, Most likely seen dozing somewhere in a sunbeam.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Lick"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Smokescreen"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Ember"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Aromatic Mist"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Strange Steam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aromatherapy"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flame Burst"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Will-O-Wisp"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sweet Scent"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cleansing Fire"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Haze"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mist"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Clear Smog"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Yawn"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rest"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Snore"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sleep Talk"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Morning Sun"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heat Wave"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Amnesia"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fire Blast"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Magic Coat"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Miasma"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Misty Explosion"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cauterize"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Meditative Trance"
+    }
+  ]
+}

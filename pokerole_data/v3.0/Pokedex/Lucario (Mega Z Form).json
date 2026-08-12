@@ -1,0 +1,175 @@
+{
+  "Number": 448,
+  "DexID": "0448F1",
+  "Name": "Lucario (Mega Z Form)",
+  "Type1": "Fighting",
+  "Type2": "Steel",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 4,
+  "MaxDexterity": 8,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Duellist",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "lucario-mega-z-form",
+  "DexCategory": "Aura Pokémon",
+  "Height": {
+    "Meters": 1.3,
+    "Feet": 4.25
+  },
+  "Weight": {
+    "Kilograms": 49.0,
+    "Pounds": 108.0
+  },
+  "DexDescription": "This Pokémon is completely loyal to its trainer. It has the ability to not only see auras but also to transform them into energy. It is also capable of understanding human speech.",
+  "Evolutions": [
+    {
+      "From": "Lucario",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Quick Attack"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Foresight"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Laser Focus"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Counter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Feint"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rock Smash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bulk Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Metal Sound"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Detect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Me First"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bullet Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aura Sphere"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Extreme Speed"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Bone Rush"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heal Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Meteor Mash"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Life Dew"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Final Gambit"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aura Strike"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Meditative Trance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Edge"
+    }
+  ]
+}

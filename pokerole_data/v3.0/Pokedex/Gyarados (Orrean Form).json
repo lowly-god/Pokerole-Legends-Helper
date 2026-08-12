@@ -1,0 +1,161 @@
+{
+  "Number": 130,
+  "DexID": "0130F1",
+  "Name": "Gyarados (Orrean Form)",
+  "Type1": "Water",
+  "Type2": "Rock",
+  "BaseHP": 7,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Intimidate",
+  "Ability2": "Rock Head",
+  "HiddenAbility": "Sturdy",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "gyarados-orrean-form",
+  "DexCategory": "Crystal Serpent Pokémon",
+  "Height": {
+    "Meters": 6.86,
+    "Feet": 22.5
+  },
+  "Weight": {
+    "Kilograms": 392.4,
+    "Pounds": 865.0
+  },
+  "DexDescription": "It can be found in deep underground lakes and waterfalls. It’s crystalline protrusions glow with a bright bioluminescence. It’s temper is somehow even worse than the standard form.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Dragon Rage"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Twister"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Aqua Jet"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Accelerock"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Smack Down"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Headbutt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aqua Tail"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dragon Rage"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Fang"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stalacbite"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Submission"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Waterfall"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Head Smash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Head Charge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Eerie Impulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hyper Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hydro Pump"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wave Crash"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Signal Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Draco Jaw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Caustic Breath"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Brace"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lapidify"
+    }
+  ]
+}

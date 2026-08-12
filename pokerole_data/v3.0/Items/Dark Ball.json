@@ -1,0 +1,13 @@
+{
+  "Name": "Dark Ball",
+  "_id": "dark-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Other Balls",
+  "Category": "Other Balls",
+  "Description": "Will + Intimidate, captured Pokémon becomes Shadow-Type",
+  "OneUse": true,
+  "TrainerPrice": "N/A",
+  "Cures": "",
+  "Image": ""
+}

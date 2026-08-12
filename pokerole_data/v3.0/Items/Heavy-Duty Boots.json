@@ -1,0 +1,13 @@
+{
+  "Name": "Heavy-Duty Boots",
+  "_id": "heavy-duty-boots",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Protects User from Trap Moves",
+  "OneUse": false,
+  "TrainerPrice": "5000",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,16 @@
+{
+    "Name": "Vorpal Blade",
+    "Type": "Fairy",
+    "Power": 3,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Dexterity/Strength",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Cutter Move. Roll 1 Chance Dice to increase the Damage Dice of this Move by 5.",
+    "Description": "The vorpal blade went snicker-snack!",
+    "_id": "vorpal-blade",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

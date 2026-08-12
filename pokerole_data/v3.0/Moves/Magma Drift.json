@@ -1,0 +1,16 @@
+{
+    "Name": "Magma Drift",
+    "Type": "Fire",
+    "Power": 4,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Dexterity",
+    "Accuracy2": "Channel",
+    "Target": "Area",
+    "Effect": "Lethal. Roll 3 Chance Dice to Burn (2) those affected.",
+    "Description": "The User swamps the area with a giant wave of flowing magma. It can also be used to cross lava.",
+    "_id": "magma-drift",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

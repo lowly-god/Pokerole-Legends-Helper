@@ -1,0 +1,149 @@
+{
+  "Number": 859,
+  "DexID": "0859F1",
+  "Name": "Impidimp (Orrean Form)",
+  "Type1": "Rock",
+  "Type2": "Dark",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 1,
+  "MaxInsight": 3,
+  "Ability1": "Invisibility",
+  "Ability2": "Levitate",
+  "HiddenAbility": "Prankster",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "M",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "impidimp-orrean-form",
+  "DexCategory": "Gargoyle Pokémon",
+  "Height": {
+    "Meters": 0.41,
+    "Feet": 1.33
+  },
+  "Weight": {
+    "Kilograms": 34.9,
+    "Pounds": 77.0
+  },
+  "DexDescription": "Impidimp gather on the corner of roofs, leering and glaring at passers by. There have recently been a number of number of incidents in Neo Elysium, where they have thrown roof tiles at people they don’t like.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Confide"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rock Blast"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Accelerock"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bullet Punch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Snarl"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Wing Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Payback"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stealth Rock"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Smack Down"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sucker Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Claw"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Power-Up Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Rock Polish"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lash Out"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wide Guard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sky Attack"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Phantom Force"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dragon Breath"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cheap Shot"
+    }
+  ]
+}

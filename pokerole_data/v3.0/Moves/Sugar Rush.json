@@ -1,0 +1,16 @@
+{
+    "Name": "Sugar Rush",
+    "Type": "Fairy",
+    "Power": 2,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Dexterity",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Reaction 1.",
+    "Description": "The User absorbing energy from its own saccharine body, lunges at the Target.",
+    "_id": "sugar-rush",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

@@ -1,0 +1,16 @@
+{
+    "Name": "Flirty Kiss",
+    "Type": "Fairy",
+    "Power": 2,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Dexterity/Cute",
+    "Accuracy2": "Charm",
+    "Target": "Foe",
+    "Effect": "Roll 3 Chance Dice to make the Target fall In Love with the User.",
+    "Description": "The User gives the Target a flirty kiss, possibly causing the Target to fall in love.",
+    "_id": "flirty-kiss",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

@@ -1,0 +1,149 @@
+{
+  "Number": 701,
+  "DexID": "0701F1",
+  "Name": "Hawlucha (Orrean Form)",
+  "Type1": "Flying",
+  "Type2": "Ground",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Limber",
+  "Ability2": "Guts",
+  "HiddenAbility": "Mold Breaker",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "hawlucha-orrean-form",
+  "DexCategory": "Wrestling Pokémon",
+  "Height": {
+    "Meters": 0.99,
+    "Feet": 3.25
+  },
+  "Weight": {
+    "Kilograms": 25.4,
+    "Pounds": 56.0
+  },
+  "DexDescription": "It calls rocky canyons home, where it leaps and glides within them. It always seeks to better its performance in battle, endlessly practising new Moves and techniques.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Focus Energy"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Mud Slap"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Roost"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Jet Strike"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Feather Dance"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fling"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bounce"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Wing Attack"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Piledriver"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cheap Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sky Drop"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Drill Run"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aerial Ace"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Encore"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Choke Hold"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Headlong Rush"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Endeavor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sky Attack"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Magnitude"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Flying Press"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dual Chop"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Coaching"
+    }
+  ]
+}

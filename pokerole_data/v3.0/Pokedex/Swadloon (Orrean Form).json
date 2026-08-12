@@ -1,0 +1,101 @@
+{
+  "Number": 541,
+  "DexID": "0541F1",
+  "Name": "Swadloon (Orrean Form)",
+  "Type1": "Bug",
+  "Type2": "Dragon",
+  "BaseHP": 4,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 1,
+  "MaxDexterity": 3,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Shed Skin",
+  "Ability2": "Swarm",
+  "HiddenAbility": "Anger Point",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "swadloon-orrean-form",
+  "DexCategory": "Leaf-Wrapped Pokémon",
+  "Height": {
+    "Meters": 0.53,
+    "Feet": 1.75
+  },
+  "Weight": {
+    "Kilograms": 8.6,
+    "Pounds": 19.0
+  },
+  "DexDescription": "Using its silhouette to ward off enemies, it prefers hiding in darker spots where visibility isn't as high. It's prone to attacking anyone that gets too close while its eating.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "String Shot"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Razor Leaf"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bug Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fell Stinger"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Skitter Smack"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Rage Powder"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dragon Cheer"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Camouflage"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    }
+  ]
+}

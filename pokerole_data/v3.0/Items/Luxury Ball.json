@@ -1,0 +1,13 @@
+{
+  "Name": "Luxury Ball",
+  "_id": "luxury-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Artisan Balls",
+  "Category": "Artisan Balls",
+  "Description": "4d6 base; +4d6; caught Pokémon regain 1 Will Point each day",
+  "OneUse": true,
+  "TrainerPrice": "2500",
+  "Cures": "",
+  "Image": ""
+}

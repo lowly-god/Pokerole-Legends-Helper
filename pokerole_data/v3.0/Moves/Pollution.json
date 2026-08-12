@@ -1,0 +1,16 @@
+{
+    "Name": "Pollution",
+    "Type": "Poison",
+    "Power": 3,
+    "Damage1": "Special",
+    "Damage2": "",
+    "Accuracy1": "Dexterity/Special",
+    "Accuracy2": "Channel",
+    "Target": "Foe",
+    "Effect": "This Move does Super-Effective Damage against Water-Types. Roll 1 Chance Dice to Poison the Foe.",
+    "Description": "The User dumps toxic chemicals on the Target. This may also poison the Target.",
+    "_id": "pollution",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Special"
+}

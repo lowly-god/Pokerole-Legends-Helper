@@ -1,0 +1,149 @@
+{
+  "Number": 1147,
+  "DexID": "1147",
+  "Name": "Iron Dish",
+  "Type1": "Electric",
+  "Type2": "Psychic",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 3,
+  "MaxVitality": 7,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Quark Drive",
+  "Ability2": "",
+  "HiddenAbility": "Solar Power",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "iron-dish",
+  "DexCategory": "Paradox Pokémon",
+  "Height": {
+    "Meters": 1.35,
+    "Feet": 4.42
+  },
+  "Weight": {
+    "Kilograms": 23.1,
+    "Pounds": 51.0
+  },
+  "DexDescription": "It is similar to an object described in Occulture magazine. Supposedly it is nigh-impenetrable and is able to absorb solar radiation to repair itself in a process similar to photosynthesis. It seems to be equipped with analysis tools far beyond those found today.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Recycle"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Spotlight"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Spectrum Analysis"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Morning Sun"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybeam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Electric Terrain"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thunderbolt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thunder Wave"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Discharge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Virus Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lucky Chant"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flash Cannon"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Amnesia"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Expanding Force"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Eerie Impulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Solar Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Charge Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Magic Coat"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Zap Cannon"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Rain"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Meltdown"
+    }
+  ]
+}

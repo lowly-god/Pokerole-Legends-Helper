@@ -1,0 +1,6 @@
+{
+    "Name": "Poisoned Treats",
+    "Effect": "Any Foe’s consuming or using health or Status restoring Items during battle become Badly Poisoned after gaining the Item’s normal effects. Steel-Types are not Immune to this effect.",
+    "Description": "",
+    "_id": "poisoned-treats"
+}

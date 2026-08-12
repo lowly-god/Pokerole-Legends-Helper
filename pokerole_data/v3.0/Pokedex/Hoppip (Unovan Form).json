@@ -1,0 +1,145 @@
+{
+  "Number": 187,
+  "DexID": "0187F1",
+  "Name": "Hoppip (Unovan Form)",
+  "Type1": "Poison",
+  "Type2": "Psychic",
+  "BaseHP": 3,
+  "Strength": 1,
+  "MaxStrength": 3,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 1,
+  "MaxVitality": 3,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 1,
+  "MaxInsight": 3,
+  "Ability1": "Parasomnia",
+  "Ability2": "Infiltrator",
+  "HiddenAbility": "Prankster",
+  "EventAbilities": "",
+  "RecommendedRank": "Rookie",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "hoppip-unovan-form",
+  "DexCategory": "Somniferous Pollen Pokémon",
+  "Height": {
+    "Meters": 0.41,
+    "Feet": 1.33
+  },
+  "Weight": {
+    "Kilograms": 0.5,
+    "Pounds": 1.0
+  },
+  "DexDescription": "It is known to produce a strange powder from the leaves on its head that cause sleep.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Tail Whip"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Pain Split"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Acid"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sleep Powder"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Poison Powder"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Stun Spore"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Nightmare"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybeam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Miasma"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dream Eater"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cotton Spore"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cotton Guard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Leech Seed"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mean Look"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Venoshock"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Rage Powder"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonlight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Leaf Shield"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psychic Terrain"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Giga Drain"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Destiny Bond"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Nasty Plot"
+    }
+  ]
+}

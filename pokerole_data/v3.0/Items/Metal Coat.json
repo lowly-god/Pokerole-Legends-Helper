@@ -1,0 +1,13 @@
+{
+  "Name": "Metal Coat",
+  "_id": "metal-coat",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Steel Moves gain +1 additional Damage Dice / Evolves Onix into Steelix / Scyther into Scizor",
+  "OneUse": false,
+  "TrainerPrice": "8000",
+  "Cures": "",
+  "Image": ""
+}

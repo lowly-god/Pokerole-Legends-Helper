@@ -1,0 +1,13 @@
+{
+  "Name": "Exp All",
+  "_id": "exp-all",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Items",
+  "Category": "Special Items",
+  "Description": "All Pokémon in the Party gain 1 Training Point for each victory claimed by other Pokémon in the party",
+  "OneUse": false,
+  "TrainerPrice": "60000",
+  "Cures": "",
+  "Image": ""
+}

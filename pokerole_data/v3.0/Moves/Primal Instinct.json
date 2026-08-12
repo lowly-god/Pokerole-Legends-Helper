@@ -1,0 +1,16 @@
+{
+    "Name": "Primal Instinct",
+    "Type": "Dark",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Insight",
+    "Accuracy2": "Nature",
+    "Target": "Foe",
+    "Effect": "The Foe cannot Evade Moves performed by the User. Additionally the User gains +1 Bonus Dice to the Accuracy rolls of Moves made against the Target.",
+    "Description": "The User calls upon its primal instincts to anticipate the Foe's Movements.",
+    "_id": "primal-instinct",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

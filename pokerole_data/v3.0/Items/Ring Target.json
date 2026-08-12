@@ -1,0 +1,13 @@
+{
+  "Name": "Ring Target",
+  "_id": "ring-target",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "The holder loses Immunities",
+  "OneUse": false,
+  "TrainerPrice": "2000",
+  "Cures": "",
+  "Image": ""
+}

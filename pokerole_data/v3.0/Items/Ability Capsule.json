@@ -1,0 +1,13 @@
+{
+  "Name": "Ability Capsule",
+  "_id": "ability-capsule",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Supplements",
+  "Category": "Supplements",
+  "Description": "Grants Hidden",
+  "OneUse": true,
+  "TrainerPrice": "15000",
+  "Cures": "",
+  "Image": ""
+}

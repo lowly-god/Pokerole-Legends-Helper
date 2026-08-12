@@ -1,0 +1,13 @@
+{
+  "Name": "Kings Rock",
+  "_id": "kings-rock",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "User’s Damaging Moves gain roll 2 Chance Dice to Flinch / Evolves Poliwhirl into Politoed / Slowpoke into Slowking",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

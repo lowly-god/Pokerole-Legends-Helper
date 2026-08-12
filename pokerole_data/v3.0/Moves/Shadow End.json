@@ -1,0 +1,16 @@
+{
+    "Name": "Shadow End",
+    "Type": "Shadow",
+    "Power": 5,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Strength",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Recoil.",
+    "Description": "A shadowy aura ram attack that also rebounds on the User.",
+    "_id": "shadow-end",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

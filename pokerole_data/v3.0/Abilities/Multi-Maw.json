@@ -1,0 +1,6 @@
+{
+    "Name": "Multi-Maw",
+    "Effect": "The User’s Bite Moves have their base Damage Pool halved (rounded down), but are made as Double Actions.",
+    "Description": "",
+    "_id": "multi-maw"
+}

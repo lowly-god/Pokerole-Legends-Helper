@@ -1,0 +1,16 @@
+{
+    "Name": "Twilight Zone",
+    "Type": "Dark",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Special",
+    "Accuracy2": "Nature",
+    "Target": "Battlefield",
+    "Effect": "Activate Midnight Weather. Duration 4 Rounds.",
+    "Description": "The User causes the skies to darken, and the stars to twinkle.",
+    "_id": "twilight-zone",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

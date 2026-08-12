@@ -1,0 +1,16 @@
+{
+    "Name": "Devouring Abyss",
+    "Type": "Dark",
+    "Power": 5,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Strength/Vitality",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "The User eats the Foe's Held Item. (Effects may apply at Storyteller’s discretion).",
+    "Description": "The User devours all in its path.",
+    "_id": "devouring-abyss",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

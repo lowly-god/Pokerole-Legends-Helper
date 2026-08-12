@@ -1,0 +1,149 @@
+{
+  "Number": 282,
+  "DexID": "0282F1",
+  "Name": "Gardevoir (Johtonian Form)",
+  "Type1": "Psychic",
+  "Type2": "Water",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 4,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Competitive",
+  "Ability2": "Clear Body",
+  "HiddenAbility": "Hydration",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "gardevoir-johtonian-form",
+  "DexCategory": "Wave Witch Pokémon",
+  "Height": {
+    "Meters": 1.55,
+    "Feet": 5.08
+  },
+  "Weight": {
+    "Kilograms": 53.1,
+    "Pounds": 117.0
+  },
+  "DexDescription": "Known as the witch of the sea, this semi aquatic Pokémon is a powerful psychic, able to create whirlPools and vortexes with its powers. It is known to sink ships if it believes it has been slighted by their crew.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Psybeam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Water Pulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybolt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Draining Kiss"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aqua Ring"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Attract"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic Terrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Chilling Water"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psy-Vortex"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Teleport"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hydro Pump"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heart Breaker"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hoarfrost Moon"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Destiny Bond"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Shadow Tide"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Beguiling Influence"
+    }
+  ]
+}

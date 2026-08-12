@@ -1,0 +1,13 @@
+{
+  "Name": "Soda Pop",
+  "_id": "soda-pop",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Provisions",
+  "Category": "Provisions",
+  "Description": "Heal 4HP single use",
+  "OneUse": true,
+  "TrainerPrice": "350",
+  "Cures": "",
+  "Image": ""
+}

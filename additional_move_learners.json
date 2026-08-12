@@ -1,0 +1,787 @@
+[
+  {
+    "Move": "Swarm Buff",
+    "Rank": "Advanced",
+    "Learners": "(Male) Combee."
+  },
+  {
+    "Move": "Swarm Defend",
+    "Rank": "Advanced",
+    "Learners": "(Male) Combee."
+  },
+  {
+    "Move": "Swarm Sting",
+    "Rank": "Advanced",
+    "Learners": "(Male) Combee."
+  },
+  {
+    "Move": "Parasitize",
+    "Rank": "Standard",
+    "Learners": "Paras, Parasect, G. Paras, G. Parasect, Venonat, Venomoth, Spinarak, Ariados, Yanma, Yanmega, Wurmple, Beautifly, Dustox, Venipede, Whirlipede, Scolipede, Joltik, Galvantula, Durant, Durengine, Cutiefly, Ribombee, Dewpider, Araquanid, Tarountula, Spidops, Papilleon, Macrabra, O. Trapinch, O. Vibrava, O. Flygon, Omanyte, Omastar, Kabuto, Kabutops, Gorebyss, Elektrik, Elektross, Skrelp, Dragalge, Chimaooze, Vectol, Vectol.2, UB-01 Symbiont, UB-02 Absorption, UB-20 Kite, UB-24 Virus, Genesect."
+  },
+  {
+    "Move": "Web Ball",
+    "Rank": "Standard",
+    "Learners": "Spinarak, Ariados, Joltik, Galvantula, Dewpider, Araquanid, Spidream, Nightmarach, Tarountula, Spideops, Pirouby, Fataletta, Arachdii, Arachdriia."
+  },
+  {
+    "Move": "Cheap Shot",
+    "Rank": "Advanced",
+    "Learners": "Rattata, Raticate, A. Rattata, A. Raticate, Meowth, Persian, A. Meowth, A. Persian, G. Meowth, Perserker, A. Grimer, A. Muk, Umbreon, Glaiveon, Brawleon, H. Quillfish, Overqil, Houndour, Houndoom, G. Zigazagoon, G. Linoone, Obstagoon, Nuzleaf, Shiftry, Carvannah, Sharpedo, Cacnea, Cacturn, Stunky, Skuntank, Skorupi, Drapion, Purrloin, Liepard, Ninckit, Thievul, Sandile, Krokorok, Krookodile, Scraggy, Scrafty, Pawniard, Bisharp, Kingambit, Vullaby, Mandibuzz, Deino, Zweilious, Hydreigon, Greninja, Pancham, Pangoro, Inkay, Malamar, Incineroar, Impidimp, Morgrem, Grimmsnarl, O. Impidimp, O. Morgrem, Grimmgoyle, Murkrow, Honchkrow, Morepeko, Poochyena, Mightyena, Meowscarada, Bombirdier, Flariny, Infury, Maschiff, Mabostiff, Voodoll, Voodoom, Sableye, Sneasel, Weavile, Zorua, Zoroark, Brute Bonnet, Winged Ruin, Storm Tyrant, Putrid Ooze, Roaring Moon, Kubfu, Urshifu."
+  },
+  {
+    "Move": "Dark Magic",
+    "Rank": "Advanced",
+    "Learners": "Voodoom."
+  },
+  {
+    "Move": "Decimation",
+    "Rank": "Expert",
+    "Learners": "Hydreigon, Rexquiem, Grimmgoyle, Darkrai, Yveltal, Nixuss, Gixurra, UB-13 Colossus, Iron Jugulis, Iron Void."
+  },
+  {
+    "Move": "Devouring Abyss",
+    "Rank": "Ace",
+    "Learners": "UB-07 Glutton"
+  },
+  {
+    "Move": "Many Eyed Portal",
+    "Rank": "Ace",
+    "Learners": "UB-13 Colossus"
+  },
+  {
+    "Move": "Primal Instinct",
+    "Rank": "Advanced",
+    "Learners": "All Ancient Paradox Pokémon."
+  },
+  {
+    "Move": "Shadow Kunai",
+    "Rank": "Advanced",
+    "Learners": "J. Klefki"
+  },
+  {
+    "Move": "Shadow Tide",
+    "Rank": "Expert",
+    "Learners": "Voodoom, Greninja, Malamar, Umbreon, Mummeon, Absol, Zoroark, G. Moltres, Houndoom, Hydreigon, Yveltal, Guzzlord, Iron Jugulis, Wo-Shien, Chien-Pao, Ting-Lu, Chi-Yu, A. Muk, Gyarados, Sharpedo, Crawdaunt, Spirtomb, Hoopa, Urshifu, Dusknoir, Banette, Runerigus, Cofagrigus, Spectrier, Houndstone, Gengar, Giratina, Chandelure, Trevenant, Gourgeist, Mimkyu, A. Marowak, Sableye, Gholdengo, Hydroon, Octilary, Huntail, H. Samurott."
+  },
+  {
+    "Move": "Spectral Tentacles",
+    "Rank": "Ace",
+    "Learners": "UB-12 Cloak"
+  },
+  {
+    "Move": "Tyrant's Shadow",
+    "Rank": "Ace",
+    "Learners": "UB-25 Overlord"
+  },
+  {
+    "Move": "Twilight Zone",
+    "Rank": "Advanced",
+    "Learners": "O. Hoothoot, O. Noctowl, Hoothoot, Noctowl, Umbreon, Cleffairy, Cleffable, Lunatone, Haunter, Gengar, Ursaluna, Lunala."
+  },
+  {
+    "Move": "Caustic Breath",
+    "Rank": "Standard",
+    "Learners": "Charizard, Toxtricity, O. Toxtricity, Noxeon, Drakeon, O. Milotic, Vibrava, Flygon, O. Vibrava, O. Flygon, Gyarados, O. Gyarados, Druddigon, Zweilios, Hydreigon, Kingdra, Goomy, Sliggoo, Goodra, H. Sliggoo, H. Goodra, Skrelp, Dragalge, Turtonator, Flapple, Appletun, Hydraple, Salamence, Storm Tyrant, Roaring Moon, Guzzlord, Eternatus, Regidrago, Koraidon, Miraidon."
+  },
+  {
+    "Move": "Draco Jaw",
+    "Rank": "Advanced",
+    "Learners": "Terror Byte, Gyarados, O. Gyarados, Salamence, Jourmarine."
+  },
+  {
+    "Move": "Honor Blade",
+    "Rank": "Advanced",
+    "Learners": "O. Leavanny, Lurantis."
+  },
+  {
+    "Move": "Runewrap Spear",
+    "Rank": "Ace",
+    "Learners": "UB-27 Wraith"
+  },
+  {
+    "Move": "Imperial Majesty",
+    "Rank": "Advanced",
+    "Learners": "Charizard, Dratini, Dragonair, Dragonite, O. Dragonite, Ampharos, Kingdra, Sceptile, Vibrava, Flygon, O. Vibrava, O. Flygon, Altaria, U. Altaria, Latios, Latias, Rayquaza, Zweilious, Hydreigon, Reshiram, Zekrom, Kyurem, Dragalge, Goomy, Sliggoo, Goodra, H. Sliggoo, H. Goodra, Noibat, Noivern, Zygarde, Silvally, Drampa, Hakamo-o, Kommo-o, O. Hakamo-o, O. Kommo-o, UB-09 Stinger, Applin, Flapple, Appletun, Dipplin, Hydraple, Duralodon, Archaludon, Drakloak, Dragapult, Eternatus, Regidrago, Tatsugiri, Koraidon, Miraidon, UB-27 Wraith, Storm Tyrant, Iron Solaris, Milotic, O. Milotic, Serperior, Drakeon, Rixorra, Nixuss, Gixurra, Dunboros, Tydra, Hydrench, Hydroon."
+  },
+  {
+    "Move": "Sandstorm Serenade",
+    "Rank": "Advanced",
+    "Learners": "Flygon, O. Flygon."
+  },
+  {
+    "Move": "Temporal Rift",
+    "Rank": "Expert",
+    "Learners": "Tangled Time."
+  },
+  {
+    "Move": "Velvet Scales",
+    "Rank": "Expert",
+    "Learners": "All Dragon Types."
+  },
+  {
+    "Move": "Electro Whip",
+    "Rank": "Expert",
+    "Learners": "Electivire, O. Electivire, Lanturn, O. Lanturn, Luxray, Amphaross, Toxtricity, Elektross, Pawmot, UB-04 Lighting, Zapdoss, Tapu Koko, Zeraora, Regileki, Miraidon"
+  },
+  {
+    "Move": "Spiritual Static",
+    "Rank": "Advanced",
+    "Learners": "O. Spiritomb."
+  },
+  {
+    "Move": "Tesla Shock",
+    "Rank": "Ace",
+    "Learners": "UB-04 Lightning"
+  },
+  {
+    "Move": "Twin Jolt",
+    "Rank": "Advanced",
+    "Learners": "Joltik, Galvantula, Voltorb, Electrode, Pichu, Pikachu, Raichu, Jolteon, Chinchou, Lanturn, Elektrike, Manectric, Rotom, Charjabug, Vikavolt, Toxel, Toxtricity, Pawmi, Pawmo, Pawmot, Watrel, Kilowattrel, Porygon, Poygon 2, Porygon Z, Porygon 3, Iron Worm, Storm Tyrant."
+  },
+  {
+    "Move": "Dreamweave",
+    "Rank": "Standard",
+    "Learners": "Spidream, Nightmarach."
+  },
+  {
+    "Move": "Fisticuffs",
+    "Rank": "Advanced",
+    "Learners": "G. Scraggy, G. Scrafty. Kirlia, Gallade, J. Kirlia, J. Gallade, Bewear, Mr. Mime, Ms. Mime, Granbull, Slurpuff, Mimikyu, Impidimp, Morgrem, Grimmsnarl, Hitmonchan, Poliwhirl, Poliwrath, Machop, Machoke, Machamp, Breloom, Meditite, Medicham, Buneary, Lopunny, Bewear, Pawmo, Pawmot, Hawlucha, Simisage, Simisear, Simipour, Simisnear, Simipsych, Simistrike, Golet, Golurk, Iron Valiant, UB-02 Absorbtion, Marshadow."
+  },
+  {
+    "Move": "Flirty Kiss",
+    "Rank": "Standard",
+    "Learners": "Cleffa, Cleffairy, Cleffable, Togepi, Togetic, Togekiss, Ralts, Kirlia, Gardevoir, Smoochum, Jynx, Luvdisc, Cinccino, Minccino, Spritzee, Aromatisse, Swirlix, Slurpuff, Sylveon, Klefki, Cutiefly, Ribombee, Comfey, Morgrem, Grimmsnarl, Tapu Lele, Lopunny, Milotic, Happiny, Chancy, Blissey, Froslass, Audino, Bouncesweet, Steenee, Tsareena, Milcery, Alcremie, Mawile, Delcatty, Floette, Florges, Roselia, Roserade, O. Roselia, O. Roserade, Voodoll, Voodoom."
+  },
+  {
+    "Move": "Heart Breaker",
+    "Rank": "Advanced",
+    "Learners": "Cleffable, Togekiss, Gardevoir, Gallade, Roserade, O. Roserade, Hatterene, Haggerene, Jynx, Luvdisc, Cinccino, Minccino, Aromatisse, Slurpuff, Silveon, Ribombee, Grimmsnarl, Tapu Lele, Lopunny, Milotic, Chancy, Blissey, Froslass, Audino, Steenee, Tsareena, Alcremie, Mawile, Tinkaton, Granbull, Nidoking, Nidoqueen, Azumarill, Delcatty, Altarria, Absol, Luminion, Indeedee, Meowstic, Gothitelle, Alomomola, Florges, Diance, Primarina, Lurantis, Salazzle, Infury."
+  },
+  {
+    "Move": "Moonveil Dance",
+    "Rank": "Expert",
+    "Learners": "J. Gothitelle."
+  },
+  {
+    "Move": "Starlight Blitz",
+    "Rank": "Ace",
+    "Learners": "UB-26 Radiance"
+  },
+  {
+    "Move": "Sugar Rush",
+    "Rank": "Standard",
+    "Learners": "Milcery, Alcremie, Swirlix, Slurpuff, Fidough, Daschbun, Cherrubi, Cherrim, Faerry, Sinistea, Polteageist, Poltchageist, Sinistcha, Vanillite, Vanillish, Vanilluxe, Applin, Appletun, Flapple, Dipplin, Hydrapple, Tropius, Bouncesweet, Steenee, Tsareena."
+  },
+  {
+    "Move": "Vorpal Blade",
+    "Rank": "Expert",
+    "Learners": "J. Tinkatuff, Lancieknight, Calvictor, Gallade, J. Gallade, Ceruledge, Aegislash, O. Leavanny, I. Roserade, Zacian, UB-04 Blade, Iron Valiant."
+  },
+  {
+    "Move": "Aura Strike",
+    "Rank": "Advanced",
+    "Learners": "Riolu, Lucario, Mienshao, Mieneira, Gallade, Iron Valiant, Mewtwo."
+  },
+  {
+    "Move": "Bulk Breaker",
+    "Rank": "Ace",
+    "Learners": "UB-02 Absorbtion"
+  },
+  {
+    "Move": "Chic Chop",
+    "Rank": "Ace",
+    "Learners": "UB-03 Beauty"
+  },
+  {
+    "Move": "Choke Hold",
+    "Rank": "Advanced",
+    "Learners": "Machop, Machoke, Machamp, Poliwrath, Clobbopus, Grapploct, Obstagoon, Hitmonchan, Banette, Croagunk, Toxicroak, Emboar, Throh, Incineroar, Primape, Hariyama, Iron Hands, Passimian."
+  },
+  {
+    "Move": "Incredible Feat",
+    "Rank": "Expert",
+    "Learners": "Calvictor"
+  },
+  {
+    "Move": "Revitalisation Pulse",
+    "Rank": "Ace",
+    "Learners": "UB-15 Dexterous"
+  },
+  {
+    "Move": "Cauterize",
+    "Rank": "Standard",
+    "Learners": "All Fire-Types"
+  },
+  {
+    "Move": "Cleansing Fire",
+    "Rank": "Advanced",
+    "Learners": "Cubzier, Bengaroma, U. Darmanitan, K. Ninetails, H. Arcanine, Moltress, Ho-Oh."
+  },
+  {
+    "Move": "Firewall",
+    "Rank": "Advanced",
+    "Learners": "Porygon, Porygon 2, Porygon Z, Porygon 3, Terror Byte, Turtonator, Gholdengo."
+  },
+  {
+    "Move": "Hellfire",
+    "Rank": "Advanced",
+    "Learners": "Flariny, Infury."
+  },
+  {
+    "Move": "Infernal Riff",
+    "Rank": "Expert",
+    "Learners": "O. Toxtricity"
+  },
+  {
+    "Move": "Magma Crunch",
+    "Rank": "Ace",
+    "Learners": "UB-29 Molten"
+  },
+  {
+    "Move": "Magma Drift",
+    "Rank": "Expert",
+    "Learners": "Magmar, Magmortar, Slugma, Magcargo, Torkoal, Eruptoise, O. Boldore, O. Gigalith, Turtonator, Carkol, Coalossal, Moltress, Groudon, Heatran, Volcanion."
+  },
+  {
+    "Move": "Mind Blown",
+    "Rank": "Ace",
+    "Learners": "UB-11 Burst"
+  },
+  {
+    "Move": "Uncontrolled Burn Off",
+    "Rank": "Advanced",
+    "Learners": "O. Electivire, O. Gigalith, Eruptoise, Charizard, Ninetales, Arcanine, O. Arcanine, Rapidash, A. Marowak, Magmortar, Flareon, Moltres, Typhlosion, H. Typhlosion, Houndoom, Entei, Groudon, Heatran, Emboar, Darmanitan, G. Darmanitan, Chandelure, Heatmega, Volcarona, Reshiram, Delphox, Pyroar, Volcanion, Turtonator, Coalossal, Centiskorch, Skeledirge, Armarouge, Ceruledge, Infernape, Infury, Iron Moth, UB-11 Burst."
+  },
+  {
+    "Move": "Jet Strike",
+    "Rank": "Standard",
+    "Learners": "Charizard, Pidgey, Pidgeotto, Pidgeot, Spearo, Fearow, Zubat, Golbat, Crobat, Farfetch'd, G. Farfetch'd, Sirfetch'd, Doduo, Dodrio, Scyther, Scizzor, Aerodactyl, Hoothoot, O. Hoothoot, Noctowl, O. Noctowl, Dragonite, Ledyba, Ledian, Murkrow, Honchkrow, Yanma, Yanmega, Gligar, Gliscor, Skarmory, O. Skarmory, Tailow, Swellow, Wingull, Pelipper, Masquerain, Ninjask, Swablu, Altaria, Salamence, Starly, Staravia, Staraptor, Chatot, Pidove, Tranquill, Unfezant, Woobat, Swoobat, Sigilyph, Ducklett, Swanna, Achen, Archeops, Emolga, Rufflet, Braviary, H. Braviary, Vullaby, Mandibuzz, Fletchling, Flechinder, Talonflame, Hawlucha, Noibat, Noivern, Rowlet, Dartrix, Decidueye, H. Decidueye, Pikipek, Trumbeak, Toucanon, Oricorio, Silvally, Minior, Rookidee, Corvisquire, Corviknight, Squawkibilly, Wattrel, Kilowattrel, Bombirdier, Flamigo, Iron Jugulis, Yveltal, Thundurus, Landorus, Tornadus, Enamorus, Rayquaza, Articuno, Zapdos, Moltress, G. Articuno, G. Zapdos, G. Moltress, Lugia, Ho-Oh"
+  },
+  {
+    "Move": "Screaming Cyclone",
+    "Rank": "Ace",
+    "Learners": "UB-14 Cyclone"
+  },
+  {
+    "Move": "Breach",
+    "Rank": "Advanced",
+    "Learners": "Porygon, Porygon 2, Porygon Z, Porygon 3, Inteleon, Gimmighoul, Gholdengo."
+  },
+  {
+    "Move": "Edgestitch",
+    "Rank": "Expert",
+    "Learners": "Voodoll, Voodoom, Gengar, Shuppet, Banette, Duskull, Dusclops, Dusknoir, Misdrievus, Mismagius, Lampent, Chandelure, Mimkyu, Ceruledge, Greavard, Houndstone, Spiritomb, Giratina, Marshadow."
+  },
+  {
+    "Move": "Harrowing Wrath",
+    "Rank": "Expert",
+    "Learners": "A. Marowak, Sableye, Banette, Dusknoir, Drifblim, Spiritomb, Golurk, Aegislash, Trevenant, Gourgiest, Mimikyu, Dhelmise, Dragapult, Basculegion, Brambleghast, Houndstone, Annihilape, Primal Warlord, Giratina."
+  },
+  {
+    "Move": "Necromancy",
+    "Rank": "Expert",
+    "Learners": "Shedinja, Dusknoir, Trevenant, Gourgiest, Mummeon."
+  },
+  {
+    "Move": "Siphon Life-Force",
+    "Rank": "Standard",
+    "Learners": "Gastly, Haunter, Gengar, Misdreavus, Mismagius, Shuppet, Banette, Duskull, Dusclops, Dusknoir, Drifloon, Drifloon, Spiritomb, Froslass, Yamask, Cofagrigus, G. Yamask, Runerigus, Frillish, Jellicent, Litwick, Lampent, Chandelure, Honedge, Duoblade, Aegislash, Phantump, Trevenant, Pumpkaboo, Gourgeist, G. Corsola, Cursola, Drakloak, Dragapult, Sinistea, Polteageist, Bramblin, Brambleghast, Poltchageist, Sinistcha, H. Zorua, H. Zoroark, Capsighoul, Capsiwisp (Hydrated form), Capsiwisp (Dessicated form), Rexquiem, Mummeon, Putrid Ooze, Giratina, Marshadow, Pecharunt."
+  },
+  {
+    "Move": "Spectral Slash",
+    "Rank": "Expert",
+    "Learners": "J. Tinkaton"
+  },
+  {
+    "Move": "Terrorize",
+    "Rank": "Expert",
+    "Learners": "Phlask, Noxial (Exothermic Form), Noxial (Endothermic Form), Fumighast, Spiritomb, O. Spiritomb, Giratina."
+  },
+  {
+    "Move": "Wraithfire Gnash",
+    "Rank": "Advanced",
+    "Learners": "Mightyena."
+  },
+  {
+    "Move": "Jungle Healing",
+    "Rank": "Ace",
+    "Learners": "Venusaur, Vileplume, Bellossom, Tangrowth, Tropius, Tsareena, Oranguru, Rillaboom, Celebi, Shaymin, Zarude, Ogerpon."
+  },
+  {
+    "Move": "Leaf Shield",
+    "Rank": "Advanced",
+    "Learners": "Bulbasaur, Ivysaur, Venosaur, Oddish, Gloom, Bellossom, Bellsprout, Weepinbell, Victreebell, Exeggutor, A. Exeggutor, Chikorita, Bayleef, Meganium, Hoppip, Skiploom, Jumpluff, Sunkern, Sunflora, Treecko, Grovyle, Sceptile, Nuzleaf, Shiftry, Budew, Roselia, Roserade, Tropius, Iron Leaves, Turtwig, Grotle, Torterra, Cherubi, Cherrim, Carnivine, Snover, Abomasnow, Leafeon, Snivy, Servine, Serperior, Sewaddle, Swadloon, Leavanny, Cottony, Whimsicott, Petilil, Lilligant, H. Lilligant, Maractus, Skiddoo, Gogoat, Phantump, Trevenant, Pumpkaboo, Gourgiest, Rowlet, Dartrix, Decidueye, H. Decidueye, Fomantis, Lurantis, Bounsweet, Steenee, Tsareena, Grookey, Thwackey, Rillaboom, Gossifluer, Eldegoss, Applin, Sprigatito, Floragato, Meowscarada, Smoliv, Doliv, Arboliva, Capsakid, Scovillain, Scornovillain, Virizion, Iron Leaves, Wo-Chien, Zarude, Celebi."
+  },
+  {
+    "Move": "Leech Seed",
+    "Rank": "Standard",
+    "Learners": "All Pokémon that normally learn Leech Seed."
+  },
+  {
+    "Move": "Paper Cutter",
+    "Rank": "Ace",
+    "Learners": "UB-06 Blade."
+  },
+  {
+    "Move": "Tropic Storm",
+    "Rank": "Expert",
+    "Learners": "K. Exeggutor, A. Exeggutor, Tropius, Iron Jungle, Ludicolo, Tsareena, Breloom, Vileplume, Victreebell, Tangrowth. Roserade, Whimsicott, Lilligant, Amoongus, Brute Bonnet, Trevenant, Gourgiest, Lurantis, Gossifleur, Flapple, Appletun, Arbolivia, Scovillain, Venosaur, Meganium, Sceptile, Torterra, Serperior, Chesnaught, Decidueye, Rillaboom, Meowscarada."
+  },
+  {
+    "Move": "Uproot",
+    "Rank": "Advanced",
+    "Learners": "All Pokémon that learn Ingrain."
+  },
+  {
+    "Move": "Entomb",
+    "Rank": "Advanced",
+    "Learners": "Arachdriia."
+  },
+  {
+    "Move": "Gaia Force",
+    "Rank": "Expert",
+    "Learners": "Magcargo, Corsola, Camerupt, Torkoal, Eruptoise, Flygon, O. Flygon, Baltoy, Claydol, Dusteon, Groudon, Kyogre, Gastrodon, Probopass, Regigas, Regirock, Arceus, Seismitoad, Landorus, Aurorus, Sandygast, Palosand, Torterra, Quagsire, Clodsire, Piloswine, Mamoswine, Tyranitar, Swampert, Solrock, Lunatone, Wishcash, Diance."
+  },
+  {
+    "Move": "Dust Devil",
+    "Rank": "Expert",
+    "Learners": "Vibrava, O. Vibrava, Flygon, O. Flygon, Baltoy, Claydol, Dusteon, Groudon, Regirock, Castform, O. Roselia, O. Roserade, Sandygast, Palosand, Pupitar, Tyranitar, Diance."
+  },
+  {
+    "Move": "Piledriver",
+    "Rank": "Advanced",
+    "Learners": "O. Hawlucha."
+  },
+  {
+    "Move": "Absolute Zero",
+    "Rank": "Standard",
+    "Learners": "A. Vulpix, A. Ninetales, Castform, Snoruntv, Glalie, Froslass, Regice, Galceon, G. Darumaka, G. Darmantian, Vanilite, Vanillish, Vanilluxe, Cryognal, K. Articuno, Cetoddle, Cetitan, G. Mr. Mime, Mr. Rime, Jynx, Delibird, Lapras, Avalugg, Gigalanche, Snom, Frosmoth, Sneasel, Weavile, Snover, Abomisnow, Kyurem, Amaura, Aurorus, Arctozolt, Arctovish, Dunleovish, Frigibax, Arctibax, Baxcalibur, Chien-Pao, Rotom, Gastly, Haunter, Gengar, Misdreavus, Mismagius, G Corsola, Cursola, Sableye, Swablu, Altaria, Shuppet, Banette, Duskull, Dusclops, Dusknoir, Absol, S. Driflbim, S. Difloon, Spiritomb, Darkrai, Arceus, H. Zorua, H. Zoroark, Frillish, Jellicent, Houndstone, Frigilett, Tungryph, Iron Aurora."
+  },
+  {
+    "Move": "Black Ice",
+    "Rank": "Advanced",
+    "Learners": "Glalie, Regice, G. Darumaka, Cubchoo, Beartic, Cryogonal, Bergmite, Avalugg, Gigalanche, A. Sandshrew, A. Sandslash, K. Articuno, Swinub, Piloswine, Mamoswine,  Spheal, Sealeo, Walrein, Sneasel, Weavile, Snover, Abomisnow, Amaura, Aurorus."
+  },
+  {
+    "Move": "Cryocontamination",
+    "Rank": "Ace",
+    "Learners": "UB-24 Virus"
+  },
+  {
+    "Move": "Frostfire",
+    "Rank": "Expert",
+    "Learners": "O. Arcanine."
+  },
+  {
+    "Move": "Frost Slash",
+    "Rank": "Advanced",
+    "Learners": "Sneasel, Weavile."
+  },
+  {
+    "Move": "Frozen Crash",
+    "Rank": "Expert",
+    "Learners": "Tungryph, A. Sandslash, Snover, Abomisnow,  Avalugg, Gigalanche, Sneasel, Weavile, Piloswine, Mamoswine, G. Darmantian, Beartic, Arctozolt, Arctovish, Dunkleovish, Dewgong, Lapras, Articuno, Regice, Kyurem, Snorunt, Glalie, Delibird, Sealeo, Walrein, Cetoddle, Cetitan, Arctibax, Baxcalibur, Iron Bundle."
+  },
+  {
+    "Move": "Hoarfrost Moon",
+    "Rank": "Expert",
+    "Learners": "Lunatone, O. Noctowl, Umbreon, A. Ninetails, Castform, Glalie, Frosslass, Aurorus, Frosmoth, Kyurem, Regice, Articuno, Lunala."
+  },
+  {
+    "Move": "Snowy Terrain",
+    "Rank": "Advanced",
+    "Learners": "A. Sandshrew, A. Sandslash, A. Vulpix, A. Ninetails, Mr. Mime, Mr. Ryme, Jynx, Swinub, Piloswine, Mamoswine, Delibird, Snorunt, Glalie, Froslass, Snover, Abomasnow, Glaceon, Vanillite, Vanilish, Vaniluxe, Cubchoo, Beartic, Cryogonal, Amaura, Aurorus, Bergmite, Avalugg, Giglanche, Snom, Frosmoth, Eiscue, Cetoddle, Cetitan, Frigilette, Tungryph, R. Golisopod, Arctibax, Baxcalibur, Iron Bundle, Articuno, Regice, Chien-Pao."
+  },
+  {
+    "Move": "Brace",
+    "Rank": "Advanced",
+    "Learners": "Honedge, Duoblade, Aegislash, Skarmory, O. Skarmory, Sawk, Throh, Machop, Machoke, Machamp, Timburr, Girdurr, Conkeldurr, O. Gyarados, G. Meowth, Perserker, Falinks, Legiondary, Shuckle, Glaiveon, Shieldon, Bastiodon, Mareani, Toxapex, Bagon, Shelgon, Torkoal, Eruptoise, Turtonator, Pineco, Forretress, Sudowoodo, Type: Null, Silvally, Gallade, Iron Valiant, Iron Evolution, Great Tusk, Deoxys, Zacian, Zamazenta."
+  },
+  {
+    "Move": "Discombobulate",
+    "Rank": "Advanced",
+    "Learners": "Ms. Mime, Aipom, Ambipom, Spinda, Doduo, Dodrio."
+  },
+  {
+    "Move": "Embody Element",
+    "Rank": "Advanced",
+    "Learners": "Nidorina, Nidoqueen, Nidoking, Geodude, Graveler, Golem, Doduo, Dodrio, Krabby, Kingler, Kangaskhan, Eevee, Porygon, Porygon 2, Porygon Z, Dratini, Dragonair, Dragonite, O. Dragonite, Bayleaf, Meganium, Quilava, TypHPlosion, Croconaw, Feraligatr, Stantler, Wyrdeer, Meditite, Medicham, Barboach, Whiscash, Corphish, Crawdaunt, Kecleon, O. Budew, O. Roselia, O. Roserade, Buneary, Lopunny, Riolu, Lucario, Sneasel, Weavile, H. Sneasel, Sneasler, Duskull, Dusclops, Dusknoir, Pansage, Simisage, Pansear, Simisear, Panpour, Simipour, Pansnear, Simisnear, Panpsych, Simipsych, Panstrike, Simistrike,  Swadloon, Leavanny, O. Swadloon, O. Leavanny, Dwebble, Crustle, Deerling, Sawsbuck, Axew, Fraxure, Haxorus, O. Axew, O. Fraxure, O. Haxorus, Jangmo-o, Hakamo-o, Kommo-o, O. Jangmo-o, O. Hakamo-o, O. Kommo-o, Dreepy, Drakloak, Dragapult, Nymble, Lokix, Shroodle, Grafaia, Bowllo, Dupedillo,  K. Okidogi, K. Munkidori, K. Fenzadipiti, Chatot, Admirmimic, Saphoni, Crimsoni, UB-19 Hunter, Iron Evolution, Winged Ruin, Abyssal Wyrm."
+  },
+  {
+    "Move": "Hidden Power Of The Swarm",
+    "Rank": "Starter",
+    "Learners": "Unown Swarm."
+  },
+  {
+    "Move": "Rainbow Beam",
+    "Rank": "Standard",
+    "Learners": "Chancy, Blissey, Eevee, Porygon, Porygon 2, Porygon Z, Porygon 3, Dratini, Dragonair, Dragonite, O. Dragonite, Stantler, Wyrdeer, Castform, Keckleon, Arceus, Audino, Silvally, Doduo, Dodrio, Jigglypuff, Wigglytuff, Swablu, Altaria, Tranquil, Unfezant, Deerling, Sawsbuck, Meloetta, Drampa, Jarafarig, Farigaraf, Indeedee, Dolliv, Arboliv, Shroodle, Graffaiai, Clefairy, Clefable, Togetic, Togekiss, Marill, Azumarill, Kadabra, Alakazam, Cloyster, Exeggutor, Staryu, Starmie, Gyarados, Omanyte, Omastar, Articuno, Zapdos, Moltress, Lugia, Ho-Oh, Mew, Mewtwo, Flaafy, Ampharos, Sunflora, Spoink, Grumpig, Milotic, Tropius, Luvdisc, Finneon, Lumineon, Cottonee, Whimsicott, Sigilyph, Frilish, Jellicent, Alomomola, Cryoganal, Keldeo, Vivillon, Floette, Florges, Amaura, Aurorus, A. Vulpix, A. Ninetales, G. Ponyta, G. Rapidash, Iridesceel."
+  },
+  {
+    "Move": "Acid Rain",
+    "Rank": "Advanced",
+    "Learners": "Grimer, Muk, A. Grimer, A. Muk, Koffing, Weezing, G. Weezing, Ekans, Arbok, Trubbish, Garbodour, Garbocean, Noxeon, Glaiveon, Gloom, Vileplume, Tentacruel, G. Slowbro, G. Slowking, O. Milotic, Quilfish, H. Quilfish, Overquil, Dustox, O. Dustox, Gulpin, Swalot, Skrelp, Dragalge, Mareani, Toxapex, Salandit, Salazzle, Toxtricity, O. Toxtricity, Varoom, Revaroom, Graffaiai, Glimmet, Glimmora, Clodsire, H. Sneasel, Sneasler, O. Hattrem, Haggerene, O. Morgrem, Grimmgoyle, Delta Muk, Iron Dish, Iron Moth, Nihilago, Poipole, Naganadel, Eternatus, Okidogi, Munkidori, Fezandipiti."
+  },
+  {
+    "Move": "Barbed Spines",
+    "Rank": "Ace",
+    "Learners": "UB-20 Kite"
+  },
+  {
+    "Move": "Binding Chain",
+    "Rank": "Ace",
+    "Learners": "Pecharunt, Rift Pecharunt."
+  },
+  {
+    "Move": "Cosmic Corrosion",
+    "Rank": "Ace",
+    "Learners": "UB-01 Symbiont"
+  },
+  {
+    "Move": "Malignant Chain",
+    "Rank": "Ace",
+    "Learners": "Pecharunt, Rift Pecharunt."
+  },
+  {
+    "Move": "Meltdown",
+    "Rank": "Ace",
+    "Learners": "Koffing, Weezing, G. Weezing, Grimer, Muk, A. Grimer, A. Muk, Delta Muk, Iron Dish, Iron Moth, Grimer, Haunter, Gengar, Quilfish, H. Quilfish, Overqwill, Poipole, Naganedel, Varoom, Revaroom, Phlask, Noxial (Exothermic Form), Noxial (Endothermic Form), Fumighast."
+  },
+  {
+    "Move": "Miasma",
+    "Rank": "Advanced",
+    "Learners": "Gastly, Haunter, Gengar, O. Milotic, O. Hattrem, Haggerene, Voodoom, Mismagius."
+  },
+  {
+    "Move": "Neurotoxin Needle",
+    "Rank": "Ace",
+    "Learners": "UB-09 Stinger"
+  },
+  {
+    "Move": "Pollution",
+    "Rank": "Expert",
+    "Learners": "Trubbish, Garbododor, Garbocean, Grimer, Muk, A. Grimer, A. Muk, Koffing, Weezing, G. Weezing, Varoom, Revavroom, Putrid Ooze, G. Corsola, Cursola."
+  },
+  {
+    "Move": "Petrifying Gaze",
+    "Rank": "Ace",
+    "Learners": "UB-18 Gorgon"
+  },
+  {
+    "Move": "Strange Brew",
+    "Rank": "Expert",
+    "Learners": "Haggerene, Shuckle, G. Slowbro."
+  },
+  {
+    "Move": "Vile Assault",
+    "Rank": "Expert",
+    "Learners": "O. Kommo-o."
+  },
+  {
+    "Move": "Virus Pulse",
+    "Rank": "Advanced",
+    "Learners": "Porygon-Z, K. Koffing, K. Weezing, G. Weezing, Gastly, Haunter, Gengar, Ekans, Arbok, Tentacool, Tentacruel, Spinarak, Ariados, Dustox, Quilfish, H. Quilfish, Overquil, Mareanie, Toxapex, Salandit, Salazzle, Pyukumuku, Toxtricity, O. Toxtricity, UB-01 Symbiont, UB-08 Adhesive, UB-09 Stinger, UB-18 Gorgon, UB-21 Ocular, UB-24 Virus, Deoxys, Eternatus, Pecharunt."
+  },
+  {
+    "Move": "Anti-Gravity",
+    "Rank": "Ace",
+    "Learners": "Gothitelle, Reuniculus, Solrock, Lunatone, Stonjourner, Stontitan, Claydol, Clayngel, Sigilyph, Sigileye, Beheeyem, Alieyahn, Mew, Mewtwo, Deoxys, Cresalia, Hoopa, Diance, Eternatus, Necrozma, Arceus."
+  },
+  {
+    "Move": "Aura Snare",
+    "Rank": "Ace",
+    "Learners": "UB-19 Hunter"
+  },
+  {
+    "Move": "Barrier Blast",
+    "Rank": "Advanced",
+    "Learners": "Mime Jr., Mr. Mime, Galarian Mr. Mime, Mr. Rime, Ms. Mime."
+  },
+  {
+    "Move": "Beguiling Influence",
+    "Rank": "Ace",
+    "Learners": "Alakazam, Hypno, Gardevoir, J. Gardevoir, Gothitelle, J. Gothitelle, Hatterene, A. Hatterene, Sigileye, Clayngel, Delphox, Malamar, Voodoll, Salazzle, Delta Alakzam, Delta Hypno, Mew, Mewtwo, Uxie, Mesprit, Azelf, Cressalia, Tapu Lele, Corrupted Tapu Fini, Calyrex, Hoopa, Diance, UB-21 Ocular, UB-22 Siren, Toxic Chain Uxie, Toxic Chain Azelf, Toxic Chain Mesprit."
+  },
+  {
+    "Move": "Evil Eye",
+    "Rank": "Ace",
+    "Learners": "UB-21 Ocular"
+  },
+  {
+    "Move": "Geopsychic Glyph",
+    "Rank": "Ace",
+    "Learners": "UB-23 Pyramid"
+  },
+  {
+    "Move": "Meditative Trance",
+    "Rank": "Expert",
+    "Learners": "Meditite, Medicham, Lucario, Infernape, Alakazam, Hypno, Slowbro, Slowking, Farigiraph, Grumpig, Munsharna, Darmanitan, G. Darmanitan, Oranguru, Gardevoir, Gallade, Bengaroma, Victini."
+  },
+  {
+    "Move": "Null Room",
+    "Rank": "Expert",
+    "Learners": "Slowbro, G. Slowbro, Hypno, Exegutor, Mr. Mime, Ms. Mime, Mr. Rhyme, Jynx, Porygon Z, Porygon 3, Alakazam, Munsharna, Swoobat, Reuniclus, Beheeyem, Meowstic, Oranaguru, Orbeetle, Indeedee, Farigiraph, Grumpig, Claydol, Mismagius, Espeon, Gothitelle, Bronzong, Mew, Mewtwo, Deoxys, Diance, Hoopa."
+  },
+  {
+    "Move": "Psybolt",
+    "Rank": "Standard",
+    "Learners": "Meditite, Medicham, Mienfoo, Mienshao, A. Raichu, Abra, Kadabra, Alakazam, Woobat, Swoobat, Gothita, Gothorita, Gothitelle, Elgyem, Beheeyem, Delphox, Espurr, Meowstic, P. Oricorio, Bruxish, G. Ponyta, G, Rapidash, Dottle, Orbeetle, Armarouge, Flittle, Espathra, Veluza, Natu, Xatu, Girafarig, Farigiraph, Spoink, Grumpig, Starmie, Mime Jr., Mr. Mime, Jynx, Ralts, Kirlia, Gardevoir, Gallade, Voodoll, Voodoom, Iron Loyal, Iron Proud, Iron Valiant, Iron Squire, Iron Mask, Scream Tail, Mew, Deoxys, Mewtwo, Azelf, Uxie, Mesprit, Jirachi, Tapu Lele, Cosmog, Cosmoem, Solgaleo, Lunala, Necrozma, Munkidori, G. Articuno, Cresselia, Victini."
+  },
+  {
+    "Move": "Stasis Lock",
+    "Rank": "Ace",
+    "Learners": "Klefki, Delta Alakazam."
+  },
+  {
+    "Move": "Psy-Vortex",
+    "Rank": "Advanced",
+    "Learners": "J. Gardevoir"
+  },
+  {
+    "Move": "Pulse Strike",
+    "Rank": "Standard",
+    "Learners": "Hariyama, Medite, Medicham, Mienfoo, Mienshao, Drowzee, Hypno, Hitmonchan, Mr. Mime, G. Mr. Mime, Ms. Mime, Mr. Rhyme, Jynx, Mewtwo, Ralts, Kirlia, Gardevoir, Gallade, Deoxys, Sawk, Throh, Frogadier, Greninja, Morgrem, Grimsnarl, Voodoom, Iron Valiant."
+  },
+  {
+    "Move": "Singularity",
+    "Rank": "Ace",
+    "Learners": "Porygon Z, Porygon 3, Alakazam, Slowking, G. Slowking, Gothitelle, Xatu, Sigilyph, Sigileye, Claydoll, Clayngel, Bronzong, Reuniclus, Orbeetle, Rabsca, Delta Alakazam, Mew, Mewtwo, Deoxys, Cresselia, Arceus, Hoopa, Cosmog, Cosmoem, Solgaleo, Lunala, Necrozma."
+  },
+  {
+    "Move": "Song Of Time",
+    "Rank": "Ace",
+    "Learners": "Celebi."
+  },
+  {
+    "Move": "Spectrum Analysis",
+    "Rank": "Advanced",
+    "Learners": "All Future Paradox Pokémon."
+  },
+  {
+    "Move": "Asteroid Shot",
+    "Rank": "Standard",
+    "Learners": "Lunatone, Solrock, Clefairy, Clefable, Staryu, Starmie, Minior, Glimmet, Glimmora, Elgyem, Beheeyem, Orreon, Dusteon, O. Roselia, O. Roserade, Amaura, Aurorus, Carbink, Porygon 3, Eternatus, Regirock. Ogrepon, Terrakion, Iron Boulder, Diance."
+  },
+  {
+    "Move": "Blockade Barrage",
+    "Rank": "Ace",
+    "Learners": "UB-10 Assembly"
+  },
+  {
+    "Move": "Lapidify",
+    "Rank": "Advanced",
+    "Learners": "Omanyte, Omastar, G. Corsola, Cursola, Lunatone, Solrock, Claydol, Clayngel, Lileep, Cradily, Relicanth, Probopass, Amaura, Aurorus, Stonjourner, Stontitan, O. Gyarados, O. Roserade, Spectrelec (Kabutops Form), Spectrelec (Aerodactyl Form),  Spiritomb, Sableye, Groudon, Regirock, Terrakion, Landorus, Zygarde, Diance, Rift Diance, Celebi, Tangled Time, UB-13 Colossus, UB-18 Gorgon, UB-23 Pyramid."
+  },
+  {
+    "Move": "Stalacbite",
+    "Rank": "Advanced",
+    "Learners": "H. Growlithe, H. Arcanine, Onix, Steelix, Glacix, Krookodile, Aerodactyl, Tyranitar, Lairon, Aggron, Relicanth, Craniados, Rampardos, Bastiodon, Tyrunt, Tyrantrum, Avalugg, Gigalanche, Lycanroc, Chewtle, Drednaw,  Masbostiff, Mawile, Rhydon, Rhyperion, Stoutland, Torterra,  Archeops, Drapion, Durant, Garchomp, Houndstone, Iron Thorns."
+  },
+  {
+    "Move": "Chivalrous Stab",
+    "Rank": "Expert",
+    "Learners": "Lancieknight."
+  },
+  {
+    "Move": "Dragon Slayer",
+    "Rank": "Expert",
+    "Learners": "Knightott, Calvictor, Honedge, Doublade, Aegislash, Gallade, J. Gallade, Ceruledge, J. Tinkatuff, J. Tinkaton, Iron Valiant."
+  },
+  {
+    "Move": "Dual Cannon",
+    "Rank": "Ace",
+    "Learners": "UB-05 Blaster"
+  },
+  {
+    "Move": "Iron Edge",
+    "Rank": "Advanced",
+    "Learners": "Honedge, Duoblade, Aegislash, Legiondary, Scizor,  Skarmory, G. Meowth, Perrserker, E. Zangoose,  Pawniard, Bisharp, Kingambit, Empoleon,  Lucario,  Duraludon, Zacian, Sandslash, A. Sandslash, Metang, Metagross, Iron Valiant, Escavalier, Sneasel, Weavile,  Drilburr, Excadrill,  Ninjask, Zangoose, Kabutops, Armaldo, Iron Jungle, Iron Radiance."
+  },
+  {
+    "Move": "Mirror Shield",
+    "Rank": "Advanced",
+    "Learners": "Magneton, Magnezone, Magnework, Glaveon, Skarmory, O. Skarmory, Scizor, Forretress, Aegislash, Klang, Klingklang, Durengine, Bronzong, Carbink, Cryogonal, Fumighast, Orcquill, UB-16 Radiance, Registeel, Regice, Diance."
+  },
+  {
+    "Move": "Resonating Chime",
+    "Rank": "Advanced",
+    "Learners": "Bronzong, Bronzelord, Chimecho, Harmonell"
+  },
+  {
+    "Move": "Sawblade Strike",
+    "Rank": "Ace",
+    "Learners": "UB-17 Chainsaw"
+  },
+  {
+    "Move": "Scrap Metal",
+    "Rank": "Advanced",
+    "Learners": "Varoom, Revavroom, Garbodor, Garbocean, A. Muk, O. Driffloon, O. Drifblim, Dhelmise, Tinkaton, J. Tinkaton."
+  },
+  {
+    "Move": "Shield Bash",
+    "Rank": "Expert",
+    "Learners": "Steelix, Glacix, Aegislash, Escavalier, Legiondary, Forretress, Aggron, Shieldon, Bastiodon, Bronzor, Bronzong, H. Sliggoo, H. Goodra, Togedemaru, Celesteela, Stakataka, Melmetal, Shuckle, Avalugg, Gigalanche, Iron Treads, Zamazenta, Registeel."
+  },
+  {
+    "Move": "Steel Carapace",
+    "Rank": "Ace",
+    "Learners": "UB-16 Elegance"
+  },
+  {
+    "Move": "Steelthorn Swipe",
+    "Rank": "Expert",
+    "Learners": "I. Roserade."
+  },
+  {
+    "Move": "Temporal Shift",
+    "Rank": "Expert",
+    "Learners": "Tangled Time."
+  },
+  {
+    "Move": "Aqua Fang",
+    "Rank": "Advanced",
+    "Learners": "Gyarados, Carvanha, Sharpedo, Vesshark, Blastoise, Chewtle, Drednaw, Totodile, Croconaw, Feraligatr, Glacix, Suicune, Seviper, E. Seviper, Wishcash, Crawdaunt, Glalie, Spheal, Sealeo, Walrein, Seel, Dewgong, Huntail, Kyogre, Floatzel, Drapion, Carnevine, Panpour, Basculin, Basculegion, Tirtouga, Carracosta, Elektrik, Elektross, Dewpider, Araquanid, Silvally, Bruxish, Maraenie, Toxapex, Arrokuda, Barraskewda, Dracovish, Arctovish, Dunkleovish, Tydra, Hydrench, Hydroon, Lanturn, O. Lanturn, Garboceon, Eruptoise, Dragonite, O. Dragonite, Terror Byte, Iron Rocket, Abyssal Wyrm, Walking Wake."
+  },
+  {
+    "Move": "Aqua Surge",
+    "Rank": "Expert",
+    "Learners": "Dondozo, Wailord, Gyarados, Lapras, Basculegion, Blastoise, Primarina, Samurott, H. Samurott, Empoleon, Swampert, Hydroon, Kyogre."
+  },
+  {
+    "Move": "Fin Blade",
+    "Rank": "Expert",
+    "Learners": "J. Gallade"
+  },
+  {
+    "Move": "Hull Rend",
+    "Rank": "Expert",
+    "Learners": "Hull-Biter Sharpedo."
+  },
+  {
+    "Move": "Hydro Steam",
+    "Rank": "Advanced",
+    "Learners": "Eruptoise."
+  },
+  {
+    "Move": "Rippling Refrain",
+    "Rank": "Ace",
+    "Learners": "UB-22 Siren."
+  },
+  {
+    "Move": "Fate's Edge",
+    "Rank": "Expert",
+    "Learners": "Rixorra, Nixuss, Gixurra."
+  },
+  {
+    "Move": "Shadow Blast",
+    "Rank": "Starter",
+    "Learners": "???."
+  },
+  {
+    "Move": "Shadow Blitz",
+    "Rank": "Starter",
+    "Learners": "???."
+  },
+  {
+    "Move": "Shadow Bolt",
+    "Rank": "Starter",
+    "Learners": "???."
+  },
+  {
+    "Move": "Shadow Break",
+    "Rank": "Starter",
+    "Learners": "???."
+  },
+  {
+    "Move": "Shadow Chill",
+    "Rank": "Starter",
+    "Learners": "???."
+  },
+  {
+    "Move": "Shadow Down",
+    "Rank": "Starter",
+    "Learners": "???."
+  },
+  {
+    "Move": "Shadow End",
+    "Rank": "Starter",
+    "Learners": "???."
+  },
+  {
+    "Move": "Shadow Fire",
+    "Rank": "Starter",
+    "Learners": "???."
+  },
+  {
+    "Move": "Shadow Half",
+    "Rank": "Starter",
+    "Learners": "???."
+  },
+  {
+    "Move": "Shadow Hold",
+    "Rank": "Starter",
+    "Learners": "???."
+  },
+  {
+    "Move": "Shadow Mist",
+    "Rank": "Starter",
+    "Learners": "???."
+  },
+  {
+    "Move": "Shadow Panic",
+    "Rank": "Starter",
+    "Learners": "???."
+  },
+  {
+    "Move": "Shadow Rave",
+    "Rank": "Starter",
+    "Learners": "???."
+  },
+  {
+    "Move": "Shadow Rush",
+    "Rank": "Starter",
+    "Learners": "???."
+  },
+  {
+    "Move": "Shadow Shed",
+    "Rank": "Starter",
+    "Learners": "???."
+  },
+  {
+    "Move": "Shadow Storm",
+    "Rank": "Starter",
+    "Learners": "???."
+  },
+  {
+    "Move": "Shadow Terrain",
+    "Rank": "Starter",
+    "Learners": "???."
+  },
+  {
+    "Move": "Shadow Wave",
+    "Rank": "Starter",
+    "Learners": "???."
+  },
+  {
+    "Move": "Z-Spiked Pummelling",
+    "Rank": "Ace",
+    "Learners": "Corrupted Tapu Bulu"
+  },
+  {
+    "Move": "Z-Darkening Skies",
+    "Rank": "Ace",
+    "Learners": "Corrupted Tapu Koko"
+  },
+  {
+    "Move": "Z-Energy Reflection",
+    "Rank": "Ace",
+    "Learners": "Corrupted Tapu Lele"
+  },
+  {
+    "Move": "Z-Psychic Sands",
+    "Rank": "Ace",
+    "Learners": "Corrupted Tapu Fini"
+  }
+]

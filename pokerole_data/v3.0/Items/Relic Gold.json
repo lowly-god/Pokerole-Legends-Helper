@@ -1,0 +1,13 @@
+{
+  "Name": "Relic Gold",
+  "_id": "relic-gold",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Miscellaneous",
+  "Description": "Valuable item",
+  "OneUse": false,
+  "TrainerPrice": "30000",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Sticky Barb",
+  "_id": "sticky-barb",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "The holder loses 1HP at the end of each Round",
+  "OneUse": false,
+  "TrainerPrice": "1000",
+  "Cures": "",
+  "Image": ""
+}

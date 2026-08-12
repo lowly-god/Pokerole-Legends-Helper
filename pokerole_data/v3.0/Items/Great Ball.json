@@ -1,0 +1,13 @@
+{
+  "Name": "Great Ball",
+  "_id": "great-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Standard Balls",
+  "Category": "Standard Balls",
+  "Description": "6d6",
+  "OneUse": true,
+  "TrainerPrice": "600",
+  "Cures": "",
+  "Image": ""
+}

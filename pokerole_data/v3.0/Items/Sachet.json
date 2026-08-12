@@ -1,0 +1,13 @@
+{
+  "Name": "Sachet",
+  "_id": "sachet",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Evolves Spritzee into Aromatisse",
+  "OneUse": true,
+  "TrainerPrice": "5000",
+  "Cures": "",
+  "Image": ""
+}

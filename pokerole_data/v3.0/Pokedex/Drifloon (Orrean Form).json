@@ -1,0 +1,145 @@
+{
+  "Number": 425,
+  "DexID": "0425F1",
+  "Name": "Drifloon (Orrean Form)",
+  "Type1": "Ghost",
+  "Type2": "Steel",
+  "BaseHP": 3,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Aftermath",
+  "Ability2": "Iron Barbs",
+  "HiddenAbility": "Flare Boost",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "drifloon-orrean-form",
+  "DexCategory": "Balloon Pokémon",
+  "Height": {
+    "Meters": 0.41,
+    "Feet": 1.33
+  },
+  "Weight": {
+    "Kilograms": 19.1,
+    "Pounds": 42.0
+  },
+  "DexDescription": "Using their chain like appendages Drifloon attach themselves to the sea floor. Hitting the spikes on their bodies will cause them to often explode. Overnight it reconstructs its body.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Minimize"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Constrict"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Disable"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Payback"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ominous Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sucker Punch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Gyro Ball"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Metal Sound"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Baton Pass"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Breach"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Self Destruct"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Autotomize"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Scrap Metal"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Explosion"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Harrowing Wrath"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Phantom Force"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Amnesia"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Anchor Shot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Double Iron Bash"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Misty Explosion"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Meltdown"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Shadow Tide"
+    }
+  ]
+}

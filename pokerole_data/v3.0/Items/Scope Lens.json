@@ -1,0 +1,13 @@
+{
+  "Name": "Scope Lens",
+  "_id": "scope-lens",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Holder’s Moves gain High Critical",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

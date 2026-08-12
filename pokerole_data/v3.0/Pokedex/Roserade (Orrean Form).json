@@ -1,0 +1,165 @@
+{
+  "Number": 407,
+  "DexID": "0407F1",
+  "Name": "Roserade (Orrean Form)",
+  "Type1": "Ground",
+  "Type2": "Fighting",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Dry Skin",
+  "Ability2": "Technician",
+  "HiddenAbility": "Sand Stream",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "roserade-orrean-form",
+  "DexCategory": "Desert Rose Pokémon",
+  "Height": {
+    "Meters": 0.91,
+    "Feet": 3.0
+  },
+  "Weight": {
+    "Kilograms": 29.9,
+    "Pounds": 66.0
+  },
+  "DexDescription": "Now predator instead of prey, Roserade hunts during sandstorms. It cloaks itself with billowing sand and is able to control its surroundings fully.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Mud Slap"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Sand Tomb"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Camouflage"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bulk Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Attract"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Reversal"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Spikes"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Detect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Vacuum Wave"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flirty Kiss"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Nature Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sandstorm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fire Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Scorching Sands"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dust Devil"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Power Gem"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Aura Sphere"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Revenge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gaia Force"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heart Breaker"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Focus Blast"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Final Gambit"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Giga Drain"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Asteroid Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lapidify"
+    }
+  ]
+}

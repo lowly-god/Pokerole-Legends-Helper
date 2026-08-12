@@ -1,0 +1,13 @@
+{
+  "Name": "Time Flute",
+  "_id": "time-flute",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Items",
+  "Category": "Special Items",
+  "Description": "Summons Celebi to instantly Purify a Shadow Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "30000",
+  "Cures": "",
+  "Image": ""
+}

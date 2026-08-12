@@ -1,0 +1,137 @@
+{
+  "Number": 1137,
+  "DexID": "1137",
+  "Name": "Primal Warlord",
+  "Type1": "Ground",
+  "Type2": "Ghost",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 7,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Protosynthesis",
+  "Ability2": "",
+  "HiddenAbility": "Nocturnal",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "primal-warlord",
+  "DexCategory": "Paradox Pokémon",
+  "Height": {
+    "Meters": 1.27,
+    "Feet": 4.17
+  },
+  "Weight": {
+    "Kilograms": 52.2,
+    "Pounds": 115.0
+  },
+  "DexDescription": "It is possible that this is a strange bestial Pokémon seen in an account listed Professor Heath’s  research journal, documenting the Great Crater of Paldea.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Sand Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bone Club"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Primal Instinct"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bonemerang"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Shadow Bone"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bulldoze"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Will-O-Wisp"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Shadow Sneak"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Substitute"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Curse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stalacbite"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Brutal Swing"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Bone Rush"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Earthquake"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Stomping Tantrum"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Retaliate"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Belly Drum"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Harrowing Wrath"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dragon Claw"
+    }
+  ]
+}

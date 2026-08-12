@@ -1,0 +1,6 @@
+{
+    "Name": "Prism Refraction",
+    "Effect": "When this Pokémon comes out, it automatically starts the effects of Sunny or Rainy Weather at random. The effects end when the Pokémon leaves the battle. (If one of these Weather-Types is already in effect it always starts the other Type).",
+    "Description": "",
+    "_id": "prism-refraction"
+}

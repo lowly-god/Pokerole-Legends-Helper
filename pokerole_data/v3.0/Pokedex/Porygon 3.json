@@ -1,0 +1,171 @@
+{
+  "Number": 1078,
+  "DexID": "1078",
+  "Name": "Porygon 3",
+  "Type1": "Normal",
+  "Type2": "Psychic",
+  "BaseHP": 6,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Levitate",
+  "Ability2": "Download",
+  "HiddenAbility": "Solar Power",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "porygon-3",
+  "DexCategory": "Satellite Pokémon",
+  "Height": {
+    "Meters": 1.35,
+    "Feet": 4.42
+  },
+  "Weight": {
+    "Kilograms": 79.8,
+    "Pounds": 176.0
+  },
+  "DexDescription": "Porygon 2 where upgraded to serve as satellites for a certain augmented reality project, based in Duskfork city.",
+  "Evolutions": [
+    {
+      "From": "Porygon 2",
+      "Kind": "Special",
+      "Special": "Porygon 2 (*Satellite Parts)"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Tackle"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Conversion"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Conversion 2"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Psybeam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cosmic Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Signal Beam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rainbow Beam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thunder Shock"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Magnet Rise"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Recycle"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Magic Coat"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lock-On"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Tri Attack"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Discharge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Extrasensory"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psyshock"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Autotomize"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Zap Cannon"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hyper Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Solar Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Singularity"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Null Room"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Breach"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Firewall"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Speed Swap"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Anti-Gravity"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Electroweb"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Expanding Force"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twin Jolt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Asteroid Shot"
+    }
+  ]
+}

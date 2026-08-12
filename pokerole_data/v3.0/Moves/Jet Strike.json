@@ -1,0 +1,16 @@
+{
+    "Name": "Jet Strike",
+    "Type": "Flying",
+    "Power": 2,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Dexterity",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Reaction 1.",
+    "Description": "At dizzying speed, the User lunges at the Foe.",
+    "_id": "jet-strike",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

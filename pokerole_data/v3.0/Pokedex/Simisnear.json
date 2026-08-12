@@ -1,0 +1,169 @@
+{
+  "Number": 1071,
+  "DexID": "1071",
+  "Name": "Simisnear",
+  "Type1": "Dark",
+  "Type2": "",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Gluttony",
+  "Ability2": "",
+  "HiddenAbility": "Elemental Boost",
+  "EventAbilities": "",
+  "RecommendedRank": "Expert",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "simisnear",
+  "DexCategory": "Menacing Monkey Pokémon",
+  "Height": {
+    "Meters": 0.99,
+    "Feet": 3.25
+  },
+  "Weight": {
+    "Kilograms": 30.4,
+    "Pounds": 67.0
+  },
+  "DexDescription": "It is said that wherever Similar appears, misfortune follows, as it has a habit of manipulating shadows to mislead travellers and cause chaos.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Scratch"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Play Nice"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Lick"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Snarl"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fury Swipes"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Yawn"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Switcheroo"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thief"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Amnesia"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fling"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acrobatics"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cheap Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lunge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Revenge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sucker Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Natural Gift"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Parting Shot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Snatch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Bullet Seed"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Comeuppance"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Disarming Voice"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Gunk Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fisticuffs"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Silph Scope",
+  "_id": "silph-scope",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Items",
+  "Category": "Special Items",
+  "Description": "Lets you identify “ghosts” or “invisible” things",
+  "OneUse": false,
+  "TrainerPrice": "25000",
+  "Cures": "",
+  "Image": ""
+}

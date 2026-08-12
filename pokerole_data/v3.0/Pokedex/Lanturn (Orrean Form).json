@@ -1,0 +1,165 @@
+{
+  "Number": 171,
+  "DexID": "0171F1",
+  "Name": "Lanturn (Orrean Form)",
+  "Type1": "Ghost",
+  "Type2": "Electric",
+  "BaseHP": 6,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 2,
+  "MaxVitality": 4,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Volt Absorb",
+  "Ability2": "Illuminate",
+  "HiddenAbility": "Breach The Depths",
+  "EventAbilities": "",
+  "RecommendedRank": "Standard",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "lanturn-orrean-form",
+  "DexCategory": "Anglerfish Pokémon",
+  "Height": {
+    "Meters": 1.22,
+    "Feet": 4.0
+  },
+  "Weight": {
+    "Kilograms": 44.5,
+    "Pounds": 98.0
+  },
+  "DexDescription": "It is said that they use their lights to lure sailors overboard to a watery grave.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Thunder Wave"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Flail"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mean Look"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Eerie Impulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hex"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Shadow Sneak"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Water Gun"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Electro Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Signal Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Charge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Take Down"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Spark"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Bubble Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Harrowing Wrath"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Discharge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hydro Pump"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Aqua Ring"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Volt Switch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Rising Voltage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Breach"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Terrorize"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Electro Whip"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Fang"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "Number": 426,
+  "DexID": "0426F1",
+  "Name": "Drifblim (Orrean Form)",
+  "Type1": "Ghost",
+  "Type2": "Steel",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Aftermath",
+  "Ability2": "Iron Barbs",
+  "HiddenAbility": "Flare Boost",
+  "EventAbilities": "",
+  "RecommendedRank": "Advanced",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "drifblim-orrean-form",
+  "DexCategory": "Sea Mine Pokémon",
+  "Height": {
+    "Meters": 1.3,
+    "Feet": 4.25
+  },
+  "Weight": {
+    "Kilograms": 57.2,
+    "Pounds": 126.0
+  },
+  "DexDescription": "They can be found sleeping in large groups underwater, it is best not to wake them. If one is spotted, the coast guard enforce a strict cordon around the area until they can be safely Moved.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Minimize"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Constrict"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Disable"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Payback"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ominous Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sucker Punch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Gyro Ball"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Metal Sound"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Baton Pass"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Breach"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Self Destruct"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Autotomize"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Scrap Metal"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Explosion"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Harrowing Wrath"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Phantom Force"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Amnesia"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Anchor Shot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Double Iron Bash"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Misty Explosion"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Meltdown"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Shadow Tide"
+    }
+  ]
+}

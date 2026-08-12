@@ -1,0 +1,145 @@
+{
+  "Number": 1122,
+  "DexID": "1122",
+  "Name": "UB-15 Dexterous",
+  "Type1": "Dark",
+  "Type2": "Fighting",
+  "BaseHP": 6,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 4,
+  "MaxDexterity": 8,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Beast Boost",
+  "Ability2": "",
+  "HiddenAbility": "Pressure",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "ub-15-dexterous",
+  "DexCategory": "Ultra Beast",
+  "Height": {
+    "Meters": 2.82,
+    "Feet": 9.25
+  },
+  "Weight": {
+    "Kilograms": 49.9,
+    "Pounds": 110.0
+  },
+  "DexDescription": "Aether Foundation Log #181: It has strange glowing patterns on its body, that seem to change colors depending on its mood. It can cling to any surface, even upside down on smooth glass.",
+  "Evolutions": [],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Feint Attack"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Assurance"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Detect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Force Palm"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thief"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Choke Hold"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Swagger"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Pursuit"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Arm Thrust"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Refresh"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sucker Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Drain Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dynamic Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mach Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Power-Up Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Throat Chop"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Quick Guard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Ice Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Thunder Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fire Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Reflect Type"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Revitalisation Pulse"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Brutal Swing"
+    }
+  ]
+}

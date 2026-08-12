@@ -1,0 +1,16 @@
+{
+    "Name": "Harrowing Wrath",
+    "Type": "Ghost",
+    "Power": 5,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Strength",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Recoil.",
+    "Description": "The User enshrouds itself in the grudge bearing spirits of the departed, before hitting the Foe with all it has.",
+    "_id": "harrowing-wrath",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}

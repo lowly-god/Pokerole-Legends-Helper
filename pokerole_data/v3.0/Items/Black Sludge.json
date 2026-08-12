@@ -1,0 +1,13 @@
+{
+  "Name": "Black Sludge",
+  "_id": "black-sludge",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Poison-Types heal 1HP at the end of the Round",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

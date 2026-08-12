@@ -1,0 +1,13 @@
+{
+  "Name": "Weakness Policy",
+  "_id": "weakness-policy",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "If the holder is hit by a Supereffective Move, it gets +2 Strength and Special",
+  "OneUse": true,
+  "TrainerPrice": "10000",
+  "Cures": "",
+  "Image": ""
+}

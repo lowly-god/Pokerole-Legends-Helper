@@ -1,0 +1,16 @@
+{
+    "Name": "Breach",
+    "Type": "Ghost",
+    "Power": 0,
+    "Damage1": "",
+    "Damage2": "",
+    "Accuracy1": "Clever",
+    "Accuracy2": "Stealth",
+    "Target": "User + Allies",
+    "Effect": "Reaction 1. User and Allies ignore Foe's Shield and Barrier Moves for the rest of the Round. Out of battle effects at Storyteller's discretion.",
+    "Description": "The User disables the Foe's protections, momentarily. They’re in!",
+    "_id": "breach",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Support"
+}

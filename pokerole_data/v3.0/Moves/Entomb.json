@@ -1,0 +1,16 @@
+{
+    "Name": "Entomb",
+    "Type": "Ground",
+    "Power": 3,
+    "Damage1": "Physical",
+    "Damage2": "",
+    "Accuracy1": "Dexterity",
+    "Accuracy2": "Brawl",
+    "Target": "Foe",
+    "Effect": "Charge Move. Out of Range while Charging. Flinch the Target. User and Target Vulnerable while Charging to: Earthquake, Fissure, Magnitude, Stomping Tantrum.",
+    "Description": "The User drags the Target underground with it, before collapsing the tunnel on top of it.",
+    "_id": "entomb",
+    "Attributes": {},
+    "AddedEffects": {},
+    "Category": "Physical"
+}
