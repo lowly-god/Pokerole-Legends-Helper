@@ -39,7 +39,7 @@ SLASH_COMMANDS = []
 
 load_dotenv()
 if not dev_env:
-    token = os.getenv('POKEROLE_TOKEN')
+    token = os.getenv('DISCORD_TOKEN')
 else:
     token = os.getenv('BETA_TOKEN')
 
