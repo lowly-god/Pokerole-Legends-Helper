@@ -1,0 +1,26 @@
+Legends bot fixes — 2026-08-12
+
+Move effect text changed: 10
+- Attract: Target is now In Love with the User. -> Make the Target fall In Love with the User.
+- Beguiling Influence: Accuracy -2. The Foe becomes *Charmed. -> Accuracy -2. Charm the Target.
+- Helping Hand: Reaction 5. The Target Gets 2 Extra Dice on their next Skill Check/Accuracy Roll, and 2 Extra Dice on their next Damage Roll. This Effect does not Stack. -> Reaction 5. Give the Target 2 Extra Dice on their next Skill Check/Accuracy Roll and 2 Extra Dice on their next Damage Roll. This Effect does not Stack.
+- Lapidify: The Foe becomes *Petrified. -> Petrify the Target.
+- Malignant Chain: Unique. Roll 5 Chance Dice to Badly Poison the Target. At the end of the Round, if the Target was Poisoned by this Move, roll their Loyalty, get at least 3 successes, if it fails, from the next Round the Target becomes the user's Ally untl the poison is healed. -> Unique. Roll 5 Chance Dice to Badly Poison the Target. At the end of the Round, if the Target was Poisoned by this Move, roll their Loyalty and get at least 3 successes. On a failure, from the next Round treat the Target as the User's Ally until the poison is healed.
+- Parasitize: Accuracy -1. The Foe becomes *Leeched. -> Accuracy -1. Leech the Target.
+- Petrifying Gaze: The Foe becomes *Petrified. -> Petrify the Target.
+- Shadow Shed: removes any effects from Foe’s ongoing Support Moves. (Terrain, Weather, Aqua Ring, Reflect, Safeguard etc). -> Removes any effects from Foe’s ongoing Support Moves. (Terrain, Weather, Aqua Ring, Reflect, Safeguard etc).
+- Siphon Life-Force: Accuracy -1. The Foe becomes *Leeched. -> Accuracy -1. Leech the Target.
+- Telekinesis: Target becomes immune to Ground-Type Moves. Target can't Evade. Duration 2 Rounds. -> Grant the Target immunity to Ground-Type Moves. The Target can't Evade. Duration 2 Rounds.
+
+Learnset changes:
+- Trubbish: Poison Jab -> Standard
+- Garbodor: Poison Jab -> Standard
+
+Official Pokémon hidden-ability records repaired: 541
+  Existing custom/new Pokémon were excluded. Existing non-hidden ability choices were preserved; where the old core data had placed the official hidden ability in Ability1/Ability2, it was moved into HiddenAbility.
+
+Fuzzy lookup dictionaries:
+- Pokemon: 1210 -> 1879 entries (+669)
+- Moves: 731 -> 1053 entries (+322)
+- Abilities: 294 -> 444 entries (+150)
+  The bot already uses SymSpell (edit distance 2) for official/core lookups. Custom canonical names were simply missing from those dictionary files; they are now included, so custom content gets the same typo tolerance as core content.

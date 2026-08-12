@@ -1,40 +1,70 @@
 Absolution$100
+Accelerate$100
 Adaptability$100
 Aerilate$100
 Aftermath$100
 Air Lock$100
+All Consuming Void$100
+Ally Pledge$100
+Alphabetize$100
 Amplifier$100
 Analytic$100
 Ancient Presence$100
 Anger Point$100
+Anger Shell$100
 Anticipation$100
+Apex Predator$100
 Arena Trap$100
+Armor Mace$100
+Armor Tail$100
 Aroma Veil$100
+As One$100
 Athenian$100
 Aura Break$100
 Bad Dreams$100
+Bad Luck$100
+Balance$100
+Baleful Eye$100
 Ball Fetch$100
 Battery$100
 Battle Armor$100
 Battle Bond$100
+Battle Master$100
+Beads of Ruin$100
 Beast Boost$100
 Berserk$100
 Big Pecks$100
+Blank Canvas$100
 Blaze$100
 Blaze Boost$100
+Breach The Depths$100
+Bubble Vision$100
+Bullet Time$100
 Bulletproof$100
+Capsaicin Core$100
+Capture$100
 Cheek Pouch$100
+Chilling Neigh$100
 Chlorofury$100
 Chlorophyll$100
+Clairvoyant$100
 Clear Body$100
 Cloud Nine$100
 Color Change$100
 Comatose$100
+Commander$100
 Competitive$100
 Compound Eyes$100
+Conceal$100
+Conductor$100
 Contrary$100
+Coral Guard$100
 Corrosion$100
+Corruption$100
+Costar$100
 Cotton Down$100
+Cud Chew$100
+Curious Medicine$100
 Cursed Body$100
 Cute Charm$100
 Damp$100
@@ -45,22 +75,45 @@ Dazzling$100
 Defeatist$100
 Defiant$100
 Delta Stream$100
+Dense Plush$100
 Desolate Land$100
 Disguise$100
+Diurnal$100
+Double Barrel$100
 Download$100
+Dragon Maw$100
+Dragonize$100
 Drizzle$100
 Drought$100
 Dry Skin$100
+Duality$100
+Duellist$100
 Early Bird$100
+Earth Eater$100
+Eelevate$100
 Effect Spore$100
+Eggcelent$100
 Electric Surge$100
+Electromorphosis$100
+Elemental Boost$100
+Embody Aspect$100
 Emergency Exit$100
 Ethereal Shroud$100
+Evolution Drive$100
+Execution$100
+Expert$100
 Fairy Aura$100
+Feedback$100
+Field Support$100
+Fighting Spirit$100
 Filter$100
+Fire Mane$100
+Fist Flurry$100
 Flame Body$100
 Flare Boost$100
 Flash Fire$100
+Flash Freeze$100
+Flinty Spirit$100
 Flower Gift$100
 Flower Veil$100
 Fluffy$100
@@ -68,24 +121,33 @@ Forecast$100
 Forewarn$100
 Foundry$100
 Friend Guard$100
+Frightening Aura$100
 Frisk$100
 Full Metal Body$100
 Fur Coat$100
+Fury of the Hive$100
 Gale Wings$100
 Galvanize$100
+Gigantic$100
+Gloom Stalker$100
 Gluttony$100
+Good As Gold$100
 Gooey$100
 Gorilla Tactics$100
 Grass Pelt$100
 Grassy Surge$100
+Grim Neigh$100
+Guard Dog$100
 Gulp Missile$100
 Guts$100
+Hadron Engine$100
 Harvest$100
 Healer$100
 Heatproof$100
 Heavy Metal$100
 Heliophobia$100
 Honey Gather$100
+Hospitality$100
 Hubris$100
 Huge Power$100
 Hunger Switch$100
@@ -98,28 +160,39 @@ Ice Face$100
 Ice Scales$100
 Illuminate$100
 Illusion$100
+Illusionary Defenses$100
 Immunity$100
 Imposter$100
+Improved RKS System$100
+Inexorable$100
 Infiltrator$100
+Ink Spray$100
 Innards Out$100
 Inner Focus$100
 Insomnia$100
 Intimidate$100
 Intoxicate$100
 Intrepid Sword$100
+Intrusive Thoughts$100
+Invisibility$100
 Iron Barbs$100
 Iron Fist$100
 Irrelephant$100
 Justified$100
 Keen Eye$100
+Kelp Eater$100
+Kinetic Clockwork$100
 Klutz$100
 Leaf Guard$100
+Legionnaire$100
 Lernean$100
 Levitate$100
 Libero$100
 Light Metal$100
 Lightning Rod$100
 Limber$100
+Lingering Aroma$100
+Liquid Assassin$100
 Liquid Ooze$100
 Liquid Voice$100
 Long Reach$100
@@ -129,9 +202,14 @@ Magician$100
 Magma Armor$100
 Magnet Pull$100
 Marvel Scale$100
+Masterpiece$100
+Mega Drill$100
 Mega Launcher$100
+Mega Sol$100
 Merciless$100
+Mesmerize$100
 Mimicry$100
+Mind's Eye$100
 Minus$100
 Mirror Armor$100
 Misty Surge$100
@@ -139,20 +217,29 @@ Mold Breaker$100
 Moody$100
 Motor Drive$100
 Moxie$100
+Multi-Maw$100
 Multiscale$100
 Multitype$100
 Mummy$100
+Mycelium Might$100
 Natural Cure$100
+Necrovenom$100
 Neuroforce$100
 Neutralizing Gas$100
+Night Cloak$100
 No Guard$100
 Noctem$100
+Nocturnal$100
 Normalize$100
+Novice$100
 Oblivious$100
 Omnitype$100
+Opportunist$100
+Orichalcum Pulse$100
 Overcoat$100
 Overgrow$100
 Own Tempo$100
+Parasomnia$100
 Parental Bond$100
 Pastel Veil$100
 Pendulum$100
@@ -162,38 +249,55 @@ Phototroph$100
 Pickpocket$100
 Pickup$100
 Pixilate$100
+Plague Pack$100
 Plus$100
 Poison Heal$100
 Poison Point$100
+Poison Puppeteer$100
 Poison Touch$100
+Poisoned Treats$100
+Polished Coat$100
+Polluted Atmosphere$100
 Power Construct$100
-Power Spot$100
 Power of Alchemy$100
+Power Spot$100
 Prankster$100
 Pressure$100
+Prime Fury$100
 Primordial Sea$100
 Prism Armor$100
 Prism Guard$100
+Prism Refraction$100
 Propeller Tail$100
 Protean$100
 Protean Maxima$100
+Protosynthesis$100
 Psychic Surge$100
 Psycho Call$100
 Punk Rock$100
 Pure Power$100
+Purifying Salt$100
+Pyrostatic$100
+Quark Drive$100
 Queenly Majesty$100
+Quick Draw$100
 Quick Feet$100
-RKS System$100
+Radiant Defender$100
 Rain Dish$100
 Rattled$100
+Re-Routing$100
+Reality Warping Swarm$100
 Receiver$100
 Reckless$100
 Refrigerate$100
+Regal Majesty$100
 Regenerator$100
 Regurgitation$100
 Ripen$100
 Rivalry$100
+RKS System$100
 Rock Head$100
+Rocky Payload$100
 Rough Skin$100
 Run Away$100
 Sand Force$100
@@ -205,18 +309,26 @@ Sap Sipper$100
 Schooling$100
 Scrappy$100
 Screen Cleaner$100
+Seed Sower$100
+Self-Sufficient$100
+Serendipitous Wishes$100
 Serene Grace$100
 Shadow Call$100
 Shadow Dance$100
 Shadow Shield$100
 Shadow Tag$100
+Sharpness$100
 Shed Skin$100
 Sheer Force$100
 Shell Armor$100
 Shield Dust$100
 Shields Down$100
+Showstopper$100
 Simple$100
+Siren Song$100
+Skewed Odds$100
 Skill Link$100
+Sleepwalker$100
 Sleet$100
 Slow Start$100
 Slush Rush$100
@@ -225,11 +337,17 @@ Snow Cloak$100
 Snow Warning$100
 Solar Power$100
 Solid Rock$100
+Soothing Aroma$100
+Soothing Melody$100
 Soul Heart$100
 Soundproof$100
+Sovereign's Steel$100
+Space-Time Distortion$100
 Spectral Jaws$100
 Speed Boost$100
 Speed Swap$100
+Spellcaster$100
+Spicy Spray$100
 Spirit Call$100
 Stakeout$100
 Stall$100
@@ -239,43 +357,69 @@ Stance Change$100
 Static$100
 Steadfast$100
 Steam Engine$100
+Steel-Shell Carapace$100
 Steelworker$100
 Steely Spirit$100
 Stench$100
 Sticky Hold$100
 Storm Drain$100
+Storm Warning$100
+Stormy Disposition$100
 Strong Jaw$100
 Sturdy$100
+Sub-Zero Surfer$100
 Suction Cups$100
 Super Luck$100
 Supercell$100
+Supersweet Syrup$100
+Supreme Overlord$100
 Surge Surfer$100
 Swarm$100
+Swashbuckler$100
 Sweet Veil$100
 Swift Swim$100
+Sword of Ruin$100
 Symbiosis$100
 Synchronize$100
+Tablets of Ruin$100
 Tangled Feet$100
 Tangling Hair$100
 Technician$100
 Telepathy$100
+Tempest's Fury$100
+Temporal Fracture$100
+Tera Shell$100
+Tera Shift$100
+Teraform Zero$100
 Teravolt$100
+Thermal Exchange$100
 Thick Fat$100
+Time Split$100
 Tinted Lens$100
 Torrent$100
 Tough Claws$100
 Toxic Boost$100
+Toxic Chain$100
+Toxic Debris$100
+Toxin Tax$100
 Trace$100
+Transistor$100
 Triage$100
+Triple Threat$100
 Truant$100
 Turboblaze$100
+Tyrant$100
 Unaware$100
 Unburden$100
 Unleafed$100
 Unnerve$100
+Unseen Fist$100
 Vampiric$100
+Vampirism$100
 Vaporization$100
+Veil of Night$100
 Venomous$100
+Vessel of Ruin$100
 Victory Star$100
 Vital Spirit$100
 Volt Absorb$100
@@ -285,10 +429,16 @@ Water Bubble$100
 Water Compaction$100
 Water Veil$100
 Weak Armor$100
+Web Master$100
+Well-Baked Body$100
 White Smoke$100
+Wild Magic$100
 Wimp Out$100
 Wind Force$100
+Wind Power$100
+Wind Rider$100
 Winter Joy$100
 Wonder Guard$100
 Wonder Skin$100
 Zen Mode$100
+Zero to Hero$100

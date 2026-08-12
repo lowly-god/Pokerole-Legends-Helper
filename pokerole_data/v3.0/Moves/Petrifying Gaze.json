@@ -7,7 +7,7 @@
     "Accuracy1": "Beauty",
     "Accuracy2": "Nature",
     "Target": "Foe",
-    "Effect": "The Foe becomes *Petrified.",
+    "Effect": "Petrify the Target.",
     "Description": "The User withers the Foe with its glare, slowly turning it into stone.",
     "_id": "petrifying-gaze",
     "Attributes": {},

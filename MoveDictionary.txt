@@ -1,7 +1,10 @@
+Absolute Zero$100
 Absorb$100
 Accelerock$100
 Acid$100
 Acid Armor$100
+Acid Downpour$100
+Acid Rain$100
 Acid Spray$100
 Acrobatics$100
 Acupressure$100
@@ -11,37 +14,55 @@ After You$100
 Agility$100
 Air Cutter$100
 Air Slash$100
+All-Out Pummeling$100
+Alluring Voice$100
 Ally Switch$100
+Ambush$100
 Amnesia$100
 Anchor Shot$100
 Ancient Power$100
+Anti-Gravity$100
 Any Move$100
 Apple Acid$100
+Aqua Cutter$100
+Aqua Fang$100
 Aqua Jet$100
 Aqua Ring$100
+Aqua Step$100
+Aqua Surge$100
 Aqua Tail$100
 Arm Thrust$100
+Armor Cannon$100
 Aromatherapy$100
 Aromatic Mist$100
 Assist$100
 Assurance$100
+Asteroid Shot$100
 Astonish$100
+Astral Barrage$100
 Attack Order$100
 Attract$100
+Aura Snare$100
 Aura Sphere$100
+Aura Strike$100
 Aura Wheel$100
 Aurora Beam$100
 Aurora Veil$100
 Autotomize$100
 Avalanche$100
+Axe Kick$100
 Baby-Doll Eyes$100
 Baddy Bad$100
 Baneful Bunker$100
+Barb Barrage$100
+Barbed Spines$100
 Barrage$100
 Barrier$100
+Barrier Blast$100
 Baton Pass$100
 Beak Blast$100
 Beat Up$100
+Beguiling Influence$100
 Behemoth Bash$100
 Behemoth Blade$100
 Belch$100
@@ -49,11 +70,21 @@ Belly Drum$100
 Bestow$100
 Bide$100
 Bind$100
+Binding Chain$100
 Bite$100
+Bitter Blade$100
+Bitter Malice$100
+Black Hole Eclipse$100
+Black Ice$100
 Blast Burn$100
 Blaze Kick$100
+Blazing Torque$100
+Bleakwind Storm$100
 Blizzard$100
 Block$100
+Blockade Barrage$100
+Blood Moon$100
+Bloom Doom$100
 Blue Flare$100
 Body Press$100
 Body Slam$100
@@ -65,9 +96,12 @@ Bonemerang$100
 Boomburst$100
 Bounce$100
 Bouncy Bubble$100
+Brace$100
 Branch Poke$100
 Brave Bird$100
+Breach$100
 Breaking Swipe$100
+Breakneck Blitz$100
 Brick Break$100
 Brine$100
 Brutal Swing$100
@@ -75,36 +109,60 @@ Bubble$100
 Bubble Beam$100
 Bug Bite$100
 Bug Buzz$100
+Bulk Breaker$100
 Bulk Up$100
 Bulldoze$100
 Bullet Punch$100
 Bullet Seed$100
 Burn Up$100
+Burning Bulwark$100
+Burning Jealousy$100
 Buzzy Buzz$100
 Calm Mind$100
 Camouflage$100
 Captivate$100
+Caustic Breath$100
+Cauterize$100
+Ceaseless Edge$100
 Charge$100
 Charge Beam$100
 Charm$100
 Chatter$100
+Cheap Shot$100
+Chic Chop$100
+Chilling Water$100
+Chilly Reception$100
 Chip Away$100
+Chivalrous Stab$100
+Chloroblast$100
+Choke Hold$100
 Circle Throw$100
 Clamp$100
 Clanging Scales$100
 Clangorous Soul$100
+Clash$100
+Cleansing Fire$100
 Clear Smog$100
 Close Combat$100
+Coaching$100
 Coil$100
+Collision Course$100
+Combat Torque$100
 Comet Punch$100
+Comeuppance$100
 Confide$100
 Confuse Ray$100
 Confusion$100
 Constrict$100
+Continental Crush$100
+Contrict$100
 Conversion$100
 Conversion 2$100
 Copycat$100
 Core Enforcer$100
+Corkscrew Crash$100
+Corrosive Gas$100
+Cosmic Corrosion$100
 Cosmic Power$100
 Cotton Guard$100
 Cotton Spore$100
@@ -119,71 +177,100 @@ Cross Poison$100
 Crunch$100
 Crush Claw$100
 Crush Grip$100
+Cryocontamination$100
 Curse$100
 Curse (Non-Ghost User)$100
+Curse (Non-Ghost)$100
 Cut$100
+Dark Magic$100
 Dark Pulse$100
 Dark Void$100
 Darkest Lariat$100
 Dazzling Gleam$100
+Decimation$100
 Decorate$100
 Defend Order$100
 Defense Curl$100
 Defog$100
 Destiny Bond$100
 Detect$100
+Devastating Drake$100
+Devouring Abyss$100
 Diamond Storm$100
 Dig$100
+Dire Claw$100
 Disable$100
 Disarming Voice$100
 Discharge$100
+Discombobulate$100
 Dive$100
 Dizzy Punch$100
+Doodle$100
 Doom Desire$100
 Double Hit$100
 Double Iron Bash$100
 Double Kick$100
+Double Shock$100
 Double Slap$100
 Double Team$100
 Double-Edge$100
+Draco Jaw$100
 Draco Meteor$100
 Dragon Ascent$100
 Dragon Breath$100
+Dragon Cheer$100
 Dragon Claw$100
 Dragon Dance$100
 Dragon Darts$100
+Dragon Energy$100
 Dragon Hammer$100
 Dragon Pulse$100
 Dragon Rage$100
 Dragon Rush$100
+Dragon Slayer$100
 Dragon Tail$100
 Drain Punch$100
 Draining Kiss$100
 Dream Eater$100
+Dreamweave$100
 Drill Peck$100
 Drill Run$100
 Drum Beating$100
+Dual Cannon$100
 Dual Chop$100
+Dual Wingbeat$100
+Dust Devil$100
 Dynamax Cannon$100
 Dynamic Punch$100
 Earth Power$100
 Earthquake$100
 Echoed Voice$100
+Edgestitch$100
 Eerie Impulse$100
+Eerie Spell$100
 Egg Bomb$100
 Electric Terrain$100
 Electrify$100
 Electro Ball$100
+Electro Drift$100
+Electro Shot$100
+Electro Whip$100
 Electroweb$100
 Embargo$100
 Ember$100
+Embody Element$100
 Encore$100
 Endeavor$100
 Endure$100
 Energy Ball$100
+Entomb$100
 Entrainment$100
 Eruption$100
+Esper Wing$100
 Eternabeam$100
+Evasion$100
+Evil Eye$100
+Expanding Force$100
 Explosion$100
 Extrasensory$100
 Extreme Speed$100
@@ -194,11 +281,16 @@ Fake Out$100
 Fake Tears$100
 False Surrender$100
 False Swipe$100
+Fate's Edge$100
 Feather Dance$100
 Feint$100
 Feint Attack$100
 Fell Stinger$100
+Fickle Beam$100
 Fiery Dance$100
+Fiery Wrath$100
+Fillet Away$100
+Fin Blade$100
 Final Gambit$100
 Fire Blast$100
 Fire Fang$100
@@ -206,9 +298,11 @@ Fire Lash$100
 Fire Pledge$100
 Fire Punch$100
 Fire Spin$100
+Firewall$100
 First Impression$100
 Fishious Rend$100
 Fissure$100
+Fisticuffs$100
 Flail$100
 Flame Burst$100
 Flame Charge$100
@@ -220,9 +314,12 @@ Flash Cannon$100
 Flatter$100
 Fleur Cannon$100
 Fling$100
+Flip Turn$100
+Flirty Kiss$100
 Floaty Fall$100
 Floral Healing$100
 Flower Shield$100
+Flower Trick$100
 Fly$100
 Flying Press$100
 Focus Blast$100
@@ -235,9 +332,13 @@ Forest's Curse$100
 Foul Play$100
 Freeze Dry$100
 Freeze Shock$100
+Freezing Glare$100
 Freezy Frost$100
 Frenzy Plant$100
 Frost Breath$100
+Frost Slash$100
+Frostfire$100
+Frozen Crash$100
 Frustration$100
 Fury Attack$100
 Fury Cutter$100
@@ -245,19 +346,26 @@ Fury Swipes$100
 Fusion Bolt$100
 Fusion Flare$100
 Future Sight$100
+Gaia Force$100
 Gastro Acid$100
 Gear Grind$100
 Gear Up$100
 Geomancy$100
+Geopsychic Glyph$100
 Giga Drain$100
 Giga Impact$100
+Gigaton Hammer$100
+Gigavolt Havoc$100
+Glacial Lance$100
 Glaciate$100
+Glaive Rush$100
 Glare$100
 Glitzy Glow$100
 Grapple$100
 Grass Knot$100
 Grass Pledge$100
 Grass Whistle$100
+Grassy Glide$100
 Grassy Terrain$100
 Grav Apple$100
 Gravity$100
@@ -274,36 +382,49 @@ Gust$100
 Gyro Ball$100
 Hail$100
 Hammer Arm$100
+Hard Press$100
 Harden$100
+Harrowing Wrath$100
 Haze$100
 Head Charge$100
 Head Smash$100
 Headbutt$100
+Headlong Rush$100
 Heal Bell$100
 Heal Block$100
 Heal Order$100
 Heal Pulse$100
 Healing Wish$100
+Heart Breaker$100
 Heart Stamp$100
 Heart Swap$100
 Heat Crash$100
 Heat Wave$100
 Heavy Slam$100
+Hellfire$100
 Help Another$100
 Helping Hand$100
 Hex$100
 Hidden Power$100
+Hidden Power Of The Swarm$100
 High Horsepower$100
 High Jump Kick$100
+Hoarfrost Moon$100
+Hold Hands$100
 Hone Claws$100
+Honor Blade$100
 Horn Attack$100
 Horn Drill$100
 Horn Leech$100
 Howl$100
+Hull Rend$100
 Hurricane$100
 Hydro Cannon$100
 Hydro Pump$100
+Hydro Steam$100
+Hydro Vortex$100
 Hyper Beam$100
+Hyper Drill$100
 Hyper Fang$100
 Hyper Voice$100
 Hyperspace Fury$100
@@ -316,31 +437,47 @@ Ice Fang$100
 Ice Hammer$100
 Ice Punch$100
 Ice Shard$100
+Ice Spinner$100
 Icicle Crash$100
 Icicle Spear$100
 Icy Wind$100
+Imperial Majesty$100
 Imprison$100
 Incinerate$100
+Incredible Feat$100
+Infernal Parade$100
+Infernal Riff$100
 Inferno$100
+Inferno Overdrive$100
 Infestation$100
 Ingrain$100
 Instruct$100
 Ion Deluge$100
 Iron Defense$100
+Iron Edge$100
 Iron Head$100
 Iron Tail$100
+Ivy Cudgel$100
 Jaw Lock$100
+Jet Punch$100
+Jet Strike$100
 Judgment$100
 Jump Kick$100
+Jungle Healing$100
 Karate Chop$100
 Kinesis$100
 King's Shield$100
 Knock Off$100
+Kowtow Cleave$100
 Land's Wrath$100
+Lapidify$100
 Laser Focus$100
+Lash Out$100
 Last Resort$100
+Last Respects$100
 Lava Plume$100
 Leaf Blade$100
+Leaf Shield$100
 Leaf Storm$100
 Leaf Tornado$100
 Leafage$100
@@ -357,6 +494,8 @@ Lovely Kiss$100
 Low Kick$100
 Low Sweep$100
 Lucky Chant$100
+Lumina Crash$100
+Lunar Blessing$100
 Lunar Dance$100
 Lunge$100
 Luster Purge$100
@@ -365,26 +504,57 @@ Magic Coat$100
 Magic Powder$100
 Magic Room$100
 Magical Leaf$100
+Magical Torque$100
+Magma Crunch$100
+Magma Drift$100
 Magma Storm$100
 Magnet Bomb$100
 Magnet Rise$100
 Magnetic Flux$100
 Magnitude$100
+Make It Rain$100
+Malignant Chain$100
+Many Eyed Portal$100
 Mat Block$100
+Matcha Gotcha$100
+Max Airstream$100
+Max Darkness$100
+Max Flare$100
+Max Flutterby$100
+Max Geyser$100
+Max Guard$100
+Max Hailstorm$100
+Max Knuckle$100
+Max Lightning$100
+Max Mindstorm$100
+Max Ooze$100
+Max Overgrowth$100
+Max Phantasm$100
+Max Quake$100
+Max Rockfall$100
+Max Starfall$100
+Max Steelspike$100
+Max Strike$100
+Max Wyrmwind$100
 Me First$100
 Mean Look$100
 Meditate$100
+Meditative Trance$100
 Mega Drain$100
 Mega Kick$100
 Mega Punch$100
 Megahorn$100
+Meltdown$100
 Memento$100
 Metal Burst$100
 Metal Claw$100
 Metal Sound$100
 Meteor Assault$100
+Meteor Beam$100
 Meteor Mash$100
 Metronome$100
+Miasma$100
+Mighty Cleave$100
 Milk Drink$100
 Mimic$100
 Mind Blown$100
@@ -393,14 +563,19 @@ Minimize$100
 Miracle Eye$100
 Mirror Coat$100
 Mirror Move$100
+Mirror Shield$100
 Mirror Shot$100
 Mist$100
 Mist Ball$100
+Misty Explosion$100
 Misty Terrain$100
 Moonblast$100
 Moongeist Beam$100
 Moonlight$100
+Moonveil Dance$100
 Morning Sun$100
+Mortal Spin$100
+Mountain Gale$100
 Mud Bomb$100
 Mud Shot$100
 Mud Slap$100
@@ -408,17 +583,23 @@ Mud Sport$100
 Muddy Water$100
 Multi-Attack$100
 Mystical Fire$100
+Mystical Power$100
 Nasty Plot$100
 Natural Gift$100
 Nature Power$100
 Nature's Madness$100
+Necromancy$100
 Needle Arm$100
+Neurotoxin Needle$100
+Never-Ending Nightmare$100
 Night Daze$100
 Night Shade$100
 Night Slash$100
 Nightmare$100
 No Retreat$100
 Noble Roar$100
+Noxious Torque$100
+Null Room$100
 Nuzzle$100
 Oblivion Wing$100
 Obstruct$100
@@ -426,12 +607,15 @@ Octazooka$100
 Octolock$100
 Odor Sleuth$100
 Ominous Wind$100
+Order Up$100
 Origin Pulse$100
 Outrage$100
 Overdrive$100
 Overheat$100
 Pain Split$100
+Paper Cutter$100
 Parabolic Charge$100
+Parasitize$100
 Parting Shot$100
 Pay Day$100
 Payback$100
@@ -439,11 +623,13 @@ Peck$100
 Perish Song$100
 Petal Blizzard$100
 Petal Dance$100
+Petrifying Gaze$100
 Phantom Force$100
 Photon Geyser$100
 Photon Geyser (Physical)$100
 Photon Geyser (Special)$100
 Pika Papow$100
+Piledriver$100
 Pin Missile$100
 Plasma Fists$100
 Play Nice$100
@@ -456,10 +642,15 @@ Poison Powder$100
 Poison Sting$100
 Poison Tail$100
 Pollen Puff$100
+Pollution$100
+Poltergeist$100
+Population Bomb$100
+Pounce$100
 Pound$100
 Powder$100
 Powder Snow$100
 Power Gem$100
+Power Shift$100
 Power Split$100
 Power Swap$100
 Power Trick$100
@@ -468,19 +659,26 @@ Power Whip$100
 Power-Up Punch$100
 Precipice Blades$100
 Present$100
+Primal Instinct$100
 Prismatic Laser$100
 Protect$100
+Psy-Vortex$100
 Psybeam$100
+Psyblade$100
+Psybolt$100
 Psych Up$100
 Psychic$100
 Psychic Fangs$100
+Psychic Noise$100
 Psychic Terrain$100
 Psycho Boost$100
 Psycho Cut$100
 Psycho Shift$100
+Psyshield Bash$100
 Psyshock$100
 Psystrike$100
 Psywave$100
+Pulse Strike$100
 Punishment$100
 Purify$100
 Pursuit$100
@@ -490,8 +688,12 @@ Quick Attack$100
 Quick Guard$100
 Quiver Dance$100
 Rage$100
+Rage Fist$100
 Rage Powder$100
+Raging Bull$100
+Raging Fury$100
 Rain Dance$100
+Rainbow Beam$100
 Rapid Spin$100
 Razor Leaf$100
 Razor Shell$100
@@ -502,12 +704,17 @@ Reflect$100
 Reflect Type$100
 Refresh$100
 Relic Song$100
+Resonating Chime$100
 Rest$100
 Retaliate$100
 Return$100
 Revelation Dance$100
 Revenge$100
 Reversal$100
+Revitalisation Pulse$100
+Revival Blessing$100
+Rippling Refrain$100
+Rising Voltage$100
 Roar$100
 Roar Of Time$100
 Rock Blast$100
@@ -524,17 +731,28 @@ Rollout$100
 Roost$100
 Rototiller$100
 Round$100
+Ruination$100
 Run Away$100
+Runewrap Spear$100
 Sacred Fire$100
 Sacred Sword$100
 Safeguard$100
+Salt Cure$100
 Sand Attack$100
 Sand Tomb$100
+Sandsear Storm$100
 Sandstorm$100
+Sandstorm Serenade$100
 Sappy Seed$100
+Savage Spin-Out$100
+Sawblade Strike$100
 Scald$100
+Scale Shot$100
 Scary Face$100
+Scorching Sands$100
+Scrap Metal$100
 Scratch$100
+Screaming Cyclone$100
 Screech$100
 Searing Shot$100
 Secret Power$100
@@ -544,25 +762,54 @@ Seed Flare$100
 Seismic Toss$100
 Self Destruct$100
 Shadow Ball$100
+Shadow Blast$100
+Shadow Blitz$100
+Shadow Bolt$100
 Shadow Bone$100
+Shadow Break$100
+Shadow Chill$100
 Shadow Claw$100
+Shadow Down$100
+Shadow End$100
+Shadow Fire$100
 Shadow Force$100
+Shadow Half$100
+Shadow Hold$100
+Shadow Kunai$100
+Shadow Mist$100
+Shadow Panic$100
 Shadow Punch$100
+Shadow Rave$100
+Shadow Rush$100
+Shadow Shed$100
 Shadow Sneak$100
+Shadow Storm$100
+Shadow Terrain$100
+Shadow Tide$100
+Shadow Wave$100
 Sharpen$100
+Shattered Psyche$100
+Shed Tail$100
 Sheer Cold$100
+Shell Side Arm$100
 Shell Smash$100
 Shell Trap$100
+Shelter$100
+Shield Bash$100
 Shift Gear$100
 Shock Wave$100
 Shore Up$100
 Signal Beam$100
+Silk Trap$100
 Silver Wind$100
 Simple Beam$100
 Sing$100
+Singularity$100
+Siphon Life-Force$100
 Sizzly Slide$100
 Sketch$100
 Skill Swap$100
+Skitter Smack$100
 Skull Bash$100
 Sky Attack$100
 Sky Drop$100
@@ -585,61 +832,91 @@ Snarl$100
 Snatch$100
 Snipe Shot$100
 Snore$100
+Snowscape$100
+Snowy Terrain$100
 Soak$100
 Soft Boiled$100
 Solar Beam$100
 Solar Blade$100
+Song Of Time$100
 Sonic Boom$100
 Spacial Rend$100
 Spark$100
 Sparkling Aria$100
 Sparkly Swirl$100
+Spectral Slash$100
+Spectral Tentacles$100
 Spectral Thief$100
+Spectrum Analysis$100
 Speed Swap$100
+Spicy Extract$100
 Spider Web$100
 Spike Cannon$100
 Spikes$100
 Spiky Shield$100
+Spin Out$100
 Spirit Break$100
 Spirit Shackle$100
+Spiritual Static$100
 Spit Up$100
 Spite$100
 Splash$100
 Splishy Splash$100
 Spore$100
 Spotlight$100
+Springtide Storm$100
 Stabilize An Ally$100
+Stalacbite$100
+Starlight Blitz$100
+Stasis Lock$100
 Stealth Rock$100
 Steam Eruption$100
 Steamroller$100
 Steel Beam$100
+Steel Carapace$100
+Steel Roller$100
 Steel Wing$100
+Steelthorn Swipe$100
 Sticky Web$100
 Stockpile$100
 Stomp$100
 Stomping Tantrum$100
+Stone Axe$100
 Stone Edge$100
 Stored Power$100
 Storm Throw$100
+Strange Brew$100
 Strange Steam$100
 Strength$100
+Strength $100
 Strength Sap$100
 String Shot$100
 Struggle$100
+Struggle (Physical)$100
+Struggle (Special)$100
 Struggle Bug$100
+Struggle Throw$100
 Stuff Cheeks$100
 Stun Spore$100
 Submission$100
 Substitute$100
+Subzero Slammer$100
 Sucker Punch$100
+Sugar Rush$100
 Sunny Day$100
 Sunsteel Strike$100
 Super Fang$100
+Supercell Slam$100
 Superpower$100
 Supersonic$100
+Supersonic Skystrike$100
 Surf$100
+Surging Strikes$100
 Swagger$100
 Swallow$100
+Swarm Buff$100
+Swarm Defend$100
+Swarm Sting$100
 Sweet Kiss$100
 Sweet Scent$100
 Swift$100
@@ -647,59 +924,94 @@ Switcheroo$100
 Swords Dance$100
 Synchronoise$100
 Synthesis$100
+Syrup Bomb$100
+Tachyon Cutter$100
 Tackle$100
 Tail Glow$100
 Tail Slap$100
 Tail Whip$100
 Tailwind$100
 Take Down$100
+Take Heart$100
 Tar Shot$100
 Taunt$100
 Tearful Look$100
 Teatime$100
 Techno Blast$100
+Tectonic Rage$100
 Teeter Dance$100
 Telekinesis$100
 Teleport$100
+Temper Flare$100
+Temporal Rift$100
+Temporal Shift$100
+Tera Blast$100
+Tera Starstorm$100
+Terrain Pulse$100
+Terrorize$100
+Tesla Shock$100
 Thief$100
 Thousand Arrows$100
 Thousand Waves$100
 Thrash$100
 Throat Chop$100
 Thunder$100
+Thunder Cage$100
 Thunder Fang$100
 Thunder Punch$100
 Thunder Shock$100
 Thunder Wave$100
 Thunderbolt$100
+Thunderclap$100
+Thunderous Kick$100
 Tickle$100
+Tidy Up$100
 Topsy-Turvy$100
+Torch Song$100
 Torment$100
 Toxic$100
 Toxic Spikes$100
 Toxic Thread$100
+Trailblaze$100
 Transform$100
 Tri Attack$100
 Trick$100
 Trick Room$100
 Trick-Or-Treat$100
+Triple Arrows$100
+Triple Axel$100
+Triple Dive$100
 Triple Kick$100
 Trop Kick$100
+Tropic Storm$100
 Trump Card$100
+Twilight Zone$100
+Twin Beam$100
+Twin Jolt$100
 Twineedle$100
+Twinkle Tackle$100
 Twister$100
+Tyrant's Shadow$100
 U-Turn$100
+Uncontrolled Burn Off$100
+Upper Hand$100
 Uproar$100
+Uproot$100
 V-Create$100
 Vacuum Wave$100
 Veevee Volley$100
+Velvet Scales$100
 Venom Drench$100
 Venoshock$100
 Vice Grip$100
+Victory Dance$100
+Vile Assault$100
 Vine Whip$100
+Virus Pulse$100
 Vital Throw$100
 Volt Switch$100
 Volt Tackle$100
+Vorpal Blade$100
 Wake-Up Slap$100
 Water Gun$100
 Water Pledge$100
@@ -708,11 +1020,16 @@ Water Shuriken$100
 Water Sport$100
 Water Spout$100
 Waterfall$100
+Wave Crash$100
 Weather Ball$100
+Web Ball$100
 Whirlpool$100
 Whirlwind$100
+Wicked Blow$100
+Wicked Torque$100
 Wide Guard$100
 Wild Charge$100
+Wildbolt Storm$100
 Will-O-Wisp$100
 Wing Attack$100
 Wish$100
@@ -721,10 +1038,15 @@ Wonder Room$100
 Wood Hammer$100
 Work Up$100
 Worry Seed$100
+Wraithfire Gnash$100
 Wrap$100
 Wring Out$100
 X-Scissor$100
 Yawn$100
+Z-Darkening Skies$100
+Z-Energy Reflection$100
+Z-Psychic Sands$100
+Z-Spiked Pummelling$100
 Zap Cannon$100
 Zen Headbutt$100
 Zing Zap$100
