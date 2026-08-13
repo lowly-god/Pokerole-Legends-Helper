@@ -3876,6 +3876,10 @@ async def rankDisplay(ctx, rank: str = None):
 # SLASH_COMMANDS.append(rankDisplay)
 #####
 
+FEEDBACK_OWNER_ID = 360919685887164428
+FEEDBACK_OWNER_NAME = "xx_lowly_xx"
+
+
 class Feedback_Modal(ui.Modal):
     def __init__(self, reply_func: discord.Interaction.response, title="???"):
         super().__init__(title=title)
@@ -3886,7 +3890,7 @@ class Feedback_Modal(ui.Modal):
     async def on_submit(self, interaction: discord.Interaction, /) -> None:
         update_message = "~~" + interaction.message.content + "~~"
         await interaction.response.edit_message(content=update_message, view=None)
-        await self.reply_func(f"*{self.title}...*\nShadeslayer: " + self.children[0].value)
+        await self.reply_func(f"*{self.title}...*\n{FEEDBACK_OWNER_NAME}: " + self.children[0].value)
 
 
 class Feedback_Button(ui.View):
@@ -3916,7 +3920,8 @@ async def feedback(ctx: discord.Interaction, *, info: str):
         which_user = ctx.author.name
     modal = Feedback_Modal(reply_func=reply_func, title=info[:45])
     butn = Feedback_Button(send_modal=modal)
-    await bot.appinfo.owner.send(which_user + ": " + info, view=butn)
+    feedback_owner = await bot.fetch_user(FEEDBACK_OWNER_ID)
+    await feedback_owner.send(which_user + ": " + info, view=butn)
 
 
 @bot.command(name='donate',
