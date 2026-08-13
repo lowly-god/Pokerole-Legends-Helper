@@ -256,6 +256,12 @@ async def on_ready():
     for command in SLASH_COMMANDS:
         bot.tree.add_command(command)
 
+    # Production uses global application commands only. Older versions of the bot
+    # exposed sync_test, which copied every global command into a test guild and
+    # could leave a second guild-scoped copy registered in Discord. Clean those
+    # stale guild registrations once, then leave the global commands untouched.
+    await cleanup_stale_guild_slash_commands()
+
     if not dev_env:
         await bot.appinfo.owner.send(f'Connected Successfully')
     bot.user_settings = pokebotsettings
@@ -264,6 +270,89 @@ async def on_ready():
 
 #######
 # sync commands
+
+SLASH_GUILD_CLEANUP_MARKER = '.slash_guild_duplicates_cleaned_v1'
+
+
+async def cleanup_stale_guild_slash_commands():
+    """Remove old guild-scoped copies of the bot's global slash commands once.
+
+    This bot does not intentionally define any guild-only application commands in
+    production. Previous use of sync_test could leave a full copied command tree
+    registered to a guild, which Discord can show alongside the global commands.
+    """
+    if dev_env or os.path.isfile(SLASH_GUILD_CLEANUP_MARKER):
+        return
+
+    try:
+        global_commands = await bot.tree.fetch_commands()
+        global_by_name = {command.name: command for command in global_commands}
+        global_names = set(global_by_name)
+        cleaned_any = False
+
+        def command_signature(command):
+            # Compare the Discord-side command metadata that can actually become
+            # stale between a global registration and an old guild registration.
+            options = []
+            for option in getattr(command, 'options', []) or []:
+                options.append((
+                    getattr(option, 'name', None),
+                    str(getattr(option, 'type', None)),
+                    getattr(option, 'description', None),
+                    bool(getattr(option, 'required', False)),
+                ))
+            return (getattr(command, 'description', None), tuple(options))
+
+        for guild in bot.guilds:
+            guild_obj = discord.Object(id=guild.id)
+            guild_commands = await bot.tree.fetch_commands(guild=guild_obj)
+            if not guild_commands:
+                continue
+
+            names = [command.name for command in guild_commands]
+            duplicates = sorted(name for name in names if name in global_names)
+            stale_only = sorted(name for name in names if name not in global_names)
+
+            print(f'Stale guild slash commands found in {guild.name} ({guild.id}): {len(names)}')
+            if duplicates:
+                print(' - Duplicate global copies: ' + ', '.join(duplicates))
+                for guild_command in guild_commands:
+                    global_command = global_by_name.get(guild_command.name)
+                    if global_command is None:
+                        continue
+                    if command_signature(guild_command) == command_signature(global_command):
+                        print(f'   {guild_command.name}: registered metadata matches global copy')
+                    else:
+                        print(f'   {guild_command.name}: registered metadata DIFFERS from global copy')
+                        if getattr(guild_command, 'description', None) != getattr(global_command, 'description', None):
+                            print(f'     guild description: {getattr(guild_command, "description", "")}')
+                            print(f'     global description: {getattr(global_command, "description", "")}')
+                        guild_options = [getattr(o, 'name', None) for o in (getattr(guild_command, 'options', []) or [])]
+                        global_options = [getattr(o, 'name', None) for o in (getattr(global_command, 'options', []) or [])]
+                        if guild_options != global_options:
+                            print(f'     guild options: {guild_options}')
+                            print(f'     global options: {global_options}')
+            if stale_only:
+                print(' - Other stale guild commands: ' + ', '.join(stale_only))
+
+            # There are no intentional guild-only slash commands in production, so
+            # syncing an empty guild tree safely removes all stale/test registrations.
+            bot.tree.clear_commands(guild=guild_obj)
+            await bot.tree.sync(guild=guild_obj)
+            print(f'Cleared stale guild slash commands from {guild.name}.')
+            cleaned_any = True
+
+        with open(SLASH_GUILD_CLEANUP_MARKER, 'w', encoding='utf-8') as marker:
+            marker.write('Guild-scoped slash command cleanup completed.\n')
+
+        if cleaned_any:
+            print('Slash command duplicate cleanup complete. Global commands were kept.')
+        else:
+            print('Slash command audit complete: no guild-scoped commands were registered.')
+    except Exception as exc:
+        # Do not create the marker on failure so the bot can retry next startup.
+        print(f'Slash command duplicate cleanup failed: {exc}')
+
 
 @commands.is_owner()
 @bot.command(name='sync_global', hidden=True)
@@ -276,6 +365,12 @@ async def sync_commands(ctx):
 @bot.command(name='sync_test', hidden=True)
 async def sync_commands_guilds(ctx, *, copy: str = None):
     global test_guilds
+
+    # Do not create guild-scoped copies on the production AMP bot. They are only
+    # useful for a development instance and can appear as duplicate slash commands.
+    if not dev_env:
+        await ctx.send('sync_test is disabled on the production bot; use sync_global instead.')
+        return
 
     for guild in test_guilds:
         guildObj = discord.Object(id=guild)
