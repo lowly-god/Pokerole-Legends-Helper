@@ -215,7 +215,10 @@ async def on_ready():
 
     database = Database()
 
-    print(f'{bot.user} has connected to Discord! A part of {len(bot.guilds)} servers!')
+    print(f'{bot.user} has connected to Discord!')
+    print(f'Servers: {len(bot.guilds)}')
+    for guild in sorted(bot.guilds, key=lambda g: g.name.lower()):
+        print(f' - {guild.name}')
 
     await bot.change_presence(activity=discord.Game(name='Bzzzt! Spiritomb!'))
 
