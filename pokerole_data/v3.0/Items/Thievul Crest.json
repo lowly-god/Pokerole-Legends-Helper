@@ -1,0 +1,13 @@
+{
+  "Name": "Thievul Crest",
+  "_id": "thievul-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Decrease All Foes Special by 1 and increase Thievul's Special by 1, upon being sent in.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Gigalith Crest",
+  "_id": "gigalith-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Gigalith gains Immunity to Water-Type Damage. The first time it is hit by a Water-Type Move, increase it's Strength by 1.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

@@ -6381,7 +6381,525 @@
         }
       ],
       "min": 10,
-      "max": 15
+      "max": 15,
+      "crest_pool": [
+        {
+          "name": "Bastiodon Crest",
+          "price": "40000",
+          "effect": "Attackers roll half of the Damage they deal to the to Bastiodon as Recoil Damage against themselves.",
+          "category": "Crests"
+        },
+        {
+          "name": "Boltund Crest",
+          "price": "40000",
+          "effect": "Boltund gains +2 Damage Dice when using Bite Moves, if Boltund acts before the Target in Initiative.",
+          "category": "Crests"
+        },
+        {
+          "name": "Castform Crest",
+          "price": "40000",
+          "effect": "Castform may use a Weather changing Move as a Reaction 6 free Action, upon being sent in. The Weather's Duration is 8 Rounds.",
+          "category": "Crests"
+        },
+        {
+          "name": "Champeon Crest",
+          "price": "40000",
+          "effect": "Champeon gains 1x Resistance to Damage from Flying-Type Attacks. Its Ability No Guard also nullifies Action Sequence Penalties, as it does reduced Accuracy Penalties.",
+          "category": "Crests"
+        },
+        {
+          "name": "Faerry Crest",
+          "price": "40000",
+          "effect": "Flower Gift activates when the holder is sent in, regardless of Weather-Type.",
+          "category": "Crests"
+        },
+        {
+          "name": "Cofagrigus Crest",
+          "price": "40000",
+          "effect": "Cofagrigus's Defense is increased by 2 and its Special by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Cryogonal Crest",
+          "price": "40000",
+          "effect": "Cryogonal's Special Defense is increased by 2 and its Special by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Darmanitan Crest",
+          "price": "40000",
+          "effect": "Darmanitan is forced into Zen Mode Form while Holding this Crest. Increase it's Strength and Special by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Dedenne Crest",
+          "price": "40000",
+          "effect": "Dedenne's Physical attacks use its Dexterity rather than its Strength Attribute when rolling Damage.",
+          "category": "Crests"
+        },
+        {
+          "name": "Delcatty Crest",
+          "price": "40000",
+          "effect": "For each non-KO'd Pokémon in the Trainer's Party, increase one of Delcatty's main Attributes by 1.",
+          "category": "Crests"
+        },
+        {
+          "name": "Drakeon Crest",
+          "price": "40000",
+          "effect": "Drakeon gains 1x Resistance to Damage from Fairy-Type Attacks. Fairy-Type Foes lose their Dragon-Type Immunity to when Targeted by Drakeon.",
+          "category": "Crests"
+        },
+        {
+          "name": "Drifblim Crest",
+          "price": "40000",
+          "effect": "The first time Drifblim would reduce itself to 0HP with a Move, it instead reduced to 1HP. It may not use another Move that would reduce itself to 0HP for the rest of the Scene.",
+          "category": "Crests"
+        },
+        {
+          "name": "Druddigon Crest",
+          "price": "40000",
+          "effect": "Druddigon Heals 1HP at the end of each Round while Sunny Weather is in effect. Its Damaging Fire and Dragon-Type moves gain +1 Damage Dice.",
+          "category": "Crests"
+        },
+        {
+          "name": "Dusknoir Crest",
+          "price": "40000",
+          "effect": "Dusknoir's Moves which are Power 2 or less, gain +1 Damage Dice.",
+          "category": "Crests"
+        },
+        {
+          "name": "Dusteon Crest",
+          "price": "40000",
+          "effect": "Dusteon gains 1x Resistance to Damage from Ice-Type Attacks. Sandstorm Weather activates for Duration 4 Rounds, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Eevoleon Crest",
+          "price": "40000",
+          "effect": "Eevoleon's STAB moves gain +1 Damage Dice. Increase its Defense and Special Defense by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Electrode Crest",
+          "price": "40000",
+          "effect": "Electrode ignores 2 points of Defense and Special Defense when calculating Damage.",
+          "category": "Crests"
+        },
+        {
+          "name": "Empoleon Crest",
+          "price": "40000",
+          "effect": "Empoleon's Ice-type moves gain +1 Damage Dice. It gains a +1 Bonus to Dexterity in Hail Weather, Snowy Terrain and on the Frozen Field-Type.",
+          "category": "Crests"
+        },
+        {
+          "name": "Entei Crest",
+          "price": "40000",
+          "effect": "All of Entei's Fire-Type Moves become target All Foes.",
+          "category": "Crests"
+        },
+        {
+          "name": "Espeon Crest",
+          "price": "40000",
+          "effect": "Espeon gains 1x Resistance to Damage from Ghost-Type Attacks. When redirecting an effect with its Ability, Target All Foes instead of just the Target.",
+          "category": "Crests"
+        },
+        {
+          "name": "Fezandipiti Crest",
+          "price": "40000",
+          "effect": "If anything would reduce an Attribute of Fezandipiti, increase it instead.",
+          "category": "Crests"
+        },
+        {
+          "name": "Fearow Crest",
+          "price": "40000",
+          "effect": "Fearow's STAB Moves gain +1 Damage Dice and gain High Critical if they did not already have it.",
+          "category": "Crests"
+        },
+        {
+          "name": "Flygon Crest",
+          "price": "40000",
+          "effect": "Flygon and its Allies damaging Sound Moves gain +1 Damage Dice, and cannot target Allies.",
+          "category": "Crests"
+        },
+        {
+          "name": "Flareon Crest",
+          "price": "40000",
+          "effect": "Flareon gains 1x Resistance to Damage from Water-Type Attacks. Its Ability activates, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Furret Crest",
+          "price": "40000",
+          "effect": "Furret automatically uses the Move Substitute as a Reaction 6 Free Action, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Garbodor Crest",
+          "price": "40000",
+          "effect": "Increase either the Holder's Strength or Special to match whichever is higher, upon being sent in. Additionally, Physical Moves may use Channel for secondary Accuracy, Special Moves may use Brawl for secondary Accuracy.",
+          "category": "Crests"
+        },
+        {
+          "name": "Garbocean Crest",
+          "price": "40000",
+          "effect": "Increase either the Holder's Strength or Special to match whichever is higher, upon being sent in. Additionally, Physical Moves may use Channel for secondary Accuracy, Special Moves may use Brawl for secondary Accuracy.",
+          "category": "Crests"
+        },
+        {
+          "name": "Gigalith Crest",
+          "price": "40000",
+          "effect": "Gigalith gains Immunity to Water-Type Damage. The first time it is hit by a Water-Type Move, increase it's Strength by 1.",
+          "category": "Crests"
+        },
+        {
+          "name": "Glaceon Crest",
+          "price": "40000",
+          "effect": "Glaceon gains 1x Resistance to Damage from Rock and Fighting-Type Attacks. Its Ability activates regardless of Weather-Type, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Glaveon Crest",
+          "price": "40000",
+          "effect": "Glaveon gains 1x Resistance to Damage from Ground-Type Attacks. Its Cutter Moves gain +1 Damage Dice.",
+          "category": "Crests"
+        },
+        {
+          "name": "Gothitelle Crest",
+          "price": "40000",
+          "effect": "Using Dark, Fairy and Psychic-Type Moves changes Gothitelle's Type to match the used Move.",
+          "category": "Crests"
+        },
+        {
+          "name": "Hawlucha Crest",
+          "price": "40000",
+          "effect": "Hawlucha gains Immunity to Ice-Type Damage. The first time it is hit by a Ice-Type Move, increase it's Dexterity by 1.",
+          "category": "Crests"
+        },
+        {
+          "name": "Hypno Crest",
+          "price": "40000",
+          "effect": "Hypno's Special is increased by +2, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Jolteon Crest",
+          "price": "40000",
+          "effect": "Jolteon's Ability Volt Absorb heals for 2HP instead of 1HP or its Ability Quick Feet activates, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Kleavor Crest",
+          "price": "40000",
+          "effect": "Kleavor's Dexterity and Defense increase by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Lanturn Crest",
+          "price": "40000",
+          "effect": "Lanturn's Strength and Special is increased by 2, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Leafeon Crest",
+          "price": "40000",
+          "effect": "Leafeon gains 1x Resistance to Damage from Fire and Flying-Type Attacks. Its Ability activates regardless of Weather-Type, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Luvdisc Crest",
+          "price": "40000",
+          "effect": "The Base Power of all Luvdisc's Damaging Moves match its Happiness, capping at a Base Power of 5.",
+          "category": "Crests"
+        },
+        {
+          "name": "Luxray Crest",
+          "price": "40000",
+          "effect": "Luxray becomes Electric / Dark. Its Normal-Type Moves become Electric-Type.",
+          "category": "Crests"
+        },
+        {
+          "name": "Magcargo Crest",
+          "price": "40000",
+          "effect": "Magcargo's Defense and Dexterity are swapped, its special is increased by +1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Manaphy Crest",
+          "price": "40000",
+          "effect": "The Holder's Defense is increased by 2 and it gains the effects of the Move Aqua Ring, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Phione Crest",
+          "price": "40000",
+          "effect": "The Holder's Defense is increased by 2 and it gains the effects of the Move Aqua Ring, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Mummeon Crest",
+          "price": "40000",
+          "effect": "Mummeon gains 1x Resistance to Damage from Dark-Type Attacks. Its Ability Mummy activates when it is hit by any Physical, Special or Support Moves. Its ability Cursed Body has its Chance Dice increased to 5.",
+          "category": "Crests"
+        },
+        {
+          "name": "Munkidori Crest",
+          "price": "40000",
+          "effect": "Munkidori's gains Immunity to Ground-Type Damage. Increase its Special by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Nimbeon Crest",
+          "price": "40000",
+          "effect": "Nimbeon gains 1x Resistance to Damage from Electric-Type Attacks. Its Ability Cotton Down Reduces Dexterity by 2 when activated. Its Ability Gale Wings effects all its Moves regardless of Type.",
+          "category": "Crests"
+        },
+        {
+          "name": "Noctowl Crest",
+          "price": "40000",
+          "effect": "Noctowl's Defense and Special Defense is increased by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Noxeon Crest",
+          "price": "40000",
+          "effect": "Noxeon gains 1x Resistance to Damage from Psychic-Type Attacks. Roll 3 Chance Dice to Poison All Foes, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Oricorio Crest",
+          "price": "40000",
+          "effect": "Oricorio's Dexterity and Special are increased by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Pangoro Crest",
+          "price": "40000",
+          "effect": "Pangoro's Defense is increased by 1 and the effects of the Ability Dark Aura activate, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Papilleon Crest",
+          "price": "40000",
+          "effect": "Papilleon gains 1x Resistance to Damage from Flying-Type Attacks. Papilleon gets 2 Extra Dice on the Accuracy Pool of any move with an Accuracy penalty.",
+          "category": "Crests"
+        },
+        {
+          "name": "Okidogi Crest",
+          "price": "40000",
+          "effect": "Increase Okidogi's Strength by 1, and Reduce the Strength of All Foes by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Orreon Crest",
+          "price": "40000",
+          "effect": "Orreon gains 1x Resistance to Damage from Fighting and Steel-Type Attacks. Its Ability Sturdy may activate an unlimited number of times per round, but instead of being guaranteed it instead becomes Roll 5 Chance Dice.",
+          "category": "Crests"
+        },
+        {
+          "name": "Probopass Crest",
+          "price": "40000",
+          "effect": "Probopass gains the effects of the Ability Levitate, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Raikou Crest",
+          "price": "40000",
+          "effect": "Rain Weather and Electric Terrain activate for Duration 4 Rounds, when Raikou is sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Rampardos Crest",
+          "price": "40000",
+          "effect": "Rampardos gains the effects of the Ability Sturdy, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Relicanth Crest",
+          "price": "40000",
+          "effect": "Relicanth's Strength and Special Defense are increased by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Reuniclus Crest",
+          "price": "40000",
+          "effect": "Reuniculus's Physical Moves use Channel instead of any other secondary Accuracy Pool, and calculate Damage with Special instead of Strength.",
+          "category": "Crests"
+        },
+        {
+          "name": "Roserade Crest",
+          "price": "40000",
+          "effect": "Roserade's Defense and Special Defense is increased by 1 upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Samurott Crest",
+          "price": "40000",
+          "effect": "Samurott gains Resistances and STAB as if it also had the Fighting-Type. Cutter Moves it uses that do not have High Critical gain High Critical.",
+          "category": "Crests"
+        },
+        {
+          "name": "Sawsbuck Crest",
+          "price": "40000",
+          "effect": "Replace Sawsbuck's Normal-Type with its Seasonal-Type (Spring > Fairy, Summer > Fire, Autumn > Ground, Winter > Ice). Its Normal-Type Moves become its Seasonal-Type and gain +1 Damage Dice.",
+          "category": "Crests"
+        },
+        {
+          "name": "Seraphish Crest",
+          "price": "40000",
+          "effect": "Seraphish automatically sets the effects of the Move Life Dew, Duration 4 Rounds, upon being sent out.",
+          "category": "Crests"
+        },
+        {
+          "name": "Seviper Crest",
+          "price": "40000",
+          "effect": "Seviper's Dexterity increases by 2. Its Damaging Moves gain +2 Damage Dice when used against Targets who are at full HP.",
+          "category": "Crests"
+        },
+        {
+          "name": "Shiinotic Crest",
+          "price": "40000",
+          "effect": "Shiinotic's Draining Moves gain +1 Damage Dice. Additionally Foes suffering from Status Conditions lose 1HP at the end of the Round, Shiinotic heals HP equal to any Damage done in this way.",
+          "category": "Crests"
+        },
+        {
+          "name": "Simipour Crest",
+          "price": "40000",
+          "effect": "Simipour gains Resistances and STAB as if it also had the Grass-Type. Its Normal-Type Moves become Grass-Type. It's Strength and Special are increased by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Simisage Crest",
+          "price": "40000",
+          "effect": "Simisage gains Resistances and STAB as if it also had the Fire-Type. Its Normal-Type Moves become Fire-Type. It's Strength and Special are increased by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Simisear Crest",
+          "price": "40000",
+          "effect": "Simisear gains Resistances and STAB as if it also had the Water-Type. Its Normal-Type Moves become Water-Type. It's Strength and Special are increased by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Simisnear Crest",
+          "price": "40000",
+          "effect": "Simisnear gains Resistances and STAB as if it also had the Fighting-Type. Its Normal-Type Moves become Fighting-Type. It's Strength and Special are increased by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Simistrike Crest",
+          "price": "40000",
+          "effect": "Simistrike gains Resistances and STAB as if it also had the Psychic-Type. Its Normal-Type Moves become Psychic-Type. It's Strength and Special are increased by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Simipsych Crest",
+          "price": "40000",
+          "effect": "Simipsych gains Resistances and STAB as if it also had the Dark-Type. Its Normal-Type Moves become Dark-Type. It's Strength and Special are increased by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Silvally Crest",
+          "price": "40000",
+          "effect": "The Damage-Type of Silvally's Multi-Attack may be chosen each time it is used. It also gains +1 Damage Dice.",
+          "category": "Crests"
+        },
+        {
+          "name": "Skuntank Crest",
+          "price": "40000",
+          "effect": "Skuntank is immune to Ground-Type Damage, the first time it is hit by a Ground-Type Move increase its Strength by 1.",
+          "category": "Crests"
+        },
+        {
+          "name": "Spiritomb Crest",
+          "price": "40000",
+          "effect": "Increase Spiritomb's Strength and Special Attributes by 1 for every allied Pokémon that has Fainted in-battle. Up to 3 points can be increased this way.",
+          "category": "Crests"
+        },
+        {
+          "name": "Suicune Crest",
+          "price": "40000",
+          "effect": "Suicune is immune to Status Conditions. Suicune and its Allies gain the effects of the Move Tailwind (Duration 1 Round), upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Sunflora Crest",
+          "price": "40000",
+          "effect": "Sunflora behaves as if Sunny Weather is active, regardless of current Weather-Type and heals 1HP at the end of each Round.",
+          "category": "Crests"
+        },
+        {
+          "name": "Swalot Crest",
+          "price": "40000",
+          "effect": "The Defense and Special Defense increases of the Move Stockpile are doubled. Belch is always usable regardless of if Swalot has consumed a Berry or other consumable Item that Round.",
+          "category": "Crests"
+        },
+        {
+          "name": "Sylveon Crest",
+          "price": "40000",
+          "effect": "Sylveon gains 1x Resistance to Damage from Steel-Type Attacks. Its Ability Cute Charm has its Chance Dice increased to 5. Its Ability Pixilate boosts Fairy-Type Damage by +2.",
+          "category": "Crests"
+        },
+        {
+          "name": "Thievul Crest",
+          "price": "40000",
+          "effect": "Decrease All Foes Special by 1 and increase Thievul's Special by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Torterra Crest",
+          "price": "40000",
+          "effect": "Torterra's Resistances and Weaknesses are swapped, it retains it's Immunities.",
+          "category": "Crests"
+        },
+        {
+          "name": "Typhlosion Crest",
+          "price": "40000",
+          "effect": "Increase either Typhlosion's Strength or Special to match whichever is higher. Its contact Moves gain +1 Damage Dice.",
+          "category": "Crests"
+        },
+        {
+          "name": "Umbreon Crest",
+          "price": "40000",
+          "effect": "Umbreon gains 1x Resistance to Damage from Bug and Fairy-Type Attacks. When inflicting a Status Condition with its Ability Synchronize, upgrade it if possible. (Poisoned becomes Badly Poisoned, Burn(1) becomes Burn(2) etc).",
+          "category": "Crests"
+        },
+        {
+          "name": "Vaporeon Crest",
+          "price": "40000",
+          "effect": "Vaporeon gains 1x Resistance to Damage from Grass-Type Attacks. Its Ability Water Absorb restores 2HP instead of 1HP or its Ability Hydration activates regardless of Weather-Type, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Vespiquen Crest",
+          "price": "40000",
+          "effect": "Vespiquen's Attack Order gains +1 Damage Dice, Defend Order's Defense and Special Defense increases are doubled, Heal Order no longer requires a Will Point be spent.",
+          "category": "Crests"
+        },
+        {
+          "name": "Whiscash Crest",
+          "price": "40000",
+          "effect": "Wiscash is immune to Grass-Type Damage, the first time it is hit by a Grass-Type Move increase its Strength and Special by 1.",
+          "category": "Crests"
+        },
+        {
+          "name": "Wyrdeer Crest",
+          "price": "40000",
+          "effect": "Increase the Holder's Strength and Accuracy by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Zangoose Crest",
+          "price": "40000",
+          "effect": "Zangoose becomes Poisoned and gains the effects of the Ability Poison Heal, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Zoroark Crest",
+          "price": "40000",
+          "effect": "Grants the Ability and STAB of the copied Pokémon to Zoroark.",
+          "category": "Crests"
+        }
+      ]
     },
     "Vehicle Seller": {
       "mode": "full",
@@ -12307,6 +12825,522 @@
           "price": "10000",
           "effect": "",
           "category": "Weapons"
+        },
+        {
+          "name": "Bastiodon Crest",
+          "price": "40000",
+          "effect": "Attackers roll half of the Damage they deal to the to Bastiodon as Recoil Damage against themselves.",
+          "category": "Crests"
+        },
+        {
+          "name": "Boltund Crest",
+          "price": "40000",
+          "effect": "Boltund gains +2 Damage Dice when using Bite Moves, if Boltund acts before the Target in Initiative.",
+          "category": "Crests"
+        },
+        {
+          "name": "Castform Crest",
+          "price": "40000",
+          "effect": "Castform may use a Weather changing Move as a Reaction 6 free Action, upon being sent in. The Weather's Duration is 8 Rounds.",
+          "category": "Crests"
+        },
+        {
+          "name": "Champeon Crest",
+          "price": "40000",
+          "effect": "Champeon gains 1x Resistance to Damage from Flying-Type Attacks. Its Ability No Guard also nullifies Action Sequence Penalties, as it does reduced Accuracy Penalties.",
+          "category": "Crests"
+        },
+        {
+          "name": "Faerry Crest",
+          "price": "40000",
+          "effect": "Flower Gift activates when the holder is sent in, regardless of Weather-Type.",
+          "category": "Crests"
+        },
+        {
+          "name": "Cofagrigus Crest",
+          "price": "40000",
+          "effect": "Cofagrigus's Defense is increased by 2 and its Special by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Cryogonal Crest",
+          "price": "40000",
+          "effect": "Cryogonal's Special Defense is increased by 2 and its Special by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Darmanitan Crest",
+          "price": "40000",
+          "effect": "Darmanitan is forced into Zen Mode Form while Holding this Crest. Increase it's Strength and Special by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Dedenne Crest",
+          "price": "40000",
+          "effect": "Dedenne's Physical attacks use its Dexterity rather than its Strength Attribute when rolling Damage.",
+          "category": "Crests"
+        },
+        {
+          "name": "Delcatty Crest",
+          "price": "40000",
+          "effect": "For each non-KO'd Pokémon in the Trainer's Party, increase one of Delcatty's main Attributes by 1.",
+          "category": "Crests"
+        },
+        {
+          "name": "Drakeon Crest",
+          "price": "40000",
+          "effect": "Drakeon gains 1x Resistance to Damage from Fairy-Type Attacks. Fairy-Type Foes lose their Dragon-Type Immunity to when Targeted by Drakeon.",
+          "category": "Crests"
+        },
+        {
+          "name": "Drifblim Crest",
+          "price": "40000",
+          "effect": "The first time Drifblim would reduce itself to 0HP with a Move, it instead reduced to 1HP. It may not use another Move that would reduce itself to 0HP for the rest of the Scene.",
+          "category": "Crests"
+        },
+        {
+          "name": "Druddigon Crest",
+          "price": "40000",
+          "effect": "Druddigon Heals 1HP at the end of each Round while Sunny Weather is in effect. Its Damaging Fire and Dragon-Type moves gain +1 Damage Dice.",
+          "category": "Crests"
+        },
+        {
+          "name": "Dusknoir Crest",
+          "price": "40000",
+          "effect": "Dusknoir's Moves which are Power 2 or less, gain +1 Damage Dice.",
+          "category": "Crests"
+        },
+        {
+          "name": "Dusteon Crest",
+          "price": "40000",
+          "effect": "Dusteon gains 1x Resistance to Damage from Ice-Type Attacks. Sandstorm Weather activates for Duration 4 Rounds, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Eevoleon Crest",
+          "price": "40000",
+          "effect": "Eevoleon's STAB moves gain +1 Damage Dice. Increase its Defense and Special Defense by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Electrode Crest",
+          "price": "40000",
+          "effect": "Electrode ignores 2 points of Defense and Special Defense when calculating Damage.",
+          "category": "Crests"
+        },
+        {
+          "name": "Empoleon Crest",
+          "price": "40000",
+          "effect": "Empoleon's Ice-type moves gain +1 Damage Dice. It gains a +1 Bonus to Dexterity in Hail Weather, Snowy Terrain and on the Frozen Field-Type.",
+          "category": "Crests"
+        },
+        {
+          "name": "Entei Crest",
+          "price": "40000",
+          "effect": "All of Entei's Fire-Type Moves become target All Foes.",
+          "category": "Crests"
+        },
+        {
+          "name": "Espeon Crest",
+          "price": "40000",
+          "effect": "Espeon gains 1x Resistance to Damage from Ghost-Type Attacks. When redirecting an effect with its Ability, Target All Foes instead of just the Target.",
+          "category": "Crests"
+        },
+        {
+          "name": "Fezandipiti Crest",
+          "price": "40000",
+          "effect": "If anything would reduce an Attribute of Fezandipiti, increase it instead.",
+          "category": "Crests"
+        },
+        {
+          "name": "Fearow Crest",
+          "price": "40000",
+          "effect": "Fearow's STAB Moves gain +1 Damage Dice and gain High Critical if they did not already have it.",
+          "category": "Crests"
+        },
+        {
+          "name": "Flygon Crest",
+          "price": "40000",
+          "effect": "Flygon and its Allies damaging Sound Moves gain +1 Damage Dice, and cannot target Allies.",
+          "category": "Crests"
+        },
+        {
+          "name": "Flareon Crest",
+          "price": "40000",
+          "effect": "Flareon gains 1x Resistance to Damage from Water-Type Attacks. Its Ability activates, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Furret Crest",
+          "price": "40000",
+          "effect": "Furret automatically uses the Move Substitute as a Reaction 6 Free Action, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Garbodor Crest",
+          "price": "40000",
+          "effect": "Increase either the Holder's Strength or Special to match whichever is higher, upon being sent in. Additionally, Physical Moves may use Channel for secondary Accuracy, Special Moves may use Brawl for secondary Accuracy.",
+          "category": "Crests"
+        },
+        {
+          "name": "Garbocean Crest",
+          "price": "40000",
+          "effect": "Increase either the Holder's Strength or Special to match whichever is higher, upon being sent in. Additionally, Physical Moves may use Channel for secondary Accuracy, Special Moves may use Brawl for secondary Accuracy.",
+          "category": "Crests"
+        },
+        {
+          "name": "Gigalith Crest",
+          "price": "40000",
+          "effect": "Gigalith gains Immunity to Water-Type Damage. The first time it is hit by a Water-Type Move, increase it's Strength by 1.",
+          "category": "Crests"
+        },
+        {
+          "name": "Glaceon Crest",
+          "price": "40000",
+          "effect": "Glaceon gains 1x Resistance to Damage from Rock and Fighting-Type Attacks. Its Ability activates regardless of Weather-Type, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Glaveon Crest",
+          "price": "40000",
+          "effect": "Glaveon gains 1x Resistance to Damage from Ground-Type Attacks. Its Cutter Moves gain +1 Damage Dice.",
+          "category": "Crests"
+        },
+        {
+          "name": "Gothitelle Crest",
+          "price": "40000",
+          "effect": "Using Dark, Fairy and Psychic-Type Moves changes Gothitelle's Type to match the used Move.",
+          "category": "Crests"
+        },
+        {
+          "name": "Hawlucha Crest",
+          "price": "40000",
+          "effect": "Hawlucha gains Immunity to Ice-Type Damage. The first time it is hit by a Ice-Type Move, increase it's Dexterity by 1.",
+          "category": "Crests"
+        },
+        {
+          "name": "Hypno Crest",
+          "price": "40000",
+          "effect": "Hypno's Special is increased by +2, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Jolteon Crest",
+          "price": "40000",
+          "effect": "Jolteon's Ability Volt Absorb heals for 2HP instead of 1HP or its Ability Quick Feet activates, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Kleavor Crest",
+          "price": "40000",
+          "effect": "Kleavor's Dexterity and Defense increase by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Lanturn Crest",
+          "price": "40000",
+          "effect": "Lanturn's Strength and Special is increased by 2, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Leafeon Crest",
+          "price": "40000",
+          "effect": "Leafeon gains 1x Resistance to Damage from Fire and Flying-Type Attacks. Its Ability activates regardless of Weather-Type, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Luvdisc Crest",
+          "price": "40000",
+          "effect": "The Base Power of all Luvdisc's Damaging Moves match its Happiness, capping at a Base Power of 5.",
+          "category": "Crests"
+        },
+        {
+          "name": "Luxray Crest",
+          "price": "40000",
+          "effect": "Luxray becomes Electric / Dark. Its Normal-Type Moves become Electric-Type.",
+          "category": "Crests"
+        },
+        {
+          "name": "Magcargo Crest",
+          "price": "40000",
+          "effect": "Magcargo's Defense and Dexterity are swapped, its special is increased by +1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Manaphy Crest",
+          "price": "40000",
+          "effect": "The Holder's Defense is increased by 2 and it gains the effects of the Move Aqua Ring, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Phione Crest",
+          "price": "40000",
+          "effect": "The Holder's Defense is increased by 2 and it gains the effects of the Move Aqua Ring, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Mummeon Crest",
+          "price": "40000",
+          "effect": "Mummeon gains 1x Resistance to Damage from Dark-Type Attacks. Its Ability Mummy activates when it is hit by any Physical, Special or Support Moves. Its ability Cursed Body has its Chance Dice increased to 5.",
+          "category": "Crests"
+        },
+        {
+          "name": "Munkidori Crest",
+          "price": "40000",
+          "effect": "Munkidori's gains Immunity to Ground-Type Damage. Increase its Special by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Nimbeon Crest",
+          "price": "40000",
+          "effect": "Nimbeon gains 1x Resistance to Damage from Electric-Type Attacks. Its Ability Cotton Down Reduces Dexterity by 2 when activated. Its Ability Gale Wings effects all its Moves regardless of Type.",
+          "category": "Crests"
+        },
+        {
+          "name": "Noctowl Crest",
+          "price": "40000",
+          "effect": "Noctowl's Defense and Special Defense is increased by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Noxeon Crest",
+          "price": "40000",
+          "effect": "Noxeon gains 1x Resistance to Damage from Psychic-Type Attacks. Roll 3 Chance Dice to Poison All Foes, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Oricorio Crest",
+          "price": "40000",
+          "effect": "Oricorio's Dexterity and Special are increased by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Pangoro Crest",
+          "price": "40000",
+          "effect": "Pangoro's Defense is increased by 1 and the effects of the Ability Dark Aura activate, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Papilleon Crest",
+          "price": "40000",
+          "effect": "Papilleon gains 1x Resistance to Damage from Flying-Type Attacks. Papilleon gets 2 Extra Dice on the Accuracy Pool of any move with an Accuracy penalty.",
+          "category": "Crests"
+        },
+        {
+          "name": "Okidogi Crest",
+          "price": "40000",
+          "effect": "Increase Okidogi's Strength by 1, and Reduce the Strength of All Foes by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Orreon Crest",
+          "price": "40000",
+          "effect": "Orreon gains 1x Resistance to Damage from Fighting and Steel-Type Attacks. Its Ability Sturdy may activate an unlimited number of times per round, but instead of being guaranteed it instead becomes Roll 5 Chance Dice.",
+          "category": "Crests"
+        },
+        {
+          "name": "Probopass Crest",
+          "price": "40000",
+          "effect": "Probopass gains the effects of the Ability Levitate, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Raikou Crest",
+          "price": "40000",
+          "effect": "Rain Weather and Electric Terrain activate for Duration 4 Rounds, when Raikou is sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Rampardos Crest",
+          "price": "40000",
+          "effect": "Rampardos gains the effects of the Ability Sturdy, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Relicanth Crest",
+          "price": "40000",
+          "effect": "Relicanth's Strength and Special Defense are increased by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Reuniclus Crest",
+          "price": "40000",
+          "effect": "Reuniculus's Physical Moves use Channel instead of any other secondary Accuracy Pool, and calculate Damage with Special instead of Strength.",
+          "category": "Crests"
+        },
+        {
+          "name": "Roserade Crest",
+          "price": "40000",
+          "effect": "Roserade's Defense and Special Defense is increased by 1 upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Samurott Crest",
+          "price": "40000",
+          "effect": "Samurott gains Resistances and STAB as if it also had the Fighting-Type. Cutter Moves it uses that do not have High Critical gain High Critical.",
+          "category": "Crests"
+        },
+        {
+          "name": "Sawsbuck Crest",
+          "price": "40000",
+          "effect": "Replace Sawsbuck's Normal-Type with its Seasonal-Type (Spring > Fairy, Summer > Fire, Autumn > Ground, Winter > Ice). Its Normal-Type Moves become its Seasonal-Type and gain +1 Damage Dice.",
+          "category": "Crests"
+        },
+        {
+          "name": "Seraphish Crest",
+          "price": "40000",
+          "effect": "Seraphish automatically sets the effects of the Move Life Dew, Duration 4 Rounds, upon being sent out.",
+          "category": "Crests"
+        },
+        {
+          "name": "Seviper Crest",
+          "price": "40000",
+          "effect": "Seviper's Dexterity increases by 2. Its Damaging Moves gain +2 Damage Dice when used against Targets who are at full HP.",
+          "category": "Crests"
+        },
+        {
+          "name": "Shiinotic Crest",
+          "price": "40000",
+          "effect": "Shiinotic's Draining Moves gain +1 Damage Dice. Additionally Foes suffering from Status Conditions lose 1HP at the end of the Round, Shiinotic heals HP equal to any Damage done in this way.",
+          "category": "Crests"
+        },
+        {
+          "name": "Simipour Crest",
+          "price": "40000",
+          "effect": "Simipour gains Resistances and STAB as if it also had the Grass-Type. Its Normal-Type Moves become Grass-Type. It's Strength and Special are increased by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Simisage Crest",
+          "price": "40000",
+          "effect": "Simisage gains Resistances and STAB as if it also had the Fire-Type. Its Normal-Type Moves become Fire-Type. It's Strength and Special are increased by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Simisear Crest",
+          "price": "40000",
+          "effect": "Simisear gains Resistances and STAB as if it also had the Water-Type. Its Normal-Type Moves become Water-Type. It's Strength and Special are increased by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Simisnear Crest",
+          "price": "40000",
+          "effect": "Simisnear gains Resistances and STAB as if it also had the Fighting-Type. Its Normal-Type Moves become Fighting-Type. It's Strength and Special are increased by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Simistrike Crest",
+          "price": "40000",
+          "effect": "Simistrike gains Resistances and STAB as if it also had the Psychic-Type. Its Normal-Type Moves become Psychic-Type. It's Strength and Special are increased by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Simipsych Crest",
+          "price": "40000",
+          "effect": "Simipsych gains Resistances and STAB as if it also had the Dark-Type. Its Normal-Type Moves become Dark-Type. It's Strength and Special are increased by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Silvally Crest",
+          "price": "40000",
+          "effect": "The Damage-Type of Silvally's Multi-Attack may be chosen each time it is used. It also gains +1 Damage Dice.",
+          "category": "Crests"
+        },
+        {
+          "name": "Skuntank Crest",
+          "price": "40000",
+          "effect": "Skuntank is immune to Ground-Type Damage, the first time it is hit by a Ground-Type Move increase its Strength by 1.",
+          "category": "Crests"
+        },
+        {
+          "name": "Spiritomb Crest",
+          "price": "40000",
+          "effect": "Increase Spiritomb's Strength and Special Attributes by 1 for every allied Pokémon that has Fainted in-battle. Up to 3 points can be increased this way.",
+          "category": "Crests"
+        },
+        {
+          "name": "Suicune Crest",
+          "price": "40000",
+          "effect": "Suicune is immune to Status Conditions. Suicune and its Allies gain the effects of the Move Tailwind (Duration 1 Round), upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Sunflora Crest",
+          "price": "40000",
+          "effect": "Sunflora behaves as if Sunny Weather is active, regardless of current Weather-Type and heals 1HP at the end of each Round.",
+          "category": "Crests"
+        },
+        {
+          "name": "Swalot Crest",
+          "price": "40000",
+          "effect": "The Defense and Special Defense increases of the Move Stockpile are doubled. Belch is always usable regardless of if Swalot has consumed a Berry or other consumable Item that Round.",
+          "category": "Crests"
+        },
+        {
+          "name": "Sylveon Crest",
+          "price": "40000",
+          "effect": "Sylveon gains 1x Resistance to Damage from Steel-Type Attacks. Its Ability Cute Charm has its Chance Dice increased to 5. Its Ability Pixilate boosts Fairy-Type Damage by +2.",
+          "category": "Crests"
+        },
+        {
+          "name": "Thievul Crest",
+          "price": "40000",
+          "effect": "Decrease All Foes Special by 1 and increase Thievul's Special by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Torterra Crest",
+          "price": "40000",
+          "effect": "Torterra's Resistances and Weaknesses are swapped, it retains it's Immunities.",
+          "category": "Crests"
+        },
+        {
+          "name": "Typhlosion Crest",
+          "price": "40000",
+          "effect": "Increase either Typhlosion's Strength or Special to match whichever is higher. Its contact Moves gain +1 Damage Dice.",
+          "category": "Crests"
+        },
+        {
+          "name": "Umbreon Crest",
+          "price": "40000",
+          "effect": "Umbreon gains 1x Resistance to Damage from Bug and Fairy-Type Attacks. When inflicting a Status Condition with its Ability Synchronize, upgrade it if possible. (Poisoned becomes Badly Poisoned, Burn(1) becomes Burn(2) etc).",
+          "category": "Crests"
+        },
+        {
+          "name": "Vaporeon Crest",
+          "price": "40000",
+          "effect": "Vaporeon gains 1x Resistance to Damage from Grass-Type Attacks. Its Ability Water Absorb restores 2HP instead of 1HP or its Ability Hydration activates regardless of Weather-Type, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Vespiquen Crest",
+          "price": "40000",
+          "effect": "Vespiquen's Attack Order gains +1 Damage Dice, Defend Order's Defense and Special Defense increases are doubled, Heal Order no longer requires a Will Point be spent.",
+          "category": "Crests"
+        },
+        {
+          "name": "Whiscash Crest",
+          "price": "40000",
+          "effect": "Wiscash is immune to Grass-Type Damage, the first time it is hit by a Grass-Type Move increase its Strength and Special by 1.",
+          "category": "Crests"
+        },
+        {
+          "name": "Wyrdeer Crest",
+          "price": "40000",
+          "effect": "Increase the Holder's Strength and Accuracy by 1, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Zangoose Crest",
+          "price": "40000",
+          "effect": "Zangoose becomes Poisoned and gains the effects of the Ability Poison Heal, upon being sent in.",
+          "category": "Crests"
+        },
+        {
+          "name": "Zoroark Crest",
+          "price": "40000",
+          "effect": "Grants the Ability and STAB of the copied Pokémon to Zoroark.",
+          "category": "Crests"
         }
       ],
       "count": 4

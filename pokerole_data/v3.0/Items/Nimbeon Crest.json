@@ -1,0 +1,13 @@
+{
+  "Name": "Nimbeon Crest",
+  "_id": "nimbeon-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Nimbeon gains 1x Resistance to Damage from Electric-Type Attacks. Its Ability Cotton Down Reduces Dexterity by 2 when activated. Its Ability Gale Wings effects all its Moves regardless of Type.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

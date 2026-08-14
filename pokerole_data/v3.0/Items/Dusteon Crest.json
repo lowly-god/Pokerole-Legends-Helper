@@ -1,0 +1,13 @@
+{
+  "Name": "Dusteon Crest",
+  "_id": "dusteon-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Dusteon gains 1x Resistance to Damage from Ice-Type Attacks. Sandstorm Weather activates for Duration 4 Rounds, upon being sent in.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

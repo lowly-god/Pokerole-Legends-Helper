@@ -1,6 +1,6 @@
 {
   "Name": "Sticky Hold",
-  "Effect": "This Pokémon's Held Item cannot be removed, stolen or swapped by Moves or Abilities.",
+  "Effect": "This Pokémon's Held Item cannot be removed, stolen or swapped by Moves or Abilities. Additionally, if it is not Holding an Item, Roll 1 Chance Dice when it or the Foe use a Contact Move, to steal the Foe's Held Item.",
   "Description": "This Pokémon's body is always oozing adhesive substances, if something gets glued, it will be very difficult to remove.",
   "_id": "sticky-hold"
 }

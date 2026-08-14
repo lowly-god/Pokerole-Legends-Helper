@@ -1,0 +1,13 @@
+{
+  "Name": "Champeon Crest",
+  "_id": "champeon-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Champeon gains 1x Resistance to Damage from Flying-Type Attacks. Its Ability No Guard also nullifies Action Sequence Penalties, as it does reduced Accuracy Penalties.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

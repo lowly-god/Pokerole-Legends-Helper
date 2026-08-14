@@ -1,0 +1,13 @@
+{
+  "Name": "Seviper Crest",
+  "_id": "seviper-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Seviper's Dexterity increases by 2. Its Damaging Moves gain +2 Damage Dice when used against Targets who are at full HP.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

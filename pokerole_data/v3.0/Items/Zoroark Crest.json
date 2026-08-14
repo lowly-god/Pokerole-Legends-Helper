@@ -1,0 +1,13 @@
+{
+  "Name": "Zoroark Crest",
+  "_id": "zoroark-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Grants the Ability and STAB of the copied Pokémon to Zoroark.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

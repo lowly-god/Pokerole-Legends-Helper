@@ -1,0 +1,13 @@
+{
+  "Name": "Furret Crest",
+  "_id": "furret-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Furret automatically uses the Move Substitute as a Reaction 6 Free Action, upon being sent in.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

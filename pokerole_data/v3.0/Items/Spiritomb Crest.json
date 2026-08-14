@@ -1,0 +1,13 @@
+{
+  "Name": "Spiritomb Crest",
+  "_id": "spiritomb-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Increase Spiritomb's Strength and Special Attributes by 1 for every allied Pokémon that has Fainted in-battle. Up to 3 points can be increased this way.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

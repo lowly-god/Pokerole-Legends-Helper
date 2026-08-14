@@ -1,6 +1,6 @@
 {
   "Name": "Big Pecks",
-  "Effect": "This Pokémon cannot have its Defense reduced.",
+  "Effect": "This Pokémon cannot have its Defense reduced. The Moves Peck and Pluck gain +1 Damage Dice when used by this Pokémon.",
   "Description": "This tenacious Pokémon uses its beak to cover its weak spots.",
   "_id": "big-pecks"
 }

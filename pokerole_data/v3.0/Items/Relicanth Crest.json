@@ -1,0 +1,13 @@
+{
+  "Name": "Relicanth Crest",
+  "_id": "relicanth-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Relicanth's Strength and Special Defense are increased by 1, upon being sent in.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

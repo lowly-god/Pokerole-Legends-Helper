@@ -1,6 +1,6 @@
 {
   "Name": "Anticipation",
-  "Effect": "If any opposing Pokémon knows a Move that would deal Lethal or Super Effective Damage against this Pokémon, it will alert its Trainer.",
+  "Effect": "In battle, this Pokémon will warn of one Move/Maneuver that a Foe has that would deal Super Effective Damage to it. The first time that Move/Maneuver is used against this Pokémon, ignore all Damage and other effects from it.",
   "Description": "The Pokémon is always alert for threats and rarely sits to relax. If it perceives a potential danger it will get anxious and start shuddering.",
   "_id": "anticipation"
 }

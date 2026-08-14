@@ -1,0 +1,13 @@
+{
+  "Name": "Samurott Crest",
+  "_id": "samurott-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Samurott gains Resistances and STAB as if it also had the Fighting-Type. Cutter Moves it uses that do not have High Critical gain High Critical.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

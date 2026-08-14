@@ -1,0 +1,13 @@
+{
+  "Name": "Pangoro Crest",
+  "_id": "pangoro-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Pangoro's Defense is increased by 1 and the effects of the Ability Dark Aura activate, upon being sent in.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

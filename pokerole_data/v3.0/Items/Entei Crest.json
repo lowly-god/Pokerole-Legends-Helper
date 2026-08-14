@@ -1,0 +1,13 @@
+{
+  "Name": "Entei Crest",
+  "_id": "entei-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "All of Entei's Fire-Type Moves become target All Foes.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

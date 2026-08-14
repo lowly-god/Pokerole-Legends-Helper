@@ -1,0 +1,13 @@
+{
+  "Name": "Swalot Crest",
+  "_id": "swalot-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "The Defense and Special Defense increases of the Move Stockpile are doubled. Belch is always usable regardless of if Swalot has consumed a Berry or other consumable Item that Round.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

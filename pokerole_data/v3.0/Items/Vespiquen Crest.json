@@ -1,0 +1,13 @@
+{
+  "Name": "Vespiquen Crest",
+  "_id": "vespiquen-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Vespiquen's Attack Order gains +1 Damage Dice, Defend Order's Defense and Special Defense increases are doubled, Heal Order no longer requires a Will Point be spent.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Torterra Crest",
+  "_id": "torterra-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Torterra's Resistances and Weaknesses are swapped, it retains it's Immunities.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

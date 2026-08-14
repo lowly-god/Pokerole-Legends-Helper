@@ -1,0 +1,13 @@
+{
+  "Name": "Reuniclus Crest",
+  "_id": "reuniclus-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Reuniculus's Physical Moves use Channel instead of any other secondary Accuracy Pool, and calculate Damage with Special instead of Strength.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

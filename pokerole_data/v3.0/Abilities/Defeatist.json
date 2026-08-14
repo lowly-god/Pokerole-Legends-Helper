@@ -1,6 +1,6 @@
 {
   "Name": "Defeatist",
-  "Effect": "If this Pokémon's HP is at half or less, roll its Loyalty requiring 2 successes every action, if the roll fails Reduce by 2 its Strength and Special for that action. If the roll is successful it keeps its attributes unchanged or restore them if they were reduced in a previous action.",
+  "Effect": "While this Pokémon is at full HP increase its Strength and Special by 1. If this Pokémon's HP is at half or less, Roll its Loyalty requiring 2 Successes every Action, if the Roll Fails Reduce by 2 its Strength and Special for that Action. If the Roll is Successful it keeps its Attributes unchanged and/or restores them if they were reduced in a previous Action.",
   "Description": "This Pokémon is a pessimist by nature. When things get difficult, it will be the first to give up.",
   "_id": "defeatist"
 }

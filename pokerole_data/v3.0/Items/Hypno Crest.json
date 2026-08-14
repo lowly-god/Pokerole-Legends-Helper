@@ -1,0 +1,13 @@
+{
+  "Name": "Hypno Crest",
+  "_id": "hypno-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Hypno's Special is increased by +2, upon being sent in.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

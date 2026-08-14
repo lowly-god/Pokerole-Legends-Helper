@@ -1,0 +1,13 @@
+{
+  "Name": "Mummeon Crest",
+  "_id": "mummeon-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Mummeon gains 1x Resistance to Damage from Dark-Type Attacks. Its Ability Mummy activates when it is hit by any Physical, Special or Support Moves. Its ability Cursed Body has its Chance Dice increased to 5.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

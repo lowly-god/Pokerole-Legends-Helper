@@ -1,0 +1,13 @@
+{
+  "Name": "Boltund Crest",
+  "_id": "boltund-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Boltund gains +2 Damage Dice when using Bite Moves, if Boltund acts before the Target in Initiative.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

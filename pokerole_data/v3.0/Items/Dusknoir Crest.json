@@ -1,0 +1,13 @@
+{
+  "Name": "Dusknoir Crest",
+  "_id": "dusknoir-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Dusknoir's Moves which are Power 2 or less, gain +1 Damage Dice.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Sylveon Crest",
+  "_id": "sylveon-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Sylveon gains 1x Resistance to Damage from Steel-Type Attacks. Its Ability Cute Charm has its Chance Dice increased to 5. Its Ability Pixilate boosts Fairy-Type Damage by +2.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Skuntank Crest",
+  "_id": "skuntank-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Skuntank is immune to Ground-Type Damage, the first time it is hit by a Ground-Type Move increase its Strength by 1.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

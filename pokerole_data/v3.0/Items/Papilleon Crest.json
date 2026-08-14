@@ -1,0 +1,13 @@
+{
+  "Name": "Papilleon Crest",
+  "_id": "papilleon-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Papilleon gains 1x Resistance to Damage from Flying-Type Attacks. Papilleon gets 2 Extra Dice on the Accuracy Pool of any move with an Accuracy penalty.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Leafeon Crest",
+  "_id": "leafeon-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Leafeon gains 1x Resistance to Damage from Fire and Flying-Type Attacks. Its Ability activates regardless of Weather-Type, upon being sent in.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

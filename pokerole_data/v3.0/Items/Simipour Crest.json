@@ -1,0 +1,13 @@
+{
+  "Name": "Simipour Crest",
+  "_id": "simipour-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Simipour gains Resistances and STAB as if it also had the Grass-Type. Its Normal-Type Moves become Grass-Type. It's Strength and Special are increased by 1, upon being sent in.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

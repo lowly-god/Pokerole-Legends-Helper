@@ -1,0 +1,13 @@
+{
+  "Name": "Delcatty Crest",
+  "_id": "delcatty-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "For each non-KO'd Pokémon in the Trainer's Party, increase one of Delcatty's main Attributes by 1.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

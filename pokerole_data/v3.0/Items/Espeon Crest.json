@@ -1,0 +1,13 @@
+{
+  "Name": "Espeon Crest",
+  "_id": "espeon-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Espeon gains 1x Resistance to Damage from Ghost-Type Attacks. When redirecting an effect with its Ability, Target All Foes instead of just the Target.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

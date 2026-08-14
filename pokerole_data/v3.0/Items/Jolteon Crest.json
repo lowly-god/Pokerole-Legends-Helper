@@ -1,0 +1,13 @@
+{
+  "Name": "Jolteon Crest",
+  "_id": "jolteon-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Jolteon's Ability Volt Absorb heals for 2HP instead of 1HP or its Ability Quick Feet activates, upon being sent in.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

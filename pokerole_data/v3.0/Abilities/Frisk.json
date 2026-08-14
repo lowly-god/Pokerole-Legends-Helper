@@ -1,6 +1,6 @@
 {
   "Name": "Frisk",
-  "Effect": "When this Pokémon enters the battlefield, the Storyteller must reveal the Held Item of one opposing Pokémon to its Trainer.",
+  "Effect": "When this Pokémon enters the battlefield, Held Items must be revealed. Roll 3 Chance Dice to Steal one Foe's Held Item.",
   "Description": "This Pokémon can see the items others may be carrying, even if they are hidden.",
   "_id": "frisk"
 }

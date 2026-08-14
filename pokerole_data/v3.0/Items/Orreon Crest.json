@@ -1,0 +1,13 @@
+{
+  "Name": "Orreon Crest",
+  "_id": "orreon-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Orreon gains 1x Resistance to Damage from Fighting and Steel-Type Attacks. Its Ability Sturdy may activate an unlimited number of times per round, but instead of being guaranteed it instead becomes Roll 5 Chance Dice.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

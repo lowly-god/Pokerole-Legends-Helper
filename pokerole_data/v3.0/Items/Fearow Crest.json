@@ -1,0 +1,13 @@
+{
+  "Name": "Fearow Crest",
+  "_id": "fearow-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Fearow's STAB Moves gain +1 Damage Dice and gain High Critical if they did not already have it.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

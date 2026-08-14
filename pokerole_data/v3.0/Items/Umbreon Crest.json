@@ -1,0 +1,13 @@
+{
+  "Name": "Umbreon Crest",
+  "_id": "umbreon-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Umbreon gains 1x Resistance to Damage from Bug and Fairy-Type Attacks. When inflicting a Status Condition with its Ability Synchronize, upgrade it if possible. (Poisoned becomes Badly Poisoned, Burn(1) becomes Burn(2) etc).",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Shiinotic Crest",
+  "_id": "shiinotic-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Shiinotic's Draining Moves gain +1 Damage Dice. Additionally Foes suffering from Status Conditions lose 1HP at the end of the Round, Shiinotic heals HP equal to any Damage done in this way.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Seraphish Crest",
+  "_id": "seraphish-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Seraphish automatically sets the effects of the Move Life Dew, Duration 4 Rounds, upon being sent out.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

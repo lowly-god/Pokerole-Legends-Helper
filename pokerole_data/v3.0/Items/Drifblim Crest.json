@@ -1,0 +1,13 @@
+{
+  "Name": "Drifblim Crest",
+  "_id": "drifblim-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "The first time Drifblim would reduce itself to 0HP with a Move, it instead reduced to 1HP. It may not use another Move that would reduce itself to 0HP for the rest of the Scene.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

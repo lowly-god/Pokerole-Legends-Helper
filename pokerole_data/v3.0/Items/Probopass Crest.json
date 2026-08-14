@@ -1,0 +1,13 @@
+{
+  "Name": "Probopass Crest",
+  "_id": "probopass-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Probopass gains the effects of the Ability Levitate, upon being sent in.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

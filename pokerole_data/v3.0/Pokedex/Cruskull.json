@@ -82,6 +82,10 @@
       "Name": "Shadow Bone"
     },
     {
+      "Learned": "Standard",
+      "Name": "Shadow Sneak"
+    },
+    {
       "Learned": "Advanced",
       "Name": "Bone Rush"
     },

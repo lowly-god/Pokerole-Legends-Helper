@@ -1,0 +1,13 @@
+{
+  "Name": "Glaveon Crest",
+  "_id": "glaveon-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Glaveon gains 1x Resistance to Damage from Ground-Type Attacks. Its Cutter Moves gain +1 Damage Dice.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

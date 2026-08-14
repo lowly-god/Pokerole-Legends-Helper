@@ -20,7 +20,8 @@ statuses = [
     'Confused',
     'Disabled',
     'In Love',
-    'Blocked'
+    'Blocked',
+    'Ongoing Damage'
 ]
 weathers = [
     'Sunny Weather',

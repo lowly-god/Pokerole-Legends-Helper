@@ -1,0 +1,13 @@
+{
+  "Name": "Noxeon Crest",
+  "_id": "noxeon-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Noxeon gains 1x Resistance to Damage from Psychic-Type Attacks. Roll 3 Chance Dice to Poison All Foes, upon being sent in.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

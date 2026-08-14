@@ -1,0 +1,13 @@
+{
+  "Name": "Electrode Crest",
+  "_id": "electrode-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Electrode ignores 2 points of Defense and Special Defense when calculating Damage.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

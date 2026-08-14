@@ -1,0 +1,13 @@
+{
+  "Name": "Hawlucha Crest",
+  "_id": "hawlucha-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Hawlucha gains Immunity to Ice-Type Damage. The first time it is hit by a Ice-Type Move, increase it's Dexterity by 1.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

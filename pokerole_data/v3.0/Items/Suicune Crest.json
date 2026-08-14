@@ -1,0 +1,13 @@
+{
+  "Name": "Suicune Crest",
+  "_id": "suicune-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Suicune is immune to Status Conditions. Suicune and its Allies gain the effects of the Move Tailwind (Duration 1 Round), upon being sent in.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

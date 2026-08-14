@@ -1,0 +1,13 @@
+{
+  "Name": "Oricorio Crest",
+  "_id": "oricorio-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Oricorio's Dexterity and Special are increased by 1, upon being sent in.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

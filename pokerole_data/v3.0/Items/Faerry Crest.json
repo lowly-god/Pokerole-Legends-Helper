@@ -1,0 +1,13 @@
+{
+  "Name": "Faerry Crest",
+  "_id": "faerry-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Flower Gift activates when the holder is sent in, regardless of Weather-Type.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

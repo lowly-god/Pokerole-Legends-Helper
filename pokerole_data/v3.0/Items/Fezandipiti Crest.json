@@ -1,0 +1,13 @@
+{
+  "Name": "Fezandipiti Crest",
+  "_id": "fezandipiti-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "If anything would reduce an Attribute of Fezandipiti, increase it instead.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

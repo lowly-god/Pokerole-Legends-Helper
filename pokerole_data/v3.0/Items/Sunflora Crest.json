@@ -1,0 +1,13 @@
+{
+  "Name": "Sunflora Crest",
+  "_id": "sunflora-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Sunflora behaves as if Sunny Weather is active, regardless of current Weather-Type and heals 1HP at the end of each Round.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

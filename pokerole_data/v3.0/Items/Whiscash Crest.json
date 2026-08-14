@@ -1,0 +1,13 @@
+{
+  "Name": "Whiscash Crest",
+  "_id": "whiscash-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Wiscash is immune to Grass-Type Damage, the first time it is hit by a Grass-Type Move increase its Strength and Special by 1.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

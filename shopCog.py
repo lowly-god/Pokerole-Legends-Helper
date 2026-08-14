@@ -98,6 +98,10 @@ class ShopCog(commands.Cog):
             if cfg["special_pool"]:
                 special = random.choice(cfg["special_pool"])
                 sections.append(("Special Item", [line_for(special)]))
+            # Curiosity Traders always carry exactly one Crest.
+            if cfg.get("crest_pool"):
+                crest = random.choice(cfg["crest_pool"])
+                sections.append(("Crest", [line_for(crest)]))
 
         elif mode == "travelling":
             sections.append(("Regular Wares", [line_for(x) for x in cfg["stock"]]))

@@ -114,12 +114,30 @@ def _number_text(value):
         return str(value)
 
 
+
+
+def _feet_inches_text(value):
+    """Render decimal feet as conventional feet/inches, e.g. 4.52 -> 4'06"."""
+    if value is None or value == "":
+        return None
+    try:
+        decimal_feet = float(value)
+    except (TypeError, ValueError):
+        return str(value)
+
+    feet = int(decimal_feet)
+    inches = int(round((decimal_feet - feet) * 12))
+    if inches >= 12:
+        feet += inches // 12
+        inches %= 12
+    return f"{feet}'{inches:02d}\""
+
 def _size_weight(meta):
     height = meta.get("Height") or {}
     weight = meta.get("Weight") or {}
 
     meters = _number_text(height.get("Meters")) if isinstance(height, dict) else None
-    feet = _number_text(height.get("Feet")) if isinstance(height, dict) else None
+    feet = _feet_inches_text(height.get("Feet")) if isinstance(height, dict) else None
     kg = _number_text(weight.get("Kilograms")) if isinstance(weight, dict) else None
     pounds = _number_text(weight.get("Pounds")) if isinstance(weight, dict) else None
 
@@ -129,7 +147,7 @@ def _size_weight(meta):
     if meters is not None:
         size_parts.append(f"{meters} m")
     if feet is not None:
-        size_parts.append(f"{feet} ft")
+        size_parts.append(feet)
     if kg is not None:
         weight_parts.append(f"{kg} kg")
     if pounds is not None:

@@ -1,0 +1,13 @@
+{
+  "Name": "Dedenne Crest",
+  "_id": "dedenne-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Dedenne's Physical attacks use its Dexterity rather than its Strength Attribute when rolling Damage.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

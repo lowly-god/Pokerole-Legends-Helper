@@ -1,6 +1,6 @@
 {
   "Name": "Run Away",
-  "Effect": "This Pokémon cannot be Blocked. It may also obtain bonus dice to escape from battle, Pokeballs or captivity at Storyteller's discretion.",
+  "Effect": "This Pokémon cannot be Blocked. It also gains a permanent +1 to its Evasion Skill. (Its usual Skill limit may be exceeded).",
   "Description": "This Pokémon is a master of escape. It will be difficult to catch as it can squeeze through the tiniest gaps to get away.",
   "_id": "run-away-ability"
 }

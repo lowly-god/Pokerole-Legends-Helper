@@ -1,0 +1,13 @@
+{
+  "Name": "Glaceon Crest",
+  "_id": "glaceon-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Glaceon gains 1x Resistance to Damage from Rock and Fighting-Type Attacks. Its Ability activates regardless of Weather-Type, upon being sent in.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

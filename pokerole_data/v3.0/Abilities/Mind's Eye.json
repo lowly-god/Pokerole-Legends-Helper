@@ -1,6 +1,6 @@
 {
   "Name": "Mind's Eye",
-  "Effect": "At night time, all Moves used by this Pokémon are considered to have the “Never Miss” Added Effect. It can hit Ghost-Type Pokémon with Normal-Type and Fighting-Type Moves, dealing Regular Damage.",
+  "Effect": "At night time or in Midnight Weather all Moves used by this Pokémon gain Never Miss, it can also hit Ghost-Types with Normal and Fighting-Type Moves.",
   "Description": "With an unparalleled cosmic awareness, this Pokémon is able to see the future accurately. It is said you can see your own demise by looking into its dead eye.",
   "_id": "mind's-eye"
 }

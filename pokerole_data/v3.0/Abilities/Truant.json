@@ -1,6 +1,6 @@
 {
   "Name": "Truant",
-  "Effect": "Roll this Pokémon's Loyalty every other turn, and score at least 2 successes. If the roll fails this Pokémon refuses to act. If it is successful it may act normally.",
+  "Effect": "Roll this Pokémon's Loyalty every other turn, and score at least 2 successes. If it is Successful it may act normally. If the Roll Fails this Pokémon refuses to act; then roll 1 Chance Dice, if Successful the Pokémon uses a Free Action to perform the Move Rest.",
   "Description": "This Pokémon is extremely lazy. They won't make even the tiniest effort to do anything even in the heat of battle.",
   "_id": "truant"
 }

@@ -1,0 +1,13 @@
+{
+  "Name": "Drakeon Crest",
+  "_id": "drakeon-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Drakeon gains 1x Resistance to Damage from Fairy-Type Attacks. Fairy-Type Foes lose their Dragon-Type Immunity to when Targeted by Drakeon.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

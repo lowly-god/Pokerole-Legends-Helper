@@ -1,0 +1,13 @@
+{
+  "Name": "Zangoose Crest",
+  "_id": "zangoose-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Zangoose becomes Poisoned and gains the effects of the Ability Poison Heal, upon being sent in.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

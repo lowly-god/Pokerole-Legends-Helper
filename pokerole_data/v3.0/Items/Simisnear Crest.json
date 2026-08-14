@@ -1,0 +1,13 @@
+{
+  "Name": "Simisnear Crest",
+  "_id": "simisnear-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Simisnear gains Resistances and STAB as if it also had the Fighting-Type. Its Normal-Type Moves become Fighting-Type. It's Strength and Special are increased by 1, upon being sent in.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

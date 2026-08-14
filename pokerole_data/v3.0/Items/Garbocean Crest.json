@@ -1,0 +1,13 @@
+{
+  "Name": "Garbocean Crest",
+  "_id": "garbocean-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Increase either the Holder's Strength or Special to match whichever is higher, upon being sent in. Additionally, Physical Moves may use Channel for secondary Accuracy, Special Moves may use Brawl for secondary Accuracy.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

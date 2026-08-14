@@ -1,0 +1,13 @@
+{
+  "Name": "Sawsbuck Crest",
+  "_id": "sawsbuck-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Replace Sawsbuck's Normal-Type with its Seasonal-Type (Spring > Fairy, Summer > Fire, Autumn > Ground, Winter > Ice). Its Normal-Type Moves become its Seasonal-Type and gain +1 Damage Dice.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

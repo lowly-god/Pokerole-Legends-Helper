@@ -1,0 +1,13 @@
+{
+  "Name": "Luvdisc Crest",
+  "_id": "luvdisc-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "The Base Power of all Luvdisc's Damaging Moves match its Happiness, capping at a Base Power of 5.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}

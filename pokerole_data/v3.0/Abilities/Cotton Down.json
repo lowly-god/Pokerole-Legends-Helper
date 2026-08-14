@@ -1,6 +1,6 @@
 {
   "Name": "Cotton Down",
-  "Effect": "If Pokémon is hit with a Non-Ranged Physical Move, reduce the speed of all Pokémon in an Area close to it.",
+  "Effect": "If this Pokémon is hit with a Non-Ranged Physical Attack, reduce by 1 the Dexterity and half the Movement Speed of those affected.",
   "Description": "The cotton fluff on this Pokémon's body is constantly being shed, it can be used to make beautiful clothes but it's also bothersome to walk on.",
   "_id": "cotton-down"
 }

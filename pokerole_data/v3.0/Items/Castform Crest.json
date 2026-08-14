@@ -1,0 +1,13 @@
+{
+  "Name": "Castform Crest",
+  "_id": "castform-crest",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Held Items",
+  "Category": "Crests",
+  "Description": "Castform may use a Weather changing Move as a Reaction 6 free Action, upon being sent in. The Weather's Duration is 8 Rounds.",
+  "OneUse": false,
+  "TrainerPrice": "40000",
+  "Cures": "",
+  "Image": ""
+}
