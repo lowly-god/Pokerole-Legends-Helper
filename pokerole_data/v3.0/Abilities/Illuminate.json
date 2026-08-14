@@ -1,6 +1,6 @@
 {
   "Name": "Illuminate",
-  "Effect": "This Pokémon and its Allies cannot have their Accuracy Reduced, additionally Moves/Maneuvers they use with Low Accuracy Penalties have +1 Accuracy. Out of Battle this Pokémon produces a 30ft radius of light.",
+  "Effect": "Moves and Maneuvers used by this Pokémon and its Allies with Low Accuracy Penalties have +1 Accuracy. Out of Battle this Pokémon produces a 30ft radius of light.",
   "Description": "The Pokémon naturally produces a soft and warm light through its body. Other Pokémon approach to it curiously when they see this light.",
   "_id": "illuminate"
 }

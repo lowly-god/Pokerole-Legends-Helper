@@ -1,6 +1,6 @@
 {
   "Name": "Hyper Cutter",
-  "Effect": "This Pokémon can't have its Strength Attribute reduced by Moves, Abilities, or Items. This Pokémon can still Reduce its own Strength Attribute.",
+  "Effect": "The User's Cutter Moves gain High Critical (This effect stacks with Moves that already have High Critical). Additionally, The first time this Pokémon's Strength would be reduced increase it by 1 instead.",
   "Description": "The claws of this Pokémon are very sharp. Their edge can't be dulled.",
   "_id": "hyper-cutter"
 }

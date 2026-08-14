@@ -6458,7 +6458,7 @@
         {
           "name": "Druddigon Crest",
           "price": "40000",
-          "effect": "Druddigon Heals 1HP at the end of each Round while Sunny Weather is in effect. Its Damaging Fire and Dragon-Type moves gain +1 Damage Dice.",
+          "effect": "Druddigon Heals 1HP at the end of each Round while Sunny Weather is in effect. Its Damaging Fire and Dragon-Type Moves gain +1 Damage Dice.",
           "category": "Crests"
         },
         {
@@ -6476,7 +6476,7 @@
         {
           "name": "Eevoleon Crest",
           "price": "40000",
-          "effect": "Eevoleon's STAB moves gain +1 Damage Dice. Increase its Defense and Special Defense by 1, upon being sent in.",
+          "effect": "Eevoleon's STAB Moves gain +1 Damage Dice. Increase its Defense and Special Defense by 1, upon being sent in.",
           "category": "Crests"
         },
         {
@@ -6488,13 +6488,13 @@
         {
           "name": "Empoleon Crest",
           "price": "40000",
-          "effect": "Empoleon's Ice-type moves gain +1 Damage Dice. It gains a +1 Bonus to Dexterity in Hail Weather, Snowy Terrain and on the Frozen Field-Type.",
+          "effect": "Empoleon's Ice-Type Moves gain +1 Damage Dice. It gains a +1 Bonus to Dexterity in Hail Weather, Snowy Terrain and on the Frozen Field-Type.",
           "category": "Crests"
         },
         {
           "name": "Entei Crest",
           "price": "40000",
-          "effect": "All of Entei's Fire-Type Moves become target All Foes.",
+          "effect": "All of Entei's Fire-Type Moves become Target All Foes.",
           "category": "Crests"
         },
         {
@@ -6518,7 +6518,7 @@
         {
           "name": "Flygon Crest",
           "price": "40000",
-          "effect": "Flygon and its Allies damaging Sound Moves gain +1 Damage Dice, and cannot target Allies.",
+          "effect": "Flygon and its Allies damaging Sound Moves gain +1 Damage Dice, and cannot Target Allies.",
           "category": "Crests"
         },
         {
@@ -6534,13 +6534,7 @@
           "category": "Crests"
         },
         {
-          "name": "Garbodor Crest",
-          "price": "40000",
-          "effect": "Increase either the Holder's Strength or Special to match whichever is higher, upon being sent in. Additionally, Physical Moves may use Channel for secondary Accuracy, Special Moves may use Brawl for secondary Accuracy.",
-          "category": "Crests"
-        },
-        {
-          "name": "Garbocean Crest",
+          "name": "Garbodor / Garbocean Crest",
           "price": "40000",
           "effect": "Increase either the Holder's Strength or Special to match whichever is higher, upon being sent in. Additionally, Physical Moves may use Channel for secondary Accuracy, Special Moves may use Brawl for secondary Accuracy.",
           "category": "Crests"
@@ -6620,17 +6614,11 @@
         {
           "name": "Magcargo Crest",
           "price": "40000",
-          "effect": "Magcargo's Defense and Dexterity are swapped, its special is increased by +1, upon being sent in.",
+          "effect": "Magcargo's Defense and Dexterity are swapped, its Special is increased by +1, upon being sent in.",
           "category": "Crests"
         },
         {
-          "name": "Manaphy Crest",
-          "price": "40000",
-          "effect": "The Holder's Defense is increased by 2 and it gains the effects of the Move Aqua Ring, upon being sent in.",
-          "category": "Crests"
-        },
-        {
-          "name": "Phione Crest",
+          "name": "Phione / Manaphy Crest",
           "price": "40000",
           "effect": "The Holder's Defense is increased by 2 and it gains the effects of the Move Aqua Ring, upon being sent in.",
           "category": "Crests"
@@ -6638,7 +6626,7 @@
         {
           "name": "Mummeon Crest",
           "price": "40000",
-          "effect": "Mummeon gains 1x Resistance to Damage from Dark-Type Attacks. Its Ability Mummy activates when it is hit by any Physical, Special or Support Moves. Its ability Cursed Body has its Chance Dice increased to 5.",
+          "effect": "Mummeon gains 1x Resistance to Damage from Dark-Type Attacks. Its Ability Mummy activates when it is hit by any Physical, Special or Support Moves. Its Ability Cursed Body has its Chance Dice increased to 5.",
           "category": "Crests"
         },
         {
@@ -6680,7 +6668,7 @@
         {
           "name": "Papilleon Crest",
           "price": "40000",
-          "effect": "Papilleon gains 1x Resistance to Damage from Flying-Type Attacks. Papilleon gets 2 Extra Dice on the Accuracy Pool of any move with an Accuracy penalty.",
+          "effect": "Papilleon gains 1x Resistance to Damage from Flying-Type Attacks. Papilleon gets 2 Extra Dice on the Accuracy Pool of any Move with an Accuracy penalty.",
           "category": "Crests"
         },
         {
@@ -6692,7 +6680,7 @@
         {
           "name": "Orreon Crest",
           "price": "40000",
-          "effect": "Orreon gains 1x Resistance to Damage from Fighting and Steel-Type Attacks. Its Ability Sturdy may activate an unlimited number of times per round, but instead of being guaranteed it instead becomes Roll 5 Chance Dice.",
+          "effect": "Orreon gains 1x Resistance to Damage from Fighting and Steel-Type Attacks. Its Ability Sturdy may activate an unlimited number of times per Round, but instead of being guaranteed it instead becomes Roll 5 Chance Dice.",
           "category": "Crests"
         },
         {
@@ -12901,7 +12889,7 @@
         {
           "name": "Druddigon Crest",
           "price": "40000",
-          "effect": "Druddigon Heals 1HP at the end of each Round while Sunny Weather is in effect. Its Damaging Fire and Dragon-Type moves gain +1 Damage Dice.",
+          "effect": "Druddigon Heals 1HP at the end of each Round while Sunny Weather is in effect. Its Damaging Fire and Dragon-Type Moves gain +1 Damage Dice.",
           "category": "Crests"
         },
         {
@@ -12919,7 +12907,7 @@
         {
           "name": "Eevoleon Crest",
           "price": "40000",
-          "effect": "Eevoleon's STAB moves gain +1 Damage Dice. Increase its Defense and Special Defense by 1, upon being sent in.",
+          "effect": "Eevoleon's STAB Moves gain +1 Damage Dice. Increase its Defense and Special Defense by 1, upon being sent in.",
           "category": "Crests"
         },
         {
@@ -12931,13 +12919,13 @@
         {
           "name": "Empoleon Crest",
           "price": "40000",
-          "effect": "Empoleon's Ice-type moves gain +1 Damage Dice. It gains a +1 Bonus to Dexterity in Hail Weather, Snowy Terrain and on the Frozen Field-Type.",
+          "effect": "Empoleon's Ice-Type Moves gain +1 Damage Dice. It gains a +1 Bonus to Dexterity in Hail Weather, Snowy Terrain and on the Frozen Field-Type.",
           "category": "Crests"
         },
         {
           "name": "Entei Crest",
           "price": "40000",
-          "effect": "All of Entei's Fire-Type Moves become target All Foes.",
+          "effect": "All of Entei's Fire-Type Moves become Target All Foes.",
           "category": "Crests"
         },
         {
@@ -12961,7 +12949,7 @@
         {
           "name": "Flygon Crest",
           "price": "40000",
-          "effect": "Flygon and its Allies damaging Sound Moves gain +1 Damage Dice, and cannot target Allies.",
+          "effect": "Flygon and its Allies damaging Sound Moves gain +1 Damage Dice, and cannot Target Allies.",
           "category": "Crests"
         },
         {
@@ -12977,13 +12965,7 @@
           "category": "Crests"
         },
         {
-          "name": "Garbodor Crest",
-          "price": "40000",
-          "effect": "Increase either the Holder's Strength or Special to match whichever is higher, upon being sent in. Additionally, Physical Moves may use Channel for secondary Accuracy, Special Moves may use Brawl for secondary Accuracy.",
-          "category": "Crests"
-        },
-        {
-          "name": "Garbocean Crest",
+          "name": "Garbodor / Garbocean Crest",
           "price": "40000",
           "effect": "Increase either the Holder's Strength or Special to match whichever is higher, upon being sent in. Additionally, Physical Moves may use Channel for secondary Accuracy, Special Moves may use Brawl for secondary Accuracy.",
           "category": "Crests"
@@ -13063,17 +13045,11 @@
         {
           "name": "Magcargo Crest",
           "price": "40000",
-          "effect": "Magcargo's Defense and Dexterity are swapped, its special is increased by +1, upon being sent in.",
+          "effect": "Magcargo's Defense and Dexterity are swapped, its Special is increased by +1, upon being sent in.",
           "category": "Crests"
         },
         {
-          "name": "Manaphy Crest",
-          "price": "40000",
-          "effect": "The Holder's Defense is increased by 2 and it gains the effects of the Move Aqua Ring, upon being sent in.",
-          "category": "Crests"
-        },
-        {
-          "name": "Phione Crest",
+          "name": "Phione / Manaphy Crest",
           "price": "40000",
           "effect": "The Holder's Defense is increased by 2 and it gains the effects of the Move Aqua Ring, upon being sent in.",
           "category": "Crests"
@@ -13081,7 +13057,7 @@
         {
           "name": "Mummeon Crest",
           "price": "40000",
-          "effect": "Mummeon gains 1x Resistance to Damage from Dark-Type Attacks. Its Ability Mummy activates when it is hit by any Physical, Special or Support Moves. Its ability Cursed Body has its Chance Dice increased to 5.",
+          "effect": "Mummeon gains 1x Resistance to Damage from Dark-Type Attacks. Its Ability Mummy activates when it is hit by any Physical, Special or Support Moves. Its Ability Cursed Body has its Chance Dice increased to 5.",
           "category": "Crests"
         },
         {
@@ -13123,7 +13099,7 @@
         {
           "name": "Papilleon Crest",
           "price": "40000",
-          "effect": "Papilleon gains 1x Resistance to Damage from Flying-Type Attacks. Papilleon gets 2 Extra Dice on the Accuracy Pool of any move with an Accuracy penalty.",
+          "effect": "Papilleon gains 1x Resistance to Damage from Flying-Type Attacks. Papilleon gets 2 Extra Dice on the Accuracy Pool of any Move with an Accuracy penalty.",
           "category": "Crests"
         },
         {
@@ -13135,7 +13111,7 @@
         {
           "name": "Orreon Crest",
           "price": "40000",
-          "effect": "Orreon gains 1x Resistance to Damage from Fighting and Steel-Type Attacks. Its Ability Sturdy may activate an unlimited number of times per round, but instead of being guaranteed it instead becomes Roll 5 Chance Dice.",
+          "effect": "Orreon gains 1x Resistance to Damage from Fighting and Steel-Type Attacks. Its Ability Sturdy may activate an unlimited number of times per Round, but instead of being guaranteed it instead becomes Roll 5 Chance Dice.",
           "category": "Crests"
         },
         {

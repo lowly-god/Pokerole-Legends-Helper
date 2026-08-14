@@ -105,7 +105,7 @@ def resolve_pokemon_alias(name):
 
 
 def rank_dist(version="v2.0"):
-    if version is "v3.0":
+    if version == "v3.0":
         return random.choice([ranks_v3[0]] * 2 + [ranks_v3[1]] * 5 + [ranks_v3[2]] * 7 +
                              [ranks_v3[3]] * 2 + [ranks_v3[3], ranks_v3[4]])
     return random.choice([ranks[0]] * 2 + [ranks[1]] * 5 + [ranks[2]] * 7 + [ranks[3], ranks[4]])
@@ -198,6 +198,16 @@ files = [('pkmnLists', pkmnLists), ('pokebotsettings', pokebotsettings), ('pkmnL
          ('pokeStatus', pokeStatus)]
 
 
+def cleanup_legacy_crest_item_files():
+    """Remove obsolete duplicate Crest JSON files left by older patches."""
+    item_dir = os.path.join('pokerole_data', 'v3.0', 'Items')
+    for filename in ('Garbocean Crest.json', 'Manaphy Crest.json'):
+        path = os.path.join(item_dir, filename)
+        if os.path.isfile(path):
+            os.remove(path)
+            print(f'Removed obsolete duplicate Crest source: {filename}')
+
+
 @bot.event
 async def on_ready():
     global pkmnLists
@@ -213,6 +223,7 @@ async def on_ready():
     for cog in cogs:
         await bot.load_extension(cog)
 
+    cleanup_legacy_crest_item_files()
     database = Database()
 
     print(f'{bot.user} has connected to Discord!')
@@ -1774,10 +1785,15 @@ async def pkmn_search_item(ctx, itemname: str = ''):
                 order = ['Description', 'For Types', 'For Pokemon', 'Boost', 'Value', 'Cures', 'Consumable',
                          'Health Restored', 'Trainer Price', 'PMD Price']
                 # this is an actual item
-                output += f'*{found[0].capitalize()}*\n' # description should be in italics
+                # Preserve the authored capitalization of item effect text and do not italicize it.
+                output += f'{found[0]}\n'
                 for name in range(1, len(order)):
                     if found[name] != '' and found[name] is not None:
-                        output += f'**{order[name]}**: {found[name]}\n'
+                        value = found[name]
+                        # Trainer prices are stored as numeric data; add the Pokédollar symbol for display.
+                        if order[name] == 'Trainer Price' and str(value).strip().isdigit():
+                            value = f'₽{str(value).strip()}'
+                        output += f'**{order[name]}**: {value}\n'
             else:
                 # this is a category
                 temp = database.custom_query(f'SELECT name FROM pkmnItems WHERE category="{itemname}"')
@@ -2484,12 +2500,12 @@ async def move_aggregator_tmp(poke: str, rank: str, denote_moves: bool = False, 
             if x in movelist:
                 for name in y:
                     if denote_moves and depth != 0 and name not in movelist[x]:
-                        movelist[x].add('\*' + name)
+                        movelist[x].add(r'\*' + name)
                     else:
                         movelist[x].add(name)
             else:
                 if denote_moves and depth != 0:
-                    movelist[x] = set(['\*' + z for z in y])
+                    movelist[x] = set([r'\*' + z for z in y])
                 else:
                     movelist[x] = set(y)
     return movelist
@@ -2633,16 +2649,16 @@ async def calcStats(rank: str, attr: list, maxAttr: list,
     # no limits on socials (except max of 5) in v2.0
     socials = bot.socials[:]
     extraSocial = 0
-    if version is "v2.0" and rank is "Master":
+    if version == "v2.0" and rank == "Master":
         extraSocial = 6
     # limited by rank
     skills = bot.skills[:]
     rankIndex = None
     pointsToAllocate = None
-    if version is "v2.0":
+    if version == "v2.0":
         rankIndex = ranks.index(rank)
         pointsToAllocate = attributeAmount[rankIndex]
-    elif version is "v3.0":
+    elif version == "v3.0":
         rankIndex = ranks_v3.index(rank)
         pointsToAllocate = attributeAmount_v3[rankIndex]
     pointsToAllocate -= (additionalIns + additionalVit)
@@ -2660,9 +2676,9 @@ async def calcStats(rank: str, attr: list, maxAttr: list,
         return final_list
 
     bias_amt = None
-    if version is "v2.0":
+    if version == "v2.0":
         bias_amt = rankBias[rankIndex]
-    elif version is "v3.0":
+    elif version == "v3.0":
         bias_amt = rankBias_v3[rankIndex]
 
     attrWeight = [1] * len(attributes)
@@ -2748,9 +2764,9 @@ async def calcStats(rank: str, attr: list, maxAttr: list,
             socials.insert(index, val)
 
     skill_amounts = None
-    if version is "v2.0":
+    if version == "v2.0":
         skill_amounts = skillAmount_v3
-    elif version is "v3.0":
+    elif version == "v3.0":
         skill_amounts = skillAmount_v3
 
     # distribute skills
