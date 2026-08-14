@@ -41,6 +41,14 @@ LEGACY_HM_LAST_GEN = {
 }
 
 
+# Manual Tutor additions used by the Legends ruleset. These are kept outside
+# the Showdown cache so a cache refresh cannot remove the custom compatibility.
+MANUAL_TUTOR_ADDITIONS = {
+    "appletun": {"belch"},
+    "flapple": {"bugbite"},
+}
+
+
 # Complete Sword/Shield TR00-TR99 move set.
 # These are separated from ordinary Gen 8 machine moves so /pokelearns can
 # display TM and TR as different acquisition methods.
@@ -420,6 +428,10 @@ def get_machine_moves(pokemon):
         for move_id, source_map in move_sources.items():
             if latest_tutor_gen in source_map.get("T", []):
                 tutor_ids.add(move_id)
+
+    # Legends-specific Tutor compatibility. These additions are intentionally
+    # applied after the official cache so they survive future cache refreshes.
+    tutor_ids.update(MANUAL_TUTOR_ADDITIONS.get(species_id, set()))
 
     # Historical HMs from the last generation each move was an HM.
     for hm_move_id, last_hm_gen in LEGACY_HM_LAST_GEN.items():

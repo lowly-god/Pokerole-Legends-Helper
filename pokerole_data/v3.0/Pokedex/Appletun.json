@@ -76,6 +76,10 @@
       "Name": "Rollout"
     },
     {
+      "Learned": "Standard",
+      "Name": "Natural Gift"
+    },
+    {
       "Learned": "Advanced",
       "Name": "Curse"
     },

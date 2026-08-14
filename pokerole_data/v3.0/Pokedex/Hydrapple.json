@@ -77,6 +77,10 @@
       "Name": "Dragon Tail"
     },
     {
+      "Learned": "Standard",
+      "Name": "Natural Gift"
+    },
+    {
       "Learned": "Advanced",
       "Name": "Pounce"
     },
