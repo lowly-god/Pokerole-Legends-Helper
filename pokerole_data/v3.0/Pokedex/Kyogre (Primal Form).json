@@ -43,96 +43,92 @@
     "Image": "kyogre-primal-form.png",
     "Moves": [
         {
-            "Learned": "Champion",
+            "Learned": "Starter",
             "Name": "Ancient Power"
         },
         {
-            "Learned": "Champion",
+            "Learned": "Starter",
             "Name": "Water Pulse"
         },
         {
-            "Learned": "Champion",
+            "Learned": "Rookie",
             "Name": "Scary Face"
         },
         {
-            "Learned": "Champion",
-            "Name": "Aqua Tail"
-        },
-        {
-            "Learned": "Champion",
-            "Name": "Ice Beam"
-        },
-        {
-            "Learned": "Champion",
-            "Name": "Origin Pulse"
-        },
-        {
-            "Learned": "Champion",
-            "Name": "Calm Mind"
-        },
-        {
-            "Learned": "Champion",
-            "Name": "Muddy Water"
-        },
-        {
-            "Learned": "Champion",
-            "Name": "Sheer Cold"
-        },
-        {
-            "Learned": "Champion",
-            "Name": "Hydro Pump"
-        },
-        {
-            "Learned": "Champion",
-            "Name": "Double-Edge"
-        },
-        {
-            "Learned": "Champion",
-            "Name": "Water Spout"
-        },
-        {
-            "Learned": "Champion",
-            "Name": "Strength"
-        },
-        {
-            "Learned": "Champion",
-            "Name": "Dive"
-        },
-        {
-            "Learned": "Champion",
-            "Name": "Whirlpool"
-        },
-        {
-            "Learned": "Champion",
-            "Name": "Blizzard"
-        },
-        {
-            "Learned": "Champion",
-            "Name": "Psych Up"
-        },
-        {
-            "Learned": "Champion",
+            "Learned": "Rookie",
             "Name": "Mist"
         },
         {
-            "Learned": "Champion",
+            "Learned": "Standard",
+            "Name": "Aqua Tail"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Ice Beam"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Calm Mind"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Strength"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Dive"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Whirlpool"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Psych Up"
+        },
+        {
+            "Learned": "Advanced",
             "Name": "Defog"
         },
         {
-            "Learned": "Champion",
+            "Learned": "Advanced",
             "Name": "Telekinesis"
         },
         {
-            "Learned": "Champion",
+            "Learned": "Advanced",
+            "Name": "Muddy Water"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Sheer Cold"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Hydro Pump"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Double-Edge"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Water Spout"
+        },
+        {
+            "Learned": "Expert",
             "Name": "Blizzard"
         },
         {
-            "Learned": "Champion",
+            "Learned": "Ace",
+            "Name": "Snatch"
+        },
+        {
+            "Learned": "Ace",
             "Name": "Drain Punch"
         },
         {
-            "Learned": "Champion",
-            "Name": "Snatch"
+            "Learned": "Ace",
+            "Name": "Origin Pulse"
         }
     ]
 }

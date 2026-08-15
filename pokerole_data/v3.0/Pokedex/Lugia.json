@@ -1,145 +1,145 @@
 {
-  "Number": 249,
-  "DexID": "0249",
-  "Name": "Lugia",
-  "Type1": "Flying",
-  "Type2": "Psychic",
-  "BaseHP": 6,
-  "Strength": 5,
-  "MaxStrength": 5,
-  "Dexterity": 6,
-  "MaxDexterity": 6,
-  "Vitality": 7,
-  "MaxVitality": 7,
-  "Special": 5,
-  "MaxSpecial": 5,
-  "Insight": 8,
-  "MaxInsight": 8,
-  "Ability1": "Pressure",
-  "Ability2": "",
-  "HiddenAbility": "Multiscale",
-  "EventAbilities": "",
-  "RecommendedRank": "Master",
-  "GenderType": "N",
-  "Legendary": true,
-  "GoodStarter": false,
-  "_id": "lugia",
-  "DexCategory": "Pokédex has no data.",
-  "Height": {
-    "Meters": 5.2,
-    "Feet": 17.1
-  },
-  "Weight": {
-    "Kilograms": 216.0,
-    "Pounds": 476.0
-  },
-  "DexDescription": "Known as the Guardian of the Sea, it used to live in the Brass Tower, where Pokémon awoke. Lugia's myth is linked to the idea that those whose death was pure will be reborn in the sea.",
-  "Evolutions": [],
-  "Image": "lugia.png",
-  "Moves": [
-    {
-      "Learned": "Master",
-      "Name": "Gust"
+    "Number": 249,
+    "DexID": "0249",
+    "Name": "Lugia",
+    "Type1": "Flying",
+    "Type2": "Psychic",
+    "BaseHP": 6,
+    "Strength": 5,
+    "MaxStrength": 5,
+    "Dexterity": 6,
+    "MaxDexterity": 6,
+    "Vitality": 7,
+    "MaxVitality": 7,
+    "Special": 5,
+    "MaxSpecial": 5,
+    "Insight": 8,
+    "MaxInsight": 8,
+    "Ability1": "Pressure",
+    "Ability2": "",
+    "HiddenAbility": "Multiscale",
+    "EventAbilities": "",
+    "RecommendedRank": "Master",
+    "GenderType": "N",
+    "Legendary": true,
+    "GoodStarter": false,
+    "_id": "lugia",
+    "DexCategory": "Pokédex has no data.",
+    "Height": {
+        "Meters": 5.2,
+        "Feet": 17.1
     },
-    {
-      "Learned": "Master",
-      "Name": "Dragon Rush"
+    "Weight": {
+        "Kilograms": 216.0,
+        "Pounds": 476.0
     },
-    {
-      "Learned": "Master",
-      "Name": "Extrasensory"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Rain Dance"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Hydro Pump"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Aeroblast"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Punishment"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Ancient Power"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Safeguard"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Recover"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Future Sight"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Natural Gift"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Calm Mind"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Sky Attack"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Whirlwind"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Weather Ball"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Hurricane"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Twister"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Hidden Power"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Defog"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Strength"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Dive"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Mist"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Surf"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Jet Strike"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Rainbow Beam"
-    }
-  ]
+    "DexDescription": "Known as the Guardian of the Sea, it used to live in the Brass Tower, where Pokémon awoke. Lugia's myth is linked to the idea that those whose death was pure will be reborn in the sea.",
+    "Evolutions": [],
+    "Image": "lugia.png",
+    "Moves": [
+        {
+            "Learned": "Starter",
+            "Name": "Gust"
+        },
+        {
+            "Learned": "Starter",
+            "Name": "Ancient Power"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Whirlwind"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Jet Strike"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Rainbow Beam"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Natural Gift"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Mist"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Extrasensory"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Rain Dance"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Safeguard"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Recover"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Calm Mind"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Weather Ball"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Hidden Power"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Defog"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Strength"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Dive"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Surf"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Dragon Rush"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Hydro Pump"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Punishment"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Future Sight"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Sky Attack"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Hurricane"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Twister"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Aeroblast"
+        }
+    ]
 }

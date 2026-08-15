@@ -1,150 +1,146 @@
 {
-  "Number": 382,
-  "DexID": "0382",
-  "Name": "Kyogre",
-  "Type1": "Water",
-  "Type2": "",
-  "BaseHP": 6,
-  "Strength": 6,
-  "MaxStrength": 6,
-  "Dexterity": 5,
-  "MaxDexterity": 5,
-  "Vitality": 5,
-  "MaxVitality": 5,
-  "Special": 8,
-  "MaxSpecial": 8,
-  "Insight": 7,
-  "MaxInsight": 7,
-  "Ability1": "Drizzle",
-  "Ability2": "",
-  "HiddenAbility": "",
-  "EventAbilities": "",
-  "RecommendedRank": "Master",
-  "GenderType": "N",
-  "Legendary": true,
-  "GoodStarter": false,
-  "_id": "kyogre",
-  "DexCategory": "Pokédex has no data.",
-  "Height": {
-    "Meters": 4.5,
-    "Feet": 14.8
-  },
-  "Weight": {
-    "Kilograms": 1000,
-    "Pounds": 2204
-  },
-  "DexDescription": "Kyogre is named in mythology as the god who expanded the seas and oceans with torrential waters and huge tidal waves. It is the mortal enemy of Groudon.",
-  "Evolutions": [
-    {
-      "To": "Kyogre (Primal Form)",
-      "Kind": "Form"
-    }
-  ],
-  "Image": "kyogre.png",
-  "Moves": [
-    {
-      "Learned": "Master",
-      "Name": "Ancient Power"
+    "Number": 382,
+    "DexID": "0382",
+    "Name": "Kyogre",
+    "Type1": "Water",
+    "Type2": "",
+    "BaseHP": 6,
+    "Strength": 6,
+    "MaxStrength": 6,
+    "Dexterity": 5,
+    "MaxDexterity": 5,
+    "Vitality": 5,
+    "MaxVitality": 5,
+    "Special": 8,
+    "MaxSpecial": 8,
+    "Insight": 7,
+    "MaxInsight": 7,
+    "Ability1": "Drizzle",
+    "Ability2": "",
+    "HiddenAbility": "",
+    "EventAbilities": "",
+    "RecommendedRank": "Master",
+    "GenderType": "N",
+    "Legendary": true,
+    "GoodStarter": false,
+    "_id": "kyogre",
+    "DexCategory": "Pokédex has no data.",
+    "Height": {
+        "Meters": 4.5,
+        "Feet": 14.8
     },
-    {
-      "Learned": "Master",
-      "Name": "Water Pulse"
+    "Weight": {
+        "Kilograms": 1000,
+        "Pounds": 2204
     },
-    {
-      "Learned": "Master",
-      "Name": "Scary Face"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Aqua Tail"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Ice Beam"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Origin Pulse"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Calm Mind"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Muddy Water"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Sheer Cold"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Hydro Pump"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Double-Edge"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Water Spout"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Strength"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Dive"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Whirlpool"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Blizzard"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Psych Up"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Mist"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Defog"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Telekinesis"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Blizzard"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Drain Punch"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Snatch"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Gaia Force"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Aqua Fang"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Aqua Surge"
-    }
-  ]
+    "DexDescription": "Kyogre is named in mythology as the god who expanded the seas and oceans with torrential waters and huge tidal waves. It is the mortal enemy of Groudon.",
+    "Evolutions": [
+        {
+            "To": "Kyogre (Primal Form)",
+            "Kind": "Form"
+        }
+    ],
+    "Image": "kyogre.png",
+    "Moves": [
+        {
+            "Learned": "Starter",
+            "Name": "Ancient Power"
+        },
+        {
+            "Learned": "Starter",
+            "Name": "Water Pulse"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Scary Face"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Mist"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Aqua Tail"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Ice Beam"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Calm Mind"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Strength"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Dive"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Whirlpool"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Psych Up"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Defog"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Telekinesis"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Aqua Fang"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Muddy Water"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Sheer Cold"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Hydro Pump"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Double-Edge"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Water Spout"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Blizzard"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Snatch"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Gaia Force"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Aqua Surge"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Drain Punch"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Origin Pulse"
+        }
+    ]
 }

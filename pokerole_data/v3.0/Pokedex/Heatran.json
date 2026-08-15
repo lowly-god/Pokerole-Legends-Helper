@@ -1,125 +1,125 @@
 {
-  "Number": 485,
-  "DexID": "0485",
-  "Name": "Heatran",
-  "Type1": "Fire",
-  "Type2": "Steel",
-  "BaseHP": 5,
-  "Strength": 5,
-  "MaxStrength": 5,
-  "Dexterity": 5,
-  "MaxDexterity": 5,
-  "Vitality": 6,
-  "MaxVitality": 6,
-  "Special": 7,
-  "MaxSpecial": 7,
-  "Insight": 6,
-  "MaxInsight": 6,
-  "Ability1": "Flash Fire",
-  "Ability2": "",
-  "HiddenAbility": "Flame Body",
-  "EventAbilities": "",
-  "RecommendedRank": "Ace",
-  "GenderType": "",
-  "Legendary": true,
-  "GoodStarter": false,
-  "_id": "heatran",
-  "DexCategory": "Pokédex has no data.",
-  "Height": {
-    "Meters": 1.7,
-    "Feet": 5.6
-  },
-  "Weight": {
-    "Kilograms": 430.0,
-    "Pounds": 948.0
-  },
-  "DexDescription": "An old painting showed a similar Pokémon standing atop an erupting volcano.",
-  "Evolutions": [],
-  "Image": "heatran.png",
-  "Moves": [
-    {
-      "Learned": "Ace",
-      "Name": "Fire Spin"
+    "Number": 485,
+    "DexID": "0485",
+    "Name": "Heatran",
+    "Type1": "Fire",
+    "Type2": "Steel",
+    "BaseHP": 5,
+    "Strength": 5,
+    "MaxStrength": 5,
+    "Dexterity": 5,
+    "MaxDexterity": 5,
+    "Vitality": 6,
+    "MaxVitality": 6,
+    "Special": 7,
+    "MaxSpecial": 7,
+    "Insight": 6,
+    "MaxInsight": 6,
+    "Ability1": "Flash Fire",
+    "Ability2": "",
+    "HiddenAbility": "Flame Body",
+    "EventAbilities": "",
+    "RecommendedRank": "Ace",
+    "GenderType": "",
+    "Legendary": true,
+    "GoodStarter": false,
+    "_id": "heatran",
+    "DexCategory": "Pokédex has no data.",
+    "Height": {
+        "Meters": 1.7,
+        "Feet": 5.6
     },
-    {
-      "Learned": "Ace",
-      "Name": "Leer"
+    "Weight": {
+        "Kilograms": 430.0,
+        "Pounds": 948.0
     },
-    {
-      "Learned": "Ace",
-      "Name": "Metal Claw"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Ancient Power"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Fire Fang"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Scary Face"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Iron Head"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Crunch"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Lava Plume"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Metal Sound"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Earth Power"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Heat Wave"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Stone Edge"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Magma Storm"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Sunny Day"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Iron Defense"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Dragon Pulse"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Stomping Tantrum"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Cauterize"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Magma Drift"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Uncontrolled Burn Off"
-    }
-  ]
+    "DexDescription": "An old painting showed a similar Pokémon standing atop an erupting volcano.",
+    "Evolutions": [],
+    "Image": "heatran.png",
+    "Moves": [
+        {
+            "Learned": "Starter",
+            "Name": "Leer"
+        },
+        {
+            "Learned": "Starter",
+            "Name": "Fire Spin"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Metal Claw"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Ancient Power"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Scary Face"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Cauterize"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Fire Fang"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Metal Sound"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Iron Head"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Crunch"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Lava Plume"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Earth Power"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Magma Storm"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Sunny Day"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Iron Defense"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Uncontrolled Burn Off"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Stone Edge"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Dragon Pulse"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Stomping Tantrum"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Magma Drift"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Heat Wave"
+        }
+    ]
 }

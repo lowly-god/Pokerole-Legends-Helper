@@ -43,71 +43,71 @@
     "Image": "thundurus-therian-form.png",
     "Moves": [
         {
-            "Learned": "Ace",
+            "Learned": "Starter",
             "Name": "Astonish"
         },
         {
-            "Learned": "Ace",
-            "Name": "Thunder Shock"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Starter",
             "Name": "Leer"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Rookie",
+            "Name": "Thunder Shock"
+        },
+        {
+            "Learned": "Rookie",
             "Name": "Bite"
         },
         {
-            "Learned": "Ace",
-            "Name": "Volt Switch"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Uproar"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Agility"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Standard",
             "Name": "Charge"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Standard",
+            "Name": "Uproar"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Agility"
+        },
+        {
+            "Learned": "Standard",
             "Name": "Revenge"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Standard",
             "Name": "Swagger"
         },
         {
-            "Learned": "Ace",
-            "Name": "Heal Block"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Standard",
             "Name": "Crunch"
         },
         {
-            "Learned": "Ace",
-            "Name": "Discharge"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Dark Pulse"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Electric Terrain"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Ion Deluge"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Advanced",
+            "Name": "Volt Switch"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Heal Block"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Discharge"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Dark Pulse"
+        },
+        {
+            "Learned": "Expert",
             "Name": "Nasty Plot"
         },
         {

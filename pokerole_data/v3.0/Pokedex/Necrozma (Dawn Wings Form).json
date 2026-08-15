@@ -43,96 +43,92 @@
     "Image": "necrozma-dawn-wings-form.png",
     "Moves": [
         {
-            "Learned": "Ace",
-            "Name": "Moonlight"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Morning Sun"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Charge Beam"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Gravity"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Metal Claw"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Mirror Shot"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Starter",
             "Name": "Confusion"
         },
         {
-            "Learned": "Ace",
-            "Name": "Stealth Rock"
+            "Learned": "Starter",
+            "Name": "Metal Claw"
         },
         {
-            "Learned": "Ace",
-            "Name": "Slash"
+            "Learned": "Rookie",
+            "Name": "Charge Beam"
         },
         {
-            "Learned": "Ace",
-            "Name": "Psycho Cut"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Stored Power"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Rookie",
             "Name": "Rock Blast"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Standard",
+            "Name": "Mirror Shot"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Stealth Rock"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Slash"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Stored Power"
+        },
+        {
+            "Learned": "Standard",
             "Name": "Iron Defense"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Power Gem"
         },
         {
-            "Learned": "Ace",
-            "Name": "Night Slash"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Shadow Claw"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Wring Out"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Autotomize"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Light Screen"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Reflect"
         },
         {
-            "Learned": "Ace",
-            "Name": "Outrage"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Cosmic Power"
         },
         {
-            "Learned": "Ace",
-            "Name": "Prismatic Laser"
+            "Learned": "Advanced",
+            "Name": "Shadow Claw"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Moonlight"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Morning Sun"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Gravity"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Psycho Cut"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Night Slash"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Wring Out"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Outrage"
         },
         {
             "Learned": "Ace",
@@ -141,6 +137,10 @@
         {
             "Learned": "Ace",
             "Name": "Moongeist Beam"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Prismatic Laser"
         }
     ]
 }

@@ -38,84 +38,88 @@
     "Image": "manaphy.png",
     "Moves": [
         {
-            "Learned": "Ace",
-            "Name": "Tail Glow"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Water Gun"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Starter",
             "Name": "Water Sport"
         },
         {
-            "Learned": "Ace",
-            "Name": "Charm"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Bubble"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Confusion"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Starter",
             "Name": "Supersonic"
         },
         {
-            "Learned": "Ace",
-            "Name": "Whirlpool"
+            "Learned": "Rookie",
+            "Name": "Water Gun"
         },
         {
-            "Learned": "Ace",
-            "Name": "Acid Armor"
+            "Learned": "Rookie",
+            "Name": "Confusion"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Standard",
+            "Name": "Bubble"
+        },
+        {
+            "Learned": "Standard",
             "Name": "Water Pulse"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Standard",
+            "Name": "Icy Wind"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Charm"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Whirlpool"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Acid Armor"
+        },
+        {
+            "Learned": "Advanced",
             "Name": "Aqua Ring"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Zen Headbutt"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Dive"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Bubble Beam"
         },
         {
-            "Learned": "Ace",
-            "Name": "Moonblast"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Take Heart"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Rain Dance"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Expert",
+            "Name": "Energy Ball"
+        },
+        {
+            "Learned": "Expert",
             "Name": "Surf"
         },
         {
-            "Learned": "Ace",
-            "Name": "Liquidation"
+            "Learned": "Expert",
+            "Name": "Bounce"
         },
         {
-            "Learned": "Ace",
-            "Name": "Bounce"
+            "Learned": "Expert",
+            "Name": "Moonblast"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Liquidation"
         },
         {
             "Learned": "Ace",
@@ -127,11 +131,7 @@
         },
         {
             "Learned": "Ace",
-            "Name": "Energy Ball"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Icy Wind"
+            "Name": "Tail Glow"
         }
     ]
 }

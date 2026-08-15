@@ -43,75 +43,75 @@
     "Image": "landorus-therian-form.png",
     "Moves": [
         {
-            "Learned": "Ace",
-            "Name": "Sand Tomb"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Rock Throw"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Starter",
             "Name": "Leer"
         },
         {
-            "Learned": "Ace",
-            "Name": "Block"
+            "Learned": "Starter",
+            "Name": "Sand Tomb"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Rookie",
+            "Name": "Rock Throw"
+        },
+        {
+            "Learned": "Rookie",
             "Name": "Bulldoze"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Standard",
             "Name": "Rock Tomb"
         },
         {
-            "Learned": "Ace",
-            "Name": "Swords Dance"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Imprison"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Rock Slide"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Earth Power"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Punishment"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Standard",
             "Name": "Mud Shot"
         },
         {
-            "Learned": "Ace",
-            "Name": "Rototiller"
+            "Learned": "Standard",
+            "Name": "Block"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Standard",
             "Name": "Dig"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Standard",
+            "Name": "Rock Slide"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Earth Power"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Rototiller"
+        },
+        {
+            "Learned": "Advanced",
             "Name": "Extrasensory"
         },
         {
-            "Learned": "Ace",
-            "Name": "Stone Edge"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Sandstorm"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Advanced",
+            "Name": "Imprison"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Swords Dance"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Punishment"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Stone Edge"
+        },
+        {
+            "Learned": "Expert",
             "Name": "Outrage"
         },
         {

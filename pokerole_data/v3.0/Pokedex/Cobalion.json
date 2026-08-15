@@ -38,72 +38,88 @@
     "Image": "cobalion.png",
     "Moves": [
         {
-            "Learned": "Ace",
-            "Name": "Quick Attack"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Starter",
             "Name": "Leer"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Starter",
+            "Name": "Quick Attack"
+        },
+        {
+            "Learned": "Rookie",
             "Name": "Helping Hand"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Rookie",
             "Name": "Work Up"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Standard",
             "Name": "Metal Claw"
         },
         {
-            "Learned": "Ace",
-            "Name": "Quick Guard"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Standard",
             "Name": "Double Kick"
         },
         {
-            "Learned": "Ace",
-            "Name": "Retaliate"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Standard",
             "Name": "Aerial Ace"
         },
         {
-            "Learned": "Ace",
-            "Name": "Psych Up"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Metal Burst"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Standard",
             "Name": "Take Down"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Standard",
+            "Name": "Quick Guard"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Retaliate"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Psych Up"
+        },
+        {
+            "Learned": "Advanced",
             "Name": "Zen Headbutt"
         },
         {
-            "Learned": "Ace",
-            "Name": "Swords Dance"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Flash Cannon"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Iron Defense"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Advanced",
+            "Name": "Iron Head"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Laser Focus"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Metal Burst"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Swords Dance"
+        },
+        {
+            "Learned": "Expert",
             "Name": "X-Scissor"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Close Combat"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Sacred Sword"
         },
         {
             "Learned": "Ace",
@@ -111,23 +127,7 @@
         },
         {
             "Learned": "Ace",
-            "Name": "Iron Head"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Laser Focus"
-        },
-        {
-            "Learned": "Ace",
             "Name": "Smart Strike"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Close Combat"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Sacred Sword"
         }
     ]
 }

@@ -1,153 +1,153 @@
 {
-  "Number": 797,
-  "DexID": "0797",
-  "Name": "Celesteela",
-  "Type1": "Steel",
-  "Type2": "Flying",
-  "BaseHP": 9,
-  "Strength": 6,
-  "MaxStrength": 6,
-  "Dexterity": 4,
-  "MaxDexterity": 4,
-  "Vitality": 6,
-  "MaxVitality": 6,
-  "Special": 6,
-  "MaxSpecial": 6,
-  "Insight": 6,
-  "MaxInsight": 6,
-  "Ability1": "Beast Boost",
-  "Ability2": "",
-  "HiddenAbility": "Mega Launcher",
-  "EventAbilities": "",
-  "RecommendedRank": "Ace",
-  "GenderType": "N",
-  "Legendary": true,
-  "GoodStarter": false,
-  "_id": "celesteela",
-  "DexCategory": "Aether Foundation Log #019",
-  "Height": {
-    "Meters": 9.2,
-    "Feet": 30.2
-  },
-  "Weight": {
-    "Kilograms": 1000.0,
-    "Pounds": 2204.0
-  },
-  "DexDescription": "Finally some progress from the excavation site. What we thought was a 200 year-old relic turned out to be a creature capable of blasting itself into the air. We managed to restrain it; more research is due.",
-  "Evolutions": [],
-  "Image": "celesteela.png",
-  "Moves": [
-    {
-      "Learned": "Ace",
-      "Name": "Absorb"
+    "Number": 797,
+    "DexID": "0797",
+    "Name": "Celesteela",
+    "Type1": "Steel",
+    "Type2": "Flying",
+    "BaseHP": 9,
+    "Strength": 6,
+    "MaxStrength": 6,
+    "Dexterity": 4,
+    "MaxDexterity": 4,
+    "Vitality": 6,
+    "MaxVitality": 6,
+    "Special": 6,
+    "MaxSpecial": 6,
+    "Insight": 6,
+    "MaxInsight": 6,
+    "Ability1": "Beast Boost",
+    "Ability2": "",
+    "HiddenAbility": "Mega Launcher",
+    "EventAbilities": "",
+    "RecommendedRank": "Ace",
+    "GenderType": "N",
+    "Legendary": true,
+    "GoodStarter": false,
+    "_id": "celesteela",
+    "DexCategory": "Aether Foundation Log #019",
+    "Height": {
+        "Meters": 9.2,
+        "Feet": 30.2
     },
-    {
-      "Learned": "Ace",
-      "Name": "Tackle"
+    "Weight": {
+        "Kilograms": 1000.0,
+        "Pounds": 2204.0
     },
-    {
-      "Learned": "Ace",
-      "Name": "Harden"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Wide Guard"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Mega Drain"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Smack Down"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Ingrain"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Autotomize"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Iron Head"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Flash Cannon"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Giga Drain"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Metal Sound"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Iron Defense"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Seed Bomb"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Leech Seed"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Air Slash"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Flame Charge"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Fly"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Gyro Ball"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Steel Roller"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Smart Strike"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Heavy Slam"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Double-Edge"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Steel Beam"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Skull Bash"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Uproot"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Shield Bash"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Dual Cannon"
-    }
-  ]
+    "DexDescription": "Finally some progress from the excavation site. What we thought was a 200 year-old relic turned out to be a creature capable of blasting itself into the air. We managed to restrain it; more research is due.",
+    "Evolutions": [],
+    "Image": "celesteela.png",
+    "Moves": [
+        {
+            "Learned": "Starter",
+            "Name": "Tackle"
+        },
+        {
+            "Learned": "Starter",
+            "Name": "Harden"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Absorb"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Mega Drain"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Leech Seed"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Flame Charge"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Dual Cannon"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Ingrain"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Metal Sound"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Smack Down"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Autotomize"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Iron Head"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Flash Cannon"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Iron Defense"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Seed Bomb"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Air Slash"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Fly"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Uproot"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Giga Drain"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Gyro Ball"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Heavy Slam"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Double-Edge"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Skull Bash"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Shield Bash"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Wide Guard"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Steel Roller"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Smart Strike"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Steel Beam"
+        }
+    ]
 }

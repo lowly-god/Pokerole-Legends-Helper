@@ -43,71 +43,71 @@
     "Image": "meloetta-pirouette-form.png",
     "Moves": [
         {
-            "Learned": "Ace",
+            "Learned": "Starter",
             "Name": "Rapid Spin"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Starter",
             "Name": "Quick Attack"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Rookie",
             "Name": "Confusion"
         },
         {
-            "Learned": "Ace",
-            "Name": "Sing"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Teeter Dance"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Acrobatics"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Psybeam"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Rookie",
             "Name": "Echoed Voice"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Standard",
+            "Name": "Sing"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Psybeam"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Teeter Dance"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Acrobatics"
+        },
+        {
+            "Learned": "Standard",
             "Name": "U-Turn"
         },
         {
-            "Learned": "Ace",
-            "Name": "Wake-Up Slap"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Standard",
             "Name": "Psychic"
         },
         {
-            "Learned": "Ace",
-            "Name": "Hyper Voice"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Role Play"
         },
         {
-            "Learned": "Ace",
-            "Name": "Close Combat"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Captivate"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Revelation Dance"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Advanced",
+            "Name": "Wake-Up Slap"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Hyper Voice"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Close Combat"
+        },
+        {
+            "Learned": "Expert",
             "Name": "Perish Song"
         },
         {

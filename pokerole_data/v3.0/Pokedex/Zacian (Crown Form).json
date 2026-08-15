@@ -43,79 +43,79 @@
     "Image": "zacian-crown-form.png",
     "Moves": [
         {
-            "Learned": "Master",
-            "Name": "Sacred Sword"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Quick Guard"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Metal Claw"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Howl"
-        },
-        {
-            "Learned": "Master",
+            "Learned": "Starter",
             "Name": "Quick Attack"
         },
         {
-            "Learned": "Master",
+            "Learned": "Starter",
+            "Name": "Howl"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Metal Claw"
+        },
+        {
+            "Learned": "Rookie",
             "Name": "Bite"
         },
         {
-            "Learned": "Master",
+            "Learned": "Standard",
+            "Name": "Quick Guard"
+        },
+        {
+            "Learned": "Standard",
             "Name": "Slash"
         },
         {
-            "Learned": "Master",
-            "Name": "Swords Dance"
-        },
-        {
-            "Learned": "Master",
+            "Learned": "Standard",
             "Name": "Iron Head"
         },
         {
-            "Learned": "Master",
+            "Learned": "Standard",
             "Name": "Laser Focus"
         },
         {
-            "Learned": "Master",
+            "Learned": "Standard",
             "Name": "Crunch"
         },
         {
-            "Learned": "Master",
-            "Name": "Moonblast"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Close Combat"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Giga Impact"
-        },
-        {
-            "Learned": "Master",
+            "Learned": "Advanced",
             "Name": "Air Slash"
         },
         {
-            "Learned": "Master",
+            "Learned": "Advanced",
+            "Name": "Sacred Sword"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Swords Dance"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Moonblast"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Close Combat"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Giga Impact"
+        },
+        {
+            "Learned": "Expert",
             "Name": "Psycho Cut"
         },
         {
-            "Learned": "Master",
+            "Learned": "Ace",
             "Name": "Solar Blade"
         },
         {
-            "Learned": "Master",
+            "Learned": "Ace",
             "Name": "Steel Beam"
         },
         {
-            "Learned": "Master",
+            "Learned": "Ace",
             "Name": "Behemoth Blade"
         }
     ]

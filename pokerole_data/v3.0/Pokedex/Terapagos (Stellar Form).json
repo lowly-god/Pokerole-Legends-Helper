@@ -43,103 +43,103 @@
     "Image": "terapagos-stellar-form.png",
     "Moves": [
         {
-            "Learned": "Master",
+            "Learned": "Starter",
             "Name": "Withdraw"
         },
         {
-            "Learned": "Master",
+            "Learned": "Starter",
             "Name": "Rapid Spin"
         },
         {
-            "Learned": "Master",
+            "Learned": "Rookie",
             "Name": "Headbutt"
         },
         {
-            "Learned": "Master",
+            "Learned": "Rookie",
             "Name": "Ancient Power"
         },
         {
-            "Learned": "Master",
-            "Name": "Tri Attack"
-        },
-        {
-            "Learned": "Master",
+            "Learned": "Standard",
             "Name": "Protect"
         },
         {
-            "Learned": "Master",
+            "Learned": "Standard",
+            "Name": "Tri Attack"
+        },
+        {
+            "Learned": "Standard",
             "Name": "Sunny Day"
         },
         {
-            "Learned": "Master",
+            "Learned": "Standard",
             "Name": "Rain Dance"
         },
         {
-            "Learned": "Master",
-            "Name": "Dazzling Gleam"
-        },
-        {
-            "Learned": "Master",
+            "Learned": "Standard",
             "Name": "Flash Cannon"
         },
         {
-            "Learned": "Master",
-            "Name": "Scorching Sands"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Heavy Slam"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Gyro Ball"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Double-Edge"
-        },
-        {
-            "Learned": "Master",
+            "Learned": "Advanced",
             "Name": "Rock Polish"
         },
         {
-            "Learned": "Master",
-            "Name": "Tera Blast"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Meteor Beam"
-        },
-        {
-            "Learned": "Master",
+            "Learned": "Advanced",
             "Name": "Ice Beam"
         },
         {
-            "Learned": "Master",
-            "Name": "Thunder"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Solar Beam"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Flare Blitz"
-        },
-        {
-            "Learned": "Master",
+            "Learned": "Advanced",
             "Name": "Surf"
         },
         {
-            "Learned": "Master",
-            "Name": "Endure"
+            "Learned": "Advanced",
+            "Name": "Gyro Ball"
         },
         {
-            "Learned": "Master",
+            "Learned": "Advanced",
+            "Name": "Dazzling Gleam"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Heavy Slam"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Double-Edge"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Tera Blast"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Thunder"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Solar Beam"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Flare Blitz"
+        },
+        {
+            "Learned": "Expert",
             "Name": "Hyper Beam"
         },
         {
-            "Learned": "Master",
+            "Learned": "Expert",
+            "Name": "Endure"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Scorching Sands"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Meteor Beam"
+        },
+        {
+            "Learned": "Ace",
             "Name": "Tera Starstorm"
         }
     ]

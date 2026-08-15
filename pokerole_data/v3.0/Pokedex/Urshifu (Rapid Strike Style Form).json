@@ -1,140 +1,140 @@
 {
-  "Number": 892,
-  "DexID": "0892F2",
-  "Name": "Urshifu (Rapid Strike Style Form)",
-  "Type1": "Fighting",
-  "Type2": "Water",
-  "BaseHP": 6,
-  "Strength": 7,
-  "MaxStrength": 7,
-  "Dexterity": 6,
-  "MaxDexterity": 6,
-  "Vitality": 6,
-  "MaxVitality": 6,
-  "Special": 4,
-  "MaxSpecial": 4,
-  "Insight": 4,
-  "MaxInsight": 4,
-  "Ability1": "Unseen Fist",
-  "Ability2": "",
-  "HiddenAbility": "",
-  "EventAbilities": "",
-  "RecommendedRank": "Ace",
-  "GenderType": "",
-  "Legendary": true,
-  "GoodStarter": false,
-  "_id": "urshifu-rapid-strike-style-form",
-  "DexCategory": "Wushu Pokémon",
-  "Height": {
-    "Meters": 1.9,
-    "Feet": 6.3
-  },
-  "Weight": {
-    "Kilograms": 105.0,
-    "Pounds": 231.0
-  },
-  "DexDescription": "This Pokémon passed through a series of trials inside a temple of water. Its style focuses on a series of rapid stikes to steadily weaken its foes. It's a firm believer in using its opponent's strength against it.",
-  "Evolutions": [
-    {
-      "From": "Kubfu",
-      "Kind": "Special",
-      "Special": "Finishing Trials of Water"
+    "Number": 892,
+    "DexID": "0892F2",
+    "Name": "Urshifu (Rapid Strike Style Form)",
+    "Type1": "Fighting",
+    "Type2": "Water",
+    "BaseHP": 6,
+    "Strength": 7,
+    "MaxStrength": 7,
+    "Dexterity": 6,
+    "MaxDexterity": 6,
+    "Vitality": 6,
+    "MaxVitality": 6,
+    "Special": 4,
+    "MaxSpecial": 4,
+    "Insight": 4,
+    "MaxInsight": 4,
+    "Ability1": "Unseen Fist",
+    "Ability2": "",
+    "HiddenAbility": "",
+    "EventAbilities": "",
+    "RecommendedRank": "Ace",
+    "GenderType": "",
+    "Legendary": true,
+    "GoodStarter": false,
+    "_id": "urshifu-rapid-strike-style-form",
+    "DexCategory": "Wushu Pokémon",
+    "Height": {
+        "Meters": 1.9,
+        "Feet": 6.3
     },
-    {
-      "From": "Kubfu",
-      "Kind": "Item",
-      "Item": "Scroll of Waters"
-    }
-  ],
-  "Image": "urshifu-rapid-strike-style-form.png",
-  "Moves": [
-    {
-      "Learned": "Ace",
-      "Name": "Surging Strikes"
+    "Weight": {
+        "Kilograms": 105.0,
+        "Pounds": 231.0
     },
-    {
-      "Learned": "Ace",
-      "Name": "Aqua Jet"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Rock Smash"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Leer"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Endure"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Focus Energy"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Aerial Ace"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Scary Face"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Headbutt"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Brick Break"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Detect"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Bulk Up"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Iron Head"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Dynamic Punch"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Counter"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Close Combat"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Focus Punch"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Waterfall"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Ice Punch"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Acrobatics"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Cheap Shot"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Shadow Tide"
-    }
-  ]
+    "DexDescription": "This Pokémon passed through a series of trials inside a temple of water. Its style focuses on a series of rapid stikes to steadily weaken its foes. It's a firm believer in using its opponent's strength against it.",
+    "Evolutions": [
+        {
+            "From": "Kubfu",
+            "Kind": "Special",
+            "Special": "Finishing Trials of Water"
+        },
+        {
+            "From": "Kubfu",
+            "Kind": "Item",
+            "Item": "Scroll of Waters"
+        }
+    ],
+    "Image": "urshifu-rapid-strike-style-form.png",
+    "Moves": [
+        {
+            "Learned": "Starter",
+            "Name": "Leer"
+        },
+        {
+            "Learned": "Starter",
+            "Name": "Focus Energy"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Rock Smash"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Aqua Jet"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Aerial Ace"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Scary Face"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Headbutt"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Bulk Up"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Detect"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Brick Break"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Iron Head"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Waterfall"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Acrobatics"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Cheap Shot"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Surging Strikes"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Dynamic Punch"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Close Combat"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Focus Punch"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Shadow Tide"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Endure"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Counter"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Ice Punch"
+        }
+    ]
 }

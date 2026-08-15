@@ -1,149 +1,149 @@
 {
-  "Number": 1007,
-  "DexID": "1007",
-  "Name": "Koraidon",
-  "Type1": "Fighting",
-  "Type2": "Dragon",
-  "BaseHP": 6,
-  "Strength": 7,
-  "MaxStrength": 7,
-  "Dexterity": 7,
-  "MaxDexterity": 7,
-  "Vitality": 6,
-  "MaxVitality": 6,
-  "Special": 5,
-  "MaxSpecial": 5,
-  "Insight": 6,
-  "MaxInsight": 6,
-  "Ability1": "Orichalcum Pulse",
-  "Ability2": "",
-  "HiddenAbility": "",
-  "EventAbilities": "",
-  "RecommendedRank": "Ace",
-  "GenderType": "N",
-  "Legendary": true,
-  "GoodStarter": false,
-  "_id": "koraidon",
-  "DexCategory": "Paradox Pokémon",
-  "Height": {
-    "Meters": 2.5,
-    "Feet": 8.2
-  },
-  "Weight": {
-    "Kilograms": 303.0,
-    "Pounds": 669.0
-  },
-  "DexDescription": "Old fossils suggest that millions of years ago, Cyclizar may have been feathered creatures and larger in size. But as time went on, the need for these features disappeared.",
-  "Evolutions": [],
-  "Image": "koraidon.png",
-  "Moves": [
-    {
-      "Learned": "Ace",
-      "Name": "Sunny Day"
+    "Number": 1007,
+    "DexID": "1007",
+    "Name": "Koraidon",
+    "Type1": "Fighting",
+    "Type2": "Dragon",
+    "BaseHP": 6,
+    "Strength": 7,
+    "MaxStrength": 7,
+    "Dexterity": 7,
+    "MaxDexterity": 7,
+    "Vitality": 6,
+    "MaxVitality": 6,
+    "Special": 5,
+    "MaxSpecial": 5,
+    "Insight": 6,
+    "MaxInsight": 6,
+    "Ability1": "Orichalcum Pulse",
+    "Ability2": "",
+    "HiddenAbility": "",
+    "EventAbilities": "",
+    "RecommendedRank": "Ace",
+    "GenderType": "N",
+    "Legendary": true,
+    "GoodStarter": false,
+    "_id": "koraidon",
+    "DexCategory": "Paradox Pokémon",
+    "Height": {
+        "Meters": 2.5,
+        "Feet": 8.2
     },
-    {
-      "Learned": "Ace",
-      "Name": "Breaking Swipe"
+    "Weight": {
+        "Kilograms": 303.0,
+        "Pounds": 669.0
     },
-    {
-      "Learned": "Ace",
-      "Name": "Rock Smash"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Ancient Power"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Drain Punch"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Brick Break"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Agility"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Dragon Claw"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Flamethrower"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Collision Course"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "U-Turn"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Dragon Tail"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Scary Face"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Swords Dance"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Screech"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Counter"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Outrage"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Close Combat"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Flare Blitz"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Giga Impact"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Wild Charge"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Heavy Slam"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Body Press"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Primal Instinct"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Caustic Breath"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Imperial Majesty"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Velvet Scales"
-    }
-  ]
+    "DexDescription": "Old fossils suggest that millions of years ago, Cyclizar may have been feathered creatures and larger in size. But as time went on, the need for these features disappeared.",
+    "Evolutions": [],
+    "Image": "koraidon.png",
+    "Moves": [
+        {
+            "Learned": "Starter",
+            "Name": "Primal Instinct"
+        },
+        {
+            "Learned": "Starter",
+            "Name": "Rock Smash"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Ancient Power"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Scary Face"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Caustic Breath"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Breaking Swipe"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Sunny Day"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Brick Break"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Agility"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Dragon Claw"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Flamethrower"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "U-Turn"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Dragon Tail"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Screech"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Imperial Majesty"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Swords Dance"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Outrage"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Close Combat"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Flare Blitz"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Giga Impact"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Wild Charge"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Heavy Slam"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Velvet Scales"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Counter"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Drain Punch"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Collision Course"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Body Press"
+        }
+    ]
 }

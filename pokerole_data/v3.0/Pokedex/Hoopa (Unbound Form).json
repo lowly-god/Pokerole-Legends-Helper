@@ -43,99 +43,99 @@
     "Image": "hoopa-unbound-form.png",
     "Moves": [
         {
-            "Learned": "Master",
-            "Name": "Trick"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Destiny Bond"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Ally Switch"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Confusion"
-        },
-        {
-            "Learned": "Master",
+            "Learned": "Starter",
             "Name": "Astonish"
         },
         {
-            "Learned": "Master",
-            "Name": "Magic Coat"
+            "Learned": "Starter",
+            "Name": "Confusion"
         },
         {
-            "Learned": "Master",
-            "Name": "Light Screen"
-        },
-        {
-            "Learned": "Master",
+            "Learned": "Rookie",
             "Name": "Psybeam"
         },
         {
-            "Learned": "Master",
-            "Name": "Skill Swap"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Power Split"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Guard Split"
-        },
-        {
-            "Learned": "Master",
+            "Learned": "Rookie",
             "Name": "Knock Off"
         },
         {
-            "Learned": "Master",
+            "Learned": "Standard",
+            "Name": "Trick"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Ally Switch"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Light Screen"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Skill Swap"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Guard Split"
+        },
+        {
+            "Learned": "Advanced",
             "Name": "Zen Headbutt"
         },
         {
-            "Learned": "Master",
-            "Name": "Wonder Room"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Trick Room"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Dark Pulse"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Nasty Plot"
-        },
-        {
-            "Learned": "Master",
+            "Learned": "Advanced",
             "Name": "Psychic"
         },
         {
-            "Learned": "Master",
-            "Name": "Snatch"
-        },
-        {
-            "Learned": "Master",
+            "Learned": "Advanced",
             "Name": "Telekinesis"
         },
         {
-            "Learned": "Master",
-            "Name": "Magic Room"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Hyper Beam"
-        },
-        {
-            "Learned": "Master",
+            "Learned": "Advanced",
             "Name": "Throat Chop"
         },
         {
-            "Learned": "Master",
+            "Learned": "Advanced",
+            "Name": "Destiny Bond"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Power Split"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Wonder Room"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Dark Pulse"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Nasty Plot"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Snatch"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Magic Room"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Hyper Beam"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Magic Coat"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Trick Room"
+        },
+        {
+            "Learned": "Ace",
             "Name": "Hyperspace Hole"
         }
     ]

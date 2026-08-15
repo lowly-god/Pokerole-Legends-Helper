@@ -1,141 +1,141 @@
 {
-  "Number": 639,
-  "DexID": "0639",
-  "Name": "Terrakion",
-  "Type1": "Rock",
-  "Type2": "Fighting",
-  "BaseHP": 5,
-  "Strength": 7,
-  "MaxStrength": 7,
-  "Dexterity": 6,
-  "MaxDexterity": 6,
-  "Vitality": 5,
-  "MaxVitality": 5,
-  "Special": 5,
-  "MaxSpecial": 5,
-  "Insight": 5,
-  "MaxInsight": 5,
-  "Ability1": "Justified",
-  "Ability2": "",
-  "HiddenAbility": "",
-  "EventAbilities": "",
-  "RecommendedRank": "Ace",
-  "GenderType": "N",
-  "Legendary": true,
-  "GoodStarter": false,
-  "_id": "terrakion",
-  "DexCategory": "Pokédex has no data",
-  "Height": {
-    "Meters": 1.9,
-    "Feet": 6.3
-  },
-  "Weight": {
-    "Kilograms": 260.0,
-    "Pounds": 573.0
-  },
-  "DexDescription": "Legends in Unova tell about four Pokémon that rebelled against the unfair ruler. One of them trampled through the castle walls, destroying the fortress to free the trapped Pokémon inside.",
-  "Evolutions": [],
-  "Image": "terrakion.png",
-  "Moves": [
-    {
-      "Learned": "Ace",
-      "Name": "Quick Attack"
+    "Number": 639,
+    "DexID": "0639",
+    "Name": "Terrakion",
+    "Type1": "Rock",
+    "Type2": "Fighting",
+    "BaseHP": 5,
+    "Strength": 7,
+    "MaxStrength": 7,
+    "Dexterity": 6,
+    "MaxDexterity": 6,
+    "Vitality": 5,
+    "MaxVitality": 5,
+    "Special": 5,
+    "MaxSpecial": 5,
+    "Insight": 5,
+    "MaxInsight": 5,
+    "Ability1": "Justified",
+    "Ability2": "",
+    "HiddenAbility": "",
+    "EventAbilities": "",
+    "RecommendedRank": "Ace",
+    "GenderType": "N",
+    "Legendary": true,
+    "GoodStarter": false,
+    "_id": "terrakion",
+    "DexCategory": "Pokédex has no data",
+    "Height": {
+        "Meters": 1.9,
+        "Feet": 6.3
     },
-    {
-      "Learned": "Ace",
-      "Name": "Leer"
+    "Weight": {
+        "Kilograms": 260.0,
+        "Pounds": 573.0
     },
-    {
-      "Learned": "Ace",
-      "Name": "Helping Hand"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Work Up"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Smack Down"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Quick Guard"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Double Kick"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Retaliate"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Swift"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Safeguard"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Rock Slide"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Take Down"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Bulldoze"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Swords Dance"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Megahorn"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Scary Face"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Stomping Tantrum"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Superpower"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Stone Edge"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Rock Polish"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Giga Impact"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Close Combat"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Sacred Sword"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Asteroid Shot"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Lapidify"
-    }
-  ]
+    "DexDescription": "Legends in Unova tell about four Pokémon that rebelled against the unfair ruler. One of them trampled through the castle walls, destroying the fortress to free the trapped Pokémon inside.",
+    "Evolutions": [],
+    "Image": "terrakion.png",
+    "Moves": [
+        {
+            "Learned": "Starter",
+            "Name": "Leer"
+        },
+        {
+            "Learned": "Starter",
+            "Name": "Quick Attack"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Helping Hand"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Work Up"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Double Kick"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Take Down"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Bulldoze"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Scary Face"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Asteroid Shot"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Smack Down"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Quick Guard"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Retaliate"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Swift"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Safeguard"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Rock Slide"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Rock Polish"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Lapidify"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Swords Dance"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Megahorn"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Stomping Tantrum"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Superpower"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Stone Edge"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Giga Impact"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Close Combat"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Sacred Sword"
+        }
+    ]
 }

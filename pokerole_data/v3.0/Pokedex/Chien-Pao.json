@@ -1,149 +1,149 @@
 {
-  "Number": 1002,
-  "DexID": "1002",
-  "Name": "Chien-Pao",
-  "Type1": "Dark",
-  "Type2": "Ice",
-  "BaseHP": 5,
-  "Strength": 6,
-  "MaxStrength": 6,
-  "Dexterity": 7,
-  "MaxDexterity": 7,
-  "Vitality": 5,
-  "MaxVitality": 5,
-  "Special": 5,
-  "MaxSpecial": 5,
-  "Insight": 4,
-  "MaxInsight": 4,
-  "Ability1": "Sword of Ruin",
-  "Ability2": "",
-  "HiddenAbility": "",
-  "EventAbilities": "",
-  "RecommendedRank": "Ace",
-  "GenderType": "N",
-  "Legendary": true,
-  "GoodStarter": false,
-  "_id": "chien-pao",
-  "DexCategory": "Ruinous Pokémon",
-  "Height": {
-    "Meters": 1.9,
-    "Feet": 6.3
-  },
-  "Weight": {
-    "Kilograms": 152.0,
-    "Pounds": 335.0
-  },
-  "DexDescription": "A broken sword turned into a living entity from the intense hatred of all the victims it struck down. It has gained a snowy form and contently leaps around in frigid areas, causing devastating avalanches wherever it goes.",
-  "Evolutions": [],
-  "Image": "chien-pao.png",
-  "Moves": [
-    {
-      "Learned": "Ace",
-      "Name": "Powder Snow"
+    "Number": 1002,
+    "DexID": "1002",
+    "Name": "Chien-Pao",
+    "Type1": "Dark",
+    "Type2": "Ice",
+    "BaseHP": 5,
+    "Strength": 6,
+    "MaxStrength": 6,
+    "Dexterity": 7,
+    "MaxDexterity": 7,
+    "Vitality": 5,
+    "MaxVitality": 5,
+    "Special": 5,
+    "MaxSpecial": 5,
+    "Insight": 4,
+    "MaxInsight": 4,
+    "Ability1": "Sword of Ruin",
+    "Ability2": "",
+    "HiddenAbility": "",
+    "EventAbilities": "",
+    "RecommendedRank": "Ace",
+    "GenderType": "N",
+    "Legendary": true,
+    "GoodStarter": false,
+    "_id": "chien-pao",
+    "DexCategory": "Ruinous Pokémon",
+    "Height": {
+        "Meters": 1.9,
+        "Feet": 6.3
     },
-    {
-      "Learned": "Ace",
-      "Name": "Spite"
+    "Weight": {
+        "Kilograms": 152.0,
+        "Pounds": 335.0
     },
-    {
-      "Learned": "Ace",
-      "Name": "Mean Look"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Icy Wind"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Payback"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Mist"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Haze"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Ice Shard"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Swords Dance"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Snowscape"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Night Slash"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Dark Pulse"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Icicle Crash"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Ruination"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Sucker Punch"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Scary Face"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Recover"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Sacred Sword"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Psychic Fangs"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Throat Chop"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Sheer Cold"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Giga Impact"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Taunt"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Ice Spinner"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Shadow Tide"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Absolute Zero"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Snowy Terrain"
-    }
-  ]
+    "DexDescription": "A broken sword turned into a living entity from the intense hatred of all the victims it struck down. It has gained a snowy form and contently leaps around in frigid areas, causing devastating avalanches wherever it goes.",
+    "Evolutions": [],
+    "Image": "chien-pao.png",
+    "Moves": [
+        {
+            "Learned": "Starter",
+            "Name": "Powder Snow"
+        },
+        {
+            "Learned": "Starter",
+            "Name": "Mean Look"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Icy Wind"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Ice Shard"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Scary Face"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Absolute Zero"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Haze"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Mist"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Taunt"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Payback"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Sucker Punch"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Recover"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Snowy Terrain"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Throat Chop"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Snowscape"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Swords Dance"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Night Slash"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Dark Pulse"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Icicle Crash"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Sacred Sword"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Sheer Cold"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Giga Impact"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Shadow Tide"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Spite"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Psychic Fangs"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Ice Spinner"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Ruination"
+        }
+    ]
 }

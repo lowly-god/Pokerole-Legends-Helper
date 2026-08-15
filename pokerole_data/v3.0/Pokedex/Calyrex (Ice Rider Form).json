@@ -44,112 +44,112 @@
     "Image": "calyrex-ice-rider-form.png",
     "Moves": [
         {
-            "Learned": "Master",
-            "Name": "Glacial Lance"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Double Kick"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Avalanche"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Mist"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Torment"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Iron Defense"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Icicle Crash"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Taunt"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Thrash"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Swords Dance"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Double-Edge"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Mega Drain"
-        },
-        {
-            "Learned": "Master",
+            "Learned": "Starter",
             "Name": "Confusion"
         },
         {
-            "Learned": "Master",
+            "Learned": "Starter",
             "Name": "Growth"
         },
         {
-            "Learned": "Master",
-            "Name": "Life Dew"
+            "Learned": "Rookie",
+            "Name": "Double Kick"
         },
         {
-            "Learned": "Master",
-            "Name": "Giga Drain"
+            "Learned": "Rookie",
+            "Name": "Mega Drain"
         },
         {
-            "Learned": "Master",
-            "Name": "Psyshock"
-        },
-        {
-            "Learned": "Master",
+            "Learned": "Standard",
             "Name": "Helping Hand"
         },
         {
-            "Learned": "Master",
-            "Name": "Aromatherapy"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Energy Ball"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Psychic"
-        },
-        {
-            "Learned": "Master",
+            "Learned": "Standard",
             "Name": "Leech Seed"
         },
         {
-            "Learned": "Master",
+            "Learned": "Standard",
+            "Name": "Avalanche"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Life Dew"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Mist"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Taunt"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Iron Defense"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Psyshock"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Aromatherapy"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Energy Ball"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Psychic"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Hail"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Giga Drain"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Torment"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Icicle Crash"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Thrash"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Swords Dance"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Double-Edge"
+        },
+        {
+            "Learned": "Expert",
             "Name": "Heal Pulse"
         },
         {
-            "Learned": "Master",
+            "Learned": "Expert",
             "Name": "Solar Beam"
         },
         {
-            "Learned": "Master",
+            "Learned": "Ace",
             "Name": "Future Sight"
         },
         {
-            "Learned": "Master",
+            "Learned": "Ace",
             "Name": "Expanding Force"
         },
         {
-            "Learned": "Master",
-            "Name": "Hail"
+            "Learned": "Ace",
+            "Name": "Glacial Lance"
         }
     ]
 }

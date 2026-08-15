@@ -1,138 +1,138 @@
 {
-  "Number": 890,
-  "DexID": "0890F1",
-  "Name": "Eternatus (Eternamax Form)",
-  "Type1": "Poison",
-  "Type2": "Dragon",
-  "BaseHP": 10,
-  "Strength": 6,
-  "MaxStrength": 6,
-  "Dexterity": 7,
-  "MaxDexterity": 7,
-  "Vitality": 10,
-  "MaxVitality": 10,
-  "Special": 7,
-  "MaxSpecial": 7,
-  "Insight": 10,
-  "MaxInsight": 10,
-  "Ability1": "Pressure",
-  "Ability2": "",
-  "HiddenAbility": "",
-  "EventAbilities": "",
-  "RecommendedRank": "Champion",
-  "GenderType": "N",
-  "Legendary": true,
-  "GoodStarter": false,
-  "_id": "eternatus-eternamax-form",
-  "DexCategory": "Pokédex has no data.",
-  "Height": {
-    "Meters": 1000,
-    "Feet": 3280.8
-  },
-  "Weight": {
-    "Kilograms": 1000,
-    "Pounds": 2204.6
-  },
-  "DexDescription": "Evidence suggests it was not really a meteorite that fell on Galar so long ago, but a Pokémon. What creature could be so massive as to create such destruction upon impact?",
-  "Evolutions": [
-    {
-      "From": "Eternatus",
-      "Kind": "Form"
-    }
-  ],
-  "Image": "eternatus-eternamax-form.png",
-  "Moves": [
-    {
-      "Learned": "Champion",
-      "Name": "Poison Tail"
+    "Number": 890,
+    "DexID": "0890F1",
+    "Name": "Eternatus (Eternamax Form)",
+    "Type1": "Poison",
+    "Type2": "Dragon",
+    "BaseHP": 10,
+    "Strength": 6,
+    "MaxStrength": 6,
+    "Dexterity": 7,
+    "MaxDexterity": 7,
+    "Vitality": 10,
+    "MaxVitality": 10,
+    "Special": 7,
+    "MaxSpecial": 7,
+    "Insight": 10,
+    "MaxInsight": 10,
+    "Ability1": "Pressure",
+    "Ability2": "",
+    "HiddenAbility": "",
+    "EventAbilities": "",
+    "RecommendedRank": "Champion",
+    "GenderType": "N",
+    "Legendary": true,
+    "GoodStarter": false,
+    "_id": "eternatus-eternamax-form",
+    "DexCategory": "Pokédex has no data.",
+    "Height": {
+        "Meters": 1000,
+        "Feet": 3280.8
     },
-    {
-      "Learned": "Champion",
-      "Name": "Confuse Ray"
+    "Weight": {
+        "Kilograms": 1000,
+        "Pounds": 2204.6
     },
-    {
-      "Learned": "Champion",
-      "Name": "Dragon Tail"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Agility"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Toxic"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Venoshock"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Dragon Dance"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Cross Poison"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Dragon Pulse"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Flamethrower"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Dynamax Cannon"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Cosmic Power"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Recover"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Hyper Beam"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Reflect"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Light Screen"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Fly"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Protect"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Brutal Swing"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Eternabeam"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Draco Meteor"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Meteor Beam"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Velvet Scales"
-    }
-  ]
+    "DexDescription": "Evidence suggests it was not really a meteorite that fell on Galar so long ago, but a Pokémon. What creature could be so massive as to create such destruction upon impact?",
+    "Evolutions": [
+        {
+            "From": "Eternatus",
+            "Kind": "Form"
+        }
+    ],
+    "Image": "eternatus-eternamax-form.png",
+    "Moves": [
+        {
+            "Learned": "Starter",
+            "Name": "Poison Tail"
+        },
+        {
+            "Learned": "Starter",
+            "Name": "Confuse Ray"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Venoshock"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Protect"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Brutal Swing"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Dragon Tail"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Agility"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Toxic"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Dragon Dance"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Flamethrower"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Dynamax Cannon"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Cosmic Power"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Recover"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Reflect"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Light Screen"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Fly"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Cross Poison"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Dragon Pulse"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Hyper Beam"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Velvet Scales"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Eternabeam"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Draco Meteor"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Meteor Beam"
+        }
+    ]
 }

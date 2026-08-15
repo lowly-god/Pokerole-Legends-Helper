@@ -43,75 +43,71 @@
     "Image": "tornadus-therian-form.png",
     "Moves": [
         {
-            "Learned": "Ace",
+            "Learned": "Starter",
             "Name": "Astonish"
         },
         {
-            "Learned": "Ace",
-            "Name": "Gust"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Starter",
             "Name": "Leer"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Rookie",
+            "Name": "Gust"
+        },
+        {
+            "Learned": "Rookie",
             "Name": "Bite"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Standard",
             "Name": "Air Cutter"
         },
         {
-            "Learned": "Ace",
-            "Name": "Uproar"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Agility"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Tailwind"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Revenge"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Swagger"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Extrasensory"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Crunch"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Air Slash"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Dark Pulse"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Rain Dance"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Defog"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Standard",
             "Name": "Whirlwind"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Standard",
+            "Name": "Uproar"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Agility"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Revenge"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Swagger"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Extrasensory"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Crunch"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Air Slash"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Rain Dance"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Defog"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Dark Pulse"
+        },
+        {
+            "Learned": "Expert",
             "Name": "Thrash"
         },
         {
@@ -121,6 +117,10 @@
         {
             "Learned": "Ace",
             "Name": "Hurricane"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Tailwind"
         }
     ]
 }

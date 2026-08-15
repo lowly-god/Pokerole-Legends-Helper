@@ -1,139 +1,139 @@
 {
-  "Number": 718,
-  "DexID": "0718F2",
-  "Name": "Zygarde 50%",
-  "Type1": "Dragon",
-  "Type2": "Ground",
-  "BaseHP": 6,
-  "Strength": 6,
-  "MaxStrength": 6,
-  "Dexterity": 6,
-  "MaxDexterity": 6,
-  "Vitality": 7,
-  "MaxVitality": 7,
-  "Special": 5,
-  "MaxSpecial": 5,
-  "Insight": 6,
-  "MaxInsight": 6,
-  "Ability1": "Aura Break",
-  "Ability2": "Power Construct",
-  "HiddenAbility": "",
-  "EventAbilities": "",
-  "RecommendedRank": "Master",
-  "GenderType": "N",
-  "Legendary": true,
-  "GoodStarter": false,
-  "_id": "zygarde-50",
-  "DexCategory": "Pokédex has no data.",
-  "Height": {
-    "Meters": 5.0,
-    "Feet": 16.4
-  },
-  "Weight": {
-    "Kilograms": 305.0,
-    "Pounds": 672.0
-  },
-  "DexDescription": "Underground tunnels have been found all over the Kalos Region. There are rumors of a creature that lives in them that attacks people damaging the ecosystem.",
-  "Evolutions": [
-    {
-      "From": "Zygarde Cell",
-      "Kind": "Special",
-      "Item": "Zygarde cells"
-    }
-  ],
-  "Image": "zygarde-50.png",
-  "Moves": [
-    {
-      "Learned": "Master",
-      "Name": "Thousand Arrows"
+    "Number": 718,
+    "DexID": "0718F2",
+    "Name": "Zygarde 50%",
+    "Type1": "Dragon",
+    "Type2": "Ground",
+    "BaseHP": 6,
+    "Strength": 6,
+    "MaxStrength": 6,
+    "Dexterity": 6,
+    "MaxDexterity": 6,
+    "Vitality": 7,
+    "MaxVitality": 7,
+    "Special": 5,
+    "MaxSpecial": 5,
+    "Insight": 6,
+    "MaxInsight": 6,
+    "Ability1": "Aura Break",
+    "Ability2": "Power Construct",
+    "HiddenAbility": "",
+    "EventAbilities": "",
+    "RecommendedRank": "Master",
+    "GenderType": "N",
+    "Legendary": true,
+    "GoodStarter": false,
+    "_id": "zygarde-50",
+    "DexCategory": "Pokédex has no data.",
+    "Height": {
+        "Meters": 5.0,
+        "Feet": 16.4
     },
-    {
-      "Learned": "Master",
-      "Name": "Thousand Waves"
+    "Weight": {
+        "Kilograms": 305.0,
+        "Pounds": 672.0
     },
-    {
-      "Learned": "Master",
-      "Name": "Core Enforcer"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Glare"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Bind"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Bulldoze"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Dragon Breath"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Bite"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Haze"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Dig"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Safeguard"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Crunch"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Dragon Pulse"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Land's Wrath"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Sandstorm"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Coil"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Camouflage"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Dragon Dance"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Stomping Tantrum"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Earthquake"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Extreme Speed"
-    },
-    {
-      "Learned": "Master",
-      "Name": "Outrage"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Velvet Scales"
-    }
-  ]
+    "DexDescription": "Underground tunnels have been found all over the Kalos Region. There are rumors of a creature that lives in them that attacks people damaging the ecosystem.",
+    "Evolutions": [
+        {
+            "From": "Zygarde Cell",
+            "Kind": "Special",
+            "Item": "Zygarde cells"
+        }
+    ],
+    "Image": "zygarde-50.png",
+    "Moves": [
+        {
+            "Learned": "Starter",
+            "Name": "Bind"
+        },
+        {
+            "Learned": "Starter",
+            "Name": "Bulldoze"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Dragon Breath"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Bite"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Haze"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Dig"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Glare"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Safeguard"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Crunch"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Sandstorm"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Coil"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Dragon Dance"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Extreme Speed"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Thousand Waves"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Dragon Pulse"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Stomping Tantrum"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Earthquake"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Outrage"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Velvet Scales"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Camouflage"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Thousand Arrows"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Core Enforcer"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Land's Wrath"
+        }
+    ]
 }

@@ -44,112 +44,112 @@
     "Image": "calyrex-shadow-rider-form.png",
     "Moves": [
         {
-            "Learned": "Master",
-            "Name": "Astral Barrage"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Double Kick"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Hex"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Nasty Plot"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Confuse Ray"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Haze"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Shadow Ball"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Take Down"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Thrash"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Agility"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Double-Edge"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Mega Drain"
-        },
-        {
-            "Learned": "Master",
+            "Learned": "Starter",
             "Name": "Confusion"
         },
         {
-            "Learned": "Master",
+            "Learned": "Starter",
             "Name": "Growth"
         },
         {
-            "Learned": "Master",
-            "Name": "Life Dew"
+            "Learned": "Rookie",
+            "Name": "Double Kick"
         },
         {
-            "Learned": "Master",
-            "Name": "Giga Drain"
+            "Learned": "Rookie",
+            "Name": "Confuse Ray"
         },
         {
-            "Learned": "Master",
-            "Name": "Psyshock"
+            "Learned": "Standard",
+            "Name": "Take Down"
         },
         {
-            "Learned": "Master",
+            "Learned": "Standard",
+            "Name": "Mega Drain"
+        },
+        {
+            "Learned": "Standard",
             "Name": "Helping Hand"
         },
         {
-            "Learned": "Master",
-            "Name": "Aromatherapy"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Energy Ball"
-        },
-        {
-            "Learned": "Master",
-            "Name": "Psychic"
-        },
-        {
-            "Learned": "Master",
+            "Learned": "Standard",
             "Name": "Leech Seed"
         },
         {
-            "Learned": "Master",
+            "Learned": "Standard",
+            "Name": "Haze"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Life Dew"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Hex"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Shadow Ball"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Agility"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Psyshock"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Aromatherapy"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Energy Ball"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Psychic"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Giga Drain"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Nasty Plot"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Thrash"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Double-Edge"
+        },
+        {
+            "Learned": "Expert",
             "Name": "Heal Pulse"
         },
         {
-            "Learned": "Master",
+            "Learned": "Expert",
             "Name": "Solar Beam"
         },
         {
-            "Learned": "Master",
+            "Learned": "Expert",
             "Name": "Future Sight"
         },
         {
-            "Learned": "Master",
+            "Learned": "Ace",
+            "Name": "Phantom Force"
+        },
+        {
+            "Learned": "Ace",
             "Name": "Expanding Force"
         },
         {
-            "Learned": "Master",
-            "Name": "Phantom Force"
+            "Learned": "Ace",
+            "Name": "Astral Barrage"
         }
     ]
 }

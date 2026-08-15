@@ -43,32 +43,64 @@
     "Image": "deoxys-attack-form.png",
     "Moves": [
         {
-            "Learned": "Ace",
+            "Learned": "Starter",
             "Name": "Leer"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Starter",
             "Name": "Wrap"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Rookie",
+            "Name": "Bind"
+        },
+        {
+            "Learned": "Rookie",
             "Name": "Night Shade"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Standard",
             "Name": "Teleport"
         },
         {
-            "Learned": "Ace",
-            "Name": "Knock Off"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Standard",
             "Name": "Pursuit"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Standard",
+            "Name": "Knock Off"
+        },
+        {
+            "Learned": "Standard",
             "Name": "Psychic"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Psycho Shift"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Zen Headbutt"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Cosmic Power"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Recover"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Toxic"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Laser Focus"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Signal Beam"
         },
         {
             "Learned": "Ace",
@@ -76,43 +108,11 @@
         },
         {
             "Learned": "Ace",
-            "Name": "Psycho Shift"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Zen Headbutt"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Cosmic Power"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Recover"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Psycho Boost"
-        },
-        {
-            "Learned": "Ace",
             "Name": "Hyper Beam"
         },
         {
             "Learned": "Ace",
-            "Name": "Toxic"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Laser Focus"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Bind"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Signal Beam"
+            "Name": "Psycho Boost"
         }
     ]
 }

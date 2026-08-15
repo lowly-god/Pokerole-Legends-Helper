@@ -1,174 +1,174 @@
 {
-  "Number": 487,
-  "DexID": "0487",
-  "Name": "Giratina",
-  "Type1": "Ghost",
-  "Type2": "Dragon",
-  "BaseHP": 8,
-  "Strength": 6,
-  "MaxStrength": 6,
-  "Dexterity": 5,
-  "MaxDexterity": 5,
-  "Vitality": 7,
-  "MaxVitality": 7,
-  "Special": 6,
-  "MaxSpecial": 6,
-  "Insight": 7,
-  "MaxInsight": 7,
-  "Ability1": "Pressure",
-  "Ability2": "",
-  "HiddenAbility": "Telepathy",
-  "EventAbilities": "",
-  "RecommendedRank": "Champion",
-  "GenderType": "N",
-  "Legendary": true,
-  "GoodStarter": false,
-  "_id": "giratina",
-  "DexCategory": "Pokédex has no data.",
-  "Height": {
-    "Meters": 4.5,
-    "Feet": 14.8
-  },
-  "Weight": {
-    "Kilograms": 750.0,
-    "Pounds": 1653.0
-  },
-  "DexDescription": "Religious stories talk about a fallen one: the Firstborn who desired Arceus' power for itself and ended up banished into a dimension of horrors... waiting to be freed.",
-  "Evolutions": [
-    {
-      "To": "Giratina (Origin Form)",
-      "Kind": "Form"
-    }
-  ],
-  "Image": "giratina.png",
-  "Moves": [
-    {
-      "Learned": "Champion",
-      "Name": "Dragon Breath"
+    "Number": 487,
+    "DexID": "0487",
+    "Name": "Giratina",
+    "Type1": "Ghost",
+    "Type2": "Dragon",
+    "BaseHP": 8,
+    "Strength": 6,
+    "MaxStrength": 6,
+    "Dexterity": 5,
+    "MaxDexterity": 5,
+    "Vitality": 7,
+    "MaxVitality": 7,
+    "Special": 6,
+    "MaxSpecial": 6,
+    "Insight": 7,
+    "MaxInsight": 7,
+    "Ability1": "Pressure",
+    "Ability2": "",
+    "HiddenAbility": "Telepathy",
+    "EventAbilities": "",
+    "RecommendedRank": "Champion",
+    "GenderType": "N",
+    "Legendary": true,
+    "GoodStarter": false,
+    "_id": "giratina",
+    "DexCategory": "Pokédex has no data.",
+    "Height": {
+        "Meters": 4.5,
+        "Feet": 14.8
     },
-    {
-      "Learned": "Champion",
-      "Name": "Scary Face"
+    "Weight": {
+        "Kilograms": 750.0,
+        "Pounds": 1653.0
     },
-    {
-      "Learned": "Champion",
-      "Name": "Ominous Wind"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Ancient Power"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Slash"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Shadow Sneak"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Shadow Claw"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Dragon Claw"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Destiny Bond"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Aura Sphere"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Earth Power"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Pain Split"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Icy Wind"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Protect"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Trick Room"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Hidden Power"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Spite"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Psych Up"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Dragon Pulse"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Shadow Ball"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Dark Pulse"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Gravity"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Draco Meteor"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Hyper Beam"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Hex"
-    },
-    {
-      "Learned": "Champion",
-      "Name": "Shadow Force"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Shadow Tide"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Velvet Scales"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Edgestitch"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Harrowing Wrath"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Siphon Life-Force"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Terrorize"
-    }
-  ]
+    "DexDescription": "Religious stories talk about a fallen one: the Firstborn who desired Arceus' power for itself and ended up banished into a dimension of horrors... waiting to be freed.",
+    "Evolutions": [
+        {
+            "To": "Giratina (Origin Form)",
+            "Kind": "Form"
+        }
+    ],
+    "Image": "giratina.png",
+    "Moves": [
+        {
+            "Learned": "Starter",
+            "Name": "Dragon Breath"
+        },
+        {
+            "Learned": "Starter",
+            "Name": "Scary Face"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Ominous Wind"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Ancient Power"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Shadow Sneak"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Icy Wind"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Protect"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Siphon Life-Force"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Slash"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Dragon Claw"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Aura Sphere"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Earth Power"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Hidden Power"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Psych Up"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Shadow Ball"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Hex"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Shadow Claw"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Destiny Bond"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Pain Split"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Dragon Pulse"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Dark Pulse"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Gravity"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Hyper Beam"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Shadow Tide"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Velvet Scales"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Edgestitch"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Harrowing Wrath"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Spite"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Trick Room"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Draco Meteor"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Terrorize"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Shadow Force"
+        }
+    ]
 }

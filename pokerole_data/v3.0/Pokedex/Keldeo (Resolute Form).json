@@ -43,103 +43,95 @@
     "Image": "keldeo-resolute-form.png",
     "Moves": [
         {
-            "Learned": "Ace",
-            "Name": "Aqua Jet"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Starter",
             "Name": "Leer"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Starter",
+            "Name": "Aqua Jet"
+        },
+        {
+            "Learned": "Rookie",
             "Name": "Helping Hand"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Rookie",
             "Name": "Work Up"
         },
         {
-            "Learned": "Ace",
-            "Name": "Bubble Beam"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Quick Guard"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Standard",
             "Name": "Double Kick"
         },
         {
-            "Learned": "Ace",
-            "Name": "Retaliate"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Standard",
             "Name": "Noble Roar"
         },
         {
-            "Learned": "Ace",
-            "Name": "Flip Turn"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Aqua Tail"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Standard",
             "Name": "Take Down"
         },
         {
-            "Learned": "Ace",
-            "Name": "Zen Headbutt"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Swords Dance"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Waterfall"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Rain Dance"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Standard",
             "Name": "Icy Wind"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Standard",
+            "Name": "Bubble Beam"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Quick Guard"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Retaliate"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Aqua Tail"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Zen Headbutt"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Waterfall"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Rain Dance"
+        },
+        {
+            "Learned": "Advanced",
             "Name": "Follow Me"
         },
         {
-            "Learned": "Ace",
-            "Name": "Surf"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Laser Focus"
         },
         {
-            "Learned": "Ace",
-            "Name": "Smart Strike"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Stone Edge"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Solar Blade"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Expert",
             "Name": "Surf"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Expert",
+            "Name": "Flip Turn"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Swords Dance"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Stone Edge"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Solar Blade"
+        },
+        {
+            "Learned": "Expert",
             "Name": "Hydro Pump"
         },
         {
@@ -149,6 +141,10 @@
         {
             "Learned": "Ace",
             "Name": "Sacred Sword"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Smart Strike"
         }
     ]
 }

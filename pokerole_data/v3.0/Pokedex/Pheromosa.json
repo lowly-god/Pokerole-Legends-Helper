@@ -1,145 +1,145 @@
 {
-  "Number": 795,
-  "DexID": "0795",
-  "Name": "Pheromosa",
-  "Type1": "Bug",
-  "Type2": "Fighting",
-  "BaseHP": 5,
-  "Strength": 7,
-  "MaxStrength": 7,
-  "Dexterity": 8,
-  "MaxDexterity": 8,
-  "Vitality": 3,
-  "MaxVitality": 3,
-  "Special": 7,
-  "MaxSpecial": 7,
-  "Insight": 3,
-  "MaxInsight": 3,
-  "Ability1": "Beast Boost",
-  "Ability2": "",
-  "HiddenAbility": "Queenly Majesty",
-  "EventAbilities": "",
-  "RecommendedRank": "Ace",
-  "GenderType": "N",
-  "Legendary": true,
-  "GoodStarter": false,
-  "_id": "pheromosa",
-  "DexCategory": "Aether Foundation Log #012",
-  "Height": {
-    "Meters": 1.8,
-    "Feet": 6.0
-  },
-  "Weight": {
-    "Kilograms": 25.0,
-    "Pounds": 55.0
-  },
-  "DexDescription": "This one also appears to be unable to enter a Pokéball, the rays just won't surround them. This one has refused to touch anything we give to it and appears displeased by my mere presence.",
-  "Evolutions": [],
-  "Image": "pheromosa.png",
-  "Moves": [
-    {
-      "Learned": "Ace",
-      "Name": "Feint"
+    "Number": 795,
+    "DexID": "0795",
+    "Name": "Pheromosa",
+    "Type1": "Bug",
+    "Type2": "Fighting",
+    "BaseHP": 5,
+    "Strength": 7,
+    "MaxStrength": 7,
+    "Dexterity": 8,
+    "MaxDexterity": 8,
+    "Vitality": 3,
+    "MaxVitality": 3,
+    "Special": 7,
+    "MaxSpecial": 7,
+    "Insight": 3,
+    "MaxInsight": 3,
+    "Ability1": "Beast Boost",
+    "Ability2": "",
+    "HiddenAbility": "Queenly Majesty",
+    "EventAbilities": "",
+    "RecommendedRank": "Ace",
+    "GenderType": "N",
+    "Legendary": true,
+    "GoodStarter": false,
+    "_id": "pheromosa",
+    "DexCategory": "Aether Foundation Log #012",
+    "Height": {
+        "Meters": 1.8,
+        "Feet": 6.0
     },
-    {
-      "Learned": "Ace",
-      "Name": "Rapid Spin"
+    "Weight": {
+        "Kilograms": 25.0,
+        "Pounds": 55.0
     },
-    {
-      "Learned": "Ace",
-      "Name": "Leer"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Quick Guard"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Bug Bite"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Low Kick"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Double Kick"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Triple Kick"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Jump Kick"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Stomp"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Agility"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Silver Wind"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Lunge"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Swift"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Throat Chop"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Shock Wave"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Bounce"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Speed Swap"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Me First"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Bug Buzz"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Outrage"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Triple Axel"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "U-Turn"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Quiver Dance"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "High Jump Kick"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Chic Chop"
-    }
-  ]
+    "DexDescription": "This one also appears to be unable to enter a Pokéball, the rays just won't surround them. This one has refused to touch anything we give to it and appears displeased by my mere presence.",
+    "Evolutions": [],
+    "Image": "pheromosa.png",
+    "Moves": [
+        {
+            "Learned": "Starter",
+            "Name": "Leer"
+        },
+        {
+            "Learned": "Starter",
+            "Name": "Rapid Spin"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Low Kick"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Feint"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Bug Bite"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Double Kick"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Stomp"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Shock Wave"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Chic Chop"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Quick Guard"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Triple Kick"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Jump Kick"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Agility"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Silver Wind"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Swift"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Me First"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "U-Turn"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Throat Chop"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Bounce"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Lunge"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Bug Buzz"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Outrage"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Quiver Dance"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "High Jump Kick"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Speed Swap"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Triple Axel"
+        }
+    ]
 }

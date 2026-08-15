@@ -44,59 +44,67 @@
     "Image": "shaymin-sky-form.png",
     "Moves": [
         {
-            "Learned": "Ace",
-            "Name": "Growth"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Magical Leaf"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Leech Seed"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Synthesis"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Sweet Scent"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Natural Gift"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Recover"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Air Slash"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Worry Seed"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Starter",
             "Name": "Sweet Kiss"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Starter",
+            "Name": "Growth"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Magical Leaf"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Leech Seed"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Sweet Scent"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Natural Gift"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Synthesis"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Recover"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Air Slash"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Worry Seed"
+        },
+        {
+            "Learned": "Advanced",
             "Name": "Energy Ball"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Fly"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Advanced",
+            "Name": "Zen Headbutt"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Giga Drain"
+        },
+        {
+            "Learned": "Expert",
             "Name": "Leaf Storm"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Expert",
             "Name": "Swords Dance"
         },
         {
@@ -106,14 +114,6 @@
         {
             "Learned": "Ace",
             "Name": "Tailwind"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Giga Drain"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Zen Headbutt"
         },
         {
             "Learned": "Ace",

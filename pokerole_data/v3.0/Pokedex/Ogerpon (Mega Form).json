@@ -1,156 +1,156 @@
 {
-  "Number": 1017,
-  "DexID": "1017F5",
-  "Name": "Ogerpon (Mega Form)",
-  "Type1": "Grass",
-  "Type2": "Dark",
-  "BaseHP": 6,
-  "Strength": 5,
-  "MaxStrength": 10,
-  "Dexterity": 3,
-  "MaxDexterity": 6,
-  "Vitality": 3,
-  "MaxVitality": 6,
-  "Special": 2,
-  "MaxSpecial": 5,
-  "Insight": 3,
-  "MaxInsight": 6,
-  "Ability1": "Intimidate",
-  "Ability2": "",
-  "HiddenAbility": "",
-  "EventAbilities": "",
-  "RecommendedRank": "Champion",
-  "GenderType": "F",
-  "Legendary": false,
-  "GoodStarter": false,
-  "_id": "ogerpon-mega-form",
-  "DexCategory": "Mask Pokémon",
-  "Height": {
-    "Meters": 1.52,
-    "Feet": 5.0
-  },
-  "Weight": {
-    "Kilograms": 45.4,
-    "Pounds": 100.0
-  },
-  "DexDescription": "Ancient myths and legends remain alive to this day. It is said Kitakami is visited by an angry creature during the festival of masks. The creature looks menacing and sets the town's decoration on fire.",
-  "Evolutions": [
-    {
-      "From": "Ogerpon (Hearthflame Mask Form)",
-      "Kind": "Mega",
-      "Item": ""
-    }
-  ],
-  "Image": "",
-  "Moves": [
-    {
-      "Learned": "Ace",
-      "Name": "Vine Whip"
+    "Number": 1017,
+    "DexID": "1017F5",
+    "Name": "Ogerpon (Mega Form)",
+    "Type1": "Grass",
+    "Type2": "Dark",
+    "BaseHP": 6,
+    "Strength": 5,
+    "MaxStrength": 10,
+    "Dexterity": 3,
+    "MaxDexterity": 6,
+    "Vitality": 3,
+    "MaxVitality": 6,
+    "Special": 2,
+    "MaxSpecial": 5,
+    "Insight": 3,
+    "MaxInsight": 6,
+    "Ability1": "Intimidate",
+    "Ability2": "",
+    "HiddenAbility": "",
+    "EventAbilities": "",
+    "RecommendedRank": "Champion",
+    "GenderType": "F",
+    "Legendary": false,
+    "GoodStarter": false,
+    "_id": "ogerpon-mega-form",
+    "DexCategory": "Mask Pokémon",
+    "Height": {
+        "Meters": 1.52,
+        "Feet": 5.0
     },
-    {
-      "Learned": "Ace",
-      "Name": "Leech Seed"
+    "Weight": {
+        "Kilograms": 45.4,
+        "Pounds": 100.0
     },
-    {
-      "Learned": "Ace",
-      "Name": "Quick Attack"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Follow Me"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Focus Energy"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Growth"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Double Kick"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Taunt"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "U-Turn"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Charm"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Scary Face"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Low Sweep"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Slam"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Throat Chop"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Protect"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Spiky Shield"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Sunny Day"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Superpower"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Synthesis"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Ivy Cudgel"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Power Whip"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Wood Hammer"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Solar Blade"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Blaze Kick"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Cauterize"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Jungle Healing"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Asteroid Shot"
-    }
-  ],
-  "MegaStone": "Ogerponite"
+    "DexDescription": "Ancient myths and legends remain alive to this day. It is said Kitakami is visited by an angry creature during the festival of masks. The creature looks menacing and sets the town's decoration on fire.",
+    "Evolutions": [
+        {
+            "From": "Ogerpon (Hearthflame Mask Form)",
+            "Kind": "Mega",
+            "Item": ""
+        }
+    ],
+    "Image": "",
+    "Moves": [
+        {
+            "Learned": "Starter",
+            "Name": "Vine Whip"
+        },
+        {
+            "Learned": "Starter",
+            "Name": "Quick Attack"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Focus Energy"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Growth"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Leech Seed"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Double Kick"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Scary Face"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Low Sweep"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Protect"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Ivy Cudgel"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Cauterize"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Asteroid Shot"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Taunt"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Follow Me"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "U-Turn"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Charm"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Slam"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Sunny Day"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Synthesis"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Throat Chop"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Blaze Kick"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Spiky Shield"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Superpower"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Power Whip"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Wood Hammer"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Solar Blade"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Jungle Healing"
+        }
+    ],
+    "MegaStone": "Ogerponite"
 }

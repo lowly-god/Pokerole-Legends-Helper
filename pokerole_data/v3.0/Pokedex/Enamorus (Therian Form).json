@@ -43,75 +43,71 @@
     "Image": "enamorus-therian-form.png",
     "Moves": [
         {
-            "Learned": "Ace",
+            "Learned": "Starter",
             "Name": "Astonish"
         },
         {
-            "Learned": "Ace",
-            "Name": "Fairy Wind"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Starter",
             "Name": "Leer"
         },
         {
-            "Learned": "Ace",
-            "Name": "Torment"
+            "Learned": "Rookie",
+            "Name": "Fairy Wind"
         },
         {
-            "Learned": "Ace",
-            "Name": "Flatter"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Uproar"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Iron Defense"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Twister"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Extrasensory"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Power Shift"
-        },
-        {
-            "Learned": "Ace",
+            "Learned": "Rookie",
             "Name": "Draining Kiss"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Standard",
+            "Name": "Flatter"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Uproar"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Iron Defense"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Extrasensory"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Power Shift"
+        },
+        {
+            "Learned": "Standard",
             "Name": "Crunch"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Advanced",
+            "Name": "Springtide Storm"
+        },
+        {
+            "Learned": "Advanced",
             "Name": "Imprison"
         },
         {
-            "Learned": "Ace",
-            "Name": "Mystical Fire"
+            "Learned": "Advanced",
+            "Name": "Torment"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Dazzling Gleam"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Advanced",
             "Name": "Superpower"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Expert",
             "Name": "Healing Wish"
         },
         {
-            "Learned": "Ace",
+            "Learned": "Expert",
             "Name": "Moonblast"
         },
         {
@@ -120,7 +116,11 @@
         },
         {
             "Learned": "Ace",
-            "Name": "Springtide Storm"
+            "Name": "Twister"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Mystical Fire"
         }
     ]
 }

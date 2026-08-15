@@ -1,160 +1,160 @@
 {
-  "Number": 802,
-  "DexID": "0802F1",
-  "Name": "Marshadow (Mega Form)",
-  "Type1": "Fighting",
-  "Type2": "Ghost",
-  "BaseHP": 6,
-  "Strength": 4,
-  "MaxStrength": 8,
-  "Dexterity": 3,
-  "MaxDexterity": 7,
-  "Vitality": 3,
-  "MaxVitality": 7,
-  "Special": 3,
-  "MaxSpecial": 6,
-  "Insight": 4,
-  "MaxInsight": 8,
-  "Ability1": "Shadow Shield",
-  "Ability2": "",
-  "HiddenAbility": "",
-  "EventAbilities": "",
-  "RecommendedRank": "Champion",
-  "GenderType": "N",
-  "Legendary": false,
-  "GoodStarter": false,
-  "_id": "marshadow-mega-form",
-  "DexCategory": "Gloomdweller Pokémon",
-  "Height": {
-    "Meters": 1.6,
-    "Feet": 5.25
-  },
-  "Weight": {
-    "Kilograms": 38.6,
-    "Pounds": 85.0
-  },
-  "DexDescription": "There is an old children's story about a boy who lost his shadow and the shadow became a Pokémon. There is a debate to which Pokémon the story is referring.",
-  "Evolutions": [
-    {
-      "From": "Marshadow",
-      "Kind": "Mega",
-      "Item": ""
-    }
-  ],
-  "Image": "",
-  "Moves": [
-    {
-      "Learned": "Ace",
-      "Name": "Fire Punch"
+    "Number": 802,
+    "DexID": "0802F1",
+    "Name": "Marshadow (Mega Form)",
+    "Type1": "Fighting",
+    "Type2": "Ghost",
+    "BaseHP": 6,
+    "Strength": 4,
+    "MaxStrength": 8,
+    "Dexterity": 3,
+    "MaxDexterity": 7,
+    "Vitality": 3,
+    "MaxVitality": 7,
+    "Special": 3,
+    "MaxSpecial": 6,
+    "Insight": 4,
+    "MaxInsight": 8,
+    "Ability1": "Shadow Shield",
+    "Ability2": "",
+    "HiddenAbility": "",
+    "EventAbilities": "",
+    "RecommendedRank": "Champion",
+    "GenderType": "N",
+    "Legendary": false,
+    "GoodStarter": false,
+    "_id": "marshadow-mega-form",
+    "DexCategory": "Gloomdweller Pokémon",
+    "Height": {
+        "Meters": 1.6,
+        "Feet": 5.25
     },
-    {
-      "Learned": "Ace",
-      "Name": "Ice Punch"
+    "Weight": {
+        "Kilograms": 38.6,
+        "Pounds": 85.0
     },
-    {
-      "Learned": "Ace",
-      "Name": "Thunder Punch"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Copycat"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Shadow Sneak"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Feint"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Rolling Kick"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Dizzy Punch"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Pursuit"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Counter"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Role Play"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Shadow Punch"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Force Palm"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Assurance"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Sucker Punch"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Drain Punch"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Psych Up"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Spectral Thief"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Laser Focus"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Jump Kick"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Endeavor"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Close Combat"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Poison Jab"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Throat Chop"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Superpower"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Fisticuffs"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Edgestitch"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Siphon Life-Force"
-    }
-  ],
-  "MegaStone": "Marshadowite"
+    "DexDescription": "There is an old children's story about a boy who lost his shadow and the shadow became a Pokémon. There is a debate to which Pokémon the story is referring.",
+    "Evolutions": [
+        {
+            "From": "Marshadow",
+            "Kind": "Mega",
+            "Item": ""
+        }
+    ],
+    "Image": "",
+    "Moves": [
+        {
+            "Learned": "Starter",
+            "Name": "Rolling Kick"
+        },
+        {
+            "Learned": "Starter",
+            "Name": "Copycat"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Shadow Sneak"
+        },
+        {
+            "Learned": "Rookie",
+            "Name": "Feint"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Dizzy Punch"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Pursuit"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Force Palm"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Assurance"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Siphon Life-Force"
+        },
+        {
+            "Learned": "Standard",
+            "Name": "Fire Punch"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Role Play"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Shadow Punch"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Sucker Punch"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Psych Up"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Laser Focus"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Jump Kick"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Poison Jab"
+        },
+        {
+            "Learned": "Advanced",
+            "Name": "Fisticuffs"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Throat Chop"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Spectral Thief"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Endeavor"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Close Combat"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Superpower"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Edgestitch"
+        },
+        {
+            "Learned": "Expert",
+            "Name": "Thunder Punch"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Counter"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Ice Punch"
+        },
+        {
+            "Learned": "Ace",
+            "Name": "Drain Punch"
+        }
+    ],
+    "MegaStone": "Marshadowite"
 }
