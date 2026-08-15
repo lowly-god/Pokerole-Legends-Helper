@@ -1,5 +1,6 @@
 import asyncio
 import csv
+import json
 import os
 import pickle
 import random
@@ -75,7 +76,30 @@ pkmnWeather = dict()
 database: Database = None
 restartError = True
 
-regions = ['Kanto', 'Johto', 'Hoenn', 'Sinnoh', 'Unova', 'Kalos', 'Alola', 'Galar']
+base_regions = ['Kanto', 'Johto', 'Hoenn', 'Sinnoh', 'Unova', 'Kalos', 'Alola', 'Galar']
+custom_regions = ['Orrelborous', "Islas Lluvia De'estrellas"]
+regions = base_regions + custom_regions
+
+with open(os.path.join(os.path.dirname(__file__), 'encounter_biomes.json'), 'r', encoding='utf-8') as biome_file:
+    encounter_biomes = json.load(biome_file)
+
+_biome_names = list(encounter_biomes)
+_islas_biome_start = _biome_names.index('Subtropical Forest')
+_orrelborous_biome_names = _biome_names[:_islas_biome_start]
+_islas_biome_names = [name for name in _biome_names[_islas_biome_start:] if name != 'AREA UNKNOWN']
+
+def _combine_biome_pools(biome_names):
+    return list(dict.fromkeys(
+        pokemon
+        for biome_name in biome_names
+        for pokemon in encounter_biomes[biome_name]
+    ))
+
+custom_region_pools = {
+    'Orrelborous': _combine_biome_pools(_orrelborous_biome_names),
+    "Islas Lluvia De'estrellas": _combine_biome_pools(_islas_biome_names),
+}
+
 ranks = ['Starter', 'Beginner', 'Amateur', 'Ace', 'Pro', 'Master', 'Champion']
 ranks_v3 = ['Starter', 'Rookie', 'Standard', 'Advanced', 'Expert', 'Ace', 'Master', 'Champion']
 
@@ -3622,9 +3646,103 @@ async def smart_pkmn_search_slash(inter,
 SLASH_COMMANDS.append(smart_pkmn_search_slash)
 
 
+
+async def encounter_biome_autocomplete(interaction: discord.Interaction, current: str):
+    """Autocomplete all biome names; Discord only permits 25 results at once."""
+    current_fold = current.casefold().strip()
+    names = list(encounter_biomes)
+    if current_fold:
+        names = [name for name in names if current_fold in name.casefold()]
+        names.sort(key=lambda name: (not name.casefold().startswith(current_fold), name.casefold()))
+    else:
+        names.sort(key=str.casefold)
+    return [Choice(name=name, value=name) for name in names[:25]]
+
+
+async def send_named_pool_encounter(inter, pool, rank, condense_info=0, smart_stats=1,
+                                    imagify=0, search_label='area'):
+    """Roll one Pokémon from a named pool and use the normal encounter stat generator."""
+    if not pool:
+        await inter.response.send_message(f'No Pokémon are configured for {search_label}.', ephemeral=True)
+        return
+
+    smart_stats = bool(smart_stats)
+    imagify = bool(imagify)
+    condense_info = bool(condense_info)
+    guild = await getGuilds(inter)
+    codify = bool(pokebotsettings[guild][10])
+    pkm = random.choice(pool)
+    view = None
+
+    if imagify:
+        await inter.response.send_message(f'Searching {search_label}...')
+        msg_img, moves = await pkmn_search_encounter(
+            ctx=inter, number=1, numberMax=1, rank=rank.title(), pokelist=[pkm],
+            boss=smart_stats, image=True
+        )
+        filename_rank = rank if rank != 'Base' else 'Base'
+        await send_slash_img(
+            inter=inter,
+            content=f'Found {pkmn_cap(pkm)} in {search_label}!',
+            image=msg_img,
+            filename=f'{filename_rank}_{pkm}.png',
+            view=view
+        )
+        return
+
+    if condense_info:
+        msg, view = await pkmn_encounter(
+            ctx=inter, number=1, rank=rank.title(), pokelist=[pkm],
+            boss=smart_stats, guild=guild, condense=True
+        )
+    else:
+        msg = await pkmn_encounter(
+            ctx=inter, number=1, rank=rank.title(), pokelist=[pkm],
+            boss=smart_stats, guild=guild
+        )
+
+    await send_big_msg(ctx=inter, arg=msg, codify=codify, view=view)
+
+
+@app_commands.command(
+    name='encounter_biome',
+    description='Encounter a Pokémon from a biome!'
+)
+@app_commands.describe(
+    biome='Which biome?',
+    rank='What rank?',
+    condense_info='Condense ability and moves for a smaller message',
+    smart_stats='Use the improved stat distribution? (Default: True)',
+    imagify='Send an image instead? (Note: Forms have default image)'
+)
+@app_commands.choices(
+    rank=[Choice(name=x, value=x) for x in ranks_v3],
+    smart_stats=[Choice(name='Yes', value=1), Choice(name='No', value=0)],
+    imagify=[Choice(name='Yes', value=1), Choice(name='No', value=0)],
+    condense_info=[Choice(name='Yes', value=1), Choice(name='No', value=0)]
+)
+@app_commands.autocomplete(biome=encounter_biome_autocomplete)
+async def smart_biome_search_slash(inter,
+                                   biome: str,
+                                   rank: str,
+                                   condense_info: int = 0,
+                                   smart_stats: int = 1,
+                                   imagify: int = 0):
+    pool = encounter_biomes.get(biome)
+    if pool is None:
+        await inter.response.send_message('That biome was not found.', ephemeral=True)
+        return
+    await send_named_pool_encounter(
+        inter, pool, rank, condense_info, smart_stats, imagify,
+        search_label=f'the {biome} biome'
+    )
+
+
+SLASH_COMMANDS.append(smart_biome_search_slash)
+
 @app_commands.command(
     name='encounter_region',
-    description='Encounter Ace Kalos!'
+    description='Encounter a Pokémon from a region!'
 )
 @app_commands.describe(
     region="Which region?",
@@ -3636,7 +3754,7 @@ SLASH_COMMANDS.append(smart_pkmn_search_slash)
 )
 @app_commands.choices(
     region=[Choice(name=x, value=x) for x in regions],
-    rank=[Choice(name=x, value=x) for x in ["Base"] + ranks],
+    rank=[Choice(name=x, value=x) for x in ["Base"] + ranks_v3],
     smart_stats=[
         Choice(name='Yes', value=1),
         Choice(name='No', value=0),
@@ -3652,72 +3770,89 @@ SLASH_COMMANDS.append(smart_pkmn_search_slash)
 )
 async def smart_region_search_slash(inter,
                                     region: str,
-                                    # number : app_commands.Range[int, 1, 6] = 1,
-                                    # rank : ensure_rank = 'Base',
                                     rank: str = 'Base',
                                     condense_info: int = 0,
                                     smart_stats: int = 1,
                                     imagify: int = 0):
+    # Custom Legends regions are defined by the biome pools supplied for this campaign.
+    if region in custom_region_pools:
+        await send_named_pool_encounter(
+            inter,
+            custom_region_pools[region],
+            rank,
+            condense_info,
+            smart_stats,
+            imagify,
+            search_label=region
+        )
+        return
+
+    # Original official-region behaviour: select a Pokémon whose suggested rank
+    # matches the requested rank, then stat it with the normal encounter logic.
     number = 1
     smart_stats = bool(smart_stats)
     imagify = bool(imagify)
     condense_info = bool(condense_info)
     view = None
+    guild = await getGuilds(inter)
+    version = version_converter[pokebotsettings[guild][11]]
+    codify = bool(pokebotsettings[guild][10])
+
     if imagify:
         await inter.response.send_message('Searching the region...')
         rnk = f' {rank}' if rank != 'Base' else ''
-        # view = [ActionRow(Button(
-        #         style = ButtonStyle.gray,
-        #         label = "Expand Moves",
-        #         custom_id = "moves"
-        #     ))]
     else:
-        rnk, view = None, None
-    region = regions.index(region) + 1
-    if rank == 'Base':
-        rank = rank_dist()
-    elif rank == 'Champion':
-        await inter.response.send_message('Since there are no pokemon who naturally have the '
-                                          'Champion rank, a random pokemon cannot be generated from this pool.',
-                                          ephemeral=True)
-        return
-    guild = await getGuilds(inter)
-    if pokebotsettings[guild][10]:
-        codify = True
-    else:
-        codify = False
-    if rank == 'Base':
-        rank = rank_dist()
-    elif rank == 'Champion':
-        await inter.response.send_message('Since there are no pokemon who naturally have the '
-                                          'Champion rank, a random pokemon cannot be generated from this pool.',
-                                          ephemeral=True)
-        return
-    # random poke from database at rank
-    query = f'SELECT name FROM pkmnStats WHERE rank="{rank}"' \
-            f' AND generation="{region}" ORDER BY RANDOM() LIMIT {number}'
-    version = version_converter[pokebotsettings[guild][11]]
-    pkm = database.custom_query(query, version=version)[0][0]
-    # print(pkm)
-    msg = ''
-    if imagify:
-        msg_img, moves = await pkmn_search_encounter(ctx=inter, number=number, numberMax=number,
-                                                     rank=rank.title(), pokelist=[pkm],
-                                                     boss=smart_stats, image=True)
-        name = f'{rank}_{pkm}'
-        img_msg = await send_slash_img(inter=inter, content=f'Found a{rnk} {pkmn_cap(pkm)}!',
-                                       image=msg_img, filename=f'{name}.png', view=view)
-    else:
-        if condense_info:
-            tmpMsg, view = await pkmn_encounter(ctx=inter, number=1, rank=rank.title(),
-                                                pokelist=[pkm], boss=smart_stats, guild=guild,
-                                                condense=condense_info)
-            msg += tmpMsg
-        else:
-            msg += await pkmn_encounter(ctx=inter, number=1, rank=rank.title(),
-                                        pokelist=[pkm], boss=smart_stats, guild=guild)
-    if not imagify: await send_big_msg(ctx=inter, arg=msg, codify=codify, view=view)
+        rnk = None
 
+    if rank == 'Base':
+        rank = rank_dist(version=version)
+    elif rank == 'Champion':
+        await inter.response.send_message(
+            'Since there are no pokemon who naturally have the Champion rank, '
+            'a random pokemon cannot be generated from this pool.',
+            ephemeral=True
+        )
+        return
+
+    region_number = base_regions.index(region) + 1
+    query = (
+        f'SELECT name FROM pkmnStats WHERE rank="{rank}" '
+        f'AND generation="{region_number}" ORDER BY RANDOM() LIMIT {number}'
+    )
+    result = database.custom_query(query, version=version)
+    if not result:
+        await inter.response.send_message(
+            f'No {rank} Pokémon were found for {region}.', ephemeral=True
+        )
+        return
+    pkm = result[0][0]
+
+    if imagify:
+        msg_img, moves = await pkmn_search_encounter(
+            ctx=inter, number=number, numberMax=number,
+            rank=rank.title(), pokelist=[pkm], boss=smart_stats, image=True
+        )
+        name = f'{rank}_{pkm}'
+        await send_slash_img(
+            inter=inter,
+            content=f'Found a{rnk} {pkmn_cap(pkm)}!',
+            image=msg_img,
+            filename=f'{name}.png',
+            view=view
+        )
+        return
+
+    if condense_info:
+        msg, view = await pkmn_encounter(
+            ctx=inter, number=1, rank=rank.title(), pokelist=[pkm],
+            boss=smart_stats, guild=guild, condense=True
+        )
+    else:
+        msg = await pkmn_encounter(
+            ctx=inter, number=1, rank=rank.title(), pokelist=[pkm],
+            boss=smart_stats, guild=guild
+        )
+    await send_big_msg(ctx=inter, arg=msg, codify=codify, view=view)
 
 SLASH_COMMANDS.append(smart_region_search_slash)
 
