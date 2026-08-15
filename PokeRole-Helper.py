@@ -401,8 +401,18 @@ async def cleanup_stale_guild_slash_commands():
 @commands.is_owner()
 @bot.command(name='sync_global', hidden=True)
 async def sync_commands(ctx):
-    await bot.tree.sync()
+    local_names = sorted(command.name for command in bot.tree.get_commands())
+    print(f'Local global slash commands before sync ({len(local_names)}): {", ".join(local_names)}')
+
+    synced = await bot.tree.sync()
+    synced_names = sorted(command.name for command in synced)
+    print(f'Discord global slash commands after sync ({len(synced_names)}): {", ".join(synced_names)}')
+
     await ctx.message.add_reaction('\N{HIBISCUS}')
+    await ctx.send(
+        f'Synced {len(synced_names)} global slash commands.\n'
+        f'`{", ".join(synced_names)}`'
+    )
 
 
 @commands.is_owner()
@@ -971,15 +981,12 @@ async def docs(ctx):
 # SLASH_COMMANDS.append(docs)
 
 
-@app_commands.command(
+@bot.tree.command(
     name='getpokerolelegends',
     description='Legends Rule Supplement'
 )
-async def get_pokerole_legends(inter):
-    await inter.response.send_message('https://github.com/lowly-god/Pokerole-Legends/tree/main')
-
-
-SLASH_COMMANDS.append(get_pokerole_legends)
+async def get_pokerole_legends(interaction: discord.Interaction):
+    await interaction.response.send_message('https://github.com/lowly-god/Pokerole-Legends/tree/main')
 
 #######
 # auto-completes
