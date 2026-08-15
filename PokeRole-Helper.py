@@ -2871,7 +2871,7 @@ async def calcStats(rank: str, attr: list, maxAttr: list,
 
 async def pkmn_encounter(ctx, number: int, rank: str, pokelist: list,
                          exact_rank: bool = False, boss: bool = False, guild=None,
-                         image=False, condense=False):
+                         image=False, condense=False, version_override=None):
     if guild is None:
         guild = await getGuilds(ctx)
     view_buttons = []
@@ -2885,7 +2885,10 @@ async def pkmn_encounter(ctx, number: int, rank: str, pokelist: list,
     if rank == 'Base':
         rankbase = True
 
-    version = version_converter[pokebotsettings[guild][11]]
+    # Most encounter commands respect the server's configured rules version.
+    # Campaign-specific encounter pools can explicitly request v3.0 because their
+    # slash-command ranks use the v3 progression (Rookie/Standard/Advanced/etc.).
+    version = version_override or version_converter[pokebotsettings[guild][11]]
 
     which_ranks = None
     base_num_moves = None
@@ -3421,17 +3424,20 @@ async def pkmn_search_encounter(ctx, number: typing.Optional[int] = 1,
                                 numberMax: typing.Optional[int] = None,
                                 rank: typing.Optional[ensure_rank] = 'Base',
                                 *, pokelist: (lambda x: x.split(', ')),
-                                boss=False, image=False, condense=False):
+                                boss=False, image=False, condense=False,
+                                version_override=None):
     # pokelist = pokelist.split(', ')
     guild = await getGuilds(ctx)
     if numberMax is not None:
         number = random.randint(number, numberMax)
     if not condense:
-        msg = await pkmn_encounter(ctx, number, rank, pokelist, boss=boss, guild=guild, image=image)
+        msg = await pkmn_encounter(ctx, number, rank, pokelist, boss=boss, guild=guild, image=image,
+                                   version_override=version_override)
         view = None
     else:
         msg, view = await pkmn_encounter(ctx, number, rank, pokelist, boss=boss,
-                                         guild=guild, image=image, condense=condense)
+                                         guild=guild, image=image, condense=condense,
+                                         version_override=version_override)
     if image:
         return msg
     if pokebotsettings[guild][10]:
@@ -3649,13 +3655,24 @@ SLASH_COMMANDS.append(smart_pkmn_search_slash)
 
 async def encounter_biome_autocomplete(interaction: discord.Interaction, current: str):
     """Autocomplete all biome names; Discord only permits 25 results at once."""
-    current_fold = current.casefold().strip()
+    def search_key(value):
+        # Treat spaces, hyphens and underscores as cosmetic so searches such as
+        # "sub tropical" still match "Subtropical Forest".
+        return re.sub(r'[\s_-]+', '', value.casefold().strip())
+
+    current_key = search_key(current)
     names = list(encounter_biomes)
-    if current_fold:
-        names = [name for name in names if current_fold in name.casefold()]
-        names.sort(key=lambda name: (not name.casefold().startswith(current_fold), name.casefold()))
+    if current_key:
+        names = [name for name in names if current_key in search_key(name)]
+        names.sort(key=lambda name: (not search_key(name).startswith(current_key), name.casefold()))
     else:
-        names.sort(key=str.casefold)
+        # Discord shows at most 25 autocomplete results. Keep the two Islas
+        # biomes and AREA UNKNOWN visible in the initial picker, then fill the
+        # remaining slots alphabetically.
+        priority = ['Subtropical Forest', 'Volcanic', 'AREA UNKNOWN']
+        names = [name for name in priority if name in encounter_biomes] + sorted(
+            [name for name in names if name not in priority], key=str.casefold
+        )
     return [Choice(name=name, value=name) for name in names[:25]]
 
 
@@ -3678,7 +3695,7 @@ async def send_named_pool_encounter(inter, pool, rank, condense_info=0, smart_st
         await inter.response.send_message(f'Searching {search_label}...')
         msg_img, moves = await pkmn_search_encounter(
             ctx=inter, number=1, numberMax=1, rank=rank.title(), pokelist=[pkm],
-            boss=smart_stats, image=True
+            boss=smart_stats, image=True, version_override='v3.0'
         )
         filename_rank = rank if rank != 'Base' else 'Base'
         await send_slash_img(
@@ -3693,12 +3710,12 @@ async def send_named_pool_encounter(inter, pool, rank, condense_info=0, smart_st
     if condense_info:
         msg, view = await pkmn_encounter(
             ctx=inter, number=1, rank=rank.title(), pokelist=[pkm],
-            boss=smart_stats, guild=guild, condense=True
+            boss=smart_stats, guild=guild, condense=True, version_override='v3.0'
         )
     else:
         msg = await pkmn_encounter(
             ctx=inter, number=1, rank=rank.title(), pokelist=[pkm],
-            boss=smart_stats, guild=guild
+            boss=smart_stats, guild=guild, version_override='v3.0'
         )
 
     await send_big_msg(ctx=inter, arg=msg, codify=codify, view=view)
