@@ -937,6 +937,17 @@ async def docs(ctx):
 
 # SLASH_COMMANDS.append(docs)
 
+
+@app_commands.command(
+    name='getpokerolelegends',
+    description='Legends Rule Supplement'
+)
+async def get_pokerole_legends(inter):
+    await inter.response.send_message('https://github.com/lowly-god/Pokerole-Legends/tree/main')
+
+
+SLASH_COMMANDS.append(get_pokerole_legends)
+
 #######
 # auto-completes
 
