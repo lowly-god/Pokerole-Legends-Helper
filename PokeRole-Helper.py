@@ -267,6 +267,11 @@ async def on_ready():
     for command in SLASH_COMMANDS:
         bot.tree.add_command(command)
 
+    # This command was added after the existing production global command set was
+    # already registered. Ensure it is installed once without requiring a manual
+    # %sync_global invocation.
+    await ensure_getpokerolelegends_registered()
+
     # Production uses global application commands only. Older versions of the bot
     # exposed sync_test, which copied every global command into a test guild and
     # could leave a second guild-scoped copy registered in Discord. Clean those
@@ -283,6 +288,34 @@ async def on_ready():
 # sync commands
 
 SLASH_GUILD_CLEANUP_MARKER = '.slash_guild_duplicates_cleaned_v1'
+GETPOKEROLELEGENDS_COMMAND = 'getpokerolelegends'
+
+
+async def ensure_getpokerolelegends_registered():
+    """Register the Legends supplement command if Discord does not have it yet.
+
+    Global commands normally only change when sync_global is run. This small startup
+    migration makes this particular new command self-installing without syncing on
+    every restart.
+    """
+    if dev_env:
+        return
+
+    try:
+        registered = await bot.tree.fetch_commands()
+        registered_names = {command.name for command in registered}
+        if GETPOKEROLELEGENDS_COMMAND in registered_names:
+            print('Slash command /getpokerolelegends is already registered globally.')
+            return
+
+        synced = await bot.tree.sync()
+        synced_names = {command.name for command in synced}
+        if GETPOKEROLELEGENDS_COMMAND in synced_names:
+            print('Registered global slash command: /getpokerolelegends')
+        else:
+            print('Global slash sync completed, but /getpokerolelegends was not returned by Discord.')
+    except Exception as exc:
+        print(f'Failed to register /getpokerolelegends: {exc}')
 
 
 async def cleanup_stale_guild_slash_commands():
