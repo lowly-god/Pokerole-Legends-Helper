@@ -1,0 +1,3350 @@
+{
+  "rank_order": [
+    "Starter",
+    "Rookie",
+    "Standard",
+    "Advanced",
+    "Expert",
+    "Ace",
+    "Master",
+    "Champion"
+  ],
+  "npcs": {
+    "Adventurer": {
+      "name": "Adventurer",
+      "archetype": "Ranger",
+      "base_hp": 5,
+      "stats": {
+        "Strength": {
+          "base": 3,
+          "max": 6
+        },
+        "Dexterity": {
+          "base": 2,
+          "max": 5
+        },
+        "Vitality": {
+          "base": 2,
+          "max": 5
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 3,
+          "max": 6
+        }
+      },
+      "perks": [
+        "Scoundrel’s Intuition",
+        "Dual Wielder",
+        "Inspiring Personality",
+        "Lucky",
+        "Master Chef",
+        "Survivalist",
+        "Traveller",
+        "Well Connected",
+        "Gifted",
+        "Imbued Weapons",
+        "Martial Adept",
+        "Pokémon Master (In Training)",
+        "Student of Life",
+        "Enlightenment",
+        "Evasive Training",
+        "Got Your Back",
+        "Intensive Training Regime",
+        "Precise Strikes",
+        "Pack Rattata",
+        "Unbreakable Will"
+      ],
+      "armor": [
+        "Leather Bracers",
+        "Leather Armor",
+        "Half Plate"
+      ],
+      "weapons": [
+        "Axe",
+        "Dagger",
+        "Sword",
+        "Bow",
+        "Firearm",
+        "Energy Weapon"
+      ],
+      "maneuvers": [
+        "Fight Dirty",
+        "Size Up Opponent",
+        "Rallying Call",
+        "Battlefield Bandaging"
+      ],
+      "loot": [
+        "₽1500",
+        "Weapon",
+        "Ammunition",
+        "Potion",
+        "Poke Ball",
+        "Treasure",
+        "Held Item",
+        "Evolution Stone"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Scoundrel’s Intuition",
+          "Dual Wielder",
+          "Inspiring Personality",
+          "Lucky",
+          "Master Chef",
+          "Survivalist",
+          "Traveller",
+          "Well Connected"
+        ],
+        "Advanced / Expert": [
+          "Gifted",
+          "Imbued Weapons",
+          "Martial Adept",
+          "Pokémon Master (In Training)",
+          "Student of Life"
+        ],
+        "Ace / Master / Champion": [
+          "Enlightenment",
+          "Evasive Training",
+          "Got Your Back",
+          "Intensive Training Regime",
+          "Precise Strikes",
+          "Pack Rattata",
+          "Unbreakable Will"
+        ]
+      }
+    },
+    "Artificer": {
+      "name": "Artificer",
+      "archetype": "Artisan",
+      "base_hp": 4,
+      "stats": {
+        "Strength": {
+          "base": 2,
+          "max": 5
+        },
+        "Dexterity": {
+          "base": 2,
+          "max": 5
+        },
+        "Vitality": {
+          "base": 2,
+          "max": 5
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 3,
+          "max": 6
+        }
+      },
+      "perks": [
+        "Dual Wielder",
+        "Psionic Empowerment",
+        "Traveller",
+        "Well Connected",
+        "Alchemical Artisan",
+        "Built Different",
+        "Imbued Weapons",
+        "Student of Life",
+        "Gifted",
+        "Hit And Run",
+        "Last Stand",
+        "Rift Walker",
+        "Pack Rattata"
+      ],
+      "armor": [
+        "Leather Bracers",
+        "Leather Armor",
+        "Half Plate",
+        "Full Plate"
+      ],
+      "weapons": [
+        "Axe",
+        "Great Weapon",
+        "Shield",
+        "Sword",
+        "Firearm",
+        "Crossbow"
+      ],
+      "maneuvers": [
+        "Cunning Trap",
+        "Fight Dirty",
+        "Grapple",
+        "Help",
+        "Hoennian Fire",
+        "Lay Of The Land",
+        "Masterful Distraction",
+        "Paladins Protection",
+        "Pocket Sand",
+        "Psy-Knack",
+        "Unnatural Reflexes"
+      ],
+      "loot": [
+        "₽2000",
+        "Weapon",
+        "Ammunition",
+        "Armor",
+        "Potion",
+        "Poke Ball",
+        "Held Item"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Dual Wielder",
+          "Psionic Empowerment",
+          "Traveller",
+          "Well Connected"
+        ],
+        "Advanced / Expert": [
+          "Alchemical Artisan",
+          "Built Different",
+          "Imbued Weapons",
+          "Student of Life",
+          "Gifted"
+        ],
+        "Ace / Master / Champion": [
+          "Hit And Run",
+          "Last Stand",
+          "Rift Walker",
+          "Pack Rattata"
+        ]
+      }
+    },
+    "Bandit": {
+      "name": "Bandit",
+      "archetype": "Rogue",
+      "base_hp": 5,
+      "stats": {
+        "Strength": {
+          "base": 2,
+          "max": 5
+        },
+        "Dexterity": {
+          "base": 3,
+          "max": 6
+        },
+        "Vitality": {
+          "base": 3,
+          "max": 6
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 2,
+          "max": 5
+        }
+      },
+      "perks": [
+        "Scoundrel’s Intuition",
+        "Dual Wielder",
+        "Lucky",
+        "Imbued Weapons",
+        "Precise Strikes"
+      ],
+      "armor": [
+        "Adventurer’s Clothes",
+        "Leather Bracers",
+        "Leather Armor",
+        "Flak Armor"
+      ],
+      "weapons": [
+        "Dagger",
+        "Sword",
+        "Club",
+        "Mace",
+        "Bow",
+        "Crossbow",
+        "Energy Weapon"
+      ],
+      "maneuvers": [
+        "Fight Dirty",
+        "Pocket Sand",
+        "Cunning Trap",
+        "Size Up Opponent"
+      ],
+      "loot": [
+        "₽1000",
+        "Weapon",
+        "Ammunition",
+        "Armor",
+        "Poke Ball",
+        "Potion",
+        "Berry"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Scoundrel’s Intuition",
+          "Dual Wielder",
+          "Lucky"
+        ],
+        "Advanced / Expert": [
+          "Imbued Weapons"
+        ],
+        "Ace / Master / Champion": [
+          "Precise Strikes"
+        ]
+      }
+    },
+    "Brawler": {
+      "name": "Brawler",
+      "archetype": "Pugilist",
+      "base_hp": 5,
+      "stats": {
+        "Strength": {
+          "base": 3,
+          "max": 6
+        },
+        "Dexterity": {
+          "base": 2,
+          "max": 5
+        },
+        "Vitality": {
+          "base": 3,
+          "max": 6
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 2,
+          "max": 5
+        }
+      },
+      "perks": [
+        "Built Different",
+        "Lightning Reflexes",
+        "Well Connected",
+        "Bloodthirsty Rage",
+        "Got Your Back",
+        "Last Stand",
+        "Unarmed Defense"
+      ],
+      "armor": [
+        "Adventurers Clothes",
+        "Leather Armor"
+      ],
+      "weapons": [
+        "Unarmed",
+        "Improvised Weapon",
+        "Club",
+        "Dagger",
+        "Neural Augmentation"
+      ],
+      "maneuvers": [
+        "Fighter’s Cunning",
+        "Grapple",
+        "Size Up Opponent",
+        "Warrior’s Spirit",
+        "Read Intent",
+        "Rallying Call"
+      ],
+      "loot": [
+        "₽1200",
+        "Weapon",
+        "Held Item",
+        "Artisan’s Tools"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Lightning Reflexes",
+          "Well Connected"
+        ],
+        "Advanced / Expert": [
+          "Built Different",
+          "Unarmed Defense"
+        ],
+        "Ace / Master / Champion": [
+          "Bloodthirsty Rage",
+          "Got Your Back",
+          "Last Stand"
+        ]
+      }
+    },
+    "Bounty Hunter": {
+      "name": "Bounty Hunter",
+      "archetype": "Rogue",
+      "base_hp": 5,
+      "stats": {
+        "Strength": {
+          "base": 3,
+          "max": 6
+        },
+        "Dexterity": {
+          "base": 3,
+          "max": 6
+        },
+        "Vitality": {
+          "base": 2,
+          "max": 5
+        },
+        "Special": {
+          "base": 2,
+          "max": 4
+        },
+        "Insight": {
+          "base": 2,
+          "max": 5
+        }
+      },
+      "perks": [
+        "Dual Wielder",
+        "Lightning Reflexes",
+        "Tech Expert",
+        "Occultist",
+        "Scoundrel’s Intuition",
+        "Survivalist",
+        "Traveller",
+        "Well Connected",
+        "Beautiful Movements",
+        "Built Different",
+        "Gifted",
+        "Imbued Weapons",
+        "Monster Hunter",
+        "Martial Adept",
+        "Student of Life",
+        "Healing Nanobots",
+        "Evasive Training",
+        "Hit And Run",
+        "Intensive Training Regime",
+        "Last Stand",
+        "Precise Strikes",
+        "Pack Rattata",
+        "Unbreakable Will"
+      ],
+      "armor": [
+        "Leather Bracers",
+        "Leather Armor",
+        "Flak Armor"
+      ],
+      "weapons": [
+        "Aura",
+        "Knives",
+        "Sword",
+        "Firearm",
+        "Kunai",
+        "Polearms",
+        "Energy Weapon"
+      ],
+      "maneuvers": [
+        "Cunning Trap",
+        "Fight Dirty",
+        "Fighter’s Cunning",
+        "Grapple",
+        "Quick-Hack",
+        "Lay Of The Land",
+        "Masterful Distraction",
+        "Pocket Sand",
+        "Rallying Call",
+        "Rally Allies",
+        "Read Intent",
+        "Size Up Opponent",
+        "Unnatural Reflexes",
+        "Warrior’s Spirit"
+      ],
+      "loot": [
+        "₽2000",
+        "Weapon",
+        "Ammunition",
+        "Poke Ball",
+        "Map",
+        "Treasure",
+        "Held Item",
+        "Evolution Stone",
+        "Mega Stone"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Dual Wielder",
+          "Lightning Reflexes",
+          "Tech Expert",
+          "Occultist",
+          "Scoundrel’s Intuition",
+          "Survivalist",
+          "Traveller",
+          "Well Connected"
+        ],
+        "Advanced / Expert": [
+          "Beautiful Movements",
+          "Built Different",
+          "Gifted",
+          "Imbued Weapons",
+          "Monster Hunter",
+          "Martial Adept",
+          "Student of Life"
+        ],
+        "Ace / Master / Champion": [
+          "Healing Nanobots",
+          "Evasive Training",
+          "Hit And Run",
+          "Intensive Training Regime",
+          "Last Stand",
+          "Precise Strikes",
+          "Pack Rattata",
+          "Unbreakable Will"
+        ]
+      }
+    },
+    "City Watchman": {
+      "name": "City Watchman",
+      "archetype": "Warrior",
+      "base_hp": 5,
+      "stats": {
+        "Strength": {
+          "base": 2,
+          "max": 5
+        },
+        "Dexterity": {
+          "base": 2,
+          "max": 5
+        },
+        "Vitality": {
+          "base": 3,
+          "max": 6
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 3,
+          "max": 6
+        }
+      },
+      "perks": [
+        "Martial Adept",
+        "Lightning Reflexes",
+        "Well Connected",
+        "Student of Life"
+      ],
+      "armor": [
+        "Leather Armor",
+        "Chain Mail",
+        "Half Plate",
+        "Flak Armor"
+      ],
+      "weapons": [
+        "Mace",
+        "Sword",
+        "Crossbow",
+        "Spear",
+        "Energy Weapon"
+      ],
+      "maneuvers": [
+        "Fighter’s Cunning",
+        "Rallying Call",
+        "Rally Allies",
+        "Arceus Protect Me",
+        "Fight Dirty",
+        "Cunning Trap",
+        "Grapple"
+      ],
+      "loot": [
+        "₽2000",
+        "Weapon",
+        "Ammunition",
+        "Armor",
+        "Poke Ball",
+        "Potion",
+        "Rations"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Lightning Reflexes",
+          "Well Connected"
+        ],
+        "Advanced / Expert": [
+          "Martial Adept",
+          "Student of Life"
+        ],
+        "Ace / Master / Champion": []
+      }
+    },
+    "Cleric": {
+      "name": "Cleric",
+      "archetype": "Mystic",
+      "base_hp": 5,
+      "stats": {
+        "Strength": {
+          "base": 3,
+          "max": 6
+        },
+        "Dexterity": {
+          "base": 2,
+          "max": 5
+        },
+        "Vitality": {
+          "base": 2,
+          "max": 5
+        },
+        "Special": {
+          "base": 2,
+          "max": 5
+        },
+        "Insight": {
+          "base": 3,
+          "max": 6
+        }
+      },
+      "perks": [
+        "Inspiring Personality",
+        "Lightning Reflexes",
+        "Lucky",
+        "Master Chef",
+        "Occultist",
+        "Psionic Empowerment",
+        "Survivalist",
+        "Templar",
+        "Traveller",
+        "Alchemical Artisan",
+        "Aura Adept",
+        "Barber Surgeon",
+        "Imbued Weapons",
+        "Gifted",
+        "Intensive Training Regime",
+        "Student of Life",
+        "Got Your Back",
+        "Pack Rattata"
+      ],
+      "armor": [
+        "Leather Armor",
+        "Chainmail",
+        "Half Plate",
+        "Full Plate"
+      ],
+      "weapons": [
+        "Aura Adept",
+        "Mace",
+        "Hammer",
+        "Flail",
+        "Shield",
+        "Spear",
+        "Stave",
+        "Unarmed"
+      ],
+      "maneuvers": [
+        "Arceus Protect Me",
+        "Battlefield Bandaging",
+        "Challenge Honor",
+        "Fighter’s Cunning",
+        "Help",
+        "Inspire",
+        "Lay Of The Land",
+        "Paladins Protection",
+        "Rallying Call",
+        "Rally Allies",
+        "Read Intent",
+        "Size Up Opponent",
+        "Touch From Beyond",
+        "Warrior’s Spirit"
+      ],
+      "loot": [
+        "₽1500",
+        "Weapon",
+        "Armor",
+        "Berry",
+        "Potion",
+        "Herb",
+        "Held Item",
+        "Treasure"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Inspiring Personality",
+          "Lightning Reflexes",
+          "Lucky",
+          "Master Chef",
+          "Occultist",
+          "Psionic Empowerment",
+          "Survivalist",
+          "Templar",
+          "Traveller"
+        ],
+        "Advanced / Expert": [
+          "Alchemical Artisan",
+          "Aura Adept",
+          "Barber Surgeon",
+          "Imbued Weapons",
+          "Gifted",
+          "Student of Life"
+        ],
+        "Ace / Master / Champion": [
+          "Intensive Training Regime",
+          "Got Your Back",
+          "Pack Rattata"
+        ]
+      }
+    },
+    "Colosseum Star": {
+      "name": "Colosseum Star",
+      "archetype": "Warrior",
+      "base_hp": 5,
+      "stats": {
+        "Strength": {
+          "base": 3,
+          "max": 6
+        },
+        "Dexterity": {
+          "base": 2,
+          "max": 5
+        },
+        "Vitality": {
+          "base": 3,
+          "max": 6
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 3,
+          "max": 6
+        }
+      },
+      "perks": [
+        "Dual Wielder",
+        "Inspiring Personality",
+        "Lightning Reflexes",
+        "Lucky",
+        "Psionic Empowerment",
+        "Scoundrel’s Intuition",
+        "Well Connected",
+        "Gifted",
+        "Pokémon Master (In Training)",
+        "Student of Life",
+        "Templar",
+        "Aura Adept",
+        "Beautiful Movements",
+        "Built Different",
+        "Imbued Weapons",
+        "Martial Adept",
+        "Martial Arts Prodigy",
+        "Bloodthirsty Rage",
+        "Hit And Run",
+        "Got Your Back",
+        "Intensive Training Regime",
+        "Last Stand",
+        "Master Tactician",
+        "Unbreakable Will"
+      ],
+      "armor": [
+        "Leather Bracers",
+        "Leather Armor",
+        "Chain Mail",
+        "Half Plate"
+      ],
+      "weapons": [
+        "Aura",
+        "Axes",
+        "Club",
+        "Flail",
+        "Hammer",
+        "Mace",
+        "Great Weapon",
+        "Nunchaku",
+        "Spear",
+        "Polearm",
+        "Halberd",
+        "Daggers",
+        "Improvised Weapon",
+        "Sword",
+        "Shield"
+      ],
+      "maneuvers": [
+        "Arceus Protect Me",
+        "Challenge Honor",
+        "Cunning Trap",
+        "Fight Dirty",
+        "Fighter’s Cunning",
+        "Grapple",
+        "Inspire",
+        "Masterful Distraction",
+        "Paladin’s Protection",
+        "Pocket Sand",
+        "Rallying Call",
+        "Rally Allies",
+        "Read Intent",
+        "Size Up Opponent",
+        "Unnatural Reflexes"
+      ],
+      "loot": [
+        "₽3000",
+        "Poke Ball",
+        "Treasure",
+        "Held Item",
+        "Evolution Stone",
+        "Mega Stone",
+        "Z-Crystal"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Dual Wielder",
+          "Inspiring Personality",
+          "Lightning Reflexes",
+          "Lucky",
+          "Psionic Empowerment",
+          "Scoundrel’s Intuition",
+          "Well Connected",
+          "Templar"
+        ],
+        "Advanced / Expert": [
+          "Gifted",
+          "Pokémon Master (In Training)",
+          "Student of Life",
+          "Aura Adept",
+          "Beautiful Movements",
+          "Built Different",
+          "Imbued Weapons",
+          "Martial Adept",
+          "Martial Arts Prodigy"
+        ],
+        "Ace / Master / Champion": [
+          "Bloodthirsty Rage",
+          "Hit And Run",
+          "Got Your Back",
+          "Intensive Training Regime",
+          "Last Stand",
+          "Master Tactician",
+          "Unbreakable Will"
+        ]
+      }
+    },
+    "Corporate Executive": {
+      "name": "Corporate Executive",
+      "archetype": "Technomancer",
+      "base_hp": 4,
+      "stats": {
+        "Strength": {
+          "base": 2,
+          "max": 5
+        },
+        "Dexterity": {
+          "base": 2,
+          "max": 5
+        },
+        "Vitality": {
+          "base": 3,
+          "max": 6
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 3,
+          "max": 6
+        }
+      },
+      "perks": [
+        "Well Connected",
+        "Mono-Type Specialist",
+        "Tech Expert",
+        "Telepathic Bond",
+        "Healing Nanobots",
+        "Know Thy Enemy",
+        "Posthuman"
+      ],
+      "armor": [
+        "Unarmed",
+        "Flak Armor"
+      ],
+      "weapons": [
+        "Firearm",
+        "Energy Weapon",
+        "Neural Augmentation"
+      ],
+      "maneuvers": [
+        "Fight Dirty",
+        "Quick-Hack",
+        "Read Intent",
+        "Size Up Opponent"
+      ],
+      "loot": [
+        "₽2000",
+        "Weapon",
+        "Neural Augmentation",
+        "Poke Ball",
+        "Held Item"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Well Connected",
+          "Mono-Type Specialist",
+          "Tech Expert"
+        ],
+        "Advanced / Expert": [
+          "Telepathic Bond"
+        ],
+        "Ace / Master / Champion": [
+          "Healing Nanobots",
+          "Know Thy Enemy",
+          "Posthuman"
+        ]
+      }
+    },
+    "Detective": {
+      "name": "Detective",
+      "archetype": "Technomancer",
+      "base_hp": 4,
+      "stats": {
+        "Strength": {
+          "base": 3,
+          "max": 6
+        },
+        "Dexterity": {
+          "base": 3,
+          "max": 6
+        },
+        "Vitality": {
+          "base": 3,
+          "max": 6
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 4,
+          "max": 8
+        }
+      },
+      "perks": [
+        "Well Connected",
+        "Lucky",
+        "Occultist",
+        "Gifted",
+        "Shadow",
+        "Student of Life",
+        "Tech Expert",
+        "Telepathic Bond",
+        "Know Thy Enemy",
+        "Posthuman",
+        "Unbreakable Will"
+      ],
+      "armor": [
+        "Leather Bracers",
+        "Leather Armor",
+        "Half Plate",
+        "Full Plate"
+      ],
+      "weapons": [
+        "Firearm",
+        "Energy Weapon",
+        "Neural Augmentation"
+      ],
+      "maneuvers": [
+        "Cunning Trap",
+        "Fight Dirty",
+        "Quick-Hack",
+        "Lay Of The Land",
+        "Masterful Distraction",
+        "Unnatural Reflexes",
+        "Grapple",
+        "Size Up Opponent"
+      ],
+      "loot": [
+        "₽2000",
+        "Weapon",
+        "Neural Augmentation",
+        "Weapon",
+        "Poke Ball",
+        "Held Item"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Well Connected",
+          "Lucky",
+          "Occultist",
+          "Tech Expert"
+        ],
+        "Advanced / Expert": [
+          "Gifted",
+          "Shadow",
+          "Student of Life",
+          "Telepathic Bond"
+        ],
+        "Ace / Master / Champion": [
+          "Know Thy Enemy",
+          "Posthuman",
+          "Unbreakable Will"
+        ]
+      }
+    },
+    "Explorer": {
+      "name": "Explorer",
+      "archetype": "Pokémon Hunter",
+      "base_hp": 4,
+      "stats": {
+        "Strength": {
+          "base": 2,
+          "max": 5
+        },
+        "Dexterity": {
+          "base": 3,
+          "max": 6
+        },
+        "Vitality": {
+          "base": 2,
+          "max": 5
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 3,
+          "max": 6
+        }
+      },
+      "perks": [
+        "Dual Wielder",
+        "Fisherman",
+        "Inspiring Personality",
+        "Lucky",
+        "Master Chef",
+        "Occultist",
+        "Scoundrel’s Intuition",
+        "Survivalist",
+        "Traveller",
+        "Monster Hunter",
+        "Well Connected",
+        "Alchemical Artisan",
+        "Barber Surgeon",
+        "Beautiful Movements",
+        "Gifted",
+        "Imbued Weapons",
+        "Martial Adept",
+        "Pokémon Master (In Training)",
+        "Student of Life",
+        "Bloodthirsty Rage",
+        "Evasive Training",
+        "Got Your Back",
+        "Precise Strikes",
+        "Pack Rattata",
+        "Rift Walker",
+        "Unbreakable Will"
+      ],
+      "armor": [
+        "Leather Bracers",
+        "Leather Armor",
+        "Half Plate"
+      ],
+      "weapons": [
+        "Axe",
+        "Short Blade",
+        "Sword",
+        "Bow",
+        "Blowpipe",
+        "Firearm",
+        "Energy Weapon"
+      ],
+      "maneuvers": [
+        "Challenge Honor",
+        "Cunning Trap",
+        "Fight Dirty",
+        "Fighter’s Cunning",
+        "Grapple",
+        "Help",
+        "Inspire",
+        "Lay Of The Land",
+        "Masterful Distraction",
+        "Pocket Sand",
+        "Rallying Call",
+        "Rally Allies",
+        "Read Intent",
+        "Size Up Opponent"
+      ],
+      "loot": [
+        "₽1500",
+        "Weapon",
+        "Ammunition",
+        "Poke Ball",
+        "Herb",
+        "Map",
+        "Treasure",
+        "Held Item",
+        "Z-Crystal"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Dual Wielder",
+          "Fisherman",
+          "Inspiring Personality",
+          "Lucky",
+          "Master Chef",
+          "Occultist",
+          "Scoundrel’s Intuition",
+          "Survivalist",
+          "Traveller",
+          "Well Connected"
+        ],
+        "Advanced / Expert": [
+          "Monster Hunter",
+          "Alchemical Artisan",
+          "Barber Surgeon",
+          "Beautiful Movements",
+          "Gifted",
+          "Imbued Weapons",
+          "Martial Adept",
+          "Pokémon Master (In Training)",
+          "Student of Life"
+        ],
+        "Ace / Master / Champion": [
+          "Bloodthirsty Rage",
+          "Evasive Training",
+          "Got Your Back",
+          "Precise Strikes",
+          "Pack Rattata",
+          "Rift Walker",
+          "Unbreakable Will"
+        ]
+      }
+    },
+    "Guild Merchant": {
+      "name": "Guild Merchant",
+      "archetype": "Artisan",
+      "base_hp": 5,
+      "stats": {
+        "Strength": {
+          "base": 2,
+          "max": 5
+        },
+        "Dexterity": {
+          "base": 2,
+          "max": 5
+        },
+        "Vitality": {
+          "base": 3,
+          "max": 6
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 3,
+          "max": 6
+        }
+      },
+      "perks": [
+        "Inspiring Personality",
+        "Lucky",
+        "Master Chef",
+        "Survivalist",
+        "Traveller",
+        "Well Connected",
+        "Alchemical Artisan",
+        "Gifted",
+        "Student of Life",
+        "Got Your Back",
+        "Pack Rattata"
+      ],
+      "armor": [
+        "Leather Bracers",
+        "Leather Armor",
+        "Half Plate",
+        "Full Plate"
+      ],
+      "weapons": [
+        "Improvised Weapon",
+        "Sword",
+        "Firearm",
+        "Crossbow",
+        "Energy Weapon"
+      ],
+      "maneuvers": [
+        "Battlefield Bandaging",
+        "Challenge Honor",
+        "Fight Dirty",
+        "Fighter’s Cunning",
+        "Help",
+        "Hoennian Fire",
+        "Inspire",
+        "Lay Of The Land",
+        "Pocket Sand",
+        "Rallying Call",
+        "Rally Allies",
+        "Read Intent",
+        "Size Up Opponent"
+      ],
+      "loot": [
+        "₽2000",
+        "Ammunition",
+        "Berry",
+        "Potion",
+        "Poke Ball",
+        "Held Item",
+        "Treasure",
+        "Evolution Stone"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Inspiring Personality",
+          "Lucky",
+          "Master Chef",
+          "Survivalist",
+          "Traveller",
+          "Well Connected"
+        ],
+        "Advanced / Expert": [
+          "Alchemical Artisan",
+          "Gifted",
+          "Student of Life"
+        ],
+        "Ace / Master / Champion": [
+          "Got Your Back",
+          "Pack Rattata"
+        ]
+      }
+    },
+    "Gunslinger": {
+      "name": "Gunslinger",
+      "archetype": "Rogue",
+      "base_hp": 5,
+      "stats": {
+        "Strength": {
+          "base": 2,
+          "max": 5
+        },
+        "Dexterity": {
+          "base": 3,
+          "max": 6
+        },
+        "Vitality": {
+          "base": 3,
+          "max": 6
+        },
+        "Special": {
+          "base": 2,
+          "max": 4
+        },
+        "Insight": {
+          "base": 3,
+          "max": 6
+        }
+      },
+      "perks": [
+        "Dual Wielder",
+        "Inspiring Personality",
+        "Lightning Reflexes",
+        "Lucky",
+        "Scoundrel’s Intuition",
+        "Well Connected",
+        "Tech Expert",
+        "Gifted",
+        "Student of Life",
+        "Beautiful Movements",
+        "Bloodthirsty Rage",
+        "Hit And Run",
+        "Got Your Back",
+        "Last Stand",
+        "Master Tactician",
+        "Unbreakable Will"
+      ],
+      "armor": [
+        "Adventurers Clothes",
+        "Leather Bracers",
+        "Leather Armor",
+        "Flak Armor"
+      ],
+      "weapons": [
+        "Dagger",
+        "Firearm",
+        "Energy Weapon"
+      ],
+      "maneuvers": [
+        "Arceus Protect Me",
+        "Cunning Trap",
+        "Fight Dirty",
+        "Fighter’s Cunning",
+        "Grapple",
+        "Inspire",
+        "Masterful Distraction",
+        "Pocket Sand",
+        "Rallying Call",
+        "Rally Allies",
+        "Read Intent",
+        "Size Up Opponent",
+        "Unnatural Reflexes",
+        "Warrior’s Spirit"
+      ],
+      "loot": [
+        "₽1500",
+        "Ammunition",
+        "Weapon",
+        "Poke Ball",
+        "Treasure",
+        "Held Item"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Dual Wielder",
+          "Inspiring Personality",
+          "Lightning Reflexes",
+          "Lucky",
+          "Scoundrel’s Intuition",
+          "Well Connected",
+          "Tech Expert"
+        ],
+        "Advanced / Expert": [
+          "Gifted",
+          "Student of Life",
+          "Beautiful Movements"
+        ],
+        "Ace / Master / Champion": [
+          "Bloodthirsty Rage",
+          "Hit And Run",
+          "Got Your Back",
+          "Last Stand",
+          "Master Tactician",
+          "Unbreakable Will"
+        ]
+      }
+    },
+    "Hacker": {
+      "name": "Hacker",
+      "archetype": "Technomancer",
+      "base_hp": 4,
+      "stats": {
+        "Strength": {
+          "base": 2,
+          "max": 5
+        },
+        "Dexterity": {
+          "base": 2,
+          "max": 5
+        },
+        "Vitality": {
+          "base": 2,
+          "max": 5
+        },
+        "Special": {
+          "base": 3,
+          "max": 6
+        },
+        "Insight": {
+          "base": 4,
+          "max": 8
+        }
+      },
+      "perks": [
+        "Well Connected",
+        "Mono-Type Specialist",
+        "Tech Expert",
+        "Telepathic Bond",
+        "Healing Nanobots",
+        "Know Thy Enemy",
+        "Posthuman"
+      ],
+      "armor": [
+        "Leather Bracers",
+        "Leather Armor",
+        "Half Plate",
+        "Full Plate"
+      ],
+      "weapons": [
+        "Firearm",
+        "Energy Weapon",
+        "Dagger",
+        "Neural Augmentation"
+      ],
+      "maneuvers": [
+        "Cunning Trap",
+        "Fight Dirty",
+        "Quick-Hack",
+        "Lay Of The Land",
+        "Masterful Distraction",
+        "Psy-Knack",
+        "Unnatural Reflexes",
+        "Mesmeric Command"
+      ],
+      "loot": [
+        "₽2000",
+        "Weapon",
+        "Neural Augmentation",
+        "Poke Ball",
+        "Held Item"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Well Connected",
+          "Mono-Type Specialist",
+          "Tech Expert"
+        ],
+        "Advanced / Expert": [
+          "Telepathic Bond"
+        ],
+        "Ace / Master / Champion": [
+          "Healing Nanobots",
+          "Know Thy Enemy",
+          "Posthuman"
+        ]
+      }
+    },
+    "Healer": {
+      "name": "Healer",
+      "archetype": "Artisan",
+      "base_hp": 5,
+      "stats": {
+        "Strength": {
+          "base": 2,
+          "max": 5
+        },
+        "Dexterity": {
+          "base": 3,
+          "max": 6
+        },
+        "Vitality": {
+          "base": 2,
+          "max": 5
+        },
+        "Special": {
+          "base": 3,
+          "max": 6
+        },
+        "Insight": {
+          "base": 3,
+          "max": 6
+        }
+      },
+      "perks": [
+        "Inspiring Personality",
+        "Lucky",
+        "Occultist",
+        "Psionic Empowerment",
+        "Survivalist",
+        "Traveller",
+        "Well Connected",
+        "Alchemical Artisan",
+        "Barber Surgeon",
+        "Imbued Weapons",
+        "Gifted",
+        "Intensive Training Regime",
+        "Student of Life",
+        "Got Your Back",
+        "Pack Rattata"
+      ],
+      "armor": [
+        "Leather Bracers",
+        "Leather Armor"
+      ],
+      "weapons": [
+        "Aura",
+        "Improvised Weapon",
+        "Channelling Combat Skill",
+        "Stave",
+        "Unarmed"
+      ],
+      "maneuvers": [
+        "Arceus Protect Me",
+        "Battlefield Bandaging",
+        "Lay Of The Land",
+        "Help",
+        "Paladins Protection",
+        "Psy-Knack",
+        "Size Up Opponent",
+        "Unnatural Reflexes"
+      ],
+      "loot": [
+        "₽2000",
+        "Berry",
+        "Potion",
+        "Herb",
+        "Held Item"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Inspiring Personality",
+          "Lucky",
+          "Occultist",
+          "Psionic Empowerment",
+          "Survivalist",
+          "Traveller",
+          "Well Connected"
+        ],
+        "Advanced / Expert": [
+          "Alchemical Artisan",
+          "Barber Surgeon",
+          "Imbued Weapons",
+          "Gifted",
+          "Student of Life"
+        ],
+        "Ace / Master / Champion": [
+          "Intensive Training Regime",
+          "Got Your Back",
+          "Pack Rattata"
+        ]
+      }
+    },
+    "Knight": {
+      "name": "Knight",
+      "archetype": "Warrior",
+      "base_hp": 6,
+      "stats": {
+        "Strength": {
+          "base": 3,
+          "max": 6
+        },
+        "Dexterity": {
+          "base": 3,
+          "max": 6
+        },
+        "Vitality": {
+          "base": 3,
+          "max": 6
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 3,
+          "max": 6
+        }
+      },
+      "perks": [
+        "Inspiring Personality",
+        "Lightning Reflexes",
+        "Lucky",
+        "Templar",
+        "Traveller",
+        "Well Connected",
+        "Beautiful Movements",
+        "Built Different",
+        "Gifted",
+        "Martial Adept",
+        "Pokémon Master (In Training)",
+        "Student of Life",
+        "Bloodthirsty Rage",
+        "Evasive Training",
+        "Got Your Back",
+        "Hit And Run",
+        "Intensive Training Regime",
+        "Last Stand",
+        "Precise Strikes",
+        "Unbreakable Will"
+      ],
+      "armor": [
+        "Half Plate",
+        "Full Plate"
+      ],
+      "weapons": [
+        "Halberd",
+        "Spear",
+        "Sword",
+        "Great Weapon",
+        "Mace",
+        "Shield"
+      ],
+      "maneuvers": [
+        "Arceus Protect Me",
+        "Battlefield Bandaging",
+        "Challenge Honor",
+        "Fighter’s Cunning",
+        "Grapple",
+        "Help",
+        "Inspire",
+        "Paladin’s Protection",
+        "Rallying Call",
+        "Rally Allies",
+        "Read Intent",
+        "Size Up Opponent",
+        "Unnatural Reflexes",
+        "Warrior’s Spirit"
+      ],
+      "loot": [
+        "₽1000",
+        "Weapon",
+        "Armor",
+        "Poke Ball",
+        "Rations",
+        "Treasure"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Inspiring Personality",
+          "Lightning Reflexes",
+          "Lucky",
+          "Templar",
+          "Traveller",
+          "Well Connected"
+        ],
+        "Advanced / Expert": [
+          "Beautiful Movements",
+          "Built Different",
+          "Gifted",
+          "Martial Adept",
+          "Pokémon Master (In Training)",
+          "Student of Life"
+        ],
+        "Ace / Master / Champion": [
+          "Bloodthirsty Rage",
+          "Evasive Training",
+          "Got Your Back",
+          "Hit And Run",
+          "Intensive Training Regime",
+          "Last Stand",
+          "Precise Strikes",
+          "Unbreakable Will"
+        ]
+      }
+    },
+    "Martial Artist": {
+      "name": "Martial Artist",
+      "archetype": "Pugilist",
+      "base_hp": 5,
+      "stats": {
+        "Strength": {
+          "base": 3,
+          "max": 6
+        },
+        "Dexterity": {
+          "base": 3,
+          "max": 6
+        },
+        "Vitality": {
+          "base": 3,
+          "max": 6
+        },
+        "Special": {
+          "base": 2,
+          "max": 5
+        },
+        "Insight": {
+          "base": 3,
+          "max": 6
+        }
+      },
+      "perks": [
+        "Lightning Reflexes",
+        "Psionic Empowerment",
+        "Scoundrel’s Intuition",
+        "Aura Adept",
+        "Gifted",
+        "Martial Arts Prodigy",
+        "Pokémon Master (In Training)",
+        "Student of Life",
+        "Evasive Training",
+        "Bloodthirsty Rage",
+        "Got Your Back",
+        "Hit And Run",
+        "Intensive Training Regime",
+        "Last Stand",
+        "Master Tactician",
+        "Precise Strikes",
+        "Unbreakable Will"
+      ],
+      "armor": [
+        "Adventurers Clothes",
+        "Leather Bracers",
+        "Leather Armor"
+      ],
+      "weapons": [
+        "Aura",
+        "Unarmed",
+        "Improvised Weapon",
+        "Nunchaku",
+        "Stave"
+      ],
+      "maneuvers": [
+        "Fighter’s Cunning",
+        "Challenge Honor",
+        "Size Up Opponent",
+        "Warrior’s Spirit",
+        "Read Intent",
+        "Rallying Call",
+        "Unnatural Reflexes",
+        "Rallying Call",
+        "Rally Allies",
+        "Grapple",
+        "Help",
+        "Inspire",
+        "Paladin’s Protection"
+      ],
+      "loot": [
+        "₽1000",
+        "Poke Ball",
+        "Berry",
+        "Herb",
+        "Held Item",
+        "Evolution Stone",
+        "Mega Stone"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Lightning Reflexes",
+          "Psionic Empowerment",
+          "Scoundrel’s Intuition"
+        ],
+        "Advanced / Expert": [
+          "Aura Adept",
+          "Gifted",
+          "Martial Arts Prodigy",
+          "Pokémon Master (In Training)",
+          "Student of Life"
+        ],
+        "Ace / Master / Champion": [
+          "Evasive Training",
+          "Bloodthirsty Rage",
+          "Got Your Back",
+          "Hit And Run",
+          "Intensive Training Regime",
+          "Last Stand",
+          "Master Tactician",
+          "Precise Strikes",
+          "Unbreakable Will"
+        ]
+      }
+    },
+    "Medium": {
+      "name": "Medium",
+      "archetype": "Mystic",
+      "base_hp": 4,
+      "stats": {
+        "Strength": {
+          "base": 2,
+          "max": 5
+        },
+        "Dexterity": {
+          "base": 2,
+          "max": 5
+        },
+        "Vitality": {
+          "base": 2,
+          "max": 5
+        },
+        "Special": {
+          "base": 4,
+          "max": 8
+        },
+        "Insight": {
+          "base": 4,
+          "max": 8
+        }
+      },
+      "perks": [
+        "Occultist",
+        "Psionic Empowerment",
+        "Talented Medium",
+        "Ghost Touched"
+      ],
+      "armor": [
+        "Adventures Clothes",
+        "Leather Bracers",
+        "Leather Armor"
+      ],
+      "weapons": [
+        "Dagger",
+        "Stave",
+        "Channelling Combat Skill",
+        "Aura Combat Skill"
+      ],
+      "maneuvers": [
+        "Read Intent",
+        "Psy-Knack",
+        "Lay Of The Land",
+        "Hoennian Fire",
+        "Help",
+        "Fight Dirty",
+        "Unnatural Reflexes",
+        "Touch From Beyond"
+      ],
+      "loot": [
+        "₽1200",
+        "Weapon",
+        "Armor",
+        "Poke Ball",
+        "Held Item",
+        "Herb"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Occultist",
+          "Psionic Empowerment"
+        ],
+        "Advanced / Expert": [
+          "Talented Medium"
+        ],
+        "Ace / Master / Champion": [
+          "Ghost Touched"
+        ]
+      }
+    },
+    "Mercenary": {
+      "name": "Mercenary",
+      "archetype": "Warrior",
+      "base_hp": 5,
+      "stats": {
+        "Strength": {
+          "base": 3,
+          "max": 6
+        },
+        "Dexterity": {
+          "base": 3,
+          "max": 6
+        },
+        "Vitality": {
+          "base": 3,
+          "max": 6
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 2,
+          "max": 5
+        }
+      },
+      "perks": [
+        "Dual Wielder",
+        "Inspiring Personality",
+        "Lightning Reflexes",
+        "Lucky",
+        "Psionic Empowerment",
+        "Scoundrel’s Intuition",
+        "Well Connected",
+        "Gifted",
+        "Pokémon Master (In Training)",
+        "Student of Life",
+        "Templar",
+        "Aura Adept",
+        "Beautiful Movements",
+        "Built Different",
+        "Imbued Weapons",
+        "Martial Adept",
+        "Martial Arts Prodigy",
+        "Bloodthirsty Rage",
+        "Hit And Run",
+        "Got Your Back",
+        "Intensive Training Regime",
+        "Last Stand",
+        "Master Tactician",
+        "Unbreakable Will"
+      ],
+      "armor": [
+        "Leather Bracers",
+        "Leather Armor",
+        "Chain Mail",
+        "Half Plate",
+        "Flak Armor"
+      ],
+      "weapons": [
+        "Axe",
+        "Hammer",
+        "Mace",
+        "Great Weapon",
+        "Spear",
+        "Halberd",
+        "Daggers",
+        "Sword",
+        "Shield",
+        "Crossbow",
+        "Bow",
+        "Firearm",
+        "Energy Weapon"
+      ],
+      "maneuvers": [
+        "Arceus Protect Me",
+        "Cunning Trap",
+        "Fight Dirty",
+        "Fighter’s Cunning",
+        "Grapple",
+        "Inspire",
+        "Masterful Distraction",
+        "Paladin’s Protection",
+        "Pocket Sand",
+        "Rallying Call",
+        "Rally Allies",
+        "Read Intent",
+        "Size Up Opponent",
+        "Unnatural Reflexes",
+        "Warrior’s Spirit"
+      ],
+      "loot": [
+        "₽1000",
+        "Poke Ball",
+        "Potion",
+        "Treasure",
+        "Held Item Map"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Dual Wielder",
+          "Inspiring Personality",
+          "Lightning Reflexes",
+          "Lucky",
+          "Psionic Empowerment",
+          "Scoundrel’s Intuition",
+          "Well Connected",
+          "Templar"
+        ],
+        "Advanced / Expert": [
+          "Gifted",
+          "Pokémon Master (In Training)",
+          "Student of Life",
+          "Aura Adept",
+          "Beautiful Movements",
+          "Built Different",
+          "Imbued Weapons",
+          "Martial Adept",
+          "Martial Arts Prodigy"
+        ],
+        "Ace / Master / Champion": [
+          "Bloodthirsty Rage",
+          "Hit And Run",
+          "Got Your Back",
+          "Intensive Training Regime",
+          "Last Stand",
+          "Master Tactician",
+          "Unbreakable Will"
+        ]
+      }
+    },
+    "Monk": {
+      "name": "Monk",
+      "archetype": "Pugilist",
+      "base_hp": 4,
+      "stats": {
+        "Strength": {
+          "base": 2,
+          "max": 5
+        },
+        "Dexterity": {
+          "base": 3,
+          "max": 6
+        },
+        "Vitality": {
+          "base": 2,
+          "max": 5
+        },
+        "Special": {
+          "base": 2,
+          "max": 4
+        },
+        "Insight": {
+          "base": 3,
+          "max": 6
+        }
+      },
+      "perks": [
+        "Aura Adept",
+        "Lucky",
+        "Templar",
+        "Beautiful Movements",
+        "Student of Life",
+        "Martial Arts Prodigy",
+        "Enlightenment",
+        "Precise Strikes",
+        "Evasive Training",
+        "Meditations On Levitation"
+      ],
+      "armor": [
+        "Adventures Clothes",
+        "Leather Bracers",
+        "Leather Armor"
+      ],
+      "weapons": [
+        "Aura Combat Skill",
+        "Improvised Weapon",
+        "Unarmed",
+        "Stave",
+        "Nunchaku"
+      ],
+      "maneuvers": [
+        "Unnatural Reflexes",
+        "Touch From Beyond",
+        "Psy-Knack",
+        "Challenge Honor",
+        "Fight Dirty",
+        "Grapple",
+        "Masterful Distraction",
+        "Read Intent"
+      ],
+      "loot": [
+        "₽1000",
+        "Poke Ball",
+        "Held Item",
+        "Potion",
+        "Herb",
+        "Berry",
+        "Evolution Stone"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Lucky",
+          "Templar"
+        ],
+        "Advanced / Expert": [
+          "Aura Adept",
+          "Beautiful Movements",
+          "Student of Life",
+          "Martial Arts Prodigy"
+        ],
+        "Ace / Master / Champion": [
+          "Enlightenment",
+          "Precise Strikes",
+          "Evasive Training",
+          "Meditations On Levitation"
+        ]
+      }
+    },
+    "Ninja": {
+      "name": "Ninja",
+      "archetype": "Rogue",
+      "base_hp": 5,
+      "stats": {
+        "Strength": {
+          "base": 3,
+          "max": 6
+        },
+        "Dexterity": {
+          "base": 4,
+          "max": 8
+        },
+        "Vitality": {
+          "base": 2,
+          "max": 5
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 2,
+          "max": 5
+        }
+      },
+      "perks": [
+        "Dual Wielder",
+        "Lightning Reflexes",
+        "Lucky",
+        "Scoundrel’s Intuition",
+        "Alchemical Artisan",
+        "Aura Adept",
+        "Beautiful Movements",
+        "Gifted",
+        "Imbued Weapons",
+        "Martial Arts Prodigy",
+        "Student of Life",
+        "Bloodthirsty Rage",
+        "Evasive Training",
+        "Ghost Touched",
+        "Hit And Run",
+        "Intensive Training Regime",
+        "Last Stand",
+        "Master Tactician",
+        "Pack Rattata",
+        "Precise Strikes",
+        "Rift Walker",
+        "Unbreakable Will"
+      ],
+      "armor": [
+        "Leather Bracers",
+        "Leather Armor"
+      ],
+      "weapons": [
+        "Aura",
+        "Short Blade",
+        "Sword",
+        "Blowpipe",
+        "Crossbow",
+        "Kunai",
+        "Throwing Stars",
+        "Nunchaku"
+      ],
+      "maneuvers": [
+        "Cunning Trap",
+        "Fight Dirty",
+        "Fighter’s Cunning",
+        "Hoennian Fire",
+        "Lay Of The Land",
+        "Masterful Distraction",
+        "Pocket Sand",
+        "Rally Allies",
+        "Read Intent",
+        "Size Up Opponent",
+        "Unnatural Reflexes",
+        "Warrior’s Spirit"
+      ],
+      "loot": [
+        "₽1750",
+        "Weapon",
+        "Poke Ball",
+        "Held Item",
+        "Artisans Tools"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Dual Wielder",
+          "Lightning Reflexes",
+          "Lucky",
+          "Scoundrel’s Intuition"
+        ],
+        "Advanced / Expert": [
+          "Alchemical Artisan",
+          "Aura Adept",
+          "Beautiful Movements",
+          "Gifted",
+          "Imbued Weapons",
+          "Martial Arts Prodigy",
+          "Student of Life"
+        ],
+        "Ace / Master / Champion": [
+          "Bloodthirsty Rage",
+          "Evasive Training",
+          "Ghost Touched",
+          "Hit And Run",
+          "Intensive Training Regime",
+          "Last Stand",
+          "Master Tactician",
+          "Pack Rattata",
+          "Precise Strikes",
+          "Rift Walker",
+          "Unbreakable Will"
+        ]
+      }
+    },
+    "Paladin": {
+      "name": "Paladin",
+      "archetype": "Warrior",
+      "base_hp": 6,
+      "stats": {
+        "Strength": {
+          "base": 3,
+          "max": 6
+        },
+        "Dexterity": {
+          "base": 2,
+          "max": 5
+        },
+        "Vitality": {
+          "base": 3,
+          "max": 6
+        },
+        "Special": {
+          "base": 1,
+          "max": 3
+        },
+        "Insight": {
+          "base": 3,
+          "max": 6
+        }
+      },
+      "perks": [
+        "Martial Adept",
+        "Templar",
+        "Traveller",
+        "Dual Wielder",
+        "Inspiring Personality",
+        "Beautiful Movements",
+        "Gifted",
+        "Enlightenment",
+        "Got Your Back",
+        "Master Tactician",
+        "Precise Strikes",
+        "Unbreakable Will"
+      ],
+      "armor": [
+        "Chain Mail",
+        "Half Plate",
+        "Full Plate"
+      ],
+      "weapons": [
+        "Axe",
+        "Sword",
+        "Spear",
+        "Shield",
+        "Hammer",
+        "Mace"
+      ],
+      "maneuvers": [
+        "Inspire",
+        "Rallying Call",
+        "Battlefield Bandaging",
+        "Warrior’s Spirit",
+        "Arceus Protect Me",
+        "Paladin’s Protection"
+      ],
+      "loot": [
+        "₽2000",
+        "Weapon",
+        "Armor",
+        "Poke Ball",
+        "Potion",
+        "Rations",
+        "Herb",
+        "Treasure"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Templar",
+          "Traveller",
+          "Dual Wielder",
+          "Inspiring Personality"
+        ],
+        "Advanced / Expert": [
+          "Martial Adept",
+          "Beautiful Movements",
+          "Gifted"
+        ],
+        "Ace / Master / Champion": [
+          "Enlightenment",
+          "Got Your Back",
+          "Master Tactician",
+          "Precise Strikes",
+          "Unbreakable Will"
+        ]
+      }
+    },
+    "Pilot": {
+      "name": "Pilot",
+      "archetype": "Rogue",
+      "base_hp": 5,
+      "stats": {
+        "Strength": {
+          "base": 2,
+          "max": 5
+        },
+        "Dexterity": {
+          "base": 3,
+          "max": 6
+        },
+        "Vitality": {
+          "base": 2,
+          "max": 5
+        },
+        "Special": {
+          "base": 1,
+          "max": 3
+        },
+        "Insight": {
+          "base": 3,
+          "max": 6
+        }
+      },
+      "perks": [
+        "Scoundrel’s Intuition",
+        "Tech Expert",
+        "Inspiring Personality",
+        "Beautiful Movements",
+        "Expert Captain",
+        "Healing Nanobots",
+        "Evasive Training",
+        "Combat Medic"
+      ],
+      "armor": [
+        "Leather Bracers",
+        "Leather Armor",
+        "Carapace Armor"
+      ],
+      "weapons": [
+        "Dagger",
+        "Firearm",
+        "Energy Weapon"
+      ],
+      "maneuvers": [
+        "Quick-Hack",
+        "Battlefield Bandaging",
+        "Lay of the Land",
+        "Read Intent"
+      ],
+      "loot": [
+        "₽5000",
+        "Weapon",
+        "Ammunition",
+        "Poke Ball",
+        "Treasure",
+        "Held Item"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Scoundrel’s Intuition",
+          "Tech Expert",
+          "Inspiring Personality"
+        ],
+        "Advanced / Expert": [
+          "Beautiful Movements",
+          "Expert Captain",
+          "Combat Medic"
+        ],
+        "Ace / Master / Champion": [
+          "Healing Nanobots",
+          "Evasive Training"
+        ]
+      }
+    },
+    "Pirate": {
+      "name": "Pirate",
+      "archetype": "Rogue",
+      "base_hp": 5,
+      "stats": {
+        "Strength": {
+          "base": 2,
+          "max": 5
+        },
+        "Dexterity": {
+          "base": 3,
+          "max": 6
+        },
+        "Vitality": {
+          "base": 3,
+          "max": 6
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 2,
+          "max": 5
+        }
+      },
+      "perks": [
+        "Scoundrel’s Intuition",
+        "Dual Wielder",
+        "Inspiring Personality",
+        "Beautiful Movements",
+        "Barber Surgeon",
+        "Expert Captain"
+      ],
+      "armor": [
+        "Leather Bracers",
+        "Leather Armor",
+        "Carapace Armor"
+      ],
+      "weapons": [
+        "Dagger",
+        "Sword",
+        "Firearm",
+        "Energy Weapon"
+      ],
+      "maneuvers": [
+        "Fight Dirty",
+        "Size Up Opponent",
+        "Rallying Call",
+        "Rally Allies",
+        "Battlefield Bandaging"
+      ],
+      "loot": [
+        "₽1500",
+        "Weapon",
+        "Ammunition",
+        "Poke Ball",
+        "Treasure",
+        "Held Item"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Scoundrel’s Intuition",
+          "Dual Wielder",
+          "Inspiring Personality"
+        ],
+        "Advanced / Expert": [
+          "Beautiful Movements",
+          "Barber Surgeon",
+          "Expert Captain"
+        ],
+        "Ace / Master / Champion": []
+      }
+    },
+    "Poacher": {
+      "name": "Poacher",
+      "archetype": "Pokémon Hunter",
+      "base_hp": 5,
+      "stats": {
+        "Strength": {
+          "base": 3,
+          "max": 6
+        },
+        "Dexterity": {
+          "base": 3,
+          "max": 6
+        },
+        "Vitality": {
+          "base": 2,
+          "max": 5
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 2,
+          "max": 5
+        }
+      },
+      "perks": [
+        "Dual Wielder",
+        "Fisherman",
+        "Lightning Reflexes",
+        "Occultist",
+        "Scoundrel’s Intuition",
+        "Survivalist",
+        "Traveller",
+        "Well Connected",
+        "Beautiful Movements",
+        "Built Different",
+        "Gifted",
+        "Imbued Weapons",
+        "Monster Hunter",
+        "Martial Adept",
+        "Student of Life",
+        "Bloodthirsty Rage",
+        "Evasive Training",
+        "Hit And Run",
+        "Intensive Training Regime",
+        "Last Stand",
+        "Precise Strikes",
+        "Pack Rattata",
+        "Unbreakable Will"
+      ],
+      "armor": [
+        "Leather Bracers",
+        "Leather Armor",
+        "Chain Mail",
+        "Half Plate"
+      ],
+      "weapons": [
+        "Axe",
+        "Knives",
+        "Sword",
+        "Blowpipe",
+        "Firearm",
+        "Kunai",
+        "Polearms"
+      ],
+      "maneuvers": [
+        "Cunning Trap",
+        "Fight Dirty",
+        "Fighter’s Cunning",
+        "Grapple",
+        "Hoennian Fire",
+        "Lay Of The Land",
+        "Masterful Distraction",
+        "Pocket Sand",
+        "Rallying Call",
+        "Rally Allies",
+        "Read Intent",
+        "Size Up Opponent",
+        "Unnatural Reflexes",
+        "Warrior’s Spirit"
+      ],
+      "loot": [
+        "₽1500",
+        "Weapon",
+        "Ammunition",
+        "Poke Ball",
+        "Map",
+        "Treasure",
+        "Held Item",
+        "Evolution Stone",
+        "Mega Stone"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Dual Wielder",
+          "Fisherman",
+          "Lightning Reflexes",
+          "Occultist",
+          "Scoundrel’s Intuition",
+          "Survivalist",
+          "Traveller",
+          "Well Connected"
+        ],
+        "Advanced / Expert": [
+          "Beautiful Movements",
+          "Built Different",
+          "Gifted",
+          "Imbued Weapons",
+          "Monster Hunter",
+          "Martial Adept",
+          "Student of Life"
+        ],
+        "Ace / Master / Champion": [
+          "Bloodthirsty Rage",
+          "Evasive Training",
+          "Hit And Run",
+          "Intensive Training Regime",
+          "Last Stand",
+          "Precise Strikes",
+          "Pack Rattata",
+          "Unbreakable Will"
+        ]
+      }
+    },
+    "Pokémon Duellist": {
+      "name": "Pokémon Duellist",
+      "archetype": "Bard",
+      "base_hp": 4,
+      "stats": {
+        "Strength": {
+          "base": 2,
+          "max": 5
+        },
+        "Dexterity": {
+          "base": 2,
+          "max": 5
+        },
+        "Vitality": {
+          "base": 2,
+          "max": 5
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 4,
+          "max": 8
+        }
+      },
+      "perks": [
+        "Scoundrel’s Intuition",
+        "Inspiring Personality",
+        "Lucky",
+        "Mono-Type Specialist",
+        "Survivalist",
+        "Traveller",
+        "Well Connected",
+        "Gifted",
+        "Pokémon Master (In Training)",
+        "Student of Life",
+        "Monster Hunter",
+        "Enlightenment",
+        "Got Your Back",
+        "Hit And Run",
+        "Intensive Training Regime",
+        "Unbreakable Will"
+      ],
+      "armor": [
+        "Adventurer’s Clothes",
+        "Leather Bracers",
+        "Leather Armor"
+      ],
+      "weapons": [
+        "Aura",
+        "Improvised Weapon",
+        "Channelling",
+        "Sword",
+        "Energy Weapon"
+      ],
+      "maneuvers": [
+        "Arceus Protect Me",
+        "Challenge Honor",
+        "Fight Dirty",
+        "Fighter’s Cunning",
+        "Help",
+        "Psy-Knack",
+        "Rallying Call",
+        "Rally Allies",
+        "Read Intent"
+      ],
+      "loot": [
+        "₽1500",
+        "Berry",
+        "Potion",
+        "Poke Ball",
+        "Held Item",
+        "Evolution Stone",
+        "Mega Stone",
+        "Z-Crystal"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Scoundrel’s Intuition",
+          "Inspiring Personality",
+          "Lucky",
+          "Mono-Type Specialist",
+          "Survivalist",
+          "Traveller",
+          "Well Connected"
+        ],
+        "Advanced / Expert": [
+          "Gifted",
+          "Pokémon Master (In Training)",
+          "Student of Life",
+          "Monster Hunter"
+        ],
+        "Ace / Master / Champion": [
+          "Enlightenment",
+          "Got Your Back",
+          "Hit And Run",
+          "Intensive Training Regime",
+          "Unbreakable Will"
+        ]
+      }
+    },
+    "Psychic": {
+      "name": "Psychic",
+      "archetype": "Mystic",
+      "base_hp": 5,
+      "stats": {
+        "Strength": {
+          "base": 3,
+          "max": 6
+        },
+        "Dexterity": {
+          "base": 3,
+          "max": 6
+        },
+        "Vitality": {
+          "base": 2,
+          "max": 5
+        },
+        "Special": {
+          "base": 4,
+          "max": 8
+        },
+        "Insight": {
+          "base": 3,
+          "max": 6
+        }
+      },
+      "perks": [
+        "Occultist",
+        "Psionic Empowerment",
+        "Inspiring Personality",
+        "Well Connected",
+        "Aura Adept",
+        "Psionic Overload",
+        "Enlightenment",
+        "Evasive Training",
+        "Hit And Run",
+        "Meditations On Levitation",
+        "Rift Walker"
+      ],
+      "armor": [
+        "Adventures Clothes",
+        "Leather Bracers",
+        "Leather Armor",
+        "Carapace Armor"
+      ],
+      "weapons": [
+        "Channelling Combat Skill",
+        "Unarmed"
+      ],
+      "maneuvers": [
+        "Unnatural Reflexes",
+        "Touch From Beyond",
+        "Psy-Knack",
+        "Challenge Honor",
+        "Fight Dirty",
+        "Grapple",
+        "Masterful Distraction",
+        "Read Intent",
+        "Mesmeric Command"
+      ],
+      "loot": [
+        "₽1000",
+        "Poke Ball",
+        "Held Item",
+        "Herb",
+        "Treasure",
+        "Supplement",
+        "Berry"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Occultist",
+          "Psionic Empowerment",
+          "Inspiring Personality",
+          "Well Connected"
+        ],
+        "Advanced / Expert": [
+          "Aura Adept",
+          "Psionic Overload"
+        ],
+        "Ace / Master / Champion": [
+          "Enlightenment",
+          "Evasive Training",
+          "Hit And Run",
+          "Meditations On Levitation",
+          "Rift Walker"
+        ]
+      }
+    },
+    "Samurai": {
+      "name": "Samurai",
+      "archetype": "Warrior",
+      "base_hp": 5,
+      "stats": {
+        "Strength": {
+          "base": 3,
+          "max": 6
+        },
+        "Dexterity": {
+          "base": 2,
+          "max": 5
+        },
+        "Vitality": {
+          "base": 3,
+          "max": 6
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 3,
+          "max": 6
+        }
+      },
+      "perks": [
+        "Inspiring Personality",
+        "Martial Adept",
+        "Lightning Reflexes",
+        "Barber Surgeon",
+        "Traveller",
+        "Well Connected",
+        "Beautiful Movements",
+        "Built Different",
+        "Gifted",
+        "Student of Life",
+        "Bloodthirsty Rage",
+        "Evasive Training",
+        "Intensive Training Regime",
+        "Last Stand",
+        "Precise Strikes",
+        "Unbreakable Will"
+      ],
+      "armor": [
+        "Leather Armor",
+        "Chainmail",
+        "Half Plate"
+      ],
+      "weapons": [
+        "Short Blade",
+        "Sword",
+        "Polearms",
+        "Long Bow"
+      ],
+      "maneuvers": [
+        "Challenge Honor",
+        "Fighter’s Cunning",
+        "Grapple",
+        "Paladin’s Protection",
+        "Rally Allies",
+        "Read Intent",
+        "Size Up Opponent",
+        "Unnatural Reflexes",
+        "Warrior’s Spirit"
+      ],
+      "loot": [
+        "₽2000",
+        "Weapon",
+        "Armor",
+        "Ammunition",
+        "Poke Ball",
+        "Rations"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Inspiring Personality",
+          "Lightning Reflexes",
+          "Traveller",
+          "Well Connected"
+        ],
+        "Advanced / Expert": [
+          "Martial Adept",
+          "Barber Surgeon",
+          "Beautiful Movements",
+          "Built Different",
+          "Gifted",
+          "Student of Life"
+        ],
+        "Ace / Master / Champion": [
+          "Bloodthirsty Rage",
+          "Evasive Training",
+          "Intensive Training Regime",
+          "Last Stand",
+          "Precise Strikes",
+          "Unbreakable Will"
+        ]
+      }
+    },
+    "Soldier": {
+      "name": "Soldier",
+      "archetype": "Warrior",
+      "base_hp": 5,
+      "stats": {
+        "Strength": {
+          "base": 3,
+          "max": 6
+        },
+        "Dexterity": {
+          "base": 2,
+          "max": 5
+        },
+        "Vitality": {
+          "base": 3,
+          "max": 6
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 2,
+          "max": 5
+        }
+      },
+      "perks": [
+        "Martial Adept",
+        "Lightning Reflexes",
+        "Barber Surgeon",
+        "Traveller"
+      ],
+      "armor": [
+        "Chainmail",
+        "Half Plate",
+        "Flak Armor",
+        "Carapace Armor"
+      ],
+      "weapons": [
+        "Axe",
+        "Sword",
+        "Crossbow",
+        "Spear",
+        "Shield",
+        "Energy Weapon"
+      ],
+      "maneuvers": [
+        "Size Up Opponent",
+        "Rallying Call",
+        "Battlefield Bandaging",
+        "Warrior’s Spirit",
+        "Arceus Protect Me"
+      ],
+      "loot": [
+        "₽1000",
+        "Weapon",
+        "Ammunition",
+        "Armor",
+        "Poke Ball",
+        "Potion",
+        "Rations"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Lightning Reflexes",
+          "Traveller"
+        ],
+        "Advanced / Expert": [
+          "Martial Adept",
+          "Barber Surgeon"
+        ],
+        "Ace / Master / Champion": []
+      }
+    },
+    "Synthetic Being": {
+      "name": "Synthetic Being",
+      "archetype": "Technomancer",
+      "base_hp": 4,
+      "stats": {
+        "Strength": {
+          "base": 3,
+          "max": 6
+        },
+        "Dexterity": {
+          "base": 3,
+          "max": 6
+        },
+        "Vitality": {
+          "base": 2,
+          "max": 5
+        },
+        "Special": {
+          "base": 3,
+          "max": 6
+        },
+        "Insight": {
+          "base": 2,
+          "max": 5
+        }
+      },
+      "perks": [
+        "Tech Expert",
+        "Telepathic Bond",
+        "Built Different",
+        "Lightning Reflexes",
+        "Well Connected",
+        "Bloodthirsty Rage",
+        "Got Your Back",
+        "Last Stand",
+        "Unarmed Defense",
+        "Healing Nanobots",
+        "Posthuman"
+      ],
+      "armor": [
+        "Leather Armor",
+        "Flak Armor"
+      ],
+      "weapons": [
+        "Unarmed",
+        "Energy Weapon",
+        "Channelling",
+        "Neural Augmentation"
+      ],
+      "maneuvers": [
+        "Fighters Cunning",
+        "Quick-Hack",
+        "Psy-Knack",
+        "Unnatural Reflexes",
+        "Duellist’s Swagger"
+      ],
+      "loot": [
+        "Weapon",
+        "Neural Augmentation",
+        "Held Item"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Tech Expert",
+          "Lightning Reflexes",
+          "Well Connected"
+        ],
+        "Advanced / Expert": [
+          "Telepathic Bond",
+          "Built Different",
+          "Unarmed Defense"
+        ],
+        "Ace / Master / Champion": [
+          "Bloodthirsty Rage",
+          "Got Your Back",
+          "Last Stand",
+          "Healing Nanobots",
+          "Posthuman"
+        ]
+      }
+    },
+    "Thief": {
+      "name": "Thief",
+      "archetype": "Rogue",
+      "base_hp": 4,
+      "stats": {
+        "Strength": {
+          "base": 2,
+          "max": 5
+        },
+        "Dexterity": {
+          "base": 4,
+          "max": 8
+        },
+        "Vitality": {
+          "base": 2,
+          "max": 5
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 2,
+          "max": 5
+        }
+      },
+      "perks": [
+        "Scoundrel’s Intuition",
+        "Dual Wielder",
+        "Lucky",
+        "Student of Life",
+        "Evasive Training",
+        "Hit And Run"
+      ],
+      "armor": [
+        "Adventurer’s Clothes",
+        "Leather Bracers",
+        "Leather Armor"
+      ],
+      "weapons": [
+        "Dagger",
+        "Sword",
+        "Crossbow",
+        "Club",
+        "Energy Weapon",
+        "Firearm"
+      ],
+      "maneuvers": [
+        "Fight Dirty",
+        "Pocket Sand",
+        "Unnatural Reflexes",
+        "Size Up Opponent",
+        "Cunning Trap"
+      ],
+      "loot": [
+        "₽1500",
+        "Weapon",
+        "Poke Ball",
+        "Treasure",
+        "Evolution Stone",
+        "Artisans Tools"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Scoundrel’s Intuition",
+          "Dual Wielder",
+          "Lucky"
+        ],
+        "Advanced / Expert": [
+          "Student of Life"
+        ],
+        "Ace / Master / Champion": [
+          "Evasive Training",
+          "Hit And Run"
+        ]
+      }
+    },
+    "Troubadour": {
+      "name": "Troubadour",
+      "archetype": "Bard",
+      "base_hp": 4,
+      "stats": {
+        "Strength": {
+          "base": 2,
+          "max": 5
+        },
+        "Dexterity": {
+          "base": 3,
+          "max": 6
+        },
+        "Vitality": {
+          "base": 3,
+          "max": 6
+        },
+        "Special": {
+          "base": 2,
+          "max": 5
+        },
+        "Insight": {
+          "base": 3,
+          "max": 6
+        }
+      },
+      "perks": [
+        "Inspiring Personality",
+        "Lucky",
+        "Scoundrel’s Intuition",
+        "Beautiful Movements",
+        "Student of Life",
+        "Gifted"
+      ],
+      "armor": [
+        "Adventures Clothes",
+        "Leather Armor"
+      ],
+      "weapons": [
+        "Dagger",
+        "Sword",
+        "Improvised Weapons",
+        "Unarmed"
+      ],
+      "maneuvers": [
+        "Unnatural Reflexes",
+        "Masterful Distraction",
+        "Rallying Call",
+        "Rally Allies",
+        "Read Intent",
+        "Mesmeric Command"
+      ],
+      "loot": [
+        "₽1200",
+        "Weapon",
+        "Poke Ball",
+        "Held Item",
+        "Musical Instrument",
+        "Artisans Tools"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Inspiring Personality",
+          "Lucky",
+          "Scoundrel’s Intuition"
+        ],
+        "Advanced / Expert": [
+          "Beautiful Movements",
+          "Student of Life",
+          "Gifted"
+        ],
+        "Ace / Master / Champion": []
+      }
+    },
+    "Voidfarer": {
+      "name": "Voidfarer",
+      "archetype": "Ranger",
+      "base_hp": 4,
+      "stats": {
+        "Strength": {
+          "base": 2,
+          "max": 5
+        },
+        "Dexterity": {
+          "base": 2,
+          "max": 5
+        },
+        "Vitality": {
+          "base": 2,
+          "max": 5
+        },
+        "Special": {
+          "base": 2,
+          "max": 4
+        },
+        "Insight": {
+          "base": 2,
+          "max": 5
+        }
+      },
+      "perks": [
+        "Traveller",
+        "Expert Captain",
+        "Tech Expert",
+        "Alchemical Artisan",
+        "Barber Surgeon",
+        "Healing Nanobots",
+        "Gifted",
+        "Know Thy Enemy",
+        "Posthuman"
+      ],
+      "armor": [
+        "Leather Bracers",
+        "Leather Armor",
+        "Flak Armor",
+        "Carapace Armor"
+      ],
+      "weapons": [
+        "Knife",
+        "Stave",
+        "Polearm",
+        "Firearm",
+        "Energy Weapon",
+        "Neural Augmentation"
+      ],
+      "maneuvers": [
+        "Fight Dirty",
+        "Quick-Hack",
+        "Lay Of The Land",
+        "Masterful Distraction",
+        "Rapid Switch",
+        "Pocket Sand",
+        "Battlefield Bandaging",
+        "Fighter’s Cunning"
+      ],
+      "loot": [
+        "₽2000",
+        "Poke Ball",
+        "Held Item",
+        "Potion",
+        "Weapon",
+        "Amror"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Traveller",
+          "Tech Expert"
+        ],
+        "Advanced / Expert": [
+          "Expert Captain",
+          "Alchemical Artisan",
+          "Barber Surgeon",
+          "Gifted"
+        ],
+        "Ace / Master / Champion": [
+          "Healing Nanobots",
+          "Know Thy Enemy",
+          "Posthuman"
+        ]
+      }
+    },
+    "Woodsman": {
+      "name": "Woodsman",
+      "archetype": "Ranger",
+      "base_hp": 5,
+      "stats": {
+        "Strength": {
+          "base": 3,
+          "max": 6
+        },
+        "Dexterity": {
+          "base": 2,
+          "max": 5
+        },
+        "Vitality": {
+          "base": 3,
+          "max": 6
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 3,
+          "max": 6
+        }
+      },
+      "perks": [
+        "Fisherman",
+        "Survivalist",
+        "Built Different",
+        "Gifted",
+        "Master Chef",
+        "Alchemical Artisan",
+        "Pokémon Master (In Training)",
+        "Student of Life",
+        "Bloodthirsty Rage",
+        "Enlightenment",
+        "Got Your Back",
+        "Intensive Training Regime",
+        "Precise Strikes",
+        "Pack Rattata"
+      ],
+      "armor": [
+        "Adventurers Clothes",
+        "Leather Bracers",
+        "Leather Armor"
+      ],
+      "weapons": [
+        "Axe",
+        "Knife",
+        "Great Axe",
+        "Spear",
+        "Blowpipe",
+        "Bow"
+      ],
+      "maneuvers": [
+        "Fighter’s Cunning",
+        "Grapple",
+        "Help",
+        "Lay Of The Land",
+        "Masterful Distraction",
+        "Rallying Call",
+        "Rally Allies",
+        "Read Intent",
+        "Size Up Opponent"
+      ],
+      "loot": [
+        "₽200",
+        "Weapon",
+        "Ammunition",
+        "Poke Ball",
+        "Herb",
+        "Berry"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Fisherman",
+          "Survivalist",
+          "Master Chef"
+        ],
+        "Advanced / Expert": [
+          "Built Different",
+          "Gifted",
+          "Alchemical Artisan",
+          "Pokémon Master (In Training)",
+          "Student of Life"
+        ],
+        "Ace / Master / Champion": [
+          "Bloodthirsty Rage",
+          "Enlightenment",
+          "Got Your Back",
+          "Intensive Training Regime",
+          "Precise Strikes",
+          "Pack Rattata"
+        ]
+      }
+    },
+    "Xenobiologist": {
+      "name": "Xenobiologist",
+      "archetype": "Pokémon Hunter",
+      "base_hp": 4,
+      "stats": {
+        "Strength": {
+          "base": 2,
+          "max": 5
+        },
+        "Dexterity": {
+          "base": 2,
+          "max": 5
+        },
+        "Vitality": {
+          "base": 2,
+          "max": 5
+        },
+        "Special": {
+          "base": 1,
+          "max": 2
+        },
+        "Insight": {
+          "base": 3,
+          "max": 6
+        }
+      },
+      "perks": [
+        "Well Connected",
+        "Mono-Type Specialist",
+        "Traveller",
+        "Tech Expert",
+        "Alchemical Artisan",
+        "Barber Surgeon",
+        "Healing Nanobots",
+        "Student of Life",
+        "Know Thy Enemy",
+        "Posthuman"
+      ],
+      "armor": [
+        "Leather Bracers",
+        "Leather Armor",
+        "Flak Armor"
+      ],
+      "weapons": [
+        "Knife",
+        "Firearm",
+        "Energy Weapon",
+        "Neural Augmentation"
+      ],
+      "maneuvers": [
+        "Cunning Trap",
+        "Fight Dirty",
+        "Quick-Hack",
+        "Lay Of The Land",
+        "Masterful Distraction",
+        "Rapid Switch",
+        "Pocket Sand",
+        "Battlefield Bandaging"
+      ],
+      "loot": [
+        "₽2000",
+        "Poke Ball",
+        "Held Item",
+        "Potion",
+        "Herb",
+        "Berry"
+      ],
+      "perk_tiers": {
+        "Starter / Rookie / Standard": [
+          "Well Connected",
+          "Mono-Type Specialist",
+          "Traveller",
+          "Tech Expert"
+        ],
+        "Advanced / Expert": [
+          "Alchemical Artisan",
+          "Barber Surgeon",
+          "Student of Life"
+        ],
+        "Ace / Master / Champion": [
+          "Healing Nanobots",
+          "Know Thy Enemy",
+          "Posthuman"
+        ]
+      }
+    }
+  }
+}

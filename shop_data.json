@@ -111,12 +111,6 @@
           "category": "Standard Balls"
         },
         {
-          "name": "Premier Ball",
-          "price": "N/A",
-          "effect": "5d6. Gift for every ten balls purchased",
-          "category": "Standard Balls"
-        },
-        {
           "name": "Aurora Ball",
           "price": "500",
           "effect": "+3d6 if used on Ice-Type Pokémon",
@@ -237,7 +231,8 @@
           "category": "Artisan Balls"
         }
       ],
-      "count": 20
+      "min": 15,
+      "max": 20
     },
     "Herbalist": {
       "mode": "herbalist",
@@ -521,7 +516,8 @@
           "category": "Special Items"
         }
       ],
-      "special_count": 2
+      "special_min": 1,
+      "special_max": 2
     },
     "General Store": {
       "mode": "full",
@@ -1015,7 +1011,7 @@
         }
       ],
       "special_min": 1,
-      "special_max": 3
+      "special_max": 2
     },
     "Arms and Augmentations Dealer": {
       "mode": "mixed_special",
@@ -1396,7 +1392,7 @@
         }
       ],
       "special_min": 1,
-      "special_max": 3
+      "special_max": 2
     },
     "Pokémon Enhancement": {
       "mode": "full",
@@ -3999,12 +3995,12 @@
           "category": "Water"
         }
       ],
-      "min": 5,
-      "max": 15,
+      "min": 8,
+      "max": 13,
       "footer": "Prices listed are for a Tutor teaching the Move or a single use TR. To buy a multi-use TM of any of these Moves: Triple the listed price."
     },
     "Precious Stone Merchant": {
-      "mode": "random",
+      "mode": "precious_random",
       "pool": [
         {
           "name": "Mega Key Stone",
@@ -5327,8 +5323,8 @@
           "category": "Terasta Shards"
         }
       ],
-      "min": 5,
-      "max": 15
+      "min": 7,
+      "max": 12
     },
     "Curiosity Trader": {
       "mode": "curiosity",

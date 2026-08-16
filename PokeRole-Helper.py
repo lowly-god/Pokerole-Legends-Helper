@@ -54,7 +54,7 @@ intents.message_content = True
 bot = commands.Bot(command_prefix=cmd_prefix, intents=intents)
 
 # note that 'custom help' needs to load last
-cogs = ['mapCog', 'diceCog', 'miscCommands', 'questCog', 'maneuverCog', 'fieldtypeCog', 'natureRollCog', 'foragingCog', 'perkCog', 'armorCog', 'shopCog', 'rankUpCog', 'encounterTableCog', 'referenceRulesCog', 'trainingReferenceCog', 'craftingReferenceCog', 'custom_help']
+cogs = ['mapCog', 'diceCog', 'miscCommands', 'questCog', 'maneuverCog', 'fieldtypeCog', 'natureRollCog', 'foragingCog', 'perkCog', 'armorCog', 'shopCog', 'humanNpcCog', 'rankUpCog', 'encounterTableCog', 'referenceRulesCog', 'trainingReferenceCog', 'craftingReferenceCog', 'custom_help']
 
 # TODO: compress more of the data in working memory
 #   ++PokeLearns ranks complete

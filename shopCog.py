@@ -51,6 +51,14 @@ class ShopCog(commands.Cog):
             for name in names if current in name.lower()
         ][:25]
 
+    @staticmethod
+    def _rollable(items):
+        """Return shop entries that have an actual Trainer Price."""
+        return [
+            item for item in items
+            if str(item.get("price", "")).strip().upper() != "N/A"
+        ]
+
     def generate(self, shop_name):
         cfg = self.shops[shop_name]
         mode = cfg["mode"]
@@ -58,66 +66,169 @@ class ShopCog(commands.Cog):
 
         if mode == "full":
             grouped = defaultdict(list)
-            for item in cfg["stock"]:
+            for item in self._rollable(cfg["stock"]):
                 grouped[item.get("category", "Stock")].append(item)
             for cat, entries in grouped.items():
                 sections.append((cat, [line_for(x) for x in entries]))
 
         elif mode == "random":
+            pool = self._rollable(cfg["pool"])
             count = random.randint(cfg["min"], cfg["max"])
-            chosen = random.sample(cfg["pool"], min(count, len(cfg["pool"])))
+            chosen = random.sample(pool, min(count, len(pool)))
             sections.append((f"Random Stock ({len(chosen)})", [line_for(x) for x in chosen]))
 
+        elif mode == "precious_random":
+            pool = self._rollable(cfg["pool"])
+            total = random.randint(cfg["min"], cfg["max"])
+            by_category = defaultdict(list)
+            for item in pool:
+                by_category[item.get("category", "Stock")].append(item)
+
+            gems = by_category.get("Gems", [])
+            evo_stones = by_category.get("Evolutionary Stones", [])
+            mega_stones = by_category.get("Mega Stones", [])
+            z_crystals = by_category.get("Z-Crystals", [])
+            terasta_shards = by_category.get("Terasta Shards", [])
+
+            chosen = []
+
+            # Every Precious Stone Merchant carries exactly one Gem.
+            if gems:
+                chosen.extend(random.sample(gems, 1))
+
+            # Evolution Stones scale upward with the overall stock roll.
+            # 7-8 items: 1-2; 9-10 items: 2; 11-12 items: 2-3.
+            if total <= 8:
+                evo_count = random.randint(1, 2)
+            elif total <= 10:
+                evo_count = 2
+            else:
+                evo_count = random.randint(2, 3)
+            chosen.extend(random.sample(evo_stones, min(evo_count, len(evo_stones))))
+
+            # Low-stock merchants carry either a Z-Crystal or Terasta Shard.
+            # As stock rises, both categories become represented.
+            if total <= 8:
+                available_specials = [
+                    category for category in (z_crystals, terasta_shards) if category
+                ]
+                if available_specials:
+                    chosen.extend(random.sample(random.choice(available_specials), 1))
+            elif total == 9:
+                if z_crystals and terasta_shards and random.choice((True, False)):
+                    chosen.extend(random.sample(z_crystals, 1))
+                    chosen.extend(random.sample(terasta_shards, 1))
+                else:
+                    available_specials = [
+                        category for category in (z_crystals, terasta_shards) if category
+                    ]
+                    if available_specials:
+                        chosen.extend(random.sample(random.choice(available_specials), 1))
+            else:
+                if z_crystals:
+                    chosen.extend(random.sample(z_crystals, 1))
+                if terasta_shards:
+                    chosen.extend(random.sample(terasta_shards, 1))
+
+            # Fill all remaining slots with Mega Stones.
+            remaining = max(0, total - len(chosen))
+            chosen.extend(random.sample(mega_stones, min(remaining, len(mega_stones))))
+
+            sections.append((
+                f"Random Stock ({len(chosen)})",
+                [line_for(x) for x in chosen]
+            ))
+
         elif mode == "ball_random":
-            rolls = [random.choice(cfg["pool"]) for _ in range(cfg["count"])]
-            counts = Counter(x["name"] for x in rolls)
-            lookup = {x["name"]: x for x in cfg["pool"]}
-            lines = [line_for(lookup[name], qty) for name, qty in counts.items()]
-            sections.append((f"Random Stock ({cfg['count']} Balls Total)", lines))
+            pool = self._rollable(cfg["pool"])
+            total = random.randint(cfg["min"], cfg["max"])
+            if not pool:
+                sections.append(("Random Stock", []))
+            else:
+                # At least six different Ball types. Use multiples to fill the
+                # 15-20 total stock, with no more than five of any one type.
+                distinct_min = min(6, len(pool), total)
+                distinct_max = min(12, len(pool), total)
+                distinct_count = random.randint(distinct_min, distinct_max)
+                chosen_types = random.sample(pool, distinct_count)
+                counts = {item["name"]: 1 for item in chosen_types}
+                lookup = {item["name"]: item for item in chosen_types}
+                remaining = total - distinct_count
+
+                while remaining > 0:
+                    candidates = [name for name, qty in counts.items() if qty < 5]
+                    if not candidates:
+                        # This should never happen with the current 15-20 stock
+                        # size, but prevents an infinite loop if the table changes.
+                        break
+                    name = random.choice(candidates)
+                    counts[name] += 1
+                    remaining -= 1
+
+                lines = [line_for(lookup[name], qty) for name, qty in counts.items()]
+                sections.append((f"Random Stock ({sum(counts.values())} Balls Total)", lines))
 
         elif mode == "herbalist":
-            sections.append(("General Items", [line_for(x) for x in cfg["stock"]]))
-            n = min(cfg.get("special_count", 2), len(cfg.get("special_pool", [])))
-            chosen = random.sample(cfg.get("special_pool", []), n)
-            sections.append(("Special Items", [line_for(x) for x in chosen]))
+            stock = self._rollable(cfg["stock"])
+            sections.append(("General Items", [line_for(x) for x in stock]))
+            pool = self._rollable(cfg.get("special_pool", []))
+            if pool:
+                n = random.randint(cfg.get("special_min", 1), cfg.get("special_max", 2))
+                chosen = random.sample(pool, min(n, len(pool)))
+                sections.append(("Special Items", [line_for(x) for x in chosen]))
 
         elif mode == "mixed_special":
             grouped = defaultdict(list)
-            for item in cfg["stock"]:
+            for item in self._rollable(cfg["stock"]):
                 grouped[item.get("category", "Stock")].append(item)
             for cat, entries in grouped.items():
                 sections.append((cat, [line_for(x) for x in entries]))
-            n = random.randint(cfg["special_min"], cfg["special_max"])
-            chosen = random.sample(cfg["special_pool"], min(n, len(cfg["special_pool"])))
-            sections.append((f"Special Weapons and Equipment ({len(chosen)})", [line_for(x) for x in chosen]))
+
+            pool = self._rollable(cfg.get("special_pool", []))
+            if pool:
+                n = random.randint(cfg["special_min"], cfg["special_max"])
+                chosen = random.sample(pool, min(n, len(pool)))
+                sections.append(("Special Items", [line_for(x) for x in chosen]))
 
         elif mode == "curiosity":
-            # Keep the normal random-item stock unchanged.
+            pool = self._rollable(cfg["pool"])
             n = random.randint(cfg["min"], cfg["max"])
-            chosen = random.sample(cfg["pool"], min(n, len(cfg["pool"])))
+            chosen = random.sample(pool, min(n, len(pool)))
             sections.append((f"General Items ({len(chosen)})", [line_for(x) for x in chosen]))
 
-            # Special stock is exactly two items: either two distinct Crests,
-            # or one special item plus one Crest. Display them together.
+            # Exactly two special-table results:
+            #   - one Special Item + one Crest, OR
+            #   - two distinct Crests.
+            crest_pool = self._rollable(cfg.get("crest_pool", []))
+            special_pool = self._rollable(cfg.get("special_pool", []))
             special_lines = []
-            crest_pool = cfg.get("crest_pool", [])
-            special_pool = cfg.get("special_pool", [])
-            roll_two_crests = bool(crest_pool) and (not special_pool or random.choice((True, False)))
-            if roll_two_crests:
-                crests = random.sample(crest_pool, min(2, len(crest_pool)))
-                special_lines.extend(line_for(x) for x in crests)
-            else:
-                if special_pool:
+
+            if len(crest_pool) >= 2 and special_pool:
+                if random.choice((True, False)):
+                    special_lines.extend(line_for(x) for x in random.sample(crest_pool, 2))
+                else:
                     special_lines.append(line_for(random.choice(special_pool)))
-                if crest_pool:
                     special_lines.append(line_for(random.choice(crest_pool)))
+            elif len(crest_pool) >= 2:
+                special_lines.extend(line_for(x) for x in random.sample(crest_pool, 2))
+            elif crest_pool and special_pool:
+                special_lines.append(line_for(random.choice(special_pool)))
+                special_lines.append(line_for(crest_pool[0]))
+            elif crest_pool:
+                special_lines.extend(line_for(crest_pool[0]) for _ in range(2))
+            elif len(special_pool) >= 2:
+                # Defensive fallback only if a future table removes all Crests.
+                special_lines.extend(line_for(x) for x in random.sample(special_pool, 2))
+
             if special_lines:
                 sections.append(("Special Items", special_lines))
 
         elif mode == "travelling":
-            sections.append(("Regular Wares", [line_for(x) for x in cfg["stock"]]))
-            chosen = random.sample(cfg["pool"], min(cfg["count"], len(cfg["pool"])))
-            sections.append(("Random Wares (4)", [line_for(x) for x in chosen]))
+            stock = self._rollable(cfg["stock"])
+            sections.append(("Regular Wares", [line_for(x) for x in stock]))
+            pool = self._rollable(cfg["pool"])
+            chosen = random.sample(pool, min(cfg["count"], len(pool)))
+            sections.append((f"Random Wares ({len(chosen)})", [line_for(x) for x in chosen]))
 
         return sections
 
