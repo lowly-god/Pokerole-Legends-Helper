@@ -176,7 +176,7 @@ class Quests(commands.Cog):
 
     @app_commands.command(
         name='quest',
-        description='Generate Mystery Dungeon-style quests using v3 ranks.',
+        description='Generate a simple quest-hook',
     )
     @app_commands.describe(
         number="How many? (up to 5)",

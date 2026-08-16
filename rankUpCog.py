@@ -20,7 +20,7 @@ class RankUpCog(commands.Cog):
         with open("rankup_data.json", "r", encoding="utf-8") as f:
             self.ranks = json.load(f)
 
-    @app_commands.command(name="rankup", description="Show rank-up requirements and benefits.")
+    @app_commands.command(name="rank_up", description="Display Rank-Up requirements and benefits.")
     @app_commands.describe(rank="Choose a Rank")
     @app_commands.choices(rank=RANK_CHOICES)
     async def rankup(self, interaction: discord.Interaction, rank: app_commands.Choice[str]):

@@ -319,7 +319,7 @@ class Database:
 
     def instantiatePokemonLists(self, version : str):
         version = self._v3(version)
-        print(f"Creating the {version} pokemon tables...")
+        print(f"Creating the {version} Pokémon tables...")
         # the pokemon in the pokemon folder contain stats, evo info, and the learns list
         stat_table = table_names['pkmnStats']
         evo_table = table_names['pkmnEvo']

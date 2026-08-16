@@ -34,7 +34,7 @@ class NatureRoll(commands.Cog):
 
     @app_commands.command(
         name="rollnature",
-        description="Roll 1d100 for a Pokémon Nature."
+        description="Roll 1D100 for a Pokémon's Nature."
     )
     async def rollnature(self, interaction: discord.Interaction):
         roll = random.randint(1, 100)

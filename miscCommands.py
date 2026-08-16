@@ -267,7 +267,7 @@ class Misc(commands.Cog):
 
     @commands.hybrid_command(
         name = 'status',
-        description = "A nice long nap...",
+        description = "Display information about a Status Condition",
         help = 'Quick reference for statuses.\n'
              'Type `%status` for a list of all statuses, or'
              'type `%status burn` for example for an in-depth explanation.'
@@ -282,7 +282,7 @@ class Misc(commands.Cog):
 
     @commands.hybrid_command(
         name = 'weather',
-        description = "Are those clouds?",
+        description = "Display information about a Weather-Type",
         help = 'Quick reference for the weather.\n'
             'Type `%weather` for a list of all weather types, or'
             'type `%weather sunny day` for example for an in-depth explanation.'
@@ -301,7 +301,7 @@ class Misc(commands.Cog):
 
     @commands.hybrid_command(
         name = 'nature',
-        description = "Who am I?",
+        description = "Display information about a Nature",
         help = 'Quick reference for natures.\n'
             'Type `%nature` for a list of all natures, or'
             'type `%nature bold` for example for an in-depth explanation.'
@@ -320,7 +320,7 @@ class Misc(commands.Cog):
 
     @commands.hybrid_command(
         name = 'effect',
-        description = "A basic description of the symbols",
+        description = "Display information about a common effects or terms",
         help = 'A quick reference for the effect boxes.'
     )
     @app_commands.describe(

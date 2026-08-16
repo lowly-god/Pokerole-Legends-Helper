@@ -5,7 +5,7 @@ print("=== 1/2 Installing custom Pokémon and /stats support ===")
 subprocess.check_call([sys.executable, "install_custom_pokemon.py"])
 
 print()
-print("=== 2/2 Adding new move learners to /pokelearns ===")
+print("=== 2/2 Adding new move learners to /poke_learns ===")
 subprocess.check_call([sys.executable, "install_additional_move_learners.py"])
 
 print()

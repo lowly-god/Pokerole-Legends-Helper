@@ -70,8 +70,8 @@ class FieldTypeLookup(commands.Cog):
         return matches
 
     @app_commands.command(
-        name="fieldtype",
-        description="Look up the effects of a Field-Type."
+        name="field_type",
+        description="Display the effects of a Field-Type"
     )
     @app_commands.describe(name="Field-Type name")
     @app_commands.autocomplete(name=fieldtype_autocomplete)

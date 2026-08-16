@@ -7,10 +7,12 @@
   "Accuracy1": "Vitality",
   "Accuracy2": "Brawl",
   "Target": "Area",
-  "Effect": "Ranged. Projectile. Charge Move. The User increases its Defense and Special Defense by 1. On its next Action it attacks.",
+  "Effect": "Ranged. Projectile. Charge Move. Unique. The User increases its Defense and Special Defense by 1. On its next Action it attacks.",
   "Description": "The User reforms itself into an optimal defensive configuration, before launching heavy stone slabs at its Targets.",
   "_id": "blockade-barrage",
-  "Attributes": {},
+  "Attributes": {
+    "Unique": true
+  },
   "AddedEffects": {},
   "Category": "Physical"
 }

@@ -7,10 +7,12 @@
   "Accuracy1": "Tough",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Add 1 Dice to the Damage Pool of this Move for every increased Attribute any Targets have.",
+  "Effect": "Unique. Add 1 Dice to the Damage Pool of this Move for every increased Attribute any Targets have.",
   "Description": "The User flexes its gigantic muscles, trying to out flex its Foe before attacking.",
   "_id": "bulk-breaker",
-  "Attributes": {},
+  "Attributes": {
+    "Unique": true
+  },
   "AddedEffects": {},
   "Category": "Physical"
 }

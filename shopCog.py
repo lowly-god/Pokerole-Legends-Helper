@@ -259,7 +259,7 @@ class ShopCog(commands.Cog):
             await interaction.followup.send(embeds=rest[:10])
             rest = rest[10:]
 
-    @app_commands.command(name="shop", description="Display the stock of a Legends shop.")
+    @app_commands.command(name="shop", description="Display the stock of a specific shop")
     @app_commands.describe(shop="Choose a shop")
     @app_commands.autocomplete(shop=shop_autocomplete)
     async def shop(self, interaction: discord.Interaction, shop: str):
@@ -269,7 +269,7 @@ class ShopCog(commands.Cog):
         embeds = self.embeds_for_shop(shop)
         await self.send_embeds(interaction, embeds)
 
-    @app_commands.command(name="rollshop", description="Roll 1d10 on the Legends shop table.")
+    @app_commands.command(name="roll_shop", description="Roll 1D10 on the shop table and display stock for the rolled shop")
     async def rollshop(self, interaction: discord.Interaction):
         roll = random.randint(1, 10)
         result = self.roll_map[str(roll)]

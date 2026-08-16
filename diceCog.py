@@ -149,7 +149,7 @@ class Dice(commands.Cog):
 
     @app_commands.command(
         name = 'roll',
-        description = "Roll a single d6 by default. You can change the number of dice and/or the number of sides"
+        description = "Roll a single D6 by default. You can change the number of dice and/or the number of sides"
     )
     @app_commands.describe(
         dice = "Number of dice to roll (up to 100)",

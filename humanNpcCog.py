@@ -737,7 +737,7 @@ class HumanNPCCog(commands.Cog):
             lines.append(f"**Potential Loot:** {' / '.join(npc['loot'])}")
         return "\n".join(lines)
 
-    @app_commands.command(name="human_npc", description="Display a Legends human NPC statblock.")
+    @app_commands.command(name="human_npc", description="Display a human NPC's statblock")
     @app_commands.describe(npc="Human NPC type")
     @app_commands.autocomplete(npc=npc_autocomplete)
     async def human_npc(self, interaction: discord.Interaction, npc: str):
@@ -754,7 +754,7 @@ class HumanNPCCog(commands.Cog):
             view=HumanNPCView(self, data["name"])
         )
 
-    @app_commands.command(name="encounter_human", description="Generate a ranked Legends human NPC.")
+    @app_commands.command(name="encounter_human", description="Generate a human NPC based on various statblocks")
     @app_commands.describe(npc="Human NPC type", rank="Required NPC rank")
     @app_commands.autocomplete(npc=npc_autocomplete)
     @app_commands.choices(rank=[app_commands.Choice(name=r, value=r) for r in RANKS])

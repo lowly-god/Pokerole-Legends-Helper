@@ -27,9 +27,9 @@ Rampage,"The User may use this Move up to 3 times without interruption, even dur
 Ranged,This Move may be used at range.
 Reaction,The Move may be used as a Reaction. The listed number determines its Reaction timing.
 Recoil,"The User will be hurt by its own Move. Roll damage normally against the foe, then roll again each success you scored as damage to the User ignoring its defenses."
-Shield Move,"If the Pokemon performs another Shield Move during the next Round, that Move's Accuracy Roll is reduced by 2 successes."
+Shield Move,"If the Pokémon performs another Shield Move during the next Round, that Move's Accuracy Roll is reduced by 2 successes."
 Sound Move,"These Moves bypass Substitute, Light Screen, Reflect, and Cover."
 Successive Actions,The Move allows you to perform Multiple Actions in succession before the Foe can act. (Up to either 2 attacks or 5 attacks based on the number of stars in the Effect box).
-Switcher Move,Only one Switcher Move may be used per Round. Switch a Pokemon in the battlefield for one of its allies still on their Pokeball.
+Switcher Move,Only one Switcher Move may be used per Round. Switch a Pokémon in the battlefield for one of its allies still on their Pokeball.
 Unique,Unique Moves cannot be copied.
 Wind Move,"This Move has the Wind Move keyword and interacts with Abilities, Items, and effects that reference Wind Moves."

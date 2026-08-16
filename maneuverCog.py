@@ -136,7 +136,7 @@ class ManeuverLookup(commands.Cog):
 
     @app_commands.command(
         name="weapon",
-        description="Look up a weapon or combat skill."
+        description="Display a Weapon or Combat Skill and its Maneuvers"
     )
     @app_commands.describe(name="Weapon or combat skill")
     @app_commands.autocomplete(name=weapon_autocomplete)
@@ -180,7 +180,7 @@ class ManeuverLookup(commands.Cog):
 
     @app_commands.command(
         name="maneuver",
-        description="Look up an individual human combat maneuver."
+        description="Display an individual human Maneuver"
     )
     @app_commands.describe(name="Maneuver name")
     @app_commands.autocomplete(name=maneuver_autocomplete)

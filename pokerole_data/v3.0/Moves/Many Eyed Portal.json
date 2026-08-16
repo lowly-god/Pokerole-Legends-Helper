@@ -7,10 +7,12 @@
   "Accuracy1": "Tough/Beauty",
   "Accuracy2": "Nature",
   "Target": "All Foes",
-  "Effect": "Those affected are Leeched.",
+  "Effect": "Unique. Those affected are Leeched.",
   "Description": "The User opens its maw wide, letting the Foe catch a glimpse of the horrors that lie within.",
   "_id": "many-eyed-portal",
-  "Attributes": {},
+  "Attributes": {
+    "Unique": true
+  },
   "AddedEffects": {},
   "Category": "Support"
 }

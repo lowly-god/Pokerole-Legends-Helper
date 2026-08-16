@@ -45,7 +45,7 @@ class ArmorCog(commands.Cog):
             for name in names if query in normalize(name)
         ][:25]
 
-    @app_commands.command(name="armor", description="Look up Legends armor.")
+    @app_commands.command(name="armor", description="Display an Armor's traits and its Maneuver if relevant")
     @app_commands.describe(name="Armor name")
     @app_commands.autocomplete(name=armor_autocomplete)
     async def armor_command(self, interaction: discord.Interaction, name: str):

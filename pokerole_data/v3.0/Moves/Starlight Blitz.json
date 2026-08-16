@@ -7,10 +7,12 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Reaction 4. Roll 3 Chance Dice to reduce the Target's Accuracy by 1.",
+  "Effect": "Reaction 4. Unique. Roll 3 Chance Dice to reduce the Target's Accuracy by 1.",
   "Description": "The User takes in light from its surroundings, before pouncing on the Foe at high speed and unleashing a bright flash.",
   "_id": "starlight-blitz",
-  "Attributes": {},
+  "Attributes": {
+    "Unique": true
+  },
   "AddedEffects": {},
   "Category": "Physical"
 }

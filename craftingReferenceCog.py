@@ -30,15 +30,15 @@ class CraftingReferenceCog(commands.Cog):
         for chunk in chunks[1:]:
             await interaction.followup.send(chunk)
 
-    @app_commands.command(name="cooking", description="Display Legends cooking recipes and rules.")
+    @app_commands.command(name="cooking", description="Display Cooking rules and recipes")
     async def cooking(self, interaction: discord.Interaction):
         await self.send_reference(interaction, "cooking", "Cooking")
 
-    @app_commands.command(name="craftingpokeballs", description="Display Legends Poké Ball crafting rules.")
+    @app_commands.command(name="crafting_pokeballs", description="Display Poké Ball crafting rules and recipes")
     async def craftingpokeballs(self, interaction: discord.Interaction):
         await self.send_reference(interaction, "craftingpokeballs", "Crafting Poké Balls")
 
-    @app_commands.command(name="craftinghealingitems", description="Display Legends healing item crafting rules.")
+    @app_commands.command(name="crafting_healing_items", description="Display Healing Item crafting rules and recipes")
     async def craftinghealingitems(self, interaction: discord.Interaction):
         await self.send_reference(interaction, "craftinghealingitems", "Crafting Healing Items")
 

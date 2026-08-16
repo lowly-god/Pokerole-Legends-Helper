@@ -7,10 +7,12 @@
   "Accuracy1": "Strength/Vitality",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "The User eats the Target's Held Item. (Effects may apply at Storyteller’s discretion).",
+  "Effect": "Unique. The User eats the Target's Held Item. (Effects may apply at Storyteller’s discretion).",
   "Description": "The User devours all in its path.",
   "_id": "devouring-abyss",
-  "Attributes": {},
+  "Attributes": {
+    "Unique": true
+  },
   "AddedEffects": {},
   "Category": "Physical"
 }

@@ -7,10 +7,12 @@
   "Accuracy1": "Vitality",
   "Accuracy2": "Clash",
   "Target": "Self",
-  "Effect": "The User may only receive damage from Status Conditions, and Moves that deal Super Effective damage against it.",
+  "Effect": "Unique. The User may only receive damage from Status Conditions, and Moves that deal Super Effective damage against it.",
   "Description": "The user's strange metallic body reforms its surface into a near impenetrable barrier.",
   "_id": "unknown-alloy",
-  "Attributes": {},
+  "Attributes": {
+    "Unique": true
+  },
   "AddedEffects": {},
   "Category": "Support"
 }

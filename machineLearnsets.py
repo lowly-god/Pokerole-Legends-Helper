@@ -50,7 +50,7 @@ MANUAL_TUTOR_ADDITIONS = {
 
 
 # Complete Sword/Shield TR00-TR99 move set.
-# These are separated from ordinary Gen 8 machine moves so /pokelearns can
+# These are separated from ordinary Gen 8 machine moves so /poke_learns can
 # display TM and TR as different acquisition methods.
 GEN8_TR_MOVES = {
     "swordsdance", "bodyslam", "flamethrower", "hydropump", "surf",

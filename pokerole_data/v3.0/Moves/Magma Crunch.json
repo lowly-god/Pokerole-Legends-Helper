@@ -7,10 +7,12 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Roll 4 Chance Dice to Burn (2) the Target. Lethal.",
+  "Effect": "Lethal. Unique. Roll 4 Chance Dice to Burn (2) the Target.",
   "Description": "The User bites down on the Foe with its pincers, it then drools molten magma on them.",
   "_id": "magma-crunch",
-  "Attributes": {},
+  "Attributes": {
+    "Unique": true
+  },
   "AddedEffects": {},
   "Category": "Physical"
 }

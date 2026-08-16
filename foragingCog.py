@@ -108,7 +108,7 @@ class Foraging(commands.Cog):
 
     @app_commands.command(
         name="foraging",
-        description="Make an Insight + Nature foraging check."
+        description="Roll an Insight + Nature check to see what you find on the foraging table"
     )
     @app_commands.describe(
         dice="Number of d6s in the Insight + Nature pool"

@@ -50,7 +50,7 @@ class AccessoriesCog(commands.Cog):
         matches = [n for n in self.choices if query in normalize(n)]
         return [app_commands.Choice(name=n[:100], value=n) for n in matches[:25]]
 
-    @app_commands.command(name='accessories', description='Look up Legends accessories and augmentations.')
+    @app_commands.command(name='accessory', description="Display an Accessory's traits and Maneuver if relevant")
     @app_commands.describe(name='Accessory or augmentation name')
     @app_commands.autocomplete(name=autocomplete)
     async def accessories(self, interaction: discord.Interaction, name: str):

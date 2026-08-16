@@ -613,8 +613,8 @@ class TrainingReferenceCog(commands.Cog):
             self.data = json.load(f)
 
     @app_commands.command(
-        name="trainingsession",
-        description="Run a Legends Pokémon Training Session."
+        name="training_session",
+        description="Roll a Pokémon training session"
     )
     async def trainingsession(self, interaction: discord.Interaction):
         await interaction.response.send_message(
@@ -623,8 +623,8 @@ class TrainingReferenceCog(commands.Cog):
         )
 
     @app_commands.command(
-        name="battletrainingpoints",
-        description="Display Battle Training Point modifiers."
+        name="battle_training_points",
+        description="Display Battle Training Point rewards"
     )
     async def battletrainingpoints(self, interaction: discord.Interaction):
         await interaction.response.send_message(
@@ -632,8 +632,8 @@ class TrainingReferenceCog(commands.Cog):
         )
 
     @app_commands.command(
-        name="evolutiontime",
-        description="Display Training Points required for evolution speeds."
+        name="evolution_time",
+        description="Display Training Points required for each evolution speed"
     )
     async def evolutiontime(self, interaction: discord.Interaction):
         await interaction.response.send_message(
@@ -641,8 +641,8 @@ class TrainingReferenceCog(commands.Cog):
         )
 
     @app_commands.command(
-        name="learningnewmoves",
-        description="Display Training Point costs for learning Moves."
+        name="learning_new_moves",
+        description="Display Training Point costs for learning Moves"
     )
     async def learningnewmoves(self, interaction: discord.Interaction):
         await interaction.response.send_message(
@@ -651,7 +651,7 @@ class TrainingReferenceCog(commands.Cog):
 
     @app_commands.command(
         name="retraining",
-        description="Display Training Point costs for retraining."
+        description="Display Training Point costs for retraining"
     )
     async def retraining(self, interaction: discord.Interaction):
         await interaction.response.send_message(

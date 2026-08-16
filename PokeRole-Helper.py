@@ -63,7 +63,6 @@ pokebotsettings = dict()
 
 # pokemon moves
 pkmnMoves = dict()
-pkmnHabitats = dict()
 pkmnWeather = dict()
 database: Database = None
 
@@ -162,6 +161,26 @@ bot.skills = [('Brawl', 0), ('Channel', 0), ('Clash', 0), ('Evasion', 0),
 types = ['normal', 'fire', 'water', 'grass', 'electric', 'ice', 'fighting', 'poison', 'ground',
          'flying', 'psychic', 'bug', 'rock', 'ghost', 'dark', 'dragon', 'steel', 'fairy']
 
+
+def _load_metronome_excluded_move_names():
+    """Load source-authored Z-Moves and Unique Moves for /metronome exclude_silly."""
+    names = set()
+    move_dir = os.path.join(os.path.dirname(__file__), 'pokerole_data', 'v3.0', 'Moves')
+    try:
+        for filename in os.listdir(move_dir):
+            if not filename.endswith('.json'):
+                continue
+            with open(os.path.join(move_dir, filename), 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            attributes = data.get('Attributes', {}) or {}
+            if attributes.get('ZMove') or attributes.get('Unique'):
+                names.add(data.get('Name', filename[:-5]))
+    except Exception as exc:
+        print(f'Could not build Metronome exclusion list: {exc}')
+    return names
+
+METRONOME_SILLY_EXCLUDED_MOVES = _load_metronome_excluded_move_names()
+
 # v3 total attributes at a rank (base/social)
 # attributes are limited by poke
 attributeAmount_v3 = (0, 2, 4, 6, 8, 10, 11, 12)
@@ -196,7 +215,6 @@ ability_dict.load_dictionary('AbilityDictionary.txt', 0, 1, separator='$')
 # github stuff for updating the lists
 github_base = 'https://raw.githubusercontent.com/XShadeSlayerXx/PokeRole-Discord.py-Base/master/'
 extra_files = [  # assuming UTF-8
-    'habitats.csv',
     'nature.csv',
     'weather.csv'
 ]
@@ -279,14 +297,6 @@ async def on_ready():
     for place in list(pokebotsettings):
         await instantiateSettings(place)
 
-    if not dev_env:
-        await instantiateHabitatsList()
-    else:
-        try:
-            await instantiateHabitatsList()
-        except Exception as e:
-            print(e)
-
     # tree init
     for command in SLASH_COMMANDS:
         bot.tree.add_command(command)
@@ -294,7 +304,7 @@ async def on_ready():
     # This command was added after the existing production global command set was
     # already registered. Ensure it is installed once without requiring a manual
     # %sync_global invocation.
-    await ensure_getpokerolelegends_registered()
+    await ensure_get_pokerole_legends_registered()
 
     # Production uses global application commands only. Older versions of the bot
     # exposed sync_test, which copied every global command into a test guild and
@@ -312,10 +322,10 @@ async def on_ready():
 # sync commands
 
 SLASH_GUILD_CLEANUP_MARKER = '.slash_guild_duplicates_cleaned_v1'
-GETPOKEROLELEGENDS_COMMAND = 'getpokerolelegends'
+GETPOKEROLELEGENDS_COMMAND = 'get_pokerole_legends'
 
 
-async def ensure_getpokerolelegends_registered():
+async def ensure_get_pokerole_legends_registered():
     """Register the Legends supplement command if Discord does not have it yet.
 
     Global commands normally only change when sync_global is run. This small startup
@@ -329,17 +339,17 @@ async def ensure_getpokerolelegends_registered():
         registered = await bot.tree.fetch_commands()
         registered_names = {command.name for command in registered}
         if GETPOKEROLELEGENDS_COMMAND in registered_names:
-            print('Slash command /getpokerolelegends is already registered globally.')
+            print('Slash command /get_pokerole_legends is already registered globally.')
             return
 
         synced = await bot.tree.sync()
         synced_names = {command.name for command in synced}
         if GETPOKEROLELEGENDS_COMMAND in synced_names:
-            print('Registered global slash command: /getpokerolelegends')
+            print('Registered global slash command: /get_pokerole_legends')
         else:
-            print('Global slash sync completed, but /getpokerolelegends was not returned by Discord.')
+            print('Global slash sync completed, but /get_pokerole_legends was not returned by Discord.')
     except Exception as exc:
-        print(f'Failed to register /getpokerolelegends: {exc}')
+        print(f'Failed to register /get_pokerole_legends: {exc}')
 
 
 async def cleanup_stale_guild_slash_commands():
@@ -441,21 +451,6 @@ async def sync_commands(ctx):
 
 #######
 # converters
-
-def sep_biomes(arg) -> list:
-    arg = arg.title()
-    biomes = set()
-    last = 0
-    marker = arg.find(', ')
-    while marker != -1:
-        for pkmn in pokesFromBiome(arg[last:marker]):
-            biomes.add(pkmn)
-        last = marker + 2  # ignore the comma and space
-        marker = arg.find(', ', marker + 1)
-    # check from marker to end arg[marker:]
-    for pkmn in pokesFromBiome(arg[last:]):
-        biomes.add(pkmn)
-    return list(biomes)
 
 
 def ensure_rank(arg: str) -> str:
@@ -602,17 +597,6 @@ def getStatus(statustype: str) -> str:
         return '🌱'  # '\N{SEEDLING}'
     return '🗡️'  # '\N{DAGGER}'
 
-
-def pokesFromBiome(name: str) -> list:
-    biomes = set()
-    if name.endswith('Biomes'):
-        for biome in pkmnHabitats[name]:
-            for pkmn in pkmnHabitats[biome]:
-                biomes.add(pkmn)
-    else:
-        for pkmn in pkmnHabitats[name]:
-            biomes.add(pkmn)
-    return biomes
 
 
 async def getPokemonAbilities(pkmn, version="v3.0"):
@@ -824,18 +808,11 @@ async def checkLearnables(ctx, *, msg=''):
 
 #######
 
-@bot.hybrid_command(name='docs',
-                    help='--> A link to an easy to read file <--')
-async def docs(ctx):
-    await ctx.send('https://github.com/XShadeSlayerXx/PokeRole-Discord.py-Base/blob/master/PokeRoleBot-Docs.MD')
-
-
-# SLASH_COMMANDS.append(docs)
 
 
 @bot.tree.command(
-    name='getpokerolelegends',
-    description='Legends Rule Supplement'
+    name='get_pokerole_legends',
+    description="Get the latest Pokérole Legends rules, Roll20 sheets, Pokémon PNGs, and more"
 )
 async def get_pokerole_legends(interaction: discord.Interaction):
     await interaction.response.send_message('https://github.com/lowly-god/Pokerole-Legends/tree/main')
@@ -880,17 +857,6 @@ async def ranks_autocomplete(
         for m_type in ranks_v3 if current.lower() in m_type.lower()
     ]
 
-
-async def habitat_autocomplete(
-        interaction: discord.Interaction,
-        current: str
-) -> List[Choice[str]]:
-    if len(current) < 2:
-        return {}
-    return [
-               app_commands.Choice(name=m_list, value=m_list)
-               for m_list in pkmnHabitats if current.lower() in m_list.lower()
-           ][:24]
 
 
 async def move_autocomplete(
@@ -1020,11 +986,11 @@ def print_settings(guild):
     return (f'Current settings:\nPokerole version: **{version}**\n'
             f'(Ability1/Ability2/AbilityHidden)\n**{temp[0], temp[1], temp[2]}**\n'
             f'Shiny chance: {temp[3]} out of 1, **{temp[3] * 100}%**\n'
-            f'Allow previous evolution moves in `%encounter`? **{pre_evo}**\n'
-            f'Display `%encounter` text in a code block format: **{temp[10]}\n**'
-            f'Show move descriptions in %encounter: **{temp[4]}**\n'
-            f'Show ability description in %encounter: **{temp[5]}**\n'
-            f'Items in %encounter? **{temp[6]}**\n'
+            f'Allow previous evolution moves in `/encounter_pokemon`? **{pre_evo}**\n'
+            f'Display `/encounter_pokemon` text in a code block format: **{temp[10]}\n**'
+            f'Show move descriptions in /encounter_pokemon: **{temp[4]}**\n'
+            f'Show ability description in /encounter_pokemon: **{temp[5]}**\n'
+            f'Items in /encounter_pokemon? **{temp[6]}**\n'
             f'display_list by odds or rank? **{odds}**\n'
             f'arbitrary encounter random_rolls? **{temp[8]}**\n'
             f'\n"/help settings" for help')
@@ -1122,14 +1088,14 @@ async def settings(ctx, setting='', value=''):
     description='Change the settings'
 )
 @app_commands.describe(
-    ability_one_chance="Chance for a generated pokemon to have its first ability (out of 100 total)",
-    ability_two_chance="Chance for a generated pokemon to have its second ability (out of 100 total)",
-    ability_hidden_chance="Chance for a generated pokemon to have its hidden ability (out of 100 total)",
-    shiny_chance="Chance for a generated pokemon to be shiny (out of 100 total)",
-    previous_evolution_moves="Should Pokemon generate with moves from their previous evolutions?",
-    code_block_format="Display generated pokemon in a `code block`?",
-    show_move_description="Expand move descriptions by default in generated pokemon?",
-    show_ability_description="Expand ability descriptions by default in generated pokemon?",
+    ability_one_chance="Chance for a generated Pokémon to have its first ability (out of 100 total)",
+    ability_two_chance="Chance for a generated Pokémon to have its second ability (out of 100 total)",
+    ability_hidden_chance="Chance for a generated Pokémon to have its hidden ability (out of 100 total)",
+    shiny_chance="Chance for a generated Pokémon to be shiny (out of 100 total)",
+    previous_evolution_moves="Should Pokémon generate with moves from their previous evolutions?",
+    code_block_format="Display generated Pokémon in a `code block`?",
+    show_move_description="Expand move descriptions by default in generated Pokémon?",
+    show_ability_description="Expand ability descriptions by default in generated Pokémon?",
     item_list_in_encounter="Which item list should be used in encounters? (type 'False' to clear)",
     display_lists_by="Choose to display specific lists by Rank or Odds",
     random_rolls_in_encounter="Have 4 suggested rolls for Accuracy and Damage in encounters?"
@@ -1260,7 +1226,7 @@ async def update_settings(ctx):
 
 #######
 
-# returns a random pokemon or item from given list
+# returns a random Pokémon or item from given list
 def pkmn_random_driver(listname: str, giveList=False) -> str:
     if listname not in pkmnLists:
         return 'There was not a list with this name.\n'
@@ -1292,7 +1258,7 @@ async def pkmnitemhelper(item, version: str):
         raise KeyError(f'{item} wasn\'t recognized as an item.')
 
 
-@bot.hybrid_command(name='item', aliases=['items', 'i'], help='List an item\'s traits. "%item" for categories.')
+@bot.hybrid_command(name='item', aliases=['items', 'i'], description="Display an Item's traits and price. Use %item for categories.", help="Display an Item's traits and price. Use %item for categories.")
 @app_commands.autocomplete(itemname=item_autocomplete)
 async def pkmn_search_item(ctx, itemname: str = ''):
     global database
@@ -1302,7 +1268,7 @@ async def pkmn_search_item(ctx, itemname: str = ''):
     if itemname != '':
         folded_item = itemname.casefold()
         if folded_item in ACCESSORY_LOOKUP_NAMES:
-            await ctx.send(f'{itemname} has moved to `/accessories`.')
+            await ctx.send(f'{itemname} has moved to `/accessory`.')
             return
         if folded_item in TOOL_LOOKUP_NAMES or folded_item == 'tools':
             await ctx.send(f'{itemname} has moved to `/tools`.')
@@ -1316,7 +1282,7 @@ async def pkmn_search_item(ctx, itemname: str = ''):
             output = f'__{itemname}__\n'
 
             if found[0] != '':
-                order = ['Description', 'For Types', 'For Pokemon', 'Boost', 'Value', 'Cures', 'Consumable',
+                order = ['Description', 'For Types', 'For Pokémon', 'Boost', 'Value', 'Cures', 'Consumable',
                          'Health Restored', 'Trainer Price', 'PMD Price']
                 # this is an actual item
                 # Preserve the authored capitalization of item effect text and do not italicize it.
@@ -1339,29 +1305,14 @@ async def pkmn_search_item(ctx, itemname: str = ''):
             await ctx.send(f'{itemname} wasn\'t found in the item list.\n*Unknown Error Occurred?*')
     else:
         await ctx.send(
-            'Use `/item <item name>` to look up an item; autocomplete will suggest valid names.\n'
-            'Equipment references are split into `/weapon`, `/armor`, `/accessories`, and `/tools`.'
+            'To look up an item; autocomplete will suggest valid names.\n'
+            'Human equipment references are split into `/weapon`, `/armor`, `/accessory`, and `/tools`.'
         )
 
 
 # SLASH_COMMANDS.append(pkmn_search_item)
 
 #######
-
-async def instantiateHabitatsList():
-    try:
-        with open('habitats.csv', 'r', encoding='UTF-8') as file:
-            reader = csv.reader(file)
-            for row in reader:
-                pkmnHabitats[row[0]] = [x for x in row[1:]]
-    except:
-        print('ERROR: habitats file not found!')
-
-
-async def pkmnhabitatshelper(habitat):
-    if len(pkmnHabitats.keys()) == 0:
-        await instantiateHabitatsList()
-    return pkmnHabitats[habitat]
 
 
 async def pkmnDictRanks(pokemon: list, version: str) -> dict:
@@ -1398,73 +1349,6 @@ async def pkmnRankDisplay(title: str, pokemon: typing.Union[list, dict], version
     return output
 
 
-@bot.hybrid_command(name='habitat', aliases=['biome', 'h', 'habitats'],
-                    help='List the pokemon for a biome that theworldofpokemon.com suggests.')
-@app_commands.autocomplete(habitat=habitat_autocomplete)
-@app_commands.choices(
-    view_all=[
-        Choice(name="Yes", value=1),
-        Choice(name="No", value=0)
-    ]
-)
-async def pkmn_search_habitat(ctx, *, habitat: str = '', view_all: int = 0):
-    view_all = bool(view_all)
-    guild = await getGuilds(ctx)
-    version = version_converter[pokebotsettings[guild][11]]
-    if view_all:
-        await habitat_helper(ctx, habitat, version=version)
-        return
-    try:
-        habitat = habitat.title()
-        found = await pkmnhabitatshelper(habitat)
-    except:
-        pass
-    if habitat != '':
-        try:
-            if not habitat.endswith('Biomes'):
-                guild = await getGuilds(ctx)
-                version = version_converter[pokebotsettings[guild][11]]
-                # this is a biome with pokebois
-                output = await pkmnRankDisplay(f'__{habitat}__', found, version=version)
-                await send_big_msg(ctx, output)
-            else:
-                output = f'__{habitat}__\n - '
-                # this is an overarching theme
-                wbool = False
-                for x in found:
-                    output += x + f' ({len(pkmnHabitats[x])})' + ('\n - ' if wbool else ' / ')
-                    wbool = not wbool
-                await ctx.send(output[:-3])
-        except:
-            await ctx.send(f'{habitat} wasn\'t recognized in the habitat list.')
-    else:
-        temp = []
-        for key in list(pkmnHabitats.keys()):
-            if key.endswith('Biomes'):
-                temp.append(key)
-        msg = '__Biome Supersets:__\n - '
-        wbool = False
-        for x in temp:
-            msg += x + f' ({len(pkmnHabitats[x])})' + ('\n - ' if wbool else ' / ')
-            wbool = not wbool
-        await ctx.send(msg[:-3])
-
-
-# SLASH_COMMANDS.append(pkmn_search_habitat)
-
-async def habitat_helper(ctx, habitatlist, version: str):
-    separate_poke = sep_biomes(habitatlist)
-    await send_big_msg(ctx, (await pkmnRankDisplay(f'__{habitatlist.title()}__', separate_poke, version=version)))
-
-
-@bot.command(name='viewhabitat', aliases=['vh'],
-             help='Expand a habitat into a viewable format.\n'
-                  'e.g. %vh ocean biomes')
-async def view_habitat(ctx, *, habitatlist: str):
-    guild = await getGuilds(ctx)
-    version = version_converter[pokebotsettings[guild][11]]
-    await habitat_helper(ctx, habitatlist, version=version)
-
 
 #######
 
@@ -1476,7 +1360,7 @@ async def pkmnabilitieshelper(ability, version: str):
         raise KeyError(f'{ability} wasn\'t recognized as an ability.')
 
 
-@bot.command(name='ability', aliases=['a'], help='List a pokemon ability\'s traits')
+@bot.command(name='ability', aliases=['a'], help="Display an Ability's traits")
 async def pkmn_search_ability(ctx, *, abilityname: pkmn_cap):
     guild = await getGuilds(ctx)
     version = version_converter[pokebotsettings[guild][11]]
@@ -1498,7 +1382,7 @@ async def pkmn_search_ability(ctx, *, abilityname: pkmn_cap):
 
 @app_commands.command(
     name='ability',
-    description='Display an ability\'s info'
+    description="Display an Ability's traits"
 )
 @app_commands.describe(ability="Which ability?")
 @app_commands.autocomplete(ability=ability_autocomplete)
@@ -1569,7 +1453,7 @@ async def move_backend(movename, version: str):
         return f'{movename} wasn\'t found in the move list.'
 
 
-@bot.command(name='move', aliases=['m'], help='List a pokemon move traits')
+@bot.command(name='move', aliases=['m'], help="Display a Pokémon Move's traits")
 async def pkmn_search_move(ctx, *, movename: pkmn_cap):
     guild = await getGuilds(ctx)
     version = version_converter[pokebotsettings[guild][11]]
@@ -1578,7 +1462,7 @@ async def pkmn_search_move(ctx, *, movename: pkmn_cap):
 
 @app_commands.command(
     name='move',
-    description='List a pokemon move traits'
+    description="Display a Pokémon Move's traits"
 )
 @app_commands.describe(move="Which move?")
 @app_commands.autocomplete(move=move_autocomplete)
@@ -1592,7 +1476,7 @@ async def pkmn_search_move_slash(inter, *, move: str):
 SLASH_COMMANDS.append(pkmn_search_move_slash)
 
 
-async def metronome_backend(type, lower, higher, version: str):
+async def metronome_backend(type, lower, higher, version: str, exclude_silly: bool = False):
     clauses = []
     params = []
 
@@ -1625,6 +1509,14 @@ async def metronome_backend(type, lower, higher, version: str):
         else:
             clauses.append('LOWER(type) = ?')
             params.append(requested.casefold())
+
+    if exclude_silly:
+        clauses.append('LOWER(type) != ?')
+        params.append('shadow')
+        if METRONOME_SILLY_EXCLUDED_MOVES:
+            placeholders = ','.join('?' for _ in METRONOME_SILLY_EXCLUDED_MOVES)
+            clauses.append(f'name NOT IN ({placeholders})')
+            params.extend(sorted(METRONOME_SILLY_EXCLUDED_MOVES))
 
     query = 'SELECT name FROM pkmnMoves'
     if clauses:
@@ -1680,16 +1572,21 @@ async def metronome(ctx, *, parameters: str = ''):
 
 @app_commands.command(
     name='metronome',
-    description='Get a random move from any of them (with a few options)'
+    description='Get a random Move from a list of all Moves (with a few options)'
 )
 @app_commands.describe(
     move_type="Want a specific move typing?",
     power="Power for the move? (exact if max_power isn't provided, inclusive otherwise)",
     max_power="Maximum power on a move? (inclusive)",
-    private="Display the move in a private message? (Default: False)"
+    private="Display the Move in a private message? (Default: False)",
+    exclude_silly="Exclude Shadow-Type Moves, Moves with the Unique keyword, and Z-Moves? (Default: No)"
 )
 @app_commands.choices(
     private=[
+        Choice(name='Yes', value=1),
+        Choice(name='No', value=0),
+    ],
+    exclude_silly=[
         Choice(name='Yes', value=1),
         Choice(name='No', value=0),
     ]
@@ -1700,13 +1597,15 @@ async def metronome_slash(
         move_type: str = None,
         power: app_commands.Range[int, 0, 10] = None,
         max_power: app_commands.Range[int, 0, 10] = None,
-        private: int = 0):
+        private: int = 0,
+        exclude_silly: int = 0):
     private = bool(private)
+    exclude_silly = bool(exclude_silly)
     guild = await getGuilds(inter)
     version = version_converter[pokebotsettings[guild][11]]
     if power is not None and max_power is not None and power > max_power:
         power, max_power = max_power, power
-    move = await metronome_backend(type=move_type, lower=power, higher=max_power, version=version)
+    move = await metronome_backend(type=move_type, lower=power, higher=max_power, version=version, exclude_silly=exclude_silly)
     if move is None:
         filters = []
         if move_type:
@@ -1826,7 +1725,7 @@ async def pkmn_stat_msg_helper(pokemon, found, version: str):
     return output, buttons
 
 
-@bot.command(name='stats', aliases=['s', 'info'], help='List a pokemon\'s stats. '
+@bot.command(name='stats', aliases=['s', 'info'], help='List a Pokémon\'s stats. '
                                                        'Emote on the message to expand the abilities!')
 async def pkmn_search_stats(ctx, *, pokemon: pkmn_cap):
     guild = await getGuilds(ctx)
@@ -1843,9 +1742,9 @@ async def pkmn_search_stats(ctx, *, pokemon: pkmn_cap):
 
 @app_commands.command(
     name='stats',
-    description='Display a pokemon\'s stats'
+    description="Display a Pokémon's stats"
 )
-@app_commands.describe(pokemon="Which pokemon?")
+@app_commands.describe(pokemon="Which Pokémon?")
 @app_commands.autocomplete(pokemon=pokemon_autocomplete)
 async def pkmn_search_stats_slash(inter, *, pokemon: str):
     pokemon = pkmn_cap(pokemon)
@@ -1968,9 +1867,9 @@ async def move_aggregator_tmp(poke: str, rank: str, denote_moves: bool = False, 
     return movelist
 
 
-@bot.command(name='pokelearns',
+@bot.command(name='poke_learns',
              aliases=['canlearn', 'pl', 'moves', 'learnset'],
-             help='Lists what moves a pokemon can learn\ne.g. %pokelearns vulpix')
+             help='Display the Moves a Pokémon can learn')
 async def pkmn_search_learns(ctx, *, pokemon: pkmn_cap):
     # known moves is insight + 2
     guild = await getGuilds(ctx)
@@ -2008,11 +1907,11 @@ async def pkmn_search_learns(ctx, *, pokemon: pkmn_cap):
 
 
 @app_commands.command(
-    name='pokelearns',
-    description='Display the moves a pokemon can learn'
+    name='poke_learns',
+    description='Display the Moves a Pokémon can learn'
 )
 @app_commands.describe(
-    pokemon="Which pokemon?",
+    pokemon="Which Pokémon?",
     previous_evo_moves="Show moves from previous evolutions?"
 )
 @app_commands.choices(
@@ -2289,7 +2188,7 @@ async def calcStats(rank: str, attr: list, maxAttr: list,
 
     if sum(value for _, value in skills) != skill_amounts[rank_index]:
         raise RuntimeError(
-            f'Pokemon skill allocation mismatch for {rank}: '
+            f'Pokémon skill allocation mismatch for {rank}: '
             f'{sum(value for _, value in skills)} != {skill_amounts[rank_index]}'
         )
 
@@ -2342,7 +2241,7 @@ async def pkmn_encounter(ctx, number: int, rank: str, pokelist: list,
         number = 1
 
     if len(pokelist) == 0:
-        return 'Need at least one pokemon in the list!'
+        return 'Need at least one Pokémon in the list!'
 
     # exceptions for master rank: 6 extra social, HP + 2, DEF/S.DEF + 2
 
@@ -2816,8 +2715,8 @@ async def pkmn_search_encounter(ctx, number: typing.Optional[int] = 1,
 
 
 @app_commands.command(
-    name='encounter',
-    description='Generate one or more Pokémon encounters.'
+    name='encounter_pokemon',
+    description='Generate one or more Pokémon'
 )
 @app_commands.describe(
     pokemon="Which Pokémon? Leave blank for a random Pokémon at the selected rank.",
@@ -2966,7 +2865,7 @@ async def send_named_pool_encounter(inter, pool, rank, condense_info=0, smart_st
 
 @app_commands.command(
     name='encounter_biome',
-    description='Encounter a Pokémon from a biome!'
+    description='Generate a Pokémon from a specific biome'
 )
 @app_commands.describe(
     biome='Which biome?',
@@ -3000,7 +2899,7 @@ SLASH_COMMANDS.append(smart_biome_search_slash)
 
 @app_commands.command(
     name='encounter_region',
-    description='Encounter a Pokémon from a region!'
+    description='Generate a Pokémon from a specific region'
 )
 @app_commands.describe(
     region="Which region?",
@@ -3074,21 +2973,11 @@ async def form_helper(name, version: str):
     if len(result) > 20:
         msg = f'Too many results with `{name}`. Try a longer string?'
     elif len(result) == 0:
-        msg = f'No pokemon with `{name}` were found. Try a shorter string?'
+        msg = f'No Pokémon with `{name}` were found. Try a shorter string?'
     else:
         msg = '- ' + '\n- '.join([x[0] for x in result])
     return msg
 
-
-@bot.command(name='forms',
-             aliases=['form'],
-             help='A way to find pokemon with forms or similar names.\n'
-                  '`%forms Lycanroc` (Capitalization should not matter)')
-async def form_finder(ctx, *, name: str = ''):
-    guild = await getGuilds(ctx)
-    version = version_converter[pokebotsettings[guild][11]]
-    msg = await form_helper(name, version=version)
-    await ctx.send(msg)
 
 
 #####
@@ -3124,7 +3013,8 @@ class Feedback_Button(ui.View):
 
 @bot.hybrid_command(name='feedback',
                     aliases=['fb', 'report', 'typo', 'bug'],
-                    help='Send feedback/suggestions/bug reports straight to my creator!')
+                    description='Send feedback, suggestions or bug reports straight to my creator',
+                    help='Send feedback, suggestions or bug reports straight to my creator')
 # @app_commands.command(name = 'feedback')
 async def feedback(ctx: discord.Interaction, *, info: str):
     reply_func = None
@@ -3143,30 +3033,22 @@ async def feedback(ctx: discord.Interaction, *, info: str):
     await feedback_owner.send(which_user + ": " + info, view=butn)
 
 
-@bot.command(name='donate',
-             help='Support me!')
+@bot.hybrid_command(name='donate', description='Show your love and support', help='Show your love and support')
 async def donate(ctx):
-    link = r'https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=VD9LEYX4TKGUW&currency_code=USD'
-    await ctx.send(embed=discord.Embed(title='Click here to donate!', url=link))
+    link = r'https://ko-fi.com/lowlygod'
+    await ctx.send(link)
 
 
-@bot.command(name='invite',
-             aliases=['inv'],
-             help='Get the invite code')
+@bot.hybrid_command(name='invite', aliases=['inv'], description='Get an invite link for the bot', help='Get an invite link for the bot')
 async def invite(ctx):
-    link = R'https://discord.com/api/oauth2/authorize?client_id=747930418702974983&permissions=277025425472&scope=bot%20applications.commands'
-    await ctx.send(embed=discord.Embed(title='Invite me!', url=link))
+    link = r'https://discord.com/oauth2/authorize?client_id=1536204111723241472'
+    await ctx.send(link)
 
 
 #####
 
 # error handling:
 
-@view_habitat.error
-async def vh_error(ctx, info):
-    await ctx.send(f'Make sure you type the biome name exactly (e.g. Ocean Biomes)\n'
-                   f'*(This message self-destructs in 15 seconds)*',
-                   delete_after=15)
 
 
 if not dev_env:

@@ -30,7 +30,7 @@ class ToolsCog(commands.Cog):
         names = [name for name in self.tools if query in normalize(name)]
         return [app_commands.Choice(name=n[:100], value=n) for n in names[:25]]
 
-    @app_commands.command(name='tools', description='Look up Legends tools and adventuring equipment.')
+    @app_commands.command(name='tools', description='Display a Tool and its traits')
     @app_commands.describe(name='Tool name')
     @app_commands.autocomplete(name=autocomplete)
     async def tools_command(self, interaction: discord.Interaction, name: str):

@@ -24,7 +24,7 @@
   "Legendary": false,
   "GoodStarter": false,
   "_id": "eiscue",
-  "DexCategory": "Penguin Pokemon",
+  "DexCategory": "Penguin Pokémon",
   "Height": {
     "Meters": 1.4,
     "Feet": 4.6
@@ -33,7 +33,7 @@
     "Kilograms": 89.0,
     "Pounds": 196.0
   },
-  "DexDescription": "This Pokemon keeps its head cool with ice. It fishes for its food by dangling its single hair into the sea to lure in prey. When they tire of swimming they simply let their ice head be drifted away by the sea.",
+  "DexDescription": "This Pokémon keeps its head cool with ice. It fishes for its food by dangling its single hair into the sea to lure in prey. When they tire of swimming they simply let their ice head be drifted away by the sea.",
   "Evolutions": [
     {
       "To": "Eiscue (No Ice Form)",

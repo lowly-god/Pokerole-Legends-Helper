@@ -24,7 +24,7 @@
   "Legendary": false,
   "GoodStarter": true,
   "_id": "ekans",
-  "DexCategory": "Snake Pokemon",
+  "DexCategory": "Snake Pokémon",
   "Height": {
     "Meters": 2.0,
     "Feet": 6.6
@@ -33,7 +33,7 @@
     "Kilograms": 6.9,
     "Pounds": 15.2
   },
-  "DexDescription": "It lives on grasslands, preying on Rattata and Pokemon Eggs it finds. It's jaw can detach itself to swallow any prey whole. It coils and sleeps after eating. Ekans grow larger and larger with every year they age.",
+  "DexDescription": "It lives on grasslands, preying on Rattata and Pokémon Eggs it finds. It's jaw can detach itself to swallow any prey whole. It coils and sleeps after eating. Ekans grow larger and larger with every year they age.",
   "Evolutions": [
     {
       "To": "Arbok",

@@ -1,16 +1,18 @@
 {
-    "Name": "Revitalisation Pulse",
-    "Type": "Fighting",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Vitality",
-    "Accuracy2": "Nature",
-    "Target": "Self",
-    "Effect": "Basic Heal. If successful, spend 1 Will Point to activate. Increase the User's Strength, Defense and Special Defense by 1.",
-    "Description": "The User pulses with energy, drawing from a mysterious power.",
-    "_id": "revitalisation-pulse",
-    "Attributes": {},
-    "AddedEffects": {},
-    "Category": "Support"
+  "Name": "Revitalisation Pulse",
+  "Type": "Fighting",
+  "Power": 0,
+  "Damage1": "",
+  "Damage2": "",
+  "Accuracy1": "Vitality",
+  "Accuracy2": "Nature",
+  "Target": "Self",
+  "Effect": "Basic Heal. Unique. If successful, spend 1 Will Point to activate. Increase the User's Strength, Defense and Special Defense by 1.",
+  "Description": "The User pulses with energy, drawing from a mysterious power.",
+  "_id": "revitalisation-pulse",
+  "Attributes": {
+    "Unique": true
+  },
+  "AddedEffects": {},
+  "Category": "Support"
 }

@@ -474,7 +474,7 @@ for rule in rules:
             duplicates += 1
 
 
-# Force DB rebuild because /pokelearns is generated from these JSON files.
+# Force DB rebuild because /poke_learns is generated from these JSON files.
 if DB_FILE.exists():
     DB_FILE.unlink()
 
@@ -506,4 +506,4 @@ print()
 print("A detailed report was written to:")
 print("additional_move_learners_install_report.json")
 print()
-print("pokerole_v3.db was removed so /pokelearns rebuilds on next startup.")
+print("pokerole_v3.db was removed so /poke_learns rebuilds on next startup.")

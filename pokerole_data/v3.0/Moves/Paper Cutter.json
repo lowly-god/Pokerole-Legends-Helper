@@ -1,16 +1,18 @@
 {
-    "Name": "Paper Cutter",
-    "Type": "Grass",
-    "Power": 3,
-    "Damage1": "Physical",
-    "Damage2": "",
-    "Accuracy1": "Strength/Cool",
-    "Accuracy2": "Brawl",
-    "Target": "Foe",
-    "Effect": "Cutter Move. Double Action. Reaction 1.",
-    "Description": "The User Moves with alarming speed slashing with paper thin blades at the Foe.",
-    "_id": "paper-cutter",
-    "Attributes": {},
-    "AddedEffects": {},
-    "Category": "Physical"
+  "Name": "Paper Cutter",
+  "Type": "Grass",
+  "Power": 3,
+  "Damage1": "Physical",
+  "Damage2": "",
+  "Accuracy1": "Strength/Cool",
+  "Accuracy2": "Brawl",
+  "Target": "Foe",
+  "Effect": "Cutter Move. Double Action. Reaction 1. Unique.",
+  "Description": "The User Moves with alarming speed slashing with paper thin blades at the Foe.",
+  "_id": "paper-cutter",
+  "Attributes": {
+    "Unique": true
+  },
+  "AddedEffects": {},
+  "Category": "Physical"
 }

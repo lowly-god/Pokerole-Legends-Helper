@@ -17,7 +17,7 @@ class PerkCog(commands.Cog):
             if current in name.lower()
         ][:25]
 
-    @app_commands.command(name="perk", description="Look up a Legends Perk.")
+    @app_commands.command(name="perk", description="Display a human Perk's traits")
     @app_commands.describe(name="Perk name")
     @app_commands.autocomplete(name=perk_autocomplete)
     async def perk(self, interaction: discord.Interaction, name: str):

@@ -1,16 +1,18 @@
 {
-    "Name": "Tyrant's Shadow",
-    "Type": "Dark",
-    "Power": 0,
-    "Damage1": "",
-    "Damage2": "",
-    "Accuracy1": "Tough/Cool",
-    "Accuracy2": "Channel",
-    "Target": "User and Allies",
-    "Effect": "Increase the Strength, Dexterity and Special of those affected by 1.",
-    "Description": "Shadows extend from the User, even its allies become fearful of it.",
-    "_id": "tyrant-s-shadow",
-    "Attributes": {},
-    "AddedEffects": {},
-    "Category": "Support"
+  "Name": "Tyrant's Shadow",
+  "Type": "Dark",
+  "Power": 0,
+  "Damage1": "",
+  "Damage2": "",
+  "Accuracy1": "Tough/Cool",
+  "Accuracy2": "Channel",
+  "Target": "User and Allies",
+  "Effect": "Unique. Increase the Strength, Dexterity and Special of those affected by 1.",
+  "Description": "Shadows extend from the User, even its allies become fearful of it.",
+  "_id": "tyrant-s-shadow",
+  "Attributes": {
+    "Unique": true
+  },
+  "AddedEffects": {},
+  "Category": "Support"
 }

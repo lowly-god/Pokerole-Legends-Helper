@@ -1,16 +1,18 @@
 {
-    "Name": "Geopsychic Glyph",
-    "Type": "Psychic",
-    "Power": 4,
-    "Damage1": "Special",
-    "Damage2": "",
-    "Accuracy1": "Special",
-    "Accuracy2": "Channel",
-    "Target": "Area",
-    "Effect": "Roll 3 Chance Dice to Burn (1) those affected.",
-    "Description": "The User burns mysterious glyphs onto the ground around it.",
-    "_id": "geopsychic-glyph",
-    "Attributes": {},
-    "AddedEffects": {},
-    "Category": "Special"
+  "Name": "Geopsychic Glyph",
+  "Type": "Psychic",
+  "Power": 4,
+  "Damage1": "Special",
+  "Damage2": "",
+  "Accuracy1": "Special",
+  "Accuracy2": "Channel",
+  "Target": "Area",
+  "Effect": "Unique. Roll 3 Chance Dice to Burn (1) those affected.",
+  "Description": "The User burns mysterious glyphs onto the ground around it.",
+  "_id": "geopsychic-glyph",
+  "Attributes": {
+    "Unique": true
+  },
+  "AddedEffects": {},
+  "Category": "Special"
 }
