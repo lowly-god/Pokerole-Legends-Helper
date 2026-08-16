@@ -31,6 +31,24 @@ HUMAN_SKILLS = [
     "Allure", "Intimidate",
 ]
 
+# /encounter_human uses the Legends rank progression explicitly rather than
+# reusing trainer/pokemon total-pool parsing. Human NPC templates already
+# contain their Starter main-attribute spread, so Starter adds 0 Main points.
+# Templates do not carry an age, so generated NPCs use the Adult Starter
+# social baseline: all Social Attributes begin at 1, then 4 Starter points
+# are distributed before rank bonuses are applied.
+HUMAN_RANK_RULES = {
+    "Starter":  {"main": 0,  "social": 0,  "skills": 5,  "skill_limit": 1, "stamina": 5},
+    "Rookie":   {"main": 2,  "social": 2,  "skills": 10, "skill_limit": 2, "stamina": 8},
+    "Standard": {"main": 4,  "social": 4,  "skills": 14, "skill_limit": 3, "stamina": 10},
+    "Advanced": {"main": 6,  "social": 6,  "skills": 17, "skill_limit": 4, "stamina": 12},
+    "Expert":   {"main": 8,  "social": 8,  "skills": 19, "skill_limit": 5, "stamina": 14},
+    "Ace":      {"main": 10, "social": 10, "skills": 21, "skill_limit": 5, "stamina": 16},
+    "Master":   {"main": 11, "social": 11, "skills": 23, "skill_limit": 6, "stamina": 17},
+    "Champion": {"main": 12, "social": 12, "skills": 25, "skill_limit": 6, "stamina": 18},
+}
+STARTER_ADULT_SOCIAL_POINTS = 4
+
 
 def normalize(text):
     text = (text or "").replace("’", "'").replace("‘", "'").replace("–", "-").replace("—", "-")
@@ -166,15 +184,9 @@ class HumanNPCCog(commands.Cog):
             for alias in [maneuver["name"]] + maneuver.get("aliases", []):
                 self.maneuver_lookup[normalize(alias)] = maneuver
 
-        self.rank_rules = {}
-        for rank in RANKS:
-            benefits = self.rankup_data.get(rank, {}).get("Benefits", [])
-            self.rank_rules[rank] = {
-                "main": _extract_total(benefits, "Total Main Attribute Points", 0),
-                "social": _extract_total(benefits, "Total Social Attribute Points", 0),
-                "skills": _extract_total(benefits, "Skill Points", 5),
-                "skill_limit": _extract_skill_limit(benefits, 1),
-            }
+        # Keep /encounter_human independent from older rankup-data wording.
+        # These are the exact cumulative point totals for generated human NPCs.
+        self.rank_rules = {rank: dict(HUMAN_RANK_RULES[rank]) for rank in RANKS}
 
     async def npc_autocomplete(self, interaction: discord.Interaction, current: str):
         query = normalize(current)
@@ -272,26 +284,9 @@ class HumanNPCCog(commands.Cog):
         return 2
 
     def _rank_cap_bonus(self, rank, stat_names, base_stats):
-        caps = {name: base_stats[name]["max"] for name in stat_names}
-        if rank == "Ace":
-            count, amount = 1, 1
-        elif rank == "Master":
-            count, amount = 2, 1
-        elif rank == "Champion":
-            count, amount = 3, 2
-        else:
-            return caps
-
-        # Smart choice: allow the template's strongest/highest-cap stats to use
-        # the rank's above-limit allowance.
-        order = sorted(
-            stat_names,
-            key=lambda x: (base_stats[x]["max"], base_stats[x]["base"]),
-            reverse=True
-        )
-        for name in order[:count]:
-            caps[name] += amount
-        return caps
+        # /encounter_human only applies the requested point gains. Rank-specific
+        # cap-breaking benefits (Ace/Master/Champion) are intentionally ignored.
+        return {name: base_stats[name]["max"] for name in stat_names}
 
     def _allocate_main(self, npc, rank):
         stat_names = ["Strength", "Dexterity", "Vitality", "Special", "Insight"]
@@ -320,8 +315,9 @@ class HumanNPCCog(commands.Cog):
 
     def _allocate_socials(self, rank):
         values = {name: 1 for name in SOCIALS}
-        points = self.rank_rules[rank]["social"]
-        # Normal social cap is 5. There is enough room for all current rank totals.
+        # Adult NPCs receive the Starter base Social pool, then all cumulative
+        # Social Attribute points earned through the requested rank.
+        points = STARTER_ADULT_SOCIAL_POINTS + self.rank_rules[rank]["social"]
         while points > 0:
             candidates = [name for name in SOCIALS if values[name] < 5]
             if not candidates:
@@ -479,15 +475,18 @@ class HumanNPCCog(commands.Cog):
             f"__{rank} {npc['name']}__",
             f"**Archetype:** {npc['archetype']}",
             f"**HP:** {hp}",
+            f"**Stamina Points:** {self.rank_rules[rank]['stamina']}",
             "",
             "**Main Attributes**",
         ]
         for name in ["Strength", "Dexterity", "Vitality", "Special", "Insight"]:
-            lines.append(f"**{name}:** {pips(attrs[name], attr_caps[name])}")
+            lines.append(
+                f"**{name}:** {pips(attrs[name], attr_caps[name])} `({attrs[name]}/{attr_caps[name]})`"
+            )
 
         lines.extend(["", "**Social Attributes**"])
         for name in SOCIALS:
-            lines.append(f"**{name}:** {pips(socials[name], 5)}")
+            lines.append(f"**{name}:** {pips(socials[name], 5)} `({socials[name]}/5)`")
 
         nonzero_skills = [f"{name} {value}" for name, value in skills.items() if value]
         lines.extend([
