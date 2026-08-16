@@ -1,0 +1,13 @@
+{
+  "Name": "Deluxe Pokémon Food",
+  "_id": "deluxe-pok-mon-food",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Provisions",
+  "Category": "Special Provisions",
+  "Description": "1 days food, grants +2 Happiness and Loyalty",
+  "OneUse": true,
+  "TrainerPrice": "N/A",
+  "Cures": "",
+  "Image": ""
+}

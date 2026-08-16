@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "Special Items",
   "Category": "Special Items",
-  "Description": "Changes a Pokémon’s Nature to Gentle.",
+  "Description": "Increases Special Defense and decreases Defense",
   "OneUse": true,
   "TrainerPrice": "15000",
   "Cures": "",

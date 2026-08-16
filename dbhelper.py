@@ -7,10 +7,10 @@ from sqlite3 import Error
 import csv
 import unicodedata
 
-db_file_v2 = 'pokerole.db'
 db_file_v3 = 'pokerole_v3.db'
 data_path = 'pokerole_data/'
-versions = ['v2.0', 'v3.0']
+CURRENT_VERSION = 'v3.0'
+versions = [CURRENT_VERSION]
 data_folders = {
     'pkmn': '/Pokedex',
     'moves': '/Moves',
@@ -67,27 +67,29 @@ def strip_accents(s):
 class Database:
     def __init__(self):
         self.connection = create_connection(db_file_v3)
-        self.connection_old = create_connection(db_file_v2)
-        for version in versions:
-            self.checkIntegrity(version=version)
+        self.checkIntegrity(version=CURRENT_VERSION)
 
-    def get_cursor(self, version : str):
-        if version in ["v2.0", "v2", "2"]:
-            if self.connection_old is None: self.connection_old = create_connection(db_file_v2)
-            return self.connection_old.cursor()
-        if self.connection is None: self.connection = create_connection(db_file_v3)
+    @staticmethod
+    def _v3(version=None):
+        # Accept legacy caller arguments but never route to v2.0. This makes old
+        # settings/call sites fail safe into the only supported ruleset.
+        return CURRENT_VERSION
+
+    def get_cursor(self, version : str = CURRENT_VERSION):
+        if self.connection is None:
+            self.connection = create_connection(db_file_v3)
         return self.connection.cursor()
 
-    def connection_commit(self, version : str):
-        if version in ["v2.0", "v2", "2"]:
-            return self.connection_old.commit()
+    def connection_commit(self, version : str = CURRENT_VERSION):
         return self.connection.commit()
 
-    def reloadLists(self, version : str):
+    def reloadLists(self, version : str = CURRENT_VERSION):
+        version = self._v3(version)
         self.removeAllLists(version=version)
         self.instantiateAllLists(version=version)
 
     def removeAllLists(self, version: str):
+        version = self._v3(version)
         # drop all the tables in the relevant version db
         cursor = self.get_cursor(version)
         for table in table_names.values():
@@ -96,6 +98,7 @@ class Database:
         self.connection_commit(version)
 
     def _source_fingerprint(self, version: str):
+        version = self._v3(version)
         """Hash the JSON data that feeds the SQLite cache.
 
         The database is generated data. Hosting updates can replace JSON files
@@ -116,6 +119,7 @@ class Database:
         return digest.hexdigest()
 
     def _get_stored_fingerprint(self, version: str):
+        version = self._v3(version)
         cursor = self.get_cursor(version)
         cursor.execute('CREATE TABLE IF NOT EXISTS dataMeta (key text PRIMARY KEY, value text)')
         cursor.execute('SELECT value FROM dataMeta WHERE key="source_fingerprint"')
@@ -125,6 +129,7 @@ class Database:
         return row[0] if row else None
 
     def _store_fingerprint(self, version: str, fingerprint: str):
+        version = self._v3(version)
         cursor = self.get_cursor(version)
         cursor.execute('CREATE TABLE IF NOT EXISTS dataMeta (key text PRIMARY KEY, value text)')
         cursor.execute(
@@ -135,6 +140,7 @@ class Database:
         self.connection_commit(version)
 
     def checkIntegrity(self, version = "v3.0"):
+        version = self._v3(version)
         cursor = self.get_cursor(version=version)
         cursor.execute('SELECT name FROM sqlite_master WHERE type="table" AND name NOT LIKE "SQLITE_%"')
         result = cursor.fetchall()
@@ -160,6 +166,7 @@ class Database:
             self._store_fingerprint(version, fingerprint)
 
     def instantiateAllLists(self, version: str):
+        version = self._v3(version)
         self.build_tables(version=version)
         self.instantiatePokemonLists(version=version)
         self.instantiateMoveList(version=version)
@@ -226,6 +233,7 @@ class Database:
         self.connection.commit()
 
     def build_tables(self, version: str):
+        version = self._v3(version)
         tblnm = table_names['pkmnEvo']
         vals = """
         name text PRIMARY KEY,
@@ -311,6 +319,7 @@ class Database:
 
 
     def instantiatePokemonLists(self, version : str):
+        version = self._v3(version)
         print(f"Creating the {version} pokemon tables...")
         # the pokemon in the pokemon folder contain stats, evo info, and the learns list
         stat_table = table_names['pkmnStats']
@@ -380,6 +389,7 @@ class Database:
         self.connection_commit(version)
 
     def instantiateMoveList(self, version : str):
+        version = self._v3(version)
         print(f"Creating the {version} move table...")
         move_table = table_names['pkmnMoves']
         move_cursor = self.get_cursor(version)
@@ -401,6 +411,7 @@ class Database:
         self.connection_commit(version)
 
     def instantiateAbilityList(self, version: str):
+        version = self._v3(version)
         print(f"Creating the {version} ability table...")
         ability_table = table_names['pkmnAbilities']
         ability_cursor = self.get_cursor(version)
@@ -419,6 +430,7 @@ class Database:
         self.connection_commit(version)
 
     def instantiateItemList(self, version : str):
+        version = self._v3(version)
         print(f"Creating the {version} item table...")
         items_table = table_names['pkmnItems']
         # need a way to add custom items?
@@ -443,6 +455,7 @@ class Database:
         self.connection_commit(version)
 
     def instantiatePkmnItemList(self, version: str):
+        version = self._v3(version)
         cursor = self.get_cursor(version=version)
         tblnm = table_names['pkmnItems']
         vals = """

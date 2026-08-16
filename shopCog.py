@@ -77,9 +77,9 @@ class ShopCog(commands.Cog):
 
         elif mode == "herbalist":
             sections.append(("General Items", [line_for(x) for x in cfg["stock"]]))
-            n = random.randint(cfg["mint_min"], cfg["mint_max"])
-            chosen = random.sample(cfg["mints"], n)
-            sections.append((f"Nature Mints ({n})", [line_for(x) for x in chosen]))
+            n = min(cfg.get("special_count", 2), len(cfg.get("special_pool", [])))
+            chosen = random.sample(cfg.get("special_pool", []), n)
+            sections.append(("Special Items", [line_for(x) for x in chosen]))
 
         elif mode == "mixed_special":
             grouped = defaultdict(list)
@@ -92,16 +92,27 @@ class ShopCog(commands.Cog):
             sections.append((f"Special Weapons and Equipment ({len(chosen)})", [line_for(x) for x in chosen]))
 
         elif mode == "curiosity":
+            # Keep the normal random-item stock unchanged.
             n = random.randint(cfg["min"], cfg["max"])
             chosen = random.sample(cfg["pool"], min(n, len(cfg["pool"])))
             sections.append((f"General Items ({len(chosen)})", [line_for(x) for x in chosen]))
-            if cfg["special_pool"]:
-                special = random.choice(cfg["special_pool"])
-                sections.append(("Special Item", [line_for(special)]))
-            # Curiosity Traders always carry exactly one Crest.
-            if cfg.get("crest_pool"):
-                crest = random.choice(cfg["crest_pool"])
-                sections.append(("Crest", [line_for(crest)]))
+
+            # Special stock is exactly two items: either two distinct Crests,
+            # or one special item plus one Crest. Display them together.
+            special_lines = []
+            crest_pool = cfg.get("crest_pool", [])
+            special_pool = cfg.get("special_pool", [])
+            roll_two_crests = bool(crest_pool) and (not special_pool or random.choice((True, False)))
+            if roll_two_crests:
+                crests = random.sample(crest_pool, min(2, len(crest_pool)))
+                special_lines.extend(line_for(x) for x in crests)
+            else:
+                if special_pool:
+                    special_lines.append(line_for(random.choice(special_pool)))
+                if crest_pool:
+                    special_lines.append(line_for(random.choice(crest_pool)))
+            if special_lines:
+                sections.append(("Special Items", special_lines))
 
         elif mode == "travelling":
             sections.append(("Regular Wares", [line_for(x) for x in cfg["stock"]]))
@@ -123,6 +134,9 @@ class ShopCog(commands.Cog):
                 first = False
         if not embeds:
             embeds.append(discord.Embed(title=shop_name, description="No stock found."))
+        footer = self.shops[shop_name].get("footer")
+        if footer and embeds:
+            embeds[-1].set_footer(text=footer)
         return embeds
 
     async def send_embeds(self, interaction, embeds, intro=None):

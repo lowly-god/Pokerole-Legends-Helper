@@ -97,7 +97,7 @@ effects = [
     'Switcher Move',
 ]
 
-version_converter = ["v2.0", "v3.0"]
+version_converter = ["v3.0", "v3.0"]
 
 async def send_msg(context, msg):
     if isinstance(context, discord.Interaction):

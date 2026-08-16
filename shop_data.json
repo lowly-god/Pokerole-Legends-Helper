@@ -287,7 +287,7 @@
         {
           "name": "Rawst Berry",
           "price": "200",
-          "effect": "Cures Burn (1), Burn (2",
+          "effect": "Cures Burn (1), Burn (2)",
           "category": "General Items"
         },
         {
@@ -363,136 +363,165 @@
           "category": "General Items"
         }
       ],
-      "mints": [
+      "special_pool": [
+        {
+          "name": "Bitter Herba Mystica",
+          "price": "20000",
+          "effect": "A rare ingredient. Effect at Storyteller’s discretion",
+          "category": "Special Items"
+        },
+        {
+          "name": "Salty Herba Mystica",
+          "price": "20000",
+          "effect": "A rare ingredient. Effect at Storyteller’s discretion",
+          "category": "Special Items"
+        },
+        {
+          "name": "Sour Herba Mystica",
+          "price": "20000",
+          "effect": "A rare ingredient. Effect at Storyteller’s discretion",
+          "category": "Special Items"
+        },
+        {
+          "name": "Spicy Herba Mystica",
+          "price": "20000",
+          "effect": "A rare ingredient. Effect at Storyteller’s discretion",
+          "category": "Special Items"
+        },
+        {
+          "name": "Sweet Herba Mystica",
+          "price": "20000",
+          "effect": "A rare ingredient. Effect at Storyteller’s discretion",
+          "category": "Special Items"
+        },
         {
           "name": "Adamant Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Increases Strength and decreases Special",
+          "category": "Special Items"
         },
         {
           "name": "Bold Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Increases Defense and decreases Strength",
+          "category": "Special Items"
         },
         {
           "name": "Brave Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Increases Strength and decreases Dexterity",
+          "category": "Special Items"
         },
         {
           "name": "Calm Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Increases Special Defense and decreases Strength",
+          "category": "Special Items"
         },
         {
           "name": "Careful Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Increases Special Defense and decreases Special",
+          "category": "Special Items"
         },
         {
           "name": "Gentle Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Increases Special Defense and decreases Defense",
+          "category": "Special Items"
         },
         {
           "name": "Hasty Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Increases Dexterity and decreases Defense",
+          "category": "Special Items"
         },
         {
           "name": "Impish Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Increases Defense and decreases Special",
+          "category": "Special Items"
         },
         {
           "name": "Jolly Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Increases Dexterity and decreases Special",
+          "category": "Special Items"
         },
         {
           "name": "Lax Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Increases Defense and decreases Special Defense",
+          "category": "Special Items"
         },
         {
           "name": "Lonely Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Increases Strength and decreases Defense",
+          "category": "Special Items"
         },
         {
           "name": "Mild Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Increases Special and decreases Defense",
+          "category": "Special Items"
         },
         {
           "name": "Modest Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Increases Special and decreases Strength",
+          "category": "Special Items"
         },
         {
           "name": "Naive Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Increases Dexterity and decreases Special Defense",
+          "category": "Special Items"
         },
         {
           "name": "Naughty Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Increases Strength and decreases Special Defense",
+          "category": "Special Items"
         },
         {
           "name": "Quiet Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Increases Special and decreases Dexterity",
+          "category": "Special Items"
         },
         {
           "name": "Rash Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Increases Special and decreases Special Defense",
+          "category": "Special Items"
         },
         {
           "name": "Relaxed Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Increases Defense and decreases Dexterity",
+          "category": "Special Items"
         },
         {
           "name": "Sassy Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Increases Special Defense and decreases Dexterity",
+          "category": "Special Items"
         },
         {
           "name": "Serious Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Removes all Nature Attribute increases and decreases",
+          "category": "Special Items"
         },
         {
           "name": "Timid Mint",
           "price": "15000",
-          "effect": "Changes a Pokémon’s Nature.",
-          "category": "Nature Mints"
+          "effect": "Increases Dexterity and decreases Strength",
+          "category": "Special Items"
         }
       ],
-      "mint_min": 1,
-      "mint_max": 3
+      "special_count": 2
     },
     "General Store": {
       "mode": "full",
@@ -3971,7 +4000,8 @@
         }
       ],
       "min": 5,
-      "max": 15
+      "max": 15,
+      "footer": "Prices listed are for a Tutor teaching the Move or a single use TR. To buy a multi-use TM of any of these Moves: Triple the listed price."
     },
     "Precious Stone Merchant": {
       "mode": "random",

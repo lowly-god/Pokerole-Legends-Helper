@@ -1,0 +1,13 @@
+{
+  "Name": "Salty Herba Mystica",
+  "_id": "salty-herba-mystica",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Items",
+  "Category": "Special Items",
+  "Description": "A rare ingredient. Effect at Storyteller’s discretion",
+  "OneUse": true,
+  "TrainerPrice": "20000",
+  "Cures": "",
+  "Image": ""
+}

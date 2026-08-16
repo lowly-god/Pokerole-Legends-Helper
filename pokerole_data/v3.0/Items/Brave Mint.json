@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "Special Items",
   "Category": "Special Items",
-  "Description": "Changes a Pokémon’s Nature to Brave.",
+  "Description": "Increases Strength and decreases Dexterity",
   "OneUse": true,
   "TrainerPrice": "15000",
   "Cures": "",

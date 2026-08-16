@@ -1,6 +1,6 @@
 {
-    "Name": "Forecast",
-    "Effect": "Edit: The Type of this Pokémon will change depending on the active Weather-Type. Fire-Type under Sunny Weather, Water-Type under Rain Weather, Ice-Type under Hail/Snow Weather, Flying-Type under Strong Wind Weather, Dark-Type under Midnight Weather, Poison-Type under Acid Rain Weather, Ground-Type under Sandstorm Weather.",
-    "Description": "",
-    "_id": "forecast"
+  "Name": "Forecast",
+  "Effect": "The Type of this Pokémon will change depending on the active Weather-Type. Fire-Type under Sunny Weather, Water-Type under Rain Weather, Ice-Type under Hail/Snow Weather, Flying-Type under Strong Wind Weather, Dark-Type under Midnight Weather, Poison-Type under Acid Rain Weather, Ground-Type under Sandstorm Weather.",
+  "Description": "",
+  "_id": "forecast"
 }

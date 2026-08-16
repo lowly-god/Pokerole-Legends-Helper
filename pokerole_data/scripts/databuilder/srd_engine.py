@@ -120,7 +120,7 @@ class SRD_Engine(Engine):
         '''*`= this.Description`*\n'''
         '''\n'''
         '''**Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`\n'''
-        '''**Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`\n'''
+        '''**Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\\+ "+ this.Damage2)`\n'''
         '''\n'''
         '''| Type          | Target          | Category          | Power          |\n'''
         '''| ------------- | --------------- | ----------------  | -------------- |\n'''

@@ -1,6 +1,6 @@
 {
-    "Name": "Wind Rider",
-    "Effect": "Edit: The first time this Pokémon is hit by a “Wind” Move, raise its Strength by 1. This Pokémon is immune to Damage from Wind Moves. Affected Moves: Aero Blast, Air Cutter, Bleakwind Storm, Blizzard, Fairy Wind, Gust, Heat Wave, Hurricane, Icy Wind, Petal Blizzard, Sandsear Storm, Sandstorm, Springtide Storm, Tailwind, Twister, Whirlwind, Wildbolt Storm, Tropic Storm, Dust Devil.",
-    "Description": "",
-    "_id": "wind-rider"
+  "Name": "Wind Rider",
+  "Effect": "The first time this Pokémon is hit by a “Wind” Move, raise its Strength and Special by 1. This Pokémon is immune to Damage from Wind Moves.",
+  "Description": "",
+  "_id": "wind-rider"
 }
