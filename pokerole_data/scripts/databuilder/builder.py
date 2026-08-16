@@ -4,7 +4,7 @@ from driver import Driver
 from fire import Fire
 
 SRD_FOLDER = '' # The SRD will be placed in a "Pokerole SRD" in this folder.
-GAME_VERSION = 'v3.0' # Or make it 'v2.0'
+GAME_VERSION = 'v3.0'
 
 
 def buildSRD(game_version, srd_folder):

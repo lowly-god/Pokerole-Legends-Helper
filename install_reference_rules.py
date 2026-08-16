@@ -5,11 +5,7 @@ BOT_FILE = Path("PokeRole-Helper.py")
 if not BOT_FILE.exists():
     raise SystemExit("PokeRole-Helper.py not found. Run this from the main bot folder.")
 
-# Replace current status_v3.csv with the already-edited version plus Hyper Mode/Shadow Boost.
-new_status = Path("status_v3.csv")
-package_status = Path("status_v3.csv.new")
-if package_status.exists():
-    shutil.copy2(package_status, new_status)
+# Status data is maintained directly in status_v3.csv.
 
 text = BOT_FILE.read_text(encoding="utf-8")
 backup = Path("PokeRole-Helper.py.before_reference_rules.bak")

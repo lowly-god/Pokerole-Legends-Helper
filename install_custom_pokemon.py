@@ -21,6 +21,11 @@ for required in (BOT_FILE, DBHELPER, POKEDEX_DIR, RECORDS_FILE, STATS_EXTRA):
 
 records = json.loads(RECORDS_FILE.read_text(encoding="utf-8"))
 
+# The old combined Mega Tatsugiri was split into Curly/Droopy/Stretchy Mega forms.
+obsolete_tatsugiri_mega = POKEDEX_DIR / "Tatsugiri (Mega Form).json"
+if obsolete_tatsugiri_mega.exists():
+    obsolete_tatsugiri_mega.unlink()
+
 
 def safe_slug(value):
     value = "".join(
@@ -91,7 +96,7 @@ record_by_name = {r["name"]: r for r in records}
 # but this makes the installer resilient to future additions.
 for r in records:
     hint = r.get("base_hint")
-    if hint and hint not in record_by_name:
+    if hint and hint not in record_by_name and hint not in existing:
         resolved = find_existing_name(hint)
         if resolved:
             r["base_hint"] = re.sub(r"\s+\([^)]* Form\)$", "", resolved)
@@ -348,6 +353,9 @@ for r in records:
         "Image": old.get("Image", ""),
         "Moves": list(r.get("Moves") or []),
     }
+    mega_stone = r.get("MegaStone") or old.get("MegaStone")
+    if mega_stone:
+        data["MegaStone"] = mega_stone
     staged[name] = data
 
 
@@ -385,7 +393,7 @@ for r in records:
             data["Evolutions"] = [{
                 "From": parent.get("Name", inherit_name),
                 "Kind": "Mega",
-                "Item": ""
+                "Item": data.get("MegaStone", "")
             }]
 
     if not data.get("DexCategory"):

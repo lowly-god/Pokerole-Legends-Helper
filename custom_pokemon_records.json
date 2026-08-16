@@ -30417,10 +30417,10 @@
     "Moves": []
   },
   {
-    "source_title": "Mega Tatsugiri",
-    "name": "Tatsugiri (Mega Form)",
+    "source_title": "Mega Tatsugiri (Curly)",
+    "name": "Tatsugiri (Curly Mega Form)",
     "edit": false,
-    "base_hint": "Tatsugiri",
+    "base_hint": "Tatsugiri (Curly Form)",
     "RecommendedRank": "Ace",
     "Type1": "Dragon",
     "Type2": "Water",
@@ -30436,9 +30436,9 @@
     "Insight": 3,
     "MaxInsight": 7,
     "Ability1": "Battle Master",
-    "Ability2": "Kelp Eater",
-    "HiddenAbility": "Swift Swim",
-    "EventAbilities": "Curly: Battle Master; Droopy: Kelp Eater; Stretchy: Swift Swim",
+    "Ability2": "",
+    "HiddenAbility": "",
+    "EventAbilities": "",
     "Height": {
       "Meters": 0.61,
       "Feet": 2.0
@@ -30452,7 +30452,86 @@
     "evolution_text": null,
     "evolution_time": null,
     "evolves_from": null,
-    "Moves": []
+    "Moves": [],
+    "MegaStone": "Tatsugirinite"
+  },
+  {
+    "source_title": "Mega Tatsugiri (Droopy)",
+    "name": "Tatsugiri (Droopy Mega Form)",
+    "edit": false,
+    "base_hint": "Tatsugiri (Droopy Form)",
+    "RecommendedRank": "Ace",
+    "Type1": "Dragon",
+    "Type2": "Water",
+    "BaseHP": 5,
+    "Strength": 2,
+    "MaxStrength": 5,
+    "Dexterity": 3,
+    "MaxDexterity": 6,
+    "Vitality": 2,
+    "MaxVitality": 5,
+    "Special": 4,
+    "MaxSpecial": 8,
+    "Insight": 3,
+    "MaxInsight": 7,
+    "Ability1": "Kelp Eater",
+    "Ability2": "",
+    "HiddenAbility": "",
+    "EventAbilities": "",
+    "Height": {
+      "Meters": 0.61,
+      "Feet": 2.0
+    },
+    "Weight": {
+      "Kilograms": 24.0,
+      "Pounds": 52.9
+    },
+    "DexCategory": "Mimicry Pokémon",
+    "DexDescription": null,
+    "evolution_text": null,
+    "evolution_time": null,
+    "evolves_from": null,
+    "Moves": [],
+    "MegaStone": "Tatsugirinite"
+  },
+  {
+    "source_title": "Mega Tatsugiri (Stretchy)",
+    "name": "Tatsugiri (Stretchy Mega Form)",
+    "edit": false,
+    "base_hint": "Tatsugiri (Stretchy Form)",
+    "RecommendedRank": "Ace",
+    "Type1": "Dragon",
+    "Type2": "Water",
+    "BaseHP": 5,
+    "Strength": 2,
+    "MaxStrength": 5,
+    "Dexterity": 3,
+    "MaxDexterity": 6,
+    "Vitality": 2,
+    "MaxVitality": 5,
+    "Special": 4,
+    "MaxSpecial": 8,
+    "Insight": 3,
+    "MaxInsight": 7,
+    "Ability1": "Swift Swim",
+    "Ability2": "",
+    "HiddenAbility": "",
+    "EventAbilities": "",
+    "Height": {
+      "Meters": 0.61,
+      "Feet": 2.0
+    },
+    "Weight": {
+      "Kilograms": 24.0,
+      "Pounds": 52.9
+    },
+    "DexCategory": "Mimicry Pokémon",
+    "DexDescription": null,
+    "evolution_text": null,
+    "evolution_time": null,
+    "evolves_from": null,
+    "Moves": [],
+    "MegaStone": "Tatsugirinite"
   },
   {
     "source_title": "Mega Meowstic",
@@ -35335,7 +35414,7 @@
       },
       {
         "Learned": "Ace",
-        "Name": "Rampage"
+        "Name": "Outrage"
       },
       {
         "Learned": "Ace",
@@ -37460,7 +37539,7 @@
       },
       {
         "Learned": "Ace",
-        "Name": "Harrowing"
+        "Name": "Harrowing Wrath"
       },
       {
         "Learned": "Ace",
@@ -37818,10 +37897,6 @@
       {
         "Learned": "Starter",
         "Name": "Hidden Power"
-      },
-      {
-        "Learned": "Ace",
-        "Name": "True Hidden Power"
       }
     ]
   },

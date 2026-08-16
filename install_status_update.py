@@ -117,11 +117,6 @@ new_rows = [
         "End of Round: Dexterity is reduced by 1.",
         "Zero Dexterity: If a Character reaches 0 Dexterity from this Status, they take Damage equal to their remaining HP +1."
     ],
-    [
-        "Ongoing Damage",
-        "",
-        "Effect: At the end of the Round, Roll 2 Dice of Typeless Damage against the Target. (Multiple sources of Ongoing Damage will not stack, only one source may be active at a time. The first source takes priority over the latter ones)."
-    ],
 ]
 
 rows.extend(new_rows)
@@ -155,7 +150,8 @@ new_statuses = """statuses = [
     'Exhausted',
     'Leeched',
     'Petrified',
-    'Ongoing Damage'
+    'Hyper Mode',
+    'Shadow Boost'
 ]"""
 
 pattern = re.compile(r"statuses\s*=\s*\[.*?\]\s*\n", re.S)
@@ -168,5 +164,5 @@ MISC_FILE.write_text(text, encoding="utf-8")
 
 print("Legends 3.0 statuses installed.")
 print("Removed: 1st/2nd/3rd Degree Burn and Frozen Solid.")
-print("Added/updated: Burn 1-3, Frostbite 1-3, Charmed, Disarmed, Exhausted, Leeched, Petrified, Ongoing Damage.")
+print("Added/updated: Burn 1-3, Frostbite 1-3, Charmed, Disarmed, Exhausted, Leeched, Petrified.")
 print("Restart the bot. No database rebuild or %sync_global is required.")

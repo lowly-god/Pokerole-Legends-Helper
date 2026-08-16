@@ -3,7 +3,7 @@
 This repo is a Source of Truth for the [Pokerole](https://www.pokeroleproject.com/) tabletop game. This is a developer focused repository: if you're not a programmer, you probably want to check the list of applications built off of this data. 
 
 - This repo contains JSON documents for Pokemon, Natures, Abilities, Moves, and Learnsets for the Pokerole system. 
-- v2.0 is perserved here along side the most recent edition, v3.0.
+- This Legends Helper copy contains the customized v3.0 dataset only.
 - The repo has a sprite library with filenames consistent with the JSON data.
 
 # Applications Using The Dataset
@@ -28,7 +28,6 @@ This repo is a Source of Truth for the [Pokerole](https://www.pokeroleproject.co
   - Home Sprites Base Url: `https://raw.githubusercontent.com/Willowlark/Pokerole-Data/master/images/ShuffleTokens/`
 - **Raw** data used in the generation of the proper datasets. It is NOT recommended to use data in here for any application, as it has not been processed. It's mostly here for record keeping purposes.
 - **Scripts** a folder for any code that manipulates data. At the moment, there should be NO REASON to try and run these, they are for maintainence only.
-- **v2.0** contains the entire JSON dataset for Pokerole Version 2.0. Each item in the dataset has it's own JSON document.
 - **v3.0** contains the entire JSON dataset for Pokerole Version 3.0. Each item in the dataset has it's own JSON document.
 - **DDL.md** contains tables documenting the data in the JSON documents for reference.
 

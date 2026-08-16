@@ -20,13 +20,9 @@ from discord.ui import Button
 from dotenv import load_dotenv
 from symspellpy import SymSpell, Verbosity
 # can be replaced when/if i ever convert to nosql
-from collections import OrderedDict as ODict
 import requests
 from numpy.random import choice
 from bisect import bisect
-import PokeImageWriter
-from PIL import Image
-from io import BytesIO
 
 from dbhelper import Database
 from statsExtra import pokemon_extra_stats_text
@@ -54,7 +50,7 @@ intents.message_content = True
 bot = commands.Bot(command_prefix=cmd_prefix, intents=intents)
 
 # note that 'custom help' needs to load last
-cogs = ['mapCog', 'diceCog', 'miscCommands', 'questCog', 'maneuverCog', 'fieldtypeCog', 'natureRollCog', 'foragingCog', 'perkCog', 'armorCog', 'accessoriesCog', 'toolsCog', 'shopCog', 'humanNpcCog', 'rankUpCog', 'encounterTableCog', 'referenceRulesCog', 'trainingReferenceCog', 'craftingReferenceCog', 'custom_help']
+cogs = ['diceCog', 'miscCommands', 'questCog', 'maneuverCog', 'fieldtypeCog', 'natureRollCog', 'foragingCog', 'perkCog', 'armorCog', 'accessoriesCog', 'toolsCog', 'shopCog', 'humanNpcCog', 'rankUpCog', 'encounterTableCog', 'referenceRulesCog', 'trainingReferenceCog', 'craftingReferenceCog', 'custom_help']
 
 # TODO: compress more of the data in working memory
 #   ++PokeLearns ranks complete
@@ -64,9 +60,6 @@ cogs = ['mapCog', 'diceCog', 'miscCommands', 'questCog', 'maneuverCog', 'fieldty
 # settings {channel : [(shiny_chance, int), (ability, int), (secondary, int), (hidden, int),
 # (show_encounter_move_desc, 0)]}
 pokebotsettings = dict()
-
-# status list
-pokeStatus = dict()
 
 # pokemon moves
 pkmnMoves = dict()
@@ -118,7 +111,6 @@ custom_region_pools = {
     "Islas Lluvia De'estrellas": _combine_biome_pools(_islas_biome_names),
 }
 
-ranks = ['Starter', 'Beginner', 'Amateur', 'Ace', 'Pro', 'Master', 'Champion']
 ranks_v3 = ['Starter', 'Rookie', 'Standard', 'Advanced', 'Expert', 'Ace', 'Master', 'Champion']
 
 
@@ -138,6 +130,7 @@ POKEMON_ALIASES = {
     "UB-09 Stinger": "Naganadel",
     "UB-10 Assembly": "Stakataka",
     "UB-11 Burst": "Blacephalon",
+    "Tatsugiri (Mega Form)": "Tatsugiri (Curly Mega Form)",
 }
 _POKEMON_ALIAS_KEYS = {k.casefold(): v for k, v in POKEMON_ALIASES.items()}
 
@@ -153,7 +146,6 @@ def rank_dist(version="v3.0"):
                          [ranks_v3[3]] * 2 + [ranks_v3[3], ranks_v3[4]])
 
 
-rankBias = [1, 3, 5, 7, 9, 10, 11]
 rankBias_v3 = [1, 2, 3, 5, 7, 9, 10, 11]
 natures = ['Hardy (9)', 'Lonely (5)', 'Brave (9)', 'Adamant (4)', 'Naughty (6)',
            'Bold (9)', 'Docile (7)', 'Relaxed (8)', 'Impish (7)',
@@ -170,14 +162,6 @@ bot.skills = [('Brawl', 0), ('Channel', 0), ('Clash', 0), ('Evasion', 0),
 types = ['normal', 'fire', 'water', 'grass', 'electric', 'ice', 'fighting', 'poison', 'ground',
          'flying', 'psychic', 'bug', 'rock', 'ghost', 'dark', 'dragon', 'steel', 'fairy']
 
-# total attributes at a rank (base/social)
-# attributes are limited by poke
-attributeAmount = (0, 2, 4, 6, 8, 8, 14)
-# total skill points at a rank
-skillAmount = (5, 9, 12, 14, 15, 15, 16)
-# highest any single skill can be
-limit = (1, 2, 3, 4, 5, 5, 5)
-
 # v3 total attributes at a rank (base/social)
 # attributes are limited by poke
 attributeAmount_v3 = (0, 2, 4, 6, 8, 10, 11, 12)
@@ -186,8 +170,7 @@ skillAmount_v3 = (5, 10, 14, 17, 19, 21, 23, 25)
 # highest any single skill can be
 limit_v3 = (1, 2, 3, 4, 5, 5, 6, 6)
 
-# v3 changes how many moves a pokemon has by default (ins + 2 => ins + 3)
-num_moves = 2
+# Number of moves added beyond Insight in v3 encounters.
 num_moves_v3 = 3
 
 # lists are global...
@@ -198,12 +181,7 @@ num_moves_v3 = 3
 pkmnLists = dict()
 
 pokecap = re.compile(r'(^|[-( ])\s*([a-zA-Z])')
-pokeweight = re.compile(r'(\d+)%?,? ([\-\'\.():,\sA-z]+)(?= \d|$)')
 alpha_str = re.compile(r'[^\w_, \-]+')
-
-# ...but need access privileges
-# {user : [listName list] }
-pkmnListsPriv = dict()
 
 # add the dictionaries
 poke_dict = SymSpell()
@@ -220,7 +198,6 @@ github_base = 'https://raw.githubusercontent.com/XShadeSlayerXx/PokeRole-Discord
 extra_files = [  # assuming UTF-8
     'habitats.csv',
     'nature.csv',
-    'status.csv',
     'weather.csv'
 ]
 
@@ -237,8 +214,7 @@ def load_obj(name):
 
 
 # list of dictionary files
-files = [('pkmnLists', pkmnLists), ('pokebotsettings', pokebotsettings), ('pkmnListsPriv', pkmnListsPriv),
-         ('pokeStatus', pokeStatus)]
+files = [('pkmnLists', pkmnLists), ('pokebotsettings', pokebotsettings)]
 
 
 def cleanup_legacy_crest_item_files():
@@ -255,7 +231,6 @@ def cleanup_legacy_crest_item_files():
 async def on_ready():
     global pkmnLists
     global pokebotsettings
-    global pkmnListsPriv
     global database
     global restartError
     global SLASH_COMMANDS
@@ -464,31 +439,8 @@ async def sync_commands(ctx):
     )
 
 
-@commands.is_owner()
-@bot.command(name='sync_test', hidden=True)
-async def sync_commands_guilds(ctx, *, copy: str = None):
-    global test_guilds
-
-    # Do not create guild-scoped copies on the production AMP bot. They are only
-    # useful for a development instance and can appear as duplicate slash commands.
-    if not dev_env:
-        await ctx.send('sync_test is disabled on the production bot; use sync_global instead.')
-        return
-
-    for guild in test_guilds:
-        guildObj = discord.Object(id=guild)
-        bot.tree.clear_commands(guild=guildObj)
-        bot.tree.copy_global_to(guild=guildObj)
-        await bot.tree.sync(guild=guildObj)
-    await ctx.message.add_reaction('\N{HIBISCUS}')
-
-
 #######
 # converters
-
-def sep_weights(arg) -> str:
-    return re.findall(pokeweight, arg)
-
 
 def sep_biomes(arg) -> list:
     arg = arg.title()
@@ -508,7 +460,7 @@ def sep_biomes(arg) -> list:
 
 def ensure_rank(arg: str) -> str:
     arg = arg.title()
-    if arg not in ranks and arg not in ['Base', 'Random']:
+    if arg not in ranks_v3 and arg not in ['Base', 'Random']:
         raise commands.errors.ConversionError(f'{arg} is not a valid rank.')
     return arg
 
@@ -610,94 +562,6 @@ async def send_big_slash_msg(inter, arg: str, codify: bool = False, offset: int 
         arg = next_arg
 
 
-def returnWeights(pokestr: str) -> list:
-    try:
-        int(pokestr[0])
-    except:
-        pokestr = '100 ' + pokestr
-    temp = re.findall(pokeweight, pokestr)
-    output = []
-    for x in temp:
-        toAdd = [int(x[0])]
-        for y in x[1].strip(',').split(', '):
-            toAdd.append(pkmn_cap(y))
-        output.append(toAdd)
-    return output
-
-
-def modifyList(which: bool, pokeToAddDel: list, listname: str):
-    # which True is 'add', False, is 'del'
-    newOdds = [elem[0] for elem in pokeToAddDel]
-    listOdds = [elem[0] for elem in pkmnLists[listname][1:]]
-    bad = []
-    for i, odds in enumerate(newOdds):
-        try:
-            index = listOdds.index(odds) + 1
-        except:
-            index = None
-        if which:  # add elements
-            if index is not None and pokeToAddDel[i][1] != 'None':
-                for elem in pokeToAddDel[i][1:]:
-                    pkmnLists[listname][index].append(elem)
-            else:
-                # append everything, guarantee the percent first
-                pkmnLists[listname].append(pokeToAddDel[i])
-        else:  # remove elements
-            if pokeToAddDel[i][1] == 'None' and index is not None:
-                del pkmnLists[listname][index]
-            elif index is not None:
-                for elem in pokeToAddDel[i][1:]:
-                    try:
-                        pkmnLists[listname][index].remove(elem)
-                    except:
-                        bad.append(elem)
-            else:
-                bad.append(str(odds) + '%')
-    # remove duplicates and balance percentages
-    percent_total = 0
-    none_index = -1
-    none_amt = 0
-    for i in range(1, len(pkmnLists[listname])):
-        percent_total += pkmnLists[listname][i][0]
-        if pkmnLists[listname][i][0] == 'None':
-            none_index = i
-            none_amt = pkmnLists[listname][i][0]
-        else:
-            pkmnLists[listname][i][1:] = list(set(pkmnLists[listname][i][1:]))
-    if percent_total > 100:
-        # theres 'None' in the list
-        if none_index != -1:
-            none_sub = percent_total - 100
-            none_amt -= none_sub
-            # more percent added than none amount left
-            if none_amt <= 0:
-                percent_total = -none_amt + 100
-                del pkmnLists[listname][none_index]
-                # spread the cost above 100
-                for i in range(1, len(pkmnLists[listname])):
-                    pkmnLists[listname][i][0] = int(round(pkmnLists[listname][i][0] / percent_total * 100))
-            else:
-                # theres enough 'None' to eat the cost
-                pkmnLists[listname][none_index][0] -= none_sub
-        else:
-            for i in range(1, len(pkmnLists[listname])):
-                pkmnLists[listname][i][0] = int(round(pkmnLists[listname][i][0] / percent_total * 100))
-    elif percent_total < 100:
-        if none_index != -1:
-            pkmnLists[listname][none_index][0] += 100 - percent_total
-        else:
-            pkmnLists[listname].append([100 - percent_total, 'None'])
-    return bad
-
-
-def displayList(listname: str) -> str:
-    output = ''
-    # remove the leading 'i' or 'p'
-    for elemList in pkmnLists[listname][1:]:
-        output += str(elemList[0]) + '% ' + ', '.join(map(str, elemList[1:])) + ' '
-    return output[:-1]  # remove the trailing space
-
-
 async def getGuilds(ctx):
     if hasattr(ctx, "guild") and ctx.guild:
         guild = ctx.guild.id
@@ -768,23 +632,6 @@ async def getPokemonAbilities(pkmn, version="v3.0"):
         output += '\n'
 
     return output[:-2]  # -2 to remove the trailing \n 's
-
-
-async def send_slash_img(inter, content, image, filename, view=None):
-    with BytesIO() as image_binary:
-        image.save(image_binary, 'PNG')
-        image_binary.seek(0)
-        file = discord.File(fp=image_binary, filename=filename)
-        if view:
-            msg = await inter.followup.send(content=content,
-                                            file=file,
-                                            # fetch_response_message = False,
-                                            view=view)
-        else:
-            msg = await inter.followup.send(content=content,
-                                            file=file)
-
-    return msg
 
 
 #######
@@ -881,52 +728,6 @@ async def guildcheck(ctx):
 #     else:
 #         print(msg)
 
-@commands.is_owner()
-@bot.command(name='checkfuncs', hidden=True)
-async def functionChecks(ctx, which: typing.Optional[int] = 0):
-    funcs = [[pkmn_search_ability, {'ability': 'Static'}, 'ability'],
-             [pkmn_search_stats, {'pokemon': 'Bulbasaur'}, 'stats'],
-             [pkmn_search_move, {'movename': 'Tackle'}, 'move'],
-             [pkmn_search_learns, {'pokemon': 'Bulbasaur'}, 'learns'],
-             [pkmn_search_item, {'itemname': 'Pokeball'}, 'items'],
-             [pkmn_search_habitat, {'habitat': 'Tide Pools'}, 'habitat'],
-             [pkmn_search_encounter, {'pokelist': ['Bulbasaur,', 'Charmander,', 'Squirtle']}, 'enc'],
-             [weighted_pkmn_search, {'pokelist': [(100, 'Bulbasaur, Charmander, Squirtle')]}, 'w enc']]
-
-    errors = []
-
-    oldV1, oldV2 = pokebotsettings[ctx.user.id][4], pokebotsettings[ctx.user.id][5]
-    pokebotsettings[ctx.user.id][4], pokebotsettings[ctx.user.id][5] = False, False
-
-    for x in range(2):
-        if which == 0:
-            for y in funcs:
-                try:
-                    await y[0](ctx, **y[1])
-                except:
-                    errors.append(y[2])
-        else:
-            try:
-                func = funcs[which - 1]
-                await func[0](ctx, **func[1])
-            except:
-                print(traceback.print_exc())
-                errors.append(func[2])
-
-    pokebotsettings[ctx.user.id][4], pokebotsettings[ctx.user.id][5] = oldV1, oldV2
-    if errors:
-        await ctx.send('Errors:\n' + '\n'.join([error for error in errors]))
-    else:
-        await ctx.send('**Passed!**')
-
-
-@commands.is_owner()
-@bot.command(name='reloadCog', hidden=True)
-async def reloadCogs(ctx):
-    for mycog in cogs:
-        bot.reload_extension(mycog)
-
-
 async def checkFilesExist(filenames: list):
     for file in filenames:
         if not os.path.exists(file):
@@ -951,9 +752,9 @@ async def reloadLists(ctx):
     for cog in cogs:
         await bot.unload_extension(cog)
 
-    # Legends Helper is built around a customized local v3.0 dataset. Do NOT
-    # pull the pokerole_data submodule here: doing so can replace campaign data
-    # with upstream files and silently undo local patches. Rebuild only the v3
+    # Legends Helper is built around a customized local v3.0 dataset. Do not
+    # pull pokerole_data from upstream: doing so can replace campaign data and
+    # silently undo local patches. Rebuild only the v3
     # SQLite cache from the v3 JSON bundled with this bot.
     database.reloadLists("v3.0")
 
@@ -1052,33 +853,32 @@ async def types_autocomplete(
     ]
 
 
+async def metronome_type_autocomplete(
+        interaction: discord.Interaction,
+        current: str
+) -> List[Choice[str]]:
+    rows = database.custom_query('SELECT DISTINCT type FROM pkmnMoves ORDER BY type', version='v3.0')
+    options = [row[0] for row in rows if row and row[0]] + ['Support']
+    seen = set()
+    filtered = []
+    for name in options:
+        key = name.casefold()
+        if key in seen or current.casefold() not in key:
+            continue
+        seen.add(key)
+        filtered.append(app_commands.Choice(name=name, value=name))
+    return filtered[:25]
+
+
 async def ranks_autocomplete(
         interaction: discord.Interaction,
         current: str
 ) -> List[Choice[str]]:
-    guild = await getGuilds(interaction)
-    version = version_converter[pokebotsettings[guild][11]]
-    which_ranks = None
-    if version == "v2.0":
-        which_ranks = ranks
-    elif version == "v3.0":
-        which_ranks = ranks_v3
+    await getGuilds(interaction)
     return [
         app_commands.Choice(name=m_type, value=m_type)
-        for m_type in which_ranks if current.lower() in m_type.lower()
+        for m_type in ranks_v3 if current.lower() in m_type.lower()
     ]
-
-
-async def list_autocomplete(
-        interaction: discord.Interaction,
-        current: str
-) -> List[Choice[str]]:
-    if len(current) < 2:
-        return {}
-    return [
-               app_commands.Choice(name=m_list, value=m_list)
-               for m_list in pkmnLists if current.lower() in m_list.lower()
-           ][:24]
 
 
 async def habitat_autocomplete(
@@ -1447,307 +1247,18 @@ async def update_settings(ctx):
 #     await ctx.send('Done')
 #     save_obj(pkmnLists, 'pkmnLists')
 
-@commands.is_owner()
-@bot.command(name='listoverride', hidden=True)
-async def pkmn_list_override(ctx, listname, who: discord.Member):
-    who = who.id
-    # if '@' in who:
-    #    if who[0] == '<':
-    #        who = int(who[3:-1])
-    #    else:
-    #        who = int(who)
-    try:
-        pkmnListsPriv[who].append(listname)
-    except:
-        pkmnListsPriv[who] = [listname]
-    await ctx.message.add_reaction('\N{CYCLONE}')
-    save_obj(pkmnListsPriv, 'pkmnListsPriv')
-
-
 #######
 
-@bot.command(name='lists', help='Displays all the lists people have made in the format:\n- list1 (#) / list2 (#)\n')
-async def show_lists(ctx):
-    # msg and mymsg are both strings that contain the names of lists and the number of items in them
-    # the difference is that mymsg contains lists that are 'owned' by the user
-    msg = ''
-    mymsg = ''
-    # up and myUp are used to alternate when a newline should be sent
-    up = True
-    myUp = True
-    # check which lists the user owns
-    permissibleLists = pkmnListsPriv[ctx.user.id]
-    for x, y in pkmnLists.items():
-        # check howMany items are in the current list
-        howMany = sum([len(z) - 1 for z in y[1:]])
-        if x in permissibleLists:
-            mymsg += ('\n - ' if myUp else ' / ') + f'{x} ({str(howMany)}{" " + y[0] if y[0] == "i" else ""})'
-            myUp = not myUp
-        else:
-            msg += ('\n - ' if up else ' / ') + f'{x} ({str(howMany)}{" " + y[0] if y[0] == "i" else ""})'
-            up = not up
-    # send the lists that the user owns and then the lists that the user does not own, seperated by dashes
-    if mymsg != '':
-        msg = mymsg + '\n-----------\n' + msg
-    await send_big_msg(ctx, msg)
-
-
-@bot.command(name='list', help='/list <listname> (add/show/del) poke1, poke2, 40% poke3, etc\n'
-                               'or /list <listname> (add/show/del) 43% item1, item2, 10% item3, item4, etc\n'
-                               'In this case, the remaining 47% is no item, for %encounter and %random purposes.\n'
-                               'Lists are unique to people - don\'t forget everyone can see them!\n'
-                               'Use "%list <listname> access @mention" to give edit permissions to someone\n'
-                               'Their user id will also work (right click their profile --> copy id)')
-async def pkmn_list_cmd(ctx, listname, which, *, pokelist=''):
-    await pkmn_list(ctx=ctx, listname=listname, which=which, pokelist=pokelist)
-
-
 # TODO: re-add 'list access' if anyone complains
-@app_commands.command(name='list', description='/list <listname> (add/show/del) poke1, poke2, 40% poke3, etc\n')
-# 'or /list <listname> (add/show/del) 43% item1, item2, 10% item3, item4, etc\n'
-# 'In this case, the remaining 47% is no item, for %encounter and %random purposes.\n'
-# 'Lists are unique to people - don\'t forget everyone can see them!\n'
-# 'Use "%list <listname> access @mention" to give edit permissions to someone\n'
-# 'Their user id will also work (right click their profile --> copy id)')
-@app_commands.choices(
-    which=[
-        Choice(name="add", value="add"),
-        Choice(name="show list", value="show"),
-        Choice(name="delete", value="del"),
-    ]
-)
-@app_commands.autocomplete(listname=list_autocomplete)
-async def pkmn_list_caller(ctx: discord.Interaction, listname: str, which: str = 'show', *, pokelist: str = ''):
-    await pkmn_list(ctx=ctx, listname=listname, which=which, pokelist=pokelist)
 
 
-SLASH_COMMANDS.append(pkmn_list_caller)
-
-
-async def pkmn_list(ctx: discord.Interaction, listname: str, which: str = 'show', *, pokelist: str = ''):
-    # areListsBroken = [x for x in list(pkmnLists.keys())]
-    print(ctx.user.id)
-    guild = await getGuilds(ctx)
-    version = version_converter[pokebotsettings[guild][11]]
-    try:
-        # initialize pkmnstats and check if listname is a valid pokemon
-        await pkmnstatshelper(listname, version=version)
-        await ctx.response.send_message('Lists may not be named after pokemon')
-        return
-    except:
-        pass
-    try:
-        await pkmnitemhelper(listname)
-        await ctx.response.send_message('Lists may not be named after items')
-        return
-    except:
-        pass
-    isItem = False
-    try:
-        if listname in pkmnLists and pkmnLists[listname][0] == 'i':
-            isItem = True
-    except:
-        pass
-    # make sure the author is registered, regardless of what they do
-    if ctx.user.id not in pkmnListsPriv:
-        pkmnListsPriv[ctx.user.id] = set()
-    # is this a task that looks at the pokelist parameter?
-    if which not in ['access', 'show']:
-        # split up the pokelist argument into separate bits... 'bulbasaur' --> [(100, 'bulbasaur')]
-        try:
-            pokelist = [[int(pokelist), 'None']]
-        except:
-            pokelist = returnWeights(pokelist)
-            # pokelist = [pkmn_cap(x.strip()) for x in pokelist.replace(',','').split(' ')]
-            bad = []
-            correct = []
-            tempmsg = ''
-            # item or pokemon?
-            isItem = True
-            try:
-                if database.query_table('pkmnStats', 'name', pokelist[0][1], version=version):
-                    # if lookup_poke(pokelist[0][1]) not in pkmnStats:
-                    isItem = False
-            except:
-                # hopefully empty bc 'del', 'show', etc
-                pass
-
-            if not isItem:
-                # check for misspelled pokemon...
-                whichList = True
-            else:
-                # ...or misspelled items
-                whichList = False
-
-            # for pokelist in the passed in str
-            for y in pokelist:
-                # remove the percentage amount
-                y = y[1:]
-                # for pokemon in the list
-                for x in y:
-                    if x == '':
-                        # sometimes an empty string gets through
-                        pokelist.remove('')
-                        continue
-                    try:
-                        database.query_table('pkmnItems', 'name', x, version=version)
-                        tmp = True
-                    except:
-                        tmp = False
-                    if not whichList and not tmp:
-                        bad.append(x)
-                        if x in pkmnLists:
-                            tempmsg += f'{x} : ' + ', '.join(pkmnLists[x]) + '\n'
-                        elif not isItem:
-                            correct.append(lookup_poke(x))
-                    if whichList:
-                        try:
-                            database.query_table('pkmnStats', 'name', x, version=version)
-                        except:
-                            bad.append(x)
-                            if x in pkmnLists:
-                                tempmsg += f'{x} : ' + ', '.join(pkmnLists[x]) + '\n'
-                            elif not isItem:
-                                correct.append(lookup_poke(x))
-            if len(bad) > 0 and which in ['add', 'remove', 'del']:
-                if tempmsg != '':
-                    tempmsg = 'Right now, you can\'t have a list inside of a list:\n' + tempmsg
-                for name in range(len(bad)):
-                    # this doesnt always work, especially if the word is too far from the real one
-                    tempmsg += (f'{bad[name]}' if isItem else f'{bad[name]} --> {correct[name]}') + '  |  '
-                await ctx.response.send_message(
-                    f'Failed to add: {tempmsg[:-4]}\n(Pokemon with multiple forms may not show correctly)\n'
-                    f'The list "{listname}" was not changed.')
-                return
-    if listname not in pkmnLists and pokelist != '':
-        pkmnLists[listname] = []
-        if isItem:
-            pkmnLists[listname].append('i')
-        else:
-            pkmnLists[listname].append('p')
-        if ctx.user.id in pkmnListsPriv:
-            pkmnListsPriv[ctx.user.id] = set(pkmnListsPriv[ctx.user.id])
-            pkmnListsPriv[ctx.user.id].add(listname)
-        else:
-            pkmnListsPriv[ctx.user.id] = set([listname])
-    if which == 'show':
-        if listname in pkmnLists and len(pkmnLists[listname]) > 0:
-            # is it an item?
-            if pkmnLists[listname][0] == 'i':
-                msg = displayList(listname)
-                await ctx.response.send_message(msg)
-            else:
-                # ...not an item
-                guild = await getGuilds(ctx)
-                if pokebotsettings[guild][7]:
-                    await ctx.response.send_message(await pkmnRankListDisplay(f'__{listname}__', listname, version=version))
-                else:
-                    await ctx.response.send_message(f'__{listname}__\n' + displayList(listname))
-        else:
-            await ctx.response.send_message(f'List {listname} is empty')
-    elif listname in pkmnListsPriv[ctx.user.id]:
-        # need permissions for these commands
-        if which == 'add':
-            modifyList(True, pokelist, listname)
-            await pkmn_list(ctx=ctx, listname=listname, which='show')
-        elif which in ['del', 'delete', 'remove']:
-            if not pokelist or pokelist == ['']:
-                # if there are no pokemon delete the list
-                msg = displayList(listname)
-                del pkmnLists[listname]
-                await send_big_msg(ctx, f'Everything ({msg}) was removed from list "{listname}"')
-            else:
-                msg = modifyList(False, pokelist, listname)
-                if len(msg) > 0:
-                    await ctx.response.send_message(
-                        f'There was a problem removing: {", ".join(msg)}.\nPokemon still in list:')
-            await pkmn_list(ctx=ctx, listname=listname, which='show')
-        elif which == 'access':
-            # i could probably use the User converter but ehh
-            if pokelist[0] == '<':
-                # remove the <@! at the start and the > at the end
-                temp = int(pokelist.strip()[3:-1])
-            else:
-                temp = int(pokelist.strip())
-            if temp in pkmnListsPriv and listname in pkmnListsPriv[temp]:
-                pkmnListsPriv[temp].remove(listname)
-                await ctx.send(f'Access removed from {bot.get_user(temp)}')
-            else:
-                try:
-                    pkmnListsPriv[temp].add(listname)
-                except:
-                    pkmnListsPriv[temp] = set([listname])
-                await ctx.response.send_message(f'Access given to {bot.get_user(temp)}')
-        else:
-            await ctx.response.send_message(
-                f'The format for this command is `/list <listname> (add/del/show/access) poke1, poke2, etc`\n'
-                f'The part for (add/del/show/access) wasn\'t recognized.')
-    elif listname not in pkmnListsPriv[ctx.user.id]:
-        users = [str(bot.get_user(x)) for x in pkmnListsPriv if listname in pkmnListsPriv[x]]
-        if len(users) > 0:
-            await ctx.response.send_message(f'{", ".join(users)} {"have" if len(users) > 1 else "has"} '
-                                            f'edit access to this. Please ask {"one of" if len(users) > 1 else ""} '
-                                            f'them to "/list {listname} access @mention" if you want access')
-        else:
-            pkmnListsPriv[ctx.user.id].add(listname)
-            await ctx.response.send_message(f'No users linked to this list. You now have permission, please try again.')
-    # try:
-    #     if isItem and pkmnLists[listname][0] != 'i':
-    #         pkmnLists[listname].insert(0, 'i')
-    # except:
-    #     pass
-    # await ctx.message.add_reaction('\N{CYCLONE}')
-    save_obj(pkmnListsPriv, 'pkmnListsPriv')
-    save_obj(pkmnLists, 'pkmnLists')
     # if len(pkmnLists.keys()) < len(areListsBroken) - 1:
     #    await bot.appinfo.owner.send(f'{listname} {which} {pokelist}')
 
 
 ###
 
-@bot.command(name='listsub', help='Subtract two lists.\n'
-                                  'If list1 = "bulbasaur, treecko, chikorita"\n'
-                                  'and list2 = "treecko"\n'
-                                  'then "%listsub list1 list2" makes list1 = "bulbasaur, chikorita"')
-async def pkmn_listsub(ctx, list1: str, list2: str):
-    msg = ''
-    bad = False
-    for x in [list1, list2]:
-        if x not in pkmnLists:
-            msg += f'Is {x} a list?\n'
-            bad = True
-    if not bad and list1 not in pkmnListsPriv[ctx.user.id]:
-        msg += f'You do not have permission to modify the list {list1}'
-        bad = True
-    if bad:
-        await ctx.send(msg)
-        return
-    removed = []
-    list1odds = [elem[0] for elem in pkmnLists[list1]]
-    for index, elementlist in enumerate(pkmnLists[list2]):
-        if elementlist[0] in list1odds:
-            where = list1odds.index(elementlist[0])
-            for x in elementlist[1:]:
-                try:
-                    pkmnLists[list1][where].remove(x)
-                    removed.append(x)
-                except:
-                    pass
-    await ctx.send(f'{", ".join(bad)}\n{"were" if len(removed) > 1 else "was"} removed from {list1}')
-
-
 #######
-
-def pkmn_full_list(listname: str) -> list:
-    if listname not in pkmnLists:
-        return ['There was not a list with this name.\n']
-    full = []
-    # strip out the 'p' or 'i'
-    for lst in pkmnLists[listname][1:]:
-        # strip out the percentage
-        full += lst[1:]
-    return full
-
 
 # returns a random pokemon or item from given list
 def pkmn_random_driver(listname: str, giveList=False) -> str:
@@ -1769,93 +1280,7 @@ def pkmn_random_driver(listname: str, giveList=False) -> str:
         return random.choice(temp[which][1:])
 
 
-@bot.command(name='random', aliases=['rl'],
-             help='Get a random item/poke from a list.\n'
-                  '%random [howMany] <list>, <list2>, pokemon, etc')
-async def pkmn_randomitem_driver(ctx, howMany: typing.Optional[int] = 1, *, listname: str):
-    combined_list = []
-    errors = []
-    guild = await getGuilds(ctx)
-    version = version_converter[pokebotsettings[guild][11]]
-    for name in listname.split(', '):
-        # not using if/else because otherwise i would need the queries up front
-        if name in pkmnLists:
-            combined_list += pkmn_full_list(name)
-            continue
-        item_query = database.custom_query(f'SELECT name FROM pkmnItems WHERE category="{name.title()}"',
-                                           version=version)
-        if item_query:
-            combined_list += [x[0] for x in item_query]
-            continue
-        poke_query = database.custom_query(f'SELECT name FROM pkmnStats WHERE name="{lookup_poke(name)}"',
-                                           version=version)
-        if poke_query:
-            combined_list += [x[0] for x in poke_query]
-            continue
-        errors.append(name)
-
-    rand = [f'{x + 1}. {random.choice(combined_list)}' for x in range(howMany)]
-    if errors:
-        errors = ', '.join(errors)
-        rand.append(f'*"{errors}" wasn\'t found as items, pokemon, or lists*')
-    await ctx.send('\n'.join(rand))
-
-
 #######
-
-@bot.command(name='filter', aliases=['f'],
-             help='%filter <listname> <rank> <type1> <type2> [includeLowerRanks T/F]'
-                  ' <generation>\n'
-                  'type1 & type2 - can be Any or None\n'
-                  'includeLowerRanks - if <rank> is ace, do you want starter/beginner/amateur/ace?\n'
-                  'generation - any number between 1 and 10 (kanto through paldean pkmn)\n'
-                  '%filter forest beginner grass None\n'
-                  '  --> Adds beginner rank pure grass types to the list forest\n'
-                  '%filter forest ace bug any True 4-6\n'
-                  '  --> Adds up to Ace rank bug/Any types from gen 4 to 6 to the list forest\n'
-                  'Note: generation 1-10 is default, and to change it you will need to include all parameters')
-async def pkmn_filter_list(ctx, listname: str, rank: ensure_rank,
-                           type1: str, type2: str = 'Any',
-                           includeLowerRanks: bool = False, generation: str = ''):
-    type1 = type1.title()
-    type2 = type2.title()
-    rank = rank.title()
-
-    # which ranks to find
-    if includeLowerRanks:
-        rank = ranks[:ranks.index(rank) + 1]
-    else:
-        rank = [rank]
-
-    if type2 == 'None':
-        type2 = ''
-
-    if generation == '':
-        generation = '1-10'
-
-    generation = generation.replace(' ', '').split('-')
-    if len(generation) == 1:
-        gen = f' AND generation="{generation[0]}"'
-    else:
-        gen = f' AND generation BETWEEN {generation[0]} AND {generation[1]}'
-
-    query = f'SELECT name FROM pkmnStats WHERE ' \
-            f'( ( type1="{type1}" ' + \
-            (f'AND type2="{type2}")'
-             f' OR ( type1="{type2}" AND type2="{type1}") ) AND (' if type2 != 'Any' else ') ) AND (') + \
-            ' OR '.join([f'rank="{x}"' for x in rank]) + ')' + gen + ' ORDER BY number ASC'
-    guild = await getGuilds(ctx)
-    version = version_converter[pokebotsettings[guild][11]]
-    returned = database.custom_query(query, version)
-    returned = [x[0] for x in returned]
-
-    # send the filtered list to /list, which will print it
-    if len(returned) == 0:
-        await ctx.send(f'I couldn\'t find any pokemon...')
-        return
-    await send_big_msg(ctx, f'Trying to add these pokemon to the list {listname}:\n' + ', '.join(returned))
-    await pkmn_list(ctx=ctx, listname=listname, which='add', pokelist=', '.join(returned))
-
 
 #######
 
@@ -1913,46 +1338,13 @@ async def pkmn_search_item(ctx, itemname: str = ''):
         except:
             await ctx.send(f'{itemname} wasn\'t found in the item list.\n*Unknown Error Occurred?*')
     else:
-        temp = database.custom_query('SELECT name FROM pkmnItems WHERE description=""')
-        temp = [x[0] for x in temp]
-        msg = ''
-        wbool = False
-        for x in temp:
-            msg += ('\n - ' if not wbool else ' / ') + x
-            wbool = not wbool
-        await ctx.send(msg)
+        await ctx.send(
+            'Use `/item <item name>` to look up an item; autocomplete will suggest valid names.\n'
+            'Equipment references are split into `/weapon`, `/armor`, `/accessories`, and `/tools`.'
+        )
 
 
 # SLASH_COMMANDS.append(pkmn_search_item)
-
-@bot.command(name='shop', help='Lists all recommended shop items grouped by price.\n'
-                               '"%shop (price) (showHigherPriced)" to limit the output by price.\n'
-                               'e.g. "%shop 750 True" to list all items priced higher than 750.')
-async def shop_items(ctx, pricePoint: int = None, showHigherPriced: bool = False):
-    global database
-    low = 5
-    high = 10000
-    if showHigherPriced:
-        low = pricePoint or low
-    else:
-        high = pricePoint or high
-    if low < 5:
-        low = 5
-    full_list = "SELECT name, CAST(suggested_price as integer) FROM pkmnItems WHERE " \
-                f"CAST(suggested_price as integer) BETWEEN {low} AND {high} " \
-                "ORDER BY CAST(suggested_price as integer)"
-    tmp = database.custom_query(full_list)
-    output = ''
-    tmpDict = ODict()
-    for name, val in tmp:
-        if val in tmpDict:
-            tmpDict[val].append(name)
-        else:
-            tmpDict[val] = [name]
-    for price, values in tmpDict.items():
-        output += f'**{price}¥**\n' + ' -- '.join(values) + '\n'
-    await send_big_msg(ctx, output)
-
 
 #######
 
@@ -2000,23 +1392,10 @@ async def pkmnRankDisplay(title: str, pokemon: typing.Union[list, dict], version
     if isinstance(pokemon, list):
         pokemon = await pkmnDictRanks(pokemon, version=version)
     output = title + '\n'
-    which_ranks = None
-    if version == "v3.0":
-        which_ranks = ranks_v3
-    else:
-        which_ranks = ranks
-    for rank in which_ranks:
+    for rank in ranks_v3:
         if rank in pokemon:
             output += f'**{rank}**\n{"  |  ".join(pokemon[rank])}\n'
     return output
-
-
-async def pkmnRankListDisplay(title: str, listname: str, version: str) -> str:
-    pokelist = []
-    # for tuple in the list
-    for x in pokesFromList(listname):
-        pokelist.append(x)
-    return await pkmnRankDisplay(title, pokelist, version=version)
 
 
 @bot.hybrid_command(name='habitat', aliases=['biome', 'h', 'habitats'],
@@ -2072,58 +1451,6 @@ async def pkmn_search_habitat(ctx, *, habitat: str = '', view_all: int = 0):
 
 
 # SLASH_COMMANDS.append(pkmn_search_habitat)
-
-@bot.command(name='filterhabitat', aliases=['fh'],
-             help='%filterhabitat <list> <rank=All> <includeLowerRanks=True> <habitat>\n'
-                  'Transcribe pokemon from a habitat into a list (optionally by rank)',
-             hidden=True)
-async def pkmn_filter_habitat(ctx, listname: str, rank: typing.Optional[ensure_rank] = 'Champion',
-                              includeLowerRanks: typing.Optional[bool] = True, *, habitat: str):
-    habitat = habitat.title()
-    if listname not in pkmnLists:
-        await pkmn_list(ctx, listname, 'create')
-    try:
-        # get a list of pokemon in the habitat
-        found = await pkmnhabitatshelper(habitat)
-    except:
-        await ctx.send(f'{habitat} wasn\'t recognized as a habitat.')
-        return
-
-    # get the pokemon's ranks
-    guild = await getGuilds(ctx)
-    version = version_converter[pokebotsettings[guild][11]]
-    ranklist = await pkmnDictRanks(found, version=version)
-    # convert it into a list of tuples... for each, [0] is the rank, [1] is the poke list
-    temp = []
-    for ranking in ranks:
-        if ranking in ranklist:
-            temp.append((ranking, ranklist[ranking]))
-    ranklist = temp
-    # if rank is less than Champion...
-    upperRank = ranks.index(rank)
-    if upperRank < 6:
-        for i, key in enumerate(ranklist):
-            if not includeLowerRanks and upperRank == ranks.index(key[0]):
-                ranklist = [ranklist[i]]
-                break
-            elif ranks.index(key[0]) > upperRank:
-                ranklist = ranklist[:i]
-                break
-    pokes = []
-    pokeCheck = pokesFromList(listname)
-    for poketuples in ranklist:
-        for x in poketuples[1]:
-            # for wormadam, lycanroc, etc
-            if x in pkmnLists:
-                x = pkmn_random_driver(x)
-            # check if pokemon or list
-            if x not in pokeCheck:
-                pokes.append(x)
-    if pokes:
-        await pkmn_list(ctx=ctx, listname=listname, which='add', pokelist=', '.join(pokes))
-    else:
-        await ctx.send(f'All these pokemon are already in the list \'{listname}\'!')
-
 
 async def habitat_helper(ctx, habitatlist, version: str):
     separate_poke = sep_biomes(habitatlist)
@@ -2266,30 +1593,48 @@ SLASH_COMMANDS.append(pkmn_search_move_slash)
 
 
 async def metronome_backend(type, lower, higher, version: str):
-    have_and = True
-    custom_query = 'SELECT name FROM pkmnMoves '
-    if lower and higher:
-        custom_query += f' WHERE power BETWEEN {lower} and {higher}'
-    elif lower:
-        custom_query += f' WHERE power={lower}'
-    elif higher:
-        custom_query += f' WHERE power={higher}'
-    else:
-        have_and = False
+    clauses = []
+    params = []
+
+    def _as_int(value):
+        if value is None or value == '':
+            return None
+        return int(value)
+
+    lower = _as_int(lower)
+    higher = _as_int(higher)
+    if lower is not None and higher is not None and lower > higher:
+        lower, higher = higher, lower
+
+    if lower is not None and higher is not None:
+        clauses.append('power BETWEEN ? AND ?')
+        params.extend([lower, higher])
+    elif lower is not None:
+        clauses.append('power = ?')
+        params.append(lower)
+    elif higher is not None:
+        # max_power by itself really is a maximum, not an exact power.
+        clauses.append('power <= ?')
+        params.append(higher)
+
     if type:
-        custom_query += ' AND' if have_and else ' WHERE'
-        if type.upper() == 'SUPPORT':
-            custom_query += f' pwrtype="{type.upper()}"'
+        requested = str(type).strip()
+        if requested.casefold() == 'support':
+            clauses.append('LOWER(pwrtype) LIKE ?')
+            params.append('%support%')
         else:
-            custom_query += f' type="{type.lower()}"'
+            clauses.append('LOWER(type) = ?')
+            params.append(requested.casefold())
 
-    custom_query += ' ORDER BY RANDOM() LIMIT 1'
-    result = database.custom_query(custom_query, version=version)
+    query = 'SELECT name FROM pkmnMoves'
+    if clauses:
+        query += ' WHERE ' + ' AND '.join(clauses)
+    query += ' ORDER BY RANDOM() LIMIT 1'
+    result = database.custom_query(query, version=version, params=params)
+    return result[0][0] if result else None
 
-    return result[0][0]
 
-
-@bot.command(name='metronome',
+@bot.command(name='metronome' ,
              aliases=['mtr'],
              help="""
              Simulates a random move. Comes with options to limit the scope.
@@ -2319,16 +1664,14 @@ async def metronome(ctx, *, parameters: str = ''):
         max_power = tmp[1]
     elif parameters.isdigit():
         power = parameters
-    try:
-        type = None
-        int(parameters)
-    except:
-        type = parameters
+    type = None if (parameters == '' or parameters.isdigit() or '<' in parameters) else parameters
     move = await metronome_backend(type=type, lower=power, higher=max_power, version=version)
 
     try:
+        if move is None:
+            raise LookupError('No matching move')
         await pkmn_search_move(ctx=ctx, movename=move)
-    except:
+    except Exception:
         await ctx.send(
             f'`{parameters}` was not recognized as a valid type (grass, water, etc) or power level (1, 2, 3 < 5, etc).\n'
             f'*(This message self-destructs in 15 seconds)*',
@@ -2351,7 +1694,7 @@ async def metronome(ctx, *, parameters: str = ''):
         Choice(name='No', value=0),
     ]
 )
-@app_commands.autocomplete(move_type=types_autocomplete)
+@app_commands.autocomplete(move_type=metronome_type_autocomplete)
 async def metronome_slash(
         inter,
         move_type: str = None,
@@ -2361,11 +1704,24 @@ async def metronome_slash(
     private = bool(private)
     guild = await getGuilds(inter)
     version = version_converter[pokebotsettings[guild][11]]
-    if power and max_power and power > max_power:
-        min_power, max_power = max_power, power
+    if power is not None and max_power is not None and power > max_power:
+        power, max_power = max_power, power
     move = await metronome_backend(type=move_type, lower=power, higher=max_power, version=version)
-    move = await move_backend(movename=move, version=version)
-    await inter.response.send_message(move, ephemeral=private)
+    if move is None:
+        filters = []
+        if move_type:
+            filters.append(f'type `{move_type}`')
+        if power is not None and max_power is not None:
+            filters.append(f'Power {power}-{max_power}')
+        elif power is not None:
+            filters.append(f'Power {power}')
+        elif max_power is not None:
+            filters.append(f'Power ≤ {max_power}')
+        detail = ' with ' + ' and '.join(filters) if filters else ''
+        await inter.response.send_message(f'No moves were found{detail}.', ephemeral=True)
+        return
+    move_text = await move_backend(movename=move, version=version)
+    await inter.response.send_message(move_text, ephemeral=private)
 
 
 SLASH_COMMANDS.append(metronome_slash)
@@ -2552,19 +1908,11 @@ def _machine_moves_text(pokemon):
 async def pkmnlearnshelper(poke: str, rank: ensure_rank = 'Master', version: str = "v3.0"):
     global database
     poke = resolve_pokemon_alias(poke)
-    which_ranks = None
-    if version == "v3.0":
-        which_ranks = ranks_v3
-    else:
-        which_ranks = ranks
+    which_ranks = ranks_v3
     try:
         found = list(database.query_table('pkmnLearns', 'name', poke, version=version)[0][2:])
-    except:
-        # stopgap 'solution', will need to fix the name in the evolutions tree or base name or something
-        if poke == "Flabébé" and version == "v2.0":
-            found = list(database.query_table('pkmnLearns', 'name', "Flabebe", version=version)[0][2:])
-        else:
-            raise KeyError(poke)
+    except (IndexError, TypeError):
+        raise KeyError(poke)
     # truncate the list to just the valid members
     try:
         found = found[:found.index(None)]
@@ -2758,22 +2106,13 @@ async def calcStats(rank: str, attr: list, maxAttr: list,
     if movelist is None:
         movelist = {}
 
-    if version == "v3.0":
-        rank_index = ranks_v3.index(rank)
-        rank_names = ranks_v3
-        attribute_amounts = attributeAmount_v3
-        skill_amounts = skillAmount_v3
-        skill_limits = limit_v3
-        bias_amt = rankBias_v3[rank_index]
-        extra_social = 0
-    else:
-        rank_index = ranks.index(rank)
-        rank_names = ranks
-        attribute_amounts = attributeAmount
-        skill_amounts = skillAmount
-        skill_limits = limit
-        bias_amt = rankBias[rank_index]
-        extra_social = 6 if rank == "Master" else 0
+    rank_index = ranks_v3.index(rank)
+    rank_names = ranks_v3
+    attribute_amounts = attributeAmount_v3
+    skill_amounts = skillAmount_v3
+    skill_limits = limit_v3
+    bias_amt = rankBias_v3[rank_index]
+    extra_social = 0
 
     bhp = int(attr[0])
     attributes = [int(value) for value in attr[1:]]
@@ -2959,7 +2298,7 @@ async def calcStats(rank: str, attr: list, maxAttr: list,
 
 async def pkmn_encounter(ctx, number: int, rank: str, pokelist: list,
                          exact_rank: bool = False, boss: bool = False, guild=None,
-                         image=False, condense=False, version_override=None):
+                         condense=False, version_override=None):
     if guild is None:
         guild = await getGuilds(ctx)
     view_buttons = []
@@ -2973,19 +2312,10 @@ async def pkmn_encounter(ctx, number: int, rank: str, pokelist: list,
     if rank == 'Base':
         rankbase = True
 
-    # Most encounter commands respect the server's configured rules version.
-    # Campaign-specific encounter pools can explicitly request v3.0 because their
-    # slash-command ranks use the v3 progression (Rookie/Standard/Advanced/etc.).
-    version = version_override or version_converter[pokebotsettings[guild][11]]
-
-    which_ranks = None
-    base_num_moves = None
-    if version == "v3.0":
-        which_ranks = ranks_v3
-        base_num_moves = num_moves_v3
-    else:
-        which_ranks = ranks
-        base_num_moves = num_moves
+    # Legends Helper is v3-only; keep version_override for compatibility with existing callers.
+    version = 'v3.0'
+    which_ranks = ranks_v3
+    base_num_moves = num_moves_v3
 
 
     tempList = []
@@ -3077,7 +2407,7 @@ async def pkmn_encounter(ctx, number: int, rank: str, pokelist: list,
         if boss:  # we need insight for # of moves
             attrNum = len(baseattr)
             numMoves = baseattr[5]
-            rank_attribute_amounts = attributeAmount_v3 if version == "v3.0" else attributeAmount
+            rank_attribute_amounts = attributeAmount_v3
             for _ in range(rank_attribute_amounts[which_ranks.index(rank.title())]):
                 randnum = random.random()
                 # if randnum < 1/(attrNum*2) and baseattr[3] + numVitality < maxattr[3]: #chance for vitality
@@ -3130,11 +2460,16 @@ async def pkmn_encounter(ctx, number: int, rank: str, pokelist: list,
 
         # base 14, second 15, hidden 16, event 17
         totalchance = pokebotsettings[guild][0] + pokebotsettings[guild][1] + pokebotsettings[guild][2]
-        randomnum = random.random()
-        if pokebotsettings[guild][2] / totalchance >= randomnum and statlist[16] != '':
+        if totalchance <= 0:
+            # If every chance setting is zero, safely fall back to the primary Ability.
+            ability = statlist[14]
+            randomnum = None
+        else:
+            randomnum = random.random()
+        if totalchance > 0 and pokebotsettings[guild][2] / totalchance >= randomnum and statlist[16] != '':
             # hidden, succeeded the low roll
             ability = statlist[16]
-        elif pokebotsettings[guild][1] / totalchance >= randomnum and statlist[15] != '':
+        elif totalchance > 0 and pokebotsettings[guild][1] / totalchance >= randomnum and statlist[15] != '':
             # secondary, failed the hidden
             ability = statlist[15]
         else:
@@ -3157,44 +2492,6 @@ async def pkmn_encounter(ctx, number: int, rank: str, pokelist: list,
             allAttr.update({skill[0].upper(): skill[1]})
         for social in socials:
             allAttr.update({social[0].upper(): social[1]})
-
-        # return an Image instead of a str
-        if image:
-            tmpMoves = []
-            for move in move_descs:
-                stf = await pkmnmovehelper(move, version=version)
-                accMod = 0
-                try:
-                    if stf[8][-9:-1] == 'Accuracy':
-                        accMod = int(stf[8][-11])
-                except:
-                    pass
-                tmpMoves.append(PokeImageWriter.Move(
-                    move,
-                    type=stf[0],
-                    acc1=(allAttr[stf[5].upper()] if stf[5].upper() in allAttr else stf[5]),
-                    acc2=(allAttr[stf[6].upper()] if stf[6].upper() in allAttr else stf[6]),
-                    pow1=(allAttr[stf[3].upper()] if stf[3].upper() in allAttr else stf[3]),
-                    pow2=stf[2],
-                    acc_debuff=accMod,
-                    effect=stf[8]
-                ))
-            nature = random.choice(natures).split(' ')[0]
-            # print(f'number? {statlist[0]}: name {nextpoke}: types- {statlist[1]} / {statlist[2]}')
-            return PokeImageWriter.Pokemon(
-                rank=rank,
-                socials=[x[1] for x in socials],
-                skills=[x[1] for x in skills],
-                stats=attributes[1:6],
-                base_hp=attributes[0],
-                nature=nature,
-                ability=ability,
-                my_type=str(statlist[1]) + (f' / {statlist[2]}' if statlist[2] else ''),
-                number=statlist[0],
-                name=nextpoke,
-                moves=tmpMoves,
-                max_stats=maxattr[1:6]  # I don't think we need version here
-            ).create_stat_sheet(), move_descs
 
         abilitytext = ''
         if pokebotsettings[guild][5]:
@@ -3292,7 +2589,7 @@ async def pkmn_encounter(ctx, number: int, rank: str, pokelist: list,
 
         if item != 'None':
             try:
-                temp = await pkmnitemhelper(item)
+                temp = await pkmnitemhelper(item, version=version)
                 msg += f'**{item}**: {temp[0]}\n'
             except:
                 msg += f'**{item}**: ???\n'
@@ -3410,13 +2707,22 @@ async def pkmn_encounter(ctx, number: int, rank: str, pokelist: list,
                     else:
                         accMod = ''
                     stab = f'{" (+1 STAB)" if found[0].capitalize() in (statlist[1], statlist[2]) else ""}'
+                    def _pool_value(field):
+                        field = str(field or '').strip()
+                        if not field:
+                            return 0
+                        values = []
+                        for token in field.split('/'):
+                            values.append(allAttr.get(token.strip().upper(), 0))
+                        return max(values) if values else 0
+
                     try:
-                        totalDmg = str((allAttr[found[3]] or 0) + (allAttr[found[4]] or 0) + int(found[2]))
-                    except:
+                        totalDmg = str(_pool_value(found[3]) + _pool_value(found[4]) + int(found[2]))
+                    except Exception:
                         totalDmg = None
                     try:
-                        totalAcc = str((allAttr[found[5]] or 0) + (allAttr[found[6]] or 0))
-                    except:
+                        totalAcc = str(_pool_value(found[5]) + _pool_value(found[6]))
+                    except Exception:
                         totalAcc = "???"
                     # A: 4 (-2 Successes) | D: 6 (+1 STAB)
                     if totalDmg:
@@ -3483,165 +2789,45 @@ async def pkmn_encounter(ctx, number: int, rank: str, pokelist: list,
 
 #####
 
-@bot.command(name='encounter', aliases=['e', 'pokemon'],
-             brief='Gets # poke at listed rank from a given list',
-             help='Simple: %e poke(, poke2, list)\n'
-                  '%encounter [1-6] [1-6 upper bound] [rank/base] <list of pokemon>\n'
-                  '"base" means pokemon generated are at suggested ranks\n'
-                  'e.g. %encounter 2 amateur eevee, squirtle, pidgey, list1')
-async def pkmn_search_encounter_cmd(ctx, number: typing.Optional[int] = 1,
-                                    numberMax: typing.Optional[int] = None,
-                                    rank: typing.Optional[ensure_rank] = 'Base',
-                                    *, pokelist: (lambda x: x.split(', ')),
-                                    boss=False, image=False):
-    # pokelist = pokelist.split(', ')
-    guild = await getGuilds(ctx)
-    if numberMax is not None:
-        number = random.randint(number, numberMax)
-    msg = await pkmn_encounter(ctx, number, rank, pokelist, boss=boss, guild=guild, image=image)
-    if image:
-        return msg
-    if pokebotsettings[guild][10]:
-        codify = True
-    else:
-        codify = False
-    await send_big_msg(ctx, msg, codify=codify)
-
-
 async def pkmn_search_encounter(ctx, number: typing.Optional[int] = 1,
                                 numberMax: typing.Optional[int] = None,
                                 rank: typing.Optional[ensure_rank] = 'Base',
                                 *, pokelist: (lambda x: x.split(', ')),
-                                boss=False, image=False, condense=False,
+                                boss=False, condense=False,
                                 version_override=None):
-    # pokelist = pokelist.split(', ')
     guild = await getGuilds(ctx)
     if numberMax is not None:
         number = random.randint(number, numberMax)
-    if not condense:
-        msg = await pkmn_encounter(ctx, number, rank, pokelist, boss=boss, guild=guild, image=image,
-                                   version_override=version_override)
+    if condense:
+        msg, view = await pkmn_encounter(
+            ctx, number, rank, pokelist, boss=boss, guild=guild,
+            condense=True, version_override=version_override
+        )
+    else:
+        msg = await pkmn_encounter(
+            ctx, number, rank, pokelist, boss=boss, guild=guild,
+            version_override=version_override
+        )
         view = None
-    else:
-        msg, view = await pkmn_encounter(ctx, number, rank, pokelist, boss=boss,
-                                         guild=guild, image=image, condense=condense,
-                                         version_override=version_override)
-    if image:
-        return msg
-    if pokebotsettings[guild][10]:
-        codify = True
-    else:
-        codify = False
+    codify = bool(pokebotsettings[guild][10])
     await send_big_msg(ctx, msg, codify=codify, view=view)
 
 
-@bot.command(name='wEncounter', aliases=['we'],
-             brief='Weighted encounter. /help wEncounter',
-             help='Simple: %we 95% poke1 5% poke2, list\n'
-                  '%wEncounter [1-6] [1-6] (rank/base/random) <True/False> [num]% list [num]% poke1, poke2, list2 [num]% etc\n'
-                  'Same as %encounter, but the lists are weighted. Have a common and rare encounter in'
-                  'the same area? This is the command you want.\n'
-                  'separatePools: True sticks to the list you draw first. False does not.\n'
-                  '(x% chance for the list vs x% chance per pokemon)\n'
-                  'e.g. %wEncounter 2 base False 95% eevee, squirtle 5% list1, porygon\n')
-async def weighted_pkmn_search(ctx, number: typing.Optional[int] = 1,
-                               numberMax: typing.Optional[int] = None,
-                               rank: typing.Optional[ensure_rank] = 'Base',
-                               separatePools: typing.Optional[bool] = False, *, pokelist: sep_weights):
-    # separate the pokelist string into a list of tuples (int(chance), str(pokemon, pokemon))
-    # pokelist = re.findall(pokeweight, pokelist)
-    # make the values useable
-    guild = await getGuilds(ctx)
-    if numberMax is not None:
-        number = random.randint(number, numberMax)
-    odds = [int(x) for x, y in pokelist]
-    pokelist = [y.strip(',').split(', ') for x, y in pokelist]
-    if separatePools:
-        msg = ''
-        which = 0
-        rand = random.randrange(1, 101) - odds[0]
-        while rand > 0 and which < len(odds) - 1:
-            which += 1
-            rand -= odds[which]
-        msg += await pkmn_encounter(ctx, number, rank, pokelist[which])
-    else:
-        msg = ''
-        for x in range(number):
-            msg += f'**{x + 1}**\n\n'
-            which = 0
-            rand = random.randrange(1, 101) - odds[0]
-            while rand > 0 and which < len(odds) - 1:
-                which += 1
-                rand -= odds[which]
-            msg += await pkmn_encounter(ctx, 1, rank, pokelist[which])
-    if pokebotsettings[guild][10]:
-        codify = True
-    else:
-        codify = False
-    await send_big_msg(ctx, msg, codify)
-
-
-@bot.command(name='hEncounter', aliases=['he'],
-             brief='Habitat encounter. /help hEncounter',
-             help='Simple: %he habitat\n'
-                  '%encounter [1-6] [1-6] (rank/base/random) habitat 1, habitat 2, etc\n'
-                  'Same as %encounter, but draws from the %habitat pools\n'
-                  'Note: specifying a rank will only pull from pokemon with that suggested rank.\n'
-                  'e.g. %hEncounter 2 beginner tide pools, field biomes\n')
-async def habitat_pkmn_search(ctx, number: typing.Optional[int] = 1,
-                              numberMax: typing.Optional[int] = None,
-                              rank: typing.Optional[ensure_rank] = 'Base',
-                              *, pokelist: sep_biomes):
-    guild = await getGuilds(ctx)
-    if numberMax is not None:
-        number = random.randint(number, numberMax)
-    msg = []
-    for x in range(number):
-        msg.append(await pkmn_encounter(ctx, 1, rank, pokelist,
-                                        exact_rank=(True if rank != 'Base' else False)))
-    out = ''
-    for x in range(len(msg)):
-        out += f'\n**{x + 1}**.\n{msg[x]}'
-    # msg = '\n\n'.join(msg)
-    if pokebotsettings[guild][10]:
-        codify = True
-    else:
-        codify = False
-    await send_big_msg(ctx, out, codify)
-
-
-@bot.command(name='boss', aliases=['sEncounter', 'se'],
-             brief='Gets # poke at listed rank from a given list with smart stats',
-             help='Simple: %se poke(, poke2, list)\n'
-                  '%sEncounter [1-6] [1-6 upper bound] [rank/base] <list of pokemon>\n'
-                  '"base" means pokemon generated are at suggested ranks\n'
-                  'e.g. %sEncounter 2 amateur eevee, squirtle, pidgey, list1')
-async def smart_pkmn_search(ctx, number: typing.Optional[int] = 1,
-                            numberMax: typing.Optional[int] = None,
-                            rank: typing.Optional[ensure_rank] = 'Base',
-                            *, pokelist: (lambda x: x.split(', '))):
-    await pkmn_search_encounter(ctx=ctx, number=number, numberMax=numberMax,
-                                rank=rank, pokelist=pokelist, boss=True)
 
 
 @app_commands.command(
     name='encounter',
-    description='Encounter 2 Ace Pikachu!'
+    description='Generate one or more Pokémon encounters.'
 )
 @app_commands.describe(
-    pokemon="Which pokemon?",
+    pokemon="Which Pokémon? Leave blank for a random Pokémon at the selected rank.",
     number="How many? (up to 6)",
     rank="What rank? (Default: No change)",
     condense_info="Condense ability and moves for a smaller message",
-    smart_stats="Use the improved stat distribution? (Default: True)",
-    imagify="Send an image instead? (Note: Forms have default image)"
+    smart_stats="Use the improved stat distribution? (Default: True)"
 )
 @app_commands.choices(
     smart_stats=[
-        Choice(name='Yes', value=1),
-        Choice(name='No', value=0),
-    ],
-    imagify=[
         Choice(name='Yes', value=1),
         Choice(name='No', value=0),
     ],
@@ -3653,79 +2839,62 @@ async def smart_pkmn_search(ctx, number: typing.Optional[int] = 1,
 @app_commands.autocomplete(pokemon=pokemon_autocomplete, rank=ranks_autocomplete)
 async def smart_pkmn_search_slash(inter,
                                   number: app_commands.Range[int, 1, 6] = 1,
-                                  # rank : ensure_rank = 'Base',
                                   rank: str = 'Base',
                                   condense_info: int = 0,
                                   smart_stats: int = 1,
-                                  imagify: int = 0,
                                   *, pokemon: str = ''):
     smart_stats = bool(smart_stats)
-    imagify = bool(imagify)
     condense_info = bool(condense_info)
-    view = None
-    if imagify:
-        await inter.response.send_message('Finding the Pokemon...')
-        rnk = f' {rank}' if rank != 'Base' else ''
-        # view = [ActionRow(Button(
-        #         style = ButtonStyle.gray,
-        #         label = "Expand Moves",
-        #         custom_id = "moves"
-        #     ))]
-    else:
-        rnk, view = None, None
+    guild = await getGuilds(inter)
+    version = version_converter[pokebotsettings[guild][11]]
+    codify = bool(pokebotsettings[guild][10])
+
     if pokemon == '':
-        guild = await getGuilds(inter)
-        version = version_converter[pokebotsettings[guild][11]]
-        if pokebotsettings[guild][10]:
-            codify = True
-        else:
-            codify = False
         if rank == 'Base':
             rank = rank_dist(version=version)
         elif rank == 'Champion':
-            await inter.response.send_message('Since there are no pokemon who naturally have the '
-                                              'Champion rank, a random pokemon cannot be generated from this pool.',
-                                              ephemeral=True)
+            await inter.response.send_message(
+                'Since there are no Pokémon who naturally have the Champion rank, '
+                'a random Pokémon cannot be generated from this pool.',
+                ephemeral=True
+            )
             return
-        # random poke from database at rank
-        query = f'SELECT name FROM pkmnStats WHERE rank="{rank}"' \
-                f' AND generation BETWEEN 1 AND 10 ORDER BY RANDOM() LIMIT {number}'
-        pokemon = database.custom_query(query, version=version)
+
+        query = (
+            f'SELECT name FROM pkmnStats WHERE rank="{rank}" '
+            f'AND generation BETWEEN 1 AND 10 ORDER BY RANDOM() LIMIT {number}'
+        )
+        results = database.custom_query(query, version=version)
+        if not results:
+            await inter.response.send_message(
+                f'No {rank} Pokémon were found.', ephemeral=True
+            )
+            return
+
         msg = ''
-        for count, pkm in enumerate([x[0] for x in pokemon]):
-            if imagify:
-                msg_img, moves = await pkmn_search_encounter(ctx=inter, number=number, numberMax=number,
-                                                             rank=rank.title(), pokelist=[pkm],
-                                                             boss=smart_stats, image=True)
-                name = f'{rank}_{pkm}'
-                img_msg = await send_slash_img(inter=inter, content=f'Found a{rnk} {pkmn_cap(pkm)}!',
-                                               image=msg_img, filename=f'{name}.png', view=view)
+        view = None
+        for count, (pkm,) in enumerate(results):
+            if count:
+                msg += f'\t**{count + 1}**\n\n'
+            if condense_info:
+                tmp_msg, view = await pkmn_encounter(
+                    ctx=inter, number=1, rank=rank.title(), pokelist=[pkm],
+                    boss=smart_stats, guild=guild, condense=True
+                )
+                msg += tmp_msg
             else:
-                if count != 0:
-                    msg += f'\t**{count + 1}**\n\n'
-                if condense_info:
-                    tmpMsg, view = await pkmn_encounter(ctx=inter, number=1, rank=rank.title(),
-                                                        pokelist=[pkm], boss=smart_stats, guild=guild,
-                                                        condense=condense_info)
-                    msg += tmpMsg
-                else:
-                    msg += await pkmn_encounter(ctx=inter, number=1, rank=rank.title(),
-                                                pokelist=[pkm], boss=smart_stats, guild=guild)
-        if not imagify: await send_big_msg(ctx=inter, arg=msg, codify=codify, view=view)
-    else:
-        if imagify:
-            for _ in range(number):
-                msg_img, moves = await pkmn_search_encounter(ctx=inter, number=1, numberMax=1,
-                                                             rank=rank.title(), pokelist=pokemon.split(', '),
-                                                             boss=smart_stats, image=True)
-                name = f'{rank}_{pokemon}'
-                img_msg = await send_slash_img(inter=inter, content=f'Found a{rnk} {pkmn_cap(pokemon)}!',
-                                               image=msg_img, filename=f'{name}.png', view=view)
-        else:
-            await pkmn_search_encounter(ctx=inter, number=number, numberMax=number,
-                                        rank=rank.title(), pokelist=pokemon.split(', '),
-                                        boss=smart_stats, condense=condense_info)
-    # if imagify:
+                msg += await pkmn_encounter(
+                    ctx=inter, number=1, rank=rank.title(), pokelist=[pkm],
+                    boss=smart_stats, guild=guild
+                )
+        await send_big_msg(ctx=inter, arg=msg, codify=codify, view=view)
+        return
+
+    await pkmn_search_encounter(
+        ctx=inter, number=number, numberMax=number, rank=rank.title(),
+        pokelist=pokemon.split(', '), boss=smart_stats, condense=condense_info
+    )
+
     #     on_click = img_msg.create_click_listener(timeout = 300)
     #
     #     @on_click.matching_id('moves')
@@ -3765,35 +2934,20 @@ async def encounter_biome_autocomplete(interaction: discord.Interaction, current
 
 
 async def send_named_pool_encounter(inter, pool, rank, condense_info=0, smart_stats=1,
-                                    imagify=0, search_label='area'):
-    """Roll one Pokémon from a named pool and use the normal encounter stat generator."""
+                                    search_label='area'):
+    """Roll one Pokémon from a named pool and use the normal v3 encounter generator."""
     if not pool:
-        await inter.response.send_message(f'No Pokémon are configured for {search_label}.', ephemeral=True)
+        await inter.response.send_message(
+            f'No Pokémon are configured for {search_label}.', ephemeral=True
+        )
         return
 
     smart_stats = bool(smart_stats)
-    imagify = bool(imagify)
     condense_info = bool(condense_info)
     guild = await getGuilds(inter)
     codify = bool(pokebotsettings[guild][10])
     pkm = random.choice(pool)
     view = None
-
-    if imagify:
-        await inter.response.send_message(f'Searching {search_label}...')
-        msg_img, moves = await pkmn_search_encounter(
-            ctx=inter, number=1, numberMax=1, rank=rank.title(), pokelist=[pkm],
-            boss=smart_stats, image=True, version_override='v3.0'
-        )
-        filename_rank = rank if rank != 'Base' else 'Base'
-        await send_slash_img(
-            inter=inter,
-            content=f'Found {pkmn_cap(pkm)} in {search_label}!',
-            image=msg_img,
-            filename=f'{filename_rank}_{pkm}.png',
-            view=view
-        )
-        return
 
     if condense_info:
         msg, view = await pkmn_encounter(
@@ -3809,6 +2963,7 @@ async def send_named_pool_encounter(inter, pool, rank, condense_info=0, smart_st
     await send_big_msg(ctx=inter, arg=msg, codify=codify, view=view)
 
 
+
 @app_commands.command(
     name='encounter_biome',
     description='Encounter a Pokémon from a biome!'
@@ -3817,13 +2972,11 @@ async def send_named_pool_encounter(inter, pool, rank, condense_info=0, smart_st
     biome='Which biome?',
     rank='What rank?',
     condense_info='Condense ability and moves for a smaller message',
-    smart_stats='Use the improved stat distribution? (Default: True)',
-    imagify='Send an image instead? (Note: Forms have default image)'
+    smart_stats='Use the improved stat distribution? (Default: True)'
 )
 @app_commands.choices(
     rank=[Choice(name=x, value=x) for x in ranks_v3],
     smart_stats=[Choice(name='Yes', value=1), Choice(name='No', value=0)],
-    imagify=[Choice(name='Yes', value=1), Choice(name='No', value=0)],
     condense_info=[Choice(name='Yes', value=1), Choice(name='No', value=0)]
 )
 @app_commands.autocomplete(biome=encounter_biome_autocomplete)
@@ -3831,16 +2984,16 @@ async def smart_biome_search_slash(inter,
                                    biome: str,
                                    rank: str,
                                    condense_info: int = 0,
-                                   smart_stats: int = 1,
-                                   imagify: int = 0):
+                                   smart_stats: int = 1):
     pool = encounter_biomes.get(biome)
     if pool is None:
         await inter.response.send_message('That biome was not found.', ephemeral=True)
         return
     await send_named_pool_encounter(
-        inter, pool, rank, condense_info, smart_stats, imagify,
+        inter, pool, rank, condense_info, smart_stats,
         search_label=f'the {biome} biome'
     )
+
 
 
 SLASH_COMMANDS.append(smart_biome_search_slash)
@@ -3851,11 +3004,8 @@ SLASH_COMMANDS.append(smart_biome_search_slash)
 )
 @app_commands.describe(
     region="Which region?",
-    # number = "How many? (up to 6)",
     rank="What rank? (Default: No change)",
-    condense_info="Condense ability and moves for a smaller message",
-    smart_stats="Use the improved stat distribution? (Default: True)",
-    imagify="Send an image instead? (Note: Forms have default image)"
+    smart_stats="Use the improved stat distribution? (Default: True)"
 )
 @app_commands.choices(
     region=[Choice(name=x, value=x) for x in regions],
@@ -3863,58 +3013,31 @@ SLASH_COMMANDS.append(smart_biome_search_slash)
     smart_stats=[
         Choice(name='Yes', value=1),
         Choice(name='No', value=0),
-    ],
-    imagify=[
-        Choice(name='Yes', value=1),
-        Choice(name='No', value=0),
-    ],
-    condense_info=[
-        Choice(name='Yes', value=1),
-        Choice(name='No', value=0),
     ]
 )
 async def smart_region_search_slash(inter,
                                     region: str,
                                     rank: str = 'Base',
-                                    condense_info: int = 0,
-                                    smart_stats: int = 1,
-                                    imagify: int = 0):
-    # Custom Legends regions are defined by the biome pools supplied for this campaign.
+                                    smart_stats: int = 1):
     if region in custom_region_pools:
         await send_named_pool_encounter(
-            inter,
-            custom_region_pools[region],
-            rank,
-            condense_info,
-            smart_stats,
-            imagify,
-            search_label=region
+            inter, custom_region_pools[region], rank,
+            0, smart_stats, search_label=region
         )
         return
 
-    # Original official-region behaviour: select a Pokémon whose suggested rank
-    # matches the requested rank, then stat it with the normal encounter logic.
     number = 1
     smart_stats = bool(smart_stats)
-    imagify = bool(imagify)
-    condense_info = bool(condense_info)
-    view = None
     guild = await getGuilds(inter)
     version = version_converter[pokebotsettings[guild][11]]
     codify = bool(pokebotsettings[guild][10])
-
-    if imagify:
-        await inter.response.send_message('Searching the region...')
-        rnk = f' {rank}' if rank != 'Base' else ''
-    else:
-        rnk = None
 
     if rank == 'Base':
         rank = rank_dist(version=version)
     elif rank == 'Champion':
         await inter.response.send_message(
-            'Since there are no pokemon who naturally have the Champion rank, '
-            'a random pokemon cannot be generated from this pool.',
+            'Since there are no Pokémon who naturally have the Champion rank, '
+            'a random Pokémon cannot be generated from this pool.',
             ephemeral=True
         )
         return
@@ -3932,32 +3055,12 @@ async def smart_region_search_slash(inter,
         return
     pkm = result[0][0]
 
-    if imagify:
-        msg_img, moves = await pkmn_search_encounter(
-            ctx=inter, number=number, numberMax=number,
-            rank=rank.title(), pokelist=[pkm], boss=smart_stats, image=True
-        )
-        name = f'{rank}_{pkm}'
-        await send_slash_img(
-            inter=inter,
-            content=f'Found a{rnk} {pkmn_cap(pkm)}!',
-            image=msg_img,
-            filename=f'{name}.png',
-            view=view
-        )
-        return
+    msg = await pkmn_encounter(
+        ctx=inter, number=1, rank=rank.title(), pokelist=[pkm],
+        boss=smart_stats, guild=guild
+    )
+    await send_big_msg(ctx=inter, arg=msg, codify=codify)
 
-    if condense_info:
-        msg, view = await pkmn_encounter(
-            ctx=inter, number=1, rank=rank.title(), pokelist=[pkm],
-            boss=smart_stats, guild=guild, condense=True
-        )
-    else:
-        msg = await pkmn_encounter(
-            ctx=inter, number=1, rank=rank.title(), pokelist=[pkm],
-            boss=smart_stats, guild=guild
-        )
-    await send_big_msg(ctx=inter, arg=msg, codify=codify, view=view)
 
 SLASH_COMMANDS.append(smart_region_search_slash)
 
@@ -3990,196 +3093,6 @@ async def form_finder(ctx, *, name: str = ''):
 
 #####
 
-@bot.command(name='tracker',
-             aliases=['statuses'],
-             help='A tracker for status effects in battle.\n'
-                  '%tracker add burn 1\n'
-                  '%tracker or %tracker round\n'
-                  '%tracker remove/del burn 1\n'
-                  '%tracker change {1} burn 2 --> change the status in slot 1 to "burn 2"\n'
-                  '%tracker remove/del all')
-async def tracker(ctx, cmd='', *, mc=''):
-    cmd = cmd.lower()
-    mc = mc.title()
-    name_key = ctx.user.id
-    if name_key not in pokeStatus or not pokeStatus[name_key]:
-        pokeStatus[name_key] = []
-    if cmd == 'add':
-        pokeStatus[name_key].append(mc)
-        await ctx.message.add_reaction(getStatus(mc))
-
-    elif cmd in ['del', 'remove']:
-        try:
-            bad = []
-            if mc == 'All':
-                del pokeStatus[name_key]
-                await ctx.message.add_reaction('👍')
-            else:
-                # remove by index(es)
-                try:
-                    mc = sorted(re.split(', | |,', mc), reverse=True)
-                    for x in mc:
-                        ind = int(x) - 1
-                        if ind < len(pokeStatus[name_key]):
-                            await ctx.message.add_reaction(getStatus(pokeStatus[name_key].pop(ind)))
-                        else:
-                            bad.append(x)
-                # remove by name
-                except:
-                    for x in mc:
-                        try:
-                            pokeStatus[name_key].remove(x)
-                            await ctx.message.add_reaction(getStatus(x))
-                        except:
-                            bad.append(x)
-            if len(bad) > 0:
-                statlist = '\n'.join([f'[{x + 1}] {y}' for x, y in enumerate(pokeStatus[name_key])])
-                await ctx.send(f'{", ".join(bad)} not recognized in the list\n{statlist}')
-        except IndexError:
-            await ctx.send(f'{x} is out of range, you currently have {len(pokeStatus[name_key])} status effects')
-        except KeyError:
-            await ctx.send(f"{ctx.author} doesn't have any status effects")
-        except:
-            await ctx.send(f'"{mc}" not recognized as an index or status in the list')
-
-    elif cmd in ['change', 'c']:
-        where = int(mc.split()[0]) - 1
-        if where < len(pokeStatus[name_key]):
-            what = ' '.join(mc.split()[1:])
-            pokeStatus[name_key][where] = what
-            await ctx.message.add_reaction(getStatus(what))
-        else:
-            await ctx.message.add_reaction('❌')
-
-    elif cmd in ['round', '']:
-        if len(pokeStatus[name_key]) > 0:
-            msg = "Status Effects:\n"
-            for x in range(len(pokeStatus[name_key])):
-                msg += f"[{x + 1}] {pokeStatus[name_key][x]}\n"
-        else:
-            msg = 'No current status effects'
-        await ctx.send(msg)
-    else:
-        await ctx.send(f'{cmd} isn\'t a recognized command')
-
-    save_obj(pokeStatus, 'pokeStatus')
-
-
-@app_commands.autocomplete(rank=ranks_autocomplete)
-async def rankDisplay(ctx, rank: str = None):
-    if rank: rank = rank.title()
-    rank_info = None
-
-    guild = await getGuilds(ctx)
-    version = version_converter[pokebotsettings[guild][11]]
-    # it might be worth moving the information out into a text file
-    if version == "v3.0":
-        rank_info = {
-            'Starter': [["Befriend a Pokemon", "Read book about Pokemon", "Watch Pokemon Tournaments on your TV"],
-                        ["5 Skill Points to distribute",
-                         "Skill Limit 1 (No more than 1 Point per Skill)",
-                         "Can target a Max of 1 Pokemon in-battle"]],
-            'Rookie': [['Get your Trainer\'s License', 'Get your first Pokemon', "Embark on a journey through the Pokemon World"],
-                       ["2 Points to distribute on Attributes",
-                        "2 Points to distribute on Social Attributes",
-                        '10 Skill Points to distribute',
-                        "Skill Limit 2 (No more than 2 Points per Skill)",
-                        'Can target a Max of 2 Pokemon in-battle']],
-            'Standard': [['Evolve a Pokemon', 'Win your first Badge', 'Max out a Pokemon\'s Loyalty or Happiness'],
-                         ['4 Points to distribute on Attributes',
-                          '4 Points to distribute on Social Attributes',
-                          '14 Skill Points to distribute',
-                          "Skill Limit 3 (No more than 3 Points per Skill)",
-                          'Can Target a Max of 3 Pokemon in-battle']],
-            'Advanced': [
-                ["Win 1st, 2nd, or 3rd place in a Tournament", "Win at least 4 Gym Badges", "See at least 30 different Pokemon species"],
-                ['6 Points to distribute on Attributes',
-                 '6 Points to distribute on Social Attributes',
-                 '17 Skill Points to distribute',
-                 "Skill Limit 4 (No more than 4 Points per Skill)",
-                 'Can Target a Max of 4 Pokemon in-battle']],
-            'Expert': [['Win 8 Gym Medals',
-                        'Have at least 6 fully Evolved Pokemon',
-                        'See at least 50 different Pokemon species'],
-                       ['8 Points to distribute on Attributes',
-                        '8 Points to distribute on Social Attributes',
-                        '19 Skill Points to distribute',
-                        "Skill Limit 5 (No more than 5 Points per Skill)",
-                        'Can Target a Max of 5 Pokemon in-battle']],
-            'Ace': [["Be in the League's Tournament Top 8",
-                     'Catch an Ace Rank Pokemon',
-                     'See at least 80 different types of Pokemon'],
-                    ['10 Points to distribute on Attributes',
-                     '10 Points to distribute on Social Attributes',
-                     '21 Skill Points to distribute',
-                     "Skill Limit 5 (No more than 5 Points per Skill)",
-                     'Can Target a Max of 6 Pokemon in-battle']],
-            'Master': [['Clear the Victory Road',
-                        'Defeat your Rival',
-                        'Find and study at least 150 Pokemon species'],
-                       ['11 Points to distribute on Attributes',
-                        '11 Points to distribute on Social Attributes',
-                        '23 Skill Points to distribute',
-                        "Skill Limit 6 (No more than 6 Points per Skill)",
-                        'Can Target a Max of 8 Pokemon in-battle']],
-            'Champion': [['Defeat all members of the Elite Four', 'Defeat the Champion in the League\'s Challenge'],
-                         ['12 Points to distribute on Attributes',
-                          '12 Points to distribute on Social Attributes',
-                          '25 Skill Points to distribute',
-                          "Skill Limit 6 (No more than 6 Points per Skill)",
-                          'Can Target a Max of 10 Pokemon in-battle']]
-        }
-    else:
-        rank_info = {
-            'Starter': [['Get your Trainer\'s License', 'Get your first Pokemon'],
-                        ['5 Skill Points (Skill Limit 1)', 'Can target a Max of 2 Pokemon (including itself)']],
-            'Beginner': [
-                ['Successfully understand your Pokemon\'s gestures', 'Train a Pokemon', 'Catch your second Pokemon',
-                 'Win your first Official Battle against a Trainer'],
-                ['2 more Points to distribute on Attributes (total: 2)',
-                 '2 more Points to distribute on Social Attributes (total: 2)',
-                 '4 more Skill Points to distribute (Skill Limit 2) (apply previous ranks\' points in order)',
-                 'Can Target a Max of 2 Pokemon (including itself)']],
-            'Amateur': [['Evolve a Pokemon', 'Win your first Badge', 'Increase a Pokemon\'s Loyalty & Happiness'],
-                        ['2 more Points to distribute on Attributes (total: 4)',
-                         '2 more Points to distribute on Social Attributes (total: 4)',
-                         '3 more Skill Points to distribute (Skill Limit 3) (apply previous ranks\' points in order)',
-                         'Can Target a Max of 3 Pokemon (including itself)']],
-            'Ace': [['Win 8 badges',
-                     'Get a full party of 6 evolved Pokemon',
-                     'Defeat your Rival'],
-                    ['2 more Points to distribute on Attributes (total: 6)',
-                     '2 more Points to distribute on Social Attributes (total: 6)',
-                     '2 more Skill Points to distribute (Skill Limit 4) (apply previous ranks\' points in order)',
-                     'Can Target a Max of 5 Pokemon (including itself)']],
-            'Pro': [['Get a Pokemon-related job',
-                     'Clear the Victory Road',
-                     'Catch a Professional-Rank Pokemon'],
-                    ['2 more Points to distribute on Attributes (total: 8)',
-                     '2 more Points to distribute on Social Attributes (total: 8)',
-                     '1 more Skill Points to distribute (Skill Limit 5) (apply previous ranks\' points in order)',
-                     'Can Target a Max of 6 Pokemon (including itself)']],
-            'Master': [['Find and study all Pokemon species in your Region'],
-                       ['6 more Points to distribute on Social Attributes (total: 14)',
-                        'Roll 2 additional dice on all Skill Rolls',
-                        'Passive Traits such as HP, Will, Initiative, DEF/S.DEF are increased by 2']],
-            'Champion': [['Defeat the Champion in the League\'s Challenge'],
-                         ['6 more Points to distribute on Social Attributes (total: 14)',
-                          'Can raise Attributes up to 2 Points beyond the Limit'
-                          '1 more Skill Point to distribute']]
-        }
-    if rank not in rank_info:
-        await ctx.send(' - ' + '\n- '.join(list(rank_info.keys())))
-    else:
-        msg = f'**{rank} Rank**\n' \
-              f'*Recommended Achievements*\n- '
-        msg += '\n- '.join(rank_info[rank][0])
-        msg += f'\n\n*Benefits*\n- '
-        msg += '\n- '.join(rank_info[rank][1])
-        await ctx.send(msg)
-
-
-# SLASH_COMMANDS.append(rankDisplay)
 #####
 
 FEEDBACK_OWNER_ID = 360919685887164428
@@ -4249,12 +3162,6 @@ async def invite(ctx):
 
 # error handling:
 
-@weighted_pkmn_search.error
-async def info_error(ctx, error):
-    if 'IndexError' in str(error):
-        await ctx.send('Don\'t forget the percentages.\nFor example "40% bulbasaur, charmander 60% squirtle"')
-
-
 @view_habitat.error
 async def vh_error(ctx, info):
     await ctx.send(f'Make sure you type the biome name exactly (e.g. Ocean Biomes)\n'
@@ -4315,7 +3222,6 @@ if not dev_env:
 # tree.add_command( CMD() )
 # await tree.sync( guild = discord.Object( id = GUILD_ID) )
 
-bot.expand_list = pokesFromList
 bot.big_msg = send_big_msg
 bot.dictionary = lookup_poke
 bot.rank_dist = rank_dist

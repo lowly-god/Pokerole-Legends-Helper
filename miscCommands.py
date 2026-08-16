@@ -8,20 +8,9 @@ from discord.app_commands import Choice
 import csv
 
 statuses = [
-    'Burn 1',
-    'Burn 2',
-    'Burn 3',
-    'Paralysis',
-    'Frozen Solid',
-    'Poison',
-    'Badly Poisoned',
-    'Sleep',
-    'Flinched',
-    'Confused',
-    'Disabled',
-    'In Love',
-    'Blocked',
-    'Ongoing Damage'
+    'Burn 1', 'Burn 2', 'Burn 3', 'Paralysis', 'Frostbite 1', 'Frostbite 2', 'Frostbite 3',
+    'Poison', 'Badly Poisoned', 'Sleep', 'Flinched', 'Confused', 'Disabled', 'In Love', 'Blocked',
+    'Charmed', 'Disarmed', 'Exhausted', 'Leeched', 'Petrified', 'Hyper Mode', 'Shadow Boost'
 ]
 weathers = [
     'Sunny Weather',
@@ -69,33 +58,7 @@ natures = [
 # Legends 3.0 nature mechanics
 NATURE_DETAILS = {'Adamant': ('1-4', '+1 Maximum Strength, -1 Maximum Special', 4), 'Bashful': ('5-8', 'Neutral', 6), 'Bold': ('9-12', '+1 Maximum Vitality, -1 Maximum Strength', 9), 'Brave': ('13-16', '+1 Maximum Strength, -1 Maximum Dexterity', 9), 'Calm': ('17-20', '+1 Maximum Insight, -1 Maximum Strength', 8), 'Careful': ('21-24', '+1 Maximum Insight, -1 Maximum Special', 5), 'Docile': ('25-28', 'Neutral', 7), 'Gentle': ('29-32', '+1 Maximum Insight, -1 Maximum Vitality', 10), 'Hardy': ('33-36', 'Neutral', 9), 'Hasty': ('37-40', '+1 Maximum Dexterity, -1 Maximum Vitality', 7), 'Impish': ('41-44', '+1 Maximum Vitality, -1 Maximum Special', 7), 'Jolly': ('45-48', '+1 Maximum Dexterity, -1 Maximum Special', 10), 'Lax': ('49-52', '+1 Maximum Vitality, -1 Maximum Insight', 8), 'Lonely': ('53-56', '+1 Maximum Strength, -1 Maximum Vitality', 5), 'Mild': ('57-60', '+1 Maximum Special, -1 Maximum Vitality', 8), 'Modest': ('61-64', '+1 Maximum Special, -1 Maximum Strength', 10), 'Naive': ('65-68', '+1 Maximum Dexterity, -1 Maximum Insight', 7), 'Naughty': ('69-72', '+1 Maximum Strength, -1 Maximum Insight', 6), 'Quiet': ('73-76', '+1 Maximum Special, -1 Maximum Dexterity', 5), 'Quirky': ('77-80', 'Neutral', 9), 'Rash': ('81-84', '+1 Maximum Special, -1 Maximum Insight', 6), 'Relaxed': ('85-88', '+1 Maximum Vitality, -1 Maximum Dexterity', 8), 'Sassy': ('89-92', '+1 Maximum Insight, -1 Maximum Dexterity', 7), 'Serious': ('93-96', 'Neutral', 4), 'Timid': ('97-100', '+1 Maximum Dexterity, -1 Maximum Strength', 4)}
 
-effects = [
-    'Physical',
-    'Special',
-    'Support',
-    'Chance Dice',
-    'Is Never Affected/Is Always Affected',
-    'Reduced Accuracy',
-    'Target',
-    'Increase/Reduce Box',
-    'Modified Damage',
-    'Block',
-    'Charge',
-    'Fist Based',
-    'Heal',
-    'High Crit',
-    'Lethal',
-    'Must Recharge',
-    'Never Fail',
-    'Priority/Low Priority',
-    'Rampage',
-    'Recoil',
-    'Shield',
-    'Sound Based',
-    'Status Condition Box',
-    'Successive Actions',
-    'Switcher Move',
-]
+effects = ['Physical Move', 'Special Move', 'Support Move', 'Accuracy -X', 'Basic Heal', 'Bite Move', 'Blocks', 'Chance Dice', 'Charge Move', 'Copy Move', 'Cutter Move', 'Double Action', 'Entry Hazard', 'Fist Move', 'Force Field', 'High Critical', 'Ignore Defenses', 'Late Reaction', 'Lethal', 'Must Recharge', 'Never Miss', 'Ongoing Damage', 'Out of Range while Charging', 'Powder Move', 'Projectile Move', 'Rampage', 'Ranged', 'Reaction', 'Recoil', 'Shield Move', 'Sound Move', 'Successive Actions', 'Switcher Move', 'Unique', 'Wind Move']
 
 version_converter = ["v3.0", "v3.0"]
 
@@ -110,7 +73,6 @@ class Misc(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.weather = dict()
-        self.status = dict()
         self.status_v3 = dict()
         self.nature = dict()
         self.effects = dict()
@@ -145,6 +107,16 @@ class Misc(commands.Cog):
             for m_list in result.keys() if current.lower() in m_list.lower()
         ]
 
+    async def effect_autocomplete(
+            self,
+            interaction: discord.Interaction,
+            current: str
+    ) -> List[Choice[str]]:
+        if len(self.effects) == 0:
+            await self.instantiateEffects()
+        choices = [name for name in self.effects if current.casefold() in name.casefold()]
+        return [app_commands.Choice(name=name, value=name) for name in choices[:25]]
+
     async def instantiateWeather(self):
         # 0 is name, 1 is description, 2 is effect
         with open('weather.csv', 'r', encoding = "UTF-8") as file:
@@ -153,12 +125,7 @@ class Misc(commands.Cog):
                 self.weather[row[0]] = row[1:]
 
     async def instantiateStatus(self):
-        with open('status.csv', 'r', encoding = "UTF-8") as file:
-            reader = csv.reader(file)
-            for row in reader:
-                self.status[row[0]] = row[1:]
-
-        with open('status_v3.csv', 'r', encoding = "UTF-8") as file:
+        with open('status_v3.csv', 'r', encoding='UTF-8') as file:
             reader = csv.reader(file)
             for row in reader:
                 self.status_v3[row[0]] = row[1:]
@@ -170,7 +137,7 @@ class Misc(commands.Cog):
                 self.nature[row[0]] = row[1:]
 
     async def instantiateEffects(self):
-        with open('effects.csv', 'r', encoding = "UTF-8") as file:
+        with open('effects_v3.csv', 'r', encoding='UTF-8') as file:
             reader = csv.reader(file)
             for row in reader:
                 self.effects[row[0]] = row[1]
@@ -206,8 +173,8 @@ class Misc(commands.Cog):
     #                   help = 'Quick reference for statuses.\n'
     #                          'Type `%status` for a list of all statuses, or'
     #                          'type `%status burn` for example for an in-depth explanation.')
-    async def status_func(self, ctx, version, *, status = ''):
-        status_dict = self.status if version == "v2.0" else self.status_v3
+    async def status_func(self, ctx, *, status=''):
+        status_dict = self.status_v3
         if len(status_dict) == 0:
             await self.instantiateStatus()
         output = ''
@@ -282,13 +249,13 @@ class Misc(commands.Cog):
         if effect == '':
             #list all effects
             for k, v in list(self.effects.items()):
-                output += f'**{k}**{effectrepl}*{v[0]}*\n'
+                output += f'**{k}**{effectrepl}{v}\n'
         else:
             #list a single effect description
-            effect = effect.title()
-            #if f'{effect} Effect' in self.effects:
-            #    effect += ' Effect'
-            if effect in self.effects:
+            requested = effect.strip().casefold()
+            canonical = next((name for name in self.effects if name.casefold() == requested), None)
+            if canonical is not None:
+                effect = canonical
                 effect2 = self.effects[effect].replace('. ', '.'+effectrepl)
                 #output = f'**{effect}**:\n*{self.effects[effect]}*{effectrepl}{effect2}'
                 output = f'**{effect}**:{effectrepl}{effect2}'
@@ -310,7 +277,7 @@ class Misc(commands.Cog):
     )
     @app_commands.autocomplete(status=status_autocomplete)
     async def slash_status(self, inter : discord.Interaction, *, status : str):
-        await self.status_func(ctx=inter, version="v3.0", status=status)
+        await self.status_func(ctx=inter, status=status)
 
 
     @commands.hybrid_command(
@@ -359,11 +326,7 @@ class Misc(commands.Cog):
     @app_commands.describe(
         effect = "Which effect?"
     )
-    @app_commands.choices(
-        effect = [
-            Choice(name = x, value = x) for x in list(effects)
-        ]
-    )
+    @app_commands.autocomplete(effect=effect_autocomplete)
     async def slash_effect(self, inter, *, effect : str):
         await self.effect_func(ctx = inter, effect = effect)
 

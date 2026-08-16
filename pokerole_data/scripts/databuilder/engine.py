@@ -5,9 +5,11 @@ from shutil import copy, rmtree
 
 class Engine(object):
     
-    def __init__(self, output_path, game_version):
+    def __init__(self, output_path, game_version='v3.0'):
+        if game_version != 'v3.0':
+            raise ValueError('Pokerole Legends Helper only supports v3.0 data.')
         self.output_path = output_path
-        self.game_version = game_version
+        self.game_version = 'v3.0'
         self.driver = None
     
     # # These functions take JSON and return a string to be outputted. 

@@ -1,6 +1,6 @@
 {
   "Name": "Huge Power",
-  "Effect": "This Pokémon has a permanent increase to its Strength Attribute. Ranks Starter, Beginner, Standard, and Advanced Increase Strength by 1. Rank Expert and higher Increase Strength by 2.",
+  "Effect": "This Pokémon has a permanent increase to its Strength Attribute. Ranks Starter, Rookie, Standard, and Advanced Increase Strength by 1. Rank Expert and higher Increase Strength by 2.",
   "Description": "The Pokémon has an unnatural strength that goes way beyond of what its physical appearance would suggest.",
   "_id": "huge-power"
 }

@@ -13,7 +13,8 @@ maxPips = 100
 diceSplit = re.compile(r'\d*d\d+')
 
 async def dice_backend(ctx, *, mc = ''):
-    name = ctx.author.display_name
+    actor = getattr(ctx, 'author', None) or getattr(ctx, 'user', None)
+    name = actor.display_name if actor is not None else 'Someone'
     msg = f'{name} rolled '
     mc = mc.lower()
     if '+' in mc:
@@ -207,14 +208,16 @@ class RerollButton(View):
     @button(label = "Roll Again", style = ButtonStyle.gray)
     async def reroll_button(self, interaction : Interaction, button : Button):
         if self.mc:
-            extra = await dice_backend(self.mc)
-            await interaction.send(extra)
+            extra = await dice_backend(interaction, mc=self.mc)
         else:
-            extra = await dice_backend_slash(self.sides, self.dice, self.flat_addition, self.success_threshold, self.accuracy)
-            await interaction.response.send_message(extra)
+            extra = await dice_backend_slash(
+                self.sides, self.dice, self.flat_addition, self.success_threshold, self.accuracy
+            )
+        await interaction.response.send_message(extra)
 
     async def on_timeout(self) -> None:
-        await self.message.edit(view = None)
+        if hasattr(self, 'message') and self.message is not None:
+            await self.message.edit(view=None)
 
 async def setup(bot):
     await bot.add_cog(Dice(bot))

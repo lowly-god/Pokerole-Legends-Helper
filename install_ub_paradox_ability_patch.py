@@ -194,7 +194,7 @@ PARADOX_HIDDEN = {
     "Flutter Mane": "Perish Body",
     "Slither Wing": "Fluffy",
     "Sandy Shocks": "Steelworker",
-    "Roaring Moon": "Veil Of Night",
+    "Roaring Moon": "Veil of Night",
     "Iron Treads": "Surge Surfer",
     "Iron Bundle": "Polished Coat",
     "Iron Hands": "Iron Fist",

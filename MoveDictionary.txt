@@ -22,7 +22,6 @@ Amnesia$100
 Anchor Shot$100
 Ancient Power$100
 Anti-Gravity$100
-Any Move$100
 Apple Acid$100
 Aqua Cutter$100
 Aqua Fang$100
@@ -179,7 +178,6 @@ Crush Claw$100
 Crush Grip$100
 Cryocontamination$100
 Curse$100
-Curse (Non-Ghost User)$100
 Curse (Non-Ghost)$100
 Cut$100
 Dark Magic$100
@@ -370,8 +368,6 @@ Grassy Terrain$100
 Grav Apple$100
 Gravity$100
 Growl$100
-Growl (Cute)$100
-Growl (Tough)$100
 Growth$100
 Grudge$100
 Guard Split$100
@@ -626,8 +622,6 @@ Petal Dance$100
 Petrifying Gaze$100
 Phantom Force$100
 Photon Geyser$100
-Photon Geyser (Physical)$100
-Photon Geyser (Special)$100
 Pika Papow$100
 Piledriver$100
 Pin Missile$100
@@ -888,7 +882,6 @@ Storm Throw$100
 Strange Brew$100
 Strange Steam$100
 Strength$100
-Strength $100
 Strength Sap$100
 String Shot$100
 Struggle$100
@@ -994,6 +987,7 @@ Twister$100
 Tyrant's Shadow$100
 U-Turn$100
 Uncontrolled Burn Off$100
+Unknown Alloy$100
 Upper Hand$100
 Uproar$100
 Uproot$100

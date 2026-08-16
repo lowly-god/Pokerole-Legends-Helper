@@ -1,0 +1,124 @@
+{
+  "Number": 978,
+  "DexID": "0978F6",
+  "Name": "Tatsugiri (Stretchy Mega Form)",
+  "Type1": "Dragon",
+  "Type2": "Water",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 7,
+  "Ability1": "Swift Swim",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "tatsugiri-stretchy-mega-form",
+  "DexCategory": "Mimicry Pokémon",
+  "Height": {
+    "Meters": 0.61,
+    "Feet": 2.0
+  },
+  "Weight": {
+    "Kilograms": 24.0,
+    "Pounds": 52.9
+  },
+  "DexDescription": "These small dragon Pokémon are very cunning: they hide inside the mouths of Dondozo, then feign weakness to lure prey and order their partner to attack. Yellow Tatsugiri focus on speed tactics.",
+  "Evolutions": [
+    {
+      "From": "Tatsugiri (Stretchy Form)",
+      "Kind": "Mega",
+      "Item": "Tatsugirinite"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Water Gun"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Splash"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Harden"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Water Pulse"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Soak"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Memento"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rapid Spin"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Muddy Water"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Mirror Coat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Surf"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dragon Cheer"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Draco Meteor"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imperial Majesty"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    }
+  ],
+  "MegaStone": "Tatsugirinite"
+}

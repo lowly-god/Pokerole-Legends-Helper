@@ -1,101 +1,134 @@
 from discord.ext import commands
+from discord import app_commands
 
-cmd_list = {}
-spacing = 12
 
-# todo: allow %help to recognize command aliases
+CATEGORY_ORDER = {
+    'Pokémon Reference': [
+        'stats', 'pokelearns', 'move', 'ability', 'item', 'status', 'weather',
+        'nature', 'effect', 'metronome', 'habitat', 'forms'
+    ],
+    'Legends Reference': [
+        'rankup', 'perk', 'weapon', 'maneuver', 'armor', 'accessories', 'tools',
+        'fieldtype', 'encountertable', 'foraging', 'training', 'crafting'
+    ],
+    'Encounters & NPCs': [
+        'encounter', 'encounter_biome', 'encounter_region', 'encounter_human',
+        'human_npc', 'quest'
+    ],
+    'Shops': ['shop', 'rollshop'],
+    'Utilities': [
+        'roll', 'rollnature', 'settings', 'feedback', 'docs', 'donate', 'invite',
+        'getpokerolelegends'
+    ],
+}
+
 
 class Help(commands.Cog):
-
     def __init__(self, bot):
         self.bot = bot
-        global cmd_list
-        for cmd in self.bot.walk_commands():
-            cmd_list[cmd.name] = cmd
 
-    def get_cmd_signature(self, cmd):
-        result = []
-        prefix = '/'
-        if len(cmd.aliases) > 0:
-            aliases = '|'.join(cmd.aliases)
-            fmt = '{0}[{1.name}|{2}]'
-            result.append(fmt.format(prefix, cmd, aliases))
-        else:
-            name = prefix + cmd.name
-            result.append(name)
-
-        params = cmd.params.copy()
-        if len(params) > 0:
-            for name, param in params.items():
-                if name in ['ctx', 'self']:
-                    continue
-                if param.default is not param.empty:
-                    # We don't want None or '' to trigger the [name=value] case and instead it should
-                    # do [name] since [name=None] or [name=] are not exactly useful for the user.
-                    should_print = param.default if isinstance(param.default, str) else param.default is not None
-                    if should_print:
-                        result.append('[{}={}]'.format(name, param.default))
-                    else:
-                        result.append('[{}]'.format(name))
-                elif param.kind == param.VAR_POSITIONAL:
-                    result.append('[{}...]'.format(name))
+    def _walk_app_commands(self):
+        """Yield current application commands, including commands added after this cog loads."""
+        def recurse(commands_in):
+            for command in commands_in:
+                if isinstance(command, app_commands.Group):
+                    yield from recurse(command.commands)
                 else:
-                    result.append('<{}>'.format(name))
+                    yield command
+        yield from recurse(self.bot.tree.get_commands())
 
-        return ' '.join(result)
+    def _command_map(self):
+        result = {}
+        # Prefix/hybrid commands are useful as a fallback for commands that do not
+        # have a standalone app-command object.
+        for command in self.bot.walk_commands():
+            if command.hidden:
+                continue
+            result.setdefault(command.name.casefold(), command)
+        # Prefer the slash-command definition when both exist.
+        for command in self._walk_app_commands():
+            result[command.name.casefold()] = command
+        return result
 
-    def brief_help_msg(self, cmd):
-        end = 40
-        add = ''
-        if cmd.help is None:
+    @staticmethod
+    def _description(command):
+        if isinstance(command, app_commands.Command):
+            return (command.description or 'No description.').strip()
+        text = command.brief or command.help or 'No description.'
+        return text.strip().splitlines()[0]
+
+    @staticmethod
+    def _signature(command):
+        if isinstance(command, app_commands.Command):
+            pieces = [f'/{command.name}']
+            for param in command.parameters:
+                token = f'<{param.name}>' if param.required else f'[{param.name}]'
+                pieces.append(token)
+            return ' '.join(pieces)
+
+        pieces = [f'/{command.name}']
+        for name, param in command.clean_params.items():
+            if param.default is param.empty:
+                pieces.append(f'<{name}>')
+            else:
+                pieces.append(f'[{name}]')
+        return ' '.join(pieces)
+
+    async def _send_chunks(self, ctx, text):
+        while text:
+            if len(text) <= 1950:
+                await ctx.send(text)
+                return
+            split = text.rfind('\n', 0, 1950)
+            if split < 1:
+                split = 1950
+            await ctx.send(text[:split])
+            text = text[split:].lstrip('\n')
+
+    @commands.hybrid_command(name='help', description='Show the bot command list or help for one command.')
+    async def help(self, ctx, *, which: str = None):
+        commands_now = self._command_map()
+
+        if which:
+            key = which.strip().lstrip('/%').casefold()
+            command = commands_now.get(key)
+            if command is None:
+                await ctx.send(f'`{which}` is not a current command. Use `/help` to see the command list.')
+                return
+            await self._send_chunks(
+                ctx,
+                f'**{self._signature(command)}**\n{self._description(command)}'
+            )
             return
-        if len(cmd.help) > end:
-            tmp = cmd.help.find(' ', int(end * 1 / 2))
-            tmp2 = cmd.help.find('\n')
-            if tmp2 < tmp:
-                tmp = tmp2
-            if tmp < end and tmp != -1:
-                end = tmp
-            add = '...'
-        return cmd.help[:end] + add
 
-    def big_help_msg(self, cmd):
-        output = self.get_cmd_signature(cmd)
-        output += '\n\n'
-        output += cmd.help
-        return output
+        used = set()
+        sections = []
+        for category, names in CATEGORY_ORDER.items():
+            rows = []
+            for name in names:
+                command = commands_now.get(name.casefold())
+                if command is None:
+                    continue
+                used.add(name.casefold())
+                rows.append(f'`/{command.name}` — {self._description(command)}')
+            if rows:
+                sections.append(f'**{category}**\n' + '\n'.join(rows))
 
-    @commands.hybrid_command(
-        name = 'help'
-    )
-    async def help(self, ctx, *,which : str = None):
-        global cmd_list
-        global spacing
-        if not which:
+        # Never let a newly added public command disappear from help simply because
+        # the category table has not been updated yet.
+        other = []
+        for key, command in sorted(commands_now.items(), key=lambda item: item[0]):
+            if key in used or key == 'help':
+                continue
+            other.append(f'`/{command.name}` — {self._description(command)}')
+        if other:
+            sections.append('**Other Commands**\n' + '\n'.join(other))
 
-            custom_categories = {
-                'Reference' : sorted(['ability', 'move', 'pokelearns',
-                                      'stats', 'shop', 'item', 'weather', 'status', 'rank']),
-                'Lists' : sorted(['filter', 'list', 'lists', 'listsub']),
-                'Encounters' : sorted(['encounter', 'wEncounter', 'random', 'hEncounter']),
-                'Misc': sorted([
-                    'docs', 'donate', 'feedback', 'settings', 'tracker', 'roll',
-                    'dungeon', 'habitat', 'quest', 'metronome', 'viewhabitat',
-                    'forms'
-                ])
-            }
-            output = '```\n'
+        await self._send_chunks(
+            ctx,
+            '\n\n'.join(sections) + '\n\nUse `/help <command>` for details.'
+        )
 
-            for category, cmds in custom_categories.items():
-                output += f'{category}:\n'
-                for cmd in cmds:
-                    output += f'  {cmd:{spacing}}{self.brief_help_msg(cmd_list[cmd])}\n'
-            output += f'\nType /help command for more info on a command.\n'
-        else:
-            output = f'```\n{self.big_help_msg(cmd_list[which])}\n'
-        output += '```\n'
-
-        await ctx.send(output[:1998])
 
 async def setup(bot):
     bot.remove_command('help')

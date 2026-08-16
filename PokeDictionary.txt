@@ -1646,9 +1646,11 @@ Tapu Lele$100
 Tapu Lele (Corrupted Form)$100
 Tarountula$100
 Tatsugiri (Curly Form)$100
+Tatsugiri (Curly Mega Form)$100
 Tatsugiri (Droopy Form)$100
-Tatsugiri (Mega Form)$100
+Tatsugiri (Droopy Mega Form)$100
 Tatsugiri (Stretchy Form)$100
+Tatsugiri (Stretchy Mega Form)$100
 Tauros$100
 Tauros (Paldean Form) (Aqua Form)$100
 Tauros (Paldean Form) (Blaze Form)$100

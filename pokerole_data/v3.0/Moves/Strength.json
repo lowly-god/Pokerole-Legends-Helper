@@ -1,5 +1,5 @@
 {
-  "Name": "Strength ",
+  "Name": "Strength",
   "Type": "Normal",
   "Power": 3,
   "Damage1": "Strength",
@@ -9,7 +9,7 @@
   "Target": "Foe",
   "Effect": "Out of battle, double the Pokémon's lifting capacity.",
   "Description": "The Pokémon is very strong. If they concentrate they can strain their muscles to go well beyond their limits of strength.",
-  "_id": "strength_",
+  "_id": "strength",
   "Attributes": {},
   "AddedEffects": {},
   "Category": "Physical"

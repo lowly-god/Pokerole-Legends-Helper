@@ -22,7 +22,6 @@ class SRD_Engine(Engine):
         sname = entry['Image'].split('.')
         entry['BookSprite'] = f"SRD-{sname[0]}-BookSprite.{sname[1]}"
         entry['HomeSprite'] = f"SRD-{sname[0]}-HomeSprite.{sname[1]}"
-        postfix = '-v2.0' if self.game_version == 'v2.0' else ''
         # entry['BoxSprite'] = f"SRD-{sname[0]}-BoxSprite.{sname[1]}"
         # entry['ShuffleToken'] = f"SRD-{sname[0]}-ShuffleToken.{sname[1]}"
         
@@ -51,11 +50,13 @@ class SRD_Engine(Engine):
         height = str(entry['Height']['Feet'])
         feet = height.split('.')[0]
         inches = height.split('.')[1] if '.' in height else 0 
-        abilities = (f"[[SRD-{entry['Ability1']}{postfix}|{entry['Ability1']}]]"
-                            f"{'' if not entry['Ability2'] else ' / [[SRD-'+ entry['Ability2']+postfix+'|'+entry['Ability2']+']]'}"
-                            f"{'' if not entry['HiddenAbility'] else ' ([[SRD-'+entry['HiddenAbility']+postfix+'|'+entry['HiddenAbility']+']])'}"
-                            f"{'' if not entry['EventAbilities'] else ' <[[SRD-'+entry['EventAbilities']+postfix+'|'+entry['EventAbilities']+']]>'}"
-                            )
+        abilities = f"[[SRD-{entry['Ability1']}|{entry['Ability1']}]]"
+        if entry.get('Ability2'):
+            abilities += f" / [[SRD-{entry['Ability2']}|{entry['Ability2']}]]"
+        if entry.get('HiddenAbility'):
+            abilities += f" ([[SRD-{entry['HiddenAbility']}|{entry['HiddenAbility']}]])"
+        if entry.get('EventAbilities'):
+            abilities += f" <[[SRD-{entry['EventAbilities']}|{entry['EventAbilities']}]]>"
         INTEGERS = ['BaseHP', 'Strength', 'MaxStrength',
         'Dexterity', 'MaxDexterity', 'Vitality', 'MaxVitality', 'Special',
         'MaxSpecial', 'Insight', 'MaxInsight']
@@ -102,13 +103,13 @@ class SRD_Engine(Engine):
                 del entry[x]
         entry_output = f"---\n{yaml.dump(entry)}---\n\n#PokeroleSRD/Pokedex\n\n{entry_output}"
         
-        path = join(self.output_path,'SRD-Pokedex', f"SRD-{name}{postfix}.md")
+        path = join(self.output_path,'SRD-Pokedex', f"SRD-{name}.md")
         self._write_to(entry_output, path)
         
         return entry_output
     
     def _learnset_gen(self, stored_moves):
-        ranks = ['Starter','Beginner','Amateur','Ace','Pro','Rookie','Standard','Advanced','Expert']
+        ranks = ['Starter', 'Rookie', 'Standard', 'Advanced', 'Expert', 'Ace', 'Master', 'Champion']
         moves = {}
         for k in ranks:
             moves[k+'Moves'] = [m['Name'] for m in stored_moves if m['Learned'] == k]
@@ -130,8 +131,7 @@ class SRD_Engine(Engine):
         )
         del entry['_id']
         entry_output = f"---\n{yaml.dump(entry)}---\n\n#PokeroleSRD/Moves\n\n{moves_template}"
-        postfix = '-v2.0' if self.game_version == 'v2.0' else ''
-        path = join(self.output_path,'SRD-Moves', f"SRD-{entry['Name']}{postfix}.md")
+        path = join(self.output_path,'SRD-Moves', f"SRD-{entry['Name']}.md")
         self._write_to(entry_output, path)
     
     def abilitydex_entry(self, entry, write=True):
@@ -144,8 +144,7 @@ class SRD_Engine(Engine):
             )
         del entry['_id']
         entry_output = f"---\n{yaml.dump(entry)}---\n\n#PokeroleSRD/Abilities\n\n{ability_template}"
-        postfix = '-v2.0' if self.game_version == 'v2.0' else ''
-        path = join(self.output_path,'SRD-Abilities', f"SRD-{entry['Name']}{postfix}.md")
+        path = join(self.output_path,'SRD-Abilities', f"SRD-{entry['Name']}.md")
         self._write_to(entry_output, path)
         
     def itemdex_entry(self, entry, write=True):
@@ -170,8 +169,7 @@ class SRD_Engine(Engine):
         del entry['_id']
         
         entry_output = f"---\n{yaml.dump(entry)}---\n\n#PokeroleSRD/Items\n\n{items_template}"
-        postfix = '-v2.0' if self.game_version == 'v2.0' else ''
-        path = join(self.output_path,'SRD-Items', f"SRD-{entry['Name']}{postfix}.md")
+        path = join(self.output_path,'SRD-Items', f"SRD-{entry['Name']}.md")
         self._write_to(entry_output, path)
     
     def nature_entry(self, entry, write=True):

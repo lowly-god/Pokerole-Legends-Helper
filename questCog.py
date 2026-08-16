@@ -2,7 +2,7 @@ from discord.ext import commands
 from discord import app_commands
 from discord.app_commands import Choice
 from dbhelper import Database
-import typing, math
+import math
 import pmd_quest_text as pmd
 
 import random
@@ -11,14 +11,14 @@ import random
 #  Requested by: Pokemon
 #  Objective: Recover their lost item
 #  Reward: Money¥ + ??? (item, etc)
-#  Difficulty: Starter - Master
+#  Difficulty: Starter - Champion
 
 # good sources: view-source:https://syphist.com/pmd/rt/wondermail.html
 # view-source:https://web.archive.org/web/20080912161910/http://www.upokecenter.com/games/dungeon2/guides/wondermail.php
 # prices: https://mysterydungeon.fandom.com/wiki/Explorers/Items
 
-ranks = ['Starter', 'Beginner', 'Amateur', 'Ace', 'Pro', 'Master', 'Champion']
-prices = [0, 50, 100, 1000, 2500, 4000, 4500]
+ranks = ['Starter', 'Rookie', 'Standard', 'Advanced', 'Expert', 'Ace', 'Master', 'Champion']
+prices = [0, 50, 100, 500, 1000, 2500, 4000, 4500]
 
 quests = [
     [pmd.RescueTitle, pmd.Rescue, pmd.RescueP2],
@@ -29,11 +29,6 @@ quests = [
     [['{target} stole my {item}!'],['{target} is a thief!'], ['Help me get my {item} back!']],
     [['Arrest {target}!'],['{target} is a wanted criminal!'], ['Please bring {target} to justice!']]
 ]
-
-def ensure_rank(arg : str) -> str:
-    if arg.title() not in ranks:
-        raise commands.errors.ConversionError(f'{arg} is not a valid rank.')
-    return arg
 
 class Quests(commands.Cog):
 
@@ -69,16 +64,18 @@ class Quests(commands.Cog):
         if price < 1:
             price = 1
         query += f' BETWEEN {price} AND {upper_price} ORDER BY RANDOM() LIMIT 1'
-        query = (self.db.custom_query(query))[0]
+        results = self.db.custom_query(query)
 
-        avg_price = (price+upper_price)//2
+        avg_price = (price + upper_price) // 2
+        if not results:
+            return ('???', avg_price)
 
-        if not query:
-            query = ('???', avg_price)
-        else:
-            query = (query[0], avg_price-int(query[1]))
-
-        return query
+        item_name, item_price = results[0]
+        try:
+            remaining = avg_price - int(item_price)
+        except (TypeError, ValueError):
+            remaining = avg_price
+        return (item_name, remaining)
 
     def get_prefix(self, lst):
         output = {}
@@ -177,120 +174,56 @@ class Quests(commands.Cog):
 
         return output
 
-    def quest_recursor(self, ctx, numQuests, include_garmets, rank, price,
-                                      price_upper, mc):
-
-        rank = rank.title()
-        # get a random pokemon if none provided
-        if mc == '':
-            poke = self.get_poke(rank)
-        #... otherwise select a random poke from the list
-        else:
-            poke = random.choice(mc)
-
-        query = f'SELECT name FROM pkmnStats WHERE name="{poke.title()}"'
-        query = self.db.custom_query(query)
-
-        try:
-            if not query:
-                poke = random.choice(self.bot.expand_list(poke))
-        except:
-            query = f'SELECT name FROM pkmnStats WHERE name="{self.bot.dictionary(poke.title())}"'
-            poke = (self.db.custom_query(query))[0][0]
-
-
-        rank_as_num = ranks.index(rank)
-        if price < 0:
-            price = prices[rank_as_num]
-        if price_upper < price:
-            price_upper = price
-
-        if numQuests > 5:
-            numQuests = 5
-
-        if numQuests == 0:
-            return ''
-        else:
-            numQuests-=1
-
-        tmp = self.quest_output(include_garmets, poke, rank, (price, price_upper))
-        return tmp + '\n\n' + self.quest_recursor(ctx = ctx, numQuests = numQuests, include_garmets = include_garmets,
-                                                  rank = rank, price = price, price_upper = price_upper, mc = mc)
-
-    @commands.command(
-        name = 'quest',
-        aliases = ['q', 'quests'],
-        help = 'Generate a Mystery Dungeon quest.\n'
-               'Format: `%quest (numQuests) (include_garmets) rank (price_lower_bound) (price_higher bound) (pokemon list)`\n'
-               'Example: Generate 2 quests at beginner rank, with pmd items priced between 30 and 100 as rewards,\n'
-               'where the client is possibly a Pikachu, Dwebble, or in the custom list called myPokemon. Do not include garmets.\n'
-               '`%quest 2 False beginner 30 100 Pikachu, Dwebble, myPokemon`\n'
-               'Please note that any part left blank will be randomized within reason. This is a work in progress,\n'
-               'so rewards are currently limited to a small pool.',
-        brief = 'Generate a Mystery Dungeon quest.'
-    )
-    # example: %quest (numQuests) rank (price) (price2) (pkmnList)
-    async def generate_quest(self, ctx,
-                             numQuests : typing.Optional[int] = 1,
-                             rank : ensure_rank = '',
-                             price : typing.Optional[int] = -1,
-                             price_upper : typing.Optional[int] = -1,
-                             *, mc : (lambda x : x.split(', ')) = ''):
-        include_garmets = False
-        msg = self.quest_recursor(ctx = ctx, numQuests = numQuests, include_garmets = include_garmets, rank = rank,
-                                  price = price, price_upper = price_upper, mc = mc)
-        await self.bot.big_msg(ctx, msg)
-
     @app_commands.command(
-        name = 'quest',
-        description = 'Generate some quests at a rank, from [pokemon]!',
+        name='quest',
+        description='Generate Mystery Dungeon-style quests using v3 ranks.',
     )
     @app_commands.describe(
-        number = "How many? (up to 5)",
-        rank = "What rank?",
-        pokemon = "Which pokemon?"
+        number="How many? (up to 5)",
+        rank="What rank?",
+        pokemon="Optional client Pokémon list, separated by commas"
     )
     @app_commands.choices(
-        number = [
-            Choice(name = x, value = x) for x in range(1, 6)
-        ],
-        rank = [
-            Choice(name = x, value = x) for x in ['Any'] + ranks
-        ]
+        number=[Choice(name=x, value=x) for x in range(1, 6)],
+        rank=[Choice(name=x, value=x) for x in ['Any'] + ranks]
     )
-    async def generate_quest_slash(self, inter, number :  int = 1,
-                                   rank : str = 'Any', pokemon : str = ''):
+    async def generate_quest_slash(self, inter, number: int = 1,
+                                   rank: str = 'Any', pokemon: str = ''):
         if rank == 'Any':
             rank = self.bot.rank_dist()
-        pokemon = pokemon.split(', ')
+
+        clients = [x.strip() for x in pokemon.split(',') if x.strip()]
         price = prices[ranks.index(rank)]
         msg = ''
+
         for _ in range(number):
-            # get a random pokemon if none provided
-            if pokemon == ['']:
+            if not clients:
                 poke = self.get_poke(rank)
-            #... otherwise select a random poke from the list
             else:
-                poke = random.choice(pokemon)
-
-            query = f'SELECT name FROM pkmnStats WHERE name="{poke.title()}"'
-            query = self.db.custom_query(query)
-
-            try:
-                if not query:
-                    poke = random.choice(self.bot.expand_list(poke))
-            except:
-                query = f'SELECT name FROM pkmnStats WHERE name="{self.bot.dictionary(poke.title())}"'
-                poke = (self.db.custom_query(query))[0][0]
-
+                poke = random.choice(clients)
+                direct = self.db.custom_query(
+                    'SELECT name FROM pkmnStats WHERE lower(name)=lower(?)',
+                    params=(poke,)
+                )
+                if direct:
+                    poke = direct[0][0]
+                else:
+                    alias = self.bot.dictionary(poke.title())
+                    corrected = self.db.custom_query(
+                        'SELECT name FROM pkmnStats WHERE lower(name)=lower(?)',
+                        params=(alias,)
+                    )
+                    if corrected:
+                        poke = corrected[0][0]
+                    else:
+                        await inter.response.send_message(
+                            f'`{poke}` was not recognized as a Pokémon.', ephemeral=True
+                        )
+                        return
 
             msg += '\n' + self.quest_output(False, poke, rank, (price, price)) + '\n'
+
         await self.bot.big_msg(inter, msg)
-
-    @generate_quest.error
-    async def q_error(self, ctx, error):
-        await ctx.send('Don\'t forget to state the quest rank! (Starter, Beginner, Amateur, Ace, Pro)')
-
 
 async def setup(bot):
     await bot.add_cog(Quests(bot))
