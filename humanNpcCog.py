@@ -26,10 +26,39 @@ SOCIALS = ["Tough", "Cool", "Beauty", "Clever", "Cute"]
 # Human-facing skills used by the Legends combat/maneuver data.
 HUMAN_SKILLS = [
     "Aura", "Brawl", "Channel", "Weapons",
-    "Alert", "Athletic", "Crafts", "Empathy", "Etiquette", "Evasion",
-    "Lore", "Medicine", "Nature", "Perform", "Stealth", "Technology",
-    "Allure", "Intimidate",
+    "Alert", "Athletic", "Crafts", "Cooking", "Empathy", "Etiquette",
+    "Evasion", "Handling", "Lore", "Luck", "Medicine", "Nature",
+    "Perform", "Stealth", "Technology", "Allure", "Intimidate",
 ]
+
+# These four combat skills are only useful when the generated NPC's selected
+# weapons/maneuvers actually call for them. In particular, do not spend points
+# on Channel merely because it exists on a human character sheet.
+COMBAT_SKILLS = {"Aura", "Brawl", "Channel", "Weapons"}
+
+ARCHETYPE_MAIN_BIAS = {
+    "Ranger": {"Insight": 8, "Dexterity": 7, "Strength": 5, "Vitality": 2},
+    "Artisan": {"Insight": 8, "Dexterity": 6, "Strength": 3, "Vitality": 2},
+    "Rogue": {"Dexterity": 9, "Insight": 7, "Strength": 6, "Vitality": 1},
+    "Pugilist": {"Strength": 9, "Dexterity": 7, "Vitality": 5, "Insight": 3},
+    "Mystic": {"Insight": 9, "Special": 8, "Dexterity": 3, "Vitality": 2},
+    "Warrior": {"Strength": 9, "Vitality": 7, "Dexterity": 6, "Insight": 3},
+    "Technomancer": {"Insight": 9, "Dexterity": 7, "Special": 6, "Vitality": 2},
+    "Pokémon Hunter": {"Insight": 9, "Dexterity": 7, "Strength": 5, "Vitality": 3},
+    "Bard": {"Insight": 8, "Dexterity": 6, "Special": 4, "Strength": 2, "Vitality": 2},
+}
+
+ARCHETYPE_SKILL_BIAS = {
+    "Ranger": {"Alert": 5, "Nature": 7, "Stealth": 5, "Handling": 6, "Luck": 3},
+    "Artisan": {"Crafts": 8, "Technology": 5, "Medicine": 4, "Cooking": 4, "Lore": 3},
+    "Rogue": {"Stealth": 8, "Evasion": 7, "Alert": 6, "Luck": 5, "Intimidate": 3},
+    "Pugilist": {"Athletic": 8, "Evasion": 7, "Alert": 5, "Empathy": 3, "Intimidate": 3},
+    "Mystic": {"Lore": 8, "Empathy": 7, "Alert": 4, "Medicine": 3},
+    "Warrior": {"Athletic": 7, "Alert": 7, "Evasion": 5, "Intimidate": 5},
+    "Technomancer": {"Technology": 9, "Crafts": 6, "Alert": 5, "Lore": 3},
+    "Pokémon Hunter": {"Nature": 8, "Handling": 8, "Alert": 6, "Empathy": 5, "Luck": 4},
+    "Bard": {"Perform": 9, "Allure": 7, "Etiquette": 6, "Empathy": 6},
+}
 
 # /encounter_human uses the Legends rank progression explicitly rather than
 # reusing trainer/pokemon total-pool parsing. Human NPC templates already
@@ -288,28 +317,123 @@ class HumanNPCCog(commands.Cog):
         # cap-breaking benefits (Ace/Master/Champion) are intentionally ignored.
         return {name: base_stats[name]["max"] for name in stat_names}
 
-    def _allocate_main(self, npc, rank):
+    def _selected_maneuver_variants(self, selected_weapons, selected_advanced, selected_nonweapon):
+        """Return the maneuver variants the generated NPC will actually be able to use."""
+        variants = []
+        selected_advanced = {normalize(name) for name in selected_advanced}
+
+        for weapon in selected_weapons:
+            for maneuver in weapon.get("maneuvers", []):
+                tier = maneuver.get("tier")
+                if tier == "Basic" or (tier == "Advanced" and normalize(maneuver.get("name")) in selected_advanced):
+                    variants.append(maneuver)
+
+        for name in selected_nonweapon:
+            maneuver = self.maneuver_lookup.get(normalize(name))
+            if maneuver:
+                variants.extend(maneuver.get("variants", []))
+        return variants
+
+    def _main_stat_scores(self, npc, armor, selected_weapons, selected_advanced, selected_nonweapon):
+        stat_names = ["Strength", "Dexterity", "Vitality", "Special", "Insight"]
+        scores = {name: 0 for name in stat_names}
+        actually_used = set()
+        variants = self._selected_maneuver_variants(
+            selected_weapons, selected_advanced, selected_nonweapon
+        )
+
+        # Maneuver requirements are the strongest signal. Accuracy requirements
+        # directly name the stats a maneuver needs; damaging Physical/Special
+        # maneuvers also need the corresponding damage Attribute.
+        for maneuver in variants:
+            accuracy = (maneuver.get("accuracy") or "").upper()
+            for stat in stat_names:
+                hits = accuracy.count(stat.upper())
+                if hits:
+                    scores[stat] += 12 * hits
+                    actually_used.add(stat)
+
+            category = (maneuver.get("category") or "").casefold()
+            if category == "physical":
+                scores["Strength"] += 7
+                actually_used.add("Strength")
+            elif category == "special":
+                scores["Special"] += 7
+                actually_used.add("Special")
+
+        # Weapon choice is a secondary hint, useful where a maneuver permits a
+        # choice such as Strength / Dexterity.
+        for weapon in selected_weapons:
+            name = normalize(weapon.get("name"))
+            if any(key in name for key in ("firearm", "energy weapon", "bow", "crossbow", "blowpipe", "dagger", "knife", "short blade", "throwing")):
+                scores["Dexterity"] += 5
+            if any(key in name for key in ("axe", "great weapon", "hammer", "mace", "club", "shield", "unarmed")):
+                scores["Strength"] += 5
+            if any(key in name for key in ("sword", "spear", "polearm", "halberd", "nunchaku", "stave")):
+                scores["Strength"] += 3
+                scores["Dexterity"] += 3
+            if "aura combat" in name:
+                scores["Insight"] += 6
+                scores["Dexterity"] += 4
+                scores["Strength"] += 4
+            if "channelling combat" in name:
+                scores["Insight"] += 6
+                # Special is still gated below unless a chosen maneuver
+                # actually calls for it.
+
+        # Archetype gives the build its identity after the selected kit has
+        # established what the NPC actually needs.
+        for stat, amount in ARCHETYPE_MAIN_BIAS.get(npc.get("archetype"), {}).items():
+            scores[stat] += amount
+
+        # Armor has a modest influence only; it should never turn a light Rogue
+        # into a Vitality-first build.
+        armor_name = normalize(armor)
+        if any(key in armor_name for key in ("full plate", "half plate", "chain mail", "flak", "carapace")):
+            scores["Vitality"] += 3
+        elif "leather" in armor_name:
+            scores["Dexterity"] += 2
+
+        # Never spend rank-up points on Special unless the chosen maneuvers
+        # actually use Special. The template's printed base Special remains.
+        if "Special" not in actually_used:
+            scores["Special"] = 0
+
+        return scores
+
+    def _allocate_main(self, npc, rank, armor, selected_weapons, selected_advanced, selected_nonweapon):
         stat_names = ["Strength", "Dexterity", "Vitality", "Special", "Insight"]
         base_stats = npc["stats"]
         values = {name: base_stats[name]["base"] for name in stat_names}
         caps = self._rank_cap_bonus(rank, stat_names, base_stats)
         points = self.rank_rules[rank]["main"]
+        scores = self._main_stat_scores(
+            npc, armor, selected_weapons, selected_advanced, selected_nonweapon
+        )
+        spent = {name: 0 for name in stat_names}
 
         while points > 0:
-            candidates = [name for name in stat_names if values[name] < caps[name]]
+            candidates = [
+                name for name in stat_names
+                if values[name] < caps[name] and scores[name] > 0
+            ]
+            if not candidates:
+                # This should only matter for an extremely constrained future
+                # template. Preserve the exact point total rather than losing
+                # rank-up points silently.
+                candidates = [name for name in stat_names if values[name] < caps[name]]
             if not candidates:
                 break
-            weights = []
-            for name in candidates:
-                # Favor stats the template is already built around while still
-                # allowing variation between generated NPCs.
-                headroom = caps[name] - values[name]
-                weight = max(1, base_stats[name]["base"] * 2 + headroom)
-                if name == "Vitality":
-                    weight += 1
-                weights.append(weight)
-            chosen = random.choices(candidates, weights=weights, k=1)[0]
+
+            # Diminishing returns spread points across the stats the build
+            # actually uses instead of randomly turning Vitality into the main
+            # stat. A tiny random jitter keeps otherwise-equal builds varied.
+            chosen = max(
+                candidates,
+                key=lambda name: scores[name] - (spent[name] * 4) + random.random()
+            )
             values[chosen] += 1
+            spent[chosen] += 1
             points -= 1
         return values, caps
 
@@ -327,50 +451,89 @@ class HumanNPCCog(commands.Cog):
             points -= 1
         return values
 
-    def _skill_biases(self, selected_weapons, selected_nonweapon):
+    def _skill_biases(self, npc, selected_weapons, selected_advanced, selected_nonweapon):
         weights = {name: 1 for name in HUMAN_SKILLS}
-        for weapon in selected_weapons:
-            n = normalize(weapon["name"])
-            if "aura combat" in n:
-                weights["Aura"] += 8
-            elif "channelling combat" in n:
-                weights["Channel"] += 8
-            elif "unarmed combat" in n:
-                weights["Brawl"] += 8
-            else:
-                weights["Weapons"] += 7
+        active_combat = set()
+        variants = self._selected_maneuver_variants(
+            selected_weapons, selected_advanced, selected_nonweapon
+        )
 
-        for name in selected_nonweapon:
-            m = self.maneuver_lookup.get(normalize(name))
-            if not m:
-                continue
-            text = " ".join(v.get("accuracy", "") for v in m.get("variants", []))
-            upper = text.upper()
+        for weapon in selected_weapons:
+            n = normalize(weapon.get("name"))
+            if "aura combat" in n:
+                active_combat.add("Aura")
+                weights["Aura"] += 12
+            elif "channelling combat" in n:
+                active_combat.add("Channel")
+                weights["Channel"] += 12
+            elif "unarmed combat" in n:
+                active_combat.add("Brawl")
+                weights["Brawl"] += 12
+            else:
+                active_combat.add("Weapons")
+                weights["Weapons"] += 10
+
+        for maneuver in variants:
+            accuracy = (maneuver.get("accuracy") or "").upper()
             for skill in HUMAN_SKILLS:
-                if skill.upper() in upper:
-                    weights[skill] += 3
+                if skill.upper() in accuracy:
+                    weights[skill] += 10
+                    if skill in COMBAT_SKILLS:
+                        active_combat.add(skill)
+
+        for skill, amount in ARCHETYPE_SKILL_BIAS.get(npc.get("archetype"), {}).items():
+            weights[skill] += amount
 
         weights["Alert"] += 2
         weights["Evasion"] += 2
+
+        # Combat skills with no selected use are not candidates. This prevents,
+        # for example, Channel appearing on a mundane sword-user whose selected
+        # maneuvers never use Channel.
+        for skill in COMBAT_SKILLS - active_combat:
+            weights[skill] = 0
         return weights
 
-    def _allocate_skills(self, rank, selected_weapons, selected_nonweapon):
+    def _allocate_skills(self, npc, rank, selected_weapons, selected_advanced, selected_nonweapon):
         values = {name: 0 for name in HUMAN_SKILLS}
-        total = self.rank_rules[rank]["skills"]
-        limit = self.rank_rules[rank]["skill_limit"]
-        weights = self._skill_biases(selected_weapons, selected_nonweapon)
+        weights = self._skill_biases(
+            npc, selected_weapons, selected_advanced, selected_nonweapon
+        )
+        target_index = RANKS.index(rank)
+        previous_total = 0
 
-        while total > 0:
-            candidates = [name for name in HUMAN_SKILLS if values[name] < limit]
-            if not candidates:
-                break
-            chosen = random.choices(
-                candidates,
-                weights=[weights[name] for name in candidates],
-                k=1
-            )[0]
-            values[chosen] += 1
-            total -= 1
+        # Apply each rank in order. This is important: Starter's five points are
+        # spent with Skill Limit 1 before Rookie raises the limit to 2, etc.
+        # It both mirrors /rankup and guarantees the exact cumulative totals.
+        for step_index in range(target_index + 1):
+            step_rank = RANKS[step_index]
+            step_total = self.rank_rules[step_rank]["skills"]
+            gain = step_total - previous_total
+            previous_total = step_total
+            step_limit = self.rank_rules[step_rank]["skill_limit"]
+
+            for _ in range(gain):
+                candidates = [
+                    name for name in HUMAN_SKILLS
+                    if values[name] < step_limit and weights[name] > 0
+                ]
+                if not candidates:
+                    candidates = [name for name in HUMAN_SKILLS if values[name] < step_limit]
+                if not candidates:
+                    raise RuntimeError(f"Unable to allocate all {step_rank} skill points")
+                chosen = random.choices(
+                    candidates,
+                    weights=[max(1, weights[name]) for name in candidates],
+                    k=1,
+                )[0]
+                values[chosen] += 1
+
+        expected = self.rank_rules[rank]["skills"]
+        if sum(values.values()) != expected:
+            raise RuntimeError(
+                f"Human skill allocation mismatch for {rank}: "
+                f"{sum(values.values())} != {expected}"
+            )
         return values
 
     def _weapon_candidates(self, npc):
@@ -461,9 +624,11 @@ class HumanNPCCog(commands.Cog):
 
     def _encounter_text(self, npc, rank):
         armor, weapons, basic, advanced, nonweapon = self._choose_equipment_and_moves(npc, rank)
-        attrs, attr_caps = self._allocate_main(npc, rank)
+        attrs, attr_caps = self._allocate_main(
+            npc, rank, armor, weapons, advanced, nonweapon
+        )
         socials = self._allocate_socials(rank)
-        skills = self._allocate_skills(rank, weapons, nonweapon)
+        skills = self._allocate_skills(npc, rank, weapons, advanced, nonweapon)
 
         perk_pool = self._eligible_perks(npc, rank)
         perk_count = self._perk_count(rank)

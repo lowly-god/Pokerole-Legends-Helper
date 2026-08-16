@@ -145,7 +145,8 @@ natures = ['Hardy (9)', 'Lonely (5)', 'Brave (9)', 'Adamant (4)', 'Naughty (6)',
 bot.socials = [('Tough', 1), ('Cool', 1), ('Beauty', 1), ('Clever', 1), ('Cute', 1)]
 bot.skills = [('Brawl', 0), ('Channel', 0), ('Clash', 0), ('Evasion', 0),
               ('Alert', 0), ('Athletic', 0), ('Nature', 0), ('Stealth', 0),
-              ('Allure', 0), ('Etiquette', 0), ('Intimidate', 0), ('Perform', 0)]
+              ('Allure', 0), ('Etiquette', 0), ('Intimidate', 0), ('Perform', 0),
+              ('Aura', 0), ('Luck', 0), ('Empathy', 0)]
 
 types = ['normal', 'fire', 'water', 'grass', 'electric', 'ice', 'fighting', 'poison', 'ground',
          'flying', 'psychic', 'bug', 'rock', 'ghost', 'dark', 'dragon', 'steel', 'fairy']
@@ -160,9 +161,9 @@ limit = (1, 2, 3, 4, 5, 5, 5)
 
 # v3 total attributes at a rank (base/social)
 # attributes are limited by poke
-attributeAmount_v3 = (0, 2, 4, 6, 8, 10, 10, 14)
+attributeAmount_v3 = (0, 2, 4, 6, 8, 10, 11, 12)
 # total skill points at a rank
-skillAmount_v3 = (5, 10, 14, 17, 19, 20, 22, 25)
+skillAmount_v3 = (5, 10, 14, 17, 19, 21, 23, 25)
 # highest any single skill can be
 limit_v3 = (1, 2, 3, 4, 5, 5, 6, 6)
 
@@ -2719,158 +2720,152 @@ async def move_aggregator(poke: str, rank: str, version: str) -> dict:
 async def calcStats(rank: str, attr: list, maxAttr: list,
                     movelist=None, additionalIns: int = 0,
                     additionalVit: int = 0, version: str = version_converter[0]) -> (list, list, list, int):
-    # initialize base stats
+    """Allocate encounter stats using the exact cumulative rank progression.
+
+    v3 uses cumulative Main/Social bonuses of 0/2/4/6/8/10/11/12 and
+    cumulative Skill Points of 5/10/14/17/19/21/23/25. Skill points are
+    applied rank-by-rank so each step obeys that rank's Skill Limit.
+    """
     if movelist is None:
         movelist = {}
-    bhp = attr[0]
-    attributes = attr[1:]
-    maxattr = maxAttr[1:]
-    # no limits on socials (except max of 5) in v2.0
-    socials = bot.socials[:]
-    extraSocial = 0
-    if version == "v2.0" and rank == "Master":
-        extraSocial = 6
-    # limited by rank
-    skills = bot.skills[:]
-    rankIndex = None
-    pointsToAllocate = None
-    if version == "v2.0":
-        rankIndex = ranks.index(rank)
-        pointsToAllocate = attributeAmount[rankIndex]
-    elif version == "v3.0":
-        rankIndex = ranks_v3.index(rank)
-        pointsToAllocate = attributeAmount_v3[rankIndex]
-    pointsToAllocate -= (additionalIns + additionalVit)
-    attributes[2] += additionalVit
 
-    def normalize(array) -> list:
-        tmp = sum(array)
-        return [x / tmp for x in array]
-
-    def weightedchoice(low, high, weights, number=1, replace=True) -> int:
-        try:
-            final_list = choice(list(range(low, high)), number, p=weights, replace=replace)
-        except:
-            final_list = choice(list(range(low, high)), number, replace=replace)
-        return final_list
-
-    bias_amt = None
-    if version == "v2.0":
-        bias_amt = rankBias[rankIndex]
-    elif version == "v3.0":
-        bias_amt = rankBias_v3[rankIndex]
-
-    attrWeight = [1] * len(attributes)
-    socialWeight = [1] * len(socials)
-    skillWeight = [bias_amt // 2] * 5 + [1] * (len(skills) - 5)  # first 4 skills are combat + alert for initiative
-
-    skill_names = [x[0].upper() for x in skills]
-    if movelist:
-        # if we have a movelist, then don't mess with insight
-        insight = attributes[-1]
-        attributes = attributes[:-1]
-        attr_names = ['STRENGTH', 'DEXTERITY', 'VITALITY', 'SPECIAL']
-        social_names = ['TOUGH', 'COOL', 'BEAUTY', 'CLEVER', 'CUTE']
-
-        attrWeight[attr_names.index('VITALITY')] += bias_amt * 2
-
-        # define all attributes and skills in separate lists (initially 0)
-        # iterate over all moves, and add 1 to the equivalent attr/skill for each instance
-        # this will be the weighted function
-        for move, desc in list(movelist.items()):
-            # index 3, 4 & 5 are attributes, 6 is skills
-            # (5 could be a social stat)
-            if desc[3] in attr_names:  # check attributes...
-                attrWeight[attr_names.index(desc[3])] += bias_amt
-            if desc[4] in attr_names:
-                attrWeight[attr_names.index(desc[4])] += bias_amt
-            if desc[5] in attr_names:
-                attrWeight[attr_names.index(desc[5])] += bias_amt
-            elif desc[5] in social_names:  # check social
-                socialWeight[social_names.index(desc[5])] += bias_amt
-            if desc[6] in skill_names:  # check skills
-                skillWeight[skill_names.index(desc[6])] += bias_amt
-    attrWeight = attrWeight[:len(attributes)]  # remove insight if needed, for normalization purposes
-
-    # allocate attributes
-    fullStats = [False] * (len(attributes) + 1)
-    x = 0  # count allocated stats
-    # need "- attrMod" because insight may already be allocated
-    if rank == 'Champion':  # both v2 and v3
-        maxattr = [x + 2 for x in maxattr]
-    while x < pointsToAllocate and len(attributes) > 0:
-        attrWeight = normalize(attrWeight)
-        temp = weightedchoice(0, len(attributes), attrWeight)[0]
-        if attributes[temp] < maxattr[temp]:
-            attributes[temp] = attributes[temp] + 1
-            x = x + 1
-        else:
-            attrWeight.pop(temp)
-            maxattr.pop(temp)
-            tmpStat = attributes.pop(temp)  # find the exact place
-            temp = temp + sum([0 if not x else 1 for x in fullStats[:temp + 1]])
-            while fullStats[temp]:  # is there a more elegant way to do this?
-                temp += 1  # best i can see is to have an offset array otherwise
-            fullStats[temp] = tmpStat
-    if x < pointsToAllocate:
-        leftover = attributeAmount[rankIndex] - x
+    if version == "v3.0":
+        rank_index = ranks_v3.index(rank)
+        rank_names = ranks_v3
+        attribute_amounts = attributeAmount_v3
+        skill_amounts = skillAmount_v3
+        skill_limits = limit_v3
+        bias_amt = rankBias_v3[rank_index]
+        extra_social = 0
     else:
-        leftover = 0
-    for index, val in enumerate(fullStats):
-        if val:
-            attributes.insert(index, val)
-    attributes = [bhp] + attributes
+        rank_index = ranks.index(rank)
+        rank_names = ranks
+        attribute_amounts = attributeAmount
+        skill_amounts = skillAmount
+        skill_limits = limit
+        bias_amt = rankBias[rank_index]
+        extra_social = 6 if rank == "Master" else 0
 
-    # distribute socials
-    fullStats = [False] * len(socials)
-    x = 0
-    while x < attributeAmount[rankIndex] + extraSocial and len(socials) > 0:
-        socialWeight = normalize(socialWeight)
-        temp = weightedchoice(0, len(socials), socialWeight)[0]
-        if socials[temp][1] < limit[rankIndex]:
-            socials[temp] = (socials[temp][0], socials[temp][1] + 1)
-            x = x + 1
-        else:
-            socialWeight.pop(temp)
-            tmpStat = socials.pop(temp)
-            temp = temp + sum([0 if not x else 1 for x in fullStats[:temp + 1]])
-            while fullStats[temp]:  # is there a more elegant way to do this?
-                temp += 1  # best i can see is to have an offset array otherwise
-            fullStats[temp] = tmpStat
+    bhp = int(attr[0])
+    attributes = [int(value) for value in attr[1:]]
+    maxattr = [int(value) for value in maxAttr[1:]]
+    socials = [(name, int(value)) for name, value in bot.socials]
+    skills = [(name, int(value)) for name, value in bot.skills]
 
-    for index, val in enumerate(fullStats):
-        if val:
-            socials.insert(index, val)
+    additionalIns = max(0, int(additionalIns or 0))
+    additionalVit = max(0, int(additionalVit or 0))
+    if additionalVit and len(attributes) > 2:
+        allowed_vit = max(0, maxattr[2] - attributes[2])
+        applied_vit = min(additionalVit, allowed_vit)
+        attributes[2] += applied_vit
+        additionalVit = applied_vit
 
-    skill_amounts = None
-    if version == "v2.0":
-        skill_amounts = skillAmount_v3
-    elif version == "v3.0":
-        skill_amounts = skillAmount_v3
+    attr_names = ['STRENGTH', 'DEXTERITY', 'VITALITY', 'SPECIAL', 'INSIGHT']
+    social_names = ['TOUGH', 'COOL', 'BEAUTY', 'CLEVER', 'CUTE']
+    skill_names = [name.upper() for name, _ in skills]
 
-    # distribute skills
-    lastAmt = 0
-    skillWeight = normalize(skillWeight)
-    for rankStep in range(rankIndex + 1):
-        currentAmt = skill_amounts[rankStep] - lastAmt
-        lastAmt = skill_amounts[rankStep]
-        points = weightedchoice(0, len(skills), skillWeight, number=currentAmt, replace=False)
-        # champion only test
-        if len(points) == 1:
-            tmp = points[0]
-            if skills[tmp][1] == 5:  # champion skill trying to reach 6 points smh
-                newWeight = skillWeight[:tmp] + [0] + skillWeight[tmp + 1:]
-                newWeight = normalize(newWeight)
-                # retry but set the offending skill to 0 weight
-                points = weightedchoice(0, len(skills), newWeight, number=currentAmt, replace=False)
-        for temp in points:
-            skills[temp] = (skills[temp][0], skills[temp][1] + 1)
+    attr_weights = [1.0] * len(attributes)
+    social_weights = [1.0] * len(socials)
+    # Preserve the original encounter preference for core combat skills and
+    # Alert, while the new Aura/Luck/Empathy skills remain valid candidates.
+    skill_weights = [float(max(1, bias_amt // 2)) if i < 5 else 1.0 for i in range(len(skills))]
 
-    try:
-        attributes.append(insight)
-    except:
-        pass
-    return attributes, socials, skills, leftover
+    def _contains_token(value, token):
+        text = str(value or '').upper()
+        return token in re.split(r'[^A-Z]+', text)
+
+    if movelist:
+        # Smart-stat encounters reserve any already-selected extra Insight for
+        # their move count and allocate the remaining Main points elsewhere.
+        if len(attr_weights) > 2:
+            attr_weights[2] += bias_amt * 2
+
+        for _, desc in list(movelist.items()):
+            try:
+                fields = list(desc)
+            except TypeError:
+                continue
+
+            # Damage/Accuracy fields can contain alternatives (e.g.
+            # Strength / Special), so inspect tokens rather than exact strings.
+            for field_index in (3, 4, 5):
+                if field_index >= len(fields):
+                    continue
+                value = fields[field_index]
+                for idx, name in enumerate(attr_names):
+                    if idx < len(attr_weights) and _contains_token(value, name):
+                        attr_weights[idx] += bias_amt
+                for idx, name in enumerate(social_names):
+                    if _contains_token(value, name):
+                        social_weights[idx] += bias_amt
+
+            if len(fields) > 6:
+                value = fields[6]
+                for idx, name in enumerate(skill_names):
+                    if _contains_token(value, name):
+                        skill_weights[idx] += bias_amt
+
+    # Main Attributes. Human/Pokémon rank-up bonuses are cumulative; for smart
+    # stats, Insight already spent on the selected move count is reserved here.
+    main_total = attribute_amounts[rank_index]
+    reserved = additionalVit + (additionalIns if movelist else 0)
+    points_remaining = max(0, main_total - reserved)
+    active_indices = list(range(len(attributes)))
+    if movelist and len(active_indices) >= 5:
+        active_indices = active_indices[:-1]  # selected moves already fixed Insight
+
+    while points_remaining > 0:
+        candidates = [i for i in active_indices if attributes[i] < maxattr[i]]
+        if not candidates:
+            break
+        chosen = random.choices(candidates, weights=[max(0.01, attr_weights[i]) for i in candidates], k=1)[0]
+        attributes[chosen] += 1
+        points_remaining -= 1
+    leftover = points_remaining
+
+    # Social Attributes use the same cumulative rank bonus as Main Attributes.
+    # They are not constrained by the Skill Limit; their ordinary cap is 5.
+    social_points = attribute_amounts[rank_index] + extra_social
+    while social_points > 0:
+        candidates = [i for i, (_, value) in enumerate(socials) if value < 5]
+        if not candidates:
+            break
+        chosen = random.choices(candidates, weights=[max(0.01, social_weights[i]) for i in candidates], k=1)[0]
+        name, value = socials[chosen]
+        socials[chosen] = (name, value + 1)
+        social_points -= 1
+
+    # Skill Points must be gained in rank order so Starter's 5 points obey
+    # Limit 1, Rookie's next 5 obey Limit 2, and so on. This prevents both
+    # missing points and skills exceeding the correct rank limit.
+    previous_total = 0
+    for step_index in range(rank_index + 1):
+        step_total = skill_amounts[step_index]
+        gain = step_total - previous_total
+        previous_total = step_total
+        step_limit = skill_limits[step_index]
+
+        for _ in range(gain):
+            candidates = [i for i, (_, value) in enumerate(skills) if value < step_limit]
+            if not candidates:
+                raise RuntimeError(
+                    f'Unable to allocate all skill points for {rank_names[step_index]}'
+                )
+            chosen = random.choices(
+                candidates,
+                weights=[max(0.01, skill_weights[i]) for i in candidates],
+                k=1,
+            )[0]
+            name, value = skills[chosen]
+            skills[chosen] = (name, value + 1)
+
+    if sum(value for _, value in skills) != skill_amounts[rank_index]:
+        raise RuntimeError(
+            f'Pokemon skill allocation mismatch for {rank}: '
+            f'{sum(value for _, value in skills)} != {skill_amounts[rank_index]}'
+        )
+
+    return [bhp] + attributes, socials, skills, leftover
 
 
 async def pkmn_encounter(ctx, number: int, rank: str, pokelist: list,
@@ -2884,7 +2879,7 @@ async def pkmn_encounter(ctx, number: int, rank: str, pokelist: list,
     rankbase = False
     # rank = rank.title()
     if rank == 'Random':
-        rank = random.choice(ranks[:-1])
+        rank = random.choice(ranks_v3)
         rankrandom = True
     if rank == 'Base':
         rankbase = True
@@ -2993,7 +2988,8 @@ async def pkmn_encounter(ctx, number: int, rank: str, pokelist: list,
         if boss:  # we need insight for # of moves
             attrNum = len(baseattr)
             numMoves = baseattr[5]
-            for _ in range(attributeAmount[which_ranks.index(rank.title())]):
+            rank_attribute_amounts = attributeAmount_v3 if version == "v3.0" else attributeAmount
+            for _ in range(rank_attribute_amounts[which_ranks.index(rank.title())]):
                 randnum = random.random()
                 # if randnum < 1/(attrNum*2) and baseattr[3] + numVitality < maxattr[3]: #chance for vitality
                 #     numVitality += 1
@@ -3030,10 +3026,7 @@ async def pkmn_encounter(ctx, number: int, rank: str, pokelist: list,
                                                                     move_descs, insightAdded,
                                                                     version=version)  # , numVitality)
             attributes[5] += insightAdded
-            if rank == 'Champion':
-                lowerBound = maxattr[5] - attributes[5] + 2
-            else:
-                lowerBound = maxattr[5] - attributes[5]
+            lowerBound = maxattr[5] - attributes[5]
             extraPoints = min(leftover, lowerBound)
             attributes[5] += extraPoints
 
@@ -3176,10 +3169,12 @@ async def pkmn_encounter(ctx, number: int, rank: str, pokelist: list,
 
         msg += '\n'
 
-        # add the socials (4 rows, 3 per line)
-        for x in range(0, 12, 4):
-            for y in range(4):
-                msg += f'**{skills[x + y][0]}:**'.ljust(11) + ' ' + str(skills[x + y][1]) + (' - ' if y != 3 else '')
+        # Display every encounter skill. v3 Legends adds Aura, Luck and
+        # Empathy to the usual Pokémon encounter skill list.
+        for x in range(0, len(skills), 4):
+            row = skills[x:x + 4]
+            for y, skill in enumerate(row):
+                msg += f'**{skill[0]}:**'.ljust(11) + ' ' + str(skill[1]) + (' - ' if y != len(row) - 1 else '')
             msg += '\n'
 
         enc_view = Timeout_View()
@@ -4027,23 +4022,22 @@ async def rankDisplay(ctx, rank: str = None):
                      'See at least 80 different types of Pokemon'],
                     ['10 Points to distribute on Attributes',
                      '10 Points to distribute on Social Attributes',
-                     '20 Skill Points to distribute',
+                     '21 Skill Points to distribute',
                      "Skill Limit 5 (No more than 5 Points per Skill)",
                      'Can Target a Max of 6 Pokemon in-battle']],
             'Master': [['Clear the Victory Road',
                         'Defeat your Rival',
                         'Find and study at least 150 Pokemon species'],
-                       ['10 Points to distribute on Attributes',
-                        '10 Points to distribute on Social Attributes',
-                        '22 Skill Points to distribute'
-                        'Roll 2 additional dice on all Rolls involving a Skill',
-                        'Passive Traits such as HP, Will, Initiative, DEF/S.DEF are increased by 3',
+                       ['11 Points to distribute on Attributes',
+                        '11 Points to distribute on Social Attributes',
+                        '23 Skill Points to distribute',
+                        "Skill Limit 6 (No more than 6 Points per Skill)",
                         'Can Target a Max of 8 Pokemon in-battle']],
             'Champion': [['Defeat all members of the Elite Four', 'Defeat the Champion in the League\'s Challenge'],
-                         ['14 Points to distribute on Attributes',
-                          '14 Points to distribute on Social Attributes',
+                         ['12 Points to distribute on Attributes',
+                          '12 Points to distribute on Social Attributes',
                           '25 Skill Points to distribute',
-                          'Attribute Scores can go up to 2 Points beyond the Limit'
+                          "Skill Limit 6 (No more than 6 Points per Skill)",
                           'Can Target a Max of 10 Pokemon in-battle']]
         }
     else:
