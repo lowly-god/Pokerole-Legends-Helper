@@ -36,6 +36,10 @@ HUMAN_SKILLS = [
 # on Channel merely because it exists on a human character sheet.
 COMBAT_SKILLS = {"Aura", "Brawl", "Channel", "Weapons"}
 
+# Evasion should never be an afterthought on generated humans. Dexterity-led
+# archetypes/builds will normally push it all the way to the current Skill Limit.
+EVASION_MAX_CHANCE = 0.90
+
 ARCHETYPE_MAIN_BIAS = {
     "Ranger": {"Insight": 8, "Dexterity": 7, "Strength": 5, "Vitality": 2},
     "Artisan": {"Insight": 8, "Dexterity": 6, "Strength": 3, "Vitality": 2},
@@ -317,6 +321,9 @@ class HumanNPCCog(commands.Cog):
         # cap-breaking benefits (Ace/Master/Champion) are intentionally ignored.
         return {name: base_stats[name]["max"] for name in stat_names}
 
+    def _is_energy_weapon(self, weapon):
+        return "energy weapon" in normalize((weapon or {}).get("name"))
+
     def _selected_maneuver_variants(self, selected_weapons, selected_advanced, selected_nonweapon):
         """Return the maneuver variants the generated NPC will actually be able to use."""
         variants = []
@@ -494,6 +501,25 @@ class HumanNPCCog(commands.Cog):
             weights[skill] = 0
         return weights
 
+    def _evasion_target(self, npc, rank):
+        """Choose a rank-legal Evasion floor, maxing it for dexterous builds most of the time."""
+        limit = self.rank_rules[rank]["skill_limit"]
+        if limit <= 1:
+            return limit
+
+        arch_bias = ARCHETYPE_MAIN_BIAS.get(npc.get("archetype"), {})
+        dex_bias = arch_bias.get("Dexterity", 0)
+        vit_bias = arch_bias.get("Vitality", 0)
+        dex_base = npc.get("stats", {}).get("Dexterity", {}).get("base", 0)
+        dexterous = dex_base >= 4 or (dex_bias >= 7 and dex_bias >= vit_bias + 2)
+
+        ordinary_floor = 2 if random.random() < 0.85 else 1
+        if dexterous:
+            if random.random() < EVASION_MAX_CHANCE:
+                return limit
+            return max(ordinary_floor, limit - 1)
+        return min(limit, ordinary_floor)
+
     def _allocate_skills(self, npc, rank, selected_weapons, selected_advanced, selected_nonweapon):
         values = {name: 0 for name in HUMAN_SKILLS}
         weights = self._skill_biases(
@@ -501,16 +527,24 @@ class HumanNPCCog(commands.Cog):
         )
         target_index = RANKS.index(rank)
         previous_total = 0
+        priority_targets = {"Evasion": self._evasion_target(npc, rank)}
 
-        # Apply each rank in order. This is important: Starter's five points are
-        # spent with Skill Limit 1 before Rookie raises the limit to 2, etc.
-        # It both mirrors /rankup and guarantees the exact cumulative totals.
+        # Apply each rank in order. Priority skills are reserved first at each
+        # newly unlocked Skill Limit, then the remaining points use the normal
+        # weighted smart spread. This keeps exact totals while guaranteeing
+        # useful Evasion instead of merely hoping the random weights choose it.
         for step_index in range(target_index + 1):
             step_rank = RANKS[step_index]
             step_total = self.rank_rules[step_rank]["skills"]
             gain = step_total - previous_total
             previous_total = step_total
             step_limit = self.rank_rules[step_rank]["skill_limit"]
+
+            for skill, final_target in priority_targets.items():
+                required_now = max(0, min(final_target, step_limit) - values[skill])
+                reserved = min(gain, required_now)
+                values[skill] += reserved
+                gain -= reserved
 
             for _ in range(gain):
                 candidates = [
@@ -551,37 +585,53 @@ class HumanNPCCog(commands.Cog):
         if not candidates:
             return []
 
-        need_advanced = self._advanced_count(rank)
-        combos = []
-        for size in (1, 2):
-            if len(candidates) < size:
-                continue
-            for combo in itertools.combinations(candidates, size):
-                advanced_names = {
-                    m["name"]
-                    for weapon in combo
-                    for m in weapon.get("maneuvers", [])
-                    if m.get("tier") == "Advanced"
-                }
-                if len(advanced_names) >= need_advanced:
-                    combos.append(combo)
+        # Energy Weapons are a guaranteed ADDITIONAL weapon when the NPC template
+        # permits them. They are excluded before the normal 1-2 weapon roll is
+        # made, so an NPC that rolls two normal weapons receives all three entries:
+        # normal weapon + normal weapon + Energy Weapons.
+        energy_weapon = next((w for w in candidates if self._is_energy_weapon(w)), None)
+        primary_candidates = [w for w in candidates if not self._is_energy_weapon(w)]
 
-        if combos:
-            return list(random.choice(combos))
+        selected = []
+        if primary_candidates:
+            need_advanced = self._advanced_count(rank)
+            combos = []
+            for size in (1, 2):
+                if len(primary_candidates) < size:
+                    continue
+                for combo in itertools.combinations(primary_candidates, size):
+                    advanced_names = {
+                        m["name"]
+                        for weapon in combo
+                        for m in weapon.get("maneuvers", [])
+                        if m.get("tier") == "Advanced"
+                    }
+                    if len(advanced_names) >= need_advanced:
+                        combos.append(combo)
 
-        count = random.randint(1, min(2, len(candidates)))
-        return random.sample(candidates, count)
+            if combos:
+                selected = list(random.choice(combos))
+            else:
+                count = random.randint(1, min(2, len(primary_candidates)))
+                selected = random.sample(primary_candidates, count)
+
+        # Append Energy Weapons only after the normal weapon selection is complete.
+        # It therefore never consumes either of the normal weapon slots.
+        if energy_weapon is not None:
+            selected.append(energy_weapon)
+        return selected
 
     def _choose_nonweapon(self, npc, rank):
+        # Clash is universal for generated human NPCs and does not count against
+        # the normal rank-based non-weapon maneuver allowance.
         count = self._nonweapon_count(rank)
-        if count <= 0:
-            return []
         names = []
         for raw in npc.get("maneuvers", []):
             name = self._resolve_maneuver_name(raw)
-            if name not in names:
+            if normalize(name) != normalize("Clash") and name not in names:
                 names.append(name)
-        return random.sample(names, min(count, len(names)))
+        selected = random.sample(names, min(count, len(names))) if count > 0 else []
+        return ["Clash"] + selected
 
     def _choose_equipment_and_moves(self, npc, rank):
         armor_choices = []
@@ -624,11 +674,12 @@ class HumanNPCCog(commands.Cog):
 
     def _encounter_text(self, npc, rank):
         armor, weapons, basic, advanced, nonweapon = self._choose_equipment_and_moves(npc, rank)
+        primary_weapons = [w for w in weapons if not self._is_energy_weapon(w)]
         attrs, attr_caps = self._allocate_main(
-            npc, rank, armor, weapons, advanced, nonweapon
+            npc, rank, armor, primary_weapons, advanced, nonweapon
         )
         socials = self._allocate_socials(rank)
-        skills = self._allocate_skills(npc, rank, weapons, advanced, nonweapon)
+        skills = self._allocate_skills(npc, rank, primary_weapons, advanced, nonweapon)
 
         perk_pool = self._eligible_perks(npc, rank)
         perk_count = self._perk_count(rank)
@@ -662,6 +713,11 @@ class HumanNPCCog(commands.Cog):
             f"**Armor:** {armor}",
             f"**Weapons:** {' / '.join(w['name'] for w in weapons) if weapons else 'None'}",
         ])
+        if any(self._is_energy_weapon(w) for w in weapons):
+            lines.append(
+                "If using (Firearm) Energy Weapons, you will likely wish to swap out a few "
+                "Attribute Points to give this NPC some Special."
+            )
 
         maneuver_parts = []
         if basic:

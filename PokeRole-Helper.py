@@ -2748,6 +2748,7 @@ async def calcStats(rank: str, attr: list, maxAttr: list,
 
     bhp = int(attr[0])
     attributes = [int(value) for value in attr[1:]]
+    base_attributes = list(attributes)
     maxattr = [int(value) for value in maxAttr[1:]]
     socials = [(name, int(value)) for name, value in bot.socials]
     skills = [(name, int(value)) for name, value in bot.skills]
@@ -2835,15 +2836,74 @@ async def calcStats(rank: str, attr: list, maxAttr: list,
         socials[chosen] = (name, value + 1)
         social_points -= 1
 
+    # Build minimum Evasion/Clash targets from the Pokémon's natural stat
+    # profile. Fast/dexterous Pokémon almost always cap Evasion; strong, bulky
+    # or slow Pokémon almost always cap Clash. Everyone else still gets a
+    # useful 1-2 point floor where the current rank's Skill Limit permits it.
+    final_skill_limit = skill_limits[rank_index]
+    str_base = base_attributes[0] if len(base_attributes) > 0 else 0
+    dex_base = base_attributes[1] if len(base_attributes) > 1 else 0
+    vit_base = base_attributes[2] if len(base_attributes) > 2 else 0
+    str_cap = maxattr[0] if len(maxattr) > 0 else str_base
+    dex_cap = maxattr[1] if len(maxattr) > 1 else dex_base
+    vit_cap = maxattr[2] if len(maxattr) > 2 else vit_base
+
+    dexterous_profile = (
+        dex_base >= max(str_base, vit_base)
+        or dex_cap >= max(str_cap, vit_cap) + 1
+    )
+    clash_profile = (
+        str_base >= dex_base + 1
+        or vit_base >= dex_base + 1
+        or str_cap >= dex_cap + 1
+        or vit_cap >= dex_cap + 1
+        or bhp >= 6
+    )
+
+    def _ordinary_skill_floor():
+        if final_skill_limit <= 1:
+            return final_skill_limit
+        return 2 if random.random() < 0.85 else 1
+
+    evasion_target = _ordinary_skill_floor()
+    if dexterous_profile and final_skill_limit > 0:
+        evasion_target = (
+            final_skill_limit if random.random() < 0.90
+            else max(evasion_target, final_skill_limit - 1)
+        )
+
+    clash_target = _ordinary_skill_floor()
+    if clash_profile and final_skill_limit > 0:
+        clash_target = (
+            final_skill_limit if random.random() < 0.90
+            else max(clash_target, final_skill_limit - 1)
+        )
+
+    skill_index = {name.upper(): i for i, (name, _) in enumerate(skills)}
+    priority_targets = {}
+    if 'EVASION' in skill_index:
+        priority_targets[skill_index['EVASION']] = evasion_target
+    if 'CLASH' in skill_index:
+        priority_targets[skill_index['CLASH']] = clash_target
+
     # Skill Points must be gained in rank order so Starter's 5 points obey
-    # Limit 1, Rookie's next 5 obey Limit 2, and so on. This prevents both
-    # missing points and skills exceeding the correct rank limit.
+    # Limit 1, Rookie's next 5 obey Limit 2, and so on. Priority skills reserve
+    # their points first at each newly unlocked limit, then the ordinary smart
+    # weighted spread spends the remainder. Exact totals are preserved.
     previous_total = 0
     for step_index in range(rank_index + 1):
         step_total = skill_amounts[step_index]
         gain = step_total - previous_total
         previous_total = step_total
         step_limit = skill_limits[step_index]
+
+        for skill_i, final_target in priority_targets.items():
+            name, value = skills[skill_i]
+            required_now = max(0, min(final_target, step_limit) - value)
+            reserved = min(gain, required_now)
+            if reserved:
+                skills[skill_i] = (name, value + reserved)
+                gain -= reserved
 
         for _ in range(gain):
             candidates = [i for i, (_, value) in enumerate(skills) if value < step_limit]
