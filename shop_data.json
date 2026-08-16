@@ -752,13 +752,13 @@
         {
           "name": "Pokémon Chain Armor",
           "price": "25000",
-          "effect": "Held Item: Gives +2 Defense, +1 Special Defense, -2 Dexterity",
+          "effect": "Grant's the Holder +2 Defense, +1 Special Defense, -2 Dexterity",
           "category": "Armor"
         },
         {
           "name": "Pokémon War Plate",
           "price": "50000",
-          "effect": "Held Item: Gives +3 Defense, + 3 Special Defense, -3 Dexterity",
+          "effect": "Grant's the Holder +3 Defense, +3 Special Defense, -3 Dexterity",
           "category": "Armor"
         },
         {
@@ -1041,9 +1041,9 @@
           "category": "Augmentations and Tech"
         },
         {
-          "name": "Enhanced Augmentation",
+          "name": "Enhanced Neural Augmentation",
           "price": "80000",
-          "effect": "Grants +1 Main or Social Attribute Point",
+          "effect": "Most smartphone functions, integrates with nearby tech. Grants +1 Main or Social Attribute Point.",
           "category": "Augmentations and Tech"
         },
         {
@@ -12759,13 +12759,13 @@
         {
           "name": "Pokémon Chain Armor",
           "price": "25000",
-          "effect": "Held Item: Gives +2 Defense, +1 Special Defense, -2 Dexterity",
+          "effect": "Grant's the Holder +2 Defense, +1 Special Defense, -2 Dexterity",
           "category": "Armor"
         },
         {
           "name": "Pokémon War Plate",
           "price": "50000",
-          "effect": "Held Item: Gives +3 Defense, + 3 Special Defense, -3 Dexterity",
+          "effect": "Grant's the Holder +3 Defense, +3 Special Defense, -3 Dexterity",
           "category": "Armor"
         },
         {

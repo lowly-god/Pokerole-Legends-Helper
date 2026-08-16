@@ -78,6 +78,8 @@ class ManeuverLookup(commands.Cog):
         self.weapon_choices = []
 
         for weapon in self.data["weapons"]:
+            if weapon.get("kind") in {"Armor", "Accessory", "Tool"}:
+                continue
             self.weapon_choices.append(weapon["name"])
             for alias in [weapon["name"]] + weapon.get("aliases", []):
                 self.weapon_lookup[normalize(alias)] = weapon
@@ -98,6 +100,8 @@ class ManeuverLookup(commands.Cog):
         # Prefix matches first, then contains matches.
         for pass_contains in (False, True):
             for weapon in self.data["weapons"]:
+                if weapon.get("kind") in {"Armor", "Accessory", "Tool"}:
+                    continue
                 name = weapon["name"]
                 names = [name] + weapon.get("aliases", [])
                 normalized = [normalize(x) for x in names]
@@ -132,15 +136,15 @@ class ManeuverLookup(commands.Cog):
 
     @app_commands.command(
         name="weapon",
-        description="Look up a weapon, combat skill, or special piece of equipment."
+        description="Look up a weapon or combat skill."
     )
-    @app_commands.describe(name="Weapon, combat skill, or special equipment")
+    @app_commands.describe(name="Weapon or combat skill")
     @app_commands.autocomplete(name=weapon_autocomplete)
     async def weapon(self, interaction: discord.Interaction, name: str):
         weapon = self.weapon_lookup.get(normalize(name))
         if not weapon:
             await interaction.response.send_message(
-                f'Weapon/equipment "{name}" was not found.',
+                f'Weapon/combat skill "{name}" was not found.',
                 ephemeral=True
             )
             return

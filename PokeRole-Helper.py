@@ -54,7 +54,7 @@ intents.message_content = True
 bot = commands.Bot(command_prefix=cmd_prefix, intents=intents)
 
 # note that 'custom help' needs to load last
-cogs = ['mapCog', 'diceCog', 'miscCommands', 'questCog', 'maneuverCog', 'fieldtypeCog', 'natureRollCog', 'foragingCog', 'perkCog', 'armorCog', 'shopCog', 'humanNpcCog', 'rankUpCog', 'encounterTableCog', 'referenceRulesCog', 'trainingReferenceCog', 'craftingReferenceCog', 'custom_help']
+cogs = ['mapCog', 'diceCog', 'miscCommands', 'questCog', 'maneuverCog', 'fieldtypeCog', 'natureRollCog', 'foragingCog', 'perkCog', 'armorCog', 'accessoriesCog', 'toolsCog', 'shopCog', 'humanNpcCog', 'rankUpCog', 'encounterTableCog', 'referenceRulesCog', 'trainingReferenceCog', 'craftingReferenceCog', 'custom_help']
 
 # TODO: compress more of the data in working memory
 #   ++PokeLearns ranks complete
@@ -73,6 +73,25 @@ pkmnMoves = dict()
 pkmnHabitats = dict()
 pkmnWeather = dict()
 database: Database = None
+
+
+def _load_moved_lookup_names(filename):
+    names = set()
+    try:
+        with open(filename, 'r', encoding='utf-8') as f:
+            payload = json.load(f)
+        for name, data in payload.items():
+            names.add(name.casefold())
+            for alias in data.get('Aliases', []):
+                names.add(alias.casefold())
+    except Exception:
+        pass
+    return names
+
+
+ACCESSORY_LOOKUP_NAMES = _load_moved_lookup_names('accessories_data.json')
+TOOL_LOOKUP_NAMES = _load_moved_lookup_names('tools_data.json')
+MOVED_ITEM_LOOKUP_NAMES = ACCESSORY_LOOKUP_NAMES | TOOL_LOOKUP_NAMES
 restartError = True
 
 base_regions = ['Kanto', 'Johto', 'Hoenn', 'Sinnoh', 'Unova', 'Kalos', 'Alola', 'Galar']
@@ -1102,8 +1121,11 @@ async def item_autocomplete(
         guild = await getGuilds(interaction)
         version = version_converter[pokebotsettings[guild][11]]
         query = f'SELECT name FROM pkmnItems WHERE lower(name) LIKE "%{current}%"' \
-                f' LIMIT 25'
-        result = [x[0] for x in database.custom_query(query, version=version)]
+                f' LIMIT 75'
+        result = [
+            x[0] for x in database.custom_query(query, version=version)
+            if x[0].casefold() not in MOVED_ITEM_LOOKUP_NAMES
+        ][:25]
         return [
             app_commands.Choice(name=m_list, value=m_list)
             for m_list in result
@@ -1853,6 +1875,13 @@ async def pkmn_search_item(ctx, itemname: str = ''):
     version = version_converter[pokebotsettings[guild][11]]
     itemname = pkmn_cap(itemname)
     if itemname != '':
+        folded_item = itemname.casefold()
+        if folded_item in ACCESSORY_LOOKUP_NAMES:
+            await ctx.send(f'{itemname} has moved to `/accessories`.')
+            return
+        if folded_item in TOOL_LOOKUP_NAMES or folded_item == 'tools':
+            await ctx.send(f'{itemname} has moved to `/tools`.')
+            return
         try:
             found = await pkmnitemhelper(itemname, version=version)
         except:
@@ -1877,7 +1906,7 @@ async def pkmn_search_item(ctx, itemname: str = ''):
             else:
                 # this is a category
                 temp = database.custom_query(f'SELECT name FROM pkmnItems WHERE category="{itemname}"')
-                temp = [x[0] for x in temp]
+                temp = [x[0] for x in temp if x[0].casefold() not in MOVED_ITEM_LOOKUP_NAMES]
                 for x in temp:
                     output += f' - {x}\n'
             await ctx.send(output)

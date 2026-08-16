@@ -1,0 +1,13 @@
+{
+  "Name": "Pokémon War Plate",
+  "_id": "pokemon-war-plate",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Grant's the Holder +3 Defense, +3 Special Defense, -3 Dexterity",
+  "OneUse": false,
+  "TrainerPrice": "50000",
+  "Cures": "",
+  "Image": ""
+}

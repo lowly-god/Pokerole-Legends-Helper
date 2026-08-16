@@ -1,0 +1,58 @@
+{
+  "Prosthetic": {
+    "Description": "Replaces a limb, sense or appendage",
+    "Traits": "",
+    "Aliases": []
+  },
+  "Basic Neural Augmentation": {
+    "Description": "Most smartphone functions, integrates with nearby tech",
+    "Traits": "",
+    "Aliases": []
+  },
+  "Processing Upgrade": {
+    "Description": "Requires Neural Augmentation.",
+    "Traits": "Grants +1 Skill Point.",
+    "Aliases": []
+  },
+  "Portable Storage Device": {
+    "Description": "Allows use of PC System anywhere.",
+    "Traits": "Locked to Trainer ID.",
+    "Aliases": []
+  },
+  "EXP All": {
+    "Description": "All Pokémon in the Party gain 1 Training Point for each victory claimed by other Pokémon in the party",
+    "Traits": "",
+    "Aliases": [
+      "Exp All"
+    ]
+  },
+  "Mysterious Charm": {
+    "Description": "Hidden Ability Luck Check drops to 60+",
+    "Traits": "",
+    "Aliases": []
+  },
+  "Recycler": {
+    "Description": "Single use Held Items are restored after the Battle.",
+    "Traits": "",
+    "Aliases": [
+      "Recycler (Single use Held Items are restored after the Battle)."
+    ]
+  },
+  "Shiny Charm": {
+    "Description": "Shiny Luck Check drops to 70+",
+    "Traits": "",
+    "Aliases": []
+  },
+  "Silph Scope": {
+    "Description": "Lets you identify “ghosts” or “invisible” things",
+    "Traits": "",
+    "Aliases": []
+  },
+  "Enhanced Neural Augmentation": {
+    "Description": "Most smartphone functions, integrates with nearby tech.",
+    "Traits": "Grants +1 Main or Social Attribute Point.",
+    "Aliases": [
+      "Enhanced Augmentation"
+    ]
+  }
+}

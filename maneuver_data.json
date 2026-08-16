@@ -1160,7 +1160,7 @@
         "Blazing Armor",
         "Blazing Armor (Half-Plate)"
       ],
-      "kind": "Special Equipment",
+      "kind": "Armor",
       "details": "This mystical armor seems to resemble that which Armarouge and Ceruledge use.\nAdditional Traits: While wearing this armor, the wearer’s Maneuvers do Fire-Type Damage, the wearer also gains Resistance to Fire-Type Damage.",
       "maneuvers": [
         {
@@ -1235,7 +1235,7 @@
         "EX-Suit",
         "EX-Suit (Power Armor)"
       ],
-      "kind": "Special Equipment",
+      "kind": "Armor",
       "details": "This strange high-tech, armored bodysuit gives its wearer supernatural strength and speed.\nTraits: Characters wearing this armor have +2 Defense and Special Defense.",
       "maneuvers": [
         {
@@ -1305,12 +1305,13 @@
       ]
     },
     {
-      "name": "NoH Face",
+      "name": "NoH Face Mask",
       "aliases": [
         "NoH Face",
-        "NoH Face (Mask)"
+        "NoH Face (Mask)",
+        "NoH Face Mask"
       ],
-      "kind": "Special Equipment",
+      "kind": "Accessory",
       "details": "The mask's surface shimmers with memetic camouflage. Strange tech that obscures the wearer’s face and often fully “bricks” surveillance and ocular devices that catch sight of them.\nTraits: Characters wearing this mask gain +1 Point in the Stealth Skill. Moves, Maneuvers and Commands that target the wearer lose Never Miss.",
       "maneuvers": [
         {
@@ -1323,7 +1324,7 @@
           "accuracy": "INSIGHT + STEALTH",
           "effect": "Reaction 3. Shield Move. Reduce by 3 the Damage the User would receive from an attack. Roll 3 Chance Dice to Confuse the Attacker.",
           "notes": "",
-          "source": "NoH Face (Mask)",
+          "source": "NoH Face Mask",
           "source_kind": "Special Equipment",
           "tier": "Unique"
         }
@@ -1385,7 +1386,7 @@
         "Personal Shield Emitter",
         "Personal Shield Emitter (Shield)"
       ],
-      "kind": "Special Equipment",
+      "kind": "Accessory",
       "details": "The AI in this emitter can (usually) detect when the wearer would be severely damaged and prevents it, by projecting a temporary but very powerful forcefield around them.\nTraits: Once used the device must recharge for 3 Rounds.",
       "maneuvers": [
         {
@@ -1410,8 +1411,8 @@
         "Psi-Enhancer",
         "Psi-Enhancer (Neural Augmentation)"
       ],
-      "kind": "Special Equipment",
-      "details": "This curious augmentation was developed by a shady organisation, who where attempting to enhance the ability of those with psychic powers. They where successful, but the test subject destroyed their facility and escaped by manipulating their tech against them.\nTraits: The implantee gains +1 to their Special Attribute.",
+      "kind": "Accessory",
+      "details": "This curious high end neural augmentation was developed by a shady organisation, who where attempting to enhance the ability of those with psychic powers. They where successful, but the test subject destroyed their facility and escaped by manipulating their tech against them.\nTraits: The implantee gains +1 to their Special Attribute.",
       "maneuvers": [
         {
           "name": "Technoshred",
@@ -1420,7 +1421,7 @@
           "category": "Special",
           "target": "User",
           "power": "3",
-          "accuracy": "SPECIAL + CHANNEL",
+          "accuracy": "SPECIAL + CHANNEL / TECHNOLOGY",
           "effect": "If the User is in the Facility, Foundry or Urbanized Field-Types or in a Technology filled location: This Maneuver does Steel-Type Damage and gains +2 Damage Dice.",
           "notes": "",
           "source": "Psi-Enhancer (Neural Augmentation)",
@@ -1486,7 +1487,7 @@
         "Silph Co. Synapse-X",
         "Silph Co. Synapse-X (Neural Augmentation)"
       ],
-      "kind": "Special Equipment",
+      "kind": "Accessory",
       "details": "The gold standard in neural augmentation. Allows the user to do almost anything they could usually do with a top end computer or smart phone. Apparently it boosts cognitive processes too...\nTraits: The implantee gains +1 to their Clever Attribute and +1 Technology Skill Point.",
       "maneuvers": [
         {
@@ -1511,7 +1512,7 @@
         "Snag Machine",
         "Snag Machine (Capture Tech)"
       ],
-      "kind": "Special Equipment",
+      "kind": "Accessory",
       "details": "An illegal device that corrupts a thrown Poke Ball, allowing it to bypass the encryption usually preventing Trainer registered Pokémon from being caught. You wouldn’t use it for evil though... right?\nTraits: Allows the capture of Trainer owned Pokémon.",
       "maneuvers": [
         {
@@ -1589,7 +1590,7 @@
         "Stim Synthesizer",
         "Stim Synthesizer (Medipack)"
       ],
-      "kind": "Special Equipment",
+      "kind": "Accessory",
       "details": "This curious device chemically synthesizes compounds from the local environment to boost the immune system and treat minor injuries.\nTraits: The device creates 1 Healing Item of the Storyteller’s choice per day.",
       "maneuvers": [
         {
@@ -1665,8 +1666,8 @@
         "Wraps of the Iron Fist",
         "Wraps of the Iron Fist (Wrappings)"
       ],
-      "kind": "Special Equipment",
-      "details": "These bindings where blessed in a monastery on a high peak. They grant the wearer strength and fortitude in combat.\nTraits: Characters wielding this Weapon gain +1 Defense and Special Defense. All unarmed attacks the wearer makes gain 1 Chance Dice to Flinch the Foe.",
+      "kind": "Accessory",
+      "details": "These bindings where blessed in a monastery on a high peak. They grant the wearer strength and fortitude in combat.\nTraits: Characters wearing this Accessory gain +1 Defense and Special Defense. All unarmed attacks the wearer makes gain 1 Chance Dice to Flinch the Foe.",
       "maneuvers": [
         {
           "name": "Steel Palmed Strike",
@@ -3224,7 +3225,7 @@
           "accuracy": "INSIGHT + STEALTH",
           "effect": "Reaction 3. Shield Move. Reduce by 3 the Damage the User would receive from an attack. Roll 3 Chance Dice to Confuse the Attacker.",
           "notes": "",
-          "source": "NoH Face (Mask)",
+          "source": "NoH Face Mask",
           "source_kind": "Special Equipment",
           "tier": "Unique"
         }
@@ -3309,7 +3310,7 @@
           "category": "Special",
           "target": "User",
           "power": "3",
-          "accuracy": "SPECIAL + CHANNEL",
+          "accuracy": "SPECIAL + CHANNEL / TECHNOLOGY",
           "effect": "If the User is in the Facility, Foundry or Urbanized Field-Types or in a Technology filled location: This Maneuver does Steel-Type Damage and gains +2 Damage Dice.",
           "notes": "",
           "source": "Psi-Enhancer (Neural Augmentation)",

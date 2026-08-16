@@ -1,0 +1,13 @@
+{
+  "Name": "Pokémon Chain Armor",
+  "_id": "pokemon-chain-armor",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Grant's the Holder +2 Defense, +1 Special Defense, -2 Dexterity",
+  "OneUse": false,
+  "TrainerPrice": "25000",
+  "Cures": "",
+  "Image": ""
+}

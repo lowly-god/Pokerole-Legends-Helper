@@ -1,0 +1,77 @@
+{
+  "Old Rod": {
+    "Description": "Can catch Pokémon Rookie rank or lower",
+    "Traits": "",
+    "Aliases": []
+  },
+  "Good Rod": {
+    "Description": "Can catch Pokémon Advanced rank or lower",
+    "Traits": "",
+    "Aliases": []
+  },
+  "Super Rod": {
+    "Description": "Can catch Pokémon of any rank",
+    "Traits": "",
+    "Aliases": []
+  },
+  "Artist’s Supplies [Various]": {
+    "Description": "",
+    "Traits": "",
+    "Aliases": []
+  },
+  "Musical Instruments [Various]": {
+    "Description": "",
+    "Traits": "",
+    "Aliases": []
+  },
+  "Tailor’s Tools": {
+    "Description": "",
+    "Traits": "",
+    "Aliases": []
+  },
+  "Navigator’s Tools": {
+    "Description": "Gives +2 Bonus Dice to checks made when navigating or charting",
+    "Traits": "",
+    "Aliases": []
+  },
+  "Alchemist’s Tools": {
+    "Description": "Gives +2 Bonus Dice to checks made when crafting Healing Items",
+    "Traits": "",
+    "Aliases": []
+  },
+  "Climber’s Tools": {
+    "Description": "Gives +2 Bonus Dice to checks made when climbing",
+    "Traits": "",
+    "Aliases": []
+  },
+  "Carpenter’s Tools": {
+    "Description": "Gives +2 Bonus Dice to checks made when woodworking",
+    "Traits": "",
+    "Aliases": []
+  },
+  "Chef’s Tools": {
+    "Description": "Gives +2 Bonus Dice to checks made when cooking meals",
+    "Traits": "",
+    "Aliases": []
+  },
+  "Smith’s Tools": {
+    "Description": "Gives +2 Bonus Dice to checks made when metalworking",
+    "Traits": "",
+    "Aliases": []
+  },
+  "Thief’s Tools": {
+    "Description": "Gives +2 Bonus Dice to checks made when picking locks / checking traps",
+    "Traits": "",
+    "Aliases": []
+  },
+  "Poke Ball Crafter’s Tools": {
+    "Description": "Gives +2 Bonus Dice to checks made when crafting Poke Balls",
+    "Traits": "",
+    "Aliases": []
+  },
+  "Fishing Rod": {
+    "Description": "A fishing rod to catch Pokémon living underwater. Make sure to get the right bait or they won't bite.",
+    "Traits": "",
+    "Aliases": []
+  }
+}
