@@ -1,5 +1,6 @@
 import json
 import random
+import re
 from collections import Counter, defaultdict
 
 import discord
@@ -59,6 +60,10 @@ class ShopCog(commands.Cog):
             if str(item.get("price", "")).strip().upper() != "N/A"
         ]
 
+    @staticmethod
+    def _is_machine_item(item):
+        return bool(re.search(r" - (?:TM|TR|HM)$", str(item.get("name", "")), flags=re.I))
+
     def generate(self, shop_name):
         cfg = self.shops[shop_name]
         mode = cfg["mode"]
@@ -73,6 +78,10 @@ class ShopCog(commands.Cog):
 
         elif mode == "random":
             pool = self._rollable(cfg["pool"])
+            # The Move Tutor's normal roll represents tutoring services only.
+            # Machine items are shown only by Display All Stock.
+            if shop_name == "Move Tutor":
+                pool = [item for item in pool if not self._is_machine_item(item)]
             count = random.randint(cfg["min"], cfg["max"])
             chosen = random.sample(pool, min(count, len(pool)))
             sections.append((f"Random Stock ({len(chosen)})", [line_for(x) for x in chosen]))
@@ -240,6 +249,11 @@ class ShopCog(commands.Cog):
             value = cfg.get(key, [])
             if isinstance(value, list):
                 candidates.extend(value)
+
+        # For the Move Tutor, Display All Stock is the machine catalogue only:
+        # TRs, TMs and HMs. The tutor-service versions are intentionally omitted.
+        if shop_name == "Move Tutor":
+            candidates = [item for item in candidates if self._is_machine_item(item)]
 
         # Keep one copy of identical stock entries while preserving authored order.
         unique = []

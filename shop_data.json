@@ -8893,79 +8893,79 @@
         {
           "name": "Cut - HM",
           "price": "6000",
-          "effect": "A multi-use HM that can teach Cut to multiple Pokémon",
+          "effect": "A multi-use HM that can teach Cut to multiple Pokémon — Allows destruction of dense foliage and large trees",
           "category": "Normal"
         },
         {
           "name": "Defog - HM",
           "price": "6000",
-          "effect": "A multi-use HM that can teach Defog to multiple Pokémon",
+          "effect": "A multi-use HM that can teach Defog to multiple Pokémon — Removes dense fog",
           "category": "Flying"
         },
         {
           "name": "Dive - HM",
           "price": "18000",
-          "effect": "A multi-use HM that can teach Dive to multiple Pokémon",
+          "effect": "A multi-use HM that can teach Dive to multiple Pokémon — Allows traversal underwater",
           "category": "Water"
         },
         {
           "name": "Flash - HM",
           "price": "6000",
-          "effect": "A multi-use HM that can teach Flash to multiple Pokémon",
+          "effect": "A multi-use HM that can teach Flash to multiple Pokémon — Illuminates very dark areas",
           "category": "Normal"
         },
         {
           "name": "Fly - HM",
           "price": "24000",
-          "effect": "A multi-use HM that can teach Fly to multiple Pokémon",
+          "effect": "A multi-use HM that can teach Fly to multiple Pokémon — Allows traversal of skies",
           "category": "Flying"
         },
         {
           "name": "Magma Drift - HM",
           "price": "24000",
-          "effect": "A multi-use HM that can teach Magma Drift to multiple Pokémon",
+          "effect": "A multi-use HM that can teach Magma Drift to multiple Pokémon — Allows traversal of Lava",
           "category": "Fire"
         },
         {
           "name": "Rock Climb - HM",
           "price": "9000",
-          "effect": "A multi-use HM that can teach Rock Climb to multiple Pokémon",
+          "effect": "A multi-use HM that can teach Rock Climb to multiple Pokémon — Allows traversal of steep cliffs",
           "category": "Normal"
         },
         {
           "name": "Rock Smash - HM",
           "price": "6000",
-          "effect": "A multi-use HM that can teach Rock Smash to multiple Pokémon",
+          "effect": "A multi-use HM that can teach Rock Smash to multiple Pokémon — Allows destruction of solid rocks, rubble and other obstructions",
           "category": "Fighting"
         },
         {
           "name": "Strength - HM",
           "price": "9000",
-          "effect": "A multi-use HM that can teach Strength to multiple Pokémon",
+          "effect": "A multi-use HM that can teach Strength to multiple Pokémon — Allows very heavy objects to be moved",
           "category": "Normal"
         },
         {
           "name": "Surf - HM",
           "price": "18000",
-          "effect": "A multi-use HM that can teach Surf to multiple Pokémon",
+          "effect": "A multi-use HM that can teach Surf to multiple Pokémon — Allows traversal of water",
           "category": "Water"
         },
         {
           "name": "Teleport - HM",
           "price": "45000",
-          "effect": "A multi-use HM that can teach Teleport to multiple Pokémon",
+          "effect": "A multi-use HM that can teach Teleport to multiple Pokémon — Instantly return to a well known location",
           "category": "Psychic"
         },
         {
           "name": "Waterfall - HM",
           "price": "9000",
-          "effect": "A multi-use HM that can teach Waterfall to multiple Pokémon",
+          "effect": "A multi-use HM that can teach Waterfall to multiple Pokémon — Allows traversal of waterfalls",
           "category": "Water"
         },
         {
           "name": "Whirlpool - HM",
           "price": "9000",
-          "effect": "A multi-use HM that can teach Whirlpool to multiple Pokémon",
+          "effect": "A multi-use HM that can teach Whirlpool to multiple Pokémon — Allows traversal of whirlpools",
           "category": "Water"
         }
       ],
@@ -9235,19 +9235,19 @@
           "category": "Mega Stones"
         },
         {
-          "name": "Alakazamite",
+          "name": "Alakazite",
           "price": "30000",
           "effect": "",
           "category": "Mega Stones"
         },
         {
-          "name": "Altarionite",
+          "name": "Altarianite",
           "price": "30000",
           "effect": "",
           "category": "Mega Stones"
         },
         {
-          "name": "Amphorosite",
+          "name": "Ampharosite",
           "price": "30000",
           "effect": "",
           "category": "Mega Stones"
@@ -9271,7 +9271,7 @@
           "category": "Mega Stones"
         },
         {
-          "name": "Banetite",
+          "name": "Banettite",
           "price": "30000",
           "effect": "",
           "category": "Mega Stones"
@@ -9283,7 +9283,7 @@
           "category": "Mega Stones"
         },
         {
-          "name": "Beedrilite",
+          "name": "Beedrillite",
           "price": "30000",
           "effect": "",
           "category": "Mega Stones"
@@ -9427,7 +9427,7 @@
           "category": "Mega Stones"
         },
         {
-          "name": "Kangaskahnite",
+          "name": "Kangaskhanite",
           "price": "30000",
           "effect": "",
           "category": "Mega Stones"
@@ -9667,7 +9667,7 @@
           "category": "Mega Stones"
         },
         {
-          "name": "Blastoisonite",
+          "name": "Blastoisinite",
           "price": "50000",
           "effect": "",
           "category": "Mega Stones"
@@ -9931,7 +9931,7 @@
           "category": "Mega Stones"
         },
         {
-          "name": "Salamancite",
+          "name": "Salamencite",
           "price": "70000",
           "effect": "",
           "category": "Mega Stones"
@@ -10045,13 +10045,13 @@
           "category": "Mega Stones"
         },
         {
-          "name": "Mewtownite X",
+          "name": "Mewtwonite X",
           "price": "100000",
           "effect": "",
           "category": "Mega Stones"
         },
         {
-          "name": "Mewtownite Y",
+          "name": "Mewtwonite Y",
           "price": "100000",
           "effect": "",
           "category": "Mega Stones"
@@ -10081,13 +10081,13 @@
           "category": "Mega Stones"
         },
         {
-          "name": "Bugium-Z",
+          "name": "Buginium-Z",
           "price": "10000",
           "effect": "",
           "category": "Z-Crystals"
         },
         {
-          "name": "Darkium-Z",
+          "name": "Darkinium-Z",
           "price": "10000",
           "effect": "",
           "category": "Z-Crystals"
@@ -10148,6 +10148,12 @@
         },
         {
           "name": "Icium-Z",
+          "price": "10000",
+          "effect": "",
+          "category": "Z-Crystals"
+        },
+        {
+          "name": "Normalium-Z",
           "price": "10000",
           "effect": "",
           "category": "Z-Crystals"
@@ -10688,7 +10694,7 @@
           "category": "General Items"
         },
         {
-          "name": "Kings Rock",
+          "name": "King's Rock",
           "price": "7000",
           "effect": "User’s Damaging Moves gain roll 2 Chance Dice to Flinch / Evolves Poliwhirl into Politoed / Slowpoke into Slowking",
           "category": "General Items"
@@ -12877,7 +12883,7 @@
           "category": "General Items"
         },
         {
-          "name": "Kings Rock",
+          "name": "King's Rock",
           "price": "7000",
           "effect": "User’s Damaging Moves gain roll 2 Chance Dice to Flinch / Evolves Poliwhirl into Politoed / Slowpoke into Slowking",
           "category": "General Items"
@@ -16711,19 +16717,19 @@
           "category": "Mega Stones"
         },
         {
-          "name": "Alakazamite",
+          "name": "Alakazite",
           "price": "30000",
           "effect": "",
           "category": "Mega Stones"
         },
         {
-          "name": "Altarionite",
+          "name": "Altarianite",
           "price": "30000",
           "effect": "",
           "category": "Mega Stones"
         },
         {
-          "name": "Amphorosite",
+          "name": "Ampharosite",
           "price": "30000",
           "effect": "",
           "category": "Mega Stones"
@@ -16747,7 +16753,7 @@
           "category": "Mega Stones"
         },
         {
-          "name": "Banetite",
+          "name": "Banettite",
           "price": "30000",
           "effect": "",
           "category": "Mega Stones"
@@ -16759,7 +16765,7 @@
           "category": "Mega Stones"
         },
         {
-          "name": "Beedrilite",
+          "name": "Beedrillite",
           "price": "30000",
           "effect": "",
           "category": "Mega Stones"
@@ -16903,7 +16909,7 @@
           "category": "Mega Stones"
         },
         {
-          "name": "Kangaskahnite",
+          "name": "Kangaskhanite",
           "price": "30000",
           "effect": "",
           "category": "Mega Stones"
@@ -17143,7 +17149,7 @@
           "category": "Mega Stones"
         },
         {
-          "name": "Blastoisonite",
+          "name": "Blastoisinite",
           "price": "50000",
           "effect": "",
           "category": "Mega Stones"
@@ -17407,7 +17413,7 @@
           "category": "Mega Stones"
         },
         {
-          "name": "Salamancite",
+          "name": "Salamencite",
           "price": "70000",
           "effect": "",
           "category": "Mega Stones"
@@ -17521,13 +17527,13 @@
           "category": "Mega Stones"
         },
         {
-          "name": "Mewtownite X",
+          "name": "Mewtwonite X",
           "price": "100000",
           "effect": "",
           "category": "Mega Stones"
         },
         {
-          "name": "Mewtownite Y",
+          "name": "Mewtwonite Y",
           "price": "100000",
           "effect": "",
           "category": "Mega Stones"
@@ -17557,13 +17563,13 @@
           "category": "Mega Stones"
         },
         {
-          "name": "Bugium-Z",
+          "name": "Buginium-Z",
           "price": "10000",
           "effect": "",
           "category": "Z-Crystals"
         },
         {
-          "name": "Darkium-Z",
+          "name": "Darkinium-Z",
           "price": "10000",
           "effect": "",
           "category": "Z-Crystals"
@@ -17624,6 +17630,12 @@
         },
         {
           "name": "Icium-Z",
+          "price": "10000",
+          "effect": "",
+          "category": "Z-Crystals"
+        },
+        {
+          "name": "Normalium-Z",
           "price": "10000",
           "effect": "",
           "category": "Z-Crystals"

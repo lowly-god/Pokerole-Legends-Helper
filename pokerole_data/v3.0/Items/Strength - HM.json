@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
-  "Description": "A multi-use HM that can teach Strength to multiple Pokémon",
+  "Description": "A multi-use HM that can teach Strength to multiple Pokémon\nAllows very heavy objects to be moved",
   "OneUse": false,
   "TrainerPrice": "9000",
   "Cures": "",

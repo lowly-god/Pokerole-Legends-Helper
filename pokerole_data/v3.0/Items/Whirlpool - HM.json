@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
-  "Description": "A multi-use HM that can teach Whirlpool to multiple Pokémon",
+  "Description": "A multi-use HM that can teach Whirlpool to multiple Pokémon\nAllows traversal of whirlpools",
   "OneUse": false,
   "TrainerPrice": "9000",
   "Cures": "",

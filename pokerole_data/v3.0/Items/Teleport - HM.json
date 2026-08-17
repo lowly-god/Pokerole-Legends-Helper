@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
-  "Description": "A multi-use HM that can teach Teleport to multiple Pokémon",
+  "Description": "A multi-use HM that can teach Teleport to multiple Pokémon\nInstantly return to a well known location",
   "OneUse": false,
   "TrainerPrice": "45000",
   "Cures": "",

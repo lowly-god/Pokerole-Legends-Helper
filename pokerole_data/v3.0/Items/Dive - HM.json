@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
-  "Description": "A multi-use HM that can teach Dive to multiple Pokémon",
+  "Description": "A multi-use HM that can teach Dive to multiple Pokémon\nAllows traversal underwater",
   "OneUse": false,
   "TrainerPrice": "18000",
   "Cures": "",

@@ -93,6 +93,45 @@ REMOVED_ITEM_LOOKUP_NAMES = {
     'tr - support',
     'tm - high power',
     'tr - high power',
+    'garbocean crest',
+    'manaphy crest',
+    'fishing rod',
+    'greatball',
+    'pokeball',
+    'ultraball',
+    'masterball',
+    'never-melt ice',
+    'kings rock',
+    'bugium-z',
+    'darkium-z',
+    'buginium z',
+    'darkinium z',
+    'dragonium z',
+    'electrium z',
+    'fairium z',
+    'fightinium z',
+    'firium z',
+    'flyinium z',
+    'ghostium z',
+    'grassium z',
+    'groundium z',
+    'icium z',
+    'poisonium z',
+    'psychium z',
+    'rockium z',
+    'steelium z',
+    'waterium z',
+    'normalium z',
+    'alakazamite',
+    'altarionite',
+    'amphorosite',
+    'banetite',
+    'beedrilite',
+    'blastoisonite',
+    'kangaskahnite',
+    'salamancite',
+    'mewtownite x',
+    'mewtownite y',
 }
 restartError = True
 
@@ -246,13 +285,88 @@ files = [('pkmnLists', pkmnLists), ('pokebotsettings', pokebotsettings)]
 
 
 def cleanup_legacy_item_files():
-    """Remove obsolete item JSON files before the generated v3 database is checked."""
+    """Normalize legacy aliases, then remove obsolete item JSON before the v3 DB check."""
     item_dir = os.path.join('pokerole_data', 'v3.0', 'Items')
+
+    canonical_item_renames = {
+        'Alakazamite': 'Alakazite',
+        'Altarionite': 'Altarianite',
+        'Amphorosite': 'Ampharosite',
+        'Banetite': 'Banettite',
+        'Beedrilite': 'Beedrillite',
+        'Blastoisonite': 'Blastoisinite',
+        'Kangaskahnite': 'Kangaskhanite',
+        'Salamancite': 'Salamencite',
+        'Mewtownite X': 'Mewtwonite X',
+        'Mewtownite Y': 'Mewtwonite Y',
+    }
+    for old_name, new_name in canonical_item_renames.items():
+        old_path = os.path.join(item_dir, f'{old_name}.json')
+        new_path = os.path.join(item_dir, f'{new_name}.json')
+        if not os.path.isfile(old_path):
+            continue
+        try:
+            with open(old_path, 'r', encoding='utf-8') as f:
+                old_data = json.load(f)
+            if os.path.isfile(new_path):
+                with open(new_path, 'r', encoding='utf-8') as f:
+                    new_data = json.load(f)
+            else:
+                new_data = dict(old_data)
+            old_price = str(old_data.get('TrainerPrice', '')).strip()
+            if old_price and old_price.lower() not in {'n/a', 'not for sale', 'none'}:
+                new_data['TrainerPrice'] = old_price
+            new_data['Name'] = new_name
+            new_data['_id'] = re.sub(r'[^a-z0-9]+', '-', new_name.lower()).strip('-')
+            with open(new_path, 'w', encoding='utf-8') as f:
+                json.dump(new_data, f, indent=2, ensure_ascii=False)
+                f.write('\n')
+            os.remove(old_path)
+            print(f'Normalized item source: {old_name} -> {new_name}')
+        except Exception as exc:
+            print(f'Could not normalize item source {old_name}: {exc}')
     obsolete_files = (
         'Garbocean Crest.json',
         'Manaphy Crest.json',
         'Power Increasers [Various].json',
         'Power Increasers.json',
+        'Fishing Rod.json',
+        'Greatball.json',
+        'Pokeball.json',
+        'Ultraball.json',
+        'Masterball.json',
+        'Never-Melt Ice.json',
+        'Kings Rock.json',
+        'Bugium-Z.json',
+        'Darkium-Z.json',
+        'Buginium Z.json',
+        'Darkinium Z.json',
+        'Dragonium Z.json',
+        'Electrium Z.json',
+        'Fairium Z.json',
+        'Fightinium Z.json',
+        'Firium Z.json',
+        'Flyinium Z.json',
+        'Ghostium Z.json',
+        'Grassium Z.json',
+        'Groundium Z.json',
+        'Icium Z.json',
+        'Poisonium Z.json',
+        'Psychium Z.json',
+        'Rockium Z.json',
+        'Steelium Z.json',
+        'Waterium Z.json',
+        'Normalium Z.json',
+        'Alakazamite.json',
+        'Altarionite.json',
+        'Amphorosite.json',
+        'Banetite.json',
+        'Beedrilite.json',
+        'Blastoisonite.json',
+        'Kangaskahnite.json',
+        'Salamancite.json',
+        'Mewtownite X.json',
+        'Mewtownite Y.json',
     )
     for filename in obsolete_files:
         path = os.path.join(item_dir, filename)

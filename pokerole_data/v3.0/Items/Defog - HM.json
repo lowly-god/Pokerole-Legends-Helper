@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
-  "Description": "A multi-use HM that can teach Defog to multiple Pokémon",
+  "Description": "A multi-use HM that can teach Defog to multiple Pokémon\nRemoves dense fog",
   "OneUse": false,
   "TrainerPrice": "6000",
   "Cures": "",
