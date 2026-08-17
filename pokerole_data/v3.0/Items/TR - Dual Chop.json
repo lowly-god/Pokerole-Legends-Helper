@@ -1,0 +1,13 @@
+{
+  "Name": "TR - Dual Chop",
+  "_id": "tr-dual-chop",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Dual Chop to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "4000",
+  "Cures": "",
+  "Image": ""
+}

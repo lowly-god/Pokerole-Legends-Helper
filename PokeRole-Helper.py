@@ -87,6 +87,12 @@ MOVED_ITEM_LOOKUP_NAMES = ACCESSORY_LOOKUP_NAMES | TOOL_LOOKUP_NAMES
 REMOVED_ITEM_LOOKUP_NAMES = {
     'power increasers',
     'power increasers [various]',
+    'tm - basic',
+    'tr - basic',
+    'tm - support',
+    'tr - support',
+    'tm - high power',
+    'tr - high power',
 }
 restartError = True
 
@@ -247,6 +253,12 @@ def cleanup_legacy_item_files():
         'Manaphy Crest.json',
         'Power Increasers [Various].json',
         'Power Increasers.json',
+        'TM - Basic.json',
+        'TR - Basic.json',
+        'TM - Support.json',
+        'TR - Support.json',
+        'TM - High Power.json',
+        'TR - High Power.json',
     )
     for filename in obsolete_files:
         path = os.path.join(item_dir, filename)
@@ -388,6 +400,34 @@ async def ensure_required_global_commands_registered():
                     f'({", ".join(sorted(name for name in option_names if name)) or "none"})'
                 )
 
+        foraging_command = registered_by_name.get('foraging')
+        if foraging_command is None:
+            reasons.append('/foraging is missing')
+        else:
+            foraging_options = {
+                getattr(option, 'name', None)
+                for option in (getattr(foraging_command, 'options', []) or [])
+            }
+            if foraging_options != {'dice'}:
+                reasons.append(
+                    '/foraging has stale options '
+                    f'({", ".join(sorted(name for name in foraging_options if name)) or "none"})'
+                )
+
+        shop_command = registered_by_name.get('shop')
+        if shop_command is None:
+            reasons.append('/shop is missing')
+        else:
+            shop_options = {
+                getattr(option, 'name', None)
+                for option in (getattr(shop_command, 'options', []) or [])
+            }
+            if shop_options != {'shop', 'display_all_stock'}:
+                reasons.append(
+                    '/shop has stale options '
+                    f'({", ".join(sorted(name for name in shop_options if name)) or "none"})'
+                )
+
         if not reasons:
             print('Patched global slash commands are already current.')
             return
@@ -401,10 +441,22 @@ async def ensure_required_global_commands_registered():
             getattr(option, 'name', None)
             for option in (getattr(encounter_command, 'options', []) or [])
         } if encounter_command else set()
+        foraging_command = synced_by_name.get('foraging')
+        foraging_options = {
+            getattr(option, 'name', None)
+            for option in (getattr(foraging_command, 'options', []) or [])
+        } if foraging_command else set()
+        shop_command = synced_by_name.get('shop')
+        shop_options = {
+            getattr(option, 'name', None)
+            for option in (getattr(shop_command, 'options', []) or [])
+        } if shop_command else set()
 
         if (
             'roll_luck_check' in synced_by_name
             and encounter_options == {'table', 'roll', 'exclude'}
+            and foraging_options == {'dice'}
+            and shop_options == {'shop', 'display_all_stock'}
         ):
             print('Patched global slash command migration completed.')
         else:

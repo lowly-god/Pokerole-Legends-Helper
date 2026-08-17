@@ -1,0 +1,13 @@
+{
+  "Name": "TR - Wild Charge",
+  "_id": "tr-wild-charge",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Wild Charge to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "5500",
+  "Cures": "",
+  "Image": ""
+}

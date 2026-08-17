@@ -1,0 +1,13 @@
+{
+  "Name": "TM - Edgestitch",
+  "_id": "tm-edgestitch",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Edgestitch to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "13500",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "TR - Psywave",
+  "_id": "tr-psywave",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Psywave to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "3500",
+  "Cures": "",
+  "Image": ""
+}

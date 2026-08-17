@@ -1,0 +1,13 @@
+{
+  "Name": "TR - Detect",
+  "_id": "tr-detect",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Detect to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "4500",
+  "Cures": "",
+  "Image": ""
+}

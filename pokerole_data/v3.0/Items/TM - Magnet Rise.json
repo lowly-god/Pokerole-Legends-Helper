@@ -1,0 +1,13 @@
+{
+  "Name": "TM - Magnet Rise",
+  "_id": "tm-magnet-rise",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Magnet Rise to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "15000",
+  "Cures": "",
+  "Image": ""
+}

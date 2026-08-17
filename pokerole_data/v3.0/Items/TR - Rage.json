@@ -1,0 +1,13 @@
+{
+  "Name": "TR - Rage",
+  "_id": "tr-rage",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Rage to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "3000",
+  "Cures": "",
+  "Image": ""
+}

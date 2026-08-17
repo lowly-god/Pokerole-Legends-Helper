@@ -1,0 +1,13 @@
+{
+  "Name": "TR - Throat Chop",
+  "_id": "tr-throat-chop",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Throat Chop to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "4000",
+  "Cures": "",
+  "Image": ""
+}

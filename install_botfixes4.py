@@ -3,6 +3,12 @@ from pathlib import Path
 for rel in [
     "pokerole_data/v3.0/Items/Power Increasers [Various].json",
     "pokerole_data/v3.0/Items/Power Increasers.json",
+    "pokerole_data/v3.0/Items/TM - Basic.json",
+    "pokerole_data/v3.0/Items/TR - Basic.json",
+    "pokerole_data/v3.0/Items/TM - Support.json",
+    "pokerole_data/v3.0/Items/TR - Support.json",
+    "pokerole_data/v3.0/Items/TM - High Power.json",
+    "pokerole_data/v3.0/Items/TR - High Power.json",
 ]:
     p = Path(rel)
     if p.exists():

@@ -232,8 +232,35 @@ class ShopCog(commands.Cog):
 
         return sections
 
-    def embeds_for_shop(self, shop_name):
-        sections = self.generate(shop_name)
+    def all_stock(self, shop_name):
+        """Return every item a merchant can potentially stock, without rolling."""
+        cfg = self.shops[shop_name]
+        candidates = []
+        for key in ("stock", "pool", "special_pool", "crest_pool"):
+            value = cfg.get(key, [])
+            if isinstance(value, list):
+                candidates.extend(value)
+
+        # Keep one copy of identical stock entries while preserving authored order.
+        unique = []
+        seen = set()
+        for item in self._rollable(candidates):
+            marker = (
+                item.get("name"), str(item.get("price", "")),
+                item.get("effect", ""), item.get("category", "Stock")
+            )
+            if marker in seen:
+                continue
+            seen.add(marker)
+            unique.append(item)
+
+        grouped = defaultdict(list)
+        for item in unique:
+            grouped[item.get("category", "Stock")].append(item)
+        return [(cat, [line_for(x) for x in entries]) for cat, entries in grouped.items()]
+
+    def embeds_for_shop(self, shop_name, display_all_stock=False):
+        sections = self.all_stock(shop_name) if display_all_stock else self.generate(shop_name)
         embeds = []
         first = True
         for section_name, lines in sections:
@@ -260,13 +287,21 @@ class ShopCog(commands.Cog):
             rest = rest[10:]
 
     @app_commands.command(name="shop", description="Display the stock of a specific shop")
-    @app_commands.describe(shop="Choose a shop")
+    @app_commands.describe(
+        shop="Choose a shop",
+        display_all_stock="Display All Stock instead of rolling the merchant's normal stock table",
+    )
     @app_commands.autocomplete(shop=shop_autocomplete)
-    async def shop(self, interaction: discord.Interaction, shop: str):
+    async def shop(
+        self,
+        interaction: discord.Interaction,
+        shop: str,
+        display_all_stock: bool = False,
+    ):
         if shop not in self.shops:
             await interaction.response.send_message("Shop not found.", ephemeral=True)
             return
-        embeds = self.embeds_for_shop(shop)
+        embeds = self.embeds_for_shop(shop, display_all_stock=display_all_stock)
         await self.send_embeds(interaction, embeds)
 
     @app_commands.command(name="roll_shop", description="Roll 1D10 on the shop table and display stock for the rolled shop")

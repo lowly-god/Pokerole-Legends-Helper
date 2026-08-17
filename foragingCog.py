@@ -20,28 +20,120 @@ def resolve_find(result):
     return random.choice(pools[result]) if result in pools else result
 
 
+def roll_rare_item():
+    category = random.choice(list(RARE_ITEM_TABLES))
+    return category, random.choice(RARE_ITEM_TABLES[category])
+
+
+def calculate_rare_luck_check(luck_modifier, d100_roll=None):
+    """Return the natural D100 and capped total for a valid Luck Modifier."""
+    if luck_modifier < 0 or luck_modifier > 100 or luck_modifier % 5:
+        raise ValueError("Luck Modifier must be a multiple of 5 from 0 to 100.")
+    base = random.randint(1, 100) if d100_roll is None else int(d100_roll)
+    return base, apply_luck_modifier(base, luck_modifier)
+
+
+class RareLuckModifierModal(discord.ui.Modal, title="Rare Item Luck Check"):
+    luck_modifier = discord.ui.TextInput(
+        label="Luck Modifier",
+        placeholder="Enter 0, 5, 10 ... 100",
+        required=True,
+        max_length=3,
+    )
+
+    def __init__(self, view, source_message):
+        super().__init__()
+        self.parent_view = view
+        self.source_message = source_message
+
+    async def on_submit(self, interaction: discord.Interaction):
+        try:
+            modifier = int(str(self.luck_modifier.value).strip())
+            base, total = calculate_rare_luck_check(modifier)
+        except (TypeError, ValueError):
+            await interaction.response.send_message(
+                "Luck Modifier must be a multiple of 5 from 0 to 100 (0, 5, 10 ... 100).",
+                ephemeral=True,
+            )
+            return
+
+        for child in self.parent_view.children:
+            if isinstance(child, discord.ui.Button):
+                child.disabled = True
+        try:
+            await self.source_message.edit(view=self.parent_view)
+        except Exception:
+            pass
+
+        lines = [
+            "## 🍀 Rare Item Luck Check",
+            f"**{format_luck_check(base, modifier)}**",
+        ]
+        if total >= 90:
+            category, item = roll_rare_item()
+            lines.append(f"**SUCCESS!** — {item} ({category})")
+        else:
+            lines.append("Failed (90+ required).")
+
+        await interaction.response.send_message("\n".join(lines))
+
+
+class RareLuckCheckView(discord.ui.View):
+    def __init__(self, owner_id):
+        super().__init__(timeout=300)
+        self.owner_id = owner_id
+
+    @discord.ui.button(label="Roll Luck Check", style=discord.ButtonStyle.primary, emoji="🍀")
+    async def roll_luck_check(self, interaction: discord.Interaction, button: discord.ui.Button):
+        if interaction.user.id != self.owner_id:
+            await interaction.response.send_message(
+                "Only the player who made this Foraging check can roll its Luck Check.",
+                ephemeral=True,
+            )
+            return
+        await interaction.response.send_modal(RareLuckModifierModal(self, interaction.message))
+
+
 class Foraging(commands.Cog):
-    def __init__(self, bot): self.bot=bot
+    def __init__(self, bot):
+        self.bot = bot
+
     @app_commands.command(name="foraging", description="Roll an Insight + Nature check to see what you find on the foraging table")
-    @app_commands.describe(dice="Number of d6s in the Insight + Nature pool", luck_modifier="Luck Modifier: a multiple of 5 from 0 to 100; added to 1D100, with the result capped at 100")
-    async def foraging(self, interaction: discord.Interaction, dice: app_commands.Range[int,1,50], luck_modifier: app_commands.Range[int,0,100]=0):
-        if luck_modifier % 5:
-            await interaction.response.send_message("Luck Modifier must be a multiple of 5 (0, 5, 10 ... 100).", ephemeral=True); return
-        rolls=[random.randint(1,6) for _ in range(dice)]; successes=sum(r>=4 for r in rolls)
-        disp=', '.join(f"**{r}**" if r>=4 else str(r) for r in rolls)
-        blocks=["## 🌿 Foraging Check",f"**Dice Pool:** {dice}d6 (Insight + Nature)",f"**Rolls:** {disp}",f"**Successes:** **{successes}**"]
+    @app_commands.describe(dice="Number of d6s in the Insight + Nature pool")
+    async def foraging(self, interaction: discord.Interaction, dice: app_commands.Range[int, 1, 50]):
+        rolls = [random.randint(1, 6) for _ in range(dice)]
+        successes = sum(r >= 4 for r in rolls)
+        disp = ', '.join(f"**{r}**" if r >= 4 else str(r) for r in rolls)
+        blocks = [
+            "## 🌿 Foraging Check",
+            f"**Dice Pool:** {dice}d6 (Insight + Nature)",
+            f"**Rolls:** {disp}",
+            f"**Successes:** **{successes}**",
+        ]
         if not successes:
-            blocks.append("\nNo successes — nothing useful was found."); await interaction.response.send_message('\n'.join(blocks)); return
-        levels=tables_for_successes(successes); blocks.append("\n**Foraging Rolls:** "+', '.join(table_label(x) for x in levels))
+            blocks.append("\nNo successes — nothing useful was found.")
+            await interaction.response.send_message('\n'.join(blocks))
+            return
+
+        levels = tables_for_successes(successes)
+        blocks.append("\n**Foraging Rolls:** " + ', '.join(table_label(x) for x in levels))
+        needs_rare_luck_check = False
+
         for level in levels:
-            d10=random.randint(1,10); raw=FORAGING_TABLES[level][d10-1]; result=resolve_find(raw)
+            d10 = random.randint(1, 10)
+            raw = FORAGING_TABLES[level][d10 - 1]
+            result = resolve_find(raw)
             blocks.append(f"\n### {table_label(level)} Table\n🎲 **d10: {d10}** — {result}")
-            if successes>=6 and level==6 and d10==10:
-                base=random.randint(1,100); total=apply_luck_modifier(base,luck_modifier)
-                blocks.append(f"🍀 **{format_luck_check(base, luck_modifier)}**")
-                if total>=90:
-                    category=random.choice(list(RARE_ITEM_TABLES)); item=random.choice(RARE_ITEM_TABLES[category])
-                    blocks.append(f"**SUCCESS!** — {item} ({category})")
-                else: blocks.append("Failed (90+ required).")
-        await interaction.response.send_message('\n'.join(blocks))
-async def setup(bot): await bot.add_cog(Foraging(bot))
+            if level == 6 and d10 == 10:
+                needs_rare_luck_check = True
+                blocks.append(
+                    "🍀 **Rare Item Luck Check required.** Press **Roll Luck Check** below, "
+                    "then enter your Luck Modifier (a multiple of 5 from 0 to 100)."
+                )
+
+        view = RareLuckCheckView(interaction.user.id) if needs_rare_luck_check else None
+        await interaction.response.send_message('\n'.join(blocks), view=view)
+
+
+async def setup(bot):
+    await bot.add_cog(Foraging(bot))

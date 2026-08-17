@@ -1,0 +1,13 @@
+{
+  "Name": "TR - Leaf Storm",
+  "_id": "tr-leaf-storm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Leaf Storm to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "5500",
+  "Cures": "",
+  "Image": ""
+}

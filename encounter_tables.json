@@ -4,19 +4,19 @@
     "entries": [
       {
         "roll": 1,
-        "text": "Rock Fall: A loud rumbling is heard. The characters must make a Dexterity + Alert / Evasion check to avoid being Damaged by a perilous rock fall or split up."
+        "text": "Rock Fall: A loud rumbling is heard. The characters must make a Dexterity + Alert / Evasion check to avoid being Damaged by a perilous rockfall or becoming separated from the group."
       },
       {
         "roll": 2,
-        "text": "Living Stone: Characters encounter a large rocky obstruction, blocking their way forwards. It turns out to be a sleeping Graveler, who is not entirely happy with being woken up."
+        "text": "Living Stone: Characters encounter a large rocky obstruction blocking their way forward. It turns out to be a sleeping Graveler, who is not entirely happy with being woken up."
       },
       {
         "roll": 3,
-        "text": "Colony of Glimmora: The party find the floor covered in spiky (Toxic) debris and the strange rocky flower-like creatures, clinging to the cavern walls that made it."
+        "text": "Colony of Glimmora: The party find the floor covered in spiky (Toxic) debris produced by strange, rocky, flower-like creatures clinging to the cavern walls."
       },
       {
         "roll": 4,
-        "text": "Carvings: Carved in the cavern walls are multiple strange depictions of ancient Pokémon and humans. The players are perhaps able to glean some insight into them with a Clever + Lore check."
+        "text": "Carvings: Carved into the cavern walls are multiple strange depictions of ancient Pokémon and humans. The players may be able to glean some insight into their meaning with a Clever + Lore check."
       },
       {
         "roll": 5,
@@ -24,7 +24,7 @@
       },
       {
         "roll": 6,
-        "text": "Unfathomable Chasm: A huge abyss lays in the characters path. A group skill check, or clever use of Pokémon is required to cross or descend it. An unsuccessful check adds time to their journey."
+        "text": "Unfathomable Chasm: A huge abyss lies in the characters’ path. A group skill check or clever use of Pokémon is required to cross or descend it. An unsuccessful check adds time to their journey."
       },
       {
         "roll": 7,
@@ -32,15 +32,15 @@
       },
       {
         "roll": 8,
-        "text": "Blood Suckers: Light from the characters torches or Pokémon disturbs a large nesting ground of Golbat, who then attempt to feed from them."
+        "text": "Blood Suckers: Light from the characters’ torches or Pokémon disturbs a large nesting ground of Golbat, who then attempt to feed on them."
       },
       {
         "roll": 9,
-        "text": "Odd Echoes: Echoes mimic the character’s and their Pokémon’s voices... Then begin saying things they haven’t said."
+        "text": "Odd Echoes: Echoes mimic the voices of the characters and their Pokémon... then begin saying things they haven’t said."
       },
       {
         "roll": 10,
-        "text": "Archeologist: The group encounter a lone, slightly crazy archaeologist who insists that there are fossils or ruins nearby. They attempt to get the party to help them find them. Perhaps the fossils (if found) are possessed by Specrelec however..."
+        "text": "Archaeologist: The group encounter a lone, slightly crazy archaeologist who insists that there are fossils or ruins nearby. They attempt to convince the party to help search for them. Perhaps the fossils, if found, are possessed by Specrelec, however..."
       }
     ]
   },
@@ -53,39 +53,39 @@
       },
       {
         "roll": 2,
-        "text": "Piss Off: One of the character’s Pokémon encounters a mean and battle scarred old Persian, who claims to be called “Piss Off” (as that’s what people call him). He attempts to get the character’s Pokémon to leave them or cause some other form of trouble for the party."
+        "text": "Piss Off: One of the character’s Pokémon encounters a mean and battle-scarred old Persian, who claims to be called “Piss Off” (as that’s what people shout at him). He attempts to get the character’s Pokémon to leave them or cause some other form of trouble for the party."
       },
       {
         "roll": 3,
-        "text": "Strange Ooze: The characters see a strange slimy substance oozing out of a sewer grate. If they ask around food has been going missing and people getting sick. The culprit is Chimaooze."
+        "text": "Strange Ooze: The characters see a strange slimy substance oozing out of a sewer grate. If they ask around, they learn that food has been going missing and people have been getting sick. The culprit is Chimaooze."
       },
       {
         "roll": 4,
-        "text": "Strange Salesman: A strange merchant accosts the players, and tries to sell them rare and exotic “souvenirs” or cheap potions. Something about them seems off though."
+        "text": "Strange Salesman: A strange merchant accosts the players and tries to sell them rare and exotic “souvenirs” or cheap potions. Something about the merchant seems off, though."
       },
       {
         "roll": 5,
-        "text": "Shakedown: A group of thugs attempt to shake down the characters or a nearby NPC down for valuables, information or something else."
+        "text": "Shakedown: A group of thugs attempt to shake down the characters or a nearby NPC for valuables, information or something else."
       },
       {
         "roll": 6,
-        "text": "The Challenger: Hearing of one of the characters’ exploits. They’re approached and challenged to a battle. Perhaps to test their skill before asking for help, or just for the honor of defeating them."
+        "text": "The Challenger: After hearing of one of the characters’ exploits, someone approaches and challenges them to a battle. Perhaps they want to test the character’s skill before asking for help, or simply earn the honour of defeating them."
       },
       {
         "roll": 7,
-        "text": "Street Performance: A crowd has gathered, watching a mysterious and elegant street performer and their Pokémon assistant, at the finale of their act. They suddenly vanish however."
+        "text": "Street Performance: A crowd has gathered to watch a mysterious and elegant street performer and their Pokémon assistant at the finale of their act. They suddenly vanish in a puff of smoke."
       },
       {
         "roll": 8,
-        "text": "Mad Prophet: The characters encounter someone, prophesying imminent doom. None of the locals seem to pay them any attention however."
+        "text": "Mad Prophet: The characters encounter someone prophesying imminent doom. None of the locals seem to pay them any attention, however."
       },
       {
         "roll": 9,
-        "text": "Mystery Poke Ball: The characters find a lost or discarded Poke Ball, they are unable to open it, but it does seem to contain something."
+        "text": "Mystery Poké Ball: The characters find a lost or discarded Poké Ball. They are unable to open it immediately, but it does seem to contain something."
       },
       {
         "roll": 10,
-        "text": "Lost Pokémon: The characters encounter a lost Pokémon, it is dejectedly looking for its Trainer. If they help it, they are handsomely rewarded by its rich Trainer."
+        "text": "Lost Pokémon: The characters encounter a lost Pokémon. It is dejectedly looking for its Trainer. If they help it, they are handsomely rewarded by its rich Trainer."
       },
       {
         "roll": 11,
@@ -93,7 +93,7 @@
       },
       {
         "roll": 12,
-        "text": "Graffiti Artist: The party are (wrongly) accused of defacing Trait as Smeargle runs away..."
+        "text": "Graffiti Artist: The party are wrongly accused of defacing property as a Smeargle runs away..."
       }
     ]
   },
@@ -102,15 +102,15 @@
     "entries": [
       {
         "roll": 1,
-        "text": "Hungry Cacti: The characters are stalked through the dunes at night by sinister moving cacti. Encounter with aggressive group of Cacturne."
+        "text": "Hungry Cacti: The characters are stalked through the dunes at night by sinister moving cacti. They encounter an aggressive group of Cacturne."
       },
       {
         "roll": 2,
-        "text": "Abandoned Caravanserai: The characters stumble upon an abandoned building, half filled with sand. There could still be some useful supplies within or a nearby water source..."
+        "text": "Abandoned Caravanserai: The characters stumble upon an abandoned building, half-filled with sand. There could still be some useful supplies within or a nearby water source..."
       },
       {
         "roll": 3,
-        "text": "Sandstorm: A harsh sandstorm kicks up, caused by Dusteon or Claydoll. Perhaps it is trying to herd them out of danger. Regardless they must find or make shelter."
+        "text": "Sandstorm: A harsh sandstorm kicks up, caused by Dusteon or Claydol. Perhaps it is trying to herd them out of danger. Regardless, they must find or make shelter."
       },
       {
         "roll": 4,
@@ -122,11 +122,11 @@
       },
       {
         "roll": 6,
-        "text": "Sand Shark: A fin like protrusion can be seen, as the sand Moves below the characters feet. They are suddenly attacked by an Alpha Garchomp or (Orrean) Sharpedo."
+        "text": "Sand Shark: A fin-like protrusion can be seen as the sand moves beneath the characters’ feet. They are suddenly attacked by an Alpha Garchomp or (Orrean) Sharpedo."
       },
       {
         "roll": 7,
-        "text": "Trade Caravan: A Camerupt mounted group of merchants makes their way slowly towards the players. They hastily make camp and offer, food, water and other goods at exorbitant prices."
+        "text": "Trade Caravan: A Camerupt-mounted group of merchants makes their way slowly towards the players. They hastily make camp and offer food, water and other goods at exorbitant prices."
       },
       {
         "roll": 8,
@@ -134,11 +134,11 @@
       },
       {
         "roll": 9,
-        "text": "Hopelessly Lost: The characters realize they have been going in circles for some time. Adds a significant amount of travel time and requires an Insight + Nature check to find the correct route. Mandibuzz or Rexquiem circle hungrily, watching from from above..."
+        "text": "Hopelessly Lost: The characters realize they have been going in circles for some time. This adds a significant amount of travel time and requires an Insight + Nature check to find the correct route. Mandibuzz or Rexquiem circle hungrily, watching from above..."
       },
       {
         "roll": 10,
-        "text": "Fossilized Find: A wind and sand scoured rock face or riverbed reveals fossilized Pokémon Skeletons within. On a successful Dexterity / Clever + Nature / Crafts check the characters are able to safely remove 1 or 2."
+        "text": "Fossilized Find: A wind- and sand-scoured rock face or riverbed reveals fossilized Pokémon skeletons within. On a successful Dexterity / Clever + Nature / Crafts check, the characters are able to safely remove one or two fossils."
       }
     ]
   },
@@ -159,7 +159,7 @@
       },
       {
         "roll": 4,
-        "text": "Slipping Scree: Rocks slide out from under some of the characters feet, they go sliding over the edge of a precipice! The others and their Pokémon must act fast to rescue them."
+        "text": "Slipping Scree: Rocks slide out from under some of the characters’ feet, sending them sliding over the edge of a precipice! The others and their Pokémon must act fast to rescue them."
       },
       {
         "roll": 5,
@@ -167,7 +167,7 @@
       },
       {
         "roll": 6,
-        "text": "Rickety Bridge: The party must cross a large crevasse. A rickety looking rope suspension bridge seems like the only way to progress..."
+        "text": "Rickety Bridge: The party must cross a large crevasse. A rickety-looking rope suspension bridge seems like the only way to progress..."
       },
       {
         "roll": 7,
@@ -175,15 +175,15 @@
       },
       {
         "roll": 8,
-        "text": "Gogoat Shepherd: The characters encounter a boy and his Herdier, herding Gogoat and Skiddoo. Some have gone missing however and he suspects a strong wild Pokémon to be at blame... He and his mother offer the party a place to rest and a meal should they help him find them or capture the Pokémon responsible."
+        "text": "Gogoat Shepherd: The characters encounter a boy and his Herdier herding Gogoat and Skiddoo. Some have gone missing, however, and he suspects a strong wild Pokémon is to blame... He and his mother offer the party a place to rest and a meal should they help him find them or capture the Pokémon responsible."
       },
       {
         "roll": 9,
-        "text": "Gigalith’s Eruption: Orrean Gigalith is fighting for territory with a strong opponent. This has the unfortunate effect of molten rocks being shot everywhere however, threatening a nearby village."
+        "text": "Gigalith’s Eruption: Orrean Gigalith is fighting for territory with a strong opponent. This has the unfortunate effect of sending molten rocks flying everywhere, threatening a nearby village."
       },
       {
         "roll": 10,
-        "text": "Monastic Mess: The party hear a loud bell chime (coming from Bronzong) echo through the valleys and crags. Eventually seeing an isolated monastery higher up the mountain. The monks found within are friendly and offer the players a place to rest. The bell marked the beginning of a celebration where the next leader of their order is chosen (possibly to ...interesting results)."
+        "text": "Monastic Mess: The party hear a loud bell chime, coming from Bronzong, echo through the valleys and crags. Eventually, they spot an isolated monastery higher up the mountain. The monks are friendly and offer the players a place to rest. The bell marks the beginning of a celebration in which the next leader of their order is chosen, possibly leading to... interesting results."
       }
     ]
   },
@@ -196,11 +196,11 @@
       },
       {
         "roll": 2,
-        "text": "Contamination: Food and water supplies are mysteriously contaminated and ruined. Perhaps inadvertently by a stowaway Poison-Type Pokémon. Perhaps requiring them to fish or dive for food."
+        "text": "Contamination: Food and water supplies are mysteriously contaminated and ruined, perhaps inadvertently by a stowaway Poison-Type Pokémon. The party may be forced to fish or dive for food."
       },
       {
         "roll": 3,
-        "text": "Navigational Failure: Navigation devices fail due to interference of some kind. An Insight + Nature check must be made to read stars etc, a failure may result in extended travelling time, the group becoming lost or some other negative occurrence."
+        "text": "Navigational Failure: Navigation devices fail due to interference of some kind. An Insight + Nature check must be made to read the stars, etc. A failure may result in extended travelling time, the group becoming lost or some other negative occurrence."
       },
       {
         "roll": 4,
@@ -212,11 +212,11 @@
       },
       {
         "roll": 6,
-        "text": "Becalmed: The seas are becalmed, the characters must make use of their Pokémon creatively, or days are added to the journey, supplies used etc."
+        "text": "Becalmed: The seas are becalmed. The characters must make creative use of their Pokémon or have days added to the journey, using additional supplies, etc."
       },
       {
         "roll": 7,
-        "text": "Weird Weather: A lone Castform is trailing the group at a distance and creating strange Weather phenomena. It’s reasons for doing so are unclear, Is it attempting to harm or help them?"
+        "text": "Weird Weather: A lone Castform is trailing the group at a distance and creating strange Weather phenomena. Its reasons for doing so are unclear. Is it attempting to harm or help them?"
       },
       {
         "roll": 8,
@@ -228,7 +228,7 @@
       },
       {
         "roll": 10,
-        "text": "Travelling Merchant: The group encounters a friendly mercantile vessel, or trader riding a Lapras, they hail the group and offer their goods. Use Travelling Merchant table or roll once on the Large Market table for available wares."
+        "text": "Travelling Merchant: The group encounters a friendly mercantile vessel or a trader riding a Lapras. They hail the group and offer their goods. Use the Travelling Merchant table or roll once on the Large Market table for available wares."
       },
       {
         "roll": 11,
@@ -236,7 +236,7 @@
       },
       {
         "roll": 12,
-        "text": "Odd Wreckage: The characters encounter floating debris from a destroyed vessel or lost cargo, the Storyteller decides on, or rolls for item(s) the characters find."
+        "text": "Odd Wreckage: The characters encounter floating debris from a destroyed vessel or lost cargo. The Storyteller decides on, or rolls for, the item(s) the characters find."
       }
     ]
   },
@@ -245,11 +245,11 @@
     "entries": [
       {
         "roll": 1,
-        "text": "Stampede: A large herd of Bouffalant or Rhyhorn rush towards the characters. Dexterity + Evasion checks, a group Tough + Intimidate check or quick thinking is required to not get trampled."
+        "text": "Stampede: A large herd of Bouffalant or Rhyhorn rush towards the characters. Dexterity + Evasion checks, a group Tough + Intimidate check or quick thinking is required to avoid being trampled."
       },
       {
         "roll": 2,
-        "text": "Brushfire Break: In the distance the party can see smoke billowing from the dry brush, wild Pokémon go fleeing, followed by flames rapidly spreading out from the area. A Fire-Type Pokémon or some other source has started a brushfire. Quick thinking is required to halt the fire’s spread."
+        "text": "Brushfire Break: In the distance, the party can see smoke billowing from the dry brush. Wild Pokémon flee as flames rapidly spread through the area. A Fire-Type Pokémon or some other source has started a brushfire. Quick thinking is required to halt the fire’s spread."
       },
       {
         "roll": 3,
@@ -257,15 +257,15 @@
       },
       {
         "roll": 4,
-        "text": "The Lone Rider: A lone rider swoops in from the distance, atop their Staraptor. They warn the party of dangerous poachers operating in the area, but also mention the bounty on their heads."
+        "text": "The Lone Rider: A lone rider swoops in from the distance atop their Staraptor. They warn the party of dangerous poachers operating in the area and mention the bounty on the poachers’ heads."
       },
       {
         "roll": 5,
-        "text": "Waterhole: The characters find a large watering hole, being used by many different Pokémon. The wild Pokémon seem wary of each other and the party but not actively aggressive currently."
+        "text": "Waterhole: The characters find a large watering hole being used by many different Pokémon. The wild Pokémon seem wary of each other and the party, but are not currently aggressive."
       },
       {
         "roll": 6,
-        "text": "Anthill attack: A huge Durant Nest is under siege by a group of Heatmor. Durengine and Heatmega battle it out on top of hill. If the character’s pick a side to help and come out victorious, they are rewarded in berries or some form of useful items, found by their side."
+        "text": "Anthill Attack: A huge Durant Nest is under siege by a group of Heatmor. Durengine and Heatmega battle it out on top of the hill. If the characters pick a side to help and come out victorious, their chosen side rewards them with berries or other useful items."
       },
       {
         "roll": 7,
@@ -273,15 +273,15 @@
       },
       {
         "roll": 8,
-        "text": "Roadside Assistants: The characters encounter a broken down vehicle, with two students attempting to fix it (badly). They are apparently on their way to join their professor on his next research expedition. If the characters manage to repair their vehicle or offer them a lift, they’re rewarded with a Held Item, evolutionary stone or some Poke Balls."
+        "text": "Roadside Assistants: The characters encounter a broken-down vehicle, with two students attempting to fix it badly. They are apparently on their way to join their professor on their next research expedition. If the characters manage to repair their vehicle or offer them a lift, they’re rewarded with a Held Item, evolutionary stone or some Poké Balls."
       },
       {
         "roll": 9,
-        "text": "Nomadic Aritst: The party find a wandering artist in a remote locale. They’re feeling uninspired apparently. But a battle may just fix that. (They have a strong team with Streagle as their Advanced)."
+        "text": "Nomadic Artist: The party find a wandering artist in a remote locale. Apparently, they’re feeling uninspired, but a battle may just fix that. (They have a strong team with Streagle as their Advanced)."
       },
       {
         "roll": 10,
-        "text": "Apricorn Grove: The party find a grove of Apricorn trees. If they attempt to pick them, they’re scolded by an old woman who claims they’re hers. If the party sincerely apologize she offers to make them a ball or two each however."
+        "text": "Apricorn Grove: The party find a grove of Apricorn trees. If they attempt to pick them, they’re scolded by an old woman who claims they’re hers. If the party sincerely apologize, however, she offers to make them a ball or two each."
       }
     ]
   },
@@ -290,15 +290,15 @@
     "entries": [
       {
         "roll": 1,
-        "text": "Suspicious Sandcastle: On the beach the group encounter a huge and elaborate sandcastle... Small footprints can be seen leading towards it, but not away from it. (Palosand Encounter)."
+        "text": "Suspicious Sandcastle: On the beach, the group encounter a huge and elaborate sandcastle... Small footprints can be seen leading towards it, but not away from it. (Palossand Encounter)."
       },
       {
         "roll": 2,
-        "text": "Merciless Mereanie: In the shallows, Corsola can be seen attempting to flee from Mereanie. Corsola does not look to be in a good state and is suffering from the Badly Poisoned Status..."
+        "text": "Merciless Mareanie: In the shallows, Corsola can be seen attempting to flee from Mareanie. Corsola does not look to be in a good state and is suffering from the Badly Poisoned Status..."
       },
       {
         "roll": 3,
-        "text": "Dance Battle: The characters encounter a group of Ludicolo who seem up for a challenge. Though not of the usual kind... The Ludicolo want a dance off! Beauty / Cool + Perform / Charm checks are required to win here. Bonus points if the group have Pokémon with “Dance” Moves."
+        "text": "Dance Battle: The characters encounter a group of Ludicolo who seem up for a challenge, though not of the usual kind... The Ludicolo want a dance-off! Beauty / Cool + Perform / Charm checks are required to win here. Bonus points if the group have Pokémon with “Dance” Moves."
       },
       {
         "roll": 4,
@@ -310,23 +310,23 @@
       },
       {
         "roll": 6,
-        "text": "Fishing Contest: A fishing contest is underway. The party are able to enter. Most caught and biggest caught are the two categories. A man named Bob is selling fishing rods and Lure Balls nearby. Prizes are a Water Stone and a the Biggest Catch Trophy (Same effect as Amulet Coin)."
+        "text": "Fishing Contest: A fishing contest is underway and the party are able to enter. Most Caught and Biggest Catch are the two categories. A man named Bob is selling fishing rods and Lure Balls nearby. Prizes are a Water Stone and the Biggest Catch Trophy (Same effect as Amulet Coin)."
       },
       {
         "roll": 7,
-        "text": "Coastal Cave: The party find a mysterious semi-submerged cave. Heading inside they find crystalline growths. The water-type variants of Ralts and Hatenna can be seen cautiously watching the party. If they attempt to catch one, they may end up in a battle with protective Alpha Gallade and Hatterene."
+        "text": "Coastal Cave: The party find a mysterious semi-submerged cave. Heading inside, they find crystalline growths. The Water-Type variants of Ralts and Hatenna can be seen cautiously watching the party. If they attempt to catch one, they may end up in a battle with protective Alpha Gallade and Hatterene."
       },
       {
         "roll": 8,
-        "text": "Cheeky Wingull: While having something to eat, the party are swarmed by Wingull. The Wingull attempt to get them to drop their food by dive bombing and defecating on them..."
+        "text": "Cheeky Wingull: While having something to eat, the party are swarmed by Wingull. The Wingull attempt to get them to drop their food by dive-bombing and defecating on them..."
       },
       {
         "roll": 9,
-        "text": "Lake Serpent: One of the party members or their Pokémon spots a long shadow moving beneath the water’s surface. An Insight + Alert check leads them to discovering the shadow belongs to (Orrean) Milotic. It may take some clever thinking to capture it should they want to."
+        "text": "Lake Serpent: One of the party members or their Pokémon spots a long shadow moving beneath the water’s surface. An Insight + Alert check leads them to discover the shadow belongs to (Orrean) Milotic. It may take some clever thinking to capture it should they want to."
       },
       {
         "roll": 10,
-        "text": "Tubing Race: The party encounter a race being set up. Trainers are towed on circular inflatables behind water-types, they may borrow a viable Pokémon if they don’t have one. The prize is a Mega Stone. (The race is composed of various skill challenges and obstacles)."
+        "text": "Tubing Race: The party encounter a race being set up. Trainers are towed on circular inflatables behind Water-Types. They may borrow a viable Pokémon if they don’t have one. The prize is a Mega Stone. (The race is composed of various skill challenges and obstacles)."
       }
     ]
   },
@@ -335,11 +335,11 @@
     "entries": [
       {
         "roll": 1,
-        "text": "Restless Spirit: The party encounter an open grave or a rotting gibbet with a crumbling skeleton hanging from it. A Yamask appears, wailing and moaning pitifully. A successful Insight + Nature or Clever + Lore check infers that the grave or skeleton has been recently disturbed. Finding a missing bone or burial item and returning it quiets Yamask’s sorrow."
+        "text": "Restless Spirit: The party encounter an open grave or a rotting gibbet with a crumbling skeleton hanging from it. A Yamask appears, wailing and moaning pitifully. A successful Insight + Nature or Clever + Lore check allows them to infer that the grave or skeleton has been recently disturbed. Finding a missing bone or burial item and returning it quiets Yamask’s sorrow."
       },
       {
         "roll": 2,
-        "text": "Wandering Wisps: Flickering wisps attempt to lead the party somewhere. Roll 1D4 on a 1-2 they lead the group to an encounter with Alpha Dusknoir on a 3-4 they lead them to a useful Held Item."
+        "text": "Wandering Wisps: Flickering wisps attempt to lead the party somewhere. Roll 1D4: on a 1–2, they lead the group to an encounter with Alpha Dusknoir; on a 3–4, they lead them to a useful Held Item."
       },
       {
         "roll": 3,
@@ -351,11 +351,11 @@
       },
       {
         "roll": 5,
-        "text": "The One: The party encounter a dark haired, pale, emotionless woman. In an unearthly voice she points at one of the characters and proclaims. “You... you are the one.” She hands them a Soothe Bell or a Weapon. Then wordlessly leaves, her feet don’t seem to touch the ground."
+        "text": "The One: The party encounter a dark-haired, pale, emotionless woman. In an unearthly voice, she points at one of the characters and proclaims: “You... you are the one.” She hands them a Soothe Bell or a Weapon. She then leaves without a word; her feet don’t seem to touch the ground."
       },
       {
         "roll": 6,
-        "text": "Mysterious Merchants: The group encounter some brightly dressed and merry merchants. They happily break bread and offer their wares. Later, the party fall into a deep sleep. When they awake the merchants are gone, but their camp and wagon remains (now ancient and mostly destroyed)."
+        "text": "Mysterious Merchants: The group encounter some brightly dressed and merry merchants. They happily break bread and offer their wares. Later, the party fall into a deep sleep. When they awake, the merchants are gone, but their camp and wagon remain (now ancient and mostly destroyed)."
       },
       {
         "roll": 7,
@@ -363,11 +363,11 @@
       },
       {
         "roll": 8,
-        "text": "Possessed Pokémon: The character’s Pokémon begin to act strangely, getting worse over time. Acting skittishly or flinching away from their trainers and disobeying commands. Eventually attempting to flee, running to a nearby clearing and are found in a circle, motionless but conscious. They snap out of it and seem confused and sad when roused."
+        "text": "Possessed Pokémon: The characters’ Pokémon begin to act strangely, growing skittish, flinching away from their Trainers and disobeying commands. Eventually, they attempt to flee. The party finds them in a nearby clearing, standing in a circle, motionless but conscious. When roused, they snap out of it and seem confused and sad."
       },
       {
         "roll": 9,
-        "text": "Creepy Doll: A member of the party finds a discarded doll, they feel oddly drawn to keep it. At a crucial moment during the adventure it awakens to aid them, becoming a Fauxeary or Voodoll."
+        "text": "Creepy Doll: A member of the party finds a discarded doll. They feel oddly drawn to keep it. At a crucial moment during the adventure, it awakens to aid them, becoming a Fauxeary or Voodoll."
       },
       {
         "roll": 10,
@@ -375,11 +375,11 @@
       },
       {
         "roll": 11,
-        "text": "Ancient Barrows: The party find an ancient burial ground. Tunnels lead into the tombs. The They can see treasures laid out. If they disturb anything a horde battle begins against Shuppet, Haunter, (Johtonian) Tinkatink, Houndstone and Misdreavus. If they win, they find a Relic Gold."
+        "text": "Ancient Barrows: The party find an ancient burial ground. Tunnels lead into the tombs. They can see treasures laid out. If they disturb anything, a horde battle begins against Shuppet, Haunter, (Johtonian) Tinkatink, Houndstone and Misdreavus. If they win, they find a Relic Gold."
       },
       {
         "roll": 12,
-        "text": "The Countess: While travelling, the Weather turns and the party must seek shelter. They find a creepy looking château. A strange elderly butler opens the door and invites them in. The lady of the house is very charming, and treats them to dinner and offers them rooms for the night. But something seems very off about the whole affair. The windows on the upper floors are all barred and there are seemingly no other staff or residents, unusual for a place of that size..."
+        "text": "The Countess: While travelling, the Weather turns and the party must seek shelter. They find a creepy-looking château. A strange elderly butler opens the door and invites them in. The lady of the house is very charming, treats them to dinner and offers them rooms for the night. But something seems very off about the whole affair. The windows on the upper floors are all barred and there are seemingly no other staff or residents, unusual for a place of that size..."
       }
     ]
   },
@@ -388,7 +388,7 @@
     "entries": [
       {
         "roll": 1,
-        "text": "Strong Winds: The winds suddenly pick up to a dangerous degree. Depending on method of transport, this may add travel time or blow the group off course. Strong Wind Weather is in effect for all other encounters."
+        "text": "Strong Winds: The winds suddenly pick up to a dangerous degree. Depending on their method of transport, this may add travel time or blow the group off course. Strong Wind Weather is in effect for all other encounters."
       },
       {
         "roll": 2,
@@ -400,11 +400,11 @@
       },
       {
         "roll": 4,
-        "text": "Mass Migration: Many Tailow and Swellow can be seen on their long migratory journey. One seems to be struggling however, falling behind and being pecked at by the others..."
+        "text": "Mass Migration: Many Taillow and Swellow can be seen on their long migratory journey. One seems to be struggling, however, falling behind and being pecked at by the others..."
       },
       {
         "roll": 5,
-        "text": "Drifting Drifloon: A large group of Drifloon float alongside the party. Attempting to “help” by grasping at bags and the characters themselves. A smaller party member or Pokémon may be carried off somewhere..."
+        "text": "Drifting Drifloon: A large group of Drifloon float alongside the party, attempting to “help” by grasping at bags and the characters themselves. A smaller party member or Pokémon may be carried off somewhere..."
       },
       {
         "roll": 6,
@@ -412,19 +412,19 @@
       },
       {
         "roll": 7,
-        "text": "Millenium Comet: The party witness a comet passing by, they feel a sense of mystical wonder and a blue light momentarily envelopes them. Jirachi restores 3 of their Will Points."
+        "text": "Millennium Comet: The party witness a comet passing by. They feel a sense of mystical wonder as a blue light momentarily envelops them. Jirachi restores 3 of their Will Points."
       },
       {
         "roll": 8,
-        "text": "Maiden Voyage: The group encounter a rather eccentric older gentleman and his two young companions flying in a hot air balloon. They’ve been somewhat blown of course and would like assistance. They reward the group with Air Balloons and some “vitals” each."
+        "text": "Maiden Voyage: The group encounter a rather eccentric older gentleman and his two young companions flying in a hot air balloon. They’ve been somewhat blown off course and would like assistance. They reward the group with Air Balloons and some “vittles” each."
       },
       {
         "roll": 9,
-        "text": "Cloud Sea: Breaching a layer of cloud, the party are met with a stunning sight. A whole ocean like ecosystem of Skyphozoa, Collosoar, Halofin, Seraphish, Iridesceel and Jourmarine, not to mention various types of bird-like Pokémon."
+        "text": "Cloud Sea: Breaching a layer of cloud, the party are met with a stunning sight: a whole ocean-like ecosystem of Skyphozoa, Collosoar, Halofin, Seraphish, Iridesceel and Jourmarine, not to mention various types of bird-like Pokémon."
       },
       {
         "roll": 10,
-        "text": "Lost Mail: Some mail must have slipped from a delivery, it can be seen being carried on the wind. If the players manage to snatch it from the air, it just so happens to have an address to a location nearby where they’re heading. Delivering it nets then a substantial reward, as it was a letter proclaiming the recipient to be the inheritor of a small fortune."
+        "text": "Lost Mail: Some mail must have slipped from a delivery and can be seen being carried on the wind. If the players manage to snatch it from the air, it just so happens to have an address at a location near where they’re heading. Delivering it nets them a substantial reward, as it was a letter proclaiming the recipient to be the inheritor of a small fortune."
       }
     ]
   },
@@ -441,7 +441,7 @@
       },
       {
         "roll": 3,
-        "text": "Abandoned Research Station: The party encounter a deserted outpost, it’s crew fled due to an unknown threat. It seems their research was to do with viruses. If the party linger, they are attacked by UB-24 Virus."
+        "text": "Abandoned Research Station: The party encounter a deserted outpost. Its crew fled due to an unknown threat. It seems their research was to do with viruses. If the party linger, they are attacked by UB-24 Virus."
       },
       {
         "roll": 4,
@@ -461,7 +461,7 @@
       },
       {
         "roll": 8,
-        "text": "Meltan Meteor: A mineral rich meteor is identified on the ship’s scanners. Unbeknownst to the party, however. The rock contains no mineral wealth, but the strange liquid metal Pokémon, Meltan."
+        "text": "Meltan Meteor: A mineral-rich meteor is identified on the ship’s scanners. Unbeknownst to the party, the rock contains no mineral wealth, but instead the strange liquid-metal Pokémon, Meltan."
       },
       {
         "roll": 9,
@@ -469,7 +469,7 @@
       },
       {
         "roll": 10,
-        "text": "Ghost Station: The party encounter a small space station. Entirely crewed by Rotom Drones. It seems as though the place should have several human crew. All of who are conspicuously absent."
+        "text": "Ghost Station: The party encounter a small space station entirely crewed by Rotom Drones. It seems as though the place should have several human crew members, all of whom are conspicuously absent."
       }
     ]
   },
@@ -490,11 +490,11 @@
       },
       {
         "roll": 4,
-        "text": "Toxicroak’s Toll: Alpha Toxicroak blocks the party’s path. Croaking and puffing out its poison sack intimidatingly, it holds out a hand expectantly. It seems to be demanding some form of tribute..."
+        "text": "Toxicroak’s Toll: Alpha Toxicroak blocks the party’s path. Croaking and puffing out its poison sac intimidatingly, it holds out a hand expectantly. It seems to be demanding some form of tribute..."
       },
       {
         "roll": 5,
-        "text": "Snapping Jaws: While crossing a rickety bridge, or wading through the water. The party are snapped at by Dreadmaw or (Alolan) Krockoroc. They might steal a pack or some food supplies."
+        "text": "Snapping Jaws: While crossing a rickety bridge or wading through the water, the party are snapped at by Dreadmaw or (Alolan) Krockoroc. They might steal a pack or some food supplies."
       },
       {
         "roll": 6,
@@ -502,19 +502,19 @@
       },
       {
         "roll": 7,
-        "text": "Witch’s Hut: The party encounter a strange hut on a large mound. If they approach, the hut begins to rise, showing that is resting on a huge Torterra’s back. The hut’s occupants (a slightly bedraggled old woman, and her Voodoll) call out to the party. She may offer the party a ride slightly closer to their destination or a bargain... But should they anger her at all she puts “curses” on them."
+        "text": "Witch’s Hut: The party encounter a strange hut on a large mound. If they approach, the hut begins to rise, showing that it is resting on a huge Torterra’s back. The hut’s occupants (a slightly bedraggled old woman and her Voodoll) call out to the party. She may offer the party a ride slightly closer to their destination or a bargain... But should they anger her at all, she puts “curses” on them."
       },
       {
         "roll": 8,
-        "text": "Marsh Gas: The party begin to smell something strange... If they have any exposed flames, or use Electric-Type attacks etc, the gas ignites suddenly! (The gas may last for more encounters)."
+        "text": "Marsh Gas: The party begin to smell something strange... If they have any exposed flames, use Electric-Type attacks, etc., the gas ignites suddenly! (The gas may last for more encounters)."
       },
       {
         "roll": 9,
-        "text": "Bibarrel Dam: The party encounter a large dam, Bidoof and Bibarell can be seen industriously working on it. (They might realize it is blocking an often used waterway, or endangering a nearby settlement however)."
+        "text": "Bibarel Dam: The party encounter a large dam, where Bidoof and Bibarel can be seen industriously working. (They might realize, however, that it is blocking an often-used waterway or endangering a nearby settlement)."
       },
       {
         "roll": 10,
-        "text": "Vicious Bully: The party encounters some smaller Pokémon being bullied by (Orrean) Hakamo-o. If the group attack attempt to battle Hakamo-o, it calls for its parent Kommo-o."
+        "text": "Vicious Bully: The party encounters some smaller Pokémon being bullied by (Orrean) Hakamo-o. If the group attacks or attempts to battle Hakamo-o, it calls for its parent Kommo-o."
       }
     ]
   },
@@ -523,11 +523,11 @@
     "entries": [
       {
         "roll": 1,
-        "text": "Botanical Blunder: The party encounter a botanist in a spot of trouble. While conducting research on a rare flower found in the area, they where attacked by Swarm Form Combee. They ask the party to Forage (rolling normally) for a specific herb that may ease the swelling. (Encounter with Swarm Form Combee)."
+        "text": "Botanical Blunder: The party encounter a botanist in a spot of trouble. While conducting research on a rare flower found in the area, they were attacked by Swarm Form Combee. They ask the party to Forage (rolling normally) for a specific herb that may ease the swelling. (Encounter with Swarm Form Combee)."
       },
       {
         "roll": 2,
-        "text": "Brigands: The characters stumble upon an isolated hideaway. The occupants turn out to wanted by local law enforcement for kidnapping, piracy, racketeering and numerous other crimes... (They have some considerable loot and a person they’re holding for ransom stashed in their hideout)."
+        "text": "Brigands: The characters stumble upon an isolated hideaway. The occupants turn out to be wanted by local law enforcement for kidnapping, piracy, racketeering and numerous other crimes... (They have some considerable loot and a person they’re holding for ransom stashed in their hideout)."
       },
       {
         "roll": 3,
@@ -535,31 +535,31 @@
       },
       {
         "roll": 4,
-        "text": "Cocunut Crabs: The characters encounter a somewhat disturbing sight. Large skull-like crab Pokémon known as Cruskull and Crabramuerte climbing coconut trees near the beach..."
+        "text": "Coconut Crabs: The characters encounter a somewhat disturbing sight. Large skull-like crab Pokémon known as Cruskull and Crabramuerte are climbing coconut trees near the beach..."
       },
       {
         "roll": 5,
-        "text": "Seviper vs Zangoose: The party encounter an epic battle between Seviper and Zangoose. Their ever present hatred for each other coming to a boiling point..."
+        "text": "Seviper vs Zangoose: The party encounter an epic battle between Seviper and Zangoose. Their ever-present hatred for each other has reached a boiling point..."
       },
       {
         "roll": 6,
-        "text": "Spice Growers: The party encounter a farmer, their Scovillain and Capsiwisp. They’re strengthening the spice of the famous chillis they grow. They may need a hand harvesting them..."
+        "text": "Spice Growers: The party encounter a farmer, their Scovillain and Capsiwisp. They’re strengthening the spice of the famous chillies they grow. They may need a hand harvesting them..."
       },
       {
         "roll": 7,
-        "text": "Strange Voice: The party hear a voice calling out. The voice begins saying some rather incriminating things however. The voice turns out to be Chatot, it may have witnessed something..."
+        "text": "Strange Voice: The party hear a voice calling out. The voice begins saying some rather incriminating things, however. The voice turns out to be Chatot; it may have witnessed something..."
       },
       {
         "roll": 8,
-        "text": "Tropius’ Garden: The party discover a clearing full of fruit bearing trees and berry bushes. Tropius can been grazing from them, and curiously watch the party. They become somewhat upset if the party take too much of their delicious fruit however."
+        "text": "Tropius’ Garden: The party discover a clearing full of fruit-bearing trees and berry bushes. Tropius can be seen grazing from them and curiously watching the party. They become somewhat upset, however, if the party take too much of their delicious fruit."
       },
       {
         "roll": 9,
-        "text": "Dawn and Dusk: The party encounter a strange occurrence at either dawn or dusk. An odd ritualistic dance performed by the Pokémon Lunatone and Solrock..."
+        "text": "Dawn and Dusk: The party encounter a strange occurrence at either dawn or dusk. They witness an odd ritualistic dance performed by Lunatone and Solrock..."
       },
       {
         "roll": 10,
-        "text": "Jungle Queen: The characters encounter a strange sight, many smaller Pokémon offering tribute at the feet of a magisterial Tsareena. Her “guards” don’t take kindly to them showing any disrespect."
+        "text": "Jungle Queen: The characters encounter a strange sight: many smaller Pokémon offering tribute at the feet of a magisterial Tsareena. Her “guards” don’t take kindly to them showing any disrespect."
       }
     ]
   },
@@ -572,11 +572,11 @@
       },
       {
         "roll": 2,
-        "text": "Mightyena Sled: A merchant speeds across the ice on a sled towed by Mighteyena. They’re happy to trade with the party, but say they’re in a rush to get to their destination before nightfall..."
+        "text": "Mightyena Sled: A merchant speeds across the ice on a sled towed by Mightyena. They’re happy to trade with the party, but say they’re in a rush to get to their destination before nightfall..."
       },
       {
         "roll": 3,
-        "text": "Beartic’s Den: The party stumble on Cubchoo playing outside of a (ice)cave entrance. If they startle them or try to capture them, an angry Alpha Beartic comes rushing out to attack them."
+        "text": "Beartic’s Den: The party stumble on Cubchoo playing outside an ice cave entrance. If they startle them or try to capture them, an angry Alpha Beartic comes rushing out to attack them."
       },
       {
         "roll": 4,
@@ -584,11 +584,11 @@
       },
       {
         "roll": 5,
-        "text": "Hunter x Hunted: The party can see (Alolan) Ninetails hunting (Ruskovan) Bunnelby. It’s furiously attempting to dig into a warren. But flees in surprise when it notices the party."
+        "text": "Hunter x Hunted: The party can see (Alolan) Ninetales hunting (Ruskovan) Bunnelby. It’s furiously attempting to dig into a warren, but flees in surprise when it notices the party."
       },
       {
         "roll": 6,
-        "text": "Naughty or Nice: Delibird flies overhead, with a cheerful “Deliiii” it drops a present from its sack. Roll 1D4 on a 1-2 the present explodes doing 2 Set Damage to everyone in the party, (unless they can Evade). On 3-4 it is full of berries or random Held Items."
+        "text": "Naughty or Nice: Delibird flies overhead and, with a cheerful “Deliiii,” drops a present from its sack. Roll 1D4: on a 1–2, the present explodes, dealing 2 Set Damage to everyone in the party (unless they can Evade); on a 3–4, it is full of berries or random Held Items."
       },
       {
         "roll": 7,
@@ -600,11 +600,11 @@
       },
       {
         "roll": 9,
-        "text": "Ranger’s Respite: The characters stumble upon a small shack. Used by the local rangers or hunters when working in the area. The door is locked, but the key is found or lock able to be picked on a successful Insight + Alert or Dexterity + Crafts check. The place is dry, out of the elements and there is a small wood-fired stove, a stack of dry firewood and some dried or tinned goods within."
+        "text": "Ranger’s Respite: The characters stumble upon a small shack used by the local rangers or hunters when working in the area. The door is locked, but the key can be found or the lock can be picked with a successful Insight + Alert or Dexterity + Crafts check. The place is dry, out of the elements, and contains a small wood-fired stove, a stack of dry firewood and some dried or tinned goods."
       },
       {
         "roll": 10,
-        "text": "Aurora Courtship: The party encounter a Tungryph who seems to be courting a mate (ineffectively). Clever + Lore checks to remember what they’ve heard about the Pokémon, or Insight + Empathy / Etiquette to hatch a plan. They are rewarded with an Ice Stone or “Tutor Move” from Tungryph’s Move list."
+        "text": "Aurora Courtship: The party encounter a Tungryph who seems to be courting a mate ineffectively. Clever + Lore checks can help them remember what they’ve heard about the Pokémon, while Insight + Empathy / Etiquette can help them hatch a plan. They are rewarded with an Ice Stone or “Tutor Move” from Tungryph’s Move list."
       }
     ]
   },
@@ -613,19 +613,19 @@
     "entries": [
       {
         "roll": 1,
-        "text": "Somnorific Spores: The party accidentally disturb a group of Shroomish or Parasect. Who shower them with huge cloud of sleep inducing spores in their panic..."
+        "text": "Somnorific Spores: The party accidentally disturb a group of Shroomish or Parasect, who shower them with a huge cloud of sleep-inducing spores in their panic..."
       },
       {
         "roll": 2,
-        "text": "Fake Tears: A Pokémon can be heard, sounding very upset. The players find a distraught baby Pokémon. Seemingly separated from its parent. In reality it leads them into an ambush and attempts to steal their food."
+        "text": "Fake Tears: A Pokémon can be heard sounding very upset. The players find a distraught baby Pokémon that appears to have been separated from its parent. In reality, it leads them into an ambush and attempts to steal their food."
       },
       {
         "roll": 3,
-        "text": "Mushroom Gatherer: A friendly greeting calls out, and the characters see a young woman with a basket full of mushrooms nearby. She offers to share the location of where she found them. A successful Insight + Nature / Alert check nets them a few Tiny or Big Mushrooms but unsuccessful checks turn out to be angry Amoongus."
+        "text": "Mushroom Gatherer: A friendly greeting calls out, and the characters see a young woman with a basket full of mushrooms nearby. She offers to share the location where she found them. A successful Insight + Nature / Alert check nets them a few Tiny or Big Mushrooms, but on an unsuccessful check the “mushrooms” turn out to be angry Amoonguss."
       },
       {
         "roll": 4,
-        "text": "Dancing Blossoms: The party encounter a tranquil glade, where the light breaks through the heavy canopy. Bellossom are dancing in a circle, but flee as soon as they notice the characters. Perhaps leaving behind an item or a watching Oddish that trips over."
+        "text": "Dancing Blossoms: The party encounter a tranquil glade where the light breaks through the heavy canopy. Bellossom are dancing in a circle, but flee as soon as they notice the characters, perhaps leaving behind an item or a watching Oddish that trips over."
       },
       {
         "roll": 5,
@@ -633,11 +633,11 @@
       },
       {
         "roll": 6,
-        "text": "Hollow Guardians: A deforested area with a large gnarled stump lies in the character’s path. It gives off an eerie aura. The large stump transforms into Trevenant with smaller ones into Phantump should the party linger."
+        "text": "Hollow Guardians: A deforested area with a large gnarled stump lies in the characters’ path. It gives off an eerie aura. The large stump transforms into Trevenant, while the smaller stumps become Phantump, should the party linger."
       },
       {
         "roll": 7,
-        "text": "Mysterious Shrine: The party find a small shrine next to a crystal clear, waterfall. The shrine appears to have been built to honor the “guardian of the forest”. Drinking from the creek removes 1 level of Exhaustion and grants 3 Stamina points."
+        "text": "Mysterious Shrine: The party find a small shrine next to a crystal-clear waterfall. The shrine appears to have been built to honour the “guardian of the forest”. Drinking from the creek removes 1 level of Exhaustion and grants 3 Stamina points."
       },
       {
         "roll": 8,
@@ -645,19 +645,19 @@
       },
       {
         "roll": 9,
-        "text": "The Wild Hunt: Characters encounter an Alpha Sawsbuck (appropriate seasonal form), being chased through the forest by a mysterious hunting party and their Lycanrock, who are tracking it. The hunters are mounted on Galarian Rapidash, and give off a strange almost otherworldly vibe."
+        "text": "The Wild Hunt: Characters encounter an Alpha Sawsbuck (appropriate seasonal form) being chased through the forest by a mysterious hunting party and their Lycanroc, who are tracking it. The hunters are mounted on Galarian Rapidash and give off a strange, almost otherworldly vibe."
       },
       {
         "roll": 10,
-        "text": "Forester’s Retreat: The characters find a small cabin, where an old forester and their Scyther live. They offer the party tea or something stronger, and want the characters help with something. Offering to cook them dinner and teach their Pokémon a Move as payment."
+        "text": "Forester’s Retreat: The characters find a small cabin where an old forester and their Scyther live. They offer the party tea or something stronger and want the characters’ help with something. They offer to cook them dinner and teach their Pokémon a Move as payment."
       },
       {
         "roll": 11,
-        "text": "Dueling Beetles: The characters encounter Heracross and Pinsir engaged in a battle. They may decide team up if the characters try to break up their match however..."
+        "text": "Dueling Beetles: The characters encounter Heracross and Pinsir engaged in a battle. They may decide to team up if the characters try to break up their match, however..."
       },
       {
         "roll": 12,
-        "text": "Forager’s Delight: This section of the forest has an abundance natural resources, easily found and gathered. Roll once on each Forage Table."
+        "text": "Forager’s Delight: This section of the forest has an abundance of natural resources, easily found and gathered. Roll once on each Forage Table."
       }
     ]
   }

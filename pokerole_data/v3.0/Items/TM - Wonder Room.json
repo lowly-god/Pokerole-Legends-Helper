@@ -1,0 +1,13 @@
+{
+  "Name": "TM - Wonder Room",
+  "_id": "tm-wonder-room",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Wonder Room to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "13500",
+  "Cures": "",
+  "Image": ""
+}

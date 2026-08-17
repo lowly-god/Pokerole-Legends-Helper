@@ -1,0 +1,13 @@
+{
+  "Name": "TR - Rising Voltage",
+  "_id": "tr-rising-voltage",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Rising Voltage to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "5000",
+  "Cures": "",
+  "Image": ""
+}

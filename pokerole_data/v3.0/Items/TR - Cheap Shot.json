@@ -1,0 +1,13 @@
+{
+  "Name": "TR - Cheap Shot",
+  "_id": "tr-cheap-shot",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Cheap Shot to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "4500",
+  "Cures": "",
+  "Image": ""
+}

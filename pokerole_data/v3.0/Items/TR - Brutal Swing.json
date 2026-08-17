@@ -1,0 +1,13 @@
+{
+  "Name": "TR - Brutal Swing",
+  "_id": "tr-brutal-swing",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Brutal Swing to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "4500",
+  "Cures": "",
+  "Image": ""
+}

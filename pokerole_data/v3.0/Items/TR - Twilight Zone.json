@@ -1,0 +1,13 @@
+{
+  "Name": "TR - Twilight Zone",
+  "_id": "tr-twilight-zone",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Twilight Zone to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "5500",
+  "Cures": "",
+  "Image": ""
+}

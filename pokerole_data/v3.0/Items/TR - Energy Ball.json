@@ -1,0 +1,13 @@
+{
+  "Name": "TR - Energy Ball",
+  "_id": "tr-energy-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Energy Ball to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "5500",
+  "Cures": "",
+  "Image": ""
+}

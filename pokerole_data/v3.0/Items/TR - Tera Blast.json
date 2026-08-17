@@ -1,0 +1,13 @@
+{
+  "Name": "TR - Tera Blast",
+  "_id": "tr-tera-blast",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Tera Blast to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "6000",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "TR - Rock Polish",
+  "_id": "tr-rock-polish",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Rock Polish to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "5000",
+  "Cures": "",
+  "Image": ""
+}

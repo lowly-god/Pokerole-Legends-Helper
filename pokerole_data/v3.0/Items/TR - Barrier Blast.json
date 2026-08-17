@@ -1,0 +1,13 @@
+{
+  "Name": "TR - Barrier Blast",
+  "_id": "tr-barrier-blast",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Barrier Blast to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "3500",
+  "Cures": "",
+  "Image": ""
+}

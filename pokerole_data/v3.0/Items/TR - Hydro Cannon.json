@@ -1,0 +1,13 @@
+{
+  "Name": "TR - Hydro Cannon",
+  "_id": "tr-hydro-cannon",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Hydro Cannon to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "6000",
+  "Cures": "",
+  "Image": ""
+}

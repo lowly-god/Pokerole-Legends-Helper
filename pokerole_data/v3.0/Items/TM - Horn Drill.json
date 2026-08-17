@@ -1,0 +1,13 @@
+{
+  "Name": "TM - Horn Drill",
+  "_id": "tm-horn-drill",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Horn Drill to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "10500",
+  "Cures": "",
+  "Image": ""
+}

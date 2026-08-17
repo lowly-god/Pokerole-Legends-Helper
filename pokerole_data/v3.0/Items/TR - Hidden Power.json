@@ -1,0 +1,13 @@
+{
+  "Name": "TR - Hidden Power",
+  "_id": "tr-hidden-power",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Hidden Power to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "4500",
+  "Cures": "",
+  "Image": ""
+}

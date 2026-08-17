@@ -1,0 +1,13 @@
+{
+  "Name": "TR - Mud Shot",
+  "_id": "tr-mud-shot",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Mud Shot to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "3500",
+  "Cures": "",
+  "Image": ""
+}

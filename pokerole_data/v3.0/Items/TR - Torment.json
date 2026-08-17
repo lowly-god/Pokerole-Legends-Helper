@@ -1,0 +1,13 @@
+{
+  "Name": "TR - Torment",
+  "_id": "tr-torment",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Torment to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "5000",
+  "Cures": "",
+  "Image": ""
+}

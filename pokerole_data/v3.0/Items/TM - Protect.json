@@ -1,0 +1,13 @@
+{
+  "Name": "TM - Protect",
+  "_id": "tm-protect",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Protect to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "18000",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "TM - Cosmic Power",
+  "_id": "tm-cosmic-power",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Cosmic Power to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "15000",
+  "Cures": "",
+  "Image": ""
+}

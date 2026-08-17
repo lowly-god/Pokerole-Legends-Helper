@@ -1,0 +1,13 @@
+{
+  "Name": "TR - Recycle",
+  "_id": "tr-recycle",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Recycle to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "4000",
+  "Cures": "",
+  "Image": ""
+}
