@@ -122,13 +122,6 @@
     {
       "Learned": "Standard",
       "Name": "Cauterize"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Magma Drift"
     }
-  ],
-  "HM": [
-    "Magma Drift"
   ]
 }

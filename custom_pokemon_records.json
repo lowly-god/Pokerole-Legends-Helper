@@ -4515,6 +4515,9 @@
         "Learned": "Ace",
         "Name": "Steel Beam"
       }
+    ],
+    "HM": [
+      "Magma Drift"
     ]
   },
   {
@@ -29644,7 +29647,11 @@
     "evolution_text": null,
     "evolution_time": null,
     "evolves_from": null,
-    "Moves": []
+    "Moves": [],
+    "HM": [
+      "Magma Drift",
+      "Strength"
+    ]
   },
   {
     "source_title": "Mega Chesnaught",
@@ -33698,6 +33705,9 @@
         "Learned": "Ace",
         "Name": "Megahorn"
       }
+    ],
+    "HM": [
+      "Magma Drift"
     ]
   },
   {
@@ -36505,6 +36515,9 @@
         "Learned": "Ace",
         "Name": "Sandstorm Serenade"
       }
+    ],
+    "HM": [
+      "Magma Drift"
     ]
   },
   {
@@ -36793,7 +36806,8 @@
       }
     ],
     "HM": [
-      "Defog"
+      "Defog",
+      "Magma Drift"
     ]
   },
   {
