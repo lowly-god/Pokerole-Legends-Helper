@@ -4,7 +4,7 @@
   "Power": 3,
   "Damage1": "Special",
   "Damage2": "",
-  "Accuracy1": "Dexterity/Special",
+  "Accuracy1": "Dexterity / Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
   "Effect": "Roll 3 Chance Dice to inflict Burn (1) on the Target. If a Target is Out of Range due to using the Move \"Dive\", this Move hits anyway.",

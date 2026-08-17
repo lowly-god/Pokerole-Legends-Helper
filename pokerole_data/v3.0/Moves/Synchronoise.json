@@ -5,7 +5,7 @@
   "Damage1": "Special",
   "Damage2": "",
   "Accuracy1": "Special",
-  "Accuracy2": "Channel/Perform",
+  "Accuracy2": "Channel / Perform",
   "Target": "Area",
   "Effect": "Sound Move. Choose one Type (Fire, Poison, Steel, etc.). This move only affects those with that Type.",
   "Description": "Each type of energy is contained by a thin layer of particles. With the right vibration frequency, that thin layer can be shattered like glass.",

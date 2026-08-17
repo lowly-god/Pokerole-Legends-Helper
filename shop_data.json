@@ -5912,9 +5912,45 @@
           "category": "General Items"
         },
         {
-          "name": "Power Increasers [Various]",
+          "name": "Macho Brace",
           "price": "6000",
-          "effect": "Reduce Dexterity by 1. Increase Attribute of User’s by 2",
+          "effect": "Doubles the Training Points gained in Battle, but the Holders Dexterity is Halved (Rounded Down)",
+          "category": "General Items"
+        },
+        {
+          "name": "Power Weight",
+          "price": "6000",
+          "effect": "Increases the Holder's HP by 2 but reduces their Dexterity by 1",
+          "category": "General Items"
+        },
+        {
+          "name": "Power Bracer",
+          "price": "6000",
+          "effect": "Increases the Holder's Strength by 1 but reduces their Dexterity by 1",
+          "category": "General Items"
+        },
+        {
+          "name": "Power Belt",
+          "price": "6000",
+          "effect": "Increases the Holder's Defense by 2 but reduces their Dexterity by 1",
+          "category": "General Items"
+        },
+        {
+          "name": "Power Lens",
+          "price": "6000",
+          "effect": "Increases the Holder's Special by 1 but reduces their Dexterity by 1",
+          "category": "General Items"
+        },
+        {
+          "name": "Power Band",
+          "price": "6000",
+          "effect": "Increases the Holder's Special Defense by 2 but reduces their Dexterity by 1",
+          "category": "General Items"
+        },
+        {
+          "name": "Power Anklet",
+          "price": "6000",
+          "effect": "The Holder's Moves gain Reaction 1, but their Dexterity is reduced by 1",
           "category": "General Items"
         },
         {
@@ -8065,9 +8101,45 @@
           "category": "General Items"
         },
         {
-          "name": "Power Increasers [Various]",
+          "name": "Macho Brace",
           "price": "6000",
-          "effect": "Reduce Dexterity by 1. Increase Attribute of User’s by 2",
+          "effect": "Doubles the Training Points gained in Battle, but the Holders Dexterity is Halved (Rounded Down)",
+          "category": "General Items"
+        },
+        {
+          "name": "Power Weight",
+          "price": "6000",
+          "effect": "Increases the Holder's HP by 2 but reduces their Dexterity by 1",
+          "category": "General Items"
+        },
+        {
+          "name": "Power Bracer",
+          "price": "6000",
+          "effect": "Increases the Holder's Strength by 1 but reduces their Dexterity by 1",
+          "category": "General Items"
+        },
+        {
+          "name": "Power Belt",
+          "price": "6000",
+          "effect": "Increases the Holder's Defense by 2 but reduces their Dexterity by 1",
+          "category": "General Items"
+        },
+        {
+          "name": "Power Lens",
+          "price": "6000",
+          "effect": "Increases the Holder's Special by 1 but reduces their Dexterity by 1",
+          "category": "General Items"
+        },
+        {
+          "name": "Power Band",
+          "price": "6000",
+          "effect": "Increases the Holder's Special Defense by 2 but reduces their Dexterity by 1",
+          "category": "General Items"
+        },
+        {
+          "name": "Power Anklet",
+          "price": "6000",
+          "effect": "The Holder's Moves gain Reaction 1, but their Dexterity is reduced by 1",
           "category": "General Items"
         },
         {

@@ -2,7 +2,7 @@
   "Name": "Accelerock",
   "Type": "Rock",
   "Power": 2,
-  "Damage1": "Strength/Dexterity",
+  "Damage1": "Strength / Dexterity",
   "Damage2": "",
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",

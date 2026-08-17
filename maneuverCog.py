@@ -22,7 +22,7 @@ def maneuver_text(m, include_source=False):
     out = f"**{m['name']}**"
     if include_source:
         out += f" — *{m['source']}*"
-        if m.get("tier"):
+        if m.get("tier") and m.get("tier") != "Learned":
             out += f" ({m['tier']})"
     out += "\n"
     if m.get("description"):

@@ -1,178 +1,47 @@
 import random
-
 import discord
 from discord import app_commands
 from discord.ext import commands
 
+FORAGING_TABLES = {1: ['Oran Berry', 'Red Apricorn', 'Pecha Berry', 'Chesto Berry', 'Cheri Berry', 'Blue Apricorn', 'Persim Berry', 'Aspear Berry', 'Pink Apricorn', 'Tiny Bamboo Shoot'], 2: ['Chesto Berry', 'Red Apricorn', 'Rawst Berry', 'Sitrus Berry', 'Cyan Apricorn', '5x Poke Food Ingredients', 'Energy Root', 'Gray Apricorn', 'Big Bamboo Shoot', 'Green Apricorn'], 3: ['Green Apricorn', 'Lum Berry', 'Sitrus Berry', 'White Apricorn', 'Energy Root', 'Gray Apricorn', 'Cyan Apricorn', '3x Meal Ingredients (Rations)', 'Energy Root', 'Big Mushroom'], 4: ['Pink Apricorn', 'Blue Apricorn', 'Honey', 'Lum Berry', 'Vitality Herb', 'Sitrus Berry', 'Stardust', 'Gray Apricorn', 'Revival Herb', 'Black Apricorn'], 5: ['Green Apricorn', 'White Apricorn', 'Evolutionary Stone', '5x Gourmet Poke Food Ingredients', 'Big Mushroom', 'Revival Herb', 'Energy Root', 'Type Boosting Held Item', 'Black Apricorn', 'Nugget'], 6: ['Cyan Apricorn', 'Nature Mint', 'Evolutionary Item', 'Star Piece', 'Black Apricorn', 'Revival Herb', 'Vitality Herb', 'Random Held Item', 'Balm Mushroom', '90+ Luck Check to find very rare Item']}
+EVOLUTION_STONES = ['Fire Stone', 'Thunder Stone', 'Water Stone', 'Ice Stone', 'Leaf Stone', 'Moon Stone', 'Sun Stone', 'Toxin Stone', 'Precious Stone', 'Brave Stone', 'Desert Rose', 'Amber Onyx', 'Feather Stone', 'Shiny Stone', 'Dusk Stone', 'Dawn Stone', 'Adamantite Stone', 'Link Stone', 'Rune Stone']
+EVOLUTION_ITEMS = ['Auspicious Armor', 'Black Augurite', 'Chipped Pot', 'Corrupted Drive', 'Cracked Pot', 'Deep Sea Scale', 'Deep Sea Tooth', 'Dragon Scale', 'Dubious Disc', 'Electirizer', 'Galarica Cuff', 'Galarica Wreath', 'King’s Rock', 'Magmarizer', 'Malicious Armor', 'Masterpiece Teacup', 'Metal Alloy', 'Metal Coat', 'Oval Stone', 'Peat Block', 'Prism Scale', 'Protector', 'Razor Claw', 'Razor Fang', 'Reaper Cloth', 'Sachet', 'Satellite Parts', 'Sweets [Various]', 'Sweet Apple', 'Syrupy Apple', 'Tarnished Scale', 'Tart Apple', 'Unremarkable Teacup', 'Upgrade', 'Whipped Dream']
+TYPE_BOOSTING_HELD_ITEMS = ['Black Belt', 'Black Glasses', 'Charcoal', 'Draco Plate', 'Dragon Fang', 'Dread Plate', 'Earth Plate', 'Fairy Feather', 'Fist Plate', 'Flame Plate', 'Hard Stone', 'Insect Plate', 'Iron Plate', 'Magnet', 'Meadow Plate', 'Metal Coat', 'Mind Plate', 'Miracle Seed', 'Mystic Water', 'Never Melt Ice', 'Odd Incense', 'Pixie Plate', 'Poison Barb', 'Rock Incense', 'Rose Incense', 'Sea Incense', 'Sharp Beak', 'Silk Scarf', 'Silver Powder', 'Sky Plate', 'Soft Sand', 'Spell Tag', 'Splash Plate', 'Spooky Plate', 'Stone Plate', 'Toxic Plate', 'Twisted Spoon', 'Wave Incense']
+NATURE_MINTS = ['Adamant Mint', 'Bold Mint', 'Brave Mint', 'Calm Mint', 'Careful Mint', 'Gentle Mint', 'Hasty Mint', 'Impish Mint', 'Jolly Mint', 'Lax Mint', 'Lonely Mint', 'Mild Mint', 'Modest Mint', 'Naive Mint', 'Naughty Mint', 'Quiet Mint', 'Rash Mint', 'Relaxed Mint', 'Sassy Mint', 'Serious Mint', 'Timid Mint']
+HELD_ITEMS = ['Ability Shield', 'Air Balloon', 'Amulet Coin', 'Assault Vest', 'Big Root', 'Binding Band', 'Black Sludge', 'Blue Scarf', 'Blunder Policy', 'Bone Dice', 'Energy Booster', 'Bright Powder', 'Choice Band', 'Choice Scarf', 'Choice Specs', 'Cleanse Tag', 'Clear Amulet', 'Corroded Rock', 'Covert Cloak', 'Damp Rock', 'Deep Sea Scale', 'Deep Sea Tooth', 'Destiny Knot', 'Eject Button', 'Eject Pack', 'Everstone', 'Eviolite', 'Expert Belt', 'Flame Orb', 'Float Stone', 'Fluffy Blanket', 'Focus Band', 'Focus Sash', 'Full Incense', 'Green Scarf', 'Grip Claw', 'Heat Rock', 'Heavy-Duty Boots', 'Hypnotist’s Pendulum', 'Icy Rock', 'Iron Ball', 'King’s Rock', 'Lagging Tail', 'Lax Incense', 'Leek', 'Leftovers', 'Life Orb', 'Light Ball', 'Light Clay', 'Loaded Dice', 'Luck Incense', 'Lucky Egg', 'Lucky Punch', 'Macho Brace', 'Metal Powder', 'Metronome', 'Muscle Band', 'Obsidian Rock', 'Pink Scarf', 'Power Weight', 'Power Bracer', 'Power Belt', 'Power Lens', 'Power Band', 'Power Anklet', 'Protective Pads', 'Punching Gloves', 'Pure Incense', 'Quick Claw', 'Quick Powder', 'Razor Claw', 'Razor Fang', 'Red Card', 'Red Scarf', 'Ring Target', 'Rocky Helmet', 'Room Service', 'Safety Goggles', 'Scope Lens', 'Shed Shell', 'Shell Bell', 'Smoke Ball', 'Smooth Rock', 'Soothe Bell', 'Sticky Barb', 'Terrain Extender', 'Thick Club', 'Throat Spray', 'Toxic Orb', 'Utility Umbrella', 'Weakness Policy', 'Wide Lens', 'Wise Glasses', 'Yellow Scarf', 'Zoom Lens']
+RARE_ITEM_TABLES = {'Mega Stone': ['(Alolan) Hatterenite', '(Hissuian) Zoroarkite', '(Orrean) Miloticite', '(Ruskovan) Garchompite', 'Abomasite', 'Absolite', 'Absolite Z', 'Accelgorite', 'Aerodactylite', 'Aggronite', 'Alakazamite', 'Alakazite', 'Altarianite', 'Altarionite', 'Ampharosite', 'Amphorosite', 'Arbokinite', 'Ariadosite', 'Audinite', 'Azumarillite', 'Banetite', 'Banettite', 'Barbaracite', 'Baxcalibrite', 'Beedrilite', 'Beedrillite', 'Blastoisinite', 'Blastoisonite', 'Blazikenite', 'Blisseyite', 'Bravialite', 'Butterfreeite', 'Cameruptite', 'Chandelurite', 'Charizardite X', 'Charizardite Y', 'Chesnaughtite', 'Chimechite', 'Cinccinite', 'Clawitzerite', 'Clefablite', 'Crabominite', 'Crobatite', 'Delphoxite', 'Dragalgite', 'Dragoninite', 'Drampanite', 'Dunborosite', 'Elektrossite', 'Emboarite', 'Escavalierite', 'Excadrite', 'Falinksite', 'Fauxpunnite', 'Feraligite', 'Floettite', 'Froslassite', 'Galladite', 'Garchompite', 'Garchompite Z', 'Gardevoirite', 'Gengarite', 'Glalitite', 'Glimmoranite', 'Golisopite', 'Golurkite', 'Greninjite', 'Gyaradosite', 'Hawluchinite', 'Heracronite', 'Houndoominite', 'Hydrappicite', 'Indeedeerite', 'Infernapetite', 'Inteleonite', 'Kangaskahnite', 'Kangaskhanite', 'Kinglerite', 'Ledianite', 'Lokixite', 'Lopunnite', 'Lucarionite', 'Lucarionite Z', 'Ludicolonite', 'Lunatonite', 'Lurantisite', 'Machamptite', 'Magnezonite', 'Malamarite', 'Manectite', 'Mauseholdite', 'Mawilite', 'Medichamite', 'Meganiumite', 'Meowsicite', 'Metagrossite', 'Mightyenite', 'Miloticite', 'Mismagisite', 'Parasectite', 'Pidgeotite', 'Pinsirite', 'Pyroarite', 'Raichunite X', 'Raichunite Y', 'Sablenite', 'Salamancite', 'Salamencite', 'Salazzlite', 'Sceptilite', 'Scizorite', 'Scolipite', 'Scovillainite', 'Scraftinite', 'Serpiorite', 'Sharpedonite', 'Skarmorite', 'Slowbronite', 'Slowkingite', 'Solrockite', 'Staraptite', 'Starminite', 'Steelixite', 'Swampertite', 'Tatsugirinite', 'Tyranitarite', 'Venusaurite', 'Victreebelite', 'Voodoomite', 'Weavilite', 'Weezingtite', 'Wobbuffetite', 'Xatunite', 'Yanmegarite', 'Zorarkite'], 'Z-Crystal': ['Buginium Z', 'Darkinium Z', 'Dragonium Z', 'Electrium Z', 'Fairium Z', 'Fightinium Z', 'Firium Z', 'Flyinium Z', 'Ghostium Z', 'Grassium Z', 'Groundium Z', 'Icium Z', 'Normalium Z', 'Poisonium Z', 'Psychium Z', 'Rockium Z', 'Steelium Z', 'Waterium Z'], 'Terasta Shard': ['Terasta Bug', 'Terasta Dark', 'Terasta Dragon', 'Terasta Electric', 'Terasta Fairy', 'Terasta Fighting', 'Terasta Fire', 'Terasta Flying', 'Terasta Ghost', 'Terasta Grass', 'Terasta Ground', 'Terasta Ice', 'Terasta Poison', 'Terasta Psychic', 'Terasta Rock', 'Terasta Steel', 'Terasta Water'], 'Crest': ['Bastiodon Crest', 'Boltund Crest', 'Castform Crest', 'Champeon Crest', 'Cofagrigus Crest', 'Cryogonal Crest', 'Darmanitan Crest', 'Dedenne Crest', 'Delcatty Crest', 'Drakeon Crest', 'Drifblim Crest', 'Druddigon Crest', 'Dusknoir Crest', 'Dusteon Crest', 'Eevoleon Crest', 'Electrode Crest', 'Empoleon Crest', 'Espeon Crest', 'Faerry Crest', 'Fearow Crest', 'Flareon Crest', 'Flygon Crest', 'Furret Crest', 'Garbocean Crest', 'Garbodor / Garbocean Crest', 'Gigalith Crest', 'Glaceon Crest', 'Glaveon Crest', 'Gothitelle Crest', 'Hawlucha Crest', 'Hypno Crest', 'Jolteon Crest', 'Kleavor Crest', 'Lanturn Crest', 'Leafeon Crest', 'Luvdisc Crest', 'Luxray Crest', 'Magcargo Crest', 'Mummeon Crest', 'Nimbeon Crest', 'Noctowl Crest', 'Noxeon Crest', 'Oricorio Crest', 'Orreon Crest', 'Pangoro Crest', 'Papilleon Crest', 'Probopass Crest', 'Rampardos Crest', 'Relicanth Crest', 'Reuniclus Crest', 'Roserade Crest', 'Samurott Crest', 'Sawsbuck Crest', 'Seraphish Crest', 'Seviper Crest', 'Shiinotic Crest', 'Simipour Crest', 'Simipsych Crest', 'Simisage Crest', 'Simisear Crest', 'Simisnear Crest', 'Simistrike Crest', 'Skuntank Crest', 'Spiritomb Crest', 'Sunflora Crest', 'Swalot Crest', 'Sylveon Crest', 'Thievul Crest', 'Torterra Crest', 'Typhlosion Crest', 'Umbreon Crest', 'Vaporeon Crest', 'Vespiquen Crest', 'Whiscash Crest', 'Wyrdeer Crest', 'Zangoose Crest', 'Zoroark Crest']}
 
-FORAGING_TABLES = {
-    1: [
-        "Oran Berry",
-        "Red Apricorn",
-        "Pecha Berry",
-        "Chesto Berry",
-        "Cheri Berry",
-        "Blue Apricorn",
-        "Persim Berry",
-        "Aspear Berry",
-        "Pink Apricorn",
-        "Tiny Bamboo Shoot",
-    ],
-    2: [
-        "Chesto Berry",
-        "Red Apricorn",
-        "Rawst Berry",
-        "Sitrus Berry",
-        "Cyan Apricorn",
-        "5x Poke Food Ingredients",
-        "Energy Root",
-        "Gray Apricorn",
-        "Big Bamboo Shoot",
-        "Green Apricorn",
-    ],
-    3: [
-        "Green Apricorn",
-        "Lum Berry",
-        "Sitrus Berry",
-        "White Apricorn",
-        "Energy Root",
-        "Gray Apricorn",
-        "Cyan Apricorn",
-        "3x Meal Ingredients (Rations)",
-        "Energy Root",
-        "Big Mushroom",
-    ],
-    4: [
-        "Pink Apricorn",
-        "Blue Apricorn",
-        "Honey",
-        "Lum Berry",
-        "Vitality Herb",
-        "Sitrus Berry",
-        "Stardust",
-        "Gray Apricorn",
-        "Revival Herb",
-        "Black Apricorn",
-    ],
-    5: [
-        "Green Apricorn",
-        "White Apricorn",
-        "Evolutionary Stone",
-        "5x Gourmet Poke Food Ingredients",
-        "Big Mushroom",
-        "Revival Herb",
-        "Energy Root",
-        "Type Boosting Held Item",
-        "Black Apricorn",
-        "Nugget",
-    ],
-    6: [
-        "Cyan Apricorn",
-        "Nature Mint",
-        "Evolutionary Item",
-        "Star Piece",
-        "Black Apricorn",
-        "Revival Herb",
-        "Vitality Herb",
-        "Random Held Item",
-        "Balm Mushroom",
-        "90+ Luck Check to find very rare Item",
-    ],
-}
+def table_label(level): return "Six+ successes" if level == 6 else f"{level} success" + ("" if level == 1 else "es")
+def tables_for_successes(successes): return [] if successes <= 0 else list(range(min(successes,6),0,-2))
+def resolve_find(result):
+    pools={"Evolutionary Stone":EVOLUTION_STONES,"Evolutionary Item":EVOLUTION_ITEMS,"Type Boosting Held Item":TYPE_BOOSTING_HELD_ITEMS,"Nature Mint":NATURE_MINTS,"Random Held Item":HELD_ITEMS}
+    return random.choice(pools[result]) if result in pools else result
 
-
-def table_label(level: int) -> str:
-    return "Six+ successes" if level == 6 else f"{level} success" + ("" if level == 1 else "es")
-
-
-def tables_for_successes(successes: int):
-    """
-    Roll the table equal to the result, then every second table below it:
-    6+ -> 6, 4, 2
-    5  -> 5, 3, 1
-    4  -> 4, 2
-    3  -> 3, 1
-    2  -> 2
-    1  -> 1
-    """
-    if successes <= 0:
-        return []
-
-    top = min(successes, 6)
-    return list(range(top, 0, -2))
-
+def apply_luck_modifier(d100_roll, luck_modifier):
+    return max(d100_roll, luck_modifier)
 
 class Foraging(commands.Cog):
-    def __init__(self, bot):
-        self.bot = bot
-
-    @app_commands.command(
-        name="foraging",
-        description="Roll an Insight + Nature check to see what you find on the foraging table"
-    )
-    @app_commands.describe(
-        dice="Number of d6s in the Insight + Nature pool"
-    )
-    async def foraging(
-        self,
-        interaction: discord.Interaction,
-        dice: app_commands.Range[int, 1, 50]
-    ):
-        rolls = [random.randint(1, 6) for _ in range(dice)]
-        successes = sum(1 for roll in rolls if roll >= 4)
-
-        roll_display = ", ".join(
-            f"**{roll}**" if roll >= 4 else str(roll)
-            for roll in rolls
-        )
-
-        blocks = [
-            "## 🌿 Foraging Check",
-            f"**Dice Pool:** {dice}d6 (Insight + Nature)",
-            f"**Rolls:** {roll_display}",
-            f"**Successes:** **{successes}**",
-        ]
-
-        if successes == 0:
-            blocks.append("\nNo successes — nothing useful was found.")
-            await interaction.response.send_message("\n".join(blocks))
-            return
-
-        table_levels = tables_for_successes(successes)
-        blocks.append(
-            "\n**Foraging Rolls:** " +
-            ", ".join(table_label(level) for level in table_levels)
-        )
-
-        rare_luck_triggered = False
-
-        for level in table_levels:
-            d10 = random.randint(1, 10)
-            result = FORAGING_TABLES[level][d10 - 1]
-
-            blocks.append(
-                f"\n### {table_label(level)} Table\n"
-                f"🎲 **d10: {d10}** — {result}"
-            )
-
-            # The rare-item Luck Check only applies when the character got 6+
-            # successes and rolls 10 on the Six+ table.
-            if successes >= 6 and level == 6 and d10 == 10:
-                luck = random.randint(1, 100)
-                rare_luck_triggered = True
-                if luck >= 90:
-                    blocks.append(
-                        f"🍀 **Rare Item Luck Check: {luck}** — **SUCCESS!**\n"
-                        "Find a very rare item (Curiosity Trader item, Z-Crystal, "
-                        "Mega Stone, etc., at the Storyteller's discretion)."
-                    )
-                else:
-                    blocks.append(
-                        f"🍀 **Rare Item Luck Check: {luck}** — Failed (90+ required)."
-                    )
-
-        await interaction.response.send_message("\n".join(blocks))
-
-
-async def setup(bot):
-    await bot.add_cog(Foraging(bot))
+    def __init__(self, bot): self.bot=bot
+    @app_commands.command(name="foraging", description="Roll an Insight + Nature check to see what you find on the foraging table")
+    @app_commands.describe(dice="Number of d6s in the Insight + Nature pool", luck_modifier="Luck Modifier: a multiple of 5 from 0 to 100; this is the minimum possible D100 result")
+    async def foraging(self, interaction: discord.Interaction, dice: app_commands.Range[int,1,50], luck_modifier: app_commands.Range[int,0,100]=0):
+        if luck_modifier % 5:
+            await interaction.response.send_message("Luck Modifier must be a multiple of 5 (0, 5, 10 ... 100).", ephemeral=True); return
+        rolls=[random.randint(1,6) for _ in range(dice)]; successes=sum(r>=4 for r in rolls)
+        disp=', '.join(f"**{r}**" if r>=4 else str(r) for r in rolls)
+        blocks=["## 🌿 Foraging Check",f"**Dice Pool:** {dice}d6 (Insight + Nature)",f"**Rolls:** {disp}",f"**Successes:** **{successes}**"]
+        if not successes:
+            blocks.append("\nNo successes — nothing useful was found."); await interaction.response.send_message('\n'.join(blocks)); return
+        levels=tables_for_successes(successes); blocks.append("\n**Foraging Rolls:** "+', '.join(table_label(x) for x in levels))
+        for level in levels:
+            d10=random.randint(1,10); raw=FORAGING_TABLES[level][d10-1]; result=resolve_find(raw)
+            blocks.append(f"\n### {table_label(level)} Table\n🎲 **d10: {d10}** — {result}")
+            if successes>=6 and level==6 and d10==10:
+                base=random.randint(1,100); total=apply_luck_modifier(base,luck_modifier)
+                blocks.append(f"🍀 **Rare Item Luck Check: 1D100 = {base} | Luck Modifier: {luck_modifier} | Result: {total}**")
+                if total>=90:
+                    category=random.choice(list(RARE_ITEM_TABLES)); item=random.choice(RARE_ITEM_TABLES[category])
+                    blocks.append(f"**SUCCESS!** — {item} ({category})")
+                else: blocks.append("Failed (90+ required).")
+        await interaction.response.send_message('\n'.join(blocks))
+async def setup(bot): await bot.add_cog(Foraging(bot))

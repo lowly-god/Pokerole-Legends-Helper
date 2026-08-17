@@ -1444,8 +1444,17 @@ async def move_backend(movename, version: str):
         output += f' -- **{found[1].capitalize()}**\n'
         output += f'**Target**: {found[7]}'
         output += f' -- **Power**: {found[2]}\n'
-        output += f'**Damage Dice**: {(found[3] or "None")}{pwr2}\n'
-        output += f'**Accuracy Dice**: {(found[5] or "None")} + {(found[6] or "None")}\n'
+        damage_label = (found[3] or "None")
+        if damage_label == "Same As Base Power":
+            damage_text = "Same As Base Move"
+        else:
+            damage_text = f'{damage_label}{pwr2}'
+        output += f'**Damage Dice**: {damage_text}\n'
+        if found[5] == "Same As Base Move":
+            accuracy_text = "Same As Base Move"
+        else:
+            accuracy_text = f'{(found[5] or "None")} + {(found[6] or "None")}'
+        output += f'**Accuracy Dice**: {accuracy_text}\n'
         output += f'**Effect**: {found[8]}'
 
         return output

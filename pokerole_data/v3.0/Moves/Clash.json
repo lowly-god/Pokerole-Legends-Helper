@@ -4,7 +4,7 @@
   "Power": 0,
   "Damage1": "",
   "Damage2": "",
-  "Accuracy1": "Strength/Special",
+  "Accuracy1": "Strength / Special",
   "Accuracy2": "Clash",
   "Target": "Self",
   "Effect": "Reaction 6. Match the number of successes on the Accuracy roll of a Move that Targets the User. If successful, the user Clashes, see p.68. This Maneuver is not affected by the Multiple Action difficulty chart.",

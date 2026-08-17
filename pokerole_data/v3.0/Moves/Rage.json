@@ -5,7 +5,7 @@
   "Damage1": "Strength",
   "Damage2": "",
   "Accuracy1": "Insight",
-  "Accuracy2": "Brawl/Intimidate",
+  "Accuracy2": "Brawl / Intimidate",
   "Target": "Foe",
   "Effect": "If a Target damages the User with a Physical or Special Move in the same round after using this Move. Increase the User's Strength by 1. This effect can stack up to 3 Times.",
   "Description": "The user gets angry and throws a tantrum against the foe. The more the battle continues the angrier the user gets.",

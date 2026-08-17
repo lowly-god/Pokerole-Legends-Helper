@@ -4,7 +4,7 @@
   "Power": 0,
   "Damage1": "",
   "Damage2": "",
-  "Accuracy1": "Tough/Clever",
+  "Accuracy1": "Tough / Clever",
   "Accuracy2": "Intimidate",
   "Target": "Foe",
   "Effect": "The Target cannot use any of the Moves it used during the last Round. Duration 4 Rounds.",

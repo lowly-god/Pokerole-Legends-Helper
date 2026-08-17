@@ -1,0 +1,13 @@
+{
+  "Name": "Macho Brace",
+  "_id": "macho-brace",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Doubles the Training Points gained in Battle, but the Holders Dexterity is Halved (Rounded Down)",
+  "OneUse": false,
+  "TrainerPrice": "6000",
+  "Cures": "",
+  "Image": ""
+}

@@ -4,7 +4,7 @@
   "Power": 0,
   "Damage1": "",
   "Damage2": "",
-  "Accuracy1": "Dexterity/Insight",
+  "Accuracy1": "Dexterity / Insight",
   "Accuracy2": "Stealth",
   "Target": "Battlefield",
   "Effect": "Entry Hazard. Targets that enter the Battlefield have their Dexterity reduced by 1, Additionally if Targets Non-Ranged Physical attacks miss, they take 1 Dice of Damage.",

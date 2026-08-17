@@ -1,0 +1,13 @@
+{
+  "Name": "Power Belt",
+  "_id": "power-belt",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Increases the Holder's Defense by 2 but reduces their Dexterity by 1",
+  "OneUse": false,
+  "TrainerPrice": "6000",
+  "Cures": "",
+  "Image": ""
+}

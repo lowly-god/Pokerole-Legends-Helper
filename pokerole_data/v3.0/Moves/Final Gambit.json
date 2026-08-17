@@ -5,7 +5,7 @@
   "Damage1": "Target'sRemainingHP",
   "Damage2": "",
   "Accuracy1": "Will",
-  "Accuracy2": "Brawl/Athletic",
+  "Accuracy2": "Brawl / Athletic",
   "Target": "Foe",
   "Effect": "Ignore Defenses. The user Faints after dealing Damage.",
   "Description": "The Pokémon puts its last Strength into an all-or-nothing attack. After that, the user faints.",

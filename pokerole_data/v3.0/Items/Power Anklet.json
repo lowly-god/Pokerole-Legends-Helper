@@ -1,0 +1,13 @@
+{
+  "Name": "Power Anklet",
+  "_id": "power-anklet",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "The Holder's Moves gain Reaction 1, but their Dexterity is reduced by 1",
+  "OneUse": false,
+  "TrainerPrice": "6000",
+  "Cures": "",
+  "Image": ""
+}

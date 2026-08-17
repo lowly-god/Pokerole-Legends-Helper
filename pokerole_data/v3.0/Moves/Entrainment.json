@@ -4,7 +4,7 @@
   "Power": 0,
   "Damage1": "",
   "Damage2": "",
-  "Accuracy1": "Cool/Clever",
+  "Accuracy1": "Cool / Clever",
   "Accuracy2": "Athletic",
   "Target": "Foe",
   "Effect": "Replace the Target's Ability with the User's. Unique Abilities can't be passed or replaced. Whole Scene Duration. This effect does not end by switching out the affected Pokémon.",

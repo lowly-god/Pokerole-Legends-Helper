@@ -5,7 +5,7 @@
   "Damage1": "Physical",
   "Damage2": "",
   "Accuracy1": "Strength",
-  "Accuracy2": "Brawl/Nature",
+  "Accuracy2": "Brawl / Nature",
   "Target": "Foe",
   "Effect": "If the User is currently under the effects of the Move Ingrain add +2 Bonus Dice to the Damage Pool of this Move. The User loses the effects of Ingrain.",
   "Description": "The User uproots itself and swings the exposed roots at its Targets.",

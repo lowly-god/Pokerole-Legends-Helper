@@ -4,7 +4,7 @@
   "Power": 0,
   "Damage1": "",
   "Damage2": "",
-  "Accuracy1": "Dexterity/Insight",
+  "Accuracy1": "Dexterity / Insight",
   "Accuracy2": "Channel",
   "Target": "Foe",
   "Effect": "Accuracy -2. Inflict Frostbite (1) on the Target.",

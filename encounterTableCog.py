@@ -7,11 +7,6 @@ from discord.ext import commands
 
 
 class EncounterTableCog(commands.Cog):
-    encounter_table = app_commands.Group(
-        name="encounter_table",
-        description="Display a curated, rollable encounter table for a specific biome"
-    )
-
     def __init__(self, bot):
         self.bot = bot
         with open("encounter_tables.json", "r", encoding="utf-8") as f:
@@ -19,103 +14,53 @@ class EncounterTableCog(commands.Cog):
 
     async def table_autocomplete(self, interaction: discord.Interaction, current: str):
         current = current.casefold()
-        return [
-            app_commands.Choice(name=name, value=name)
-            for name in self.tables
-            if current in name.casefold()
-        ][:25]
+        return [app_commands.Choice(name=name, value=name) for name in self.tables if current in name.casefold()][:25]
 
     async def _send_chunks(self, interaction, title, lines):
-        chunks = []
-        current = f"## {title}\n"
+        chunks=[]; current=f"## {title}\n"
         for line in lines:
-            addition = line + "\n"
-            if len(current) + len(addition) > 1950:
-                chunks.append(current.rstrip())
-                current = f"## {title} (cont.)\n" + addition
-            else:
-                current += addition
-        if current.strip():
-            chunks.append(current.rstrip())
+            addition=line+"\n"
+            if len(current)+len(addition)>1950:
+                chunks.append(current.rstrip()); current=f"## {title} (cont.)\n"+addition
+            else: current+=addition
+        if current.strip(): chunks.append(current.rstrip())
         await interaction.response.send_message(chunks[0])
-        for chunk in chunks[1:]:
-            await interaction.followup.send(chunk)
+        for chunk in chunks[1:]: await interaction.followup.send(chunk)
 
-    @encounter_table.command(
-        name="roll",
-        description="Choose a table and roll its correct die (for example 1D10 or 1D12)."
-    )
+    @app_commands.command(name="encounter_table", description="Display or roll a curated encounter table for a specific biome")
     @app_commands.describe(
-        table="Choose the encounter table to roll; the bot automatically uses that table's die size."
+        table="Choose the encounter table.",
+        roll="Roll one result instead of displaying the entire table?",
+        exclude="Roll while excluding numbers, ranges, or encounter-name text (e.g. 2, 5-7, Rock Fall)."
     )
     @app_commands.autocomplete(table=table_autocomplete)
-    async def roll(self, interaction: discord.Interaction, table: str):
-        data = self.tables.get(table)
+    async def encounter_table(self, interaction: discord.Interaction, table: str, roll: bool=False, exclude: str|None=None):
+        data=self.tables.get(table)
         if not data:
-            await interaction.response.send_message("Encounter table not found.", ephemeral=True)
-            return
+            await interaction.response.send_message("Encounter table not found.", ephemeral=True); return
 
-        entry = random.choice(data["entries"])
-        lines = [
-            f"🎲 **1D{data['die']} → {entry['roll']}**",
-            f"**{entry['roll']}. {entry['text']}**",
-            "",
-            "Use `/encounter_table exclude` when some results have already been used and should not be rolled again."
-        ]
-        await self._send_chunks(interaction, f"{table} Encounter", lines)
+        # Exclude retains the old subcommand behavior and implies a roll.
+        if exclude:
+            excluded_numbers=set(); excluded_text=[]
+            for token in [p.strip() for p in exclude.split(',') if p.strip()]:
+                m=re.fullmatch(r"(\d+)\s*-\s*(\d+)", token)
+                if m:
+                    a,b=map(int,m.groups()); excluded_numbers.update(range(min(a,b),max(a,b)+1))
+                elif token.isdigit(): excluded_numbers.add(int(token))
+                else: excluded_text.append(token.casefold())
+            available=[e for e in data['entries'] if e['roll'] not in excluded_numbers and not any(t in e['text'].casefold() for t in excluded_text)]
+            if not available:
+                await interaction.response.send_message("Those exclusions remove every result from this table. Remove at least one exclusion and try again.", ephemeral=True); return
+            entry=random.choice(available)
+            lines=[f"🎲 **Rolled from {len(available)} remaining result(s) → {entry['roll']}**", f"**{entry['roll']}. {entry['text']}**", "", f"Excluded for this roll: `{exclude}`"]
+            await self._send_chunks(interaction, f"{table} Encounter — Exclusions Applied", lines); return
 
-    @encounter_table.command(
-        name="exclude",
-        description="Roll a table while excluding encounters that have already been used."
-    )
-    @app_commands.describe(
-        table="Choose the encounter table to roll.",
-        exclude="Exclude roll numbers, ranges, or encounter-name text; e.g. 2, 5-7, Rock Fall"
-    )
-    @app_commands.autocomplete(table=table_autocomplete)
-    async def exclude(self, interaction: discord.Interaction, table: str, exclude: str):
-        data = self.tables.get(table)
-        if not data:
-            await interaction.response.send_message("Encounter table not found.", ephemeral=True)
-            return
+        if roll:
+            entry=random.choice(data['entries'])
+            await self._send_chunks(interaction, f"{table} Encounter", [f"🎲 **1D{data['die']} → {entry['roll']}**", f"**{entry['roll']}. {entry['text']}**"]); return
 
-        excluded_numbers = set()
-        excluded_text = []
-        for token in [part.strip() for part in exclude.split(",") if part.strip()]:
-            match = re.fullmatch(r"(\d+)\s*-\s*(\d+)", token)
-            if match:
-                first, last = map(int, match.groups())
-                low, high = sorted((first, last))
-                excluded_numbers.update(range(low, high + 1))
-            elif token.isdigit():
-                excluded_numbers.add(int(token))
-            else:
-                excluded_text.append(token.casefold())
-
-        available = []
-        for entry in data["entries"]:
-            if entry["roll"] in excluded_numbers:
-                continue
-            if any(term in entry["text"].casefold() for term in excluded_text):
-                continue
-            available.append(entry)
-
-        if not available:
-            await interaction.response.send_message(
-                "Those exclusions remove every result from this table. Remove at least one exclusion and try again.",
-                ephemeral=True
-            )
-            return
-
-        entry = random.choice(available)
-        lines = [
-            f"🎲 **Rolled from {len(available)} remaining result(s) → {entry['roll']}**",
-            f"**{entry['roll']}. {entry['text']}**",
-            "",
-            f"Excluded for this roll: `{exclude}`",
-            "Tip: exclusions can be roll numbers (`2`), ranges (`5-7`), encounter-name text (`Rock Fall`), or a comma-separated mix."
-        ]
-        await self._send_chunks(interaction, f"{table} Encounter — Exclusions Applied", lines)
+        lines=[f"**1D{data['die']} Encounter Table**",""]+[f"**{e['roll']}.** {e['text']}" for e in data['entries']]
+        await self._send_chunks(interaction, f"{table} Encounter Table", lines)
 
 
 async def setup(bot):

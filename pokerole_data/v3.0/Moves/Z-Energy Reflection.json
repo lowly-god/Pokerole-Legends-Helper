@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Channel",
   "Target": "Self",
-  "Effect": "Shield Move. Charge. The User receives 3 less Damage from all attacks until its next Action. On its next Action roll the same Damage Pool as all attacks the User has been hit by plus 2 Extra Dice. Ignore the Target’s Defenses.",
+  "Effect": "Z-Move. Shield Move. Charge. The User receives 3 less Damage from all attacks until its next Action. On its next Action roll the same Damage Pool as all attacks the User has been hit by plus 2 Extra Dice. Ignore the Target’s Defenses.",
   "Description": "An energy barrier forms around the User, absorbing energy from its Targets attacks, before releasing it back at them.",
   "_id": "z-energy-reflection",
   "Attributes": {

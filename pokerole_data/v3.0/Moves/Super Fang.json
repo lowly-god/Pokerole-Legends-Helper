@@ -4,7 +4,7 @@
   "Power": 0,
   "Damage1": "Varies",
   "Damage2": "",
-  "Accuracy1": "Strength/Dexterity",
+  "Accuracy1": "Strength / Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
   "Effect": "Accuracy -1. Bite Move. Roll Normal-Type Damage Dice equal to Half of the Target's remaining HP. Up to 10 Dice may be rolled this way. Ignore Defenses.",

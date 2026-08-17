@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "All Foes",
-  "Effect": "Lethal. Roll 3 Chance Dice to reduce the Targets' Special Defense by 1.",
+  "Effect": "Z-Move. Lethal. Roll 3 Chance Dice to reduce the Targets' Special Defense by 1.",
   "Description": "The User whips grains of sand into tiny projectiles with its psychic powers that barrage its Targets.",
   "_id": "z-psychic-sands",
   "Attributes": {

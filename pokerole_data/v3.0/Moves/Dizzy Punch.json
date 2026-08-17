@@ -4,7 +4,7 @@
   "Power": 3,
   "Damage1": "Strength",
   "Damage2": "",
-  "Accuracy1": "Dexterity/Insight",
+  "Accuracy1": "Dexterity / Insight",
   "Accuracy2": "Brawl",
   "Target": "Foe",
   "Effect": "Fist Move. Roll 2 Chance Dice to Confuse the Target.",

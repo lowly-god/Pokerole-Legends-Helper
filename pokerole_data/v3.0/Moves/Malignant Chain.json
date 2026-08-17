@@ -5,7 +5,7 @@
   "Damage1": "Special",
   "Damage2": "",
   "Accuracy1": "Insight",
-  "Accuracy2": "Channel/Intimidate",
+  "Accuracy2": "Channel / Intimidate",
   "Target": "Foe",
   "Effect": "Unique. Roll 5 Chance Dice to Badly Poison the Target. At the end of the Round, if the Target was Poisoned by this Move, roll their Loyalty and get at least 3 successes. On a failure, from the next Round treat the Target as the User's Ally until the Poison is healed.",
   "Description": "This chain contains the most potent neurotoxin currently known. It boosts physical appearance, yet totally suppresses the mind and soul, turning the target into the user’s puppet.",

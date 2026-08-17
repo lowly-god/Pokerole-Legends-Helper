@@ -4,7 +4,7 @@
   "Power": 4,
   "Damage1": "Special",
   "Damage2": "",
-  "Accuracy1": "Dexterity/Special",
+  "Accuracy1": "Dexterity / Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
   "Effect": "Never Miss. High Critical. Unique.",

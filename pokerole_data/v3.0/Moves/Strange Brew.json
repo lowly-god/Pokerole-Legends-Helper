@@ -4,7 +4,7 @@
   "Power": 3,
   "Damage1": "Special",
   "Damage2": "",
-  "Accuracy1": "Dexterity/Insight",
+  "Accuracy1": "Dexterity / Insight",
   "Accuracy2": "Nature",
   "Target": "Foe",
   "Effect": "Roll 2 Chance Dice to Poison, 2 to Burn (1), and 2 to put the Target to Sleep.",

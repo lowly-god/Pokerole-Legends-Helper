@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Lethal. Roll 2 Chance Dice to Flinch the Target. Roll 2 Chance Dice to Reduce the Target's Strength by 1. Add 2 Dice to the Damage Pool of this Move in Midnight Weather.",
+  "Effect": "Z-Move. Lethal. Roll 2 Chance Dice to Flinch the Target. Roll 2 Chance Dice to Reduce the Target's Strength by 1. Add 2 Dice to the Damage Pool of this Move in Midnight Weather.",
   "Description": "The User flies high, blotting out the sun above the Target before crashing back down on them.",
   "_id": "z-darkening-skies",
   "Attributes": {

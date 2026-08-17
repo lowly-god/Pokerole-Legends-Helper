@@ -4,7 +4,7 @@
   "Power": 0,
   "Damage1": "",
   "Damage2": "",
-  "Accuracy1": "Beauty/Clever",
+  "Accuracy1": "Beauty / Clever",
   "Accuracy2": "Charm",
   "Target": "Foe",
   "Effect": "Accuracy -2. Charm the Target.",

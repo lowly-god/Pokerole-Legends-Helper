@@ -2,7 +2,7 @@
   "Name": "Foul Play",
   "Type": "Dark",
   "Power": 3,
-  "Damage1": "Target'sStrength/Special",
+  "Damage1": "Target'sStrength / Special",
   "Damage2": "",
   "Accuracy1": "Dexterity",
   "Accuracy2": "Stealth",
