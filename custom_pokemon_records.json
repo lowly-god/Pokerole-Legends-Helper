@@ -1129,6 +1129,9 @@
         "Learned": "Ace",
         "Name": "Thunder"
       }
+    ],
+    "HM": [
+      "Defog"
     ]
   },
   {
@@ -2123,6 +2126,9 @@
         "Learned": "Ace",
         "Name": "Meditative Trance"
       }
+    ],
+    "HM": [
+      "Defog"
     ]
   },
   {
@@ -2401,6 +2407,9 @@
         "Learned": "Ace",
         "Name": "Shadow Tide"
       }
+    ],
+    "HM": [
+      "Teleport"
     ]
   },
   {
@@ -2548,6 +2557,9 @@
         "Learned": "Ace",
         "Name": "Life Dew"
       }
+    ],
+    "HM": [
+      "Teleport"
     ]
   },
   {
@@ -2691,6 +2703,9 @@
         "Learned": "Ace",
         "Name": "Life Dew"
       }
+    ],
+    "HM": [
+      "Teleport"
     ]
   },
   {
@@ -2834,6 +2849,9 @@
         "Learned": "Ace",
         "Name": "Shadow Tide"
       }
+    ],
+    "HM": [
+      "Teleport"
     ]
   },
   {
@@ -3979,6 +3997,9 @@
         "Learned": "Ace",
         "Name": "Aqua Surge"
       }
+    ],
+    "HM": [
+      "Fly"
     ]
   },
   {
@@ -10491,6 +10512,9 @@
         "Learned": "Ace",
         "Name": "Counter"
       }
+    ],
+    "HM": [
+      "Rock Smash"
     ]
   },
   {
@@ -10638,6 +10662,9 @@
         "Learned": "Ace",
         "Name": "Counter"
       }
+    ],
+    "HM": [
+      "Rock Smash"
     ]
   },
   {
@@ -10805,6 +10832,9 @@
         "Learned": "Ace",
         "Name": "Iron Edge"
       }
+    ],
+    "HM": [
+      "Rock Smash"
     ]
   },
   {
@@ -13192,6 +13222,9 @@
         "Learned": "Ace",
         "Name": "Draco Jaw"
       }
+    ],
+    "HM": [
+      "Waterfall"
     ]
   },
   {
@@ -13915,6 +13948,9 @@
         "Learned": "Ace",
         "Name": "Trick Room"
       }
+    ],
+    "HM": [
+      "Teleport"
     ]
   },
   {
@@ -14205,6 +14241,9 @@
         "Learned": "Ace",
         "Name": "Hoarfrost Moon"
       }
+    ],
+    "HM": [
+      "Defog"
     ]
   },
   {
@@ -16845,6 +16884,9 @@
         "Learned": "Ace",
         "Name": "Breach"
       }
+    ],
+    "HM": [
+      "Flash"
     ]
   },
   {
@@ -17000,6 +17042,9 @@
         "Learned": "Ace",
         "Name": "Terrorize"
       }
+    ],
+    "HM": [
+      "Flash"
     ]
   },
   {
@@ -17433,6 +17478,9 @@
         "Learned": "Ace",
         "Name": "Spirit Break"
       }
+    ],
+    "HM": [
+      "Flash"
     ]
   },
   {
@@ -18196,6 +18244,10 @@
         "Learned": "Ace",
         "Name": "Foul Play"
       }
+    ],
+    "HM": [
+      "Surf",
+      "Whirlpool"
     ]
   },
   {
@@ -19576,6 +19628,9 @@
         "Learned": "Ace",
         "Name": "Aqua Surge"
       }
+    ],
+    "HM": [
+      "Surf"
     ]
   },
   {
@@ -19739,6 +19794,9 @@
         "Learned": "Ace",
         "Name": "Aqua Surge"
       }
+    ],
+    "HM": [
+      "Surf"
     ]
   },
   {
@@ -19910,6 +19968,9 @@
         "Learned": "Ace",
         "Name": "Aqua Surge"
       }
+    ],
+    "HM": [
+      "Surf"
     ]
   },
   {
@@ -22540,6 +22601,9 @@
         "Learned": "Ace",
         "Name": "Virus Pulse"
       }
+    ],
+    "HM": [
+      "Teleport"
     ]
   },
   {
@@ -22695,6 +22759,9 @@
         "Learned": "Ace",
         "Name": "Poltergeist"
       }
+    ],
+    "HM": [
+      "Teleport"
     ]
   },
   {
@@ -24012,6 +24079,9 @@
         "Learned": "Ace",
         "Name": "Wonder Room"
       }
+    ],
+    "HM": [
+      "Teleport"
     ]
   },
   {
@@ -24775,6 +24845,9 @@
         "Learned": "Ace",
         "Name": "Meditative Trance"
       }
+    ],
+    "HM": [
+      "Teleport"
     ]
   },
   {
@@ -25216,6 +25289,9 @@
         "Learned": "Ace",
         "Name": "Tailwind"
       }
+    ],
+    "HM": [
+      "Defog"
     ]
   },
   {
@@ -25625,6 +25701,9 @@
         "Learned": "Ace",
         "Name": "Draco Meteor"
       }
+    ],
+    "HM": [
+      "Flash"
     ]
   },
   {
@@ -25919,6 +25998,9 @@
         "Learned": "Ace",
         "Name": "Wide Guard"
       }
+    ],
+    "HM": [
+      "Rock Smash"
     ]
   },
   {
@@ -26070,6 +26152,9 @@
         "Learned": "Ace",
         "Name": "Wide Guard"
       }
+    ],
+    "HM": [
+      "Rock Smash"
     ]
   },
   {
@@ -26499,6 +26584,9 @@
         "Learned": "Ace",
         "Name": "Endure"
       }
+    ],
+    "HM": [
+      "Rock Smash"
     ]
   },
   {
@@ -26638,6 +26726,9 @@
         "Learned": "Ace",
         "Name": "Endure"
       }
+    ],
+    "HM": [
+      "Rock Smash"
     ]
   },
   {
@@ -27291,6 +27382,9 @@
         "Learned": "Ace",
         "Name": "Avalanche"
       }
+    ],
+    "HM": [
+      "Rock Smash"
     ]
   },
   {
@@ -31279,6 +31373,11 @@
         "Learned": "Ace",
         "Name": "Outrage"
       }
+    ],
+    "HM": [
+      "Dive",
+      "Surf",
+      "Whirlpool"
     ]
   },
   {
@@ -31426,6 +31525,9 @@
         "Learned": "Ace",
         "Name": "Thunder"
       }
+    ],
+    "HM": [
+      "Defog"
     ]
   },
   {
@@ -32276,6 +32378,9 @@
         "Learned": "Ace",
         "Name": "Phantom Force"
       }
+    ],
+    "HM": [
+      "Fly"
     ]
   },
   {
@@ -32582,6 +32687,10 @@
         "Learned": "Ace",
         "Name": "Synchronoise"
       }
+    ],
+    "HM": [
+      "Surf",
+      "Whirlpool"
     ]
   },
   {
@@ -33170,6 +33279,9 @@
         "Learned": "Ace",
         "Name": "Outrage"
       }
+    ],
+    "HM": [
+      "Flash"
     ]
   },
   {
@@ -33444,6 +33556,9 @@
         "Learned": "Ace",
         "Name": "Belly Drum"
       }
+    ],
+    "HM": [
+      "Cut"
     ]
   },
   {
@@ -33988,6 +34103,9 @@
         "Learned": "Ace",
         "Name": "Z-Darkening Skies"
       }
+    ],
+    "HM": [
+      "Defog"
     ]
   },
   {
@@ -35825,6 +35943,9 @@
         "Learned": "Ace",
         "Name": "Outrage"
       }
+    ],
+    "HM": [
+      "Waterfall"
     ]
   },
   {
@@ -36254,6 +36375,9 @@
         "Learned": "Ace",
         "Name": "Shift Gear"
       }
+    ],
+    "HM": [
+      "Rock Smash"
     ]
   },
   {
@@ -36667,6 +36791,9 @@
         "Learned": "Ace",
         "Name": "Hurricane"
       }
+    ],
+    "HM": [
+      "Defog"
     ]
   },
   {
@@ -36806,6 +36933,11 @@
         "Learned": "Ace",
         "Name": "Hurricane"
       }
+    ],
+    "HM": [
+      "Defog",
+      "Dive",
+      "Surf"
     ]
   },
   {
@@ -37231,6 +37363,9 @@
         "Learned": "Ace",
         "Name": "Spite"
       }
+    ],
+    "HM": [
+      "Dive"
     ]
   },
   {
@@ -38678,6 +38813,9 @@
         "Learned": "Ace",
         "Name": "Toxic Thread"
       }
+    ],
+    "HM": [
+      "Teleport"
     ]
   },
   {
@@ -38813,6 +38951,9 @@
         "Learned": "Ace",
         "Name": "Embargo"
       }
+    ],
+    "HM": [
+      "Teleport"
     ]
   },
   {
@@ -39218,6 +39359,9 @@
         "Learned": "Ace",
         "Name": "Teleport"
       }
+    ],
+    "HM": [
+      "Teleport"
     ]
   },
   {
@@ -39357,6 +39501,9 @@
         "Learned": "Ace",
         "Name": "Teleport"
       }
+    ],
+    "HM": [
+      "Teleport"
     ]
   },
   {
@@ -39496,6 +39643,9 @@
         "Learned": "Ace",
         "Name": "Teleport"
       }
+    ],
+    "HM": [
+      "Teleport"
     ]
   },
   {
@@ -39802,6 +39952,9 @@
         "Learned": "Ace",
         "Name": "Tailwind"
       }
+    ],
+    "HM": [
+      "Fly"
     ]
   },
   {
@@ -39949,6 +40102,9 @@
         "Learned": "Ace",
         "Name": "Tailwind"
       }
+    ],
+    "HM": [
+      "Fly"
     ]
   },
   {
@@ -40116,6 +40272,9 @@
         "Learned": "Ace",
         "Name": "Tailwind"
       }
+    ],
+    "HM": [
+      "Fly"
     ]
   },
   {
@@ -40275,6 +40434,10 @@
         "Learned": "Ace",
         "Name": "Anchor Shot"
       }
+    ],
+    "HM": [
+      "Dive",
+      "Surf"
     ]
   },
   {

@@ -132,5 +132,8 @@
       "Name": "Sky Attack"
     }
   ],
-  "MegaStone": "Pidgeotite"
+  "MegaStone": "Pidgeotite",
+  "HM": [
+    "Defog"
+  ]
 }

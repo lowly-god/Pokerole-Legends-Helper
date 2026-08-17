@@ -153,5 +153,10 @@
       "Learned": "Advanced",
       "Name": "Lapidify"
     }
+  ],
+  "HM": [
+    "Dive",
+    "Surf",
+    "Whirlpool"
   ]
 }

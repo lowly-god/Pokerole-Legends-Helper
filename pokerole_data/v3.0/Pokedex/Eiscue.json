@@ -146,5 +146,9 @@
       "Learned": "Advanced",
       "Name": "Snowy Terrain"
     }
+  ],
+  "HM": [
+    "Surf",
+    "Whirlpool"
   ]
 }

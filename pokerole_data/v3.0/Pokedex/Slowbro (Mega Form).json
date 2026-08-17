@@ -128,5 +128,8 @@
       "Name": "Future Sight"
     }
   ],
-  "MegaStone": "Slowbronite"
+  "MegaStone": "Slowbronite",
+  "HM": [
+    "Surf"
+  ]
 }

@@ -1,161 +1,164 @@
 {
-    "Number": 146,
-    "DexID": "0146",
-    "Name": "Moltres",
-    "Type1": "Fire",
-    "Type2": "Flying",
-    "BaseHP": 5,
-    "Strength": 6,
-    "MaxStrength": 6,
-    "Dexterity": 5,
-    "MaxDexterity": 5,
-    "Vitality": 5,
-    "MaxVitality": 5,
-    "Special": 7,
-    "MaxSpecial": 7,
-    "Insight": 5,
-    "MaxInsight": 5,
-    "Ability1": "Pressure",
-    "Ability2": "",
-    "HiddenAbility": "Flame Body",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "moltres",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 2.0,
-        "Feet": 6.6
+  "Number": 146,
+  "DexID": "0146",
+  "Name": "Moltres",
+  "Type1": "Fire",
+  "Type2": "Flying",
+  "BaseHP": 5,
+  "Strength": 6,
+  "MaxStrength": 6,
+  "Dexterity": 5,
+  "MaxDexterity": 5,
+  "Vitality": 5,
+  "MaxVitality": 5,
+  "Special": 7,
+  "MaxSpecial": 7,
+  "Insight": 5,
+  "MaxInsight": 5,
+  "Ability1": "Pressure",
+  "Ability2": "",
+  "HiddenAbility": "Flame Body",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "moltres",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 2.0,
+    "Feet": 6.6
+  },
+  "Weight": {
+    "Kilograms": 60.0,
+    "Pounds": 132.0
+  },
+  "DexDescription": "The legend speaks of a bird who came flying from the south. Its fiery body melted the snow and brought the spring along. A children's book depicts a similar Pokémon living inside of a volcano.",
+  "Evolutions": [],
+  "Image": "moltres.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
     },
-    "Weight": {
-        "Kilograms": 60.0,
-        "Pounds": 132.0
+    {
+      "Learned": "Starter",
+      "Name": "Gust"
     },
-    "DexDescription": "The legend speaks of a bird who came flying from the south. Its fiery body melted the snow and brought the spring along. A children's book depicts a similar Pokémon living inside of a volcano.",
-    "Evolutions": [],
-    "Image": "moltres.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Leer"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Gust"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Ember"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Wing Attack"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Flame Charge"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Ancient Power"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Incinerate"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "After You"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Fire Spin"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Will-O-Wisp"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Cauterize"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Jet Strike"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Rainbow Beam"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Safeguard"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Agility"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Air Slash"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Flamethrower"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Sunny Day"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Swift"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Cleansing Fire"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Uncontrolled Burn Off"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Hurricane"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Fire Blast"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Sky Attack"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Burn Up"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Solar Beam"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Magma Drift"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Endure"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Heat Wave"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Burning Jealousy"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Ember"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Wing Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flame Charge"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Incinerate"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "After You"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fire Spin"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Will-O-Wisp"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cauterize"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Jet Strike"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rainbow Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flamethrower"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swift"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Cleansing Fire"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Uncontrolled Burn Off"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hurricane"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fire Blast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sky Attack"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Burn Up"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Solar Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Magma Drift"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Heat Wave"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Burning Jealousy"
+    }
+  ],
+  "HM": [
+    "Magma Drift"
+  ]
 }

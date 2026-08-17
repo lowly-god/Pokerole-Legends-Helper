@@ -140,5 +140,9 @@
       "Learned": "Standard",
       "Name": "Psybolt"
     }
+  ],
+  "HM": [
+    "Fly",
+    "Surf"
   ]
 }

@@ -1,137 +1,140 @@
 {
-    "Number": 1016,
-    "DexID": "1016",
-    "Name": "Fezandipiti",
-    "Type1": "Poison",
-    "Type2": "Fairy",
-    "BaseHP": 5,
-    "Strength": 5,
-    "MaxStrength": 5,
-    "Dexterity": 6,
-    "MaxDexterity": 6,
-    "Vitality": 5,
-    "MaxVitality": 5,
-    "Special": 5,
-    "MaxSpecial": 5,
-    "Insight": 7,
-    "MaxInsight": 7,
-    "Ability1": "Toxic Chain",
-    "Ability2": "",
-    "HiddenAbility": "Technician",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "M",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "fezandipiti",
-    "DexCategory": "Pokedex has no data.",
-    "Height": {
-        "Meters": 1.4,
-        "Feet": 4.6
+  "Number": 1016,
+  "DexID": "1016",
+  "Name": "Fezandipiti",
+  "Type1": "Poison",
+  "Type2": "Fairy",
+  "BaseHP": 5,
+  "Strength": 5,
+  "MaxStrength": 5,
+  "Dexterity": 6,
+  "MaxDexterity": 6,
+  "Vitality": 5,
+  "MaxVitality": 5,
+  "Special": 5,
+  "MaxSpecial": 5,
+  "Insight": 7,
+  "MaxInsight": 7,
+  "Ability1": "Toxic Chain",
+  "Ability2": "",
+  "HiddenAbility": "Technician",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "M",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "fezandipiti",
+  "DexCategory": "Pokedex has no data.",
+  "Height": {
+    "Meters": 1.4,
+    "Feet": 4.6
+  },
+  "Weight": {
+    "Kilograms": 30.0,
+    "Pounds": 66.0
+  },
+  "DexDescription": "The most famous legend in Kitakami tells about how three Pokémon and their master defeated an ogre. One of them was ugly and dull but became bright and beautiful after eating a forbidden magical mochi.",
+  "Evolutions": [],
+  "Image": "fezandipiti.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Peck"
     },
-    "Weight": {
-        "Kilograms": 30.0,
-        "Pounds": 66.0
+    {
+      "Learned": "Starter",
+      "Name": "Poison Gas"
     },
-    "DexDescription": "The most famous legend in Kitakami tells about how three Pokémon and their master defeated an ogre. One of them was ugly and dull but became bright and beautiful after eating a forbidden magical mochi.",
-    "Evolutions": [],
-    "Image": "fezandipiti.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Peck"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Poison Gas"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Quick Attack"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Disarming Voice"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Double Kick"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Wing Attack"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Icy Wind"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Flatter"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Attract"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Tail Slap"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Beat Up"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Swagger"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Roost"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "U-Turn"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Toxic"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Fly"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Acid Rain"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Cross Poison"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Nasty Plot"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Swords Dance"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Dark Pulse"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Gunk Shot"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Moonblast"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Tailwind"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Quick Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Disarming Voice"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Kick"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Wing Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Icy Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flatter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Attract"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Tail Slap"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Beat Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swagger"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Roost"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "U-Turn"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fly"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Acid Rain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Cross Poison"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Gunk Shot"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    }
+  ],
+  "HM": [
+    "Fly"
+  ]
 }

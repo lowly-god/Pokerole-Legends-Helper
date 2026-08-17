@@ -1,149 +1,153 @@
 {
-    "Number": 798,
-    "DexID": "0798",
-    "Name": "Kartana",
-    "Type1": "Grass",
-    "Type2": "Steel",
-    "BaseHP": 4,
-    "Strength": 9,
-    "MaxStrength": 9,
-    "Dexterity": 6,
-    "MaxDexterity": 6,
-    "Vitality": 7,
-    "MaxVitality": 7,
-    "Special": 4,
-    "MaxSpecial": 4,
-    "Insight": 3,
-    "MaxInsight": 3,
-    "Ability1": "Beast Boost",
-    "Ability2": "",
-    "HiddenAbility": "Sharpness",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "kartana",
-    "DexCategory": "Aether Foundation Log #014",
-    "Height": {
-        "Meters": 0.3,
-        "Feet": 1.0
+  "Number": 798,
+  "DexID": "0798",
+  "Name": "Kartana",
+  "Type1": "Grass",
+  "Type2": "Steel",
+  "BaseHP": 4,
+  "Strength": 9,
+  "MaxStrength": 9,
+  "Dexterity": 6,
+  "MaxDexterity": 6,
+  "Vitality": 7,
+  "MaxVitality": 7,
+  "Special": 4,
+  "MaxSpecial": 4,
+  "Insight": 3,
+  "MaxInsight": 3,
+  "Ability1": "Beast Boost",
+  "Ability2": "",
+  "HiddenAbility": "Sharpness",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "kartana",
+  "DexCategory": "Aether Foundation Log #014",
+  "Height": {
+    "Meters": 0.3,
+    "Feet": 1.0
+  },
+  "Weight": {
+    "Kilograms": 0.1,
+    "Pounds": 0.2
+  },
+  "DexDescription": "Its paper-thin body and agility make it too dangerous to approach without serious risk of injury. Our team managed to immobilize it using a heat chamber, though I swear I feel its resentment to us.",
+  "Evolutions": [],
+  "Image": "kartana.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Cut"
     },
-    "Weight": {
-        "Kilograms": 0.1,
-        "Pounds": 0.2
+    {
+      "Learned": "Starter",
+      "Name": "Fury Cutter"
     },
-    "DexDescription": "Its paper-thin body and agility make it too dangerous to approach without serious risk of injury. Our team managed to immobilize it using a heat chamber, though I swear I feel its resentment to us.",
-    "Evolutions": [],
-    "Image": "kartana.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Cut"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Fury Cutter"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Razor Leaf"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "False Swipe"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Air Cutter"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Aerial Ace"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Double Team"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Paper Cutter"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Detect"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Knock Off"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Vacuum Wave"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Defog"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Air Slash"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Synthesis"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Laser Focus"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Leaf Blade"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Iron Defense"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Night Slash"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Swords Dance"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "X-Scissor"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Psycho Cut"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Solar Blade"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Sacred Sword"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Guillotine"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Vorpal Blade"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Tailwind"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Smart Strike"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Razor Leaf"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "False Swipe"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aerial Ace"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Paper Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Detect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Knock Off"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Vacuum Wave"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Defog"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Synthesis"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Laser Focus"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Leaf Blade"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "X-Scissor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psycho Cut"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Solar Blade"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sacred Sword"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Guillotine"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Vorpal Blade"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Smart Strike"
+    }
+  ],
+  "HM": [
+    "Cut",
+    "Defog"
+  ]
 }

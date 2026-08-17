@@ -143,5 +143,9 @@
       "Learned": "Standard",
       "Name": "Jet Strike"
     }
+  ],
+  "HM": [
+    "Defog",
+    "Fly"
   ]
 }

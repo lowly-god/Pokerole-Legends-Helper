@@ -156,5 +156,8 @@
       "Learned": "Standard",
       "Name": "Asteroid Shot"
     }
+  ],
+  "HM": [
+    "Teleport"
   ]
 }

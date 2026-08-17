@@ -1,149 +1,152 @@
 {
-    "Number": 717,
-    "DexID": "0717",
-    "Name": "Yveltal",
-    "Type1": "Dark",
-    "Type2": "Flying",
-    "BaseHP": 7,
-    "Strength": 7,
-    "MaxStrength": 7,
-    "Dexterity": 6,
-    "MaxDexterity": 6,
-    "Vitality": 6,
-    "MaxVitality": 6,
-    "Special": 7,
-    "MaxSpecial": 7,
-    "Insight": 6,
-    "MaxInsight": 6,
-    "Ability1": "Dark Aura",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Master",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "yveltal",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 5.8,
-        "Feet": 19.0
+  "Number": 717,
+  "DexID": "0717",
+  "Name": "Yveltal",
+  "Type1": "Dark",
+  "Type2": "Flying",
+  "BaseHP": 7,
+  "Strength": 7,
+  "MaxStrength": 7,
+  "Dexterity": 6,
+  "MaxDexterity": 6,
+  "Vitality": 6,
+  "MaxVitality": 6,
+  "Special": 7,
+  "MaxSpecial": 7,
+  "Insight": 6,
+  "MaxInsight": 6,
+  "Ability1": "Dark Aura",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "yveltal",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 5.8,
+    "Feet": 19.0
+  },
+  "Weight": {
+    "Kilograms": 203.0,
+    "Pounds": 447.0
+  },
+  "DexDescription": "A Kalos legend about the eternal struggle between life and death tells the story of a king who was full of grief after sacrificing everyone he loved. He built a doomsday machine that would destroy the world.",
+  "Evolutions": [],
+  "Image": "yveltal.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Gust"
     },
-    "Weight": {
-        "Kilograms": 203.0,
-        "Pounds": 447.0
+    {
+      "Learned": "Starter",
+      "Name": "Double Team"
     },
-    "DexDescription": "A Kalos legend about the eternal struggle between life and death tells the story of a king who was full of grief after sacrificing everyone he loved. He built a doomsday machine that would destroy the world.",
-    "Evolutions": [],
-    "Image": "yveltal.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Gust"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Double Team"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Snarl"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Disable"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Jet Strike"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Taunt"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Razor Wind"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Sucker Punch"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Roost"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Air Slash"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Psychic"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Defog"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Rain Dance"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Dark Pulse"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Phantom Force"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Foul Play"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Dragon Rush"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Hurricane"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Focus Blast"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Sky Attack"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Hyper Beam"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Lash Out"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Decimation"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Shadow Tide"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Tailwind"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Oblivion Wing"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Heat Wave"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Snarl"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Disable"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Jet Strike"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Razor Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sucker Punch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Roost"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Defog"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Phantom Force"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Foul Play"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Rush"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hurricane"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Focus Blast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sky Attack"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hyper Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lash Out"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Decimation"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shadow Tide"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Oblivion Wing"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Heat Wave"
+    }
+  ],
+  "HM": [
+    "Defog"
+  ]
 }

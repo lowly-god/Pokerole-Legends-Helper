@@ -140,5 +140,8 @@
       "Name": "Skitter Smack"
     }
   ],
-  "MegaStone": "Golisopite"
+  "MegaStone": "Golisopite",
+  "HM": [
+    "Rock Smash"
+  ]
 }

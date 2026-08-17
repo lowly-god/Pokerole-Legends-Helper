@@ -179,5 +179,8 @@
       "Learned": "Expert",
       "Name": "Shield Bash"
     }
+  ],
+  "HM": [
+    "Cut"
   ]
 }

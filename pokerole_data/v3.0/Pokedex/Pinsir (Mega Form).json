@@ -128,5 +128,8 @@
       "Name": "Feint Attack"
     }
   ],
-  "MegaStone": "Pinsirite"
+  "MegaStone": "Pinsirite",
+  "HM": [
+    "Strength"
+  ]
 }

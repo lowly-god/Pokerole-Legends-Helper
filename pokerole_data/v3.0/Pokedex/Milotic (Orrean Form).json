@@ -175,5 +175,9 @@
       "Learned": "Advanced",
       "Name": "Acid Rain"
     }
+  ],
+  "HM": [
+    "Surf",
+    "Whirlpool"
   ]
 }

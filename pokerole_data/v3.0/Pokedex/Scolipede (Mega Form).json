@@ -148,5 +148,9 @@
       "Name": "Parasitize"
     }
   ],
-  "MegaStone": "Scolipite"
+  "MegaStone": "Scolipite",
+  "HM": [
+    "Rock Climb",
+    "Strength"
+  ]
 }

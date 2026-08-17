@@ -136,5 +136,8 @@
       "Name": "Aqua Tail"
     }
   ],
-  "MegaStone": "Aerodactylite"
+  "MegaStone": "Aerodactylite",
+  "HM": [
+    "Fly"
+  ]
 }

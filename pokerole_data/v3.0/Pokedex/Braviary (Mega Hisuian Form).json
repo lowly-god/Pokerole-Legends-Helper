@@ -140,5 +140,8 @@
       "Name": "Jet Strike"
     }
   ],
-  "MegaStone": "Bravialite"
+  "MegaStone": "Bravialite",
+  "HM": [
+    "Defog"
+  ]
 }

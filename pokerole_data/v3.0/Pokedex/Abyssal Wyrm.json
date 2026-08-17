@@ -145,5 +145,10 @@
       "Learned": "Advanced",
       "Name": "Aqua Fang"
     }
+  ],
+  "HM": [
+    "Defog",
+    "Dive",
+    "Surf"
   ]
 }

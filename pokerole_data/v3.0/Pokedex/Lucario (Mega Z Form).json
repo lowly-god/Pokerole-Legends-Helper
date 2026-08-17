@@ -172,5 +172,8 @@
       "Name": "Iron Edge"
     }
   ],
-  "MegaStone": "Lucarionite Z"
+  "MegaStone": "Lucarionite Z",
+  "HM": [
+    "Rock Smash"
+  ]
 }

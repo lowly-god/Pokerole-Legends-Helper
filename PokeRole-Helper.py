@@ -290,8 +290,17 @@ files = [('pkmnLists', pkmnLists), ('pokebotsettings', pokebotsettings)]
 
 
 def cleanup_legacy_item_files():
-    """Normalize legacy aliases, then remove obsolete item JSON before the v3 DB check."""
+    """Normalize/remove legacy item JSON before anything opens the v3 database.
+
+    The old implementation printed one line per removed machine file, which
+    could flood the console with hundreds of lines on hosts that restore the
+    packaged source on restart. Keep the cleanup defensive, but report only a
+    compact summary.
+    """
     item_dir = os.path.join('pokerole_data', 'v3.0', 'Items')
+    normalized_count = 0
+    removed_count = 0
+    error_count = 0
 
     canonical_item_renames = {
         'Alakazamite': 'Alakazite',
@@ -327,63 +336,38 @@ def cleanup_legacy_item_files():
                 json.dump(new_data, f, indent=2, ensure_ascii=False)
                 f.write('\n')
             os.remove(old_path)
-            print(f'Normalized item source: {old_name} -> {new_name}')
+            normalized_count += 1
         except Exception as exc:
-            print(f'Could not normalize item source {old_name}: {exc}')
+            error_count += 1
+            print(f'Legacy item cleanup could not normalize {old_name}: {exc}')
+
     obsolete_files = (
-        'Garbocean Crest.json',
-        'Manaphy Crest.json',
-        'Power Increasers [Various].json',
-        'Power Increasers.json',
-        'Fishing Rod.json',
-        'Greatball.json',
-        'Pokeball.json',
-        'Ultraball.json',
-        'Masterball.json',
-        'Never-Melt Ice.json',
-        'Kings Rock.json',
-        'Bugium-Z.json',
-        'Darkium-Z.json',
-        'Buginium Z.json',
-        'Darkinium Z.json',
-        'Dragonium Z.json',
-        'Electrium Z.json',
-        'Fairium Z.json',
-        'Fightinium Z.json',
-        'Firium Z.json',
-        'Flyinium Z.json',
-        'Ghostium Z.json',
-        'Grassium Z.json',
-        'Groundium Z.json',
-        'Icium Z.json',
-        'Poisonium Z.json',
-        'Psychium Z.json',
-        'Rockium Z.json',
-        'Steelium Z.json',
-        'Waterium Z.json',
-        'Normalium Z.json',
-        'Alakazamite.json',
-        'Altarionite.json',
-        'Amphorosite.json',
-        'Banetite.json',
-        'Beedrilite.json',
-        'Blastoisonite.json',
-        'Kangaskahnite.json',
-        'Salamancite.json',
-        'Mewtownite X.json',
-        'Mewtownite Y.json',
-        'Telekenis - TM.json',
-        'Telekenis - TR.json',
-        'Telekenis - HM.json',
-        'TM - Telekenis.json',
-        'TR - Telekenis.json',
+        'Garbocean Crest.json', 'Manaphy Crest.json',
+        'Power Increasers [Various].json', 'Power Increasers.json',
+        'Fishing Rod.json', 'Greatball.json', 'Pokeball.json', 'Ultraball.json',
+        'Masterball.json', 'Never-Melt Ice.json', 'Kings Rock.json',
+        'Bugium-Z.json', 'Darkium-Z.json', 'Buginium Z.json', 'Darkinium Z.json',
+        'Dragonium Z.json', 'Electrium Z.json', 'Fairium Z.json',
+        'Fightinium Z.json', 'Firium Z.json', 'Flyinium Z.json',
+        'Ghostium Z.json', 'Grassium Z.json', 'Groundium Z.json', 'Icium Z.json',
+        'Poisonium Z.json', 'Psychium Z.json', 'Rockium Z.json',
+        'Steelium Z.json', 'Waterium Z.json', 'Normalium Z.json',
+        'Alakazamite.json', 'Altarionite.json', 'Amphorosite.json',
+        'Banetite.json', 'Beedrilite.json', 'Blastoisonite.json',
+        'Kangaskahnite.json', 'Salamancite.json', 'Mewtownite X.json',
+        'Mewtownite Y.json', 'Telekenis - TM.json', 'Telekenis - TR.json',
+        'Telekenis - HM.json', 'TM - Telekenis.json', 'TR - Telekenis.json',
         'HM - Telekenis.json',
     )
     for filename in obsolete_files:
         path = os.path.join(item_dir, filename)
         if os.path.isfile(path):
-            os.remove(path)
-            print(f'Removed obsolete item source: {filename}')
+            try:
+                os.remove(path)
+                removed_count += 1
+            except Exception as exc:
+                error_count += 1
+                print(f'Legacy item cleanup could not remove {filename}: {exc}')
 
     # HM-designated moves must exist only as HMs, never as TM/TR machine items.
     hm_only_moves = {
@@ -395,20 +379,34 @@ def cleanup_legacy_item_files():
             filename = f'{move_name} - {suffix}.json'
             path = os.path.join(item_dir, filename)
             if os.path.isfile(path):
-                os.remove(path)
-                print(f'Removed HM-conflicting machine item source: {filename}')
+                try:
+                    os.remove(path)
+                    removed_count += 1
+                except Exception as exc:
+                    error_count += 1
+                    print(f'Legacy item cleanup could not remove {filename}: {exc}')
 
     # Older patches named generated machine items "TM - Move" / "TR - Move".
-    # The current format is "Move - TM" / "Move - TR" / "Move - HM".
-    # Remove every old prefix-format machine source before database refresh so
-    # the deprecated names cannot remain rollable/searchable through /item.
     if os.path.isdir(item_dir):
         for filename in os.listdir(item_dir):
             if re.match(r'^(?:TM|TR|HM) - .+\.json$', filename, flags=re.I):
                 path = os.path.join(item_dir, filename)
                 if os.path.isfile(path):
-                    os.remove(path)
-                    print(f'Removed obsolete machine item source: {filename}')
+                    try:
+                        os.remove(path)
+                        removed_count += 1
+                    except Exception as exc:
+                        error_count += 1
+                        print(f'Legacy item cleanup could not remove {filename}: {exc}')
+
+    if normalized_count or removed_count or error_count:
+        summary = (
+            f'Legacy item cleanup: normalized {normalized_count}, '
+            f'removed {removed_count} obsolete file(s)'
+        )
+        if error_count:
+            summary += f', {error_count} error(s)'
+        print(summary + '.')
 
 
 def ensure_roll_luck_check_help_entry():
@@ -444,11 +442,16 @@ async def on_ready():
     if not await checkFilesExist(extra_files):
         await init_extra_files()
 
+    # Clean legacy item sources before loading any cog. questCog constructs a
+    # Database during extension setup, so doing cleanup later caused one DB
+    # rebuild before cleanup and a second rebuild immediately afterwards.
+    cleanup_legacy_item_files()
+
     for cog in cogs:
-        await bot.load_extension(cog)
+        if cog not in bot.extensions:
+            await bot.load_extension(cog)
 
     ensure_roll_luck_check_help_entry()
-    cleanup_legacy_item_files()
     database = Database()
 
     print(f'{bot.user} has connected to Discord!')

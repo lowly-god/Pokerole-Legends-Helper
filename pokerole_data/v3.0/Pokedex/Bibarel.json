@@ -147,5 +147,10 @@
       "Learned": "Ace",
       "Name": "Stealth Rock"
     }
+  ],
+  "HM": [
+    "Cut",
+    "Rock Smash",
+    "Surf"
   ]
 }

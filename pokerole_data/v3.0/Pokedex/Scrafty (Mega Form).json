@@ -140,5 +140,8 @@
       "Name": "Cheap Shot"
     }
   ],
-  "MegaStone": "Scraftinite"
+  "MegaStone": "Scraftinite",
+  "HM": [
+    "Rock Climb"
+  ]
 }

@@ -1,166 +1,172 @@
 {
-    "Number": 383,
-    "DexID": "0383",
-    "Name": "Groudon",
-    "Type1": "Ground",
-    "Type2": "",
-    "BaseHP": 6,
-    "Strength": 8,
-    "MaxStrength": 8,
-    "Dexterity": 5,
-    "MaxDexterity": 5,
-    "Vitality": 7,
-    "MaxVitality": 7,
-    "Special": 6,
-    "MaxSpecial": 6,
-    "Insight": 5,
-    "MaxInsight": 5,
-    "Ability1": "Drought",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Master",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "groudon",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 3.5,
-        "Feet": 11.5
+  "Number": 383,
+  "DexID": "0383",
+  "Name": "Groudon",
+  "Type1": "Ground",
+  "Type2": "",
+  "BaseHP": 6,
+  "Strength": 8,
+  "MaxStrength": 8,
+  "Dexterity": 5,
+  "MaxDexterity": 5,
+  "Vitality": 7,
+  "MaxVitality": 7,
+  "Special": 6,
+  "MaxSpecial": 6,
+  "Insight": 5,
+  "MaxInsight": 5,
+  "Ability1": "Drought",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "groudon",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 3.5,
+    "Feet": 11.5
+  },
+  "Weight": {
+    "Kilograms": 1000.0,
+    "Pounds": 2204.0
+  },
+  "DexDescription": "Described in mythology as the god creator of lands, mountains, volcanoes, and continents. Any water or clouds evaporate in its presence. It is the mortal enemy of Kyogre.",
+  "Evolutions": [
+    {
+      "To": "Groudon (Primal Form)",
+      "Kind": "Form"
+    }
+  ],
+  "Image": "groudon.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Mud Sport"
     },
-    "Weight": {
-        "Kilograms": 1000.0,
-        "Pounds": 2204.0
+    {
+      "Learned": "Starter",
+      "Name": "Rock Smash"
     },
-    "DexDescription": "Described in mythology as the god creator of lands, mountains, volcanoes, and continents. Any water or clouds evaporate in its presence. It is the mortal enemy of Kyogre.",
-    "Evolutions": [
-        {
-            "To": "Groudon (Primal Form)",
-            "Kind": "Form"
-        }
-    ],
-    "Image": "groudon.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Mud Sport"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Rock Smash"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Ancient Power"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Mud Shot"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Scary Face"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Bulk Up"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Flame Wheel"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Block"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Dig"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Earth Power"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Lava Plume"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Rest"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Strength"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Stealth Rock"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Sandstorm"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Uncontrolled Burn Off"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Lapidify"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Rock Climb"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Earthquake"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Solar Beam"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Fissure"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Fire Blast"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Hammer Arm"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Eruption"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Heat Crash"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Magma Drift"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Gaia Force"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Dust Devil"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Wide Guard"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Precipice Blades"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Mud Shot"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bulk Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flame Wheel"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Block"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Earth Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lava Plume"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rest"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Strength"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stealth Rock"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sandstorm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Uncontrolled Burn Off"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lapidify"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rock Climb"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Earthquake"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Solar Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fissure"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fire Blast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hammer Arm"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Eruption"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heat Crash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Magma Drift"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gaia Force"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dust Devil"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wide Guard"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Precipice Blades"
+    }
+  ],
+  "HM": [
+    "Magma Drift",
+    "Rock Climb",
+    "Rock Smash",
+    "Strength"
+  ]
 }

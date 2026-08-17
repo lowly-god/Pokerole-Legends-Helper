@@ -139,5 +139,9 @@
       "Learned": "Advanced",
       "Name": "Twin Jolt"
     }
+  ],
+  "HM": [
+    "Fly",
+    "Surf"
   ]
 }

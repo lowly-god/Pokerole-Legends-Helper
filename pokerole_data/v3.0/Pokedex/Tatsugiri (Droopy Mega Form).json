@@ -120,5 +120,8 @@
       "Name": "Velvet Scales"
     }
   ],
-  "MegaStone": "Tatsugirinite"
+  "MegaStone": "Tatsugirinite",
+  "HM": [
+    "Surf"
+  ]
 }

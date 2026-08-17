@@ -40,6 +40,14 @@ LEGACY_HM_LAST_GEN = {
     "flash": 3,
 }
 
+# Legends HM set. In addition to historical canonical HMs, Legends treats
+# Magma Drift and Teleport as HMs. Any Pokémon that already learns one of these
+# moves in its authored move list is considered HM-compatible with it.
+ALL_HM_MOVE_IDS = {
+    "cut", "defog", "dive", "flash", "fly", "magmadrift", "rockclimb",
+    "rocksmash", "strength", "surf", "teleport", "waterfall", "whirlpool",
+}
+
 
 # Manual Tutor additions used by the Legends ruleset. These are kept outside
 # the Showdown cache so a cache refresh cannot remove the custom compatibility.
@@ -650,10 +658,17 @@ def _explicit_machine_move_ids(record, method):
             if not isinstance(entry, dict):
                 continue
             learned = _normalise_field_key(entry.get("Learned", ""))
-            if learned in aliases:
-                name = entry.get("Name") or entry.get("Move")
-                if name:
-                    result.add(_to_id(name))
+            name = entry.get("Name") or entry.get("Move")
+            if learned in aliases and name:
+                result.add(_to_id(name))
+
+            # Legends HMs work as an additional field-use permission. If a
+            # Pokémon already learns one of the full Legends HM move set in its
+            # ordinary rank learnpool, include that move in its HM pool too.
+            if method == "hm" and name:
+                move_id = _to_id(name)
+                if move_id in ALL_HM_MOVE_IDS:
+                    result.add(move_id)
 
     return result
 

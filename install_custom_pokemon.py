@@ -352,6 +352,7 @@ for r in records:
         "Evolutions": evolutions,
         "Image": old.get("Image", ""),
         "Moves": list(r.get("Moves") or []),
+        "HM": list(r.get("HM") or old.get("HM") or []),
     }
     mega_stone = r.get("MegaStone") or old.get("MegaStone")
     if mega_stone:
@@ -387,6 +388,8 @@ for r in records:
 
         if not data["Moves"]:
             data["Moves"] = list(parent.get("Moves", []))
+        if not data.get("HM"):
+            data["HM"] = list(parent.get("HM", []))
 
         # Mega forms have a meaningful previous form for move aggregation/forms.
         if "Mega " in name and not data["Evolutions"]:

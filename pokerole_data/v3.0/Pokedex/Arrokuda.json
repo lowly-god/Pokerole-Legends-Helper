@@ -127,5 +127,9 @@
       "Learned": "Advanced",
       "Name": "Aqua Fang"
     }
+  ],
+  "HM": [
+    "Dive",
+    "Waterfall"
   ]
 }

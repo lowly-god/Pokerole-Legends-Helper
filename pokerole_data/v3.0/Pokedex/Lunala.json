@@ -1,155 +1,158 @@
 {
-    "Number": 792,
-    "DexID": "0792",
-    "Name": "Lunala",
-    "Type1": "Psychic",
-    "Type2": "Ghost",
-    "BaseHP": 7,
-    "Strength": 6,
-    "MaxStrength": 6,
-    "Dexterity": 6,
-    "MaxDexterity": 6,
-    "Vitality": 5,
-    "MaxVitality": 5,
-    "Special": 7,
-    "MaxSpecial": 7,
-    "Insight": 6,
-    "MaxInsight": 6,
-    "Ability1": "Shadow Shield",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Master",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "lunala",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 4.0,
-        "Feet": 13.1
+  "Number": 792,
+  "DexID": "0792",
+  "Name": "Lunala",
+  "Type1": "Psychic",
+  "Type2": "Ghost",
+  "BaseHP": 7,
+  "Strength": 6,
+  "MaxStrength": 6,
+  "Dexterity": 6,
+  "MaxDexterity": 6,
+  "Vitality": 5,
+  "MaxVitality": 5,
+  "Special": 7,
+  "MaxSpecial": 7,
+  "Insight": 6,
+  "MaxInsight": 6,
+  "Ability1": "Shadow Shield",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "lunala",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 4.0,
+    "Feet": 13.1
+  },
+  "Weight": {
+    "Kilograms": 120.0,
+    "Pounds": 264.0
+  },
+  "DexDescription": "There are legends about a being who shone as if it was the full moon incarnated. This sinister Pokémon stole the light of all living things. On its forehead is a third eye linking it to another dimension.",
+  "Evolutions": [
+    {
+      "From": "Cosmoem",
+      "Kind": "Level",
+      "Game": "Shield"
+    }
+  ],
+  "Image": "lunala.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Confusion"
     },
-    "Weight": {
-        "Kilograms": 120.0,
-        "Pounds": 264.0
+    {
+      "Learned": "Starter",
+      "Name": "Teleport"
     },
-    "DexDescription": "There are legends about a being who shone as if it was the full moon incarnated. This sinister Pokémon stole the light of all living things. On its forehead is a third eye linking it to another dimension.",
-    "Evolutions": [
-        {
-            "From": "Cosmoem",
-            "Kind": "Level",
-            "Game": "Shield"
-        }
-    ],
-    "Image": "lunala.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Confusion"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Teleport"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Hypnosis"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Night Shade"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Confuse Ray"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Icy Wind"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Psybolt"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Cosmic Power"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Air Slash"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Shadow Ball"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Reflect"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Iron Defense"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Twilight Zone"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Moonlight"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Dream Eater"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Night Daze"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Phantom Force"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Moonblast"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Hyper Beam"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Hoarfrost Moon"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Spite"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Wide Guard"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Moongeist Beam"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Magic Coat"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Tailwind"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Heat Wave"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Singularity"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Hypnosis"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Night Shade"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Icy Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybolt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cosmic Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Twilight Zone"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Moonlight"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dream Eater"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Night Daze"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Phantom Force"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hyper Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hoarfrost Moon"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wide Guard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moongeist Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Magic Coat"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Heat Wave"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Singularity"
+    }
+  ],
+  "HM": [
+    "Teleport"
+  ]
 }

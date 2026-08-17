@@ -140,5 +140,8 @@
       "Name": "Brace"
     }
   ],
-  "MegaStone": "Falinksite"
+  "MegaStone": "Falinksite",
+  "HM": [
+    "Rock Smash"
+  ]
 }

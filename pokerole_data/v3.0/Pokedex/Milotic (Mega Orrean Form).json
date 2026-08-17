@@ -180,5 +180,9 @@
       "Name": "Acid Rain"
     }
   ],
-  "MegaStone": "(Orrean) Miloticite"
+  "MegaStone": "(Orrean) Miloticite",
+  "HM": [
+    "Surf",
+    "Whirlpool"
+  ]
 }

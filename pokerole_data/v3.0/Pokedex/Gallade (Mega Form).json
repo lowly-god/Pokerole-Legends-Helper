@@ -156,5 +156,8 @@
       "Name": "Destiny Bond"
     }
   ],
-  "MegaStone": "Galladite"
+  "MegaStone": "Galladite",
+  "HM": [
+    "Teleport"
+  ]
 }

@@ -1,118 +1,121 @@
 {
-    "Number": 386,
-    "DexID": "0386F2",
-    "Name": "Deoxys (Defense Form)",
-    "Type1": "Psychic",
-    "Type2": "",
-    "BaseHP": 4,
-    "Strength": 5,
-    "MaxStrength": 5,
-    "Dexterity": 5,
-    "MaxDexterity": 5,
-    "Vitality": 9,
-    "MaxVitality": 9,
-    "Special": 5,
-    "MaxSpecial": 5,
-    "Insight": 9,
-    "MaxInsight": 9,
-    "Ability1": "Pressure",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "deoxys-defense-form",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 1.7,
-        "Feet": 5.6
+  "Number": 386,
+  "DexID": "0386F2",
+  "Name": "Deoxys (Defense Form)",
+  "Type1": "Psychic",
+  "Type2": "",
+  "BaseHP": 4,
+  "Strength": 5,
+  "MaxStrength": 5,
+  "Dexterity": 5,
+  "MaxDexterity": 5,
+  "Vitality": 9,
+  "MaxVitality": 9,
+  "Special": 5,
+  "MaxSpecial": 5,
+  "Insight": 9,
+  "MaxInsight": 9,
+  "Ability1": "Pressure",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "deoxys-defense-form",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 1.7,
+    "Feet": 5.6
+  },
+  "Weight": {
+    "Kilograms": 60.0,
+    "Pounds": 132.0
+  },
+  "DexDescription": "One member of the space crew mentioned a broad creature that could reflect their weapon's attacks back at them. There was an explosion and the creature left, unscathed.",
+  "Evolutions": [
+    {
+      "From": "Deoxys",
+      "Kind": "Form"
+    }
+  ],
+  "Image": "deoxys-defense-form.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
     },
-    "Weight": {
-        "Kilograms": 60.0,
-        "Pounds": 132.0
+    {
+      "Learned": "Starter",
+      "Name": "Wrap"
     },
-    "DexDescription": "One member of the space crew mentioned a broad creature that could reflect their weapon's attacks back at them. There was an explosion and the creature left, unscathed.",
-    "Evolutions": [
-        {
-            "From": "Deoxys",
-            "Kind": "Form"
-        }
-    ],
-    "Image": "deoxys-defense-form.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Leer"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Wrap"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Bind"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Night Shade"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Teleport"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Pursuit"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Knock Off"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Psychic"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Psycho Shift"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Zen Headbutt"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Cosmic Power"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Recover"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Toxic"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Laser Focus"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Signal Beam"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Snatch"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Hyper Beam"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Psycho Boost"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Bind"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Night Shade"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Teleport"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Pursuit"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Knock Off"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psycho Shift"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Zen Headbutt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cosmic Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Laser Focus"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Signal Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Snatch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hyper Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Psycho Boost"
+    }
+  ],
+  "HM": [
+    "Teleport"
+  ]
 }

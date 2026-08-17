@@ -132,5 +132,8 @@
       "Name": "Asteroid Shot"
     }
   ],
-  "MegaStone": "Starminite"
+  "MegaStone": "Starminite",
+  "HM": [
+    "Surf"
+  ]
 }

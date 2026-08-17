@@ -136,5 +136,8 @@
       "Name": "Uproot"
     }
   ],
-  "MegaStone": "Abomasite"
+  "MegaStone": "Abomasite",
+  "HM": [
+    "Rock Smash"
+  ]
 }

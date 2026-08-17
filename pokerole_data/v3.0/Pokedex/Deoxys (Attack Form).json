@@ -1,118 +1,121 @@
 {
-    "Number": 386,
-    "DexID": "0386F1",
-    "Name": "Deoxys (Attack Form)",
-    "Type1": "Psychic",
-    "Type2": "",
-    "BaseHP": 4,
-    "Strength": 10,
-    "MaxStrength": 10,
-    "Dexterity": 8,
-    "MaxDexterity": 8,
-    "Vitality": 2,
-    "MaxVitality": 2,
-    "Special": 10,
-    "MaxSpecial": 10,
-    "Insight": 2,
-    "MaxInsight": 2,
-    "Ability1": "Pressure",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "deoxys-attack-form",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 1.7,
-        "Feet": 5.6
+  "Number": 386,
+  "DexID": "0386F1",
+  "Name": "Deoxys (Attack Form)",
+  "Type1": "Psychic",
+  "Type2": "",
+  "BaseHP": 4,
+  "Strength": 10,
+  "MaxStrength": 10,
+  "Dexterity": 8,
+  "MaxDexterity": 8,
+  "Vitality": 2,
+  "MaxVitality": 2,
+  "Special": 10,
+  "MaxSpecial": 10,
+  "Insight": 2,
+  "MaxInsight": 2,
+  "Ability1": "Pressure",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "deoxys-attack-form",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 1.7,
+    "Feet": 5.6
+  },
+  "Weight": {
+    "Kilograms": 60.0,
+    "Pounds": 132.0
+  },
+  "DexDescription": "The main engineer of the space crew reported a tentacled creature that ripped with ease through the thick metal hull of the ship to escape. The ship was recovered and was indeed torn in two sections.",
+  "Evolutions": [
+    {
+      "From": "Deoxys",
+      "Kind": "Form"
+    }
+  ],
+  "Image": "deoxys-attack-form.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
     },
-    "Weight": {
-        "Kilograms": 60.0,
-        "Pounds": 132.0
+    {
+      "Learned": "Starter",
+      "Name": "Wrap"
     },
-    "DexDescription": "The main engineer of the space crew reported a tentacled creature that ripped with ease through the thick metal hull of the ship to escape. The ship was recovered and was indeed torn in two sections.",
-    "Evolutions": [
-        {
-            "From": "Deoxys",
-            "Kind": "Form"
-        }
-    ],
-    "Image": "deoxys-attack-form.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Leer"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Wrap"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Bind"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Night Shade"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Teleport"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Pursuit"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Knock Off"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Psychic"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Psycho Shift"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Zen Headbutt"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Cosmic Power"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Recover"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Toxic"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Laser Focus"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Signal Beam"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Snatch"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Hyper Beam"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Psycho Boost"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Bind"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Night Shade"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Teleport"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Pursuit"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Knock Off"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psycho Shift"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Zen Headbutt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cosmic Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Laser Focus"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Signal Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Snatch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hyper Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Psycho Boost"
+    }
+  ],
+  "HM": [
+    "Teleport"
+  ]
 }

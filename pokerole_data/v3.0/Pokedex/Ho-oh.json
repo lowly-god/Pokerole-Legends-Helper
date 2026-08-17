@@ -1,153 +1,159 @@
 {
-    "Number": 250,
-    "DexID": "0250",
-    "Name": "Ho-oh",
-    "Type1": "Fire",
-    "Type2": "Flying",
-    "BaseHP": 6,
-    "Strength": 7,
-    "MaxStrength": 7,
-    "Dexterity": 5,
-    "MaxDexterity": 5,
-    "Vitality": 5,
-    "MaxVitality": 5,
-    "Special": 6,
-    "MaxSpecial": 6,
-    "Insight": 8,
-    "MaxInsight": 8,
-    "Ability1": "Pressure",
-    "Ability2": "",
-    "HiddenAbility": "Regenerator",
-    "EventAbilities": "",
-    "RecommendedRank": "Master",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "ho-oh",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 3.8,
-        "Feet": 12.5
+  "Number": 250,
+  "DexID": "0250",
+  "Name": "Ho-oh",
+  "Type1": "Fire",
+  "Type2": "Flying",
+  "BaseHP": 6,
+  "Strength": 7,
+  "MaxStrength": 7,
+  "Dexterity": 5,
+  "MaxDexterity": 5,
+  "Vitality": 5,
+  "MaxVitality": 5,
+  "Special": 6,
+  "MaxSpecial": 6,
+  "Insight": 8,
+  "MaxInsight": 8,
+  "Ability1": "Pressure",
+  "Ability2": "",
+  "HiddenAbility": "Regenerator",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "ho-oh",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 3.8,
+    "Feet": 12.5
+  },
+  "Weight": {
+    "Kilograms": 200.0,
+    "Pounds": 440.0
+  },
+  "DexDescription": "Ho-oh inhabited the Bell Tower, where Pokémon were said to rest. Ho-oh's myth talks about a creature that brought eternal rest for those whose time was right, and also gave back life if death was premature.",
+  "Evolutions": [],
+  "Image": "ho-oh.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Gust"
     },
-    "Weight": {
-        "Kilograms": 200.0,
-        "Pounds": 440.0
+    {
+      "Learned": "Starter",
+      "Name": "Flash"
     },
-    "DexDescription": "Ho-oh inhabited the Bell Tower, where Pokémon were said to rest. Ho-oh's myth talks about a creature that brought eternal rest for those whose time was right, and also gave back life if death was premature.",
-    "Evolutions": [],
-    "Image": "ho-oh.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Gust"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Flash"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Ancient Power"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Whirlwind"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Cauterize"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Jet Strike"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Rainbow Beam"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Natural Gift"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Life Dew"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Extrasensory"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Sunny Day"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Safeguard"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Recover"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Calm Mind"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Weather Ball"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Hidden Power"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Defog"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Strength"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Fly"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Cleansing Fire"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Brave Bird"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Fire Blast"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Punishment"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Future Sight"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Sky Attack"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Solar Beam"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Burn Up"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Sacred Fire"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Whirlwind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cauterize"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Jet Strike"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rainbow Beam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Natural Gift"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Life Dew"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Extrasensory"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Calm Mind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Weather Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hidden Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Defog"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Strength"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fly"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Cleansing Fire"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Brave Bird"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fire Blast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Punishment"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Future Sight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sky Attack"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Solar Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Burn Up"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Sacred Fire"
+    }
+  ],
+  "HM": [
+    "Defog",
+    "Flash",
+    "Fly",
+    "Strength"
+  ]
 }

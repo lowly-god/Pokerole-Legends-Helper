@@ -136,5 +136,8 @@
       "Name": "Velvet Scales"
     }
   ],
-  "MegaStone": "Salamancite"
+  "MegaStone": "Salamancite",
+  "HM": [
+    "Fly"
+  ]
 }

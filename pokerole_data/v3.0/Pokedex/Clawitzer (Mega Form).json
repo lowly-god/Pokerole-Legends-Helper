@@ -140,5 +140,8 @@
       "Name": "Velvet Scales"
     }
   ],
-  "MegaStone": "Clawitzerite"
+  "MegaStone": "Clawitzerite",
+  "HM": [
+    "Dive"
+  ]
 }

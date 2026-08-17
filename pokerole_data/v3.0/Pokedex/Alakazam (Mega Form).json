@@ -124,5 +124,8 @@
       "Name": "Foul Play"
     }
   ],
-  "MegaStone": "Alakazamite"
+  "MegaStone": "Alakazamite",
+  "HM": [
+    "Teleport"
+  ]
 }

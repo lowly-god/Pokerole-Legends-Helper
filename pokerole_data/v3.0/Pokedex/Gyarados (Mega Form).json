@@ -128,5 +128,9 @@
       "Name": "Bounce"
     }
   ],
-  "MegaStone": "Gyaradosite"
+  "MegaStone": "Gyaradosite",
+  "HM": [
+    "Waterfall",
+    "Whirlpool"
+  ]
 }

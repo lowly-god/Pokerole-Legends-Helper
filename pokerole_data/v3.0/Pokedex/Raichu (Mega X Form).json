@@ -140,5 +140,9 @@
       "Name": "Twin Jolt"
     }
   ],
-  "MegaStone": "Raichunite X"
+  "MegaStone": "Raichunite X",
+  "HM": [
+    "Fly",
+    "Surf"
+  ]
 }

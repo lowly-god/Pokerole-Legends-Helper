@@ -136,5 +136,8 @@
       "Name": "Drain Punch"
     }
   ],
-  "MegaStone": "Crabominite"
+  "MegaStone": "Crabominite",
+  "HM": [
+    "Rock Smash"
+  ]
 }

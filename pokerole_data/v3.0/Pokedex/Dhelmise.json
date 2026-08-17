@@ -145,5 +145,9 @@
       "Learned": "Advanced",
       "Name": "Scrap Metal"
     }
+  ],
+  "HM": [
+    "Surf",
+    "Whirlpool"
   ]
 }

@@ -160,5 +160,8 @@
       "Name": "Acid Rain"
     }
   ],
-  "MegaStone": "Dragalgite"
+  "MegaStone": "Dragalgite",
+  "HM": [
+    "Dive"
+  ]
 }

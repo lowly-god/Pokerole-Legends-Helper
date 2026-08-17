@@ -1,150 +1,154 @@
 {
-    "Number": 647,
-    "DexID": "0647F1",
-    "Name": "Keldeo (Resolute Form)",
-    "Type1": "Water",
-    "Type2": "Fighting",
-    "BaseHP": 5,
-    "Strength": 6,
-    "MaxStrength": 6,
-    "Dexterity": 6,
-    "MaxDexterity": 6,
-    "Vitality": 6,
-    "MaxVitality": 6,
-    "Special": 7,
-    "MaxSpecial": 7,
-    "Insight": 5,
-    "MaxInsight": 5,
-    "Ability1": "Justified",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "keldeo-resolute-form",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 1.4,
-        "Feet": 4.6
+  "Number": 647,
+  "DexID": "0647F1",
+  "Name": "Keldeo (Resolute Form)",
+  "Type1": "Water",
+  "Type2": "Fighting",
+  "BaseHP": 5,
+  "Strength": 6,
+  "MaxStrength": 6,
+  "Dexterity": 6,
+  "MaxDexterity": 6,
+  "Vitality": 6,
+  "MaxVitality": 6,
+  "Special": 7,
+  "MaxSpecial": 7,
+  "Insight": 5,
+  "MaxInsight": 5,
+  "Ability1": "Justified",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "keldeo-resolute-form",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 1.4,
+    "Feet": 4.6
+  },
+  "Weight": {
+    "Kilograms": 48.0,
+    "Pounds": 106.0
+  },
+  "DexDescription": "The old fairy tale ends with the youngest Pokémon rising above evil and injustice due to its resolute and determined desire for justice. The mentorship of the other three Pokémon finally bore fruits.",
+  "Evolutions": [
+    {
+      "From": "Keldeo",
+      "Kind": "Form"
+    }
+  ],
+  "Image": "keldeo-resolute-form.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
     },
-    "Weight": {
-        "Kilograms": 48.0,
-        "Pounds": 106.0
+    {
+      "Learned": "Starter",
+      "Name": "Aqua Jet"
     },
-    "DexDescription": "The old fairy tale ends with the youngest Pokémon rising above evil and injustice due to its resolute and determined desire for justice. The mentorship of the other three Pokémon finally bore fruits.",
-    "Evolutions": [
-        {
-            "From": "Keldeo",
-            "Kind": "Form"
-        }
-    ],
-    "Image": "keldeo-resolute-form.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Leer"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Aqua Jet"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Helping Hand"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Work Up"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Double Kick"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Noble Roar"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Take Down"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Icy Wind"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Bubble Beam"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Quick Guard"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Retaliate"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Aqua Tail"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Zen Headbutt"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Waterfall"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Rain Dance"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Follow Me"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Laser Focus"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Surf"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Flip Turn"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Swords Dance"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Stone Edge"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Solar Blade"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Hydro Pump"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Close Combat"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Sacred Sword"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Smart Strike"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Kick"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Noble Roar"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Take Down"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Icy Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Bubble Beam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Quick Guard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Retaliate"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aqua Tail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Zen Headbutt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Waterfall"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rain Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Follow Me"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Laser Focus"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Surf"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Flip Turn"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Stone Edge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Solar Blade"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hydro Pump"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Sacred Sword"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Smart Strike"
+    }
+  ],
+  "HM": [
+    "Surf",
+    "Waterfall"
+  ]
 }

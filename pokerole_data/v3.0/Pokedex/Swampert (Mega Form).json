@@ -152,5 +152,10 @@
       "Name": "Hydro Cannon"
     }
   ],
-  "MegaStone": "Swampertite"
+  "MegaStone": "Swampertite",
+  "HM": [
+    "Rock Smash",
+    "Surf",
+    "Whirlpool"
+  ]
 }

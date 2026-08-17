@@ -156,5 +156,8 @@
       "Name": "Final Gambit"
     }
   ],
-  "MegaStone": "Lucarionite"
+  "MegaStone": "Lucarionite",
+  "HM": [
+    "Rock Smash"
+  ]
 }

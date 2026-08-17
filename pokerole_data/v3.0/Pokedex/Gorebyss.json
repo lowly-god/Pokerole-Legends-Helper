@@ -132,5 +132,9 @@
       "Learned": "Standard",
       "Name": "Parasitize"
     }
+  ],
+  "HM": [
+    "Dive",
+    "Whirlpool"
   ]
 }
