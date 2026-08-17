@@ -1,0 +1,13 @@
+{
+  "Name": "Water Pledge - TM",
+  "_id": "water-pledge-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Water Pledge to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "19500",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Roost - TM",
+  "_id": "roost-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Roost to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "12000",
+  "Cures": "",
+  "Image": ""
+}

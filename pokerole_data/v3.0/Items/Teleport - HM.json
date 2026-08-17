@@ -1,0 +1,13 @@
+{
+  "Name": "Teleport - HM",
+  "_id": "teleport-hm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use HM that can teach Teleport to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "45000",
+  "Cures": "",
+  "Image": ""
+}

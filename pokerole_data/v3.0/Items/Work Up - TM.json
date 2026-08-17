@@ -1,0 +1,13 @@
+{
+  "Name": "Work Up - TM",
+  "_id": "work-up-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Work Up to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "10500",
+  "Cures": "",
+  "Image": ""
+}

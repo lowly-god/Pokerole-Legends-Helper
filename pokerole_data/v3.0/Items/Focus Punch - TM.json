@@ -1,0 +1,13 @@
+{
+  "Name": "Focus Punch - TM",
+  "_id": "focus-punch-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Focus Punch to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "12000",
+  "Cures": "",
+  "Image": ""
+}

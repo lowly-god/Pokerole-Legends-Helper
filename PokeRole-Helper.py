@@ -253,18 +253,37 @@ def cleanup_legacy_item_files():
         'Manaphy Crest.json',
         'Power Increasers [Various].json',
         'Power Increasers.json',
-        'TM - Basic.json',
-        'TR - Basic.json',
-        'TM - Support.json',
-        'TR - Support.json',
-        'TM - High Power.json',
-        'TR - High Power.json',
     )
     for filename in obsolete_files:
         path = os.path.join(item_dir, filename)
         if os.path.isfile(path):
             os.remove(path)
             print(f'Removed obsolete item source: {filename}')
+
+    # HM-designated moves must exist only as HMs, never as TM/TR machine items.
+    hm_only_moves = {
+        'Cut', 'Defog', 'Dive', 'Flash', 'Fly', 'Magma Drift', 'Rock Climb',
+        'Rock Smash', 'Strength', 'Surf', 'Teleport', 'Waterfall', 'Whirlpool',
+    }
+    for move_name in hm_only_moves:
+        for suffix in ('TM', 'TR'):
+            filename = f'{move_name} - {suffix}.json'
+            path = os.path.join(item_dir, filename)
+            if os.path.isfile(path):
+                os.remove(path)
+                print(f'Removed HM-conflicting machine item source: {filename}')
+
+    # Older patches named generated machine items "TM - Move" / "TR - Move".
+    # The current format is "Move - TM" / "Move - TR" / "Move - HM".
+    # Remove every old prefix-format machine source before database refresh so
+    # the deprecated names cannot remain rollable/searchable through /item.
+    if os.path.isdir(item_dir):
+        for filename in os.listdir(item_dir):
+            if re.match(r'^(?:TM|TR|HM) - .+\.json$', filename, flags=re.I):
+                path = os.path.join(item_dir, filename)
+                if os.path.isfile(path):
+                    os.remove(path)
+                    print(f'Removed obsolete machine item source: {filename}')
 
 
 def ensure_roll_luck_check_help_entry():
@@ -1367,6 +1386,28 @@ def pkmn_random_driver(listname: str, giveList=False) -> str:
 
 #######
 
+def machine_item_move_name(itemname: str):
+    """Return the underlying move for suffix-format TM/TR/HM item names."""
+    match = re.match(r"^(.+?) - (TM|TR|HM)$", str(itemname), flags=re.I)
+    return match.group(1) if match else None
+
+
+def machine_item_view(itemname: str, version: str):
+    move_name = machine_item_move_name(itemname)
+    if not move_name:
+        return None
+
+    buttons = Timeout_View()
+    view_move = Button(style=discord.ButtonStyle.blurple, label='View Move')
+
+    async def on_view_move(interaction):
+        await interaction.response.send_message(await move_backend(move_name, version=version))
+
+    view_move.callback = on_view_move
+    buttons.add_item(view_move)
+    return buttons
+
+
 async def pkmnitemhelper(item, version: str):
     global database
     if str(item).casefold() in REMOVED_ITEM_LOOKUP_NAMES:
@@ -1423,7 +1464,11 @@ async def pkmn_search_item(ctx, itemname: str = ''):
                 ]
                 for x in temp:
                     output += f' - {x}\n'
-            await ctx.send(output)
+            view = machine_item_view(itemname, version)
+            if view is not None:
+                view.message = await ctx.send(output, view=view)
+            else:
+                await ctx.send(output)
         except:
             await ctx.send(f'{itemname} wasn\'t found in the item list.\n*Unknown Error Occurred?*')
     else:

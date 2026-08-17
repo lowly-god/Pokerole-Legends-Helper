@@ -1,0 +1,13 @@
+{
+  "Name": "Terrorize - TR",
+  "_id": "terrorize-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Terrorize to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "8000",
+  "Cures": "",
+  "Image": ""
+}

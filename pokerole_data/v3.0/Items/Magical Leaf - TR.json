@@ -1,0 +1,13 @@
+{
+  "Name": "Magical Leaf - TR",
+  "_id": "magical-leaf-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Magical Leaf to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "2500",
+  "Cures": "",
+  "Image": ""
+}

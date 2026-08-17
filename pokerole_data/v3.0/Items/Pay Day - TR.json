@@ -1,0 +1,13 @@
+{
+  "Name": "Pay Day - TR",
+  "_id": "pay-day-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Pay Day to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "4000",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Rock Tomb - TM",
+  "_id": "rock-tomb-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Rock Tomb to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "10500",
+  "Cures": "",
+  "Image": ""
+}

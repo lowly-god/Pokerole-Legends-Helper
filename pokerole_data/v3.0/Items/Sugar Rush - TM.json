@@ -1,0 +1,13 @@
+{
+  "Name": "Sugar Rush - TM",
+  "_id": "sugar-rush-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Sugar Rush to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "10500",
+  "Cures": "",
+  "Image": ""
+}

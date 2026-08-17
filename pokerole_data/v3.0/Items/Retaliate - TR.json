@@ -1,0 +1,13 @@
+{
+  "Name": "Retaliate - TR",
+  "_id": "retaliate-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Retaliate to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "4000",
+  "Cures": "",
+  "Image": ""
+}

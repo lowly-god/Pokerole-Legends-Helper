@@ -1,0 +1,13 @@
+{
+  "Name": "Gastro Acid - TR",
+  "_id": "gastro-acid-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Gastro Acid to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "5500",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Nasty Plot - TR",
+  "_id": "nasty-plot-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Nasty Plot to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "5000",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Helping Hand - TM",
+  "_id": "helping-hand-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Helping Hand to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "12000",
+  "Cures": "",
+  "Image": ""
+}

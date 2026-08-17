@@ -1,0 +1,13 @@
+{
+  "Name": "Synthesis - TM",
+  "_id": "synthesis-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Synthesis to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "16500",
+  "Cures": "",
+  "Image": ""
+}

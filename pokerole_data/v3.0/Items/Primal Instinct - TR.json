@@ -1,0 +1,13 @@
+{
+  "Name": "Primal Instinct - TR",
+  "_id": "primal-instinct-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Primal Instinct to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "3500",
+  "Cures": "",
+  "Image": ""
+}

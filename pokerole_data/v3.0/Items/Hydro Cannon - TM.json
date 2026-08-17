@@ -1,0 +1,13 @@
+{
+  "Name": "Hydro Cannon - TM",
+  "_id": "hydro-cannon-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Hydro Cannon to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "18000",
+  "Cures": "",
+  "Image": ""
+}

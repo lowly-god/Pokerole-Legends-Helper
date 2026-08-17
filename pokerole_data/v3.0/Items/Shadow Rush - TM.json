@@ -1,0 +1,13 @@
+{
+  "Name": "Shadow Rush - TM",
+  "_id": "shadow-rush-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Shadow Rush to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "16500",
+  "Cures": "",
+  "Image": ""
+}

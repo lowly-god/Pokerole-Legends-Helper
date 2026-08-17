@@ -33,35 +33,46 @@ def calculate_rare_luck_check(luck_modifier, d100_roll=None):
     return base, apply_luck_modifier(base, luck_modifier)
 
 
-class RareLuckModifierModal(discord.ui.Modal, title="Rare Item Luck Check"):
-    luck_modifier = discord.ui.TextInput(
-        label="Luck Modifier",
-        placeholder="Enter 0, 5, 10 ... 100",
-        required=True,
-        max_length=3,
-    )
+class RareLuckCheckView(discord.ui.View):
+    """Owner-only Luck Modifier selector for a rare Foraging result.
 
-    def __init__(self, view, source_message):
-        super().__init__()
-        self.parent_view = view
-        self.source_message = source_message
+    A fixed select is used instead of a free-text modal because valid modifiers
+    are only 0..100 in steps of 5. This also avoids Discord's generic
+    sensitive/password warning on modal text inputs. The actual Luck Check
+    result is posted publicly to the channel.
+    """
+    def __init__(self, owner_id):
+        super().__init__(timeout=300)
+        self.owner_id = owner_id
+        self.luck_select = discord.ui.Select(
+            placeholder="Choose Luck Modifier to roll 1D100",
+            min_values=1,
+            max_values=1,
+            options=[
+                discord.SelectOption(
+                    label=f"Luck Modifier {modifier}",
+                    value=str(modifier),
+                )
+                for modifier in range(0, 101, 5)
+            ],
+        )
+        self.luck_select.callback = self.select_luck_modifier
+        self.add_item(self.luck_select)
 
-    async def on_submit(self, interaction: discord.Interaction):
-        try:
-            modifier = int(str(self.luck_modifier.value).strip())
-            base, total = calculate_rare_luck_check(modifier)
-        except (TypeError, ValueError):
+    async def select_luck_modifier(self, interaction: discord.Interaction):
+        if interaction.user.id != self.owner_id:
             await interaction.response.send_message(
-                "Luck Modifier must be a multiple of 5 from 0 to 100 (0, 5, 10 ... 100).",
+                "Only the player who made this Foraging check can roll its Luck Check.",
                 ephemeral=True,
             )
             return
 
-        for child in self.parent_view.children:
-            if isinstance(child, discord.ui.Button):
-                child.disabled = True
+        modifier = int(self.luck_select.values[0])
+        base, total = calculate_rare_luck_check(modifier)
+
+        self.luck_select.disabled = True
         try:
-            await self.source_message.edit(view=self.parent_view)
+            await interaction.message.edit(view=self)
         except Exception:
             pass
 
@@ -75,23 +86,8 @@ class RareLuckModifierModal(discord.ui.Modal, title="Rare Item Luck Check"):
         else:
             lines.append("Failed (90+ required).")
 
-        await interaction.response.send_message("\n".join(lines))
-
-
-class RareLuckCheckView(discord.ui.View):
-    def __init__(self, owner_id):
-        super().__init__(timeout=300)
-        self.owner_id = owner_id
-
-    @discord.ui.button(label="Roll Luck Check", style=discord.ButtonStyle.primary, emoji="🍀")
-    async def roll_luck_check(self, interaction: discord.Interaction, button: discord.ui.Button):
-        if interaction.user.id != self.owner_id:
-            await interaction.response.send_message(
-                "Only the player who made this Foraging check can roll its Luck Check.",
-                ephemeral=True,
-            )
-            return
-        await interaction.response.send_modal(RareLuckModifierModal(self, interaction.message))
+        # Explicitly public: everyone in the channel can see the roll/result.
+        await interaction.response.send_message("\n".join(lines), ephemeral=False)
 
 
 class Foraging(commands.Cog):
@@ -127,8 +123,8 @@ class Foraging(commands.Cog):
             if level == 6 and d10 == 10:
                 needs_rare_luck_check = True
                 blocks.append(
-                    "🍀 **Rare Item Luck Check required.** Press **Roll Luck Check** below, "
-                    "then enter your Luck Modifier (a multiple of 5 from 0 to 100)."
+                    "🍀 **Rare Item Luck Check required.** Choose your Luck Modifier below "
+                    "(0 to 100 in multiples of 5) to roll 1D100."
                 )
 
         view = RareLuckCheckView(interaction.user.id) if needs_rare_luck_check else None

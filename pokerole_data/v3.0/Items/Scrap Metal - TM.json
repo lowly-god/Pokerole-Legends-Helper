@@ -1,0 +1,13 @@
+{
+  "Name": "Scrap Metal - TM",
+  "_id": "scrap-metal-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Scrap Metal to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "16500",
+  "Cures": "",
+  "Image": ""
+}

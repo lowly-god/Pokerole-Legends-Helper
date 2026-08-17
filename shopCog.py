@@ -277,14 +277,53 @@ class ShopCog(commands.Cog):
             embeds[-1].set_footer(text=footer)
         return embeds
 
+    @staticmethod
+    def _embed_batches(embeds, max_count=10, max_chars=5800):
+        """Batch embeds within Discord's per-message limits.
+
+        Discord permits at most 10 embeds in one message and at most 6000
+        aggregate embed characters. Keep a small safety margin for titles,
+        authors and footers.
+        """
+        batches = []
+        current = []
+        current_chars = 0
+
+        for embed in embeds:
+            try:
+                embed_chars = len(embed)
+            except Exception:
+                data = embed.to_dict()
+                embed_chars = sum(
+                    len(str(value))
+                    for key, value in data.items()
+                    if key in {"title", "description", "author", "footer", "fields"}
+                )
+
+            if current and (
+                len(current) >= max_count
+                or current_chars + embed_chars > max_chars
+            ):
+                batches.append(current)
+                current = []
+                current_chars = 0
+
+            current.append(embed)
+            current_chars += embed_chars
+
+        if current:
+            batches.append(current)
+        return batches
+
     async def send_embeds(self, interaction, embeds, intro=None):
-        # Discord supports max 10 embeds per message.
-        first_batch = embeds[:10]
-        await interaction.response.send_message(content=intro, embeds=first_batch)
-        rest = embeds[10:]
-        while rest:
-            await interaction.followup.send(embeds=rest[:10])
-            rest = rest[10:]
+        batches = self._embed_batches(embeds)
+        if not batches:
+            await interaction.response.send_message(content=intro or "No stock found.")
+            return
+
+        await interaction.response.send_message(content=intro, embeds=batches[0])
+        for batch in batches[1:]:
+            await interaction.followup.send(embeds=batch)
 
     @app_commands.command(name="shop", description="Display the stock of a specific shop")
     @app_commands.describe(

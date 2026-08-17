@@ -1,0 +1,13 @@
+{
+  "Name": "Shadow Chill - TM",
+  "_id": "shadow-chill-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Shadow Chill to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "16500",
+  "Cures": "",
+  "Image": ""
+}

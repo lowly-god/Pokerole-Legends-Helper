@@ -1,0 +1,13 @@
+{
+  "Name": "Rock Climb - HM",
+  "_id": "rock-climb-hm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use HM that can teach Rock Climb to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "9000",
+  "Cures": "",
+  "Image": ""
+}

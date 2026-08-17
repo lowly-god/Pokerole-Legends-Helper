@@ -1,0 +1,13 @@
+{
+  "Name": "Frenzy Plant - TR",
+  "_id": "frenzy-plant-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Frenzy Plant to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "6000",
+  "Cures": "",
+  "Image": ""
+}

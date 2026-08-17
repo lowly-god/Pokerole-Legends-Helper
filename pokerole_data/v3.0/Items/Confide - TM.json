@@ -1,0 +1,13 @@
+{
+  "Name": "Confide - TM",
+  "_id": "confide-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Confide to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "7500",
+  "Cures": "",
+  "Image": ""
+}

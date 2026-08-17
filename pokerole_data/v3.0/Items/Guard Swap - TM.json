@@ -1,0 +1,13 @@
+{
+  "Name": "Guard Swap - TM",
+  "_id": "guard-swap-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Guard Swap to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "13500",
+  "Cures": "",
+  "Image": ""
+}

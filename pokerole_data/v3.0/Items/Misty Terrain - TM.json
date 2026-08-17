@@ -1,0 +1,13 @@
+{
+  "Name": "Misty Terrain - TM",
+  "_id": "misty-terrain-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Misty Terrain to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "13500",
+  "Cures": "",
+  "Image": ""
+}

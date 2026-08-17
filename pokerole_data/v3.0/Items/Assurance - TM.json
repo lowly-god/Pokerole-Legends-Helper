@@ -1,0 +1,13 @@
+{
+  "Name": "Assurance - TM",
+  "_id": "assurance-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Assurance to multiple Pokémon",
+  "OneUse": false,
+  "TrainerPrice": "7500",
+  "Cures": "",
+  "Image": ""
+}

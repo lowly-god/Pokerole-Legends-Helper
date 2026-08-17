@@ -1,0 +1,13 @@
+{
+  "Name": "Shield Bash - TR",
+  "_id": "shield-bash-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Shield Bash to one Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "6500",
+  "Cures": "",
+  "Image": ""
+}
