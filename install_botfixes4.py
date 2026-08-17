@@ -92,6 +92,12 @@ for filename in (
     'Salamancite.json',
     'Mewtownite X.json',
     'Mewtownite Y.json',
+    'Telekenis - TM.json',
+    'Telekenis - TR.json',
+    'Telekenis - HM.json',
+    'TM - Telekenis.json',
+    'TR - Telekenis.json',
+    'HM - Telekenis.json',
 ):
     path = item_dir / filename
     if path.exists():

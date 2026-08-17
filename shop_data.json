@@ -7919,24 +7919,6 @@
           "category": "Psychic"
         },
         {
-          "name": "Telekenis",
-          "price": "4000",
-          "effect": "",
-          "category": "Psychic"
-        },
-        {
-          "name": "Telekenis - TR",
-          "price": "4000",
-          "effect": "A single use TR that can teach Telekenis to one Pokémon",
-          "category": "Psychic"
-        },
-        {
-          "name": "Telekenis - TM",
-          "price": "12000",
-          "effect": "A multi-use TM that can teach Telekenis to multiple Pokémon",
-          "category": "Psychic"
-        },
-        {
           "name": "Telekinesis",
           "price": "4500",
           "effect": "",
@@ -15939,12 +15921,6 @@
         {
           "name": "Stored Power",
           "price": "4500",
-          "effect": "",
-          "category": "Psychic"
-        },
-        {
-          "name": "Telekenis",
-          "price": "4000",
           "effect": "",
           "category": "Psychic"
         },

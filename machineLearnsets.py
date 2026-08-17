@@ -477,3 +477,192 @@ def machine_moves_section(pokemon):
         return ""
 
     return "\n".join(sections) + "\n"
+
+# ---------------------------------------------------------------------------
+# Dynamic machine-item compatibility lookup used by the /item "Teachable To"
+# button. This deliberately reads the current Pokédex JSON at button-click
+# time so later TM/TR/Tutor/HM list additions take effect without regenerating
+# a static reverse index.
+# ---------------------------------------------------------------------------
+
+_EXPLICIT_MACHINE_KEY_ALIASES = {
+    "tm": {"tm", "tms", "tmmoves", "tmlist", "technicalmachines"},
+    "tr": {"tr", "trs", "trmoves", "trlist", "technicalrecords"},
+    "tutor": {"tutor", "tutors", "tutormoves", "tutorlist", "movetutor", "movetutors"},
+    "hm": {"hm", "hms", "hmmoves", "hmlist", "hiddenmachines"},
+}
+
+
+def _normalise_field_key(text):
+    return re.sub(r"[^a-z0-9]", "", str(text).casefold())
+
+
+def _move_ids_from_explicit_value(value):
+    """Extract move ids from common list/string/dict shapes."""
+    result = set()
+
+    if value is None:
+        return result
+
+    if isinstance(value, str):
+        # Support comma, pipe, semicolon and newline separated authored lists.
+        parts = re.split(r"\s*(?:\||,|;|\n)\s*", value)
+        for part in parts:
+            if part.strip():
+                result.add(_to_id(part))
+        return result
+
+    if isinstance(value, (list, tuple, set)):
+        for entry in value:
+            result.update(_move_ids_from_explicit_value(entry))
+        return result
+
+    if isinstance(value, dict):
+        # Common move-entry shape: {"Name": "Move"}.
+        for key in ("Name", "Move", "name", "move"):
+            if key in value and isinstance(value[key], str):
+                result.add(_to_id(value[key]))
+                return result
+        # Otherwise accept values from a nested authored list container.
+        for nested in value.values():
+            result.update(_move_ids_from_explicit_value(nested))
+        return result
+
+    return result
+
+
+def _explicit_machine_move_ids(record, method):
+    """Read future authored TM/TR/Tutor/HM lists from a Pokédex record.
+
+    This accepts several sensible field spellings (e.g. TM, TMs, TM Moves,
+    TMList) and also recognises move entries whose Learned value is TM/TR/etc.
+    """
+    method = str(method).casefold()
+    aliases = _EXPLICIT_MACHINE_KEY_ALIASES.get(method, {method})
+    result = set()
+
+    # Direct top-level lists and common nested list containers.
+    for key, value in record.items():
+        normal = _normalise_field_key(key)
+        if normal in aliases:
+            result.update(_move_ids_from_explicit_value(value))
+        elif normal in {"machinemoves", "machinemove", "movelists", "movelearnsets", "machinelearnsets"} and isinstance(value, dict):
+            for nested_key, nested_value in value.items():
+                if _normalise_field_key(nested_key) in aliases:
+                    result.update(_move_ids_from_explicit_value(nested_value))
+
+    # Also support normal move entries tagged with an acquisition method.
+    moves = record.get("Moves", [])
+    if isinstance(moves, list):
+        for entry in moves:
+            if not isinstance(entry, dict):
+                continue
+            learned = _normalise_field_key(entry.get("Learned", ""))
+            if learned in aliases:
+                name = entry.get("Name") or entry.get("Move")
+                if name:
+                    result.add(_to_id(name))
+
+    return result
+
+
+def _official_can_learn_machine_move(species_id, move_id, method, data):
+    """Fast one-move equivalent of get_machine_moves for reverse lookup."""
+    move_sources = data.get(species_id, {})
+    if not move_sources:
+        return False
+
+    method = str(method).casefold()
+    source_map = move_sources.get(move_id, {})
+
+    if method == "tm":
+        machine_gens = [
+            gen
+            for sources in move_sources.values()
+            for gen in sources.get("M", [])
+        ]
+        if not machine_gens:
+            return False
+        latest_machine_gen = max(machine_gens)
+        if latest_machine_gen not in source_map.get("M", []):
+            return False
+        if latest_machine_gen == 8 and move_id in GEN8_TR_MOVES:
+            return False
+        return True
+
+    if method == "tr":
+        return move_id in GEN8_TR_MOVES and 8 in source_map.get("M", [])
+
+    if method == "tutor":
+        if move_id in MANUAL_TUTOR_ADDITIONS.get(species_id, set()):
+            return True
+        tutor_gens = [
+            gen
+            for sources in move_sources.values()
+            for gen in sources.get("T", [])
+        ]
+        return bool(tutor_gens and max(tutor_gens) in source_map.get("T", []))
+
+    if method == "hm":
+        last_hm_gen = LEGACY_HM_LAST_GEN.get(move_id)
+        return bool(last_hm_gen and last_hm_gen in source_map.get("M", []))
+
+    return False
+
+
+def get_teachable_pokemon(move_name, method):
+    """Return current Pokédex names that can learn move_name by TM/TR/HM.
+
+    The lookup is intentionally dynamic: every click rereads current Pokédex
+    records and merges explicit authored lists with official compatibility.
+    This means future TM/TR/Tutor/HM lists added to Pokémon JSON work without
+    maintaining a separate static reverse-list file.
+    """
+    target_id = _to_id(move_name)
+    method = str(method).casefold()
+    data = _get_data()
+    learners = []
+
+    pokedex_dir = Path("pokerole_data") / "v3.0" / "Pokedex"
+    if not pokedex_dir.is_dir():
+        return learners
+
+    for path in pokedex_dir.glob("*.json"):
+        try:
+            record = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+
+        pokemon_name = record.get("Name")
+        if not pokemon_name:
+            continue
+
+        explicit = _explicit_machine_move_ids(record, method)
+        if target_id in explicit:
+            learners.append(str(pokemon_name))
+            continue
+
+        species_id = _resolve_species_id(pokemon_name, data)
+        if species_id and _official_can_learn_machine_move(
+            species_id, target_id, method, data
+        ):
+            learners.append(str(pokemon_name))
+
+    return sorted(dict.fromkeys(learners), key=str.casefold)
+
+
+def get_move_type(move_name):
+    """Return the authored type of a move, or an empty string if unavailable."""
+    target = _to_id(move_name)
+    folder = Path("pokerole_data") / "v3.0" / "Moves"
+    if not folder.is_dir():
+        return ""
+
+    for path in folder.glob("*.json"):
+        try:
+            info = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        if _to_id(info.get("Name", "")) == target:
+            return str(info.get("Type", ""))
+    return ""

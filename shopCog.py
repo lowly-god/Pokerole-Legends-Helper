@@ -64,6 +64,17 @@ class ShopCog(commands.Cog):
     def _is_machine_item(item):
         return bool(re.search(r" - (?:TM|TR|HM)$", str(item.get("name", "")), flags=re.I))
 
+    @staticmethod
+    def _machine_stock_sort_key(item):
+        """Sort machine stock alphabetically by move name within each type."""
+        name = str(item.get("name", ""))
+        match = re.match(r"^(.+?) - (TM|TR|HM)$", name, flags=re.I)
+        if not match:
+            return (name.casefold(), 99, name.casefold())
+        move_name, machine_kind = match.groups()
+        kind_order = {"TR": 0, "TM": 1, "HM": 2}
+        return (move_name.casefold(), kind_order.get(machine_kind.upper(), 99), name.casefold())
+
     def generate(self, shop_name):
         cfg = self.shops[shop_name]
         mode = cfg["mode"]
@@ -271,6 +282,11 @@ class ShopCog(commands.Cog):
         grouped = defaultdict(list)
         for item in unique:
             grouped[item.get("category", "Stock")].append(item)
+
+        if shop_name == "Move Tutor":
+            for entries in grouped.values():
+                entries.sort(key=self._machine_stock_sort_key)
+
         return [(cat, [line_for(x) for x in entries]) for cat, entries in grouped.items()]
 
     def embeds_for_shop(self, shop_name, display_all_stock=False):

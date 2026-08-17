@@ -26,7 +26,7 @@ from bisect import bisect
 
 from dbhelper import Database
 from statsExtra import pokemon_extra_stats_text
-from machineLearnsets import machine_moves_section
+from machineLearnsets import machine_moves_section, get_teachable_pokemon, get_move_type
 
 # for my testing environment
 dev_env = (True if len(sys.argv) > 1 else False)
@@ -132,7 +132,12 @@ REMOVED_ITEM_LOOKUP_NAMES = {
     'salamancite',
     'mewtownite x',
     'mewtownite y',
+    'telekenis',
+    'telekenis - tm',
+    'telekenis - tr',
+    'telekenis - hm',
 }
+
 restartError = True
 
 base_regions = ['Kanto', 'Johto', 'Hoenn', 'Sinnoh', 'Unova', 'Kalos', 'Alola', 'Galar']
@@ -367,6 +372,12 @@ def cleanup_legacy_item_files():
         'Salamancite.json',
         'Mewtownite X.json',
         'Mewtownite Y.json',
+        'Telekenis - TM.json',
+        'Telekenis - TR.json',
+        'Telekenis - HM.json',
+        'TM - Telekenis.json',
+        'TR - Telekenis.json',
+        'HM - Telekenis.json',
     )
     for filename in obsolete_files:
         path = os.path.join(item_dir, filename)
@@ -1500,25 +1511,69 @@ def pkmn_random_driver(listname: str, giveList=False) -> str:
 
 #######
 
+def machine_item_details(itemname: str):
+    """Return (move name, machine kind) for suffix-format TM/TR/HM items."""
+    match = re.match(r"^(.+?) - (TM|TR|HM)$", str(itemname), flags=re.I)
+    if not match:
+        return None, None
+    return match.group(1), match.group(2).upper()
+
+
 def machine_item_move_name(itemname: str):
     """Return the underlying move for suffix-format TM/TR/HM item names."""
-    match = re.match(r"^(.+?) - (TM|TR|HM)$", str(itemname), flags=re.I)
-    return match.group(1) if match else None
+    return machine_item_details(itemname)[0]
+
+
+def _teachable_to_chunks(move_name: str, machine_kind: str, learners: list[str], limit: int = 1900):
+    heading = f'**{move_name} - {machine_kind} — Teachable To**\n'
+    if not learners:
+        return [heading + 'No compatible Pokémon are currently listed.']
+
+    chunks = []
+    current = heading
+    for pokemon in learners:
+        addition = pokemon if current.endswith('\n') else f'  |  {pokemon}'
+        if len(current) + len(addition) > limit:
+            chunks.append(current.rstrip())
+            current = pokemon
+        else:
+            current += addition
+    if current:
+        chunks.append(current.rstrip())
+    return chunks
 
 
 def machine_item_view(itemname: str, version: str):
-    move_name = machine_item_move_name(itemname)
+    move_name, machine_kind = machine_item_details(itemname)
     if not move_name:
         return None
 
     buttons = Timeout_View()
     view_move = Button(style=discord.ButtonStyle.blurple, label='View Move')
+    teachable_to = Button(style=discord.ButtonStyle.secondary, label='Teachable To')
 
     async def on_view_move(interaction):
         await interaction.response.send_message(await move_backend(move_name, version=version))
 
+    async def on_teachable_to(interaction):
+        # Shadow machines do not use a fixed species compatibility list.
+        if get_move_type(move_name).casefold() == 'shadow':
+            await interaction.response.send_message(
+                f'**{move_name} - {machine_kind} — Teachable To**\n'
+                "Any Shadow Pokémon, at the Storyteller's discretion"
+            )
+            return
+
+        learners = get_teachable_pokemon(move_name, machine_kind)
+        chunks = _teachable_to_chunks(move_name, machine_kind, learners)
+        await interaction.response.send_message(chunks[0])
+        for chunk in chunks[1:]:
+            await interaction.followup.send(chunk)
+
     view_move.callback = on_view_move
+    teachable_to.callback = on_teachable_to
     buttons.add_item(view_move)
+    buttons.add_item(teachable_to)
     return buttons
 
 
