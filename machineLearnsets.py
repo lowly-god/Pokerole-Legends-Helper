@@ -350,94 +350,71 @@ def _display_names(move_ids):
 
 
 def get_machine_moves(pokemon):
-    """Return separated TM, TR, Tutor and HM learnsets for an official Pokémon.
+    """Return separated TM, TR, Tutor and HM learnsets.
 
-    TM:
-        Machine moves from the Pokémon/form's most recent generation with
-        official machine compatibility. In Gen 8, TR moves are removed from
-        this bucket and shown under TR instead.
-
-    TR:
-        Sword/Shield TR compatibility, using exact Gen 8 machine sources
-        intersected with the official TR00-TR99 move set.
-
-    Tutor:
-        Tutor moves from the most recent generation in which that exact
-        Pokémon/form has tutor-source learnset data.
-
-    HM:
-        Historical HM compatibility from the last generation where each move
-        was actually an HM.
+    Official compatibility is merged with any explicit authored TM/TR/Tutor/HM
+    pools on the current Pokédex record. That keeps custom/regional Pokémon and
+    future hand-authored compatibility dynamic.
     """
     data = _get_data()
     species_id = _resolve_species_id(pokemon, data)
 
-    empty = {
-        "generation": None,
-        "tm": [],
-        "tr": [],
-        "tutor": [],
-        "hm": [],
-    }
-
-    if not species_id:
-        return empty
-
-    move_sources = data.get(species_id, {})
-    if not move_sources:
-        return empty
-
-    machine_gens = [
-        gen
-        for source_map in move_sources.values()
-        for gen in source_map.get("M", [])
-    ]
-    latest_machine_gen = max(machine_gens) if machine_gens else None
-
+    latest_machine_gen = None
     tm_ids = set()
     tr_ids = set()
     tutor_ids = set()
     hm_ids = set()
 
-    # Latest official machine list -> TM, except actual Gen 8 TRs.
-    if latest_machine_gen is not None:
-        for move_id, source_map in move_sources.items():
-            gens = source_map.get("M", [])
-            if latest_machine_gen not in gens:
-                continue
+    if species_id:
+        move_sources = data.get(species_id, {})
+        if move_sources:
+            machine_gens = [
+                gen
+                for source_map in move_sources.values()
+                for gen in source_map.get("M", [])
+            ]
+            latest_machine_gen = max(machine_gens) if machine_gens else None
 
-            if latest_machine_gen == 8 and move_id in GEN8_TR_MOVES:
-                tr_ids.add(move_id)
-            else:
-                tm_ids.add(move_id)
+            if latest_machine_gen is not None:
+                for move_id, source_map in move_sources.items():
+                    gens = source_map.get("M", [])
+                    if latest_machine_gen not in gens:
+                        continue
+                    if latest_machine_gen == 8 and move_id in GEN8_TR_MOVES:
+                        tr_ids.add(move_id)
+                    else:
+                        tm_ids.add(move_id)
 
-    # Keep Gen 8 TR compatibility even for Pokémon that later appeared in Gen 9.
-    for move_id, source_map in move_sources.items():
-        if move_id in GEN8_TR_MOVES and 8 in source_map.get("M", []):
-            tr_ids.add(move_id)
+            for move_id, source_map in move_sources.items():
+                if move_id in GEN8_TR_MOVES and 8 in source_map.get("M", []):
+                    tr_ids.add(move_id)
 
-    # Most recent tutor generation for this exact Pokémon/form.
-    tutor_gens = [
-        gen
-        for source_map in move_sources.values()
-        for gen in source_map.get("T", [])
-    ]
-    latest_tutor_gen = max(tutor_gens) if tutor_gens else None
+            tutor_gens = [
+                gen
+                for source_map in move_sources.values()
+                for gen in source_map.get("T", [])
+            ]
+            latest_tutor_gen = max(tutor_gens) if tutor_gens else None
+            if latest_tutor_gen is not None:
+                for move_id, source_map in move_sources.items():
+                    if latest_tutor_gen in source_map.get("T", []):
+                        tutor_ids.add(move_id)
 
-    if latest_tutor_gen is not None:
-        for move_id, source_map in move_sources.items():
-            if latest_tutor_gen in source_map.get("T", []):
-                tutor_ids.add(move_id)
+            tutor_ids.update(MANUAL_TUTOR_ADDITIONS.get(species_id, set()))
 
-    # Legends-specific Tutor compatibility. These additions are intentionally
-    # applied after the official cache so they survive future cache refreshes.
-    tutor_ids.update(MANUAL_TUTOR_ADDITIONS.get(species_id, set()))
+            for hm_move_id, last_hm_gen in LEGACY_HM_LAST_GEN.items():
+                source_map = move_sources.get(hm_move_id, {})
+                if last_hm_gen in source_map.get("M", []):
+                    hm_ids.add(hm_move_id)
 
-    # Historical HMs from the last generation each move was an HM.
-    for hm_move_id, last_hm_gen in LEGACY_HM_LAST_GEN.items():
-        source_map = move_sources.get(hm_move_id, {})
-        if last_hm_gen in source_map.get("M", []):
-            hm_ids.add(hm_move_id)
+    # Explicit authored pools always apply, even when the Pokémon/form has no
+    # official Showdown identifier.
+    record = _load_current_pokedex_record(pokemon)
+    if record:
+        tm_ids.update(_explicit_machine_move_ids(record, "tm"))
+        tr_ids.update(_explicit_machine_move_ids(record, "tr"))
+        tutor_ids.update(_explicit_machine_move_ids(record, "tutor"))
+        hm_ids.update(_explicit_machine_move_ids(record, "hm"))
 
     return {
         "generation": latest_machine_gen,
@@ -484,6 +461,121 @@ def machine_moves_section(pokemon):
 # time so later TM/TR/Tutor/HM list additions take effect without regenerating
 # a static reverse index.
 # ---------------------------------------------------------------------------
+
+# Regional variants remain distinct in /item -> Teachable To. All other
+# parenthetical forms collapse to the base species for display, while Mega
+# forms are omitted entirely. This keeps the output useful without listing
+# battle/gimmick/gender transformations as separate Pokémon.
+_REGIONAL_FORM_LABELS = {
+    "alolan": "Alolan",
+    "galarian": "Galarian",
+    "hisuian": "Hisuian",
+    "paldean": "Paldean",
+    "kantonian": "Kantonian",
+    "johtonian": "Johtonian",
+    "hoennian": "Hoennian",
+    "sinnohan": "Sinnohan",
+    "unovan": "Unovan",
+    "kalosian": "Kalosian",
+    "orrean": "Orrean",
+    "ruskovan": "Ruskovan",
+    "orrelborous": "Orrelborous",
+    "islas lluvia de estrellas": "Islas Lluvia De’estrellas",
+}
+
+
+# Custom forms explicitly approved to remain distinct in /item -> Teachable To.
+# These are checked before the generic non-regional form collapse rule.
+_DISTINCT_TEACHABLE_FORMS = {
+    "Alakazam (Delta Form)",
+    "Azelf (Toxic Chain Form)",
+    "Capsiwisp (Dessicated Form)",
+    "Capsiwisp (Hydrated Form)",
+    "Hypno (Delta Form)",
+    "Latias (Toxic Chain Form)",
+    "Latios (Toxic Chain Form)",
+    "Mesprit (Toxic Chain Form)",
+    "Muk (Delta Form)",
+    "Noxial (Endothermic Form)",
+    "Noxial (Exothermic Form)",
+    "Polteageist (Delta Form)",
+    "Sharpedo (Hull-Biter Form)",
+    "Silvally (Improved RKS System Form)",
+    "Spectrelec (Aerodactyl Form)",
+    "Spectrelec (Kabutops Form)",
+    "Tangrowth (Delta Form)",
+    "Tapu Bulu (Corrupted Form)",
+    "Tapu Fini (Corrupted Form)",
+    "Tapu Koko (Corrupted Form)",
+    "Tapu Lele (Corrupted Form)",
+    "Trevenant (Frostmourn Form)",
+    "Unown (Prime Form)",
+    "Unown (Swarm Form)",
+    "Uxie (Toxic Chain Form)",
+}
+_DISTINCT_TEACHABLE_FORMS_BY_KEY = {
+    name.casefold(): name for name in _DISTINCT_TEACHABLE_FORMS
+}
+
+
+def _regional_key(text):
+    # Make straight/curly apostrophes and accents/punctuation irrelevant for
+    # matching authored region labels such as Islas Lluvia De’estrellas.
+    value = str(text).casefold().replace("’", "'")
+    value = re.sub(r"[^a-z0-9]+", " ", value)
+    return " ".join(value.split())
+
+
+def _teachable_display_name(pokemon_name):
+    """Return the compact display name used by Teachable To.
+
+    Mega forms are omitted. Regional forms are retained as one regional entry.
+    Every other form/gender/state collapses to the base Pokémon name.
+    """
+    name = str(pokemon_name).strip()
+    if not name:
+        return None
+
+    form_parts = re.findall(r"\(([^)]*)\)", name)
+    if any(re.search(r"\bmega\b", part, flags=re.I) for part in form_parts):
+        return None
+
+    distinct_name = _DISTINCT_TEACHABLE_FORMS_BY_KEY.get(name.casefold())
+    if distinct_name:
+        return distinct_name
+
+    base = re.split(r"\s*\(", name, maxsplit=1)[0].strip()
+    if not form_parts:
+        return base
+
+    normalised_parts = [_regional_key(part) for part in form_parts]
+    for region_key, display in _REGIONAL_FORM_LABELS.items():
+        key = _regional_key(region_key)
+        if any(re.search(rf"(?:^| )\b{re.escape(key)}\b(?: |$)", part) for part in normalised_parts):
+            return f"{base} ({display} Form)"
+
+    return base
+
+
+
+def _load_current_pokedex_record(pokemon_name):
+    """Load the current authored Pokédex record for a displayed Pokémon name."""
+    folder = Path("pokerole_data") / "v3.0" / "Pokedex"
+    direct = folder / f"{pokemon_name}.json"
+    if direct.is_file():
+        try:
+            return json.loads(direct.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    for path in folder.glob("*.json"):
+        try:
+            record = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        if str(record.get("Name", "")).casefold() == str(pokemon_name).casefold():
+            return record
+    return None
+
 
 _EXPLICIT_MACHINE_KEY_ALIASES = {
     "tm": {"tm", "tms", "tmmoves", "tmlist", "technicalmachines"},
@@ -648,7 +740,13 @@ def get_teachable_pokemon(move_name, method):
         ):
             learners.append(str(pokemon_name))
 
-    return sorted(dict.fromkeys(learners), key=str.casefold)
+    display_learners = []
+    for learner in learners:
+        display = _teachable_display_name(learner)
+        if display:
+            display_learners.append(display)
+
+    return sorted(dict.fromkeys(display_learners), key=str.casefold)
 
 
 def get_move_type(move_name):
