@@ -5913,7 +5913,7 @@
         },
         {
           "name": "Macho Brace",
-          "price": "6000",
+          "price": "10000",
           "effect": "Doubles the Training Points gained in Battle, but the Holders Dexterity is Halved (Rounded Down)",
           "category": "General Items"
         },
@@ -8102,7 +8102,7 @@
         },
         {
           "name": "Macho Brace",
-          "price": "6000",
+          "price": "10000",
           "effect": "Doubles the Training Points gained in Battle, but the Holders Dexterity is Halved (Rounded Down)",
           "category": "General Items"
         },

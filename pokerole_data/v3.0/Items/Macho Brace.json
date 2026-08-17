@@ -7,7 +7,7 @@
   "Category": "General Items",
   "Description": "Doubles the Training Points gained in Battle, but the Holders Dexterity is Halved (Rounded Down)",
   "OneUse": false,
-  "TrainerPrice": "6000",
+  "TrainerPrice": "10000",
   "Cures": "",
   "Image": ""
 }

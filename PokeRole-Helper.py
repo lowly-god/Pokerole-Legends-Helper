@@ -50,7 +50,7 @@ intents.message_content = True
 bot = commands.Bot(command_prefix=cmd_prefix, intents=intents)
 
 # note that 'custom help' needs to load last
-cogs = ['diceCog', 'miscCommands', 'questCog', 'maneuverCog', 'fieldtypeCog', 'natureRollCog', 'foragingCog', 'perkCog', 'armorCog', 'accessoriesCog', 'toolsCog', 'shopCog', 'humanNpcCog', 'rankUpCog', 'encounterTableCog', 'referenceRulesCog', 'trainingReferenceCog', 'craftingReferenceCog', 'custom_help']
+cogs = ['diceCog', 'luckCheckCog', 'miscCommands', 'questCog', 'maneuverCog', 'fieldtypeCog', 'natureRollCog', 'foragingCog', 'perkCog', 'armorCog', 'accessoriesCog', 'toolsCog', 'shopCog', 'humanNpcCog', 'rankUpCog', 'encounterTableCog', 'referenceRulesCog', 'trainingReferenceCog', 'craftingReferenceCog', 'custom_help']
 
 # TODO: compress more of the data in working memory
 #   ++PokeLearns ranks complete
@@ -84,6 +84,10 @@ def _load_moved_lookup_names(filename):
 ACCESSORY_LOOKUP_NAMES = _load_moved_lookup_names('accessories_data.json')
 TOOL_LOOKUP_NAMES = _load_moved_lookup_names('tools_data.json')
 MOVED_ITEM_LOOKUP_NAMES = ACCESSORY_LOOKUP_NAMES | TOOL_LOOKUP_NAMES
+REMOVED_ITEM_LOOKUP_NAMES = {
+    'power increasers',
+    'power increasers [various]',
+}
 restartError = True
 
 base_regions = ['Kanto', 'Johto', 'Hoenn', 'Sinnoh', 'Unova', 'Kalos', 'Alola', 'Galar']
@@ -235,14 +239,42 @@ def load_obj(name):
 files = [('pkmnLists', pkmnLists), ('pokebotsettings', pokebotsettings)]
 
 
-def cleanup_legacy_crest_item_files():
-    """Remove obsolete duplicate Crest JSON files left by older patches."""
+def cleanup_legacy_item_files():
+    """Remove obsolete item JSON files before the generated v3 database is checked."""
     item_dir = os.path.join('pokerole_data', 'v3.0', 'Items')
-    for filename in ('Garbocean Crest.json', 'Manaphy Crest.json'):
+    obsolete_files = (
+        'Garbocean Crest.json',
+        'Manaphy Crest.json',
+        'Power Increasers [Various].json',
+        'Power Increasers.json',
+    )
+    for filename in obsolete_files:
         path = os.path.join(item_dir, filename)
         if os.path.isfile(path):
             os.remove(path)
-            print(f'Removed obsolete duplicate Crest source: {filename}')
+            print(f'Removed obsolete item source: {filename}')
+
+
+def ensure_roll_luck_check_help_entry():
+    """Add /roll_luck_check immediately below /roll in the custom help Utilities category."""
+    try:
+        import custom_help
+
+        tagline = "Roll a 1D100 Luck Check, with input for Luck Skill modifier"
+        for category_name, rows in custom_help.HELP_CATEGORIES:
+            if category_name != "Utilities":
+                continue
+
+            rows[:] = [row for row in rows if row[0] != "roll_luck_check"]
+            insert_at = next(
+                (index + 1 for index, row in enumerate(rows) if row[0] == "roll"),
+                len(rows),
+            )
+            rows.insert(insert_at, ("roll_luck_check", tagline))
+            custom_help.HELP_TAGLINES["roll_luck_check"] = tagline
+            return
+    except Exception as exc:
+        print(f'Failed to add /roll_luck_check to /help: {exc}')
 
 
 @bot.event
@@ -259,7 +291,8 @@ async def on_ready():
     for cog in cogs:
         await bot.load_extension(cog)
 
-    cleanup_legacy_crest_item_files()
+    ensure_roll_luck_check_help_entry()
+    cleanup_legacy_item_files()
     database = Database()
 
     print(f'{bot.user} has connected to Discord!')
@@ -301,10 +334,10 @@ async def on_ready():
     for command in SLASH_COMMANDS:
         bot.tree.add_command(command)
 
-    # This command was added after the existing production global command set was
-    # already registered. Ensure it is installed once without requiring a manual
-    # %sync_global invocation.
-    await ensure_get_pokerole_legends_registered()
+    # Keep the patched global application-command shape current. This updates
+    # stale /encounter_table group registrations and installs newer commands such
+    # as /roll_luck_check without requiring a manual %sync_global invocation.
+    await ensure_required_global_commands_registered()
 
     # Production uses global application commands only. Older versions of the bot
     # exposed sync_test, which copied every global command into a test guild and
@@ -321,35 +354,66 @@ async def on_ready():
 #######
 # sync commands
 
-SLASH_GUILD_CLEANUP_MARKER = '.slash_guild_duplicates_cleaned_v1'
+SLASH_GUILD_CLEANUP_MARKER = '.slash_guild_duplicates_cleaned_v2'
 GETPOKEROLELEGENDS_COMMAND = 'get_pokerole_legends'
 
 
-async def ensure_get_pokerole_legends_registered():
-    """Register the Legends supplement command if Discord does not have it yet.
-
-    Global commands normally only change when sync_global is run. This small startup
-    migration makes this particular new command self-installing without syncing on
-    every restart.
-    """
+async def ensure_required_global_commands_registered():
+    """Sync only when one of this patch's required global slash commands is stale."""
     if dev_env:
         return
 
     try:
         registered = await bot.tree.fetch_commands()
-        registered_names = {command.name for command in registered}
-        if GETPOKEROLELEGENDS_COMMAND in registered_names:
-            print('Slash command /get_pokerole_legends is already registered globally.')
+        registered_by_name = {command.name: command for command in registered}
+        reasons = []
+
+        if GETPOKEROLELEGENDS_COMMAND not in registered_by_name:
+            reasons.append('/get_pokerole_legends is missing')
+
+        if 'roll_luck_check' not in registered_by_name:
+            reasons.append('/roll_luck_check is missing')
+
+        encounter_command = registered_by_name.get('encounter_table')
+        if encounter_command is None:
+            reasons.append('/encounter_table is missing')
+        else:
+            option_names = {
+                getattr(option, 'name', None)
+                for option in (getattr(encounter_command, 'options', []) or [])
+            }
+            if option_names != {'table', 'roll', 'exclude'}:
+                reasons.append(
+                    '/encounter_table has stale options/subcommands '
+                    f'({", ".join(sorted(name for name in option_names if name)) or "none"})'
+                )
+
+        if not reasons:
+            print('Patched global slash commands are already current.')
             return
 
+        print('Refreshing global slash commands: ' + '; '.join(reasons))
         synced = await bot.tree.sync()
-        synced_names = {command.name for command in synced}
-        if GETPOKEROLELEGENDS_COMMAND in synced_names:
-            print('Registered global slash command: /get_pokerole_legends')
+        synced_by_name = {command.name: command for command in synced}
+
+        encounter_command = synced_by_name.get('encounter_table')
+        encounter_options = {
+            getattr(option, 'name', None)
+            for option in (getattr(encounter_command, 'options', []) or [])
+        } if encounter_command else set()
+
+        if (
+            'roll_luck_check' in synced_by_name
+            and encounter_options == {'table', 'roll', 'exclude'}
+        ):
+            print('Patched global slash command migration completed.')
         else:
-            print('Global slash sync completed, but /get_pokerole_legends was not returned by Discord.')
+            print(
+                'Global slash sync completed, but the patched command shape '
+                'could not be fully verified from Discord.'
+            )
     except Exception as exc:
-        print(f'Failed to register /get_pokerole_legends: {exc}')
+        print(f'Failed to refresh patched global slash commands: {exc}')
 
 
 async def cleanup_stale_guild_slash_commands():
@@ -891,6 +955,7 @@ async def item_autocomplete(
         result = [
             x[0] for x in database.custom_query(query, version=version)
             if x[0].casefold() not in MOVED_ITEM_LOOKUP_NAMES
+            and x[0].casefold() not in REMOVED_ITEM_LOOKUP_NAMES
         ][:25]
         return [
             app_commands.Choice(name=m_list, value=m_list)
@@ -1252,6 +1317,8 @@ def pkmn_random_driver(listname: str, giveList=False) -> str:
 
 async def pkmnitemhelper(item, version: str):
     global database
+    if str(item).casefold() in REMOVED_ITEM_LOOKUP_NAMES:
+        raise KeyError(f'{item} wasn\'t recognized as an item.')
     try:
         return list(database.query_table('pkmnItems', 'name', item, version=version)[0])[2:]
     except:
@@ -1297,7 +1364,11 @@ async def pkmn_search_item(ctx, itemname: str = ''):
             else:
                 # this is a category
                 temp = database.custom_query(f'SELECT name FROM pkmnItems WHERE category="{itemname}"')
-                temp = [x[0] for x in temp if x[0].casefold() not in MOVED_ITEM_LOOKUP_NAMES]
+                temp = [
+                    x[0] for x in temp
+                    if x[0].casefold() not in MOVED_ITEM_LOOKUP_NAMES
+                    and x[0].casefold() not in REMOVED_ITEM_LOOKUP_NAMES
+                ]
                 for x in temp:
                     output += f' - {x}\n'
             await ctx.send(output)

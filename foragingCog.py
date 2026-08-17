@@ -3,6 +3,8 @@ import discord
 from discord import app_commands
 from discord.ext import commands
 
+from luck_utils import apply_luck_modifier, format_luck_check
+
 FORAGING_TABLES = {1: ['Oran Berry', 'Red Apricorn', 'Pecha Berry', 'Chesto Berry', 'Cheri Berry', 'Blue Apricorn', 'Persim Berry', 'Aspear Berry', 'Pink Apricorn', 'Tiny Bamboo Shoot'], 2: ['Chesto Berry', 'Red Apricorn', 'Rawst Berry', 'Sitrus Berry', 'Cyan Apricorn', '5x Poke Food Ingredients', 'Energy Root', 'Gray Apricorn', 'Big Bamboo Shoot', 'Green Apricorn'], 3: ['Green Apricorn', 'Lum Berry', 'Sitrus Berry', 'White Apricorn', 'Energy Root', 'Gray Apricorn', 'Cyan Apricorn', '3x Meal Ingredients (Rations)', 'Energy Root', 'Big Mushroom'], 4: ['Pink Apricorn', 'Blue Apricorn', 'Honey', 'Lum Berry', 'Vitality Herb', 'Sitrus Berry', 'Stardust', 'Gray Apricorn', 'Revival Herb', 'Black Apricorn'], 5: ['Green Apricorn', 'White Apricorn', 'Evolutionary Stone', '5x Gourmet Poke Food Ingredients', 'Big Mushroom', 'Revival Herb', 'Energy Root', 'Type Boosting Held Item', 'Black Apricorn', 'Nugget'], 6: ['Cyan Apricorn', 'Nature Mint', 'Evolutionary Item', 'Star Piece', 'Black Apricorn', 'Revival Herb', 'Vitality Herb', 'Random Held Item', 'Balm Mushroom', '90+ Luck Check to find very rare Item']}
 EVOLUTION_STONES = ['Fire Stone', 'Thunder Stone', 'Water Stone', 'Ice Stone', 'Leaf Stone', 'Moon Stone', 'Sun Stone', 'Toxin Stone', 'Precious Stone', 'Brave Stone', 'Desert Rose', 'Amber Onyx', 'Feather Stone', 'Shiny Stone', 'Dusk Stone', 'Dawn Stone', 'Adamantite Stone', 'Link Stone', 'Rune Stone']
 EVOLUTION_ITEMS = ['Auspicious Armor', 'Black Augurite', 'Chipped Pot', 'Corrupted Drive', 'Cracked Pot', 'Deep Sea Scale', 'Deep Sea Tooth', 'Dragon Scale', 'Dubious Disc', 'Electirizer', 'Galarica Cuff', 'Galarica Wreath', 'King’s Rock', 'Magmarizer', 'Malicious Armor', 'Masterpiece Teacup', 'Metal Alloy', 'Metal Coat', 'Oval Stone', 'Peat Block', 'Prism Scale', 'Protector', 'Razor Claw', 'Razor Fang', 'Reaper Cloth', 'Sachet', 'Satellite Parts', 'Sweets [Various]', 'Sweet Apple', 'Syrupy Apple', 'Tarnished Scale', 'Tart Apple', 'Unremarkable Teacup', 'Upgrade', 'Whipped Dream']
@@ -17,13 +19,11 @@ def resolve_find(result):
     pools={"Evolutionary Stone":EVOLUTION_STONES,"Evolutionary Item":EVOLUTION_ITEMS,"Type Boosting Held Item":TYPE_BOOSTING_HELD_ITEMS,"Nature Mint":NATURE_MINTS,"Random Held Item":HELD_ITEMS}
     return random.choice(pools[result]) if result in pools else result
 
-def apply_luck_modifier(d100_roll, luck_modifier):
-    return max(d100_roll, luck_modifier)
 
 class Foraging(commands.Cog):
     def __init__(self, bot): self.bot=bot
     @app_commands.command(name="foraging", description="Roll an Insight + Nature check to see what you find on the foraging table")
-    @app_commands.describe(dice="Number of d6s in the Insight + Nature pool", luck_modifier="Luck Modifier: a multiple of 5 from 0 to 100; this is the minimum possible D100 result")
+    @app_commands.describe(dice="Number of d6s in the Insight + Nature pool", luck_modifier="Luck Modifier: a multiple of 5 from 0 to 100; added to 1D100, with the result capped at 100")
     async def foraging(self, interaction: discord.Interaction, dice: app_commands.Range[int,1,50], luck_modifier: app_commands.Range[int,0,100]=0):
         if luck_modifier % 5:
             await interaction.response.send_message("Luck Modifier must be a multiple of 5 (0, 5, 10 ... 100).", ephemeral=True); return
@@ -38,7 +38,7 @@ class Foraging(commands.Cog):
             blocks.append(f"\n### {table_label(level)} Table\n🎲 **d10: {d10}** — {result}")
             if successes>=6 and level==6 and d10==10:
                 base=random.randint(1,100); total=apply_luck_modifier(base,luck_modifier)
-                blocks.append(f"🍀 **Rare Item Luck Check: 1D100 = {base} | Luck Modifier: {luck_modifier} | Result: {total}**")
+                blocks.append(f"🍀 **{format_luck_check(base, luck_modifier)}**")
                 if total>=90:
                     category=random.choice(list(RARE_ITEM_TABLES)); item=random.choice(RARE_ITEM_TABLES[category])
                     blocks.append(f"**SUCCESS!** — {item} ({category})")
