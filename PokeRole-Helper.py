@@ -3382,6 +3382,14 @@ async def feedback(ctx: discord.Interaction, *, info: str):
     await feedback_owner.send(which_user + ": " + info, view=butn)
 
 
+@bot.hybrid_command(name='discord',
+                    description='Join the Pokérole Legends Discord server',
+                    help='Join the Pokérole Legends Discord server')
+async def discord_server(ctx):
+    link = r'https://discord.gg/TzdbXNDxdy'
+    await ctx.send(link)
+
+
 @bot.hybrid_command(name='donate', description='Show your love and support', help='Show your love and support')
 async def donate(ctx):
     link = r'https://ko-fi.com/lowlygod'

@@ -60,6 +60,7 @@ HELP_CATEGORIES = [
         ("get_pokerole_legends", "Here you'll find the latest version of the Pokerole Legends Rules Supplement, Legends Roll20 Sheets, PNGs for Legends Pokémon and more"),
         ("invite", "Get an invite link for the bot"),
         ("feedback", "Send feedback, suggestions or bug reports straight to my creator"),
+        ("discord", "Join the Pokérole Legends Discord server"),
         ("donate", "Show your love and support"),
     ]),
 ]
