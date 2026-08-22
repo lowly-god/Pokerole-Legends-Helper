@@ -1,11 +1,11 @@
 {
-  "Name": "X attack",
+  "Name": "X Attack",
   "_id": "x-attack",
   "Source": "Legends Rules Expansion",
   "PMD": false,
   "Pocket": "Battle Items",
   "Category": "Battle Items",
-  "Description": "+1 to Strength. May be used as Held Item",
+  "Description": "+1 to Strength. May be used as consumable Held Item",
   "OneUse": true,
   "TrainerPrice": "500",
   "Cures": "",

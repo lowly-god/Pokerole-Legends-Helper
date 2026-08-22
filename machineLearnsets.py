@@ -424,6 +424,13 @@ def get_machine_moves(pokemon):
         tutor_ids.update(_explicit_machine_move_ids(record, "tutor"))
         hm_ids.update(_explicit_machine_move_ids(record, "hm"))
 
+    # Legends HMs are a separate acquisition pool. Even when a move is also
+    # canonically available by TM/TR/Tutor (or was explicitly authored there),
+    # /poke_learns must display it only under Rank Up and HM.
+    tm_ids.difference_update(ALL_HM_MOVE_IDS)
+    tr_ids.difference_update(ALL_HM_MOVE_IDS)
+    tutor_ids.difference_update(ALL_HM_MOVE_IDS)
+
     return {
         "generation": latest_machine_gen,
         "tm": _display_names(tm_ids),

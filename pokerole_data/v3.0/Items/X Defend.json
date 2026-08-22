@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "Battle Items",
   "Category": "Battle Items",
-  "Description": "+1 to Vitality. May be used as Held Item",
+  "Description": "+1 to Vitality. May be used as consumable Held Item",
   "OneUse": true,
   "TrainerPrice": "500",
   "Cures": "",

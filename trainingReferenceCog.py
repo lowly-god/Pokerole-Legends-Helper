@@ -622,41 +622,63 @@ class TrainingReferenceCog(commands.Cog):
             view=DCView()
         )
 
-    @app_commands.command(
-        name="battle_training_points",
-        description="Display Battle Training Point rewards"
-    )
-    async def battletrainingpoints(self, interaction: discord.Interaction):
-        await interaction.response.send_message(
-            "## Battle Training Points\n" + self.data["battletrainingpoints"]
-        )
+    @staticmethod
+    def _underline_training_subheaders(text, labels):
+        for label in labels:
+            text = text.replace(f"{label}:", f"__{label}__:")
+        return text
+
+    @staticmethod
+    def _training_rule_chunks(sections, limit=1900):
+        chunks = []
+        current = ""
+        for section in sections:
+            addition = section if not current else "\n\n" + section
+            if current and len(current) + len(addition) > limit:
+                chunks.append(current)
+                current = section
+            else:
+                current += addition
+        if current:
+            chunks.append(current)
+        return chunks
 
     @app_commands.command(
-        name="evolution_time",
-        description="Display Training Points required for each evolution speed"
+        name="training_rules",
+        description="Display Pokémon Training rules, Training Point costs and rewards"
     )
-    async def evolutiontime(self, interaction: discord.Interaction):
-        await interaction.response.send_message(
-            "## Evolution Time\n" + self.data["evolutiontime"]
+    async def trainingrules(self, interaction: discord.Interaction):
+        evolution = self._underline_training_subheaders(
+            self.data["evolutiontime"],
+            ("Fast", "Medium", "Slow")
+        )
+        retraining = self._underline_training_subheaders(
+            self.data["retraining"],
+            (
+                "Starter Rank", "Rookie Rank", "Standard Rank", "Advanced Rank",
+                "Expert Rank", "Ace Rank", "Master Rank", "Champion Rank"
+            )
+        )
+        learning = self._underline_training_subheaders(
+            self.data["learningnewmoves"],
+            (
+                "First Stage", "Second Stage", "Final Stage",
+                "Remembering a Pre-Evolution Move", "Overrank Moves",
+                "Learning a Move through TM / TR / HM / Tutor"
+            )
         )
 
-    @app_commands.command(
-        name="learning_new_moves",
-        description="Display Training Point costs for learning Moves"
-    )
-    async def learningnewmoves(self, interaction: discord.Interaction):
-        await interaction.response.send_message(
-            "## Learning New Moves\n" + self.data["learningnewmoves"]
-        )
+        sections = [
+            "**Training Points from Battle**\n" + self.data["battletrainingpoints"],
+            "**Evolution Time**\n" + evolution,
+            "**Retraining**\n" + retraining,
+            "**Learning New Moves**\n" + learning,
+        ]
+        chunks = self._training_rule_chunks(sections)
 
-    @app_commands.command(
-        name="retraining",
-        description="Display Training Point costs for retraining"
-    )
-    async def retraining(self, interaction: discord.Interaction):
-        await interaction.response.send_message(
-            "## Retraining\n" + self.data["retraining"]
-        )
+        await interaction.response.send_message(chunks[0])
+        for chunk in chunks[1:]:
+            await interaction.followup.send(chunk)
 
 
 async def setup(bot):

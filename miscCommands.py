@@ -320,7 +320,7 @@ class Misc(commands.Cog):
 
     @commands.hybrid_command(
         name = 'effect',
-        description = "Display information about a common effects or terms",
+        description = "Display information about common effects or terms",
         help = 'A quick reference for the effect boxes.'
     )
     @app_commands.describe(

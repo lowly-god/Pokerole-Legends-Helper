@@ -1,6 +1,6 @@
 {
   "Name": "Protosynthesis",
-  "Effect": "While Sunny Weather is active, increase this Pokémon's highest Attribute by 1. If their highest Attribute is Dexterity, increase it by 2. Unique Ability.",
+  "Effect": "While Sunny Weather is active, or if this Pokémon is holding an Energy Booster; increase this Pokémon's Strength, Dexterity, Special, Defense or Special Defense by 1. If their highest stat is Dexterity, Defense or Special Defense increase it by 2, instead. Unique Ability.",
   "Description": "This Pokémon's primal energy is barely contained. Sunlight powers them up and brings up a wilder and savage behaviour.",
   "_id": "protosynthesis"
 }

@@ -1400,43 +1400,43 @@
         {
           "name": "X Accuracy",
           "price": "500",
-          "effect": "+1 to Accuracy. May be used as Held Item",
+          "effect": "+1 to Accuracy. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
-          "name": "X attack",
+          "name": "X Attack",
           "price": "500",
-          "effect": "+1 to Strength. May be used as Held Item",
+          "effect": "+1 to Strength. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
           "name": "X Defend",
           "price": "500",
-          "effect": "+1 to Vitality. May be used as Held Item",
+          "effect": "+1 to Vitality. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
           "name": "X Special",
           "price": "500",
-          "effect": "+1 to Special. May be used as Held Item",
+          "effect": "+1 to Special. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
           "name": "X Sp. Def",
           "price": "500",
-          "effect": "+1 to Insight. May be used as Held Item",
+          "effect": "+1 to Insight. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
           "name": "X Speed",
           "price": "500",
-          "effect": "+1 to Dexterity. May be used as Held Item",
+          "effect": "+1 to Dexterity. May be used as a consumable Held Item",
           "category": "Battle Items"
         },
         {
           "name": "Dire Hit",
           "price": "650",
-          "effect": "All attacks High Critical. May be used as Held Item",
+          "effect": "All attacks High Critical. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
@@ -1478,7 +1478,7 @@
         {
           "name": "Ability Capsule",
           "price": "15000",
-          "effect": "Grants Hidden",
+          "effect": "Grants Hidden Ability",
           "category": "Supplements"
         },
         {
@@ -13539,43 +13539,43 @@
         {
           "name": "X Accuracy",
           "price": "500",
-          "effect": "+1 to Accuracy. May be used as Held Item",
+          "effect": "+1 to Accuracy. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
-          "name": "X attack",
+          "name": "X Attack",
           "price": "500",
-          "effect": "+1 to Strength. May be used as Held Item",
+          "effect": "+1 to Strength. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
           "name": "X Defend",
           "price": "500",
-          "effect": "+1 to Vitality. May be used as Held Item",
+          "effect": "+1 to Vitality. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
           "name": "X Special",
           "price": "500",
-          "effect": "+1 to Special. May be used as Held Item",
+          "effect": "+1 to Special. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
           "name": "X Sp. Def",
           "price": "500",
-          "effect": "+1 to Insight. May be used as Held Item",
+          "effect": "+1 to Insight. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
           "name": "X Speed",
           "price": "500",
-          "effect": "+1 to Dexterity. May be used as Held Item",
+          "effect": "+1 to Dexterity. May be used as a consumable Held Item",
           "category": "Battle Items"
         },
         {
           "name": "Dire Hit",
           "price": "650",
-          "effect": "All attacks High Critical. May be used as Held Item",
+          "effect": "All attacks High Critical. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
@@ -13617,7 +13617,7 @@
         {
           "name": "Ability Capsule",
           "price": "15000",
-          "effect": "Grants Hidden",
+          "effect": "Grants Hidden Ability",
           "category": "Supplements"
         },
         {

@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "Battle Items",
   "Category": "Battle Items",
-  "Description": "All attacks High Critical. May be used as Held Item",
+  "Description": "All attacks High Critical. May be used as consumable Held Item",
   "OneUse": true,
   "TrainerPrice": "650",
   "Cures": "",
