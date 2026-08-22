@@ -1400,43 +1400,43 @@
         {
           "name": "X-Accuracy",
           "price": "500",
-          "effect": "+1 to Accuracy, last until the end of the Scene. May be used as consumable Held Item",
+          "effect": "+1 to Accuracy, lasts until the end of the Scene. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
           "name": "X-Attack",
           "price": "500",
-          "effect": "+1 to Strength, last until the end of the Scene. May be used as consumable Held Item",
+          "effect": "+1 to Strength, lasts until the end of the Scene. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
           "name": "X-Defend",
           "price": "500",
-          "effect": "+1 to Vitality, last until the end of the Scene. May be used as consumable Held Item",
+          "effect": "+1 to Vitality, lasts until the end of the Scene. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
           "name": "X-Special",
           "price": "500",
-          "effect": "+1 to Special, last until the end of the Scene. May be used as consumable Held Item",
+          "effect": "+1 to Special, lasts until the end of the Scene. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
           "name": "X-Sp. Def",
           "price": "500",
-          "effect": "+1 to Insight, last until the end of the Scene. May be used as consumable Held Item",
+          "effect": "+1 to Insight, lasts until the end of the Scene. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
           "name": "X-Speed",
           "price": "500",
-          "effect": "+1 to Dexterity, last until the end of the Scene. May be used as a consumable Held Item",
+          "effect": "+1 to Dexterity, lasts until the end of the Scene. May be used as a consumable Held Item",
           "category": "Battle Items"
         },
         {
           "name": "Dire Hit",
           "price": "650",
-          "effect": "All damaging attacks High Critical, last until the end of the Scene. May be used as consumable Held Item",
+          "effect": "All damaging attacks High Critical, lasts until the end of the Scene. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
