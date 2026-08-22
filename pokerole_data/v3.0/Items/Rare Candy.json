@@ -5,9 +5,9 @@
   "PMD": false,
   "Pocket": "Supplements",
   "Category": "Supplements",
-  "Description": "+1 Attribute / Social Attribute. Pokémon may only gain this effect once",
+  "Description": "Grants 10 Training Points",
   "OneUse": true,
-  "TrainerPrice": "25000",
+  "TrainerPrice": "15000",
   "Cures": "",
   "Image": ""
 }

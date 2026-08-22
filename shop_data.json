@@ -1398,45 +1398,45 @@
       "mode": "full",
       "stock": [
         {
-          "name": "X Accuracy",
+          "name": "X-Accuracy",
           "price": "500",
-          "effect": "+1 to Accuracy. May be used as consumable Held Item",
+          "effect": "+1 to Accuracy, last until the end of the Scene. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
-          "name": "X Attack",
+          "name": "X-Attack",
           "price": "500",
-          "effect": "+1 to Strength. May be used as consumable Held Item",
+          "effect": "+1 to Strength, last until the end of the Scene. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
-          "name": "X Defend",
+          "name": "X-Defend",
           "price": "500",
-          "effect": "+1 to Vitality. May be used as consumable Held Item",
+          "effect": "+1 to Vitality, last until the end of the Scene. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
-          "name": "X Special",
+          "name": "X-Special",
           "price": "500",
-          "effect": "+1 to Special. May be used as consumable Held Item",
+          "effect": "+1 to Special, last until the end of the Scene. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
-          "name": "X Sp. Def",
+          "name": "X-Sp. Def",
           "price": "500",
-          "effect": "+1 to Insight. May be used as consumable Held Item",
+          "effect": "+1 to Insight, last until the end of the Scene. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
-          "name": "X Speed",
+          "name": "X-Speed",
           "price": "500",
-          "effect": "+1 to Dexterity. May be used as a consumable Held Item",
+          "effect": "+1 to Dexterity, last until the end of the Scene. May be used as a consumable Held Item",
           "category": "Battle Items"
         },
         {
           "name": "Dire Hit",
           "price": "650",
-          "effect": "All attacks High Critical. May be used as consumable Held Item",
+          "effect": "All damaging attacks High Critical, last until the end of the Scene. May be used as consumable Held Item",
           "category": "Battle Items"
         },
         {
@@ -1489,8 +1489,8 @@
         },
         {
           "name": "Rare Candy",
-          "price": "25000",
-          "effect": "+1 Attribute / Social Attribute. Pokémon may only gain this effect once",
+          "price": "15000",
+          "effect": "Grants 10 Training Points",
           "category": "Supplements"
         },
         {
