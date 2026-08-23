@@ -1960,10 +1960,6 @@
       },
       {
         "Learned": "Expert",
-        "Name": "Nasty Plot"
-      },
-      {
-        "Learned": "Expert",
         "Name": "Psychic"
       },
       {
@@ -2231,10 +2227,6 @@
       {
         "Learned": "Advanced",
         "Name": "Foul Play"
-      },
-      {
-        "Learned": "Advanced",
-        "Name": "Switcheroo"
       },
       {
         "Learned": "Expert",
@@ -2542,10 +2534,6 @@
         "Name": "Aqua Ring"
       },
       {
-        "Learned": "Expert",
-        "Name": "Double Team"
-      },
-      {
         "Learned": "Ace",
         "Name": "Teleport"
       },
@@ -2617,10 +2605,6 @@
       },
       {
         "Learned": "Standard",
-        "Name": "Jet Punch"
-      },
-      {
-        "Learned": "Standard",
         "Name": "Attract"
       },
       {
@@ -2634,6 +2618,10 @@
       {
         "Learned": "Standard",
         "Name": "Pulse Strike"
+      },
+      {
+        "Learned": "Standard",
+        "Name": "Flirty Kiss"
       },
       {
         "Learned": "Advanced",
@@ -3788,18 +3776,6 @@
       },
       {
         "Learned": "Advanced",
-        "Name": "Blizzard"
-      },
-      {
-        "Learned": "Advanced",
-        "Name": "Fire Blast"
-      },
-      {
-        "Learned": "Advanced",
-        "Name": "Hydro Pump"
-      },
-      {
-        "Learned": "Advanced",
         "Name": "Dark Pulse"
       },
       {
@@ -3808,15 +3784,15 @@
       },
       {
         "Learned": "Advanced",
+        "Name": "Miasma"
+      },
+      {
+        "Learned": "Advanced",
         "Name": "Dust Devil"
       },
       {
         "Learned": "Advanced",
-        "Name": "Miasma"
-      },
-      {
-        "Learned": "Expert",
-        "Name": "Dust Devil"
+        "Name": "Moonblast"
       },
       {
         "Learned": "Expert",
@@ -3837,10 +3813,6 @@
       {
         "Learned": "Expert",
         "Name": "Hurricane"
-      },
-      {
-        "Learned": "Ace",
-        "Name": "Shadow Tide"
       },
       {
         "Learned": "Ace",
@@ -4041,31 +4013,27 @@
     "Moves": [
       {
         "Learned": "Starter",
-        "Name": "Confide"
-      },
-      {
-        "Learned": "Starter",
-        "Name": "Taunt"
-      },
-      {
-        "Learned": "Starter",
         "Name": "Peck"
       },
       {
-        "Learned": "Rookie",
-        "Name": "Sonic Boom"
+        "Learned": "Starter",
+        "Name": "Growl"
       },
       {
         "Learned": "Rookie",
-        "Name": "Mirror Move"
+        "Name": "Confide"
       },
       {
-        "Learned": "Standard",
-        "Name": "Chatter"
+        "Learned": "Rookie",
+        "Name": "Taunt"
       },
       {
         "Learned": "Standard",
         "Name": "Sing"
+      },
+      {
+        "Learned": "Standard",
+        "Name": "Chatter"
       },
       {
         "Learned": "Standard",
@@ -4089,11 +4057,15 @@
       },
       {
         "Learned": "Standard",
-        "Name": "Screech"
+        "Name": "Foul Play"
       },
       {
         "Learned": "Advanced",
-        "Name": "Hyper Voice"
+        "Name": "Swift"
+      },
+      {
+        "Learned": "Advanced",
+        "Name": "Air Cutter"
       },
       {
         "Learned": "Advanced",
@@ -4101,19 +4073,23 @@
       },
       {
         "Learned": "Advanced",
-        "Name": "Air Slash"
+        "Name": "Uproar"
       },
       {
         "Learned": "Advanced",
         "Name": "Mirror Move"
       },
       {
-        "Learned": "Expert",
-        "Name": "Uproar"
+        "Learned": "Advanced",
+        "Name": "Synchronoise"
+      },
+      {
+        "Learned": "Advanced",
+        "Name": "Embody Element"
       },
       {
         "Learned": "Expert",
-        "Name": "Synchronoise"
+        "Name": "Air Slash"
       },
       {
         "Learned": "Expert",
@@ -4121,15 +4097,11 @@
       },
       {
         "Learned": "Expert",
-        "Name": "Agility"
+        "Name": "Parting Shot"
       },
       {
         "Learned": "Expert",
-        "Name": "Nasty Plot"
-      },
-      {
-        "Learned": "Expert",
-        "Name": "Crush Claw"
+        "Name": "Hyper Voice"
       },
       {
         "Learned": "Expert",
@@ -4141,7 +4113,7 @@
       },
       {
         "Learned": "Expert",
-        "Name": "Foul Play"
+        "Name": "Crush Claw"
       },
       {
         "Learned": "Ace",
@@ -4425,10 +4397,6 @@
       },
       {
         "Learned": "Standard",
-        "Name": "Fire Lash"
-      },
-      {
-        "Learned": "Standard",
         "Name": "Flamethrower"
       },
       {
@@ -4494,10 +4462,6 @@
       {
         "Learned": "Expert",
         "Name": "Amnesia"
-      },
-      {
-        "Learned": "Expert",
-        "Name": "Flamethrower"
       },
       {
         "Learned": "Ace",
@@ -4603,15 +4567,7 @@
       },
       {
         "Learned": "Advanced",
-        "Name": "Guillotine"
-      },
-      {
-        "Learned": "Advanced",
         "Name": "Screech"
-      },
-      {
-        "Learned": "Advanced",
-        "Name": "Thunder Fang"
       },
       {
         "Learned": "Advanced",
@@ -4662,16 +4618,16 @@
         "Name": "Stone Edge"
       },
       {
+        "Learned": "Expert",
+        "Name": "Thunder Fang"
+      },
+      {
         "Learned": "Ace",
         "Name": "Superpower"
       },
       {
         "Learned": "Ace",
         "Name": "Shift Gear"
-      },
-      {
-        "Learned": "Ace",
-        "Name": "Thunder Fang"
       },
       {
         "Learned": "Ace",
@@ -5176,10 +5132,6 @@
       {
         "Learned": "Standard",
         "Name": "Dragon Breath"
-      },
-      {
-        "Learned": "Standard",
-        "Name": "Reversal"
       },
       {
         "Learned": "Standard",
@@ -6417,10 +6369,6 @@
       },
       {
         "Learned": "Advanced",
-        "Name": "Charm"
-      },
-      {
-        "Learned": "Advanced",
         "Name": "Aqua Ring"
       },
       {
@@ -6573,10 +6521,6 @@
       {
         "Learned": "Advanced",
         "Name": "Mist"
-      },
-      {
-        "Learned": "Advanced",
-        "Name": "Charm"
       },
       {
         "Learned": "Advanced",
@@ -6736,10 +6680,6 @@
       {
         "Learned": "Advanced",
         "Name": "Mist"
-      },
-      {
-        "Learned": "Advanced",
-        "Name": "Charm"
       },
       {
         "Learned": "Advanced",
@@ -7194,10 +7134,6 @@
       },
       {
         "Learned": "Advanced",
-        "Name": "Discharge"
-      },
-      {
-        "Learned": "Advanced",
         "Name": "Flamethrower"
       },
       {
@@ -7364,10 +7300,6 @@
         "Name": "Electric Terrain"
       },
       {
-        "Learned": "Advanced",
-        "Name": "Ion Deluge"
-      },
-      {
         "Learned": "Expert",
         "Name": "Thunder"
       },
@@ -7385,15 +7317,15 @@
       },
       {
         "Learned": "Expert",
-        "Name": "Discharge"
-      },
-      {
-        "Learned": "Expert",
         "Name": "Giga Impact"
       },
       {
         "Learned": "Expert",
         "Name": "Uncontrolled Burn Off"
+      },
+      {
+        "Learned": "Expert",
+        "Name": "Ion Deluge"
       },
       {
         "Learned": "Ace",
@@ -8231,10 +8163,6 @@
       },
       {
         "Learned": "Standard",
-        "Name": "Screech"
-      },
-      {
-        "Learned": "Standard",
         "Name": "Flame Charge"
       },
       {
@@ -8383,10 +8311,6 @@
       {
         "Learned": "Standard",
         "Name": "Take Down"
-      },
-      {
-        "Learned": "Standard",
-        "Name": "Screech"
       },
       {
         "Learned": "Standard",
@@ -9558,10 +9482,6 @@
       {
         "Learned": "Expert",
         "Name": "Pollution"
-      },
-      {
-        "Learned": "Expert",
-        "Name": "Explosion"
       },
       {
         "Learned": "Ace",
@@ -10794,10 +10714,6 @@
       {
         "Learned": "Expert",
         "Name": "Megahorn"
-      },
-      {
-        "Learned": "Expert",
-        "Name": "Swords Dance"
       },
       {
         "Learned": "Expert",
@@ -12337,10 +12253,6 @@
       },
       {
         "Learned": "Standard",
-        "Name": "Frustration"
-      },
-      {
-        "Learned": "Standard",
         "Name": "Shadow Sneak"
       },
       {
@@ -12358,10 +12270,6 @@
       {
         "Learned": "Standard",
         "Name": "Swagger"
-      },
-      {
-        "Learned": "Standard",
-        "Name": "Air Slash"
       },
       {
         "Learned": "Standard",
@@ -12386,6 +12294,10 @@
       {
         "Learned": "Advanced",
         "Name": "Punishment"
+      },
+      {
+        "Learned": "Advanced",
+        "Name": "Frustration"
       },
       {
         "Learned": "Expert",
@@ -12476,10 +12388,6 @@
       },
       {
         "Learned": "Standard",
-        "Name": "Frustration"
-      },
-      {
-        "Learned": "Standard",
         "Name": "Shadow Sneak"
       },
       {
@@ -12497,10 +12405,6 @@
       {
         "Learned": "Standard",
         "Name": "Swagger"
-      },
-      {
-        "Learned": "Standard",
-        "Name": "Air Slash"
       },
       {
         "Learned": "Standard",
@@ -12539,16 +12443,16 @@
         "Name": "Razor Wind"
       },
       {
+        "Learned": "Advanced",
+        "Name": "Frustration"
+      },
+      {
         "Learned": "Expert",
         "Name": "Spite"
       },
       {
         "Learned": "Expert",
         "Name": "Shadow Tide"
-      },
-      {
-        "Learned": "Expert",
-        "Name": "Nasty Plot"
       },
       {
         "Learned": "Expert",
@@ -13151,15 +13055,11 @@
       },
       {
         "Learned": "Standard",
-        "Name": "Dragon Rage"
+        "Name": "Crunch"
       },
       {
         "Learned": "Advanced",
         "Name": "Aqua Fang"
-      },
-      {
-        "Learned": "Advanced",
-        "Name": "Crunch"
       },
       {
         "Learned": "Advanced",
@@ -14159,10 +14059,6 @@
       {
         "Learned": "Standard",
         "Name": "Calm Mind"
-      },
-      {
-        "Learned": "Standard",
-        "Name": "Safeguard"
       },
       {
         "Learned": "Standard",
@@ -19601,10 +19497,6 @@
       },
       {
         "Learned": "Expert",
-        "Name": "Hydro Pump"
-      },
-      {
-        "Learned": "Expert",
         "Name": "Liquidation"
       },
       {
@@ -19764,10 +19656,6 @@
       {
         "Learned": "Expert",
         "Name": "Hyper Voice"
-      },
-      {
-        "Learned": "Expert",
-        "Name": "Hydro Pump"
       },
       {
         "Learned": "Expert",
@@ -23234,10 +23122,6 @@
       },
       {
         "Learned": "Expert",
-        "Name": "Dream Eater"
-      },
-      {
-        "Learned": "Expert",
         "Name": "Feather Dance"
       },
       {
@@ -23382,10 +23266,6 @@
       {
         "Learned": "Expert",
         "Name": "Shadow Tide"
-      },
-      {
-        "Learned": "Expert",
-        "Name": "Dream Eater"
       },
       {
         "Learned": "Expert",
@@ -23681,7 +23561,7 @@
         "Name": "Leafage"
       },
       {
-        "Learned": "Rookie",
+        "Learned": "Starter",
         "Name": "Growth"
       },
       {
@@ -23735,10 +23615,6 @@
       {
         "Learned": "Advanced",
         "Name": "False Swipe"
-      },
-      {
-        "Learned": "Advanced",
-        "Name": "Bullet Punch"
       },
       {
         "Learned": "Advanced",
@@ -24611,11 +24487,15 @@
       },
       {
         "Learned": "Standard",
-        "Name": "Imprison"
+        "Name": "Gyro Ball"
       },
       {
         "Learned": "Standard",
-        "Name": "Gyro Ball"
+        "Name": "Hypnosis"
+      },
+      {
+        "Learned": "Standard",
+        "Name": "Psybeam"
       },
       {
         "Learned": "Advanced",
@@ -24624,10 +24504,6 @@
       {
         "Learned": "Advanced",
         "Name": "Extrasensory"
-      },
-      {
-        "Learned": "Advanced",
-        "Name": "Hypnosis"
       },
       {
         "Learned": "Advanced",
@@ -24806,10 +24682,6 @@
       },
       {
         "Learned": "Expert",
-        "Name": "Anti-Gravity"
-      },
-      {
-        "Learned": "Expert",
         "Name": "Singularity"
       },
       {
@@ -24842,11 +24714,11 @@
       },
       {
         "Learned": "Ace",
-        "Name": "Teleport"
+        "Name": "Meditative Trance"
       },
       {
         "Learned": "Ace",
-        "Name": "Meditative Trance"
+        "Name": "Anti-Gravity"
       }
     ],
     "HM": [
@@ -33125,10 +32997,6 @@
       },
       {
         "Learned": "Expert",
-        "Name": "Torment"
-      },
-      {
-        "Learned": "Expert",
         "Name": "Focus Blast"
       },
       {
@@ -36235,10 +36103,6 @@
         "Name": "Thunderbolt"
       },
       {
-        "Learned": "Expert",
-        "Name": "Uproot"
-      },
-      {
         "Learned": "Ace",
         "Name": "Tailwind"
       },
@@ -38264,10 +38128,6 @@
       },
       {
         "Learned": "Rookie",
-        "Name": "Disable"
-      },
-      {
-        "Learned": "Rookie",
         "Name": "Harden"
       },
       {
@@ -38297,10 +38157,6 @@
       {
         "Learned": "Advanced",
         "Name": "Sludge Bomb"
-      },
-      {
-        "Learned": "Advanced",
-        "Name": "Minimize"
       },
       {
         "Learned": "Advanced",
