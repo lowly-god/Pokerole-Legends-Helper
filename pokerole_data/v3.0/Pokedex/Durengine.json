@@ -89,15 +89,7 @@
     },
     {
       "Learned": "Advanced",
-      "Name": "Guillotine"
-    },
-    {
-      "Learned": "Advanced",
       "Name": "Screech"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Thunder Fang"
     },
     {
       "Learned": "Advanced",
@@ -148,6 +140,10 @@
       "Name": "Stone Edge"
     },
     {
+      "Learned": "Expert",
+      "Name": "Thunder Fang"
+    },
+    {
       "Learned": "Ace",
       "Name": "Superpower"
     },
@@ -157,19 +153,7 @@
     },
     {
       "Learned": "Ace",
-      "Name": "Thunder Fang"
-    },
-    {
-      "Learned": "Ace",
       "Name": "Swords Dance"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Parasitize"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Mirror Shield"
     }
   ]
 }

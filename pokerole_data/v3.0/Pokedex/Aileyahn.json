@@ -117,10 +117,6 @@
     },
     {
       "Learned": "Expert",
-      "Name": "Anti-Gravity"
-    },
-    {
-      "Learned": "Expert",
       "Name": "Singularity"
     },
     {
@@ -153,11 +149,11 @@
     },
     {
       "Learned": "Ace",
-      "Name": "Teleport"
+      "Name": "Meditative Trance"
     },
     {
       "Learned": "Ace",
-      "Name": "Meditative Trance"
+      "Name": "Anti-Gravity"
     }
   ],
   "HM": [

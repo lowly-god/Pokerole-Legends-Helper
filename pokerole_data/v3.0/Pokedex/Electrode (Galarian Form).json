@@ -71,10 +71,6 @@
     },
     {
       "Learned": "Standard",
-      "Name": "Screech"
-    },
-    {
-      "Learned": "Standard",
       "Name": "Flame Charge"
     },
     {
@@ -152,10 +148,6 @@
     {
       "Learned": "Ace",
       "Name": "Endure"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Cauterize"
     }
   ]
 }

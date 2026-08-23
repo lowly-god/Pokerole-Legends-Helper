@@ -431,6 +431,34 @@ def get_machine_moves(pokemon):
     tr_ids.difference_update(ALL_HM_MOVE_IDS)
     tutor_ids.difference_update(ALL_HM_MOVE_IDS)
 
+    # A move already learned naturally should not be offered again through a
+    # TM, TR, or Tutor pool. HMs are intentionally exempt from this rule and
+    # may appear in both Rank Up and HM.
+    if record:
+        rank_up_ids = set()
+        machine_labels = {
+            alias
+            for aliases in _EXPLICIT_MACHINE_KEY_ALIASES.values()
+            for alias in aliases
+        }
+        for entry in record.get("Moves", []):
+            if not isinstance(entry, dict):
+                continue
+            learned = _normalise_field_key(entry.get("Learned", ""))
+            name = entry.get("Name") or entry.get("Move")
+            if name and learned not in machine_labels:
+                rank_up_ids.add(_to_id(name))
+
+        tm_ids.difference_update(rank_up_ids)
+        tr_ids.difference_update(rank_up_ids)
+        tutor_ids.difference_update(rank_up_ids)
+
+    # Avoid displaying the same teachable move in multiple acquisition pools.
+    # Prefer the current TM pool, then TR, then Tutor. HM remains independent.
+    tr_ids.difference_update(tm_ids)
+    tutor_ids.difference_update(tm_ids)
+    tutor_ids.difference_update(tr_ids)
+
     return {
         "generation": latest_machine_gen,
         "tm": _display_names(tm_ids),

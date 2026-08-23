@@ -91,18 +91,6 @@
     },
     {
       "Learned": "Advanced",
-      "Name": "Blizzard"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Fire Blast"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Hydro Pump"
-    },
-    {
-      "Learned": "Advanced",
       "Name": "Dark Pulse"
     },
     {
@@ -111,15 +99,15 @@
     },
     {
       "Learned": "Advanced",
+      "Name": "Miasma"
+    },
+    {
+      "Learned": "Advanced",
       "Name": "Dust Devil"
     },
     {
       "Learned": "Advanced",
-      "Name": "Miasma"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Dust Devil"
+      "Name": "Moonblast"
     },
     {
       "Learned": "Expert",
@@ -143,10 +131,6 @@
     },
     {
       "Learned": "Ace",
-      "Name": "Shadow Tide"
-    },
-    {
-      "Learned": "Ace",
       "Name": "Last Resort"
     },
     {
@@ -156,14 +140,6 @@
     {
       "Learned": "Ace",
       "Name": "Reflect Type"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Absolute Zero"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Hoarfrost Moon"
     }
   ]
 }

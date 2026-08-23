@@ -77,11 +77,15 @@
     },
     {
       "Learned": "Standard",
-      "Name": "Imprison"
+      "Name": "Gyro Ball"
     },
     {
       "Learned": "Standard",
-      "Name": "Gyro Ball"
+      "Name": "Hypnosis"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybeam"
     },
     {
       "Learned": "Advanced",
@@ -90,10 +94,6 @@
     {
       "Learned": "Advanced",
       "Name": "Extrasensory"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Hypnosis"
     },
     {
       "Learned": "Advanced",

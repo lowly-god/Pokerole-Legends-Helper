@@ -131,10 +131,6 @@
     },
     {
       "Learned": "Expert",
-      "Name": "Hydro Pump"
-    },
-    {
-      "Learned": "Expert",
       "Name": "Liquidation"
     },
     {
@@ -160,10 +156,6 @@
     {
       "Learned": "Ace",
       "Name": "Aqua Surge"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Imperial Majesty"
     }
   ],
   "HM": [

@@ -140,10 +140,6 @@
       "Name": "Pollution"
     },
     {
-      "Learned": "Expert",
-      "Name": "Explosion"
-    },
-    {
       "Learned": "Ace",
       "Name": "Explosion"
     },
@@ -158,10 +154,6 @@
     {
       "Learned": "Ace",
       "Name": "Meltdown"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Mirror Shield"
     }
   ]
 }

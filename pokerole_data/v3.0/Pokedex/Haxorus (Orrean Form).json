@@ -127,10 +127,6 @@
     },
     {
       "Learned": "Expert",
-      "Name": "Swords Dance"
-    },
-    {
-      "Learned": "Expert",
       "Name": "Wide Guard"
     },
     {
@@ -164,14 +160,6 @@
     {
       "Learned": "Ace",
       "Name": "Iron Edge"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Velvet Scales"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Embody Element"
     }
   ],
   "HM": [

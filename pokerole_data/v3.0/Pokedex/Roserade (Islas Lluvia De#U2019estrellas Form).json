@@ -42,7 +42,7 @@
       "Name": "Leafage"
     },
     {
-      "Learned": "Rookie",
+      "Learned": "Starter",
       "Name": "Growth"
     },
     {
@@ -99,10 +99,6 @@
     },
     {
       "Learned": "Advanced",
-      "Name": "Bullet Punch"
-    },
-    {
-      "Learned": "Advanced",
       "Name": "Leaf Blade"
     },
     {
@@ -148,10 +144,6 @@
     {
       "Learned": "Ace",
       "Name": "Night Slash"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Vorpal Blade"
     }
   ]
 }

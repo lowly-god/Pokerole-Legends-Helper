@@ -107,10 +107,6 @@
     },
     {
       "Learned": "Expert",
-      "Name": "Nasty Plot"
-    },
-    {
-      "Learned": "Expert",
       "Name": "Psychic"
     },
     {
@@ -140,10 +136,6 @@
     {
       "Learned": "Ace",
       "Name": "Meditative Trance"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Embody Element"
     }
   ]
 }

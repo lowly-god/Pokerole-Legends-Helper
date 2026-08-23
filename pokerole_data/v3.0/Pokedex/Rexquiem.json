@@ -61,10 +61,6 @@
     },
     {
       "Learned": "Standard",
-      "Name": "Frustration"
-    },
-    {
-      "Learned": "Standard",
       "Name": "Shadow Sneak"
     },
     {
@@ -82,10 +78,6 @@
     {
       "Learned": "Standard",
       "Name": "Swagger"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Air Slash"
     },
     {
       "Learned": "Standard",
@@ -124,16 +116,16 @@
       "Name": "Razor Wind"
     },
     {
+      "Learned": "Advanced",
+      "Name": "Frustration"
+    },
+    {
       "Learned": "Expert",
       "Name": "Spite"
     },
     {
       "Learned": "Expert",
       "Name": "Shadow Tide"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Nasty Plot"
     },
     {
       "Learned": "Expert",
@@ -166,14 +158,6 @@
     {
       "Learned": "Ace",
       "Name": "Nasty Plot"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Decimation"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Siphon Life-Force"
     }
   ]
 }

@@ -77,10 +77,6 @@
     },
     {
       "Learned": "Standard",
-      "Name": "Fire Lash"
-    },
-    {
-      "Learned": "Standard",
       "Name": "Flamethrower"
     },
     {
@@ -148,10 +144,6 @@
       "Name": "Amnesia"
     },
     {
-      "Learned": "Expert",
-      "Name": "Flamethrower"
-    },
-    {
       "Learned": "Ace",
       "Name": "Metal Burst"
     },
@@ -166,14 +158,6 @@
     {
       "Learned": "Ace",
       "Name": "Steel Beam"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Cauterize"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Uncontrolled Burn Off"
     }
   ],
   "HM": [

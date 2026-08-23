@@ -89,10 +89,6 @@
     },
     {
       "Learned": "Advanced",
-      "Name": "Discharge"
-    },
-    {
-      "Learned": "Advanced",
       "Name": "Flamethrower"
     },
     {
@@ -150,10 +146,6 @@
     {
       "Learned": "Ace",
       "Name": "Rising Voltage"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Cauterize"
     }
   ]
 }

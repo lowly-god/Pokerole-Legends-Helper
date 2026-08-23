@@ -45,31 +45,27 @@
   "Moves": [
     {
       "Learned": "Starter",
-      "Name": "Confide"
-    },
-    {
-      "Learned": "Starter",
-      "Name": "Taunt"
-    },
-    {
-      "Learned": "Starter",
       "Name": "Peck"
     },
     {
-      "Learned": "Rookie",
-      "Name": "Sonic Boom"
+      "Learned": "Starter",
+      "Name": "Growl"
     },
     {
       "Learned": "Rookie",
-      "Name": "Mirror Move"
+      "Name": "Confide"
     },
     {
-      "Learned": "Standard",
-      "Name": "Chatter"
+      "Learned": "Rookie",
+      "Name": "Taunt"
     },
     {
       "Learned": "Standard",
       "Name": "Sing"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Chatter"
     },
     {
       "Learned": "Standard",
@@ -93,11 +89,15 @@
     },
     {
       "Learned": "Standard",
-      "Name": "Screech"
+      "Name": "Foul Play"
     },
     {
       "Learned": "Advanced",
-      "Name": "Hyper Voice"
+      "Name": "Swift"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Air Cutter"
     },
     {
       "Learned": "Advanced",
@@ -105,19 +105,23 @@
     },
     {
       "Learned": "Advanced",
-      "Name": "Air Slash"
+      "Name": "Uproar"
     },
     {
       "Learned": "Advanced",
       "Name": "Mirror Move"
     },
     {
-      "Learned": "Expert",
-      "Name": "Uproar"
+      "Learned": "Advanced",
+      "Name": "Synchronoise"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Embody Element"
     },
     {
       "Learned": "Expert",
-      "Name": "Synchronoise"
+      "Name": "Air Slash"
     },
     {
       "Learned": "Expert",
@@ -125,15 +129,11 @@
     },
     {
       "Learned": "Expert",
-      "Name": "Agility"
+      "Name": "Parting Shot"
     },
     {
       "Learned": "Expert",
-      "Name": "Nasty Plot"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Crush Claw"
+      "Name": "Hyper Voice"
     },
     {
       "Learned": "Expert",
@@ -145,7 +145,7 @@
     },
     {
       "Learned": "Expert",
-      "Name": "Foul Play"
+      "Name": "Crush Claw"
     },
     {
       "Learned": "Ace",
@@ -158,10 +158,6 @@
     {
       "Learned": "Ace",
       "Name": "Nasty Plot"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Embody Element"
     }
   ]
 }

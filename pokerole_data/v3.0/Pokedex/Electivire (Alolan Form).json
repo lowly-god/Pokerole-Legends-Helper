@@ -112,10 +112,6 @@
       "Name": "Electric Terrain"
     },
     {
-      "Learned": "Advanced",
-      "Name": "Ion Deluge"
-    },
-    {
       "Learned": "Expert",
       "Name": "Thunder"
     },
@@ -133,15 +129,15 @@
     },
     {
       "Learned": "Expert",
-      "Name": "Discharge"
-    },
-    {
-      "Learned": "Expert",
       "Name": "Giga Impact"
     },
     {
       "Learned": "Expert",
       "Name": "Uncontrolled Burn Off"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Ion Deluge"
     },
     {
       "Learned": "Ace",
@@ -158,14 +154,6 @@
     {
       "Learned": "Ace",
       "Name": "Rising Voltage"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Electro Whip"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Cauterize"
     }
   ]
 }

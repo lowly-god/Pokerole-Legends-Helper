@@ -73,10 +73,6 @@
     },
     {
       "Learned": "Standard",
-      "Name": "Reversal"
-    },
-    {
-      "Learned": "Standard",
       "Name": "Blaze Kick"
     },
     {
@@ -146,10 +142,6 @@
     {
       "Learned": "Ace",
       "Name": "Endure"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Velvet Scales"
     }
   ]
 }

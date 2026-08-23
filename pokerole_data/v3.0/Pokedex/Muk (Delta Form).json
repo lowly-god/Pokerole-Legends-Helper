@@ -47,10 +47,6 @@
     },
     {
       "Learned": "Rookie",
-      "Name": "Disable"
-    },
-    {
-      "Learned": "Rookie",
       "Name": "Harden"
     },
     {
@@ -80,10 +76,6 @@
     {
       "Learned": "Advanced",
       "Name": "Sludge Bomb"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Minimize"
     },
     {
       "Learned": "Advanced",

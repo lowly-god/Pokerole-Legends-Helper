@@ -61,10 +61,6 @@
     },
     {
       "Learned": "Standard",
-      "Name": "Frustration"
-    },
-    {
-      "Learned": "Standard",
       "Name": "Shadow Sneak"
     },
     {
@@ -82,10 +78,6 @@
     {
       "Learned": "Standard",
       "Name": "Swagger"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Air Slash"
     },
     {
       "Learned": "Standard",
@@ -110,6 +102,10 @@
     {
       "Learned": "Advanced",
       "Name": "Punishment"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Frustration"
     },
     {
       "Learned": "Expert",

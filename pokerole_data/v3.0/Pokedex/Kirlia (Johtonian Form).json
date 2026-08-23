@@ -130,10 +130,6 @@
       "Name": "Aqua Ring"
     },
     {
-      "Learned": "Expert",
-      "Name": "Double Team"
-    },
-    {
       "Learned": "Ace",
       "Name": "Teleport"
     },
@@ -144,10 +140,6 @@
     {
       "Learned": "Ace",
       "Name": "Life Dew"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Fisticuffs"
     }
   ],
   "HM": [

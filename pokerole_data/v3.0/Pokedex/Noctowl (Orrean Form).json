@@ -127,10 +127,6 @@
     },
     {
       "Learned": "Expert",
-      "Name": "Dream Eater"
-    },
-    {
-      "Learned": "Expert",
       "Name": "Feather Dance"
     },
     {
@@ -148,14 +144,6 @@
     {
       "Learned": "Ace",
       "Name": "Extrasensory"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Jet Strike"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Hoarfrost Moon"
     }
   ]
 }

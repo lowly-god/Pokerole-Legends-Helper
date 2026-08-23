@@ -77,15 +77,11 @@
     },
     {
       "Learned": "Standard",
-      "Name": "Dragon Rage"
+      "Name": "Crunch"
     },
     {
       "Learned": "Advanced",
       "Name": "Aqua Fang"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Crunch"
     },
     {
       "Learned": "Advanced",
@@ -150,18 +146,6 @@
     {
       "Learned": "Ace",
       "Name": "Draco Jaw"
-    },
-    {
-      "Learned": "Standard",
-      "Name": "Caustic Breath"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Brace"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Lapidify"
     }
   ],
   "HM": [

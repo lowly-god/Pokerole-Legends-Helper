@@ -130,10 +130,6 @@
       "Name": "Thunderbolt"
     },
     {
-      "Learned": "Expert",
-      "Name": "Uproot"
-    },
-    {
       "Learned": "Ace",
       "Name": "Tailwind"
     },
@@ -144,10 +140,6 @@
     {
       "Learned": "Ace",
       "Name": "Steel Beam"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Iron Edge"
     }
   ]
 }

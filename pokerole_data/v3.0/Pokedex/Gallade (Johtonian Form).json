@@ -55,10 +55,6 @@
     },
     {
       "Learned": "Standard",
-      "Name": "Jet Punch"
-    },
-    {
-      "Learned": "Standard",
       "Name": "Attract"
     },
     {
@@ -72,6 +68,10 @@
     {
       "Learned": "Standard",
       "Name": "Pulse Strike"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flirty Kiss"
     },
     {
       "Learned": "Advanced",
@@ -140,18 +140,6 @@
     {
       "Learned": "Ace",
       "Name": "Life Dew"
-    },
-    {
-      "Learned": "Advanced",
-      "Name": "Fisticuffs"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Vorpal Blade"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Dragon Slayer"
     }
   ],
   "HM": [
