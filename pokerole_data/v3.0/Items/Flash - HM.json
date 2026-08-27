@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A multi-use HM that can teach Flash to multiple Pokémon\nIlluminates very dark areas",
+  "Rank": "Rookie",
   "OneUse": false,
   "TrainerPrice": "6000",
   "Cures": "",

@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A single use TR that can teach Blast Burn to one Pokémon",
+  "Rank": "Ace",
   "OneUse": true,
   "TrainerPrice": "6000",
   "Cures": "",

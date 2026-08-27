@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A single use TR that can teach Encore to one Pokémon",
+  "Rank": "Standard",
   "OneUse": true,
   "TrainerPrice": "4000",
   "Cures": "",

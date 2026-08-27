@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A multi-use TM that can teach Thunder to multiple Pokémon",
+  "Rank": "Expert",
   "OneUse": false,
   "TrainerPrice": "18000",
   "Cures": "",

@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A multi-use HM that can teach Rock Smash to multiple Pokémon\nAllows destruction of solid rocks, rubble and other obstructions",
+  "Rank": "Standard",
   "OneUse": false,
   "TrainerPrice": "6000",
   "Cures": "",

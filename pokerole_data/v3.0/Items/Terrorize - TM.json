@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A multi-use TM that can teach Terrorize to multiple Pokémon",
+  "Rank": "Ace",
   "OneUse": false,
   "TrainerPrice": "24000",
   "Cures": "",

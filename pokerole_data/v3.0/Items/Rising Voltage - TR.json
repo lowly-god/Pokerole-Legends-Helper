@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A single use TR that can teach Rising Voltage to one Pokémon",
+  "Rank": "Ace",
   "OneUse": true,
   "TrainerPrice": "5000",
   "Cures": "",

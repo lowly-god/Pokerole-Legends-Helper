@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A multi-use TM that can teach Protect to multiple Pokémon",
+  "Rank": "Standard",
   "OneUse": false,
   "TrainerPrice": "18000",
   "Cures": "",

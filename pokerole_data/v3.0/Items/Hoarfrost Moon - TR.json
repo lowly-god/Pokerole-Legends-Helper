@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A single use TR that can teach Hoarfrost Moon to one Pokémon",
+  "Rank": "Expert",
   "OneUse": true,
   "TrainerPrice": "8000",
   "Cures": "",

@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A multi-use TM that can teach Rage to multiple Pokémon",
+  "Rank": "Rookie",
   "OneUse": false,
   "TrainerPrice": "9000",
   "Cures": "",

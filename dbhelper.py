@@ -304,6 +304,7 @@ class Database:
         name text PRIMARY KEY,
         clean_name text,
         description text,
+        rank text,
         for_types text,
         for_pokemon text,
         boost text,
@@ -438,7 +439,7 @@ class Database:
                     # TODO: items need to be completely reworked to fit the new github format
                     # we can also pull Attributes, Added Effects, and _id
                     item_info = [tmp_move.get('Name'), tmp_move.get('_id'), tmp_move.get('Description'),
-                                 tmp_move.get('ForTypes'), tmp_move.get('ForPokemon'), tmp_move.get('Boost'),
+                                 tmp_move.get('Rank'), tmp_move.get('ForTypes'), tmp_move.get('ForPokemon'), tmp_move.get('Boost'),
                                  tmp_move.get('Value'), ', '.join(tmp_move.get('Cures')) if tmp_move.get('Cures') else None,
                                  "True" if tmp_move.get('OneUse') else "False",
                                  tmp_move.get('HealthRestored'), tmp_move.get('TrainerPrice'), tmp_move.get('PMDPrice')]

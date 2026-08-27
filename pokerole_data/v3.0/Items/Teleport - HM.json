@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A multi-use HM that can teach Teleport to multiple Pokémon\nInstantly return to a well known location",
+  "Rank": "Ace",
   "OneUse": false,
   "TrainerPrice": "45000",
   "Cures": "",

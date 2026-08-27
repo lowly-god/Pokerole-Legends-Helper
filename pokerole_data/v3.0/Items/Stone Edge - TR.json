@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A single use TR that can teach Stone Edge to one Pokémon",
+  "Rank": "Expert",
   "OneUse": true,
   "TrainerPrice": "5500",
   "Cures": "",

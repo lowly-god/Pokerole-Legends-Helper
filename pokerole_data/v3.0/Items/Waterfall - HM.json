@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A multi-use HM that can teach Waterfall to multiple Pokémon\nAllows traversal of waterfalls",
+  "Rank": "Expert",
   "OneUse": false,
   "TrainerPrice": "9000",
   "Cures": "",

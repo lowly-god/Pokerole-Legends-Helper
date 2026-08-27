@@ -1614,7 +1614,7 @@ async def pkmn_search_item(ctx, itemname: str = ''):
             output = f'__{itemname}__\n'
 
             if found[0] != '':
-                order = ['Description', 'For Types', 'For Pokémon', 'Boost', 'Value', 'Cures', 'Consumable',
+                order = ['Description', 'Rank', 'For Types', 'For Pokémon', 'Boost', 'Value', 'Cures', 'Consumable',
                          'Health Restored', 'Trainer Price', 'PMD Price']
                 # this is an actual item
                 # Preserve the authored capitalization of item effect text and do not italicize it.
@@ -1785,7 +1785,9 @@ async def move_backend(movename, version: str):
         output += f'**Target**: {found[7]}'
         output += f' -- **Power**: {found[2]}\n'
         damage_label = (found[3] or "None")
-        if damage_label == "Same As Base Power":
+        if str(found[2]).strip().casefold() == "set damage":
+            damage_text = "0"
+        elif damage_label == "Same As Base Power":
             damage_text = "Same As Base Move"
         else:
             damage_text = f'{damage_label}{pwr2}'
@@ -2921,10 +2923,13 @@ async def pkmn_encounter(ctx, number: int, rank: str, pokelist: list,
                             accArray = ''
 
                         if found[1].capitalize() != 'Support':
-                            msg += f'**Dmg Dice**: {(found[3] or "None")}{powermod2}' \
-                                   f' + {found[2]} = {totalDmg}'
-                            msg += f'{" (+1 STAB)" if found[0].capitalize() in (statlist[1], statlist[2]) else ""}'
-                            msg += f' {dmgArray}\n' if pokebotsettings[guild][8] else '\n'
+                            if str(found[2]).strip().casefold() == 'set damage':
+                                msg += '**Dmg Dice**: 0\n'
+                            else:
+                                msg += f'**Dmg Dice**: {(found[3] or "None")}{powermod2}' \
+                                       f' + {found[2]} = {totalDmg}'
+                                msg += f'{" (+1 STAB)" if found[0].capitalize() in (statlist[1], statlist[2]) else ""}'
+                                msg += f' {dmgArray}\n' if pokebotsettings[guild][8] else '\n'
                         else:
                             msg += f'**Dmg Dice**: None\n'
                         msg += f'**Acc Dice**: {(found[5] or "None")} + {(found[6] or "None")} = '

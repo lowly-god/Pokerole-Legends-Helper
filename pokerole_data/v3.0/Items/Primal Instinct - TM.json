@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A multi-use TM that can teach Primal Instinct to multiple Pokémon",
+  "Rank": "Rookie",
   "OneUse": false,
   "TrainerPrice": "10500",
   "Cures": "",

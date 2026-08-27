@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A multi-use HM that can teach Rock Climb to multiple Pokémon\nAllows traversal of steep cliffs",
+  "Rank": "Advanced",
   "OneUse": false,
   "TrainerPrice": "9000",
   "Cures": "",

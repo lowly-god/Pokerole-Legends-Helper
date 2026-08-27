@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A single use TR that can teach Ice Spinner to one Pokémon",
+  "Rank": "Ace",
   "OneUse": true,
   "TrainerPrice": "5500",
   "Cures": "",

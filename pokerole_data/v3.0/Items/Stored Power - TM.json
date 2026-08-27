@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A multi-use TM that can teach Stored Power to multiple Pokémon",
+  "Rank": "Advanced",
   "OneUse": false,
   "TrainerPrice": "13500",
   "Cures": "",

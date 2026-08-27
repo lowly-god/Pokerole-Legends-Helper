@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A single use TR that can teach Shield Bash to one Pokémon",
+  "Rank": "Expert",
   "OneUse": true,
   "TrainerPrice": "6500",
   "Cures": "",

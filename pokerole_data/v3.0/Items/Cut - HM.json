@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A multi-use HM that can teach Cut to multiple Pokémon\nAllows destruction of dense foliage and large trees",
+  "Rank": "Standard",
   "OneUse": false,
   "TrainerPrice": "6000",
   "Cures": "",

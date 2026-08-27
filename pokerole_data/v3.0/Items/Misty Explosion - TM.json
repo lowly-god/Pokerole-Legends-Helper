@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A multi-use TM that can teach Misty Explosion to multiple Pokémon",
+  "Rank": "Ace",
   "OneUse": false,
   "TrainerPrice": "13500",
   "Cures": "",

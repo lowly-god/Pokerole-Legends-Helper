@@ -6,6 +6,7 @@
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
   "Description": "A single use TR that can teach Volt Tackle to one Pokémon",
+  "Rank": "Expert",
   "OneUse": true,
   "TrainerPrice": "5000",
   "Cures": "",
