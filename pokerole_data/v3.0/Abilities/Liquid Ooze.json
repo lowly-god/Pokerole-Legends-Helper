@@ -1,6 +1,6 @@
 {
   "Name": "Liquid Ooze",
-  "Effect": "If this Pokémon is hit by a Move that would absorb it's vital energy (Leech Seed, Mega Drain, Dream Eater, Drain Punch, etc.) it will deal damage to the Target instead of healing",
+  "Effect": "If this Pokémon is hit by a Move that would absorb its vital energy (Leech Seed, Mega Drain, Dream Eater, Drain Punch, etc.) it will deal damage to the Target instead of healing.",
   "Description": "The Pokémon produces a pestilent and toxic ooze within its body. Do not attempt to eat it.",
   "_id": "liquid-ooze"
 }

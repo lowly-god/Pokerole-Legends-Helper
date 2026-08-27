@@ -7,7 +7,7 @@
   "Accuracy1": "Vitality",
   "Accuracy2": "Nature",
   "Target": "Self",
-  "Effect": "Basic Heal. If successful, spend 1 Will point to activate. If Sunny Weather is in effect, this Move becomes a Complete Heal. If performed under Rain, Sandstorm, Hail or Snowy Weather, this Move is a Minor heal only heals 1 HP.",
+  "Effect": "Basic Heal. If successful, spend 1 Will point to activate. If Sunny Weather is in effect, this Move becomes a Complete Heal. If performed under Dense Fog, Hail, Rain, Acid Rain or Midnight Weather, this Move becomes a Minor Heal.",
   "Description": "The Pokémon feels revitalized with the bright sun early in the mornings.",
   "_id": "morning-sun",
   "Attributes": {},

@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Reduce 1 Die from the Damage Pool for every missing HP the User has. Up to 5 Dice may be removed this way.",
+  "Effect": "Reduce 1 Dice from the Damage Pool for every missing HP the User has. Up to 5 Dice may be removed this way.",
   "Description": "The foe is grappled in a painful lock, the more it struggles to get out the more pressure it’s gonna feel. The user must be on top condition for this grapple to be effective.",
   "_id": "hard-press",
   "Attributes": {

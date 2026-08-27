@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Perform",
   "Target": "All Foes",
-  "Effect": "Sound Move. Roll 1 Chance Die to Reduce by 1 the Sp. Defense of those affected.",
+  "Effect": "Sound Move. Roll 1 Chance Dice to Reduce by 1 the Sp. Defense of those affected.",
   "Description": "The Pokémon uses their wings or a part of their bodies to emit distracting buzzes all around.",
   "_id": "bug-buzz",
   "Attributes": {

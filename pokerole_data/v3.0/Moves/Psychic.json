@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Roll 1 Chance Die to Reduce the Target's Sp. Defense by 1.",
+  "Effect": "Roll 1 Chance Dice to Reduce the Target's Sp. Defense by 1.",
   "Description": "The most iconic Psychic attack, the foe starts floating in the air and its swayed around by telekinesis as their mental barrier crumbles.",
   "_id": "psychic",
   "Attributes": {},

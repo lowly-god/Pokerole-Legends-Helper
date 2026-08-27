@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Roll 1 Chance Die to Paralyze the Target.",
+  "Effect": "Roll 1 Chance Dice to Paralyze the Target.",
   "Description": "The most basic electric attack, charge, release, and shock! Just don’t point it to any electric device.",
   "_id": "thunder-shock",
   "Attributes": {},

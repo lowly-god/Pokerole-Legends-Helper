@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Alert",
   "Target": "Self",
-  "Effect": "The User's Psychic-Type Moves ignore Dark-Type Immunity. Target cannot Evade the User's Moves. This Pokémon's Accuracy cannot be Reduced by Move's, Items or Abilities (ie Sand Attack, Bright Powder, etc.). Whole Scene Duration",
+  "Effect": "The User's Psychic-Type Moves ignore Dark-Type Immunity, the Target recieves neutral Damage from them. The Target cannot Evade the User's Moves. This Pokémon's Accuracy cannot be Reduced by Moves, Items or Abilities (ie Sand Attack, Bright Powder, etc.). Whole Scene Duration.",
   "Description": "The Pokémon opens up the third eye. Their sight transcends the barriers of flesh. No one goes undetected.",
   "_id": "miracle-eye",
   "Attributes": {

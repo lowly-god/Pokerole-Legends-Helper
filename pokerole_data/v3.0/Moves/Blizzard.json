@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "All Foes",
-  "Effect": "Accuracy -2. Lethal. Wind Move. Roll 1 Chance Die to inflict Frostbite (1) on those affected. Sunny Weather increases to Accuracy -4. Hail/Snowy Weather remove the Accuracy penalty and adds the effect \"Never Miss\".",
+  "Effect": "Accuracy -2. Lethal. Wind Move. Roll 1 Chance Dice to inflict Frostbite (1) on those affected. Sunny Weather increases to Accuracy -4. Hail/Snowy Weather remove the Accuracy penalty and adds the effect \"Never Miss\".",
   "Description": "The user summons a turbulent and gelid wind that feels like ice daggers. A pleasant day may make it difficult to call upon, but beware if the temperatures go below zero.",
   "_id": "blizzard",
   "Attributes": {

@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Reaction 1. Flinch the Target. This Move will only work on the First Round the User is out in battle. from the Second Round on, it will fail automatically.",
+  "Effect": "Reaction 1. Flinch the Target. This Move will only work on the First Round the User is out in battle. From the Second Round on, it will fail automatically.",
   "Description": "The Pokémon pretends to be getting ready for the battle when they are actually prepairing a surprise attack on the foe.",
   "_id": "fake-out",
   "Attributes": {

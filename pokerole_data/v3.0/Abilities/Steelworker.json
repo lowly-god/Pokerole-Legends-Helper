@@ -1,6 +1,6 @@
 {
   "Name": "Steelworker",
-  "Effect": "Steel-Type Moves used by this Pokémon get 1 Extra Die to their Damage Pool.",
+  "Effect": "Steel-Type Moves used by this Pokémon get 1 Extra Dice to their Damage Pool.",
   "Description": "The Pokémon is capable of molding and eating steel, giving shape and a sharper edge to any metal it touches.",
   "_id": "steelworker"
 }

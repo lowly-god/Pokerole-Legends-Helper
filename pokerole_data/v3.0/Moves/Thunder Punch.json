@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Fist Move. Roll 1 Chance Die to Paralyze the Target.",
+  "Effect": "Fist Move. Roll 1 Chance Dice to Paralyze the Target.",
   "Description": "A charged punch to deliver a shocking blow.",
   "_id": "thunder-punch",
   "Attributes": {

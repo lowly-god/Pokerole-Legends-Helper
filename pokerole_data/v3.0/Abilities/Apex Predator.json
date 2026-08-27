@@ -1,6 +1,6 @@
 {
-    "Name": "Apex Predator",
-    "Effect": "The User's Bite Move Moves gain High Critical.",
-    "Description": "",
-    "_id": "apex-predator"
+  "Name": "Apex Predator",
+  "Effect": "The User's Bite Moves gain High Critical.",
+  "Description": "",
+  "_id": "apex-predator"
 }

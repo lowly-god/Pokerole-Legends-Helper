@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Roll 1 Chance Die to inflict Burn (2) on the Target.",
+  "Effect": "Roll 1 Chance Dice to inflict Burn (2) on the Target.",
   "Description": "The most emblematic fire attack, a seeminly endless stream of fire that reduces everything and everyone to ashes.",
   "_id": "flamethrower",
   "Attributes": {},

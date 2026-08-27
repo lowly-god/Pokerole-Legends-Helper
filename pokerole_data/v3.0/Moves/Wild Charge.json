@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Recoil. Roll 1 Chance Die to Paralyze the Target.",
+  "Effect": "Recoil. Roll 1 Chance Dice to Paralyze the Target.",
   "Description": "The Pokémon surrounds itself with lightning then recklessly charges against their target.",
   "_id": "wild-charge",
   "Attributes": {

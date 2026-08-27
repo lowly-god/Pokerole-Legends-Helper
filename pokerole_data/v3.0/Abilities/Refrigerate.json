@@ -1,6 +1,6 @@
 {
   "Name": "Refrigerate",
-  "Effect": "Normal-Type Moves that the Pokémon uses will deal damage as if they were Ice-Type. Affecting STAB, weakness and resistance. Add 1 Extra die to the Damage Pool of Ice moves.",
+  "Effect": "Normal-Type Moves that this Pokémon uses will deal Damage as if they were Ice-Type, affecting STAB, weakness and resistance. Add +1 Bonus Dice to the Damage Pool of Ice-Type Moves.",
   "Description": "This Pokémon's body works akin to a freezer, it can Frostbite things just by touching them.",
   "_id": "refrigerate"
 }

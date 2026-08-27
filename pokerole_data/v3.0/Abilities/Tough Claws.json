@@ -1,6 +1,6 @@
 {
   "Name": "Tough Claws",
-  "Effect": "Add 1 Extra die to the Damage Pool of all non-Ranged Physical Moves this Pokémon performs.",
+  "Effect": "Add 1 Extra Dice to the Damage Pool of all non-Ranged Physical Moves this Pokémon performs.",
   "Description": "This Pokémon's claws are so sturdy, they can tear through almost anything.",
   "_id": "tough-claws"
 }

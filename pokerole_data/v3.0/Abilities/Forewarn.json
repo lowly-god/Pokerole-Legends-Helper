@@ -1,6 +1,6 @@
 {
   "Name": "Forewarn",
-  "Effect": "In battle, this Pokémon will warn of the strongest Move/Maneuver one the opposing Foes has. The first time that Move/Maneuver is used, if this Pokémon is in Battle ignore all Damage and other effects from it.",
+  "Effect": "In battle, this Pokémon will warn of the strongest Move/Maneuver the opposing side has. The first time that Move/Maneuver is used, if this Pokémon is in Battle, ignore all Damage and other effects from it.",
   "Description": "When this Pokémon feels bad intentions or disaster approaching, it will mentally warn its trainer. The trainer must make a roll of Insight to get the message.",
   "_id": "forewarn"
 }

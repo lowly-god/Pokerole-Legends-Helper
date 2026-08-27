@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "After dealing damage, the User may roll 1 die of Fire-Type Damage against two other Targets, ignoring defenses.",
+  "Effect": "After dealing damage, the User may roll 1 Dice of Fire-Type Damage against two other Targets, ignoring defenses.",
   "Description": "A compact fireball that bursts just as it hits the foe, scattering smaller flames to unsuspecting bystanders.",
   "_id": "flame-burst",
   "Attributes": {},

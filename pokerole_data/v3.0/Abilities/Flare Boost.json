@@ -1,6 +1,6 @@
 {
   "Name": "Flare Boost",
-  "Effect": "If this Pokémon gets any degree of Burn, Increase 2 points to its Special Attribute.",
+  "Effect": "If this Pokémon gets any degree of Burn, increase by 2 its Special Attribute.",
   "Description": "A Pokémon with this Ability benefits from the extreme heat produced by fire. But they might be somewhat of a pyromaniac.",
   "_id": "flare-boost"
 }

@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Roll 1 Chance Die to inflict Burn (1) on the Target.",
+  "Effect": "Roll 1 Chance Dice to inflict Burn (1) on the Target.",
   "Description": "A basic fire attack, but not any less dangerous. Even a small flame can grow out of control.",
   "_id": "ember",
   "Attributes": {},

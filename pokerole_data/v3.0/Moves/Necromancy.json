@@ -7,7 +7,7 @@
   "Accuracy1": "Special / Clever",
   "Accuracy2": "Channel",
   "Target": "Self",
-  "Effect": "The User cuts its HP in half (Rounded Down), Restore consciousness and half HP (Rounded Down) to an Ally. This Move fails if the User is not at full health. If successful Spend 2 Will points to activate.",
+  "Effect": "The User cuts its HP in half (Rounded Down), Restore consciousness and half HP (Rounded Down) to a fainted Target. This Move fails if the User is not at full HP. If successful Spend 2 Will Points to activate. If no Target is fainted this Move fails. The Target does not need to be an Active Combatant.",
   "Description": "The User sacrifices its life-force to revive an Ally.",
   "_id": "necromancy",
   "Attributes": {},

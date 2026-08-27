@@ -7,7 +7,7 @@
   "Accuracy1": "Will",
   "Accuracy2": "",
   "Target": "Ally",
-  "Effect": "The User must spend all of their remaining Will points, if the user has no remaining Will points, this Move fails. Restore consciousness and 2 HP to a fainted Target. If no Target is fainted this Move fails. the Target does not need to be active in combat.",
+  "Effect": "The User must spend all of their remaining Will Points, if the User has no remaining Will Points, this Move fails. Restore consciousness and 2 HP to a fainted Target. If no Target is fainted this Move fails. The Target does not need to be an Active Combatant.",
   "Description": "The Pokémon prays to the skies with such selfless fervor and devotion that a miracle is granted.",
   "_id": "revival-blessing",
   "Attributes": {},

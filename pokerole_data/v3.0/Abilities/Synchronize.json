@@ -1,6 +1,6 @@
 {
   "Name": "Synchronize",
-  "Effect": "Whenever an opposing Pokémon inflicts a Status Ailment or Condition to this Pokémon, the same Status is inflicted into the Target. this Ability does not ignore a Target's immunity to certain Status Ailments/Conditions.",
+  "Effect": "Whenever a Foe inflicts this Pokémon with a Status Condition, the Foe is inflicted with the same Status Condition. This Ability does not ignore a Target's immunity to certain Status Ailments/Conditions.",
   "Description": "The Pokémon can share its mood, feelings and sensations with others, specially with those who caused it pain.",
   "_id": "synchronize"
 }

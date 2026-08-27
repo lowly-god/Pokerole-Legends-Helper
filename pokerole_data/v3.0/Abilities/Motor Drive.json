@@ -1,6 +1,6 @@
 {
   "Name": "Motor Drive",
-  "Effect": "The first time this Pokémon is hit by an Electric-type move, Increase 1 Point to its Dexterity Attribute. This Pokémon doesn't receive damage from Electric-type moves.",
+  "Effect": "The first time this Pokémon is hit by an Electric-Type move, Increase its Dexterity by 1. This Pokémon doesn't receive damage from Electric-Type Moves.",
   "Description": "This Pokémon absorbs electricity and stores it as energy to run faster or to power up machinery. An electric car's best friend.",
   "_id": "motor-drive"
 }

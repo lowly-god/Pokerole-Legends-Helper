@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Roll 1 Chance Die to Confuse the Target.",
+  "Effect": "Roll 1 Chance Dice to Confuse the Target.",
   "Description": "A basic mental assault that makes the foe believe they are being attacked by an invisible enemy.",
   "_id": "confusion",
   "Attributes": {},

@@ -1,6 +1,6 @@
 {
-    "Name": "Sub-Zero Surfer",
-    "Effect": "The first time this Pokémon is hit by an Ice-Type attack, Increase 1 Point to its Defense and Special Defense. The User is immune to Damage from Ice-Type Moves.",
-    "Description": "",
-    "_id": "sub-zero-surfer"
+  "Name": "Sub-Zero Surfer",
+  "Effect": "The first time this Pokémon is hit by an Ice-Type attack, Increase by 1 its Defense and Special Defense. The User is immune to Damage from Ice-Type Moves.",
+  "Description": "",
+  "_id": "sub-zero-surfer"
 }

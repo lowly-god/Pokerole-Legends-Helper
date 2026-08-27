@@ -7,7 +7,7 @@
   "Accuracy1": "Tough",
   "Accuracy2": "Intimidate",
   "Target": "Foe",
-  "Effect": "Target's will go last in the Initiative Order. Whole Scene Duration. This effect does not end by switching out the affected Pokémon. If used again, the previous Target has their order in the initiative restored.",
+  "Effect": "The Target will go last in the Initiative Order. Whole Scene Duration. This effect does not end by switching out the affected Pokémon. If used again, the previous Target has their order in the initiative restored.",
   "Description": "The user represses the foe through intimidation so it thinks twice before acting.",
   "_id": "quash",
   "Attributes": {

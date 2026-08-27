@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Intimidate",
   "Target": "All Foes",
-  "Effect": "Sound Move. Reduce by 1 the Special of those affected",
+  "Effect": "Sound Move. Reduce by 1 the Special of those affected.",
   "Description": "The Pokémon viciously snarls showing its teeth to the Targets. This menacing look will make everyone cower in fear.",
   "_id": "snarl",
   "Attributes": {

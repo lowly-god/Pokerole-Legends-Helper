@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Nature",
   "Target": "Foe",
-  "Effect": "The Type of this Move is determined by the environment or active Terrain. See more on p. 530",
+  "Effect": "The Type of this Move is determined by the active Field-Type, Terrain or Environment. (For more see P16 of the Legends Rules Supplement or P530 of the Core 3.0 Rules Book).",
   "Description": "The Pokémon makes use of the terrain and asks for nature's aid in battle.",
   "_id": "nature-power",
   "Attributes": {},

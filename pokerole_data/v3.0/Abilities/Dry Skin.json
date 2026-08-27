@@ -1,6 +1,6 @@
 {
   "Name": "Dry Skin",
-  "Effect": "While Sunny Weather is active, this Pokémon will receive 1 damage at the end of each round. Fire attacks will deal 1 additional Damage to this Pokémon. Water attacks may heal 1 HP to this Pokémon instead of dealing damage.",
+  "Effect": "While Sunny Weather is active, this Pokémon will receive 1 Damage at the end of each Round. Damaging Fire-Type attacks will deal 1 additional Damage to this Pokémon. When this Pokémon is hit by a Water-Type Move, you may restore 1 HP instead of receiving damage. Water-Type Moves do not deal damage to this Pokémon.",
   "Description": "The skin of this Pokémon needs special care as it is very dry and brittle, it'll require constant hydration and protection against the sun.",
   "_id": "dry-skin"
 }

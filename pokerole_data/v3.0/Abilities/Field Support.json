@@ -1,6 +1,6 @@
 {
-    "Name": "Field Support",
-    "Effect": "Multi-Turn Battlefield Moves from the User’s side last 8 Rounds. This effect ends if this Pokémon is removed from battle. (Effected Moves: Sunny Day, Rain Dance, Sandstorm, Hail, Acid Rain, Twilight Zone, Snowscape, Electric Terrain, Grassy Terrain, Misty Terrain, Psychic Terrain, Snowy Terrain, Shadow Terrain, Reflect, Light Screen, Aurora Veil, Safeguard, Mist, Tailwind, Trick Room, Magic Room, Wonder Room, Null Room, Gravity, Anti-Gravity, Singularity, Water Sport, Mud Sport).",
-    "Description": "",
-    "_id": "field-support"
+  "Name": "Field Support",
+  "Effect": "Multi-Turn Battlefield Moves from the User’s side last 8 Rounds. This effect ends if this Pokémon is removed from battle. (Affected Moves: Sunny Day, Rain Dance, Sandstorm, Hail, Acid Rain, Twilight Zone, Snowscape, Electric Terrain, Grassy Terrain, Misty Terrain, Psychic Terrain, Snowy Terrain, Shadow Terrain, Reflect, Light Screen, Aurora Veil, Safeguard, Mist, Tailwind, Trick Room, Magic Room, Wonder Room, Null Room, Gravity, Anti-Gravity, Singularity, Water Sport, Mud Sport).",
+  "Description": "",
+  "_id": "field-support"
 }

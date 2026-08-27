@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Nature",
   "Target": "Ally",
-  "Effect": "Basic Heal. If successful, spend 1 Will point to activate. If Performed over Grassy Terrain this move is a Complete Heal.",
+  "Effect": "Basic Heal. If successful, spend 1 Will point to activate. If performed over Grassy Terrain this move is a Complete Heal. If performed over Snowy Terrain, this Move becomes a Minor Heal.",
   "Description": "The user creates a flower crown that heals and relaxes its wearer. Under the right conditions this move also creates a flower patch around its target.",
   "_id": "floral-healing",
   "Attributes": {},

@@ -1,6 +1,6 @@
 {
   "Name": "Gooey",
-  "Effect": "The first time an opposing Pokémon hits this Pokémon with a Non-Ranged Physical Move, reduce 1 Point to their Dexterity Attribute.",
+  "Effect": "The first time an opposing Pokémon hits this Pokémon with a Non-Ranged Physical Move, reduce its Dexterity by 1.",
   "Description": "This Pokémon's sticky ooze will rub into anyone that touches it. This may become quite a burden. On the bright side, it is a natural and organic glue.",
   "_id": "gooey"
 }

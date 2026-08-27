@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Accuracy -2. Projectile Move. Roll 3 Chance Die to Reduce 1 success to all Accuracy rolls of the Target.",
+  "Effect": "Accuracy -2. Projectile Move. Roll 3 Chance Dice to Reduce 1 success to all Accuracy rolls of the Target.",
   "Description": "The Pokémon shoots a ball of mud to burst on their victim’s face in an attempt to blind them.",
   "_id": "mud-bomb",
   "Attributes": {

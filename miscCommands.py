@@ -22,10 +22,7 @@ weathers = [
     'Hail Weather',
     'Acid Rain Weather',
     'Midnight Weather',
-    'Fog/Darkness',
-    'Muddy',
-    'On Fire!',
-    'Electric Poles'
+    'Dense Fog',
 ]
 natures = [
     'Adamant',

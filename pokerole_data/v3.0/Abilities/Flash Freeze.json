@@ -1,6 +1,6 @@
 {
-    "Name": "Flash Freeze",
-    "Effect": "The first time this Pokémon is hit by an Ice-Type Move, add 1 Extra Die to the Damage Pool of Ice-Type Moves this Pokémon uses until the end of the scene. Ice-Type Moves do not deal Damage to this Pokémon.",
-    "Description": "",
-    "_id": "flash-freeze"
+  "Name": "Flash Freeze",
+  "Effect": "The first time this Pokémon is hit by an Ice-Type Move, add 1 Extra Dice to the Damage Pool of Ice-Type Moves this Pokémon uses until the end of the scene. Ice-Type Moves do not deal Damage to this Pokémon.",
+  "Description": "",
+  "_id": "flash-freeze"
 }

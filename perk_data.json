@@ -27,7 +27,7 @@
   "Master Chef": {
     "Rank": "Starter / Rookie / Standard",
     "Description": "You’re a wizard in the kitchen, and meals you cook seem to restore the fighting spirit of anyone that partakes of them.",
-    "Effect": "You get +2 points in the Cooking Skill. Once a day, when preparing food, if you get at least 4 successes on the roll for doing so. People and Pokémon who consume it restore 2 Will Points."
+    "Effect": "You get +2 points in the Cooking Skill. Once a day when preparing food, if you get at least 4 Successes on the roll for doing so, People and Pokémon who consume it restore 2 Will Points."
   },
   "Mono-Type Specialist": {
     "Rank": "Starter / Rookie / Standard",
@@ -87,7 +87,7 @@
   "Alchemical Artisan": {
     "Rank": "Advanced / Expert",
     "Description": "Your training in alchemical reagents and natural components is unparalleled.",
-    "Effect": "You gain +1 Bonus Dice to checks using the Crafting, Technology and Medicine Skills. When crafting Poke Balls you need 1 less success required to create HQ versions. When crafting healing items, you Round up instead of down for the amount created."
+    "Effect": "You gain +1 Bonus Dice to checks using the Crafting, Technology and Medicine Skills. When crafting Poke Balls 1 less success is required to create HQ versions. When crafting healing items, you Round up instead of down for the amount created."
   },
   "Aura Adept": {
     "Rank": "Advanced / Expert",
@@ -132,7 +132,7 @@
   "Imbued Weapons": {
     "Rank": "Advanced / Expert",
     "Description": "You know how craft various concoctions used to coat weapons and always keep a small stash of them on you for your personal use.",
-    "Effect": "At the beginning of the day you may choose to coat your Weapon or ammunition in a substance of your choice: Confusion, Poison, Paralysis, Burn (1), Frostbite (1). Granting your attacks made with it 2 Chance Dice to inflict that Status Condition."
+    "Effect": "At the beginning of the day you may choose to coat your Weapon or Ammunition in a substance of your choice, granting your attacks made with that Weapon Roll 2 Chance Dice to inflict one of these Status Conditions; Confusion, Poison, Paralysis, Burn (1), Frostbite (1)."
   },
   "Life Stealing Blade": {
     "Rank": "Advanced / Expert",
@@ -142,7 +142,7 @@
   "Martial Adept": {
     "Rank": "Advanced / Expert",
     "Description": "Your military training has been rigorous and as a result you’re more proficient with martial equipment.",
-    "Effect": "You are not able to be Disarmed during combat. Additionally you receive -1 less Dexterity penalty from wearing various armor types."
+    "Effect": "You are not able to be Disarmed during combat. Additionally you receive 1 less Dexterity penalty from wearing various armor types."
   },
   "Martial Arts Prodigy": {
     "Rank": "Advanced / Expert",
@@ -167,7 +167,7 @@
   "Psionic Overload": {
     "Rank": "Advanced / Expert",
     "Description": "You are able to unleash the full power of your psychic abilities.",
-    "Effect": "You may choose to make a Skill Check using the Channel Skill with 3 guaranteed successes. But in doing so you immediately take 2 levels of Exhaustion. You may add a Maneuver to you sheet: Psionic Barrage."
+    "Effect": "You may choose to make a Skill Check using the Channel Skill with 3 guaranteed successes. But in doing so you immediately take 2 levels of Exhaustion. You may add a Maneuver to your sheet: Psionic Barrage."
   },
   "Shadow": {
     "Rank": "Advanced / Expert",
@@ -177,7 +177,7 @@
   "Student of Life": {
     "Rank": "Advanced / Expert",
     "Description": "You learn constantly, picking up little bits and pieces from everywhere you go.",
-    "Effect": "You gain 3 additional Skill Points. You may only spend them up to your current Rank allows however."
+    "Effect": "You gain 3 additional Skill Points. You may only spend them up to what your current Rank allows however."
   },
   "Talented Medium": {
     "Rank": "Advanced / Expert",
@@ -187,7 +187,7 @@
   "Telepathic Bond": {
     "Rank": "Advanced / Expert",
     "Description": "You are able to reach your mind out to others gifted with psionic ability. You gain 1 point in the Channel Skill. You may converse psionically with people or Pokémon who are also psychically gifted or send a simple message to those who aren't (within 100ft range). Other effects at the Storyteller’s discretion.",
-    "Effect": ""
+    "Effect": "You gain 1 point in the Channel Skill. You may converse psionically with people or Pokémon who are also psychically gifted, or send a simple message to those who aren't. 100ft range. Other effects at the Storyteller’s discretion."
   },
   "Unarmed Defense": {
     "Rank": "Advanced / Expert",

@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Athletic",
   "Target": "Self",
-  "Effect": "The User gains Immunity against Ground-Type Moves. Whole Scene Duration",
+  "Effect": "The User gains Immunity against Ground-Type Moves. Whole Scene Duration.",
   "Description": "The Pokémon creates a magnetic field to repel themselves from the ground, allowing it to float for a short period of time.",
   "_id": "magnet-rise",
   "Attributes": {},

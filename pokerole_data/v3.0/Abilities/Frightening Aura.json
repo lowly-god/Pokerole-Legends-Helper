@@ -1,6 +1,6 @@
 {
-    "Name": "Frightening Aura",
-    "Effect": "Add 1 additional die to the Damage Pool of ghost and Dark-Type Moves from the User's side. (Aura break effects this as it would Dark Aura or Fairy Aura).",
-    "Description": "",
-    "_id": "frightening-aura"
+  "Name": "Frightening Aura",
+  "Effect": "Add 1 additional Dice to the Damage Pool of Ghost and Dark-Type Moves from the User's side.",
+  "Description": "",
+  "_id": "frightening-aura"
 }

@@ -1,6 +1,6 @@
 {
-    "Name": "Sovereign's Steel",
-    "Effect": "Normal-Type attacks that the Pokémon uses will deal Damage as if they were Steel-Type. Affecting STAB, Weakness and Resistance. Add +1 Bonus Dice of Damage to Steel-Type Moves.",
-    "Description": "",
-    "_id": "sovereign-s-steel"
+  "Name": "Sovereign's Steel",
+  "Effect": "Normal-Type attacks that this Pokémon uses will deal Damage as if they were Steel-Type, affecting STAB, Weakness and Resistance. Add +1 Bonus Dice to the Damage Pool of Steel-Type Moves.",
+  "Description": "",
+  "_id": "sovereign-s-steel"
 }

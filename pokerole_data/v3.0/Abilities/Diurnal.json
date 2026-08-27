@@ -1,6 +1,6 @@
 {
-    "Name": "Diurnal",
-    "Effect": "While Sunny Weather is in effect, Increase 2 Points to this Pokémon’s Strength or Special Attribute. If Midnight Weather is in effect, this Pokémon will receive 1 Damage at the end of the Round.",
-    "Description": "",
-    "_id": "diurnal"
+  "Name": "Diurnal",
+  "Effect": "While Sunny Weather is in effect, increase by 2 either this Pokémon’s Strength or Special Attribute. If Midnight Weather is in effect, this Pokémon will receive 1 Damage at the end of the Round.",
+  "Description": "",
+  "_id": "diurnal"
 }

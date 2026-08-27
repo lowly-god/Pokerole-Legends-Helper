@@ -1,6 +1,6 @@
 {
   "Name": "Steam Engine",
-  "Effect": "The first time this Pokémon is dealt damage with a Fire or Water-Type Move. Increase 3 Points to its Dexterity Attribute.",
+  "Effect": "The first time this Pokémon receives Damage from a Fire or Water-Type Move, increase Dexterity by 3.",
   "Description": "The Pokémon works as a steam furnace, with a bit of fire and water it can move anything at great speeds. It also loves to eat coal.",
   "_id": "steam-engine"
 }

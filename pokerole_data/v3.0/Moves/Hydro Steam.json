@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Roll 3 Chance Dice to inflict Burn (1) on the Target. If Sunny Weather is active, this Move does not reduce damage due to it, and has 2 Extra Dice to the Damage pool of this Move.",
+  "Effect": "Roll 3 Chance Dice to inflict Burn (1) on the Target. If Sunny Weather is active this gains +2 Damage Dice.",
   "Description": "When water and fire work together you’ll wish they didn’t set aside their differences.",
   "_id": "hydro-steam",
   "Attributes": {},

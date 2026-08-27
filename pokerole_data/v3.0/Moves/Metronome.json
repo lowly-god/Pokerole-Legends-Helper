@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Perform",
   "Target": "Foe",
-  "Effect": "Copy Move. Roll a die to determine Physical or Special category, roll a die to determine this Move's Power. The appearance, Type and added effects of this Move becomes the same of a Physical or Special Move of the same Power at Storyteller's Discretion.",
+  "Effect": "Copy Move. The User performs a random Move. (Either at the Storyteller's Discretion or Roll /metronome with the Bot).",
   "Description": "The Pokémon waves their hands following a specific rythm, the energy around follows the cadence and manifests as a Move at random.",
   "_id": "metronome",
   "Attributes": {},

@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "This Move deals Typeless damage. Roll 1 Chance Die to reduce the Target's Dexterity by 1.",
+  "Effect": "This Move deals Typeless damage. Roll 1 Chance Dice to reduce the Target's Dexterity by 1.",
   "Description": "The Pokémon tightens their hold on the foe to keep them locked in a squeeze.",
   "_id": "constrict",
   "Attributes": {},

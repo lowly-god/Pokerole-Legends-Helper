@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Stealth",
   "Target": "Foe's Battlefield",
-  "Effect": "Entry Hazard. Targets who enter the battlefield become Poisoned. Roll 1 Chance Die for them to become Badly Poisoned instead. Pokémon with immunity to Ground-Type Moves are not affected.",
+  "Effect": "Entry Hazard. Targets who enter the battlefield become Poisoned. Roll 1 Chance Dice for them to become Badly Poisoned instead. Pokémon with immunity to Ground-Type Moves are not affected.",
   "Description": "The Pokémon lays a trap of tiny venom-drenched spikes through the battlefield. The battle has not yet begun and the Targets are already defeated.",
   "_id": "toxic-spikes",
   "Attributes": {},

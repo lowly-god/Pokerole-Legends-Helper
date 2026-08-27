@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Alert",
   "Target": "Foe",
-  "Effect": "Reaction 1. All Damage of the Next Physical or Special Move the Target performs will become Electric-Type",
+  "Effect": "Reaction 1. All Damage of the Next Physical or Special Move the Target performs will become Electric-Type.",
   "Description": "The user hurls a sudden electric jolt onto its target. The target’s is now charged and will need to release the excess energy through an attack.",
   "_id": "electrify",
   "Attributes": {

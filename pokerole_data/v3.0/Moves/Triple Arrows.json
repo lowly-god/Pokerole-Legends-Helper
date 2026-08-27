@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Athletic",
   "Target": "Foe",
-  "Effect": "Ranged. Triple Action. Reduce the Target's Defense by 1. If All 3 hits land, all of the User's Physical and Special Moves now have the \"High Critical\" Effect, this effect has a Whole Scene Duration.",
+  "Effect": "Ranged. Triple Action. Reduce the Target's Defense by 1. If All 3 hits land, the User's Damaging Moves gain \"High Critical\". Whole Scene Duration.",
   "Description": "Three fast arrows shot in succession. The Pokémon who manages to land all three in the exact same spot has become a true sniper.",
   "_id": "triple_arrows",
   "Attributes": {

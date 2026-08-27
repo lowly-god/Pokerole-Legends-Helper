@@ -1,6 +1,6 @@
 {
   "Name": "Mycelium Might",
-  "Effect": "All Support Moves used by this Pokémon are considered to have the \"Never Miss\" and \"Late Reaction 1\" Added Effect",
+  "Effect": "All Support Moves used by this Pokémon are considered to have the \"Never Miss\" and \"Late Reaction 1\" Added Effect.",
   "Description": "The Pokémon releases invisible fungus spores continuously, by the time you realize you have a complete fungal infestation around you.",
   "_id": "mycelium-might"
 }

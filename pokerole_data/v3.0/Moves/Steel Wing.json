@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Accuracy -1. Roll 1 Chance Die to Increase the User's Defense by 1.",
+  "Effect": "Accuracy -1. Roll 1 Chance Dice to Increase the User's Defense by 1.",
   "Description": "The Pokémon has weather-proofed wings that cut flying times, cut through the air, and, most importantly, cut through their Targets.",
   "_id": "steel-wing",
   "Attributes": {

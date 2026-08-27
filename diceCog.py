@@ -153,7 +153,7 @@ class Dice(commands.Cog):
     )
     @app_commands.describe(
         dice = "Number of dice to roll (up to 100)",
-        sides = "Number of sides each die has (up to 100)",
+        sides = "Number of sides each Dice has (up to 100)",
         flat_addition = "Add a flat number to the roll",
         success_threshold = "What number is needed to succeed the roll? (default: 4)",
         accuracy = "Add an accuracy modifier to the roll",
