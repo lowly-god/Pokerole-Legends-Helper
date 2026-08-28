@@ -57,7 +57,55 @@ natures = [
 # Legends 3.0 nature mechanics
 NATURE_DETAILS = {'Adamant': ('1-4', '+1 Maximum Strength, -1 Maximum Special', 4), 'Bashful': ('5-8', 'Neutral', 6), 'Bold': ('9-12', '+1 Maximum Vitality, -1 Maximum Strength', 9), 'Brave': ('13-16', '+1 Maximum Strength, -1 Maximum Dexterity', 9), 'Calm': ('17-20', '+1 Maximum Insight, -1 Maximum Strength', 8), 'Careful': ('21-24', '+1 Maximum Insight, -1 Maximum Special', 5), 'Docile': ('25-28', 'Neutral', 7), 'Gentle': ('29-32', '+1 Maximum Insight, -1 Maximum Vitality', 10), 'Hardy': ('33-36', 'Neutral', 9), 'Hasty': ('37-40', '+1 Maximum Dexterity, -1 Maximum Vitality', 7), 'Impish': ('41-44', '+1 Maximum Vitality, -1 Maximum Special', 7), 'Jolly': ('45-48', '+1 Maximum Dexterity, -1 Maximum Special', 10), 'Lax': ('49-52', '+1 Maximum Vitality, -1 Maximum Insight', 8), 'Lonely': ('53-56', '+1 Maximum Strength, -1 Maximum Vitality', 5), 'Mild': ('57-60', '+1 Maximum Special, -1 Maximum Vitality', 8), 'Modest': ('61-64', '+1 Maximum Special, -1 Maximum Strength', 10), 'Naive': ('65-68', '+1 Maximum Dexterity, -1 Maximum Insight', 7), 'Naughty': ('69-72', '+1 Maximum Strength, -1 Maximum Insight', 6), 'Quiet': ('73-76', '+1 Maximum Special, -1 Maximum Dexterity', 5), 'Quirky': ('77-80', 'Neutral', 9), 'Rash': ('81-84', '+1 Maximum Special, -1 Maximum Insight', 6), 'Relaxed': ('85-88', '+1 Maximum Vitality, -1 Maximum Dexterity', 8), 'Sassy': ('89-92', '+1 Maximum Insight, -1 Maximum Dexterity', 7), 'Serious': ('93-96', 'Neutral', 4), 'Timid': ('97-100', '+1 Maximum Dexterity, -1 Maximum Strength', 4)}
 
-effects = ['Physical Move', 'Special Move', 'Support Move', 'Accuracy -X', 'Basic Heal', 'Bite Move', 'Beam Move', 'Solar Move', 'Lunar Move', 'Darkness Move', 'Light Move', 'Aura Move', 'Retaliatory Move', 'Kick Move', 'Dance Move', 'Pulse Move', 'Drain Move', 'Explosive Move', 'Blocks', 'Chance Dice', 'Charge Move', 'Copy Move', 'Cutter Move', 'Double Action', 'Entry Hazard', 'Fist Move', 'Force Field', 'High Critical', 'Ignore Defenses', 'Late Reaction', 'Lethal', 'Must Recharge', 'Never Miss', 'Ongoing Damage', 'Out of Range while Charging', 'Powder Move', 'Projectile Move', 'Rampage', 'Ranged', 'Reaction', 'Recoil', 'Shield Move', 'Sound Move', 'Successive Actions', 'Switcher Move', 'Unique', 'Wind Move']
+effects = [
+    'Accuracy -X',
+    'Aura Move',
+    'Basic Heal',
+    'Beam Move',
+    'Bite Move',
+    'Blocks',
+    'Chance Dice',
+    'Charge Move',
+    'Copy Move',
+    'Cutter Move',
+    'Dance Move',
+    'Darkness Move',
+    'Double Action',
+    'Drain Move',
+    'Entry Hazard',
+    'Explosive Move',
+    'Fist Move',
+    'Force Field',
+    'High Critical',
+    'Ignore Defenses',
+    'Kick Move',
+    'Late Reaction',
+    'Lethal',
+    'Light Move',
+    'Lunar Move',
+    'Must Recharge',
+    'Never Miss',
+    'Ongoing Damage',
+    'Out of Range while Charging',
+    'Physical Move',
+    'Powder Move',
+    'Projectile Move',
+    'Pulse Move',
+    'Rampage',
+    'Ranged',
+    'Reaction',
+    'Recoil',
+    'Retaliatory Move',
+    'Shield Move',
+    'Solar Move',
+    'Sound Move',
+    'Special Move',
+    'Successive Actions',
+    'Support Move',
+    'Switcher Move',
+    'Unique',
+    'Wind Move',
+]
 
 version_converter = ["v3.0", "v3.0"]
 
@@ -235,7 +283,13 @@ class Misc(commands.Cog):
     ) -> List[Choice[str]]:
         if len(self.effects) == 0:
             await self.instantiateEffects()
-        choices = [name for name in self.effects if current.casefold() in name.casefold()]
+        choices = sorted(
+            (name for name in self.effects if current.casefold() in name.casefold()),
+            key=str.casefold,
+        )
+        # Discord limits autocomplete responses to 25 choices. Keeping the
+        # filtered set alphabetized makes /effect predictable; typing narrows
+        # the list when more than 25 effects exist.
         return [app_commands.Choice(name=name, value=name) for name in choices[:25]]
 
     async def instantiateWeather(self):
@@ -260,8 +314,13 @@ class Misc(commands.Cog):
     async def instantiateEffects(self):
         with open('effects_v3.csv', 'r', encoding='UTF-8') as file:
             reader = csv.reader(file)
-            for row in reader:
-                self.effects[row[0]] = row[1]
+            rows = [row for row in reader if row]
+        # Keep one canonical alphabetical order for autocomplete, full lists,
+        # and not-found suggestions.
+        self.effects = {
+            row[0]: row[1]
+            for row in sorted(rows, key=lambda row: row[0].casefold())
+        }
 
     # @commands.command(name = 'weather',
     #              aliases = ['w'],
@@ -369,7 +428,7 @@ class Misc(commands.Cog):
         effectrepl = '\n- '
         if effect == '':
             #list all effects
-            for k, v in list(self.effects.items()):
+            for k, v in sorted(self.effects.items(), key=lambda item: item[0].casefold()):
                 output += f'**{k}**{effectrepl}{v}\n'
         else:
             #list a single effect description
@@ -383,7 +442,7 @@ class Misc(commands.Cog):
                 view = effect_keyword_view(effect)
             else:
                 output = f'`{effect}` wasn\'t found in the effect list:{effectrepl}'\
-                         + effectrepl.join([str(k) for k in self.effects.keys()])
+                         + effectrepl.join(sorted((str(k) for k in self.effects.keys()), key=str.casefold))
                 view = None
         if effect == '':
             view = None

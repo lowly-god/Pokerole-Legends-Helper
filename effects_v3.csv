@@ -1,47 +1,47 @@
-Physical Move,"Physical Moves are resisted with Defense. They are close range attacks by default. Some can be long range, and those are labeled as Ranged."
-Special Move,Special Moves are resisted with Special Defense. They are always long range.
-Support Move,Support Moves don't deal any direct Damage.
 Accuracy -X,Reduce the noted number of successes from the Move's Accuracy Roll.
+Aura Move,"Moves with the Aura Move keyword and Maneuvers with the Aura Maneuver keyword are part of the Aura category and interact with Abilities, Items, and effects that reference Aura Moves or Maneuvers."
 Basic Heal,Heal for 3HP.
+Beam Move,"This Move has the Beam Move keyword and interacts with Abilities, Items, and effects that reference Beam Moves."
 Bite Move,"This Move has the Bite Move keyword and interacts with Abilities, Items, and effects that reference Bite Moves."
 Blocks,The Target can't escape and can't be switched back.
 Chance Dice,"The probability at which a Move's Effect is activated. The number marked on the Icon is the amount of Chance Dice you will Roll. At least one Chance Dice must come up as (6), if it does, the Effect will be triggered. Sometimes a Chance Dice Icon will be inside a Status Ailment Box to show the chance to inflict that Ailment."
 Charge Move,The User spends one action charging the Move. The Move is rolled with another action on its next turn.
 Copy Move,Copies or reproduces another Move as described by its effect. Unique Moves cannot be copied unless specifically stated otherwise.
 Cutter Move,"This Move has the Cutter Move keyword and interacts with Abilities, Items, and effects that reference Cutter Moves."
+Dance Move,"This Move has the Dance Move keyword and interacts with Abilities, Items, and effects that reference Dance Moves."
+Darkness Move,"This Move has the Darkness Move keyword and interacts with Abilities, Items, and effects that reference Darkness Moves."
 Double Action,The Move strikes or resolves twice as part of the same Action.
+Drain Move,"After dealing Damage with this Move, the User restores HP equal to half the Damage dealt, rounded down, unless the Move states otherwise."
 Entry Hazard,Places a persistent hazard on a side of the Battlefield as described by the Move.
+Explosive Move,"This Move has the Explosive Move keyword and interacts with Abilities, Items, and effects that reference Explosive Moves."
 Fist Move,The Move requires hands or fists.
 Force Field,Creates a defensive field that remains active for the stated Duration or until removed.
 High Critical,Score a Critical Hit with 1 success less than required.
 Ignore Defenses,Ignore Defense and Special Defense when calculating Damage.
+Kick Move,"This Move has the Kick Move keyword and interacts with Abilities, Items, and effects that reference Kick Moves."
 Late Reaction,The Move may be used as a Late Reaction. The listed number determines its Reaction timing.
 Lethal,The Move inflicts Lethal Damage.
+Light Move,"This Move has the Light Move keyword and interacts with Abilities, Items, and effects that reference Light Moves."
+Lunar Move,"This Move has the Lunar Move keyword and interacts with Abilities, Items, and effects that reference Lunar Moves."
 Must Recharge,"After hitting with this Move, the User must rest with its first Action on the next Round."
 Never Miss,"This Move cannot be Evaded, but can be Clashed. This Move may still miss on a failed Accuracy check."
 Ongoing Damage,"At the end of the Round, Roll 2 Dice of Typeless Damage against the Target. (Multiple sources of Ongoing Damage will not stack, only one source may be active at a time. The first source takes priority over the latter ones)."
 Out of Range while Charging,"While charging, the User is Out of Range except to Moves specifically stated to be able to hit it."
+Physical Move,"Physical Moves are resisted with Defense. They are close range attacks by default. Some can be long range, and those are labeled as Ranged."
 Powder Move,This Move has the Powder Move keyword and interacts with effects that reference Powder Moves.
 Projectile Move,"Moves with the Projectile Move keyword and Maneuvers with the Projectile Maneuver keyword are projectiles and interact with Abilities, Items, and effects that reference Projectile Moves or Maneuvers."
+Pulse Move,"This Move has the Pulse Move keyword and interacts with Abilities, Items, and effects that reference Pulse Moves."
 Rampage,"The User may use this Move up to 3 times without interruption, even during the same Round. It cannot Evade or perform another Move. After the Rampage is over, the user will be Confused."
 Ranged,This Move may be used at range.
 Reaction,The Move may be used as a Reaction. The listed number determines its Reaction timing.
 Recoil,"The User will be hurt by its own Move. Roll damage normally against the foe, then roll again each success you scored as damage to the User ignoring its defenses."
+Retaliatory Move,"This Move has the Retaliatory Move keyword and interacts with Abilities, Items, and effects that reference Retaliatory Moves."
 Shield Move,"If the Pokémon performs another Shield Move during the next Round, that Move's Accuracy Roll is reduced by 2 successes."
+Solar Move,"This Move has the Solar Move keyword and interacts with Abilities, Items, and effects that reference Solar Moves."
 Sound Move,"These Moves bypass Substitute, Light Screen, Reflect, and Cover."
+Special Move,Special Moves are resisted with Special Defense. They are always long range.
 Successive Actions,The Move allows you to perform Multiple Actions in succession before the Foe can act. (Up to either 2 attacks or 5 attacks based on the number of stars in the Effect box).
+Support Move,Support Moves don't deal any direct Damage.
 Switcher Move,Only one Switcher Move may be used per Round. Switch a Pokémon in the battlefield for one of its allies still on their Pokeball.
 Unique,Unique Moves cannot be copied.
 Wind Move,"This Move has the Wind Move keyword and interacts with Abilities, Items, and effects that reference Wind Moves."
-Beam Move,"This Move has the Beam Move keyword and interacts with Abilities, Items, and effects that reference Beam Moves."
-Solar Move,"This Move has the Solar Move keyword and interacts with Abilities, Items, and effects that reference Solar Moves."
-Lunar Move,"This Move has the Lunar Move keyword and interacts with Abilities, Items, and effects that reference Lunar Moves."
-Darkness Move,"This Move has the Darkness Move keyword and interacts with Abilities, Items, and effects that reference Darkness Moves."
-Light Move,"This Move has the Light Move keyword and interacts with Abilities, Items, and effects that reference Light Moves."
-Aura Move,"Moves with the Aura Move keyword and Maneuvers with the Aura Maneuver keyword are part of the Aura category and interact with Abilities, Items, and effects that reference Aura Moves or Maneuvers."
-Retaliatory Move,"This Move has the Retaliatory Move keyword and interacts with Abilities, Items, and effects that reference Retaliatory Moves."
-Kick Move,"This Move has the Kick Move keyword and interacts with Abilities, Items, and effects that reference Kick Moves."
-Dance Move,"This Move has the Dance Move keyword and interacts with Abilities, Items, and effects that reference Dance Moves."
-Pulse Move,"This Move has the Pulse Move keyword and interacts with Abilities, Items, and effects that reference Pulse Moves."
-Drain Move,"After dealing Damage with this Move, the User restores HP equal to half the Damage dealt, rounded down, unless the Move states otherwise."
-Explosive Move,"This Move has the Explosive Move keyword and interacts with Abilities, Items, and effects that reference Explosive Moves."
