@@ -10324,7 +10324,7 @@
         {
           "name": "Big Root",
           "price": "5000",
-          "effect": "HP Stealing Moves Round up instead of down",
+          "effect": "The Holder's Drain Moves round up instead of down.",
           "category": "General Items"
         },
         {
@@ -11770,7 +11770,7 @@
         {
           "name": "Shiinotic Crest",
           "price": "40000",
-          "effect": "Shiinotic's Draining Moves gain +1 Damage Dice. Additionally Foes suffering from Status Conditions lose 1HP at the end of the Round, Shiinotic heals HP equal to any Damage done in this way.",
+          "effect": "Shiinotic's Drain Moves gain +1 Damage Dice. Additionally Foes suffering from Status Conditions lose 1HP at the end of the Round, Shiinotic heals HP equal to any Damage done in this way.",
           "category": "Crests"
         },
         {
@@ -12513,7 +12513,7 @@
         {
           "name": "Big Root",
           "price": "5000",
-          "effect": "HP Stealing Moves Round up instead of down",
+          "effect": "The Holder's Drain Moves round up instead of down.",
           "category": "General Items"
         },
         {
@@ -18237,7 +18237,7 @@
         {
           "name": "Shiinotic Crest",
           "price": "40000",
-          "effect": "Shiinotic's Draining Moves gain +1 Damage Dice. Additionally Foes suffering from Status Conditions lose 1HP at the end of the Round, Shiinotic heals HP equal to any Damage done in this way.",
+          "effect": "Shiinotic's Drain Moves gain +1 Damage Dice. Additionally Foes suffering from Status Conditions lose 1HP at the end of the Round, Shiinotic heals HP equal to any Damage done in this way.",
           "category": "Crests"
         },
         {

@@ -1,6 +1,6 @@
 {
   "Name": "Damp",
-  "Effect": "No one in the field will be able to use the moves: Self-Destruct, Explosion, Misty Explosion, Mind Blown, and Burn Up while this Pokémon is in the field. The Ability Aftermath does not activate if this Pokémon is in the field.",
+  "Effect": "While this Pokémon is an Active Combatant; No Active Combatants are able to use Explosive Moves or the Move Burn Up, The Ability Aftermath does not activate, and Equipment Modules with the Explosive Trait will not explode.",
   "Description": "The Pokémon gathers the humidity in the air around itself. Lighting a spark or keeping a fire on, will be almost impossible close to it.",
   "_id": "damp"
 }

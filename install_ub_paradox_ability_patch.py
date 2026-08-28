@@ -115,8 +115,13 @@ def add_move(name, move, rank):
     backup_json(name)
     data = pokemon[name]
     moves = data.setdefault("Moves", [])
-    if any(norm(entry.get("Name", "")) == norm(move) for entry in moves):
-        return False
+    for entry in moves:
+        if norm(entry.get("Name", "")) == norm(move):
+            changed = entry.get("Learned") != rank
+            if changed:
+                entry["Learned"] = rank
+                save(name)
+            return changed
     moves.append({"Learned": rank, "Name": move})
     save(name)
     return True
@@ -157,35 +162,59 @@ UB_MOVES = {
         ("Parasitize", "Standard"),
         ("Virus Pulse", "Advanced"),
         ("Cosmic Corrosion", "Ace"),
+        ("Corrosive Gas", "Expert"),
     ],
     "Buzzwole": [
         ("Parasitize", "Standard"),
         ("Fisticuffs", "Advanced"),
         ("Bulk Breaker", "Ace"),
+        ("Mega Punch", "Standard"),
+        ("Stomping Tantrum", "Advanced"),
+        ("Counter", "Expert"),
     ],
-    "Pheromosa": [("Chic Chop", "Ace")],
+    "Pheromosa": [
+        ("Chic Chop", "Ace"),
+        ("Agility", "Standard"),
+        ("Bounce", "Advanced"),
+        ("Speed Swap", "Expert"),
+    ],
     "Xurkitree": [
         ("Electro Whip", "Expert"),
         ("Tesla Shock", "Ace"),
+        ("Magnet Rise", "Expert"),
     ],
-    "Celesteela": [("Dual Cannon", "Ace")],
+    "Celesteela": [
+        ("Dual Cannon", "Ace"),
+        ("Flash Cannon", "Standard"),
+        ("Dark Pulse", "Advanced"),
+    ],
     "Kartana": [
         ("Vorpal Blade", "Expert"),
         ("Paper Cutter", "Ace"),
+        ("Vacuum Wave", "Standard"),
+        ("Night Slash", "Advanced"),
     ],
-    "Guzzlord": [("Devouring Abyss", "Ace")],
+    "Guzzlord": [
+        ("Devouring Abyss", "Ace"),
+        ("Wide Guard", "Expert"),
+    ],
     "Poipole": [("Virus Pulse", "Advanced")],
     "Naganadel": [
         ("Imperial Majesty", "Advanced"),
         ("Virus Pulse", "Advanced"),
         ("Neurotoxin Needle", "Ace"),
+        ("Tailwind", "Expert"),
     ],
-    "Stakataka": [("Blockade Barrage", "Ace")],
+    "Stakataka": [
+        ("Blockade Barrage", "Ace"),
+        ("Trick Room", "Expert"),
+    ],
     "Blacephalon": [
         ("Uncontrolled Burn Off", "Advanced"),
         ("Mind Blown", "Ace"),
     ],
 }
+
 
 PARADOX_HIDDEN = {
     "Great Tusk": "Rock Head",

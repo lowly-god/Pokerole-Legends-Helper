@@ -1,6 +1,6 @@
 {
   "Name": "Mega Launcher",
-  "Effect": "Add 2 Extra Dice to the Damage Pool / Healing Pool of Moves with the keyword “Pulse”, \"Beam\", \"Gun\", \"Pump\", \"Cannon\" and “Aura” in their name.",
+  "Effect": "Add 2 Extra Dice to the Damage Pool / Healing Pool of this Pokémon's Pulse Moves, Beam Moves, and Projectile Moves.",
   "Description": "",
   "_id": "mega-launcher"
 }

@@ -1,155 +1,155 @@
 {
-    "Number": 804,
-    "DexID": "0804",
-    "Name": "Naganadel",
-    "Type1": "Poison",
-    "Type2": "Dragon",
-    "BaseHP": 5,
-    "Strength": 5,
-    "MaxStrength": 5,
-    "Dexterity": 7,
-    "MaxDexterity": 7,
-    "Vitality": 5,
-    "MaxVitality": 5,
-    "Special": 7,
-    "MaxSpecial": 7,
-    "Insight": 5,
-    "MaxInsight": 5,
-    "Ability1": "Beast Boost",
-    "Ability2": "",
-    "HiddenAbility": "Neuroforce",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "naganadel",
-    "DexCategory": "Aether Foundation Log #164",
-    "Height": {
-        "Meters": 3.6,
-        "Feet": 11.8
+  "Number": 804,
+  "DexID": "0804",
+  "Name": "Naganadel",
+  "Type1": "Poison",
+  "Type2": "Dragon",
+  "BaseHP": 5,
+  "Strength": 5,
+  "MaxStrength": 5,
+  "Dexterity": 7,
+  "MaxDexterity": 7,
+  "Vitality": 5,
+  "MaxVitality": 5,
+  "Special": 7,
+  "MaxSpecial": 7,
+  "Insight": 5,
+  "MaxInsight": 5,
+  "Ability1": "Beast Boost",
+  "Ability2": "",
+  "HiddenAbility": "Neuroforce",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "naganadel",
+  "DexCategory": "Aether Foundation Log #164",
+  "Height": {
+    "Meters": 3.6,
+    "Feet": 11.8
+  },
+  "Weight": {
+    "Kilograms": 150.0,
+    "Pounds": 330.7
+  },
+  "DexDescription": "One specimen of UB-06 Adhesive has apparently evolved. Its friendly demeanor is gone. The large streams of corrosive poison it shot seriously damaged our equipment. I must take a sample to study it.",
+  "Evolutions": [
+    {
+      "From": "Poipole",
+      "Kind": "Level",
+      "Move": "Dragon Pulse"
+    }
+  ],
+  "Image": "naganadel.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Peck"
     },
-    "Weight": {
-        "Kilograms": 150.0,
-        "Pounds": 330.7
+    {
+      "Learned": "Starter",
+      "Name": "Growl"
     },
-    "DexDescription": "One specimen of UB-06 Adhesive has apparently evolved. Its friendly demeanor is gone. The large streams of corrosive poison it shot seriously damaged our equipment. I must take a sample to study it.",
-    "Evolutions": [
-        {
-            "From": "Poipole",
-            "Kind": "Level",
-            "Move": "Dragon Pulse"
-        }
-    ],
-    "Image": "naganadel.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Peck"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Growl"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Acid"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Helping Hand"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Fury Attack"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Air Cutter"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Venoshock"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Venom Drench"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Air Slash"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Fell Stinger"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Charm"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Poison Jab"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Gastro Acid"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Toxic"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Acid Rain"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Imperial Majesty"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Virus Pulse"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Neurotoxin Needle"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Dragon Pulse"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Nasty Plot"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Gunk Shot"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Dragon Rush"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Sky Attack"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Velvet Scales"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Tailwind"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Draco Meteor"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Meltdown"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Acid"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fury Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Cutter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Venoshock"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Venom Drench"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Air Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fell Stinger"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Charm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Poison Jab"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Gastro Acid"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Toxic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acid Rain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imperial Majesty"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Virus Pulse"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Neurotoxin Needle"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gunk Shot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Rush"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sky Attack"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Tailwind"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Draco Meteor"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Meltdown"
+    }
+  ]
 }

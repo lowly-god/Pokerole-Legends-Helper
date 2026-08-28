@@ -1,6 +1,6 @@
 {
-    "Name": "Capsaicin Core",
-    "Effect": "If hit by a Move that would absorb this Pokémon's vital energy (Leech Life, Drain Punch, Leech Seed, etc) it will instead deal that amount as Damage.",
-    "Description": "",
-    "_id": "capsaicin-core"
+  "Name": "Capsaicin Core",
+  "Effect": "If this Pokémon is hit by a Drain Move or suffers the Leeched Status Condition, it will deal Damage to the Target equal to the amount they usually would have Healed.",
+  "Description": "",
+  "_id": "capsaicin-core"
 }

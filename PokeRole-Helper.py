@@ -298,9 +298,19 @@ def cleanup_legacy_item_files():
     compact summary.
     """
     item_dir = os.path.join('pokerole_data', 'v3.0', 'Items')
+    # Remove the obsolete Homebrew Big Root duplicate before data is loaded.
+    homebrew_big_root = os.path.join('pokerole_data', 'Homebrew', 'Items', 'Big Root.json')
     normalized_count = 0
     removed_count = 0
     error_count = 0
+
+    if os.path.isfile(homebrew_big_root):
+        try:
+            os.remove(homebrew_big_root)
+            removed_count += 1
+        except Exception as exc:
+            error_count += 1
+            print(f'Legacy item cleanup could not remove Homebrew Big Root: {exc}')
 
     canonical_item_renames = {
         'Alakazamite': 'Alakazite',

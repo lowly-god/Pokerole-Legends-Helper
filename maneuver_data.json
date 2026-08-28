@@ -806,7 +806,7 @@
           "target": "Foe",
           "power": "0",
           "accuracy": "Dexterity + Alert",
-          "effect": "Accuracy -2. Ranged. Reaction 3. Destroy a thrown Poke Ball or Block all Damage from a Single Target Physical Projectile attack completely. (At the Storyteller’s discretion).",
+          "effect": "Accuracy -2. Ranged. Reaction 3. Destroy a thrown Poke Ball or Block all Damage from a Single Target Physical Projectile Move or Projectile Maneuver completely. (At the Storyteller’s discretion).",
           "notes": "",
           "source": "Kunai, Throwing Darts and Throwing Stars",
           "source_kind": "Weapon",
@@ -2629,13 +2629,14 @@
           "target": "Foe",
           "power": "0",
           "accuracy": "Dexterity + Alert",
-          "effect": "Accuracy -2. Ranged. Reaction 3. Destroy a thrown Poke Ball or Block all Damage from a Single Target Physical Projectile attack completely. (At the Storyteller’s discretion).",
+          "effect": "Accuracy -2. Ranged. Reaction 3. Destroy a thrown Poke Ball or Block all Damage from a Single Target Physical Projectile Move or Projectile Maneuver completely. (At the Storyteller’s discretion).",
           "notes": "",
           "source": "Kunai, Throwing Darts and Throwing Stars",
           "source_kind": "Weapon",
           "tier": "Advanced"
         }
-      ]
+      ],
+      "effect": "Accuracy -2. Ranged. Reaction 3. Destroy a thrown Poke Ball or Block all Damage from a Single Target Physical Projectile Move or Projectile Maneuver completely. (At the Storyteller’s discretion)."
     },
     {
       "name": "Serpentine Strike",

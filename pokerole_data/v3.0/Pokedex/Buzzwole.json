@@ -1,153 +1,153 @@
 {
-    "Number": 794,
-    "DexID": "0794",
-    "Name": "Buzzwole",
-    "Type1": "Bug",
-    "Type2": "Fighting",
-    "BaseHP": 6,
-    "Strength": 7,
-    "MaxStrength": 7,
-    "Dexterity": 5,
-    "MaxDexterity": 5,
-    "Vitality": 7,
-    "MaxVitality": 7,
-    "Special": 4,
-    "MaxSpecial": 4,
-    "Insight": 4,
-    "MaxInsight": 4,
-    "Ability1": "Beast Boost",
-    "Ability2": "",
-    "HiddenAbility": "Iron Fist",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "buzzwole",
-    "DexCategory": "Aether Foundation Log #071",
-    "Height": {
-        "Meters": 2.4,
-        "Feet": 7.8
+  "Number": 794,
+  "DexID": "0794",
+  "Name": "Buzzwole",
+  "Type1": "Bug",
+  "Type2": "Fighting",
+  "BaseHP": 6,
+  "Strength": 7,
+  "MaxStrength": 7,
+  "Dexterity": 5,
+  "MaxDexterity": 5,
+  "Vitality": 7,
+  "MaxVitality": 7,
+  "Special": 4,
+  "MaxSpecial": 4,
+  "Insight": 4,
+  "MaxInsight": 4,
+  "Ability1": "Beast Boost",
+  "Ability2": "",
+  "HiddenAbility": "Iron Fist",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "buzzwole",
+  "DexCategory": "Aether Foundation Log #071",
+  "Height": {
+    "Meters": 2.4,
+    "Feet": 7.8
+  },
+  "Weight": {
+    "Kilograms": 333.0,
+    "Pounds": 735.0
+  },
+  "DexDescription": "What we thought were harmless displays of strength were just the first warning signs. Today UB-02 destroyed the truck where it was being transported. It escaped and hasn't been located.",
+  "Evolutions": [],
+  "Image": "buzzwole.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Harden"
     },
-    "Weight": {
-        "Kilograms": 333.0,
-        "Pounds": 735.0
+    {
+      "Learned": "Starter",
+      "Name": "Focus Energy"
     },
-    "DexDescription": "What we thought were harmless displays of strength were just the first warning signs. Today UB-02 destroyed the truck where it was being transported. It escaped and hasn't been located.",
-    "Evolutions": [],
-    "Image": "buzzwole.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Harden"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Focus Energy"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Comet Punch"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Bulk Up"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Parasitize"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Bulk Breaker"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Taunt"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Power-Up Punch"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Fell Stinger"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Vital Throw"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Reversal"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Mega Punch"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Leech Life"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Poison Jab"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Fisticuffs"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Lunge"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Dynamic Punch"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Hammer Arm"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Stomping Tantrum"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Outrage"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Superpower"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Giga Impact"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Focus Punch"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Thunder Punch"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Endure"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Counter"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Ice Punch"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Drain Punch"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Comet Punch"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bulk Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Parasitize"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Bulk Breaker"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Power-Up Punch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fell Stinger"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Vital Throw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reversal"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mega Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Leech Life"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Poison Jab"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fisticuffs"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lunge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dynamic Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hammer Arm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Stomping Tantrum"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Superpower"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Giga Impact"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Focus Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Thunder Punch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Endure"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Counter"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Ice Punch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Drain Punch"
+    }
+  ]
 }

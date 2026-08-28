@@ -1,6 +1,6 @@
 {
   "Name": "Polished Coat",
-  "Effect": "This Pokémon is Immune to Moves with the keyword “Beam”. If it is hit by one, roll the same Damage Pool as the Target’s “Beam” attack against a Random Target.",
+  "Effect": "This Pokémon is Immune to Beam Moves. If it is hit by one, roll the same Damage Pool as the Target’s Beam Move against a Random Target.",
   "Description": "",
   "_id": "polished-coat"
 }

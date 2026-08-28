@@ -22,6 +22,7 @@ weathers = [
     'Sandstorm Weather',
     'Strong Wind Weather',
     'Hail Weather',
+    'Snowy Weather',
     'Acid Rain Weather',
     'Midnight Weather',
     'Dense Fog',

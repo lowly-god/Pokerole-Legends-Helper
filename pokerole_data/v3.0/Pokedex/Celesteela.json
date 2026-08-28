@@ -62,7 +62,7 @@
       "Name": "Flame Charge"
     },
     {
-      "Learned": "Standard",
+      "Learned": "Ace",
       "Name": "Dual Cannon"
     },
     {
@@ -86,7 +86,7 @@
       "Name": "Iron Head"
     },
     {
-      "Learned": "Advanced",
+      "Learned": "Standard",
       "Name": "Flash Cannon"
     },
     {
@@ -148,6 +148,10 @@
     {
       "Learned": "Ace",
       "Name": "Steel Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dark Pulse"
     }
   ],
   "HM": [
