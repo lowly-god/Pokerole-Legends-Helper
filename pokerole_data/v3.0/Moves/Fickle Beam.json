@@ -7,10 +7,12 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Before you roll damage, Roll 1 Dice to determine this Move's Power.",
+  "Effect": "Beam Move. Before you roll damage, Roll 1 Dice to determine this Move's Power.",
   "Description": "The Pokémon is formed by many individual heads who rarely agree with one another, but when they do their combined power is devastating.",
   "_id": "fickle-beam",
-  "Attributes": {},
+  "Attributes": {
+    "BeamMove": true
+  },
   "AddedEffects": {},
   "Category": "Special"
 }

@@ -7,10 +7,12 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "All Foes",
-  "Effect": "Reduce by 1 the Dexterity of those affected.",
+  "Effect": "Projectile Move. Reduce by 1 the Dexterity of those affected.",
   "Description": "The foe gets tangled in a fine silk string shot by the user. This silk can also be used to make fine clothes.",
   "_id": "string-shot",
-  "Attributes": {},
+  "Attributes": {
+    "ProjectileMove": true
+  },
   "AddedEffects": {
     "StatChanges": [
       {

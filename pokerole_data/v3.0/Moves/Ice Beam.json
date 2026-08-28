@@ -7,10 +7,12 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Roll 1 Chance Dice to inflict Frostbite (1) on the Target.",
+  "Effect": "Beam Move. Roll 1 Chance Dice to inflict Frostbite (1) on the Target.",
   "Description": "The Pokémon shoots a cold beam that reduces all warmth on the environment up to freezing point.",
   "_id": "ice-beam",
-  "Attributes": {},
+  "Attributes": {
+    "BeamMove": true
+  },
   "AddedEffects": {
     "Ailments": [
       {

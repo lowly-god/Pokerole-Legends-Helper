@@ -7,10 +7,12 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Roll 1 Chance Dice to Confuse the Target.",
+  "Effect": "Beam Move. Roll 1 Chance Dice to Confuse the Target.",
   "Description": "The foe’s mind is assaulted by a mental ray, afterwards they may suffer from hallucinations.",
   "_id": "psybeam",
-  "Attributes": {},
+  "Attributes": {
+    "BeamMove": true
+  },
   "AddedEffects": {
     "Ailments": [
       {

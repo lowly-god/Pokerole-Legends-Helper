@@ -7,10 +7,12 @@
   "Accuracy1": "Beauty",
   "Accuracy2": "Perform",
   "Target": "Self",
-  "Effect": "Increase by 1 the User's Dexterity, Special and Special Defense.",
+  "Effect": "Dance Move. Increase by 1 the User's Dexterity, Special and Special Defense.",
   "Description": "A mystical and beautiful dance that increases a Pokémon focus in combat.",
   "_id": "quiver-dance",
-  "Attributes": {},
+  "Attributes": {
+    "DanceMove": true
+  },
   "AddedEffects": {
     "StatChanges": [
       {

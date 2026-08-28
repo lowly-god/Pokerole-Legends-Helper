@@ -7,14 +7,15 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Accuracy -1. Ranged. Double Action.",
+  "Effect": "Projectile Move. Accuracy -1. Ranged. Double Action.",
   "Description": "The Pokémon throws their bone against the foe, the bone spins in the air and makes a comeback to strike a second time.",
   "_id": "bonemerang",
   "Attributes": {
     "PhysicalRanged": true,
     "DoubleAction": true,
     "AccuracyReduction": -1,
-    "Ranged": true
+    "Ranged": true,
+    "ProjectileMove": true
   },
   "AddedEffects": {},
   "Category": "Physical"

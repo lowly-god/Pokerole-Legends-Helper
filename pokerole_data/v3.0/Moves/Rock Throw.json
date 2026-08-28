@@ -7,13 +7,14 @@
   "Accuracy1": "Dexterity / Strength",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Accuracy -1. Ranged.",
+  "Effect": "Projectile Move. Accuracy -1. Ranged.",
   "Description": "Back in the day, this was a common form of amusement amongst Pokémon and children alike.",
   "_id": "rock-throw",
   "Attributes": {
     "PhysicalRanged": true,
     "AccuracyReduction": -1,
-    "Ranged": true
+    "Ranged": true,
+    "ProjectileMove": true
   },
   "AddedEffects": {},
   "Category": "Physical"

@@ -7,10 +7,13 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel / Nature",
   "Target": "Foe",
-  "Effect": "Roll 1d18 to determine Damage-Type. (1. Fire, 2. Fighting, 3. Rock, 4. Ground, 5. Electric, 6. Bug, 7. Grass, 8. Flying, 9. Ice, 10. Water, 11. Dragon, 12. Ghost, 13. Poison, 14. Psychic, 15. Fairy, 16. Normal, 17. Steel, 18. Dark)",
+  "Effect": "Projectile Move. Beam Move. Roll 1d18 to determine Damage-Type. (1. Fire, 2. Fighting, 3. Rock, 4. Ground, 5. Electric, 6. Bug, 7. Grass, 8. Flying, 9. Ice, 10. Water, 11. Dragon, 12. Ghost, 13. Poison, 14. Psychic, 15. Fairy, 16. Normal, 17. Steel, 18. Dark).",
   "Description": "The Target is hit by a colorful beam of light that does a random type of Damage.",
   "_id": "rainbow-beam",
-  "Attributes": {},
+  "Attributes": {
+    "BeamMove": true,
+    "ProjectileMove": true
+  },
   "AddedEffects": {},
   "Category": "Special"
 }

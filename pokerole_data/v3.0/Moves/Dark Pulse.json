@@ -7,10 +7,13 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Channel",
   "Target": "Random Foe",
-  "Effect": "Roll 2 Chance Dice to Flinch the Target.",
+  "Effect": "Pulse Move. Darkness Move. Roll 2 Chance Dice to Flinch the Target.",
   "Description": "A haze of dark energy decends on the battlefield preying on those vulnerable to the obscure feelings and fears it provokes.",
   "_id": "dark-pulse",
-  "Attributes": {},
+  "Attributes": {
+    "DarknessMove": true,
+    "PulseMove": true
+  },
   "AddedEffects": {
     "Ailments": [
       {

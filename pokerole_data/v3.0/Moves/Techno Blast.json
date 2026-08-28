@@ -7,11 +7,13 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Lethal. If Genesect is performing this Move, this Move's type may change to: Fire, Ice, Water, or Electric depending on the Driver it has as Held Item.",
+  "Effect": "Projectile Move. Beam Move. Lethal. If Genesect is performing this Move, this Move's type may change to: Fire, Ice, Water, or Electric depending on the Driver it has as Held Item.",
   "Description": "A laser briefly beams away from the Pokémon, whatever it hits explodes a second later. This move can be modified with the right programing of a computer.",
   "_id": "techno-blast",
   "Attributes": {
-    "Lethal": true
+    "Lethal": true,
+    "BeamMove": true,
+    "ProjectileMove": true
   },
   "AddedEffects": {},
   "Category": "Special"

@@ -7,10 +7,12 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl / Charm",
   "Target": "Foe",
-  "Effect": "Reduce Target's Strength by 1.",
+  "Effect": "Kick Move. Reduce Target's Strength by 1.",
   "Description": "The user strikes with an intense and alluring kick.",
   "_id": "trop-kick",
-  "Attributes": {},
+  "Attributes": {
+    "KickMove": true
+  },
   "AddedEffects": {
     "StatChanges": [
       {

@@ -7,12 +7,13 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Triple Action. Add 1 Extra Dice to the Damage of the 2nd hit and 2 Extra Dice to the Damage of the 3rd hit. Second hit has Accuracy -1. Third hit has Accuracy -2.",
+  "Effect": "Kick Move. Triple Action. Add 1 Extra Dice to the Damage of the 2nd hit and 2 Extra Dice to the Damage of the 3rd hit. Second hit has Accuracy -1. Third hit has Accuracy -2.",
   "Description": "A series of cold-blooded kicks that break bone as they would break brittle ice.",
   "_id": "triple-axel",
   "Attributes": {
     "AccuracyReduction": 1,
-    "TripleAction": true
+    "TripleAction": true,
+    "KickMove": true
   },
   "AddedEffects": {},
   "Category": "Physical"

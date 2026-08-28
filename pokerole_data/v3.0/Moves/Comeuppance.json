@@ -7,11 +7,12 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Can only be used if Target's last Move on User was a Physical or Special Move. Roll dice equal to Target's last damage pool rolled against the User plus 2 dice.",
+  "Effect": "Retaliatory Move. Can only be used if Target's last Move on User was a Physical or Special Move. Roll dice equal to Target's last damage pool rolled against the User plus 2 dice.",
   "Description": "An eye for en eye, the user retaliates with a vengeance against those who cross them.",
   "_id": "comeuppance",
   "Attributes": {
-    "IgnoreDefenses": true
+    "IgnoreDefenses": true,
+    "RetaliatoryMove": true
   },
   "AddedEffects": {},
   "Category": "Physical"

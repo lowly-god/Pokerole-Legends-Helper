@@ -1,16 +1,18 @@
 {
-    "Name": "Hoarfrost Moon",
-    "Type": "Ice",
-    "Power": 3,
-    "Damage1": "Special",
-    "Damage2": "",
-    "Accuracy1": "Special",
-    "Accuracy2": "Channel",
-    "Target": "All Foes",
-    "Effect": "In Midnight Weather this Move gains +2 additional Damage Dice.",
-    "Description": "The User calls upon ancient powers of ice and snow under the night sky.",
-    "_id": "hoarfrost-moon",
-    "Attributes": {},
-    "AddedEffects": {},
-    "Category": "Special"
+  "Name": "Hoarfrost Moon",
+  "Type": "Ice",
+  "Power": 3,
+  "Damage1": "Special",
+  "Damage2": "",
+  "Accuracy1": "Special",
+  "Accuracy2": "Channel",
+  "Target": "All Foes",
+  "Effect": "Lunar Move. In Midnight Weather this Move gains +2 additional Damage Dice.",
+  "Description": "The User calls upon ancient powers of ice and snow under the night sky.",
+  "_id": "hoarfrost-moon",
+  "Attributes": {
+    "LunarMove": true
+  },
+  "AddedEffects": {},
+  "Category": "Special"
 }

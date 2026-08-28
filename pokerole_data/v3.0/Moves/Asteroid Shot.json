@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Never Miss. Projectile. Roll 1 Chance Dice to Burn (1) the Target.",
+  "Effect": "Never Miss. Roll 1 Chance Dice to Burn (1) the Target.",
   "Description": "The User summons an asteroid to strike down upon the Foe.",
   "_id": "asteroid-shot",
   "Attributes": {},

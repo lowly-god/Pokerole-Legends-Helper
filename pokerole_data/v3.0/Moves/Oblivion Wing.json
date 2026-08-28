@@ -7,13 +7,14 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Lethal. High Critical. Unique.",
+  "Effect": "Darkness Move. Lethal. High Critical. Unique.",
   "Description": "A dark wind rises, turning everything it touches into dust to be scattered until nothing remains. People, Pokémon, plants, everything fades like a distant memory.",
   "_id": "oblivion-wing",
   "Attributes": {
     "HighCritical": true,
     "Lethal": true,
-    "Unique": true
+    "Unique": true,
+    "DarknessMove": true
   },
   "AddedEffects": {},
   "Category": "Special"

@@ -7,10 +7,12 @@
   "Accuracy1": "Dexterity / Insight",
   "Accuracy2": "Nature",
   "Target": "Foe",
-  "Effect": "Roll 2 Chance Dice to Poison, 2 to Burn (1), and 2 to put the Target to Sleep.",
+  "Effect": "Projectile Move. Roll 2 Chance Dice to Poison, 2 to Burn (1), and 2 to put the Target to Sleep.",
   "Description": "The User creates hurls a strange caustic concoction at the Target, the effects of this potion differ.",
   "_id": "strange-brew",
-  "Attributes": {},
+  "Attributes": {
+    "ProjectileMove": true
+  },
   "AddedEffects": {},
   "Category": "Special"
 }

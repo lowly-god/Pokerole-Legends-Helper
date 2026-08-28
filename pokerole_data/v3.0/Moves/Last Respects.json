@@ -7,10 +7,12 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Empathy",
   "Target": "Foe",
-  "Effect": "Add 2 Extra Dice to the Damage pool of this Move for every ally that Fainted during this Battle Up to 8 Dice may be added this way.",
+  "Effect": "Retaliatory Move. Add 2 Extra Dice to the Damage pool of this Move for every ally that Fainted during this Battle Up to 8 Dice may be added this way.",
   "Description": "The Pokémon gathers the souls the departed and helps them fulfill their desire of revenge before moving on.",
   "_id": "last-respects",
-  "Attributes": {},
+  "Attributes": {
+    "RetaliatoryMove": true
+  },
   "AddedEffects": {},
   "Category": "Physical"
 }

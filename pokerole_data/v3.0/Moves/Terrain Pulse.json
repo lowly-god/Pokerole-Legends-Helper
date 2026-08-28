@@ -7,10 +7,13 @@
   "Accuracy1": "Special",
   "Accuracy2": "Nature",
   "Target": "Foe",
-  "Effect": "Add 2 Extra Dice to the Damage Pool if there is a Terrain active in the Battlefield. Change this Move's Type to match that of a currently active Terrain (ie Electric Terrain, Grassy Terrain, etc.).",
+  "Effect": "Projectile Move. Pulse Move. Add 2 Extra Dice to the Damage Pool if there is a Terrain active in the Battlefield. Change this Move's Type to match that of a currently active Terrain (ie Electric Terrain, Grassy Terrain, etc.).",
   "Description": "The user shoots a pulse that absorbs the energy flowing in the area to devastate its Targets.",
   "_id": "terrain-pulse",
-  "Attributes": {},
+  "Attributes": {
+    "PulseMove": true,
+    "ProjectileMove": true
+  },
   "AddedEffects": {},
   "Category": "Special"
 }

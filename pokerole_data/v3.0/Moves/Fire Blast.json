@@ -7,12 +7,13 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Accuracy -2. Lethal. Roll 3 Chance Dice to inflict Burn (3) on the Target.",
+  "Effect": "Projectile Move. Accuracy -2. Lethal. Roll 3 Chance Dice to inflict Burn (3) on the Target.",
   "Description": "The Pokémon shoots a giant fireball that explodes as soon as it touches their target. Blasting fire in all directions.",
   "_id": "fire-blast",
   "Attributes": {
     "Lethal": true,
-    "AccuracyReduction": -2
+    "AccuracyReduction": -2,
+    "ProjectileMove": true
   },
   "AddedEffects": {
     "Ailments": [

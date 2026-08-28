@@ -89,6 +89,28 @@ def _to_id(text):
     return re.sub(r"[^a-z0-9]", "", str(text).casefold())
 
 
+# Legends-specific compatibility removals. Keep these outside the downloaded
+# Showdown cache so a cache refresh cannot silently restore intentionally
+# removed TM/TR/Tutor compatibility. Prefix matching deliberately applies to
+# the named species' official forms as well (e.g. Galarian Stunfisk, Therian
+# Landorus, Zygarde forms).
+MACHINE_MOVE_DENYLIST = {
+    "stompingtantrum": {
+        "onix", "arbok", "amoonguss", "stunfisk", "landorus", "zygarde",
+        "wiglett", "wugtrio", "orthworm", "cursola", "eelektross",
+    },
+}
+
+
+def _machine_move_is_denied(pokemon_name, move_id):
+    species_id = _to_id(pokemon_name)
+    denied_species = MACHINE_MOVE_DENYLIST.get(_to_id(move_id), set())
+    return any(
+        species_id == base_id or species_id.startswith(base_id)
+        for base_id in denied_species
+    )
+
+
 def _parse_showdown(text):
     """Return species -> move -> source generations by method.
 
@@ -453,6 +475,15 @@ def get_machine_moves(pokemon):
         tr_ids.difference_update(rank_up_ids)
         tutor_ids.difference_update(rank_up_ids)
 
+    # Apply Legends-specific compatibility removals after merging every source
+    # so they override Showdown, explicit authored pools, Tutors, TRs, and HMs.
+    for denied_move_id in MACHINE_MOVE_DENYLIST:
+        if _machine_move_is_denied(pokemon, denied_move_id):
+            tm_ids.discard(denied_move_id)
+            tr_ids.discard(denied_move_id)
+            tutor_ids.discard(denied_move_id)
+            hm_ids.discard(denied_move_id)
+
     # Avoid displaying the same teachable move in multiple acquisition pools.
     # Prefer the current TM pool, then TR, then Tutor. HM remains independent.
     tr_ids.difference_update(tm_ids)
@@ -777,6 +808,9 @@ def get_teachable_pokemon(move_name, method):
 
         pokemon_name = record.get("Name")
         if not pokemon_name:
+            continue
+
+        if _machine_move_is_denied(pokemon_name, target_id):
             continue
 
         explicit = _explicit_machine_move_ids(record, method)

@@ -7,10 +7,12 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Reduce the Target's Sp. Defense by 2.",
+  "Effect": "Light Move. Reduce the Target's Sp. Defense by 2.",
   "Description": "The user flashes a light pattern that crashes the foe’s mind, leaving it acting erraticaly for a few moments.",
   "_id": "lumina-crash",
-  "Attributes": {},
+  "Attributes": {
+    "LightMove": true
+  },
   "AddedEffects": {
     "StatChanges": [
       {

@@ -7,10 +7,12 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Reduce 1 success to all the Accuracy Rolls of the Target.",
+  "Effect": "Light Move. Reduce 1 success to all the Accuracy Rolls of the Target.",
   "Description": "The Pokémon glows with a bright light to temporarily blind and dazzle their foe. It’s also perfect to light up dark places.",
   "_id": "flash",
-  "Attributes": {},
+  "Attributes": {
+    "LightMove": true
+  },
   "AddedEffects": {
     "Ailments": [
       {

@@ -7,11 +7,12 @@
   "Accuracy1": "Special",
   "Accuracy2": "Perform / Nature",
   "Target": "Random Foe",
-  "Effect": "Rampage.",
+  "Effect": "Dance Move. Rampage.",
   "Description": "The Pokémon casts a huge cluster of petals to dance in the wind; they let nature run its course, as the wind will choose who will take the devastating blow.",
   "_id": "petal-dance",
   "Attributes": {
-    "Rampage": true
+    "Rampage": true,
+    "DanceMove": true
   },
   "AddedEffects": {},
   "Category": "Special"

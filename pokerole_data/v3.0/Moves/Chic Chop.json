@@ -7,11 +7,12 @@
   "Accuracy1": "Beauty",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Never Miss. High Critical. Unique.",
+  "Effect": "Kick Move. Never Miss. High Critical. Unique.",
   "Description": "With grace, the User brings down a powerful axe like kick on the Foe.",
   "_id": "chic-chop",
   "Attributes": {
-    "Unique": true
+    "Unique": true,
+    "KickMove": true
   },
   "AddedEffects": {},
   "Category": "Physical"

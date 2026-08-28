@@ -1,4 +1,6 @@
 import string
+import json
+from pathlib import Path
 from typing import List
 
 import discord
@@ -55,15 +57,137 @@ natures = [
 # Legends 3.0 nature mechanics
 NATURE_DETAILS = {'Adamant': ('1-4', '+1 Maximum Strength, -1 Maximum Special', 4), 'Bashful': ('5-8', 'Neutral', 6), 'Bold': ('9-12', '+1 Maximum Vitality, -1 Maximum Strength', 9), 'Brave': ('13-16', '+1 Maximum Strength, -1 Maximum Dexterity', 9), 'Calm': ('17-20', '+1 Maximum Insight, -1 Maximum Strength', 8), 'Careful': ('21-24', '+1 Maximum Insight, -1 Maximum Special', 5), 'Docile': ('25-28', 'Neutral', 7), 'Gentle': ('29-32', '+1 Maximum Insight, -1 Maximum Vitality', 10), 'Hardy': ('33-36', 'Neutral', 9), 'Hasty': ('37-40', '+1 Maximum Dexterity, -1 Maximum Vitality', 7), 'Impish': ('41-44', '+1 Maximum Vitality, -1 Maximum Special', 7), 'Jolly': ('45-48', '+1 Maximum Dexterity, -1 Maximum Special', 10), 'Lax': ('49-52', '+1 Maximum Vitality, -1 Maximum Insight', 8), 'Lonely': ('53-56', '+1 Maximum Strength, -1 Maximum Vitality', 5), 'Mild': ('57-60', '+1 Maximum Special, -1 Maximum Vitality', 8), 'Modest': ('61-64', '+1 Maximum Special, -1 Maximum Strength', 10), 'Naive': ('65-68', '+1 Maximum Dexterity, -1 Maximum Insight', 7), 'Naughty': ('69-72', '+1 Maximum Strength, -1 Maximum Insight', 6), 'Quiet': ('73-76', '+1 Maximum Special, -1 Maximum Dexterity', 5), 'Quirky': ('77-80', 'Neutral', 9), 'Rash': ('81-84', '+1 Maximum Special, -1 Maximum Insight', 6), 'Relaxed': ('85-88', '+1 Maximum Vitality, -1 Maximum Dexterity', 8), 'Sassy': ('89-92', '+1 Maximum Insight, -1 Maximum Dexterity', 7), 'Serious': ('93-96', 'Neutral', 4), 'Timid': ('97-100', '+1 Maximum Dexterity, -1 Maximum Strength', 4)}
 
-effects = ['Physical Move', 'Special Move', 'Support Move', 'Accuracy -X', 'Basic Heal', 'Bite Move', 'Blocks', 'Chance Dice', 'Charge Move', 'Copy Move', 'Cutter Move', 'Double Action', 'Entry Hazard', 'Fist Move', 'Force Field', 'High Critical', 'Ignore Defenses', 'Late Reaction', 'Lethal', 'Must Recharge', 'Never Miss', 'Ongoing Damage', 'Out of Range while Charging', 'Powder Move', 'Projectile Move', 'Rampage', 'Ranged', 'Reaction', 'Recoil', 'Shield Move', 'Sound Move', 'Successive Actions', 'Switcher Move', 'Unique', 'Wind Move']
+effects = ['Physical Move', 'Special Move', 'Support Move', 'Accuracy -X', 'Basic Heal', 'Bite Move', 'Beam Move', 'Solar Move', 'Lunar Move', 'Darkness Move', 'Light Move', 'Aura Move', 'Retaliatory Move', 'Kick Move', 'Dance Move', 'Pulse Move', 'Drain Move', 'Explosive Move', 'Blocks', 'Chance Dice', 'Charge Move', 'Copy Move', 'Cutter Move', 'Double Action', 'Entry Hazard', 'Fist Move', 'Force Field', 'High Critical', 'Ignore Defenses', 'Late Reaction', 'Lethal', 'Must Recharge', 'Never Miss', 'Ongoing Damage', 'Out of Range while Charging', 'Powder Move', 'Projectile Move', 'Rampage', 'Ranged', 'Reaction', 'Recoil', 'Shield Move', 'Sound Move', 'Successive Actions', 'Switcher Move', 'Unique', 'Wind Move']
 
 version_converter = ["v3.0", "v3.0"]
 
-async def send_msg(context, msg):
+async def send_msg(context, msg, *, view=None):
     if isinstance(context, discord.Interaction):
-        await context.response.send_message(msg)
+        await context.response.send_message(msg, view=view)
     else:
-        await context.send(msg)
+        await context.send(msg, view=view)
+
+
+_MOVE_KEYWORD_EXCLUSIONS = {'Physical Move', 'Special Move', 'Support Move'}
+
+
+def _effect_tokens(effect_text):
+    text = str(effect_text or '').strip()
+    if not text:
+        return []
+    tokens = []
+    for part in text.split('. '):
+        part = part.strip().rstrip('.')
+        if part:
+            tokens.append(part)
+    return tokens
+
+
+def _has_keyword_token(effect_text, keyword):
+    wanted = keyword.casefold()
+    for token in _effect_tokens(effect_text):
+        folded = token.casefold()
+        if folded == wanted or folded.startswith(wanted + ' for '):
+            return True
+    return False
+
+
+def linked_keyword_names(effect_name):
+    """Return (moves, maneuvers) carrying an /effect move keyword."""
+    if not effect_name.endswith(' Move') or effect_name in _MOVE_KEYWORD_EXCLUSIONS:
+        return [], []
+
+    moves = set()
+    move_dir = Path('pokerole_data') / 'v3.0' / 'Moves'
+    if move_dir.is_dir():
+        for path in move_dir.glob('*.json'):
+            try:
+                data = json.loads(path.read_text(encoding='utf-8'))
+            except Exception:
+                continue
+            if _has_keyword_token(data.get('Effect', ''), effect_name):
+                moves.add(str(data.get('Name') or path.stem))
+
+    maneuver_keyword = effect_name[:-5] + ' Maneuver'
+    maneuvers = set()
+    maneuver_path = Path('maneuver_data.json')
+    if maneuver_path.is_file():
+        try:
+            data = json.loads(maneuver_path.read_text(encoding='utf-8'))
+        except Exception:
+            data = {}
+
+        def walk(value):
+            if isinstance(value, dict):
+                if 'name' in value and 'effect' in value:
+                    if _has_keyword_token(value.get('effect', ''), maneuver_keyword):
+                        maneuvers.add(str(value['name']))
+                for nested in value.values():
+                    walk(nested)
+            elif isinstance(value, list):
+                for nested in value:
+                    walk(nested)
+
+        walk(data)
+
+    return (
+        sorted(moves, key=str.casefold),
+        sorted(maneuvers, key=str.casefold),
+    )
+
+
+def _linked_keyword_chunks(effect_name, moves, maneuvers, limit=1900):
+    lines = [f'**{effect_name} — Linked Moves**']
+    if moves:
+        lines.append('**Moves**')
+        lines.extend(moves)
+    if maneuvers:
+        lines.append('**Maneuvers**')
+        lines.extend(maneuvers)
+    if not moves and not maneuvers:
+        lines.append('No linked Moves or Maneuvers were found.')
+
+    chunks = []
+    current = ''
+    for line in lines:
+        addition = line if not current else '\n' + line
+        if current and len(current) + len(addition) > limit:
+            chunks.append(current)
+            current = line
+        else:
+            current += addition
+    if current:
+        chunks.append(current)
+    return chunks
+
+
+class EffectKeywordView(discord.ui.View):
+    def __init__(self, effect_name, moves, maneuvers):
+        super().__init__(timeout=180)
+        self.effect_name = effect_name
+        self.moves = moves
+        self.maneuvers = maneuvers
+        button = discord.ui.Button(
+            style=discord.ButtonStyle.secondary,
+            label='View Linked Moves',
+        )
+        button.callback = self.show_linked_moves
+        self.add_item(button)
+
+    async def show_linked_moves(self, interaction):
+        chunks = _linked_keyword_chunks(
+            self.effect_name, self.moves, self.maneuvers
+        )
+        await interaction.response.send_message(chunks[0])
+        for chunk in chunks[1:]:
+            await interaction.followup.send(chunk)
+
+
+def effect_keyword_view(effect_name):
+    moves, maneuvers = linked_keyword_names(effect_name)
+    if not moves and not maneuvers:
+        return None
+    return EffectKeywordView(effect_name, moves, maneuvers)
 
 class Misc(commands.Cog):
 
@@ -256,10 +380,14 @@ class Misc(commands.Cog):
                 effect2 = self.effects[effect].replace('. ', '.'+effectrepl)
                 #output = f'**{effect}**:\n*{self.effects[effect]}*{effectrepl}{effect2}'
                 output = f'**{effect}**:{effectrepl}{effect2}'
+                view = effect_keyword_view(effect)
             else:
                 output = f'`{effect}` wasn\'t found in the effect list:{effectrepl}'\
                          + effectrepl.join([str(k) for k in self.effects.keys()])
-        await send_msg(ctx, output)
+                view = None
+        if effect == '':
+            view = None
+        await send_msg(ctx, output, view=view)
 
 
     @commands.hybrid_command(

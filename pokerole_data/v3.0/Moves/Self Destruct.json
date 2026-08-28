@@ -7,14 +7,15 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Channel",
   "Target": "Area",
-  "Effect": "Lethal. Ranged. The User faints.",
+  "Effect": "Explosive Move. Lethal. Ranged. The User faints.",
   "Description": "It’s not about winning or losing, some pokémon just want to see the world burn.",
   "_id": "self-destruct",
   "Attributes": {
     "UserFaints": true,
     "PhysicalRanged": true,
     "Lethal": true,
-    "Ranged": true
+    "Ranged": true,
+    "ExplosiveMove": true
   },
   "AddedEffects": {},
   "Category": "Physical"

@@ -7,10 +7,12 @@
   "Accuracy1": "Dexterity / Insight",
   "Accuracy2": "Perform",
   "Target": "Area",
-  "Effect": "Confuse those affected.",
+  "Effect": "Dance Move. Confuse those affected.",
   "Description": "The Pokémon dances with wobbly movements and erratic spins. The spectators don’t know what to make of these modern choreographies.",
   "_id": "teeter-dance",
-  "Attributes": {},
+  "Attributes": {
+    "DanceMove": true
+  },
   "AddedEffects": {
     "Ailments": [
       {

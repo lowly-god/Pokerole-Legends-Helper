@@ -7,10 +7,12 @@
   "Accuracy1": "Vitality",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "The User restores HP equal to half the damage dealt, rounded down.",
+  "Effect": "Drain Move.",
   "Description": "The Pokémon clings to their foe, then bites in and starts to suck away its life force.",
   "_id": "leech-life",
-  "Attributes": {},
+  "Attributes": {
+    "DrainMove": true
+  },
   "AddedEffects": {
     "Heal": {
       "Type": "Leech",

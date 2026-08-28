@@ -7,10 +7,13 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Perform",
   "Target": "Foe",
-  "Effect": "Dance Move. If Midnight Weather is in effect, increase the User’s Defense and Special Defense by 1.",
+  "Effect": "Lunar Move. Dance Move. If Midnight Weather is in effect, increase the User’s Defense and Special Defense by 1.",
   "Description": "The User performs an ancient and mystical dance. Striking at its Targets with its long sleeve like arm coverings.",
   "_id": "moonveil-dance",
-  "Attributes": {},
+  "Attributes": {
+    "LunarMove": true,
+    "DanceMove": true
+  },
   "AddedEffects": {},
   "Category": "Physical"
 }

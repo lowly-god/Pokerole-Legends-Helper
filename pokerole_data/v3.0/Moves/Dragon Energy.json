@@ -7,12 +7,13 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "All Foes",
-  "Effect": "Lethal. Reduce 1 Dice from the Damage Pool for every missing HP the User has. Up to 5 dice may be removed this way.",
+  "Effect": "Beam Move. Lethal. Reduce 1 Dice from the Damage Pool for every missing HP the User has. Up to 5 dice may be removed this way.",
   "Description": "The Pokémon converts its life-energy into a life-ending beam. No exaggeration.",
   "_id": "dragon-energy",
   "Attributes": {
     "Lethal": true,
-    "HurtPenalty": true
+    "HurtPenalty": true,
+    "BeamMove": true
   },
   "AddedEffects": {},
   "Category": "Special"

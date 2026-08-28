@@ -7,10 +7,12 @@
   "Accuracy1": "Dexterity / Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Roll 3 Chance Dice to inflict Burn (1) on the Target. If a Target is Out of Range due to using the Move \"Dive\", this Move hits anyway.",
+  "Effect": "Projectile Move. Roll 3 Chance Dice to inflict Burn (1) on the Target. If a Target is Out of Range due to using the Move \"Dive\", this Move hits anyway.",
   "Description": "The user shoots boiling water at the foe, immediately causing blisters.",
   "_id": "scald",
-  "Attributes": {},
+  "Attributes": {
+    "ProjectileMove": true
+  },
   "AddedEffects": {
     "Ailments": [
       {

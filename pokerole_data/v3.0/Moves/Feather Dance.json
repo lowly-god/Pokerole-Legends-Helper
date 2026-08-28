@@ -7,10 +7,12 @@
   "Accuracy1": "Beauty",
   "Accuracy2": "Perform",
   "Target": "Foe",
-  "Effect": "Reduce the Target's Strength by 2.",
+  "Effect": "Dance Move. Reduce the Target's Strength by 2.",
   "Description": "A dance as soft as a feather. It soothes the hearts of the spectators and reduces all aggression.",
   "_id": "feather-dance",
-  "Attributes": {},
+  "Attributes": {
+    "DanceMove": true
+  },
   "AddedEffects": {
     "StatChanges": [
       {

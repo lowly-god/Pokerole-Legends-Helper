@@ -7,10 +7,12 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Athletic / Perform",
   "Target": "Foe",
-  "Effect": "Increase the User's Dexterity by 1.",
+  "Effect": "Dance Move. Increase the User's Dexterity by 1.",
   "Description": "The most fluid dance steps you’ll ever see. The user toys with their target by kicking and splashing around.",
   "_id": "aqua-step",
-  "Attributes": {},
+  "Attributes": {
+    "DanceMove": true
+  },
   "AddedEffects": {
     "StatChanges": [
       {

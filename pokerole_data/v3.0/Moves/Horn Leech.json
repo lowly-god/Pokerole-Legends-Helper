@@ -7,10 +7,12 @@
   "Accuracy1": "Vitality",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "The User restores HP equal to half the damage dealt, rounded down.",
+  "Effect": "Drain Move.",
   "Description": "The user rams into the foe and uses the leaves growing on their horns to absorb nutrients from it.",
   "_id": "horn-leech",
-  "Attributes": {},
+  "Attributes": {
+    "DrainMove": true
+  },
   "AddedEffects": {
     "Heal": {
       "Type": "Leech",

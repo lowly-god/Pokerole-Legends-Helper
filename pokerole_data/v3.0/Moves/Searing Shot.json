@@ -7,12 +7,11 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "All Foes",
-  "Effect": "Lethal. Projectile Move. Roll 3 Chance Dice to inflict Burn (2) on those affected.",
+  "Effect": "Lethal. Roll 3 Chance Dice to inflict Burn (2) on those affected.",
   "Description": "The User torches everything around itself in a sudden burst of scarlet flames. Everything is brought to cinders in a matter of seconds.",
   "_id": "searing-shot",
   "Attributes": {
-    "Lethal": true,
-    "ProjectileMove": true
+    "Lethal": true
   },
   "AddedEffects": {
     "Ailments": [

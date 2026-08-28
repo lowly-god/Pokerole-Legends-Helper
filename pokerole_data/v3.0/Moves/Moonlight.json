@@ -7,10 +7,12 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Nature",
   "Target": "Self",
-  "Effect": "Basic Heal. If successful, spend 1 Will point to activate. In Midnight Weather increase it to Complete Heal. If performed under Dense Fog, Rain, Acid Rain, Sunny, and Sandstorm Weather, this Move becomes a Minor Heal.",
+  "Effect": "Lunar Move. Basic Heal. If successful, spend 1 Will point to activate. In Midnight Weather increase it to Complete Heal. If performed under Dense Fog, Rain, Acid Rain, Sunny, and Sandstorm Weather, this Move becomes a Minor Heal.",
   "Description": "The Pokémon uses the moon’s power to heal their injuries.",
   "_id": "moonlight",
-  "Attributes": {},
+  "Attributes": {
+    "LunarMove": true
+  },
   "AddedEffects": {
     "Heal": {
       "Type": "Basic",

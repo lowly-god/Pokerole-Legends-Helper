@@ -7,10 +7,12 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Blocks. Reduce the Target's Dexterity by 1.",
+  "Effect": "Projectile Move. Blocks. Reduce the Target's Dexterity by 1.",
   "Description": "The User flings a sticky blob of web at the Target, restricting its Movement and lowering speed.",
   "_id": "web-ball",
-  "Attributes": {},
+  "Attributes": {
+    "ProjectileMove": true
+  },
   "AddedEffects": {},
   "Category": "Special"
 }

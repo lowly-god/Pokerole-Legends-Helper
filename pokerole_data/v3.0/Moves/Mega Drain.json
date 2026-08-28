@@ -7,10 +7,12 @@
   "Accuracy1": "Vitality",
   "Accuracy2": "Nature / Channel",
   "Target": "Foe",
-  "Effect": "The User restores HP equal to half the damage dealt, rounded down.",
+  "Effect": "Drain Move.",
   "Description": "The user absorbs a big amount of vital energy and nutrients from the target to feed from.",
   "_id": "mega-drain",
-  "Attributes": {},
+  "Attributes": {
+    "DrainMove": true
+  },
   "AddedEffects": {
     "Heal": {
       "Type": "Leech",

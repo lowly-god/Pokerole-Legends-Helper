@@ -7,12 +7,13 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Ranged. If the User is holding an Item, Add up to 4 dice to the damage pool. The User loses its Held Item. (The Base of this Move is defined by the flung Item, at the Storyteller's discretion).",
+  "Effect": "Projectile Move. Ranged. If the User is holding an Item, Add up to 4 dice to the damage pool. The User loses its Held Item. (The Base of this Move is defined by the flung Item, at the Storyteller's discretion).",
   "Description": "The Pokémon takes their held item, uses it as a weapon and the referee is somehow OK with this. The held item remains in the field and may be recovered after the battle.",
   "_id": "fling",
   "Attributes": {
     "PhysicalRanged": true,
-    "Ranged": true
+    "Ranged": true,
+    "ProjectileMove": true
   },
   "AddedEffects": {},
   "Category": "Physical"

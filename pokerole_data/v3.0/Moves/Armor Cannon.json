@@ -7,10 +7,12 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Reduce by 1 the User's Defense and Sp. Defense.",
+  "Effect": "Projectile Move. Reduce by 1 the User's Defense and Sp. Defense.",
   "Description": "The user shoots a mighty blast by using its own armor out as blazing projectiles.",
   "_id": "armor-cannon",
-  "Attributes": {},
+  "Attributes": {
+    "ProjectileMove": true
+  },
   "AddedEffects": {
     "StatChanges": [
       {

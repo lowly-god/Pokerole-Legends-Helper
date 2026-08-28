@@ -7,10 +7,12 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Perform",
   "Target": "Foe",
-  "Effect": "The Type of this Move becomes the same as the User's Main Type. This affects Weakness, Resistances, and STAB accordingly.",
+  "Effect": "Dance Move. The Type of this Move becomes the same as the User's Main Type. This affects Weakness, Resistances, and STAB accordingly.",
   "Description": "The Pokémon performs a dance, the dance’s energy influences the Type of this Move.",
   "_id": "revelation-dance",
-  "Attributes": {},
+  "Attributes": {
+    "DanceMove": true
+  },
   "AddedEffects": {},
   "Category": "Special"
 }

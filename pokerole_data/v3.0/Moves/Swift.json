@@ -7,11 +7,13 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "All Foes",
-  "Effect": "Never Miss.",
+  "Effect": "Projectile Move. Light Move. Never Miss.",
   "Description": "The Pokémon shoots a burst of star-shaped sparkles at a blinding speed.",
   "_id": "swift",
   "Attributes": {
-    "NeverMiss": true
+    "NeverMiss": true,
+    "LightMove": true,
+    "ProjectileMove": true
   },
   "AddedEffects": {},
   "Category": "Special"

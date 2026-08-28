@@ -7,10 +7,12 @@
   "Accuracy1": "Vitality",
   "Accuracy2": "Nature / Channel",
   "Target": "Foe",
-  "Effect": "The User restores HP equal to half the damage dealt, rounded down.",
+  "Effect": "Drain Move.",
   "Description": "The Pokémon drains most of the foe’s vital energy and feeds on the nutrients it managed to extract.",
   "_id": "giga-drain",
-  "Attributes": {},
+  "Attributes": {
+    "DrainMove": true
+  },
   "AddedEffects": {
     "Heal": {
       "Type": "Leech",

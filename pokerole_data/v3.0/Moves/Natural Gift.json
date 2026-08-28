@@ -7,12 +7,13 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Nature",
   "Target": "Foe",
-  "Effect": "Ranged. The User loses its Held Berry. The Type of this Move changes according to the berry used. (For more see P530 of the Core 3.0 Rulebook).",
+  "Effect": "Projectile Move. Ranged. The User loses its Held Berry. The Type of this Move changes according to the berry used. (For more see P530 of the Core 3.0 Rulebook).",
   "Description": "The user throws their held berry at the foe, the myriad of flavors has surprisingly different results.",
   "_id": "natural-gift",
   "Attributes": {
     "PhysicalRanged": true,
-    "Ranged": true
+    "Ranged": true,
+    "ProjectileMove": true
   },
   "AddedEffects": {},
   "Category": "Physical"

@@ -7,11 +7,12 @@
   "Accuracy1": "Special",
   "Accuracy2": "Perform / Nature",
   "Target": "Battlefield",
-  "Effect": "Activate Rain Weather. Duration 4 Rounds.",
+  "Effect": "Dance Move. Activate Rain Weather. Duration 4 Rounds.",
   "Description": "The Pokémon performs a peculiar dance in the middle of the field, everyone thinks it silly until the first thunder rumbles.",
   "_id": "rain-dance",
   "Attributes": {
-    "Duration": 4
+    "Duration": 4,
+    "DanceMove": true
   },
   "AddedEffects": {
     "TerrainEffect": "Rain"

@@ -7,10 +7,12 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Nature",
   "Target": "Self",
-  "Effect": "Increase the User's Special by 3.",
+  "Effect": "Light Move. Increase the User's Special by 3.",
   "Description": "The user emits a strong light. This Pokémon will stare at its own brightness to enter a trance.",
   "_id": "tail-glow",
-  "Attributes": {},
+  "Attributes": {
+    "LightMove": true
+  },
   "AddedEffects": {
     "StatChanges": [
       {

@@ -7,10 +7,12 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Roll 3 Chance Dice to Burn (1) the Target.",
+  "Effect": "Projectile Move. Roll 3 Chance Dice to Burn (1) the Target.",
   "Description": "A shadowy fireball attack that may inflict a .",
   "_id": "shadow-fire",
-  "Attributes": {},
+  "Attributes": {
+    "ProjectileMove": true
+  },
   "AddedEffects": {},
   "Category": "Special"
 }

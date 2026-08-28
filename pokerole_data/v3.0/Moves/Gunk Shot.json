@@ -7,13 +7,14 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Accuracy -2. Ranged. Roll 3 Chance Dice to Poison the Target.",
+  "Effect": "Projectile Move. Accuracy -2. Ranged. Roll 3 Chance Dice to Poison the Target.",
   "Description": "The target is covered heat to toe in sludge, filth and organic waste. It can’t even cry for help or all of it will go into its mouth.",
   "_id": "gunk-shot",
   "Attributes": {
     "PhysicalRanged": true,
     "AccuracyReduction": -2,
-    "Ranged": true
+    "Ranged": true,
+    "ProjectileMove": true
   },
   "AddedEffects": {
     "Ailments": [

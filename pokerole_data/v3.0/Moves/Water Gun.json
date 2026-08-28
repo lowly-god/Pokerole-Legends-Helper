@@ -7,10 +7,12 @@
   "Accuracy1": "Dexterity / Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "",
+  "Effect": "Projectile Move.",
   "Description": "The fastest water gun in town. No enemy will remain dry",
   "_id": "water-gun",
-  "Attributes": {},
+  "Attributes": {
+    "ProjectileMove": true
+  },
   "AddedEffects": {},
   "Category": "Special"
 }

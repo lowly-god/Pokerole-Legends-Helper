@@ -7,12 +7,13 @@
   "Accuracy1": "Cool",
   "Accuracy2": "Perform",
   "Target": "Ally",
-  "Effect": "Reaction 3. All of the Target's Moves will Target the Chosen Target if able. Duration 1 Round.",
+  "Effect": "Light Move. Reaction 3. All of the Foe's Moves will Target the Chosen Target if able. Duration 1 Round.",
   "Description": "The user points a focused light onto one of their allies. The ally can’t help but catch everyone’s attention into itself.",
   "_id": "spotlight",
   "Attributes": {
     "Duration": 1,
-    "Reaction": "3"
+    "Reaction": "3",
+    "LightMove": true
   },
   "AddedEffects": {
     "Ailments": [

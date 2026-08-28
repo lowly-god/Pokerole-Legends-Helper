@@ -7,10 +7,12 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Perform",
   "Target": "Foe",
-  "Effect": "Roll 5 Chance Dice to Increase User's Special by 1.",
+  "Effect": "Dance Move. Roll 5 Chance Dice to Increase User's Special by 1.",
   "Description": "The Pokémon cloaks themselves in flames while dancing with graceful passion. The flames are scattered and the user feels reinvigorated.",
   "_id": "fiery-dance",
-  "Attributes": {},
+  "Attributes": {
+    "DanceMove": true
+  },
   "AddedEffects": {
     "StatChanges": [
       {

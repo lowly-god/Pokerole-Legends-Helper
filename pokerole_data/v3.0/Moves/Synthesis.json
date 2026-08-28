@@ -7,10 +7,12 @@
   "Accuracy1": "Vitality / Insight",
   "Accuracy2": "Nature",
   "Target": "Self",
-  "Effect": "Basic Heal. If successful, spend 1 Will Point to activate. If Sunny Weather is in effect, this Move becomes a Complete Heal. If performed under Acid Rain, Dense Fog, Sandstorm, Hail or Snowy Weather, this Move becomes a Minor Heal.",
+  "Effect": "Solar Move. Basic Heal. If successful, spend 1 Will Point to activate. If Sunny Weather is in effect, this Move becomes a Complete Heal. If performed under Acid Rain, Dense Fog, Sandstorm, Hail or Snowy Weather, this Move becomes a Minor Heal.",
   "Description": "The Pokémon gathers sunlight to re-energize themselves.",
   "_id": "synthesis",
-  "Attributes": {},
+  "Attributes": {
+    "SolarMove": true
+  },
   "AddedEffects": {
     "Heal": {
       "Type": "Basic",

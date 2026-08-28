@@ -1,156 +1,152 @@
 {
-    "Number": 718,
-    "DexID": "0718F4",
-    "Name": "Zygarde (Mega Form)",
-    "Type1": "Dragon",
-    "Type2": "Ground",
-    "BaseHP": 10,
-    "Strength": 2,
-    "MaxStrength": 5,
-    "Dexterity": 3,
-    "MaxDexterity": 6,
-    "Vitality": 3,
-    "MaxVitality": 6,
-    "Special": 5,
-    "MaxSpecial": 10,
-    "Insight": 2,
-    "MaxInsight": 5,
-    "Ability1": "Aura Break",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Champion",
-    "GenderType": "N",
-    "Legendary": false,
-    "GoodStarter": false,
-    "_id": "zygarde-mega-form",
-    "DexCategory": "Order Pokémon",
-    "Height": {
-        "Meters": 7.7,
-        "Feet": 25.25
+  "Number": 718,
+  "DexID": "0718F4",
+  "Name": "Zygarde (Mega Form)",
+  "Type1": "Dragon",
+  "Type2": "Ground",
+  "BaseHP": 10,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 5,
+  "MaxSpecial": 10,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Aura Break",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Champion",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "zygarde-mega-form",
+  "DexCategory": "Order Pokémon",
+  "Height": {
+    "Meters": 7.7,
+    "Feet": 25.25
+  },
+  "Weight": {
+    "Kilograms": 609.6,
+    "Pounds": 1344.0
+  },
+  "DexDescription": "The complete form of Zygarde",
+  "Evolutions": [
+    {
+      "From": "Zygarde 100%",
+      "Kind": "Mega",
+      "Item": ""
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Bind"
     },
-    "Weight": {
-        "Kilograms": 609.6,
-        "Pounds": 1344.0
+    {
+      "Learned": "Starter",
+      "Name": "Bulldoze"
     },
-    "DexDescription": "The complete form of Zygarde",
-    "Evolutions": [
-        {
-            "From": "Zygarde 100%",
-            "Kind": "Mega",
-            "Item": ""
-        }
-    ],
-    "Image": "",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Bind"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Bulldoze"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Dragon Breath"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Bite"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Haze"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Dig"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Glare"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Safeguard"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Crunch"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Sandstorm"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Coil"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Dragon Dance"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Hidden Power"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Imperial Majesty"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Lapidify"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Extreme Speed"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Secret Power"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Thousand Waves"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Dragon Pulse"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Stomping Tantrum"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Earthquake"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Outrage"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Velvet Scales"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Camouflage"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Thousand Arrows"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Core Enforcer"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Land's Wrath"
-        }
-    ],
-    "MegaStone": "Zygardite"
+    {
+      "Learned": "Rookie",
+      "Name": "Dragon Breath"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Haze"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Glare"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sandstorm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Coil"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hidden Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imperial Majesty"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lapidify"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Extreme Speed"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Secret Power"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Thousand Waves"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Earthquake"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Camouflage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Thousand Arrows"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Core Enforcer"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Land's Wrath"
+    }
+  ],
+  "MegaStone": "Zygardite"
 }

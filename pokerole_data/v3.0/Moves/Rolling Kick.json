@@ -7,11 +7,12 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Athletic",
   "Target": "Foe",
-  "Effect": "Accuracy -2. Roll 3 Chance Dice to Flinch the Target.",
+  "Effect": "Kick Move. Accuracy -2. Roll 3 Chance Dice to Flinch the Target.",
   "Description": "The Pokémon jumps in the air and spins with one leg extended to land an impressive kick against their foe.",
   "_id": "rolling-kick",
   "Attributes": {
-    "AccuracyReduction": -2
+    "AccuracyReduction": -2,
+    "KickMove": true
   },
   "AddedEffects": {
     "Ailments": [

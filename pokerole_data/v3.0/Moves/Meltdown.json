@@ -7,10 +7,12 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel / Nature",
   "Target": "Area",
-  "Effect": "Lethal. The User faints after using this Move.",
+  "Effect": "Explosive Move. Lethal. The User faints after using this Move.",
   "Description": "The User's body crumbles, letting out an explosion of vile energy. The User faints upon using this Move.",
   "_id": "meltdown",
-  "Attributes": {},
+  "Attributes": {
+    "ExplosiveMove": true
+  },
   "AddedEffects": {},
   "Category": "Special"
 }

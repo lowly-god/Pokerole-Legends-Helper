@@ -7,11 +7,12 @@
   "Accuracy1": "Vitality",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Fist Move. The User restores HP equal to half the damage dealt, rounded down.",
+  "Effect": "Drain Move. Fist Move.",
   "Description": "A solid punch that weakens the Targets and revitalizes the user with each hit.",
   "_id": "drain-punch",
   "Attributes": {
-    "FistMove": true
+    "FistMove": true,
+    "DrainMove": true
   },
   "AddedEffects": {
     "Heal": {

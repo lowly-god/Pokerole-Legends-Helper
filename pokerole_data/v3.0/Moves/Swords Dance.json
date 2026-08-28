@@ -7,10 +7,12 @@
   "Accuracy1": "Tough",
   "Accuracy2": "Perform",
   "Target": "Self",
-  "Effect": "Increase the User's Strength by 2.",
+  "Effect": "Dance Move. Increase the User's Strength by 2.",
   "Description": "The Pokémon dances with strong steps and a fierce attitude as a ritual to prepare for battle.",
   "_id": "swords-dance",
-  "Attributes": {},
+  "Attributes": {
+    "DanceMove": true
+  },
   "AddedEffects": {
     "StatChanges": [
       {

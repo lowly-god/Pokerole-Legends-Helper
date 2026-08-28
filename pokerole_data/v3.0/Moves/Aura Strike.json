@@ -7,10 +7,12 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Brawl / Aura",
   "Target": "Foe",
-  "Effect": "Never Miss.",
+  "Effect": "Aura Move. Never Miss.",
   "Description": "The User senses the Foe's aura, then strikes with the added force of its own.",
   "_id": "aura-strike",
-  "Attributes": {},
+  "Attributes": {
+    "AuraMove": true
+  },
   "AddedEffects": {},
   "Category": "Physical"
 }

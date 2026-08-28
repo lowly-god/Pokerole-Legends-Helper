@@ -7,11 +7,12 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Projectile Move. Roll 1 Chance Dice to Reduce the Target's Sp. Defense by 1.",
+  "Effect": "Darkness Move. Projectile Move. Roll 1 Chance Dice to Reduce the Target's Sp. Defense by 1.",
   "Description": "Dark matter and shadows are used as a projectile against the foe, bringing out memories of their deepest fears.",
   "_id": "shadow-ball",
   "Attributes": {
-    "ProjectileMove": true
+    "ProjectileMove": true,
+    "DarknessMove": true
   },
   "AddedEffects": {
     "StatChanges": [

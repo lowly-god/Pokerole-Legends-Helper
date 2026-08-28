@@ -7,10 +7,12 @@
   "Accuracy1": "Vitality",
   "Accuracy2": "Channel",
   "Target": "Area",
-  "Effect": "The User restore HP equal to half the damage to one Target, rounded down.",
+  "Effect": "Drain Move. The User restores HP equal to half the Damage dealt to one Target, rounded down.",
   "Description": "The Pokémon lets loose a big electric charge from its body. The charge comes back to it even bigger.",
   "_id": "parabolic-charge",
-  "Attributes": {},
+  "Attributes": {
+    "DrainMove": true
+  },
   "AddedEffects": {},
   "Category": "Special"
 }

@@ -7,11 +7,12 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Double Action. Unique.",
+  "Effect": "Projectile Move. Double Action. Unique.",
   "Description": "The User fire's two impressive bursts from its cannons.",
   "_id": "dual-cannon",
   "Attributes": {
-    "Unique": true
+    "Unique": true,
+    "ProjectileMove": true
   },
   "AddedEffects": {},
   "Category": "Special"

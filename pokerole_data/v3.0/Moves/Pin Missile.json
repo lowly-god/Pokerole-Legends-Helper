@@ -7,14 +7,15 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Accuracy -1. Ranged. Successive Actions.",
+  "Effect": "Projectile Move. Accuracy -1. Ranged. Successive Actions.",
   "Description": "The Pokémon shoots a barrage of stingers or spikes that pierce like needles.",
   "_id": "pin-missile",
   "Attributes": {
     "PhysicalRanged": true,
     "SuccessiveActions": true,
     "AccuracyReduction": -1,
-    "Ranged": true
+    "Ranged": true,
+    "ProjectileMove": true
   },
   "AddedEffects": {},
   "Category": "Physical"

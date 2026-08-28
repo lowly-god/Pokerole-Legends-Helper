@@ -7,11 +7,12 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Double Action.",
+  "Effect": "Kick Move. Double Action.",
   "Description": "The good old one-two but with a twist.",
   "_id": "double-kick",
   "Attributes": {
-    "DoubleAction": true
+    "DoubleAction": true,
+    "KickMove": true
   },
   "AddedEffects": {},
   "Category": "Physical"

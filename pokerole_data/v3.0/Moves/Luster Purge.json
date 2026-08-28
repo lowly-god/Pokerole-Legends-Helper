@@ -7,11 +7,12 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Unique. Roll 5 Chance Dice to Reduce Sp. Defense by 1. This effect can stack up to 3 times per Target.",
+  "Effect": "Light Move. Unique. Roll 5 Chance Dice to Reduce Sp. Defense by 1. This effect can stack up to 3 times per Target.",
   "Description": "The user engulfs itself in a blinding light and shoots a light beam at its foe, this light leaves the foe powerless to resist the assault.",
   "_id": "luster-purge",
   "Attributes": {
-    "Unique": true
+    "Unique": true,
+    "LightMove": true
   },
   "AddedEffects": {
     "StatChanges": [

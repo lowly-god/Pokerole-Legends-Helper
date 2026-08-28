@@ -1,139 +1,135 @@
 {
-    "Number": 718,
-    "DexID": "0718F1",
-    "Name": "Zygarde 10%",
-    "Type1": "Dragon",
-    "Type2": "Ground",
-    "BaseHP": 4,
-    "Strength": 6,
-    "MaxStrength": 6,
-    "Dexterity": 6,
-    "MaxDexterity": 6,
-    "Vitality": 5,
-    "MaxVitality": 5,
-    "Special": 4,
-    "MaxSpecial": 4,
-    "Insight": 5,
-    "MaxInsight": 5,
-    "Ability1": "Aura Break",
-    "Ability2": "Power Construct",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "zygarde-10",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 1.2,
-        "Feet": 4.0
+  "Number": 718,
+  "DexID": "0718F1",
+  "Name": "Zygarde 10%",
+  "Type1": "Dragon",
+  "Type2": "Ground",
+  "BaseHP": 4,
+  "Strength": 6,
+  "MaxStrength": 6,
+  "Dexterity": 6,
+  "MaxDexterity": 6,
+  "Vitality": 5,
+  "MaxVitality": 5,
+  "Special": 4,
+  "MaxSpecial": 4,
+  "Insight": 5,
+  "MaxInsight": 5,
+  "Ability1": "Aura Break",
+  "Ability2": "Power Construct",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "zygarde-10",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 1.2,
+    "Feet": 4.0
+  },
+  "Weight": {
+    "Kilograms": 33.0,
+    "Pounds": 72.0
+  },
+  "DexDescription": "When 10% of the Zygarde Cells gather, they form this Pokémon; the more cells it gathers, the more its strength will increase.",
+  "Evolutions": [
+    {
+      "From": "Zygarde Cell",
+      "Kind": "Special",
+      "Item": "Zygarde cells"
+    }
+  ],
+  "Image": "zygarde-10.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Bind"
     },
-    "Weight": {
-        "Kilograms": 33.0,
-        "Pounds": 72.0
+    {
+      "Learned": "Starter",
+      "Name": "Bulldoze"
     },
-    "DexDescription": "When 10% of the Zygarde Cells gather, they form this Pokémon; the more cells it gathers, the more its strength will increase.",
-    "Evolutions": [
-        {
-            "From": "Zygarde Cell",
-            "Kind": "Special",
-            "Item": "Zygarde cells"
-        }
-    ],
-    "Image": "zygarde-10.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Bind"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Bulldoze"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Dragon Breath"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Bite"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Haze"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Dig"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Glare"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Safeguard"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Crunch"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Sandstorm"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Coil"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Dragon Dance"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Extreme Speed"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Thousand Waves"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Dragon Pulse"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Stomping Tantrum"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Earthquake"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Outrage"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Velvet Scales"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Camouflage"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Thousand Arrows"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Core Enforcer"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Land's Wrath"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Dragon Breath"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Haze"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Glare"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sandstorm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Coil"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Extreme Speed"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Thousand Waves"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Earthquake"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Camouflage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Thousand Arrows"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Core Enforcer"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Land's Wrath"
+    }
+  ]
 }

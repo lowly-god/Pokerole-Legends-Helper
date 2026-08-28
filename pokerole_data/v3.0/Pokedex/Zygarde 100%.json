@@ -1,147 +1,143 @@
 {
-    "Number": 718,
-    "DexID": "0718F3",
-    "Name": "Zygarde 100%",
-    "Type1": "Dragon",
-    "Type2": "Ground",
-    "BaseHP": 10,
-    "Strength": 6,
-    "MaxStrength": 6,
-    "Dexterity": 5,
-    "MaxDexterity": 5,
-    "Vitality": 7,
-    "MaxVitality": 7,
-    "Special": 5,
-    "MaxSpecial": 5,
-    "Insight": 6,
-    "MaxInsight": 6,
-    "Ability1": "Aura Break",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Champion",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "zygarde-100",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 4.5,
-        "Feet": 14.8
+  "Number": 718,
+  "DexID": "0718F3",
+  "Name": "Zygarde 100%",
+  "Type1": "Dragon",
+  "Type2": "Ground",
+  "BaseHP": 10,
+  "Strength": 6,
+  "MaxStrength": 6,
+  "Dexterity": 5,
+  "MaxDexterity": 5,
+  "Vitality": 7,
+  "MaxVitality": 7,
+  "Special": 5,
+  "MaxSpecial": 5,
+  "Insight": 6,
+  "MaxInsight": 6,
+  "Ability1": "Aura Break",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Champion",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "zygarde-100",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 4.5,
+    "Feet": 14.8
+  },
+  "Weight": {
+    "Kilograms": 610.0,
+    "Pounds": 1344.0
+  },
+  "DexDescription": "The complete form of Zygarde",
+  "Evolutions": [
+    {
+      "From": "Zygarde Cell",
+      "Kind": "Special",
+      "Item": "Zygarde cells"
+    }
+  ],
+  "Image": "zygarde-100.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Bind"
     },
-    "Weight": {
-        "Kilograms": 610.0,
-        "Pounds": 1344.0
+    {
+      "Learned": "Starter",
+      "Name": "Bulldoze"
     },
-    "DexDescription": "The complete form of Zygarde",
-    "Evolutions": [
-        {
-            "From": "Zygarde Cell",
-            "Kind": "Special",
-            "Item": "Zygarde cells"
-        }
-    ],
-    "Image": "zygarde-100.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Bind"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Bulldoze"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Dragon Breath"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Bite"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Haze"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Dig"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Glare"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Safeguard"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Crunch"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Sandstorm"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Coil"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Dragon Dance"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Hidden Power"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Extreme Speed"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Secret Power"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Thousand Waves"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Dragon Pulse"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Stomping Tantrum"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Earthquake"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Outrage"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Velvet Scales"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Camouflage"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Thousand Arrows"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Core Enforcer"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Land's Wrath"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Dragon Breath"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Haze"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Glare"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sandstorm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Coil"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hidden Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Extreme Speed"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Secret Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Thousand Waves"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Earthquake"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Camouflage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Thousand Arrows"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Core Enforcer"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Land's Wrath"
+    }
+  ]
 }

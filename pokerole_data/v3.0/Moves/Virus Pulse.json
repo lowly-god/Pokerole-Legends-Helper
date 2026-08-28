@@ -7,10 +7,12 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Roll 3 Chance Dice to Paralyze the Target.",
+  "Effect": "Pulse Move. Roll 3 Chance Dice to Paralyze the Target.",
   "Description": "The User generates an odd pulse that leaves the Foe stunned.",
   "_id": "virus-pulse",
-  "Attributes": {},
+  "Attributes": {
+    "PulseMove": true
+  },
   "AddedEffects": {},
   "Category": "Special"
 }
