@@ -585,6 +585,32 @@ async def ensure_required_global_commands_registered():
                     f'({", ".join(sorted(name for name in shop_options if name)) or "none"})'
                 )
 
+        # /weather uses fixed Discord choices. Keep the registered choice list in
+        # sync with the weather types in miscCommands so newly added weather such
+        # as Snowy Weather appears after a normal restart.
+        weather_command = registered_by_name.get('weather')
+        required_weather_choices = {
+            'Sunny Weather', 'Harsh Sunlight Weather', 'Rain Weather',
+            'Typhoon Weather', 'Sandstorm Weather', 'Strong Wind Weather',
+            'Hail Weather', 'Snowy Weather', 'Acid Rain Weather',
+            'Midnight Weather', 'Dense Fog',
+        }
+        if weather_command is None:
+            reasons.append('/weather is missing')
+        else:
+            weather_options = getattr(weather_command, 'options', []) or []
+            weather_option = next(
+                (option for option in weather_options if getattr(option, 'name', None) == 'weather'),
+                None,
+            )
+            registered_weather_choices = {
+                getattr(choice, 'name', None)
+                for choice in (getattr(weather_option, 'choices', []) or [])
+                if getattr(choice, 'name', None)
+            } if weather_option is not None else set()
+            if registered_weather_choices != required_weather_choices:
+                reasons.append('/weather has stale Weather-Type choices')
+
         if not reasons:
             print('Patched global slash commands are already current.')
             return

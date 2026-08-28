@@ -1,5 +1,6 @@
 import string
 import json
+import re
 from pathlib import Path
 from typing import List
 
@@ -343,7 +344,9 @@ class Misc(commands.Cog):
             if f'{weather} Weather' in self.weather:
                 weather += ' Weather'
             if weather in self.weather:
-                effect = self.weather[weather][1].replace('. ', '.'+weatherrepl)
+                # Start a new bullet for each weather rule, but keep a parenthetical
+                # note attached to the rule immediately before it.
+                effect = re.sub(r'\. (?=[^(])', '.' + weatherrepl, self.weather[weather][1])
                 output = f'**{weather}**:\n*{self.weather[weather][0]}*{weatherrepl}{effect}'
             else:
                 output = f'`{weather}` wasn\'t found in the weather list:{weatherrepl}'\

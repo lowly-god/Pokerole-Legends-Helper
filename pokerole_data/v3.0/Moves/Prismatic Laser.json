@@ -7,15 +7,14 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Projectile Move. Beam Move. Lethal. Must Recharge. Unique.",
+  "Effect": "Beam Move. Lethal. Must Recharge. Unique.",
   "Description": "Through a prism, the user shoots a concentrated laser beam that pierces everything that comes in contact with it. The effort leaves the user mentally exhausted.",
   "_id": "prismatic-laser",
   "Attributes": {
     "Lethal": true,
     "MustRecharge": true,
     "Unique": true,
-    "BeamMove": true,
-    "ProjectileMove": true
+    "BeamMove": true
   },
   "AddedEffects": {},
   "Category": "Special"

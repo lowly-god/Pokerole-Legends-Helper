@@ -7,12 +7,11 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Projectile Move. Pulse Move. Roll 3 Chance Dice to Confuse the Target.",
+  "Effect": "Pulse Move. Roll 3 Chance Dice to Confuse the Target.",
   "Description": "The user sends out a pulsing ring of water that blasts the foe with ultrasonic waves. For a while, everything seems as if reflected in the water ripples.",
   "_id": "water-pulse",
   "Attributes": {
-    "PulseMove": true,
-    "ProjectileMove": true
+    "PulseMove": true
   },
   "AddedEffects": {
     "Ailments": [

@@ -7,13 +7,12 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Projectile Move. Beam Move. Double Action.",
+  "Effect": "Beam Move. Double Action.",
   "Description": "The Pokémon shoots a beam, and as if had a mind of its own, another part of their body also shoots a beam along.",
   "_id": "twin-beam",
   "Attributes": {
     "DoubleAction": true,
-    "BeamMove": true,
-    "ProjectileMove": true
+    "BeamMove": true
   },
   "AddedEffects": {},
   "Category": "Special"

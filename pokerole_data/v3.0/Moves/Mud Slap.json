@@ -7,12 +7,10 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Projectile Move. Reduce 1 success to all the Accuracy Rolls of the Target.",
+  "Effect": "Reduce 1 success to all the Accuracy Rolls of the Target.",
   "Description": "A mud ball splatters right into the foe’s face, reducing their field of vision.",
   "_id": "mud-slap",
-  "Attributes": {
-    "ProjectileMove": true
-  },
+  "Attributes": {},
   "AddedEffects": {
     "StatChanges": [
       {

@@ -7,12 +7,10 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Projectile Move. Reduce the Target's Dexterity by 1.",
+  "Effect": "Reduce the Target's Dexterity by 1.",
   "Description": "By shooting a stream of mud at their target, the user manages to impair their movement.",
   "_id": "mud-shot",
-  "Attributes": {
-    "ProjectileMove": true
-  },
+  "Attributes": {},
   "AddedEffects": {
     "StatChanges": [
       {
