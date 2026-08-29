@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Ally's Battlefield",
-  "Effect": "Force Field. Activate a Force Field against Special Damage. Duration 4 Rounds.",
+  "Effect": "Force Field. Reduce incoming Special Damage by 1. Duration 4 Rounds.",
   "Description": "A barrier of light is created over half of the battlefield, all energy trying to go trough dissolves as it crosses it.",
   "_id": "light-screen",
   "Attributes": {

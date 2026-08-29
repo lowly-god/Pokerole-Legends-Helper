@@ -23,6 +23,7 @@ HELP_CATEGORIES = [
         ("nature", "Display information about a Nature"),
         ("status", "Display information about a Status Condition"),
         ("weather", "Display information about a Weather-Type"),
+        ("terrain", "Display information about a Terrain-Type"),
         ("field_type", "Display the effects of a Field-Type"),
         ("item", "Display an Item's traits and price. Use %item for categories."),
         ("effect", "Display information about common effects or terms"),

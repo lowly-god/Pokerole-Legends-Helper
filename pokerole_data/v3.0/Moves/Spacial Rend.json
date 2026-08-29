@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "High Critical. Lethal. Unique. If successful, reduce 5 Success from all Accuracy rolls of the Target. Whole Scene Duration.",
+  "Effect": "Unique. High Critical. Lethal. If successful, reduce 5 Success from all Accuracy rolls of the Target. Whole Scene Duration.",
   "Description": "With a flicker of its claws, Palkia defragments the space around its foe. Those who survive rarely do preserve their original shape much less move or fuction as they should.",
   "_id": "spacial-rend",
   "Attributes": {

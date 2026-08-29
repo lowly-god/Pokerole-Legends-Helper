@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Channel",
   "Target": "All Foes",
-  "Effect": "Darkness Move. Accuracy -3. Put those affected to Sleep.",
+  "Effect": "Accuracy -3. Darkness Move. Put those affected to Sleep.",
   "Description": "A portal opens and transports all Targets to a world of darkness, inside they can’t see or feel anything, it’s like they are trapped in an eternal slumber.",
   "_id": "dark-void",
   "Attributes": {

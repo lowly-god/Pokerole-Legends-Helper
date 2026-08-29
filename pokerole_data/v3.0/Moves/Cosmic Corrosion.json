@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Nature",
   "Target": "Foe",
-  "Effect": "Ongoing Damage. Unique. The Target takes 1 Damage at the end of each Round.",
+  "Effect": "Unique. Ongoing Damage. The Target takes 1 Damage at the end of each Round.",
   "Description": "The User clings to the Foe, as it begins to attempt to merge with it.",
   "_id": "cosmic-corrosion",
   "Attributes": {

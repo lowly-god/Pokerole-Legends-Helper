@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "General Items",
   "Category": "General Items",
-  "Description": "Foes making Contact with the holder take 1 Damage",
+  "Description": "Foes that hit the holder with a Non-Ranged Physical Move take 1 Damage.",
   "OneUse": false,
   "TrainerPrice": "7000",
   "Cures": "",

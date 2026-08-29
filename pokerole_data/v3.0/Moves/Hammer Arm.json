@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Fist Move. Accuracy -1. Reduce User's Dexterity by 1.",
+  "Effect": "Accuracy -1. Fist Move. Reduce User's Dexterity by 1.",
   "Description": "Stop. Hammer Arm time!",
   "_id": "hammer-arm",
   "Attributes": {

@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Projectile Move. Reaction 1. Ranged.",
+  "Effect": "Ranged. Projectile Move. Reaction 1.",
   "Description": "With extraordinary swiftness, the Pokémon shoots an ice bullet like the fastest gun in the North Pole.",
   "_id": "ice-shard",
   "Attributes": {

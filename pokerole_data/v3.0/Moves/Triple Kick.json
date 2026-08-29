@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Kick Move. Accuracy -1. Triple Action. Add 1 Extra Dice to the Damage Pool of the third hit.",
+  "Effect": "Accuracy -1. Kick Move. Triple Action. Add 1 Extra Dice to the Damage Pool of the third hit.",
   "Description": "The good ol’ one-two with an even better twist! They never see that last hit coming.",
   "_id": "triple-kick",
   "Attributes": {

@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Accuracy -1. Lethal. Ranged. Projectile Move. Must Recharge.",
+  "Effect": "Accuracy -1. Ranged. Projectile Move. Lethal. Must Recharge.",
   "Description": "A giant boulder is blasted like a cannon ball towards the target. Leaving a path of destruction and a subsequent explosion as the boulder crashes. Let the pokémon catch their breath afterwards.",
   "_id": "rock-wrecker",
   "Attributes": {

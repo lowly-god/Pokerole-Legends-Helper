@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Accuracy -1. Lethal. Unique. Reduce User's Special by 2.",
+  "Effect": "Accuracy -1. Unique. Lethal. Reduce User's Special by 2.",
   "Description": "The Pokémon releases an explosion of all of its concentrated psychic power in a devastating explosion, afterwards the user will be extremely tired.",
   "_id": "psycho-boost",
   "Attributes": {

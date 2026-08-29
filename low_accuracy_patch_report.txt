@@ -1,6 +1,0 @@
-LOW ACCURACY -> ACCURACY PATCH REPORT
-=====================================
-
-Moves changed: 0
-Text replacements: 0
-

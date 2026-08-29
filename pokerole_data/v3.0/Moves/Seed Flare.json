@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Lethal. Unique. Roll 4 Chance Dice to Reduce the Target's Sp. Defense by 2.",
+  "Effect": "Unique. Lethal. Roll 4 Chance Dice to Reduce the Target's Sp. Defense by 2.",
   "Description": "Shaymin releases an explosion of pollen and seeds that the foe cannot shake off, leaving it vulnerable. Over time, these seeds will grow into gigantic trees of life.",
   "_id": "seed-flare",
   "Attributes": {

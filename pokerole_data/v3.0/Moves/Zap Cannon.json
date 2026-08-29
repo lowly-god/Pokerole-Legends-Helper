@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Accuracy -4. Lethal. Paralyze the Target. Projectile Move.",
+  "Effect": "Accuracy -4. Projectile Move. Lethal. Paralyze the Target.",
   "Description": "A dreadful but erratic bombardment of electric explosions, getting hit would be devastating.",
   "_id": "zap-cannon",
   "Attributes": {

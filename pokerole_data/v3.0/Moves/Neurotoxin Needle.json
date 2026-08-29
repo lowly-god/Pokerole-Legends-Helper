@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Projectile Move. Unique. Roll 2 Chance Dice to Paralyze and 2 to Poison the Target.",
+  "Effect": "Unique. Projectile Move. Roll 2 Chance Dice to Paralyze and 2 to Poison the Target.",
   "Description": "The User shoots a horrible toxin covered needle into the Foe.",
   "_id": "neurotoxin-needle",
   "Attributes": {

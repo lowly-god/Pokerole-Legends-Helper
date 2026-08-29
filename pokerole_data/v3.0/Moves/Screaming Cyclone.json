@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Area",
-  "Effect": "Wind Move. Unique. Those affected spend 2 Will points without any benefit.",
+  "Effect": "Unique. Wind Move. Those affected spend 2 Will points without any benefit.",
   "Description": "The User spins its body at 131 kilometres an hour, creating a horrifying vacuum filled with spectral screams.",
   "_id": "screaming-cyclone",
   "Attributes": {

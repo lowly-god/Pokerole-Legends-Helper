@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Beam Move. Accuracy -1. Lethal. Must Recharge.",
+  "Effect": "Accuracy -1. Beam Move. Lethal. Must Recharge.",
   "Description": "The Pokémon shoots an incredibly powerful beam towards the sky. The energy released might keep traveling through space thousands of years later.",
   "_id": "eternabeam",
   "Attributes": {

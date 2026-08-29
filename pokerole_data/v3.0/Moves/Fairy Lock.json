@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Perform",
   "Target": "Battlefield",
-  "Effect": "Block. Duration 1 Round.",
+  "Effect": "Blocks. Duration 1 Round.",
   "Description": "The User moves as if locking a door, preventing anyone from leaving the room. It takes everyone a few seconds to realize they are not really trapped.",
   "_id": "fairy-lock",
   "Attributes": {

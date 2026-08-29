@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Lethal. Unique. Roll 5 Chance Dice to inflict Burn (3) on the Target.",
+  "Effect": "Unique. Lethal. Roll 5 Chance Dice to inflict Burn (3) on the Target.",
   "Description": "A blazing pillar of rainbow-colored flames crashes upon the foe, it burns and cleanses all evil from within. Those with a pure heart should not fear for they shall be unharmed.",
   "_id": "sacred-fire",
   "Attributes": {

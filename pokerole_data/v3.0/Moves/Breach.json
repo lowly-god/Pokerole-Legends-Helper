@@ -7,7 +7,7 @@
   "Accuracy1": "Clever",
   "Accuracy2": "Stealth",
   "Target": "User + Allies",
-  "Effect": "Reaction 1. User and Allies ignore the Target's Shield and Barrier Moves for the rest of the Round. Out of battle effects at Storyteller's discretion.",
+  "Effect": "Reaction 1. User and Allies ignore the Target's Shield Moves and Force Fields for the rest of the Round. Out of battle effects at Storyteller's discretion.",
   "Description": "The User disables the Foe's protections, momentarily. They’re in!",
   "_id": "breach",
   "Attributes": {},

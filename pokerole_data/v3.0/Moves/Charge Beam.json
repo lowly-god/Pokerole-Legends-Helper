@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Beam Move. Accuracy -1. Roll 5 Chance Dice to Increase User's Special by 1.",
+  "Effect": "Accuracy -1. Beam Move. Roll 5 Chance Dice to Increase User's Special by 1.",
   "Description": "The Pokémon releases an electric beam, if any charge remains unused, it will make use of it to boost its power.",
   "_id": "charge-beam",
   "Attributes": {

@@ -1,7 +1,0 @@
-Pokebot15.1 Keyword / Weather / UB patch
-
-Extract this folder over the existing Pokerole Legends Helper folder and overwrite files.
-Restart the bot after extraction.
-
-The obsolete pokerole_data/Homebrew/Items/Big Root.json duplicate is removed automatically on startup by the patched PokeRole-Helper.py.
-The generated SQLite database does not need to be included; its source fingerprint will rebuild it when the JSON source changes.

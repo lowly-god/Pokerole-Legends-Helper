@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel / Nature",
   "Target": "Foe",
-  "Effect": "Ranged. Successive Actions. Projectile Move.",
+  "Effect": "Ranged. Projectile Move. Successive Actions.",
   "Description": "The Pokémon starts shooting seed as if they were a machine gun.",
   "_id": "bullet-seed",
   "Attributes": {

@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Solar Move. Charge Move. Cutter Move. If Sunny Weather is active, you skip this Move's Charge action. If performed under Rain, Sandstorm or Hail/Snowy Weather, this Move takes two actions to Charge.",
+  "Effect": "Solar Move. Charge Move. Cutter Move. If Sunny Weather is active, you skip this Move's Charge action. If performed under Dense Fog, Hail, Rain, Acid Rain or Midnight Weather, this Move takes two actions to Charge.",
   "Description": "The Pokémon focuses the sunlight on its sharp leaves, then releases the energy with a shattering cut.",
   "_id": "solar-blade",
   "Attributes": {

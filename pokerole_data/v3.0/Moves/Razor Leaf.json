@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel / Nature",
   "Target": "All Foes",
-  "Effect": "Projectile Move. Cutter Move. Ranged. High Critical.",
+  "Effect": "Cutter Move. Ranged. Projectile Move. High Critical.",
   "Description": "The user sends out a barrage of sharp razor-like leaves. “Death by a thousand cuts” would be the best depiction.",
   "_id": "razor-leaf",
   "Attributes": {

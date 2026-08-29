@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe's Battlefield",
-  "Effect": "Lethal. Unique. If anything on the Target's side would prevent this Move from dealing Damage (Pokémon Type, Abilities, Shield Moves, Weather, or Force Fields), ignore it. This Move cannot be Clashed.",
+  "Effect": "Unique. Lethal. If anything on the Target's side would prevent this Move from dealing Damage (Pokémon Type, Abilities, Shield Moves, Weather, or Force Fields), ignore it. This Move cannot be Clashed.",
   "Description": "You suddenly stop in your tracks as you see a bright and blinding light coming towards you at great speed. You do not see what hits you before it’s all darkness.",
   "_id": "sunsteel-strike",
   "Attributes": {

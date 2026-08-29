@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "Held Items",
   "Category": "Crests",
-  "Description": "Increase either Typhlosion's Strength or Special to match whichever is higher. Its contact Moves gain +1 Damage Dice.",
+  "Description": "Increase either Typhlosion's Strength or Special to match whichever is higher. Its Non-Ranged Physical Moves gain +1 Damage Dice.",
   "OneUse": false,
   "TrainerPrice": "40000",
   "Cures": "",

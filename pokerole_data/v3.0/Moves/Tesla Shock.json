@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Charge Move. Unique. Increase the User’s Special by 1. On its next Action it attacks. If Electrical Terrain is in effect the Move only takes one Action.",
+  "Effect": "Unique. Charge Move. Increase the User’s Special by 1. If Electrical Terrain is in effect the Move only takes one Action.",
   "Description": "Electrical energy pulses over the User's form as it charges up for a devastating attack.",
   "_id": "tesla-shock",
   "Attributes": {

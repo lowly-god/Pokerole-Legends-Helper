@@ -1,6 +1,6 @@
 {
-    "Name": "Feedback",
-    "Effect": "When this Pokémon is hit by a Ranged Physical or Special Move, the attacker loses 1 HP. This Damage also occurs after each hit of Multi-Hit Moves.",
-    "Description": "",
-    "_id": "feedback"
+  "Name": "Feedback",
+  "Effect": "When this Pokémon is hit by a Ranged Physical or Special Move, the attacker loses 1 HP. This Damage also occurs after each hit of Moves using Double Action, Triple Action, or Successive Actions.",
+  "Description": "",
+  "_id": "feedback"
 }

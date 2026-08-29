@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Intimidate",
   "Target": "Self",
-  "Effect": "Reaction 2. Powder Move. All of the Target's Physical and Special Moves will Target the user if able. Duration 1 Round.",
+  "Effect": "Powder Move. Reaction 2. All of the Target's Physical and Special Moves will Target the user if able. Duration 1 Round.",
   "Description": "The Pokémon releases an irritating powder that itches and enrages its Targets into full-attack mode.",
   "_id": "rage-powder",
   "Attributes": {

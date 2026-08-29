@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity / Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Never Miss. High Critical. Unique.",
+  "Effect": "Unique. Never Miss. High Critical.",
   "Description": "The User's turns its wrappings into spears that glow with odd runes to strike at its Targets.",
   "_id": "runewrap-spear",
   "Attributes": {

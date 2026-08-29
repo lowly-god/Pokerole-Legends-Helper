@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "All Foes",
-  "Effect": "Lethal. Unique.",
+  "Effect": "Unique. Lethal.",
   "Description": "It looks just like any other Blizzard until the ice spears start raining straight into you.",
   "_id": "glacial-lance",
   "Attributes": {

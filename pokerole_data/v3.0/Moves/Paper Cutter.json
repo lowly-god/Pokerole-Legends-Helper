@@ -7,7 +7,7 @@
   "Accuracy1": "Strength / Cool",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Cutter Move. Double Action. Reaction 1. Unique.",
+  "Effect": "Unique. Cutter Move. Double Action. Reaction 1.",
   "Description": "The User Moves with alarming speed slashing with paper thin blades at the Foe.",
   "_id": "paper-cutter",
   "Attributes": {

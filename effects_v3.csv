@@ -1,47 +1,101 @@
-Accuracy -X,Reduce the noted number of successes from the Move's Accuracy Roll.
-Aura Move,"Moves with the Aura Move keyword and Maneuvers with the Aura Maneuver keyword are part of the Aura category and interact with Abilities, Items, and effects that reference Aura Moves or Maneuvers."
-Basic Heal,Heal for 3HP.
-Beam Move,"This Move has the Beam Move keyword and interacts with Abilities, Items, and effects that reference Beam Moves."
-Bite Move,"This Move has the Bite Move keyword and interacts with Abilities, Items, and effects that reference Bite Moves."
-Blocks,The Target can't escape and can't be switched back.
-Chance Dice,"The probability at which a Move's Effect is activated. The number marked on the Icon is the amount of Chance Dice you will Roll. At least one Chance Dice must come up as (6), if it does, the Effect will be triggered. Sometimes a Chance Dice Icon will be inside a Status Ailment Box to show the chance to inflict that Ailment."
-Charge Move,The User spends one action charging the Move. The Move is rolled with another action on its next turn.
-Copy Move,Copies or reproduces another Move as described by its effect. Unique Moves cannot be copied unless specifically stated otherwise.
-Cutter Move,"This Move has the Cutter Move keyword and interacts with Abilities, Items, and effects that reference Cutter Moves."
-Dance Move,"This Move has the Dance Move keyword and interacts with Abilities, Items, and effects that reference Dance Moves."
-Darkness Move,"This Move has the Darkness Move keyword and interacts with Abilities, Items, and effects that reference Darkness Moves."
-Double Action,The Move strikes or resolves twice as part of the same Action.
-Drain Move,"After dealing Damage with this Move, the User restores HP equal to half the Damage dealt, rounded down, unless the Move states otherwise."
-Entry Hazard,Places a persistent hazard on a side of the Battlefield as described by the Move.
-Explosive Move,"This Move has the Explosive Move keyword and interacts with Abilities, Items, and effects that reference Explosive Moves."
-Fist Move,The Move requires hands or fists.
-Force Field,Creates a defensive field that remains active for the stated Duration or until removed.
-High Critical,Score a Critical Hit with 1 success less than required.
+Accuracy +/-X,Accuracy -X removes X successes from the Accuracy Roll. Accuracy +X adds X dice to the Accuracy Pool.
+Active Combatant,"Pokémon, Humans, Vehicles, any other creatures, objects or beings who have some form of statistical Attributes and are currently on the Battlefield or in the Initiative Order are classed as Active Combatants. Fainted Pokémon, Humans, etc, who are not dead, but are still on the Battlefield also count as Active Combatants. Pokémon inside Poke Balls, people watching the Battle from the sidelines, etc, do not count."
+Aura Move,An Aura-category Move or Maneuver. Interacts with effects that reference Aura Moves or Maneuvers.
+Basic Heal,"Heals 3 HP of regular or Lethal Damage. After a successful Accuracy Roll, spend 1 Will Point to activate. In battle, normal healing is capped at 3 HP per Round."
+Beam Move,A Beam-category Move or Maneuver. Interacts with effects that reference Beam Moves or Maneuvers.
+Bite Move,A Move or Maneuver based on biting. Interacts with Strong Jaw and other effects that reference Bite Moves or Maneuvers.
+Blocks,"The affected Pokémon cannot leave the Battlefield, switch out, or be recalled. Switcher effects cannot move a Blocked Pokémon."
+Chance Dice,"Roll the listed number of d6. If at least one rolls a 6, the stated effect activates."
+Charge Move,"Roll Accuracy and spend one Action to begin charging. On the User's next turn, spend another Action to unleash the Move/Maneuver and roll Damage. The User may Evade while charging, and the Move/Maneuver may be used to Clash without charging."
+Clash,"- A Clash is a Reaction 6 Maneuver that ignores Multiple Action Difficulty. It may be Used against a Move or Maneuver would Damage the User or an Ally.
+- You may usually only Clash once per-Round, although some effects may allow multiple Clashes to be made in a single Round.
+- Pokémon Clash with a Physical or Special Move they have not already used (unless the Move states that it may be used multiple times), rolling Strength / Special + Clash.
+- Humans Clash with a Physical or Special Maneuver and may use Strength / Special + Brawl / Channel / Aura / Weapons.
+- To successfully Clash, match the Foe's incoming Accuracy successes. On a success, both combatants take 1 Clash Damage with Type effectiveness and Immunities taken into consideration. Neither Move/Maneuver applies its Added Effects.
+- Support, Set Damage/Ignore Defenses, and Battlefield-Targeting Moves/Maneuvers cannot be Clashed.
+- Area Moves/Maneuvers require an Area Move/Maneuver be used to Clash them, and All Foes Moves/Maneuvers require either an All Foes or Area Move/Maneuver be used to Clash them."
+Complete Heal,"Heals the Target to Full HP or for 5 HP of Lethal Damage. After a successful Accuracy Roll, spend 1 Will Point to activate unless the effect states otherwise. Complete Heal may exceed the normal 3 HP-per-Round healing limit."
+Copy Move,"Copies another Move/Maneuver as stated by the effect; copied properties use the Copied Move/Maneuver's own Accuracy Roll. Unique Moves/Maneuvers and already-copied Moves/Maneuvers cannot be copied unless specifically stated otherwise. Pokémon cannot copy Human Specific Maneuvers and likewise Humans cannot copy Pokémon Moves, except at the Storyteller's discretion."
+Cover,"1/4, 1/2, and 3/4 Cover grant +1, +2, and +3 Defense and Sp. Defense against incoming attacks; Added Effects still apply at the Storyteller's discretion. Full Cover must be destroyed before the Target can be damaged, and prevents most Added Effects while intact."
+Critical Failure,"A Roll that scores 3 or more successes fewer than required Roll is considered a Critical Failure. The Action fails and an additional serious consequence occurs at the Storyteller's discretion. These effects may include; Receiving Damage, Damaging an Ally, Rendering the task completely impossible, Getting a Status Condition, etc."
+Cure Status,"Cures Burn, Frostbite, Paralysis, Poison / Badly Poisoned, and Sleep unless the effect states otherwise."
+Cutter Move,A Move or Maneuver based on cutting or slashing. Interacts with the Ability Sharpness and other effects that reference Cutter Moves/Maneuvers.
+Dance Move,A Dance-category Move or Maneuver. Interacts with effects that reference Dance Moves or Maneuvers.
+Darkness Move,A Darkness-category Move or Maneuver. Interacts with effects that reference Darkness Moves or Maneuvers.
+Double Action,"Use the same Move or Maneuver up to 2 times in one turn against the same Target. Each use is a separate Action and Accuracy Roll, following normal Multiple Action Difficulty."
+Drain Move,"After dealing Damage with this Move/Maneuver, restore HP equal to half the Damage dealt to one Target, rounded down, unless stated otherwise."
+Duration,"- X Turns: The effect lasts for the listed number of the User's Actions, ticking down at the end of each of their Actions.
+- X Rounds: The effect lasts for the listed number of Rounds, ticking down at the end of each Round.
+- Whole Scene Duration: the effect lasts until the Scene ends or the affected Active Combatant leaves Battle, unless stated otherwise.
+- Whole Round Duration: the effect lasts until the current Round ends.
+- Permanent Duration: The effect does not expire normally."
+Entry Hazard,Places a hazard on a specified side of the Battlefield. It affects Active Combatants when they enter that side; Active Combatants already on the field are not affected unless the effect states otherwise.
+Evade,"- Evade is a Reaction 6 Maneuver that ignores Multiple Action Difficulty.
+- Roll Dexterity + Evasion and match the incoming Move or Maneuver's Accuracy successes; on success, the User takes no Damage or Effects from the incoming attack.
+- Usually you may only Evade once per-Round, though certain effects may grant additional Evades per-Round, modify or prevent Evasion entirely.
+- Battlefield-Targeting and Never Miss Moves/Maneuvers cannot be Evaded, unless stated otherwise."
+Explosive Move,An Explosive-category Move or Maneuver. Interacts with effects that reference Explosive Moves or Maneuvers.
+Field-Type,"Field-Types are Battlefield-wide conditions that occur naturally. They effect many areas of Battle, including but not limited to Battlefield effects, Type-Effectiveness, Abilities and Moves. Often they can be changed to a different Field-Type via the use of certain Moves. Use /field\_type for the exact rules of each Field-Type."
+Fist Move,A Move or Maneuver based on punches. Interacts with Iron Fist and other effects that reference Fist Moves or Maneuvers.
+Force Field,"A persistent defensive effect, usually placed on a side of the Battlefield. Its source states who it protects, its Duration, and what Damage or effects it reduces or prevents. Force Fields that reduce the same Damage category do not stack."
+High Critical,"Critical Hits with this Move/Maneuver require only 3 Accuracy successes, rather than the usually required 4 to count as a Critical Hit. This affect can stack with Abilities, Perks or other effects that also grant High Critical."
 Ignore Defenses,Ignore Defense and Special Defense when calculating Damage.
-Kick Move,"This Move has the Kick Move keyword and interacts with Abilities, Items, and effects that reference Kick Moves."
-Late Reaction,The Move may be used as a Late Reaction. The listed number determines its Reaction timing.
-Lethal,The Move inflicts Lethal Damage.
-Light Move,"This Move has the Light Move keyword and interacts with Abilities, Items, and effects that reference Light Moves."
-Lunar Move,"This Move has the Lunar Move keyword and interacts with Abilities, Items, and effects that reference Lunar Moves."
-Must Recharge,"After hitting with this Move, the User must rest with its first Action on the next Round."
-Never Miss,"This Move cannot be Evaded, but can be Clashed. This Move may still miss on a failed Accuracy check."
-Ongoing Damage,"At the end of the Round, Roll 2 Dice of Typeless Damage against the Target. (Multiple sources of Ongoing Damage will not stack, only one source may be active at a time. The first source takes priority over the latter ones)."
-Out of Range while Charging,"While charging, the User is Out of Range except to Moves specifically stated to be able to hit it."
-Physical Move,"Physical Moves are resisted with Defense. They are close range attacks by default. Some can be long range, and those are labeled as Ranged."
-Powder Move,This Move has the Powder Move keyword and interacts with effects that reference Powder Moves.
-Projectile Move,"Moves with the Projectile Move keyword and Maneuvers with the Projectile Maneuver keyword are projectiles and interact with Abilities, Items, and effects that reference Projectile Moves or Maneuvers."
-Pulse Move,"This Move has the Pulse Move keyword and interacts with Abilities, Items, and effects that reference Pulse Moves."
-Rampage,"The User may use this Move up to 3 times without interruption, even during the same Round. It cannot Evade or perform another Move. After the Rampage is over, the user will be Confused."
-Ranged,This Move may be used at range.
-Reaction,The Move may be used as a Reaction. The listed number determines its Reaction timing.
-Recoil,"The User will be hurt by its own Move. Roll damage normally against the foe, then roll again each success you scored as damage to the User ignoring its defenses."
-Retaliatory Move,"This Move has the Retaliatory Move keyword and interacts with Abilities, Items, and effects that reference Retaliatory Moves."
-Shield Move,"If the Pokémon performs another Shield Move during the next Round, that Move's Accuracy Roll is reduced by 2 successes."
-Solar Move,"This Move has the Solar Move keyword and interacts with Abilities, Items, and effects that reference Solar Moves."
-Sound Move,"These Moves bypass Substitute, Light Screen, Reflect, and Cover."
-Special Move,Special Moves are resisted with Special Defense. They are always long range.
-Successive Actions,The Move allows you to perform Multiple Actions in succession before the Foe can act. (Up to either 2 attacks or 5 attacks based on the number of stars in the Effect box).
-Support Move,Support Moves don't deal any direct Damage.
-Switcher Move,Only one Switcher Move may be used per Round. Switch a Pokémon in the battlefield for one of its allies still on their Pokeball.
-Unique,Unique Moves cannot be copied.
-Wind Move,"This Move has the Wind Move keyword and interacts with Abilities, Items, and effects that reference Wind Moves."
+Kick Move,A Kick-category Move or Maneuver. Interacts with effects that reference Kick Moves or Maneuvers.
+Late Reaction,"May be used during another combatant's turn and resolves after the triggering Action. It consumes one Action. Higher Late Reaction numbers resolve later. A Late Reaction can answer a Reaction, but a Reaction cannot answer a Late Reaction. Only one Reaction or Late Reaction may be performed by each Active Combatant per-turn."
+Lethal,"Lethal Damage is an optional Rule. It adds more danger and a serious risk of Pokémon and Human death, to each encounter.
+
+You may instead use the All Damage is Lethal rule, for an even more dangerous game, in which case unsurprisingly; all Damage is counted as Lethal Damage.
+
+- A Move/Maneuver with the 'Lethal' keyword can deal Lethal Damage when used with lethal intent. It does not deal Lethal Damage by default unless specified by the Player or Storyteller.
+- If a character receives Damage after they have fallen unconscious, that Damage is always treated as Lethal Damage.
+- If a character receives Lethal Damage equal to the total of their HP plus 1 they will die.
+- Lethal Damage requires double the usual amount time, Potions or Move/Maneuver usages to Heal; compared to normal Damage. (ie: 1 dose of Potion will Heal 1 normal Damage, but 2 are needed to Heal 1 Lethal Damage).
+- A character suffering from Lethal Damage may be Stabilized with a Clever / Insight + Medicine check. The DC is equal to the amount of Lethal Damage they are currently suffering from.
+- A character who has been Stabilized may naturally Heal Lethal Damage at a rate of 1 HP every 8 hours instead of 1 HP every 16."
+Light Move,A Light-category Move or Maneuver. Interacts with effects that reference Light Moves or Maneuvers.
+Luck Check,"Roll 1d100 and add the character's Luck modifier, capped at 100. Compare the total to the threshold stated by the effect."
+Lunar Move,A Lunar-category Move or Maneuver. Interacts with effects that reference Lunar Moves or Maneuvers.
+Minor Heal,"Heals 1 HP. After a successful Accuracy Roll, spend 1 Will Point to activate unless the effect states otherwise. In battle, normal healing is capped at 3 HP per Round."
+Move Targets,"- Target Self: the User.
+- One Ally: one Ally.
+- User or Ally: the User or one Ally.
+- User and Allies: the User and Allies in Range up to the User's Rank limit.
+- Single Target: one chosen character, usually a Foe. (Can be Evaded or Clashed).
+- Target Random: one valid Target chosen at random. (Can be Evaded or Clashed).
+- Random Foe: one valid Foe chosen at random. (Can be Evaded or Clashed).
+- All Foes: Affects the maximum number of Targets allowed by Rank. (Can be individually Evaded or Clashed, can be Clashed for everyone with either another All Foes or Area Move/Maneuver).
+- Area: Affects the maximum number of Targets allowed by Rank, prioritizing Foes and including Allies if needed. (Can be individually Evaded or Clashed, can be Clashed for everyone with another Area Move/Maneuver).
+- Target Battlefield: the whole Battlefield. (Cannot be Evaded or Clashed unless stated otherwise).
+- Target User's Battlefield: the User's side. (Cannot be Evaded or Clashed unless stated otherwise).
+- Target Foe's Battlefield: the opposing side. (Cannot be Evaded or Clashed unless stated otherwise)."
+Must Recharge,"After this Move/Maneuver successfully hits, the User must spend its first Action of the next Round recharging. This stacks if used more than once and remains if the User is recalled. No recharge is required if the Move/Maneuver misses, is Clashed or Evaded, or is used to Clash."
+Never Miss,"Cannot be Evaded, but can still be Clashed. The Move or Maneuver can still fail its own Accuracy Roll."
+Ongoing Damage,"At the end of each Round, roll 2 Dice of Typeless Damage against the Target. Multiple sources do not stack; the first source takes priority."
+Out of Range while Charging,"While charging, the User is Out of Range and cannot be targeted by Moves or Maneuvers except effects that specifically state they can reach it."
+Physical Move,"Physical Moves/Maneuvers normally use Strength for Damage and are almost always resisted by Defense. They are considered Full-Contact, Non-Ranged unless they also have the 'Ranged' keyword, or another effect stated otherwise."
+Powder Move,"A Move or Maneuver using powder, dust, or spores. Grass-Type Pokémon are immune to its Damage and harmful effects."
+Projectile Move,A Move or Maneuver based on firing a projectile. Interacts with Bulletproof and other effects that reference Projectile Moves or Maneuvers.
+Pulse Move,A Pulse-category Move or Maneuver. Interacts with effects that reference Pulse Moves or Maneuvers.
+Rampage,"After a successful Accuracy Roll, the User may use the Rampage Move up to 3 consecutive times that Round. While Rampaging, it cannot Evade or use another Move; Clashing with the Rampage Move counts as one use. When the Rampage ends, the User becomes Confused."
+Ranged,A Ranged Move or Maneuver does not require physical contact with the Target. Ranged Physical attacks do not trigger Contact/Non-Ranged effects. Special Moves/Maneuvers are always considered Ranged.
+Reaction,May be used during another combatant's turn and resolves before the triggering Action. It consumes one Action. Higher Reaction numbers resolve first. Only one Reaction or Late Reaction may be performed by each Active Combatant per-turn.
+Reckless Switch,"- Any time a Pokémon is switched into Battle outside of Trainer Actions is considered a Reckless Switch, unless a Switcher Move/Maneuver was used. (Some Perks or other effects may negate the negative effects of Reckless Switches).
+- A Pokémon who is Reckless Switched into Battle may not perform any Actions except for Clashing or Evading for the rest of the Round.
+- It is also always last in the Initiative Order for the rest of the Round, but may Roll Initiative and act normally from the beginning of the next Round."
+Recoil,"After rolling Damage against the Foe, roll Damage Dice against the User equal to the successes scored on that Damage Roll, ignoring the User's Defenses."
+Retaliatory Move,A Retaliatory-category Move or Maneuver. Interacts with effects that reference Retaliatory Moves or Maneuvers.
+Set Damage,"Deals the stated amount of Damage without rolling a Damage Pool. Set Damage ignores Defense and Special Defense and does not benefit from STAB, or Critical Hits."
+Shield Move,"A defensive Move or Maneuver used to shield against an incoming attack. Using Shield Moves/Maneuvers in the same Round or as consecutive Actions across Rounds adds Accuracy -2 each time (-2, -4, and so on). Go 5 turns without using a Shield Move/Maneuver to reset the Accuracy penalty."
+Solar Move,A Solar-category Move or Maneuver. Interacts with effects that reference Solar Moves or Maneuvers.
+Sound Move,"A Move or Maneuver carried through sound waves. Sound Moves/Maneuvers bypass Substitute decoys, Force Fields, and Cover."
+Special Move,"Special Moves/Maneuvers normally use Special for Damage, are nearly always resisted by Special Defense, and are always Ranged."
+STAB,"Same-Type Attack Bonus. When a damaging Physical or Special Move's Type matches one of the User's Types, add 1 Damage Die."
+Successive Actions,"Use the same Move or Maneuver up to 5 times in one turn. Each use is a separate Action and Accuracy Roll, following normal Multiple Action Difficulty."
+Support Move,Support Moves/Maneuvers do not deal direct Damage unless their effect specifically says otherwise.
+Switcher Move,Switches the User or Foe as stated by the Move or Maneuver. The incoming Pokémon keeps the switched Pokémon's remaining Actions and Rolls Initiative immediately. A successful Clash prevents the switch.
+Terrain,"Terrain is a Battlefield-wide condition that can occur naturally or be created by Moves, Maneuvers or Abilities. Use /terrain for the exact rules of each Terrain-Type."
+Triple Action,"Use the same Move or Maneuver up to 3 times in one turn against the same Target. Each use is a separate Action and Accuracy Roll, following normal Multiple Action Difficulty."
+Unique,"Unique Moves and Maneuvers are exclusive to a specific Pokémon species, Character or Weapon and cannot usually be copied. Most Moves, Maneuvers and Abilities also cannot switch, ignore, or override their Unique properties."
+Weather,"Weather is a Battlefield-wide condition that can occur naturally or be created by Moves, Maneuvers or Abilities. Use /weather for the exact rules of each Weather-Type."
+Wind Move,A Move or Maneuver based on wind currents. Interacts with Wind Power and other effects that reference Wind Moves or Maneuvers.
+Z-Move,Z-Moves are special Moves powered by Z-Crystals and enabled by a Z-Ring. Type Z-Crystals upgrade Moves of their matching Type; signature Z-Crystals upgrade their specified Move or Pokémon. A Z-Ring allows the use of Z-Moves and Z-Crystals.

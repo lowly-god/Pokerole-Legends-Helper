@@ -8,7 +8,7 @@
   "Accuracy2": "Channel",
   "Target": "All Foes",
   "Description": "Call upon the restless spirits of the dead and send them to destroy your opponents. A truly frightening sight to witness.",
-  "Effect": "Lethal. Unique.",
+  "Effect": "Unique. Lethal.",
   "_id": "astral-barrage",
   "Attributes": {
     "Unique": true,

@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Accuracy -2. Ranged. Lethal. High Critical. Cutter Move.",
+  "Effect": "Accuracy -2. Cutter Move. Ranged. Lethal. High Critical.",
   "Description": "Obsidian shards are sent out against the foe. This rock may be brittle but is the sharpest in the world.",
   "_id": "stone-edge",
   "Attributes": {

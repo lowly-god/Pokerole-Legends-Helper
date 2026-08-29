@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Accuracy -2. Lethal. Unique. Roll 2 Chance Dice to Paralyze the Target.",
+  "Effect": "Accuracy -2. Unique. Lethal. Roll 2 Chance Dice to Paralyze the Target.",
   "Description": "Zekrom delivers a powerful tackle while discharging lightning through its body. The foe is rendered unable to move, either by the strike of the electricity.",
   "_id": "bolt-strike",
   "Attributes": {

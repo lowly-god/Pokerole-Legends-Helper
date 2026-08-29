@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Channel / Stealth",
   "Target": "All Foes",
-  "Effect": "Ranged. Lethal. Unique.",
+  "Effect": "Unique. Ranged. Lethal.",
   "Description": "The earth moves on its own, no attacker in sight. The floor crumbles and the ground shakes engulfing its victims. From the rubble, lush trees emerge a short time after.",
   "_id": "land's-wrath",
   "Attributes": {

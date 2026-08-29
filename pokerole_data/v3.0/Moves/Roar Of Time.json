@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Accuracy -1. Must Recharge. Lethal. Unique. If successful, the Target can't take any action unless they spend 1 Will point per action attempted. Duration 1 Round.",
+  "Effect": "Accuracy -1. Unique. Must Recharge. Lethal. If successful, the Target can't take any action unless they spend 1 Will point per action attempted. Duration 1 Round.",
   "Description": "Through a terrifying roar, Dialga bounds the forces of time on a single area, the unfortunate target will be trapped in a time warp, growing old in a matter of miliseconds.",
   "_id": "roar-of-time",
   "Attributes": {

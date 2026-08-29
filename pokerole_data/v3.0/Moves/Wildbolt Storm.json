@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Nature",
   "Target": "Area",
-  "Effect": "Accuracy -2. Lethal. Wind Move. Roll 3 Chance Dice to Paralyze those affected.",
+  "Effect": "Accuracy -2. Wind Move. Lethal. Roll 3 Chance Dice to Paralyze those affected.",
   "Description": "The whole battlefield becomes engulfed in a wild lightning storm. Leaving the safety of cover could be a fatal mistake.",
   "_id": "wildbolt-storm",
   "Attributes": {

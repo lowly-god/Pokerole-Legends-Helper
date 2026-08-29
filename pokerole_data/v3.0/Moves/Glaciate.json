@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "All Foes",
-  "Effect": "Lethal. Unique. Reduce by 1 the Dexterity of those affected. Roll 3 Chance Dice to inflict Frostbite (1) on those affected.",
+  "Effect": "Unique. Lethal. Reduce by 1 the Dexterity of those affected. Roll 3 Chance Dice to inflict Frostbite (1) on those affected.",
   "Description": "The air is so cold it hurts to move, to see, to breath. Escaping should be your top priority, for every second you don’t your life will be at peril.",
   "_id": "glaciate",
   "Attributes": {

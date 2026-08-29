@@ -28,6 +28,14 @@ weathers = [
     'Midnight Weather',
     'Dense Fog',
 ]
+terrains = [
+    'Electric Terrain',
+    'Grassy Terrain',
+    'Misty Terrain',
+    'Psychic Terrain',
+    'Shadow Terrain',
+    'Snowy Terrain',
+]
 natures = [
     'Adamant',
     'Bashful',
@@ -60,7 +68,8 @@ natures = [
 NATURE_DETAILS = {'Adamant': ('1-4', '+1 Maximum Strength, -1 Maximum Special', 4), 'Bashful': ('5-8', 'Neutral', 6), 'Bold': ('9-12', '+1 Maximum Vitality, -1 Maximum Strength', 9), 'Brave': ('13-16', '+1 Maximum Strength, -1 Maximum Dexterity', 9), 'Calm': ('17-20', '+1 Maximum Insight, -1 Maximum Strength', 8), 'Careful': ('21-24', '+1 Maximum Insight, -1 Maximum Special', 5), 'Docile': ('25-28', 'Neutral', 7), 'Gentle': ('29-32', '+1 Maximum Insight, -1 Maximum Vitality', 10), 'Hardy': ('33-36', 'Neutral', 9), 'Hasty': ('37-40', '+1 Maximum Dexterity, -1 Maximum Vitality', 7), 'Impish': ('41-44', '+1 Maximum Vitality, -1 Maximum Special', 7), 'Jolly': ('45-48', '+1 Maximum Dexterity, -1 Maximum Special', 10), 'Lax': ('49-52', '+1 Maximum Vitality, -1 Maximum Insight', 8), 'Lonely': ('53-56', '+1 Maximum Strength, -1 Maximum Vitality', 5), 'Mild': ('57-60', '+1 Maximum Special, -1 Maximum Vitality', 8), 'Modest': ('61-64', '+1 Maximum Special, -1 Maximum Strength', 10), 'Naive': ('65-68', '+1 Maximum Dexterity, -1 Maximum Insight', 7), 'Naughty': ('69-72', '+1 Maximum Strength, -1 Maximum Insight', 6), 'Quiet': ('73-76', '+1 Maximum Special, -1 Maximum Dexterity', 5), 'Quirky': ('77-80', 'Neutral', 9), 'Rash': ('81-84', '+1 Maximum Special, -1 Maximum Insight', 6), 'Relaxed': ('85-88', '+1 Maximum Vitality, -1 Maximum Dexterity', 8), 'Sassy': ('89-92', '+1 Maximum Insight, -1 Maximum Dexterity', 7), 'Serious': ('93-96', 'Neutral', 4), 'Timid': ('97-100', '+1 Maximum Dexterity, -1 Maximum Strength', 4)}
 
 effects = [
-    'Accuracy -X',
+    'Accuracy +/-X',
+    'Active Combatant',
     'Aura Move',
     'Basic Heal',
     'Beam Move',
@@ -68,14 +77,22 @@ effects = [
     'Blocks',
     'Chance Dice',
     'Charge Move',
+    'Clash',
+    'Complete Heal',
     'Copy Move',
+    'Cover',
+    'Critical Failure',
+    'Cure Status',
     'Cutter Move',
     'Dance Move',
     'Darkness Move',
     'Double Action',
     'Drain Move',
+    'Duration',
     'Entry Hazard',
+    'Evade',
     'Explosive Move',
+    'Field-Type',
     'Fist Move',
     'Force Field',
     'High Critical',
@@ -84,7 +101,10 @@ effects = [
     'Late Reaction',
     'Lethal',
     'Light Move',
+    'Luck Check',
     'Lunar Move',
+    'Minor Heal',
+    'Move Targets',
     'Must Recharge',
     'Never Miss',
     'Ongoing Damage',
@@ -96,17 +116,24 @@ effects = [
     'Rampage',
     'Ranged',
     'Reaction',
+    'Reckless Switch',
     'Recoil',
     'Retaliatory Move',
+    'Set Damage',
     'Shield Move',
     'Solar Move',
     'Sound Move',
     'Special Move',
+    'STAB',
     'Successive Actions',
     'Support Move',
     'Switcher Move',
+    'Terrain',
+    'Triple Action',
     'Unique',
+    'Weather',
     'Wind Move',
+    'Z-Move',
 ]
 
 version_converter = ["v3.0", "v3.0"]
@@ -119,6 +146,18 @@ async def send_msg(context, msg, *, view=None):
 
 
 _MOVE_KEYWORD_EXCLUSIONS = {'Physical Move', 'Special Move', 'Support Move'}
+_TERRAIN_MOVE_NAMES = {
+    'Electric Terrain', 'Grassy Terrain', 'Misty Terrain',
+    'Psychic Terrain', 'Snowy Terrain', 'Shadow Terrain',
+}
+_SETTING_WEATHER_RE = re.compile(
+    r'(?i)\b(?:activate|start|starts|started|set|sets|summon|summons|call|calls|create|creates)\b'
+    r'[^.\n]{0,100}\bweather\b'
+)
+_SETTING_TERRAIN_RE = re.compile(
+    r'(?i)\b(?:activate|start|starts|started|set|sets|summon|summons|call|calls|create|creates)\b'
+    r'[^.\n]{0,100}\bterrain\b'
+)
 
 
 def _effect_tokens(effect_text):
@@ -142,43 +181,66 @@ def _has_keyword_token(effect_text, keyword):
     return False
 
 
+def _iter_json_records(directory):
+    directory = Path(directory)
+    if not directory.is_dir():
+        return
+    for path in directory.glob('*.json'):
+        try:
+            data = json.loads(path.read_text(encoding='utf-8'))
+        except Exception:
+            continue
+        yield str(data.get('Name') or path.stem), str(data.get('Effect') or '')
+
+
+def _iter_maneuver_records():
+    maneuver_path = Path('maneuver_data.json')
+    if not maneuver_path.is_file():
+        return
+    try:
+        data = json.loads(maneuver_path.read_text(encoding='utf-8'))
+    except Exception:
+        return
+
+    seen = set()
+
+    def walk(value):
+        if isinstance(value, dict):
+            if 'name' in value and 'effect' in value:
+                key = (str(value['name']), str(value.get('effect') or ''))
+                if key not in seen:
+                    seen.add(key)
+                    yield key
+            for nested in value.values():
+                yield from walk(nested)
+        elif isinstance(value, list):
+            for nested in value:
+                yield from walk(nested)
+
+    yield from walk(data)
+
+
 def linked_keyword_names(effect_name):
-    """Return (moves, maneuvers) carrying an /effect move keyword."""
-    if not effect_name.endswith(' Move') or effect_name in _MOVE_KEYWORD_EXCLUSIONS:
+    """Return (moves, maneuvers) carrying an /effect keyword."""
+    if effect_name.endswith(' Move') and effect_name not in _MOVE_KEYWORD_EXCLUSIONS:
+        move_keyword = effect_name
+        maneuver_keyword = effect_name[:-5] + ' Maneuver'
+    elif effect_name.endswith(' Maneuver'):
+        move_keyword = None
+        maneuver_keyword = effect_name
+    else:
         return [], []
 
     moves = set()
-    move_dir = Path('pokerole_data') / 'v3.0' / 'Moves'
-    if move_dir.is_dir():
-        for path in move_dir.glob('*.json'):
-            try:
-                data = json.loads(path.read_text(encoding='utf-8'))
-            except Exception:
-                continue
-            if _has_keyword_token(data.get('Effect', ''), effect_name):
-                moves.add(str(data.get('Name') or path.stem))
+    if move_keyword:
+        for name, effect_text in _iter_json_records(Path('pokerole_data') / 'v3.0' / 'Moves') or []:
+            if _has_keyword_token(effect_text, move_keyword):
+                moves.add(name)
 
-    maneuver_keyword = effect_name[:-5] + ' Maneuver'
     maneuvers = set()
-    maneuver_path = Path('maneuver_data.json')
-    if maneuver_path.is_file():
-        try:
-            data = json.loads(maneuver_path.read_text(encoding='utf-8'))
-        except Exception:
-            data = {}
-
-        def walk(value):
-            if isinstance(value, dict):
-                if 'name' in value and 'effect' in value:
-                    if _has_keyword_token(value.get('effect', ''), maneuver_keyword):
-                        maneuvers.add(str(value['name']))
-                for nested in value.values():
-                    walk(nested)
-            elif isinstance(value, list):
-                for nested in value:
-                    walk(nested)
-
-        walk(data)
+    for name, effect_text in _iter_maneuver_records() or []:
+        if _has_keyword_token(effect_text, maneuver_keyword):
+            maneuvers.add(name)
 
     return (
         sorted(moves, key=str.casefold),
@@ -186,16 +248,63 @@ def linked_keyword_names(effect_name):
     )
 
 
-def _linked_keyword_chunks(effect_name, moves, maneuvers, limit=1900):
-    lines = [f'**{effect_name} — Linked Moves**']
-    if moves:
-        lines.append('**Moves**')
-        lines.extend(moves)
-    if maneuvers:
-        lines.append('**Maneuvers**')
-        lines.extend(maneuvers)
-    if not moves and not maneuvers:
-        lines.append('No linked Moves or Maneuvers were found.')
+def _z_move_names():
+    moves = set()
+    for name, effect_text in _iter_json_records(Path('pokerole_data') / 'v3.0' / 'Moves') or []:
+        if _has_keyword_token(effect_text, 'Z-Move'):
+            moves.add(name)
+    return sorted(moves, key=str.casefold)
+
+
+def _weather_setters():
+    moves, abilities, maneuvers = set(), set(), set()
+    for name, effect_text in _iter_json_records(Path('pokerole_data') / 'v3.0' / 'Moves') or []:
+        if _SETTING_WEATHER_RE.search(effect_text):
+            moves.add(name)
+    # Requested future Move: include it even though it is not in the bot yet.
+    moves.add('Mourning Mist')
+    for name, effect_text in _iter_json_records(Path('pokerole_data') / 'v3.0' / 'Abilities') or []:
+        if _SETTING_WEATHER_RE.search(effect_text):
+            abilities.add(name)
+    for name, effect_text in _iter_maneuver_records() or []:
+        if _SETTING_WEATHER_RE.search(effect_text):
+            maneuvers.add(name)
+    return (
+        sorted(moves, key=str.casefold),
+        sorted(abilities, key=str.casefold),
+        sorted(maneuvers, key=str.casefold),
+    )
+
+
+def _terrain_setters():
+    moves, abilities, maneuvers = set(), set(), set()
+    for name, effect_text in _iter_json_records(Path('pokerole_data') / 'v3.0' / 'Moves') or []:
+        if name in _TERRAIN_MOVE_NAMES or _SETTING_TERRAIN_RE.search(effect_text):
+            moves.add(name)
+    for name, effect_text in _iter_json_records(Path('pokerole_data') / 'v3.0' / 'Abilities') or []:
+        if _SETTING_TERRAIN_RE.search(effect_text):
+            abilities.add(name)
+    for name, effect_text in _iter_maneuver_records() or []:
+        if _SETTING_TERRAIN_RE.search(effect_text):
+            maneuvers.add(name)
+    return (
+        sorted(moves, key=str.casefold),
+        sorted(abilities, key=str.casefold),
+        sorted(maneuvers, key=str.casefold),
+    )
+
+
+def _linked_effect_chunks(title, sections, limit=1900):
+    lines = [f'**{title}**']
+    has_any = False
+    for heading, entries in sections:
+        if not entries:
+            continue
+        has_any = True
+        lines.append(f'**{heading}**')
+        lines.extend(entries)
+    if not has_any:
+        lines.append('No linked entries were found.')
 
     chunks = []
     current = ''
@@ -211,39 +320,82 @@ def _linked_keyword_chunks(effect_name, moves, maneuvers, limit=1900):
     return chunks
 
 
-class EffectKeywordView(discord.ui.View):
-    def __init__(self, effect_name, moves, maneuvers):
+class EffectLinksView(discord.ui.View):
+    def __init__(self, label, title, sections):
         super().__init__(timeout=180)
-        self.effect_name = effect_name
-        self.moves = moves
-        self.maneuvers = maneuvers
+        self.title = title
+        self.sections = sections
         button = discord.ui.Button(
             style=discord.ButtonStyle.secondary,
-            label='View Linked Moves',
+            label=label,
         )
-        button.callback = self.show_linked_moves
+        button.callback = self.show_links
         self.add_item(button)
 
-    async def show_linked_moves(self, interaction):
-        chunks = _linked_keyword_chunks(
-            self.effect_name, self.moves, self.maneuvers
-        )
+    async def show_links(self, interaction):
+        chunks = _linked_effect_chunks(self.title, self.sections)
         await interaction.response.send_message(chunks[0])
         for chunk in chunks[1:]:
             await interaction.followup.send(chunk)
 
 
 def effect_keyword_view(effect_name):
+    if effect_name == 'Z-Move':
+        moves = _z_move_names()
+        return EffectLinksView(
+            'View All Z-Moves',
+            'Z-Moves',
+            [('Moves', moves)],
+        )
+
+    if effect_name == 'Weather':
+        moves, abilities, maneuvers = _weather_setters()
+        return EffectLinksView(
+            'View Weather Setters',
+            'Weather Setters',
+            [('Moves', moves), ('Abilities', abilities), ('Maneuvers', maneuvers)],
+        )
+
+    if effect_name == 'Terrain':
+        moves, abilities, maneuvers = _terrain_setters()
+        return EffectLinksView(
+            'View Terrain Setters',
+            'Terrain Setters',
+            [('Moves', moves), ('Abilities', abilities), ('Maneuvers', maneuvers)],
+        )
+
     moves, maneuvers = linked_keyword_names(effect_name)
     if not moves and not maneuvers:
         return None
-    return EffectKeywordView(effect_name, moves, maneuvers)
+    if moves and maneuvers:
+        label = 'View Linked Moves/Maneuvers'
+    elif maneuvers:
+        label = 'View Linked Maneuvers'
+    else:
+        label = 'View Linked Moves'
+    return EffectLinksView(
+        label,
+        f'{effect_name} — Linked Entries',
+        [('Moves', moves), ('Maneuvers', maneuvers)],
+    )
+
+
+def _format_effect_description(description):
+    """Preserve authored paragraph and bullet formatting in /effect output."""
+    text = str(description or '').strip()
+    if not text:
+        return '-'
+    if '\n' in text:
+        return text
+    return f'- {text}'
+
 
 class Misc(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
         self.weather = dict()
+        self.terrain = dict()
         self.status_v3 = dict()
         self.nature = dict()
         self.effects = dict()
@@ -301,6 +453,13 @@ class Misc(commands.Cog):
             for row in reader:
                 self.weather[row[0]] = row[1:]
 
+    async def instantiateTerrain(self):
+        # 0 is name, 1 is description, 2 is effect
+        with open('terrain.csv', 'r', encoding = "UTF-8") as file:
+            reader = csv.reader(file)
+            for row in reader:
+                self.terrain[row[0]] = row[1:]
+
     async def instantiateStatus(self):
         with open('status_v3.csv', 'r', encoding='UTF-8') as file:
             reader = csv.reader(file)
@@ -352,6 +511,30 @@ class Misc(commands.Cog):
                 output = f'`{weather}` wasn\'t found in the weather list:{weatherrepl}'\
                          + weatherrepl.join([str(k) for k in self.weather.keys()])
         await send_msg(ctx, output)
+
+    async def terrain_func(self, ctx, *, terrain = ''):
+        if len(self.terrain) == 0:
+            await self.instantiateTerrain()
+        output = ''
+        terrainrepl = '\n- '
+        if terrain == '':
+            #list all terrain types
+            for k, v in list(self.terrain.items()):
+                output += f'**{k}**{terrainrepl}*{v[0]}*\n'
+        else:
+            #list a single terrain description
+            terrain = terrain.title()
+            if f'{terrain} Terrain' in self.terrain:
+                terrain += ' Terrain'
+            if terrain in self.terrain:
+                # Match /weather formatting: each rule begins on its own bullet.
+                effect = re.sub(r'\. (?=[^(])', '.' + terrainrepl, self.terrain[terrain][1])
+                output = f'**{terrain}**:\n*{self.terrain[terrain][0]}*{terrainrepl}{effect}'
+            else:
+                output = f'`{terrain}` wasn\'t found in the terrain list:{terrainrepl}'\
+                         + terrainrepl.join([str(k) for k in self.terrain.keys()])
+        await send_msg(ctx, output)
+
 
     # @commands.command(name = 'status',
     #                   help = 'Quick reference for statuses.\n'
@@ -431,25 +614,43 @@ class Misc(commands.Cog):
         output = ''
         effectrepl = '\n- '
         if effect == '':
-            #list all effects
-            for k, v in sorted(self.effects.items(), key=lambda item: item[0].casefold()):
-                output += f'**{k}**{effectrepl}{v}\n'
+            # The full reference is now too large for one Discord message.
+            entries = [
+                f'**{k}**\n{_format_effect_description(v)}'
+                for k, v in sorted(self.effects.items(), key=lambda item: item[0].casefold())
+            ]
+            chunks = []
+            current = ''
+            for entry in entries:
+                addition = entry if not current else '\n' + entry
+                if current and len(current) + len(addition) > 1900:
+                    chunks.append(current)
+                    current = entry
+                else:
+                    current += addition
+            if current:
+                chunks.append(current)
+
+            for index, chunk in enumerate(chunks):
+                if index == 0:
+                    await send_msg(ctx, chunk)
+                elif isinstance(ctx, discord.Interaction):
+                    await ctx.followup.send(chunk)
+                else:
+                    await ctx.send(chunk)
+            return
         else:
             #list a single effect description
             requested = effect.strip().casefold()
             canonical = next((name for name in self.effects if name.casefold() == requested), None)
             if canonical is not None:
                 effect = canonical
-                effect2 = self.effects[effect].replace('. ', '.'+effectrepl)
-                #output = f'**{effect}**:\n*{self.effects[effect]}*{effectrepl}{effect2}'
-                output = f'**{effect}**:{effectrepl}{effect2}'
+                output = f'**{effect}**:\n{_format_effect_description(self.effects[effect])}'
                 view = effect_keyword_view(effect)
             else:
                 output = f'`{effect}` wasn\'t found in the effect list:{effectrepl}'\
                          + effectrepl.join(sorted((str(k) for k in self.effects.keys()), key=str.casefold))
                 view = None
-        if effect == '':
-            view = None
         await send_msg(ctx, output, view=view)
 
 
@@ -485,6 +686,25 @@ class Misc(commands.Cog):
     )
     async def slash_weather(self, inter, *, weather : str):
         await self.weather_func(ctx = inter, weather = weather)
+
+
+    @commands.hybrid_command(
+        name = 'terrain',
+        description = "Display information about a Terrain-Type",
+        help = 'Quick reference for terrain.\n'
+            'Type `%terrain` for a list of all terrain types, or'
+            'type `%terrain psychic` for example for an in-depth explanation.'
+    )
+    @app_commands.describe(
+        terrain = "Which terrain?"
+    )
+    @app_commands.choices(
+        terrain = [
+            Choice(name = x, value = x) for x in list(terrains)
+        ]
+    )
+    async def slash_terrain(self, inter, *, terrain : str):
+        await self.terrain_func(ctx = inter, terrain = terrain)
 
 
     @commands.hybrid_command(

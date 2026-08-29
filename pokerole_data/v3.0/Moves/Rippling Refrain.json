@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "All Foes",
-  "Effect": "Switcher Move. Sound Move. Unique. Roll 5 Chance Dice to Switch Out those affected, after dealing Damage.",
+  "Effect": "Unique. Switcher Move. Sound Move. Roll 5 Chance Dice to Switch Out those affected, after dealing Damage.",
   "Description": "The User sings in odd harmonies that create ripples of the fabric of reality.",
   "_id": "rippling-refrain",
   "Attributes": {

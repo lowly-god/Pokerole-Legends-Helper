@@ -1,6 +1,6 @@
 {
   "Name": "Wimp Out",
-  "Effect": "Whenever this Pokémon reaches half or less of its total HP, it will switch out to its pokeball, sending an allied Pokémon to take its place. If there is no allied Pokémon, the battle may end. This Ability's effect is not affected by Block.",
+  "Effect": "Whenever this Pokémon reaches half or less of its total HP, it will switch out to its pokeball, sending an allied Pokémon to take its place. If there is no allied Pokémon, the battle may end. This Ability's effect is not affected by being Blocked.",
   "Description": "The Pokémon goes into a lot of stress whenever its exoskeleton is weakened, it can escape from any situation out of sheer cowardice.",
   "_id": "wimp-out"
 }

@@ -7,11 +7,13 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "All Foes",
-  "Effect": "Blocks. Ongoing. Unique. Roll 3 Chance Dice to Block those affected. Each those affected Blocked in this way takes 2 Dice of Damage at the end of the Round. Duration 4 Rounds.",
+  "Effect": "Unique. Blocks. Ongoing Damage. Roll 3 Chance Dice to Block those affected. Each Target Blocked in this way suffers Ongoing Damage. Duration 4 Rounds.",
   "Description": "The User manifests strange dark spectral tentacles to apprehend and restrict its Targets.",
   "_id": "spectral-tentacles",
   "Attributes": {
-    "Unique": true
+    "Unique": true,
+    "OngoingDamage": true,
+    "Duration": 4
   },
   "AddedEffects": {},
   "Category": "Special"

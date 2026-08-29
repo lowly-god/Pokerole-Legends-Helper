@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl / Channel",
   "Target": "Foe",
-  "Effect": "If a Barrier is in place on the Target's side (ie. Light Screen, Reflect) destroy the Barrier.",
+  "Effect": "If there is a Force Field on the Target's side of the field, destroy it.",
   "Description": "A shattering ram attack with a shadowy aura.",
   "_id": "shadow-break",
   "Attributes": {},

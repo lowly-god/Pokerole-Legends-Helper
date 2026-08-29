@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Alert / Aura",
   "Target": "Foe",
-  "Effect": "Aura Move. Unique. All the User's Moves against the Target have Never Miss.",
+  "Effect": "Unique. Aura Move. All the User's Moves against the Target have Never Miss.",
   "Description": "The User tracks its quarry with relentless precision.",
   "_id": "aura-snare",
   "Attributes": {

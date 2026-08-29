@@ -10720,7 +10720,7 @@
         {
           "name": "Light Clay",
           "price": "7000",
-          "effect": "Holder’s Barrier Moves last for 8 Rounds",
+          "effect": "Holder’s Force Fields last for 8 Rounds",
           "category": "General Items"
         },
         {
@@ -10924,7 +10924,7 @@
         {
           "name": "Protective Pads",
           "price": "5000",
-          "effect": "User is immune to Contact Effects",
+          "effect": "User is immune to effects triggered by Non-Ranged Physical attacks",
           "category": "General Items"
         },
         {
@@ -10936,7 +10936,7 @@
         {
           "name": "Punching Gloves",
           "price": "5000",
-          "effect": "Fist Moves gain +1 Damage Dice, and prevents Foe’s Contact Effects from triggering",
+          "effect": "Fist Moves gain +1 Damage Dice and do not trigger effects that activate when the Target is hit by a Non-Ranged Physical Move.",
           "category": "General Items"
         },
         {
@@ -11002,7 +11002,7 @@
         {
           "name": "Rocky Helmet",
           "price": "7000",
-          "effect": "Foes making Contact with the holder take 1 Damage",
+          "effect": "Foes that hit the holder with a Non-Ranged Physical Move take 1 Damage.",
           "category": "General Items"
         },
         {
@@ -11866,7 +11866,7 @@
         {
           "name": "Typhlosion Crest",
           "price": "40000",
-          "effect": "Increase either Typhlosion's Strength or Special to match whichever is higher. Its contact Moves gain +1 Damage Dice.",
+          "effect": "Increase either Typhlosion's Strength or Special to match whichever is higher. Its Non-Ranged Physical Moves gain +1 Damage Dice.",
           "category": "Crests"
         },
         {
@@ -12909,7 +12909,7 @@
         {
           "name": "Light Clay",
           "price": "7000",
-          "effect": "Holder’s Barrier Moves last for 8 Rounds",
+          "effect": "Holder’s Force Fields last for 8 Rounds",
           "category": "General Items"
         },
         {
@@ -13113,7 +13113,7 @@
         {
           "name": "Protective Pads",
           "price": "5000",
-          "effect": "User is immune to Contact Effects",
+          "effect": "User is immune to effects triggered by Non-Ranged Physical attacks",
           "category": "General Items"
         },
         {
@@ -13125,7 +13125,7 @@
         {
           "name": "Punching Gloves",
           "price": "5000",
-          "effect": "Fist Moves gain +1 Damage Dice, and prevents Foe’s Contact Effects from triggering",
+          "effect": "Fist Moves gain +1 Damage Dice and do not trigger effects that activate when the Target is hit by a Non-Ranged Physical Move.",
           "category": "General Items"
         },
         {
@@ -13191,7 +13191,7 @@
         {
           "name": "Rocky Helmet",
           "price": "7000",
-          "effect": "Foes making Contact with the holder take 1 Damage",
+          "effect": "Foes that hit the holder with a Non-Ranged Physical Move take 1 Damage.",
           "category": "General Items"
         },
         {
@@ -18333,7 +18333,7 @@
         {
           "name": "Typhlosion Crest",
           "price": "40000",
-          "effect": "Increase either Typhlosion's Strength or Special to match whichever is higher. Its contact Moves gain +1 Damage Dice.",
+          "effect": "Increase either Typhlosion's Strength or Special to match whichever is higher. Its Non-Ranged Physical Moves gain +1 Damage Dice.",
           "category": "Crests"
         },
         {

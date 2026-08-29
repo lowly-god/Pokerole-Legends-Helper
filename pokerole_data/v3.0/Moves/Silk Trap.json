@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Stealth",
   "Target": "Self",
-  "Effect": "Reaction 4. Shield Move. Reduce 3 Damage the User would receive from a Damaging Move. If the Target used a Non-Ranged Physical Move against the User, Reduce the Target's Dexterity by 2.",
+  "Effect": "Shield Move. Reaction 4. Reduce 3 Damage the User would receive from a Damaging Move. If the Target used a Non-Ranged Physical Move against the User, Reduce the Target's Dexterity by 2.",
   "Description": "The Pokémon weaves a thread of silk around specific parts of their body, both as an armor and as a trap to snare their enemies.",
   "_id": "silk-trap",
   "Attributes": {

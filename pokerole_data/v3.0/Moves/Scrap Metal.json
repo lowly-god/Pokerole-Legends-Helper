@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Projectile Move. Ranged. Cutter Move. Roll 3 Chance Dice to Poison the Target.",
+  "Effect": "Cutter Move. Ranged. Projectile Move. Roll 3 Chance Dice to Poison the Target.",
   "Description": "The User hurls unsanitary rusted, jagged scrap metal at the Foe.",
   "_id": "scrap-metal",
   "Attributes": {

@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Lethal. Unique. This Move is resisted with the Target's Defense instead of its Sp. Defense.",
+  "Effect": "Unique. Lethal. This Move is resisted with the Target's Defense instead of its Sp. Defense.",
   "Description": "Through sheer psychic power, the user materializes its energy to deal a heavy strike to its foe.",
   "_id": "psystrike",
   "Attributes": {

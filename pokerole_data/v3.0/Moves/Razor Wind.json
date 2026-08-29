@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "All Foes",
-  "Effect": "Charge Move. High Critical. Cutter Move.",
+  "Effect": "Charge Move. Cutter Move. High Critical.",
   "Description": "The Pokémon sways the winds while charging what appears to be an invisible blade made of pressurized air. The wind slices everything it touches as if it were a razor.",
   "_id": "razor-wind",
   "Attributes": {

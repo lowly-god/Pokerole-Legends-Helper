@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Nature",
   "Target": "All Allies",
-  "Effect": "Reaction 3. Shield Move. Negate the Added Effects from Moves made against the Targets.",
+  "Effect": "Shield Move. Reaction 3. Negate the Added Effects from Moves made against the Targets.",
   "Description": "The Pokémon creates a magic shield to protect everyone from any tricks a foe has up their sleeve. Under this shield, everyone can see dishonesty and bad intentions",
   "_id": "crafty-shield",
   "Attributes": {

@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Projectile Move. Accuracy -1. Ranged. Reduce the Target's Dexterity by 1.",
+  "Effect": "Accuracy -1. Ranged. Projectile Move. Reduce the Target's Dexterity by 1.",
   "Description": "The pokémon buries their foe prematurely, but it’ll be good practice for the real thing.",
   "_id": "rock-tomb",
   "Attributes": {

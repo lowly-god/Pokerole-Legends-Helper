@@ -7,7 +7,7 @@
   "Accuracy1": "Same As Base Move",
   "Accuracy2": "",
   "Target": "Foe",
-  "Effect": "Z-Move. Suggested effects: Remove Barriers, Attribute Increase, Damage Increase See p. 610 for more info.",
+  "Effect": "Z-Move. Suggested effects: Remove Force Fields, Attribute Increase, Damage Increase See p. 610 for more info.",
   "Description": "",
   "_id": "all-out_pummeling",
   "Attributes": {

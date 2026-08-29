@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Reaction 1. Fist Move.",
+  "Effect": "Fist Move. Reaction 1.",
   "Description": "The fist of justice strikes true, swift...and wet!",
   "_id": "jet-punch",
   "Attributes": {

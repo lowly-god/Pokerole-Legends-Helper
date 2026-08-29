@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Projectile Move. Ranged. Double Action.",
+  "Effect": "Ranged. Projectile Move. Double Action.",
   "Description": "The Pokémon’s head is a nest for its less evolved forms, the younglings will sometimes be used as projectiles.",
   "_id": "dragon-darts",
   "Attributes": {

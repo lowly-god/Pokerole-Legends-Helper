@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "General Items",
   "Category": "General Items",
-  "Description": "Fist Moves gain +1 Damage Dice, and prevents Foe’s Contact Effects from triggering",
+  "Description": "Fist Moves gain +1 Damage Dice and do not trigger effects that activate when the Target is hit by a Non-Ranged Physical Move.",
   "OneUse": false,
   "TrainerPrice": "5000",
   "Cures": "",

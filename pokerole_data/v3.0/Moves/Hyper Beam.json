@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Beam Move. Accuracy -1. Must Recharge. Lethal.",
+  "Effect": "Accuracy -1. Beam Move. Must Recharge. Lethal.",
   "Description": "A devastating beam, a path of destruction that can extend for miles is the unmistakable proof someone used this Move. Let the user rest before trying to use it again.",
   "_id": "hyper-beam",
   "Attributes": {

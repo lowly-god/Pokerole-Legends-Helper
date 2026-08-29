@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Light Move. Accuracy -1. Recoil. Lethal. Unique.",
+  "Effect": "Accuracy -1. Unique. Light Move. Recoil. Lethal.",
   "Description": "By drawing energy from the Eternal Flower, the Pokémon unleashes all of its hurt. A beautiful light surrounds the area, yet the pain inside of its heart remains.",
   "_id": "light-of-ruin",
   "Attributes": {

@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Ranged. High Critical. Cutter Move.",
+  "Effect": "Cutter Move. Ranged. High Critical.",
   "Description": "The user sends out an invisible sword made with psychic energy that slashes targets even if they are far away",
   "_id": "psycho-cut",
   "Attributes": {

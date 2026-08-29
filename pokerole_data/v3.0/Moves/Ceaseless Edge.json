@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Accuracy -2. High Critical. Cutter Move. Ongoing Damage with Duration of 4 Rounds.",
+  "Effect": "Accuracy -2. Cutter Move. High Critical. Ongoing Damage with Duration of 4 Rounds.",
   "Description": "The user slashes the foe using a sharp but brittle shell. Tiny spikes from the shell are left embedded into the foe’s wounds causing more damage as the foe moves.",
   "_id": "ceaseless-edge",
   "Attributes": {

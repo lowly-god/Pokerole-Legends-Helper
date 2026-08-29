@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Kick Move. Accuracy -2.",
+  "Effect": "Accuracy -2. Kick Move.",
   "Description": "A mighty kick. This sheer muscle-power strike can turn concrete pillars into rubble.",
   "_id": "mega-kick",
   "Attributes": {

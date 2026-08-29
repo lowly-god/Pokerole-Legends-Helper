@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Unique. Accuracy -2. Successive Actions.",
+  "Effect": "Accuracy -2. Unique. Successive Actions.",
   "Description": "The Pokémon and their family attack the foe in waves. Parents, children, cousins, aunts, uncles, and extended relatives, the whole family tree will appear on an onslaught.",
   "_id": "population-bomb",
   "Attributes": {

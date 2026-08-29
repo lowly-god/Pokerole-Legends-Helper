@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Channel / Athletic",
   "Target": "Foe",
-  "Effect": "Accuracy -1. Projectile Move. Ranged. Roll 1 Chance Dice to inflict Burn (2) on the Target.",
+  "Effect": "Accuracy -1. Ranged. Projectile Move. Roll 1 Chance Dice to inflict Burn (2) on the Target.",
   "Description": "The Pokémon lights a heavy stone on fire and kicks it while it’s ablaze. The hit is pretty heavy already, the fire is just for showing off.",
   "_id": "pyro-ball",
   "Attributes": {

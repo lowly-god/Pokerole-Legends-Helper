@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Channel",
   "Target": "All Foes",
-  "Effect": "Projectile Move. Accuracy -1. Ranged. Roll 3 Chance Dice to Flinch those affected.",
+  "Effect": "Accuracy -1. Ranged. Projectile Move. Roll 3 Chance Dice to Flinch those affected.",
   "Description": "Don’t worry, even if you are not the fastest one in the race, you can still win by a landslide.",
   "_id": "rock-slide",
   "Attributes": {

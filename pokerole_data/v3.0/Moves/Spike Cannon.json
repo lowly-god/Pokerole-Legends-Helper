@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Ranged. Successive Actions. Projectile Move.",
+  "Effect": "Ranged. Projectile Move. Successive Actions.",
   "Description": "The Pokémon shoots wave after wave of hundreds of tiny spikes.",
   "_id": "spike-cannon",
   "Attributes": {

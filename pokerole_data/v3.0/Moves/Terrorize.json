@@ -7,10 +7,12 @@
   "Accuracy1": "Special",
   "Accuracy2": "Intimidate",
   "Target": "Foe",
-  "Effect": "Roll 2 Chance Dice to Confuse the Target. Recharge.",
+  "Effect": "Must Recharge. Roll 2 Chance Dice to Confuse the Target.",
   "Description": "The Target is ensnared in nightmarish visions, haunted by unsettling phantoms, possibly succumbing to confusion as it battles inner terrors.",
   "_id": "terrorize",
-  "Attributes": {},
+  "Attributes": {
+    "MustRecharge": true
+  },
   "AddedEffects": {},
   "Category": "Special"
 }

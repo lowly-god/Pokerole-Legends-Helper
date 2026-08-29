@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Lethal. Ranged. Roll 3 Chance Dice to Poison the Target.",
+  "Effect": "Ranged. Lethal. Roll 3 Chance Dice to Poison the Target.",
   "Description": "Surrounded by noxious gases, the victim is spun around at high speeds.",
   "_id": "noxious-torque",
   "Attributes": {

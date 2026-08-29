@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Lethal. High Critical. Cutter Move.",
+  "Effect": "Cutter Move. Lethal. High Critical.",
   "Description": "The Pokémon uses the sharpest part of their body as a blade to tear and slash with vicious intent.",
   "_id": "slash",
   "Attributes": {

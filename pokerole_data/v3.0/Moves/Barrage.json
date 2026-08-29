@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Accuracy -1. Ranged. Successive Actions. Projectile Move.",
+  "Effect": "Accuracy -1. Ranged. Projectile Move. Successive Actions.",
   "Description": "The Pokémon throws whatever objects they find, one after the other to overwhelm the foe.",
   "_id": "barrage",
   "Attributes": {

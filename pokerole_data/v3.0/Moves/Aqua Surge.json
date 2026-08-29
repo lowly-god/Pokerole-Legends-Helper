@@ -1,16 +1,18 @@
 {
-    "Name": "Aqua Surge",
-    "Type": "Water",
-    "Power": 5,
-    "Damage1": "Physical",
-    "Damage2": "",
-    "Accuracy1": "Strength",
-    "Accuracy2": "Brawl",
-    "Target": "All Foe's in Range",
-    "Effect": "Recharge. The User can’t use Evade or Clash for the rest of the Round.",
-    "Description": "The User surges toward the Foe, causing a large wave before it barrels into them at full power.",
-    "_id": "aqua-surge",
-    "Attributes": {},
-    "AddedEffects": {},
-    "Category": "Physical"
+  "Name": "Aqua Surge",
+  "Type": "Water",
+  "Power": 5,
+  "Damage1": "Physical",
+  "Damage2": "",
+  "Accuracy1": "Strength",
+  "Accuracy2": "Brawl",
+  "Target": "All Foe's in Range",
+  "Effect": "Must Recharge. The User can’t use Evade or Clash for the rest of the Round.",
+  "Description": "The User surges toward the Foe, causing a large wave before it barrels into them at full power.",
+  "_id": "aqua-surge",
+  "Attributes": {
+    "MustRecharge": true
+  },
+  "AddedEffects": {},
+  "Category": "Physical"
 }

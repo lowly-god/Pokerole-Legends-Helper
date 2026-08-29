@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Light Move. Beam Move. Accuracy -1. Lethal. Unique. Reduce User's Special by 2.",
+  "Effect": "Accuracy -1. Unique. Light Move. Beam Move. Lethal. Reduce User's Special by 2.",
   "Description": "A light beam pierces the battlefield, it deals devastating damage but leaves newly grown flowers instead of scorched earth. The user is left feeling very tired.",
   "_id": "fleur-cannon",
   "Attributes": {

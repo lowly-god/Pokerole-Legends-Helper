@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Channel / Stealth",
   "Target": "All Foes",
-  "Effect": "Ranged. Lethal. Unique. Ignore the Target's immunity to Ground. Remove the immunity to Ground-Type Moves of those affected. Whole Scene Duration.",
+  "Effect": "Unique. Ranged. Lethal. Ignore the Target's immunity to Ground. Remove the immunity to Ground-Type Moves of those affected. Whole Scene Duration.",
   "Description": "Out of nowhere, pointy shards come raining from the sky towards the Targets. Even flying creatures will fall to the ground if they are knocked by them. Take cover, this is gonna hurt.",
   "_id": "thousand-arrows",
   "Attributes": {

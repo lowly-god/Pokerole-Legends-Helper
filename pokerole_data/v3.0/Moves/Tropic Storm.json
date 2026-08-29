@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel / Nature",
   "Target": "All Foes",
-  "Effect": "Projectile Move. Wind Move. In Rain or Strong Wind Weather this Move gains: High Critical.",
+  "Effect": "Wind Move. Projectile Move. In Rain or Strong Wind Weather this Move gains: High Critical.",
   "Description": "The User flings various leaves and branches at the Foe.",
   "_id": "tropic-storm",
   "Attributes": {

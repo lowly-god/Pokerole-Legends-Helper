@@ -7,7 +7,7 @@
   "Accuracy1": "Vitality",
   "Accuracy2": "Brawl",
   "Target": "Self",
-  "Effect": "Reaction 3. Shield Move. Reduce 3 Damage this Pokémon would receive from a Damaging Move. If the Target used a non-Ranged Physical Move, Roll 2 Dice of Typeless Damage against it, ignore Defenses.",
+  "Effect": "Shield Move. Reaction 3. Reduce 3 Damage this Pokémon would receive from a Damaging Move. If the Target used a non-Ranged Physical Move, Roll 2 Dice of Typeless Damage against it, ignore Defenses.",
   "Description": "The Pokémon bunkers themselves inside a shield of thorned brambles sprouting from the ground. Anyone who gets too close will get tangled in the spiky vines.",
   "_id": "spiky-shield",
   "Attributes": {

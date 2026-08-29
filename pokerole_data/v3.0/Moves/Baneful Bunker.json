@@ -7,7 +7,7 @@
   "Accuracy1": "Vitality",
   "Accuracy2": "Nature",
   "Target": "Self",
-  "Effect": "Reaction 4. Shield Move. Reduce 3 Damage the User would receive from a Damaging Move. If the Target used a Non-Ranged Physical Move against the user, Poison the Target.",
+  "Effect": "Shield Move. Reaction 4. Reduce 3 Damage the User would receive from a Damaging Move. If the Target used a Non-Ranged Physical Move against the user, Poison the Target.",
   "Description": "The user encloses themselves inside a sturdy shell covered by poisonous barbs, if a barb pinches the Target’s skin, the wound will start to fester",
   "_id": "baneful-bunker",
   "Attributes": {

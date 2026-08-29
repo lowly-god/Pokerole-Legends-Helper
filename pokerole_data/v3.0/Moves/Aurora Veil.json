@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Ally's Battlefield",
-  "Effect": "Force Field against Physical & Special Damage. This move will fail if not performed under Hail/Snowy Weather. Duration 4 Rounds, even if Hail or Snow Weather is over.",
+  "Effect": "Force Field. Reduce incoming Physical & Special Damage by 1. This Move will fail if not performed under Hail/Snowy Weather. Duration 4 Rounds, even if Hail or Snow Weather is over.",
   "Description": "If the weather is cold enough, beautiful aurora lights will cover half of the battlefield, deflecting attacks.",
   "_id": "aurora-veil",
   "Attributes": {

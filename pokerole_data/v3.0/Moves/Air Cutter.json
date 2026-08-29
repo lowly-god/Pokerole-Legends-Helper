@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Channel",
   "Target": "All Foes",
-  "Effect": "High Critical. Wind Move. Cutter Move.",
+  "Effect": "Wind Move. Cutter Move. High Critical.",
   "Description": "A sharp wide wave of wind is sent out , everyone can feel it slicing through their midsection.",
   "_id": "air-cutter",
   "Attributes": {

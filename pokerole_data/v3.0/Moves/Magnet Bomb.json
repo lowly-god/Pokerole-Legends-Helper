@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Ranged. Never Miss. Projectile Move.",
+  "Effect": "Ranged. Projectile Move. Never Miss.",
   "Description": "The user lights the fuse of a magnetized bomb. Guess who is the other magnet?",
   "_id": "magnet-bomb",
   "Attributes": {

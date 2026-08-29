@@ -486,8 +486,6 @@ async def on_ready():
             except:
                 file[1] = load_obj(file[0])
             print(file[0] + ' info loaded!')
-            # store the newly loaded data into a backup
-            save_obj(file[1], file[0] + "_backup")
         else:
             print('file ' + file[0] + ' not found, creating file')
             tempf = open(file[0] + ".pkl", "w")

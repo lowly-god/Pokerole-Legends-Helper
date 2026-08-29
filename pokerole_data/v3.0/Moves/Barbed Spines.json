@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Ranged. Projectile Move. Successive Actions. Unique. Roll 1 Chance Dice to Badly Poison the Target.",
+  "Effect": "Unique. Ranged. Projectile Move. Successive Actions. Roll 1 Chance Dice to Badly Poison the Target.",
   "Description": "The User shoots hundreds of tiny venomous spines with barbed tips from its tail.",
   "_id": "barbed-spines",
   "Attributes": {

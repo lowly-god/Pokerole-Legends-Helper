@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Lethal. Cutter Move. Never Miss.",
+  "Effect": "Cutter Move. Lethal. Never Miss.",
   "Description": "The user gets on their knees and bows to its foe, then as the foe accepts this courtesy, a treacherous slash reveals the evil intent of the ruse.",
   "_id": "kowtow-cleave",
   "Attributes": {

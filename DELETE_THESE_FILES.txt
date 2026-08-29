@@ -1,3 +1,0 @@
-Delete these obsolete files from the bot after applying this patch:
-
-habitats.csv

@@ -7,7 +7,7 @@
   "Accuracy1": "Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
-  "Effect": "Projectile Move. Accuracy -1. Must Recharge.",
+  "Effect": "Accuracy -1. Projectile Move. Must Recharge.",
   "Description": "Those who fear fire’s destructive power have forgotten that water triumphs over the flames every single time.",
   "_id": "hydro-cannon",
   "Attributes": {
