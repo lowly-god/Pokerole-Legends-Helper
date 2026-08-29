@@ -609,6 +609,29 @@ async def ensure_required_global_commands_registered():
             if registered_weather_choices != required_weather_choices:
                 reasons.append('/weather has stale Weather-Type choices')
 
+        # /terrain also uses fixed Discord choices. Ensure newly added Terrain
+        # commands/types are registered after a normal restart, just like /weather.
+        terrain_command = registered_by_name.get('terrain')
+        required_terrain_choices = {
+            'Electric Terrain', 'Grassy Terrain', 'Misty Terrain',
+            'Psychic Terrain', 'Shadow Terrain', 'Snowy Terrain',
+        }
+        if terrain_command is None:
+            reasons.append('/terrain is missing')
+        else:
+            terrain_options = getattr(terrain_command, 'options', []) or []
+            terrain_option = next(
+                (option for option in terrain_options if getattr(option, 'name', None) == 'terrain'),
+                None,
+            )
+            registered_terrain_choices = {
+                getattr(choice, 'name', None)
+                for choice in (getattr(terrain_option, 'choices', []) or [])
+                if getattr(choice, 'name', None)
+            } if terrain_option is not None else set()
+            if registered_terrain_choices != required_terrain_choices:
+                reasons.append('/terrain has stale Terrain-Type choices')
+
         if not reasons:
             print('Patched global slash commands are already current.')
             return
@@ -633,11 +656,37 @@ async def ensure_required_global_commands_registered():
             for option in (getattr(shop_command, 'options', []) or [])
         } if shop_command else set()
 
+        weather_command = synced_by_name.get('weather')
+        weather_options = getattr(weather_command, 'options', []) or [] if weather_command else []
+        weather_option = next(
+            (option for option in weather_options if getattr(option, 'name', None) == 'weather'),
+            None,
+        )
+        synced_weather_choices = {
+            getattr(choice, 'name', None)
+            for choice in (getattr(weather_option, 'choices', []) or [])
+            if getattr(choice, 'name', None)
+        } if weather_option is not None else set()
+
+        terrain_command = synced_by_name.get('terrain')
+        terrain_options = getattr(terrain_command, 'options', []) or [] if terrain_command else []
+        terrain_option = next(
+            (option for option in terrain_options if getattr(option, 'name', None) == 'terrain'),
+            None,
+        )
+        synced_terrain_choices = {
+            getattr(choice, 'name', None)
+            for choice in (getattr(terrain_option, 'choices', []) or [])
+            if getattr(choice, 'name', None)
+        } if terrain_option is not None else set()
+
         if (
             'roll_luck_check' in synced_by_name
             and encounter_options == {'table', 'roll', 'exclude'}
             and foraging_options == {'dice'}
             and shop_options == {'shop', 'display_all_stock'}
+            and synced_weather_choices == required_weather_choices
+            and synced_terrain_choices == required_terrain_choices
         ):
             print('Patched global slash command migration completed.')
         else:
