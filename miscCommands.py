@@ -261,8 +261,6 @@ def _weather_setters():
     for name, effect_text in _iter_json_records(Path('pokerole_data') / 'v3.0' / 'Moves') or []:
         if _SETTING_WEATHER_RE.search(effect_text):
             moves.add(name)
-    # Requested future Move: include it even though it is not in the bot yet.
-    moves.add('Mourning Mist')
     for name, effect_text in _iter_json_records(Path('pokerole_data') / 'v3.0' / 'Abilities') or []:
         if _SETTING_WEATHER_RE.search(effect_text):
             abilities.add(name)

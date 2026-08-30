@@ -159,5 +159,14 @@
       "Learned": "Advanced",
       "Name": "Leaf Shield"
     }
+  ],
+  "TM": [
+    "Mourning Mist"
+  ],
+  "TR": [
+    "Mourning Mist"
+  ],
+  "Tutor": [
+    "Mourning Mist"
   ]
 }

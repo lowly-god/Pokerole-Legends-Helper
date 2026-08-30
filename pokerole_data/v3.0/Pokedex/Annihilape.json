@@ -147,5 +147,14 @@
       "Learned": "Expert",
       "Name": "Harrowing Wrath"
     }
+  ],
+  "TM": [
+    "Mourning Mist"
+  ],
+  "TR": [
+    "Mourning Mist"
+  ],
+  "Tutor": [
+    "Mourning Mist"
   ]
 }

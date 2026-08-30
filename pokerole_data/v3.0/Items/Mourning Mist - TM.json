@@ -1,0 +1,14 @@
+{
+  "Name": "Mourning Mist - TM",
+  "_id": "mourning-mist-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Mourning Mist to multiple Pokémon",
+  "Rank": "Expert",
+  "OneUse": false,
+  "TrainerPrice": "16500",
+  "Cures": "",
+  "Image": ""
+}

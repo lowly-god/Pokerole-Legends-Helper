@@ -4463,6 +4463,24 @@
           "category": "Ghost"
         },
         {
+          "name": "Mourning Mist",
+          "price": "5500",
+          "effect": "",
+          "category": "Ghost"
+        },
+        {
+          "name": "Mourning Mist - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Mourning Mist to one Pokémon",
+          "category": "Ghost"
+        },
+        {
+          "name": "Mourning Mist - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Mourning Mist to multiple Pokémon",
+          "category": "Ghost"
+        },
+        {
           "name": "Necromancy",
           "price": "8000",
           "effect": "",

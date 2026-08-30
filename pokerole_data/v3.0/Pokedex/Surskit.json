@@ -107,5 +107,14 @@
       "Learned": "Ace",
       "Name": "Hydro Pump"
     }
+  ],
+  "TM": [
+    "Mourning Mist"
+  ],
+  "TR": [
+    "Mourning Mist"
+  ],
+  "Tutor": [
+    "Mourning Mist"
   ]
 }

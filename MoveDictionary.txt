@@ -572,6 +572,7 @@ Moonveil Dance$100
 Morning Sun$100
 Mortal Spin$100
 Mountain Gale$100
+Mourning Mist$100
 Mud Bomb$100
 Mud Shot$100
 Mud Slap$100

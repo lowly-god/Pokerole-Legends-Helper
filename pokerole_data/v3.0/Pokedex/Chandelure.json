@@ -159,5 +159,14 @@
       "Learned": "Standard",
       "Name": "Siphon Life-Force"
     }
+  ],
+  "TM": [
+    "Mourning Mist"
+  ],
+  "TR": [
+    "Mourning Mist"
+  ],
+  "Tutor": [
+    "Mourning Mist"
   ]
 }

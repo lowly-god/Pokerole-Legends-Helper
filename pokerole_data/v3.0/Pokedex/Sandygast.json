@@ -127,5 +127,14 @@
       "Learned": "Expert",
       "Name": "Dust Devil"
     }
+  ],
+  "TM": [
+    "Mourning Mist"
+  ],
+  "TR": [
+    "Mourning Mist"
+  ],
+  "Tutor": [
+    "Mourning Mist"
   ]
 }

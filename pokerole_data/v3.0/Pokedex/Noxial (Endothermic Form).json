@@ -78,6 +78,10 @@
       "Name": "Frost Breath"
     },
     {
+      "Learned": "Standard",
+      "Name": "Mourning Mist"
+    },
+    {
       "Learned": "Advanced",
       "Name": "Miasma"
     },

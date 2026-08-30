@@ -168,5 +168,14 @@
       "Learned": "Expert",
       "Name": "Shield Bash"
     }
+  ],
+  "TM": [
+    "Mourning Mist"
+  ],
+  "TR": [
+    "Mourning Mist"
+  ],
+  "Tutor": [
+    "Mourning Mist"
   ]
 }

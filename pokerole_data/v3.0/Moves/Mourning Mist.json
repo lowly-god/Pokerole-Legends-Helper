@@ -1,0 +1,16 @@
+{
+  "Name": "Mourning Mist",
+  "Type": "Ghost",
+  "Power": 0,
+  "Damage1": "",
+  "Damage2": "",
+  "Accuracy1": "Special",
+  "Accuracy2": "Nature",
+  "Target": "Battlefield",
+  "Effect": "Activate Dense Fog Weather. Duration 4 Rounds.",
+  "Description": "The User calls on the souls of the departed to manifest a dense, eerie fog.",
+  "_id": "mourning-mist",
+  "Attributes": {},
+  "AddedEffects": {},
+  "Category": "Support"
+}

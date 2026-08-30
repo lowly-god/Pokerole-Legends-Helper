@@ -149,5 +149,14 @@
   "HM": [
     "Surf",
     "Whirlpool"
+  ],
+  "TM": [
+    "Mourning Mist"
+  ],
+  "TR": [
+    "Mourning Mist"
+  ],
+  "Tutor": [
+    "Mourning Mist"
   ]
 }

@@ -129,5 +129,14 @@
       "Learned": "Expert",
       "Name": "Shadow Tide"
     }
+  ],
+  "TM": [
+    "Mourning Mist"
+  ],
+  "TR": [
+    "Mourning Mist"
+  ],
+  "Tutor": [
+    "Mourning Mist"
   ]
 }
