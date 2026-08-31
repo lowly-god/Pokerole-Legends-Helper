@@ -108,6 +108,7 @@ effects = [
     'Must Recharge',
     'Never Miss',
     'Ongoing Damage',
+    'Overheat',
     'Out of Range while Charging',
     'Physical Move',
     'Powder Move',
@@ -139,10 +140,18 @@ effects = [
 version_converter = ["v3.0", "v3.0"]
 
 async def send_msg(context, msg, *, view=None):
+    # discord.py 2.6.x does not accept an explicit None as an interaction
+    # View. Omit the keyword entirely unless there is an actual View.
     if isinstance(context, discord.Interaction):
-        await context.response.send_message(msg, view=view)
+        if view is None:
+            await context.response.send_message(msg)
+        else:
+            await context.response.send_message(msg, view=view)
     else:
-        await context.send(msg, view=view)
+        if view is None:
+            await context.send(msg)
+        else:
+            await context.send(msg, view=view)
 
 
 _MOVE_KEYWORD_EXCLUSIONS = {'Physical Move', 'Special Move', 'Support Move'}

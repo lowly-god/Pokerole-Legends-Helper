@@ -72,6 +72,7 @@ Move Targets,"- Target Self: the User.
 Must Recharge,"After this Move/Maneuver successfully hits, the User must spend its first Action of the next Round recharging. This stacks if used more than once and remains if the User is recalled. No recharge is required if the Move/Maneuver misses, is Clashed or Evaded, or is used to Clash."
 Never Miss,"Cannot be Evaded, but can still be Clashed. The Move or Maneuver can still fail its own Accuracy Roll."
 Ongoing Damage,"At the end of each Round, roll 2 Dice of Typeless Damage against the Target. Multiple sources do not stack; the first source takes priority."
+Overheat,"After making an attack with this Weapon, Roll a Luck Check; on a 25 or lower, the Weapon Overheats and the wielder must spend their next Action waiting for it to cool down, before it can be used again."
 Out of Range while Charging,"While charging, the User is Out of Range and cannot be targeted by Moves or Maneuvers except effects that specifically state they can reach it."
 Physical Move,"Physical Moves/Maneuvers normally use Strength for Damage and are almost always resisted by Defense. They are considered Full-Contact, Non-Ranged unless they also have the 'Ranged' keyword, or another effect stated otherwise."
 Powder Move,"A Move or Maneuver using powder, dust, or spores. Grass-Type Pokémon are immune to its Damage and harmful effects."

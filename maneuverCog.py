@@ -63,7 +63,15 @@ async def send_chunks(interaction: discord.Interaction, blocks, view=None):
     if not chunks:
         chunks = ["Nothing found."]
 
-    await interaction.response.send_message(chunks[0], view=view)
+    # discord.py 2.6.x expects its internal MISSING sentinel when no View is
+    # supplied. Passing view=None explicitly raises AttributeError in
+    # InteractionResponse.send_message, so only include the keyword when a
+    # real View exists.
+    if view is None:
+        await interaction.response.send_message(chunks[0])
+    else:
+        await interaction.response.send_message(chunks[0], view=view)
+
     for chunk in chunks[1:]:
         await interaction.followup.send(chunk)
 
