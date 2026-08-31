@@ -39,7 +39,7 @@ def maneuver_text(m, include_source=False):
     return out
 
 
-async def send_chunks(interaction: discord.Interaction, blocks):
+async def send_chunks(interaction: discord.Interaction, blocks, view=None):
     chunks = []
     current = ""
 
@@ -63,9 +63,33 @@ async def send_chunks(interaction: discord.Interaction, blocks):
     if not chunks:
         chunks = ["Nothing found."]
 
-    await interaction.response.send_message(chunks[0])
+    await interaction.response.send_message(chunks[0], view=view)
     for chunk in chunks[1:]:
         await interaction.followup.send(chunk)
+
+
+class EnergyWeaponsView(discord.ui.View):
+    def __init__(self, cog):
+        super().__init__(timeout=180)
+        self.cog = cog
+
+    async def _send_weapon(self, interaction: discord.Interaction, weapon_name: str):
+        weapon = self.cog.weapon_lookup.get(normalize(weapon_name))
+        if not weapon:
+            await interaction.response.send_message(
+                f'Weapon/combat skill "{weapon_name}" was not found.',
+                ephemeral=True
+            )
+            return
+        await send_chunks(interaction, self.cog.weapon_blocks(weapon))
+
+    @discord.ui.button(label="Laser Weapons", style=discord.ButtonStyle.secondary)
+    async def laser_weapons(self, interaction: discord.Interaction, button: discord.ui.Button):
+        await self._send_weapon(interaction, "Laser Weapons")
+
+    @discord.ui.button(label="Plasma Weapons", style=discord.ButtonStyle.secondary)
+    async def plasma_weapons(self, interaction: discord.Interaction, button: discord.ui.Button):
+        await self._send_weapon(interaction, "Plasma Weapons")
 
 
 class ManeuverLookup(commands.Cog):
@@ -91,6 +115,36 @@ class ManeuverLookup(commands.Cog):
             self.maneuver_choices.append(maneuver["name"])
             for alias in [maneuver["name"]] + maneuver.get("aliases", []):
                 self.maneuver_lookup[normalize(alias)] = maneuver
+
+    def weapon_blocks(self, weapon):
+        blocks = [
+            f"# {weapon['name']}\n"
+            f"**Category:** {weapon['kind']}\n\n"
+            f"{weapon.get('details', '')}".strip()
+        ]
+
+        basic = [m for m in weapon.get("maneuvers", []) if m.get("tier") == "Basic"]
+        advanced = [m for m in weapon.get("maneuvers", []) if m.get("tier") == "Advanced"]
+        unique = [m for m in weapon.get("maneuvers", []) if m.get("tier") == "Unique"]
+        other = [
+            m for m in weapon.get("maneuvers", [])
+            if m not in basic and m not in advanced and m not in unique
+        ]
+
+        if basic:
+            blocks.append("## Basic Maneuvers")
+            blocks.extend(maneuver_text(m) for m in basic)
+        if advanced:
+            blocks.append("## Advanced Maneuvers")
+            blocks.extend(maneuver_text(m) for m in advanced)
+        if unique:
+            blocks.append("## Maneuver")
+            blocks.extend(maneuver_text(m) for m in unique)
+        if other:
+            blocks.append("## Maneuvers")
+            blocks.extend(maneuver_text(m) for m in other)
+
+        return blocks
 
     async def weapon_autocomplete(self, interaction: discord.Interaction, current: str):
         query = normalize(current)
@@ -149,34 +203,9 @@ class ManeuverLookup(commands.Cog):
             )
             return
 
-        blocks = [
-            f"# {weapon['name']}\n"
-            f"**Category:** {weapon['kind']}\n\n"
-            f"{weapon.get('details', '')}".strip()
-        ]
-
-        basic = [m for m in weapon.get("maneuvers", []) if m.get("tier") == "Basic"]
-        advanced = [m for m in weapon.get("maneuvers", []) if m.get("tier") == "Advanced"]
-        unique = [m for m in weapon.get("maneuvers", []) if m.get("tier") == "Unique"]
-        other = [
-            m for m in weapon.get("maneuvers", [])
-            if m not in basic and m not in advanced and m not in unique
-        ]
-
-        if basic:
-            blocks.append("## Basic Maneuvers")
-            blocks.extend(maneuver_text(m) for m in basic)
-        if advanced:
-            blocks.append("## Advanced Maneuvers")
-            blocks.extend(maneuver_text(m) for m in advanced)
-        if unique:
-            blocks.append("## Maneuver")
-            blocks.extend(maneuver_text(m) for m in unique)
-        if other:
-            blocks.append("## Maneuvers")
-            blocks.extend(maneuver_text(m) for m in other)
-
-        await send_chunks(interaction, blocks)
+        blocks = self.weapon_blocks(weapon)
+        view = EnergyWeaponsView(self) if weapon["name"] == "Energy Weapons" else None
+        await send_chunks(interaction, blocks, view=view)
 
     @app_commands.command(
         name="maneuver",
