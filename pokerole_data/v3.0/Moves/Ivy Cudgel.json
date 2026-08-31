@@ -7,7 +7,7 @@
   "Accuracy1": "Strength / Insight",
   "Accuracy2": "Nature",
   "Target": "Foe",
-  "Effect": "The Type of this Move becomes the same as the User's Secondary Type if possible, otherwise their Main Type. This affects Weakness, Resistances, and STAB accordingly.",
+  "Effect": "Hammer Move. The Type of this Move becomes the same as the User's Secondary Type if possible, otherwise their Main Type. This affects Weakness, Resistances, and STAB accordingly.",
   "Description": "The Pokémon creates a club out of thorny ivy vines, this club is infused with the power of nature, everchanging.",
   "_id": "ivy-cudgel",
   "Attributes": {},

@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "",
+  "Effect": "Hammer Move.",
   "Description": "The Pokémon swings its body as a hammer and leaves the foe nailed to the cracked ground.",
   "_id": "dragon-hammer",
   "Attributes": {},

@@ -38,6 +38,7 @@ Explosive Move,An Explosive-category Move or Maneuver. Interacts with effects th
 Field-Type,"Field-Types are Battlefield-wide conditions that occur naturally. They effect many areas of Battle, including but not limited to Battlefield effects, Type-Effectiveness, Abilities and Moves. Often they can be changed to a different Field-Type via the use of certain Moves. Use /field\_type for the exact rules of each Field-Type."
 Fist Move,A Move or Maneuver based on punches. Interacts with Iron Fist and other effects that reference Fist Moves or Maneuvers.
 Force Field,"A persistent defensive effect, usually placed on a side of the Battlefield. Its source states who it protects, its Duration, and what Damage or effects it reduces or prevents. Force Fields that reduce the same Damage category do not stack."
+Hammer Move,"A Move or Maneuver based on striking with a hammer, club, cudgel, or other hammer-like weapon. Interacts with effects that reference Hammer Moves or Maneuvers."
 High Critical,"Critical Hits with this Move/Maneuver require only 3 Accuracy successes, rather than the usually required 4 to count as a Critical Hit. This affect can stack with Abilities, Perks or other effects that also grant High Critical."
 Ignore Defenses,Ignore Defense and Special Defense when calculating Damage.
 Kick Move,A Kick-category Move or Maneuver. Interacts with effects that reference Kick Moves or Maneuvers.

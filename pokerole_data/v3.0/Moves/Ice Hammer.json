@@ -7,7 +7,7 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Accuracy -1. Fist Move. Reduce User's Dexterity by 1.",
+  "Effect": "Accuracy -1. Fist Move. Hammer Move. Reduce User's Dexterity by 1.",
   "Description": "The Pokémon uses its powerful gelid arms and strikes the foe with a swing motion.",
   "_id": "ice-hammer",
   "Attributes": {

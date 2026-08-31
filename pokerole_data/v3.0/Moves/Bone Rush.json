@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Accuracy -1. Successive Actions.",
+  "Effect": "Accuracy -1. Hammer Move. Successive Actions.",
   "Description": "The foe is assaulted by a series of flurry strikes with a bone club.",
   "_id": "bone-rush",
   "Attributes": {
