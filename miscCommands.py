@@ -654,6 +654,33 @@ class Misc(commands.Cog):
                 effect = canonical
                 output = f'**{effect}**:\n{_format_effect_description(self.effects[effect])}'
                 view = effect_keyword_view(effect)
+
+                # A single /effect entry may exceed Discord's 2000-character
+                # content limit. Split it on authored line boundaries while
+                # preserving Markdown/subheaders, then attach any linked-entry
+                # button only to the first chunk.
+                if len(output) > 1900:
+                    chunks = []
+                    current = ''
+                    for line in output.splitlines():
+                        addition = line if not current else '\n' + line
+                        if current and len(current) + len(addition) > 1900:
+                            chunks.append(current)
+                            current = line
+                        else:
+                            current += addition
+                    if current:
+                        chunks.append(current)
+
+                    for index, chunk in enumerate(chunks):
+                        chunk_view = view if index == 0 else None
+                        if index == 0:
+                            await send_msg(ctx, chunk, view=chunk_view)
+                        elif isinstance(ctx, discord.Interaction):
+                            await ctx.followup.send(chunk)
+                        else:
+                            await ctx.send(chunk)
+                    return
             else:
                 output = f'`{effect}` wasn\'t found in the effect list:{effectrepl}'\
                          + effectrepl.join(sorted((str(k) for k in self.effects.keys()), key=str.casefold))
