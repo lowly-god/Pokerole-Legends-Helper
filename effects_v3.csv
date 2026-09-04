@@ -43,16 +43,40 @@ High Critical,"Critical Hits with this Move/Maneuver require only 3 Accuracy suc
 Ignore Defenses,Ignore Defense and Special Defense when calculating Damage.
 Kick Move,A Kick-category Move or Maneuver. Interacts with effects that reference Kick Moves or Maneuvers.
 Late Reaction,"May be used during another combatant's turn and resolves after the triggering Action. It consumes one Action. Higher Late Reaction numbers resolve later. A Late Reaction can answer a Reaction, but a Reaction cannot answer a Late Reaction. Only one Reaction or Late Reaction may be performed by each Active Combatant per-turn."
-Lethal,"Lethal Damage is an optional Rule. It adds more danger and a serious risk of Pokémon and Human death, to each encounter.
+Lethal,"**Lethality:**
+This rework of the Lethal Damage system is an optional rule, created for more dangerous settings.
+Active combatants only have a single HP Pool, and all Damage is considered Lethal.
+When an Active Combatant reaches 0 HP or exceeds 5 Levels of Exhaustion they fall Unconscious.
+While an Active Combatant is Unconscious they may not move or perform any Actions other than rolling Death Saves.
+If an Active Combatant receives Damage from any source while they are Unconscious they will immediately take 1 Pain Penalty.
+If an Active Combatant suffers from 6 or more Pain Penalties, they succumb to their wounds, dying soon after.
+Though an Active Combatant may ignore the negative effects of Pain Penalties by spending Will Points, this does not remove them.
 
-You may instead use the All Damage is Lethal rule, for an even more dangerous game, in which case unsurprisingly; all Damage is counted as Lethal Damage.
+**Lethal Moves:**
+An additional optional rule is as follows: Moves with the Lethal keyword have ""Roll 1 Chance Dice to inflict 1 Pain Penalty"" or ""Roll 1 Chance Dice to inflict 1 Level of Exhaustion"".
 
-- A Move/Maneuver with the 'Lethal' keyword can deal Lethal Damage when used with lethal intent. It does not deal Lethal Damage by default unless specified by the Player or Storyteller.
-- If a character receives Damage after they have fallen unconscious, that Damage is always treated as Lethal Damage.
-- If a character receives Lethal Damage equal to the total of their HP plus 1 they will die.
-- Lethal Damage requires double the usual amount time, Potions or Move/Maneuver usages to Heal; compared to normal Damage. (ie: 1 dose of Potion will Heal 1 normal Damage, but 2 are needed to Heal 1 Lethal Damage).
-- A character suffering from Lethal Damage may be Stabilized with a Clever / Insight + Medicine check. The DC is equal to the amount of Lethal Damage they are currently suffering from.
-- A character who has been Stabilized may naturally Heal Lethal Damage at a rate of 1 HP every 8 hours instead of 1 HP every 16."
+**Death Saves:**
+An Active Combatant who is Unconscious must roll a Death Save on each of their Turns.
+Death Saves are a 1D100 Luck Check. Vitality Points count as additional Luck Points for these rolls.
+Any result above a 55 is counted as a success. If an Active Combatant manages to get 3 successes in a row, or 5 total successes, they regain Consciousness at 1 HP.
+For each unsuccessful Death Save they receive 1 Pain Penalty.
+If another Active Combatant successfully makes a Stabilize check on the character; Insight / Clever + Medicine DC = Total Pain Penalties the Unconscious character is suffering from, they are granted one automatic Death Save success.
+
+**Levels of Exhaustion:**
+For each Level of Exhaustion a character suffers, they have -1 successes to all their rolls.
+At 3 or more Levels of Exhaustion, they receive 1 point of Damage each day they do not recover from a Level of Exhaustion, plus 1 additional Damage for each Level above 3.
+A character who exceeds 5 Levels of Exhaustion, succumbs to their weakened state, falling Unconscious or dying soon after.
+A character can recover from a single Level of Exhaustion by eating well, drinking properly and having a decent sleep in a safe location, or via the use of certain Healing Items, Maneuvers or Moves.
+
+**Healing Moves, Healing and Revival Items:**
+Minor Healing Moves reduce the next Stabilize Check DC by 1. (To a minimum of 1).
+Basic Healing Moves remove 1 Pain Penalty.
+Complete Healing Moves remove 3 Pain Penalties.
+Revival Moves immediately cause the Unconscious character to regain consciousness at 1 HP, or the amount specified by the Move.
+Potions used as part of a Stabilize Check reduce the DC by 1 for each unit used. (To a minimum of 1).
+Full Restores remove 3 Pain Penalties.
+Revives and Revival Herbs used in conjunction with a successful Stabilize Check; immediately cause the Unconscious character to regain consciousness at half their HP. (Rounded down).
+Max Revives used in conjunction with a successful Stabilize Check; immediately cause the Unconscious character to regain consciousness at their full HP."
 Light Move,A Light-category Move or Maneuver. Interacts with effects that reference Light Moves or Maneuvers.
 Luck Check,"Roll 1d100 and add the character's Luck modifier, capped at 100. Compare the total to the threshold stated by the effect."
 Lunar Move,A Lunar-category Move or Maneuver. Interacts with effects that reference Lunar Moves or Maneuvers.
