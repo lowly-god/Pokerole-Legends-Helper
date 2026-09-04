@@ -652,23 +652,46 @@ class Misc(commands.Cog):
             canonical = next((name for name in self.effects if name.casefold() == requested), None)
             if canonical is not None:
                 effect = canonical
-                output = f'**{effect}**:\n{_format_effect_description(self.effects[effect])}'
+                if effect == 'Lethal':
+                    output = _format_effect_description(self.effects[effect])
+                else:
+                    output = f'**{effect}**:\n{_format_effect_description(self.effects[effect])}'
                 view = effect_keyword_view(effect)
 
                 # A single /effect entry may exceed Discord's 2000-character
-                # content limit. Split it on authored line boundaries while
-                # preserving Markdown/subheaders, then attach any linked-entry
-                # button only to the first chunk.
+                # content limit. Prefer splitting on authored blank-line section
+                # boundaries so related rules/subheaders stay together. Fall back
+                # to line-aware splitting only when one section itself is too long.
                 if len(output) > 1900:
+                    sections = [section.strip() for section in output.split('\n\n') if section.strip()]
                     chunks = []
                     current = ''
-                    for line in output.splitlines():
-                        addition = line if not current else '\n' + line
-                        if current and len(current) + len(addition) > 1900:
-                            chunks.append(current)
-                            current = line
-                        else:
+
+                    def _append_section(section):
+                        nonlocal current
+                        addition = section if not current else '\n\n' + section
+                        if not current or len(current) + len(addition) <= 1900:
                             current += addition
+                            return
+
+                        chunks.append(current)
+                        current = ''
+
+                        if len(section) <= 1900:
+                            current = section
+                            return
+
+                        # Fallback for an unusually long authored section.
+                        for line in section.splitlines():
+                            line_addition = line if not current else '\n' + line
+                            if current and len(current) + len(line_addition) > 1900:
+                                chunks.append(current)
+                                current = line
+                            else:
+                                current += line_addition
+
+                    for section in sections:
+                        _append_section(section)
                     if current:
                         chunks.append(current)
 
