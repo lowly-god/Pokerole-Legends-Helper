@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "Other Balls",
   "Category": "Other Balls",
-  "Description": "8d6 if used on Ultra Beasts, 1d6 if used on Pokémon",
+  "Description": "9d6 if used on Ultra Beasts, 2d6 if used on other Pokémon",
   "OneUse": true,
   "TrainerPrice": "N/A",
   "Cures": "",

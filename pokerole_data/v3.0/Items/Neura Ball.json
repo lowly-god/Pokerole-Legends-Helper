@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "Other Balls",
   "Category": "Other Balls",
-  "Description": "4d6, if Trainer has neural augmentation they may roll 4d6 + Will",
+  "Description": "4d6, or if Trainer has Neural Augmentation they may roll Current Will + 4d6",
   "OneUse": true,
   "TrainerPrice": "N/A",
   "Cures": "",

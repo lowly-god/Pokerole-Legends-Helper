@@ -52,38 +52,44 @@ Example monthly uses and their Stamina Point costs:
 
 
 CATCHING_RULE_SECTIONS = [
-    """**Catching Wild Pokémon**""",
-    """__Required Successes by Rank__
+    """**Catching Rules**
+
+__Required Successes by Rank__
 Starter: 3.
 Rookie: 4.
 Standard: 6.
 Advanced: 8.
 Expert: 9.
-Ace: 10.""",
-    """__Seal Check Bonus Dice__
+Ace: 10.
+
+__Seal Check Bonus Dice__
 Trainer Crits their Throw (Dexterity + Athletics) Check: 1 Bonus Success.
 Target Pokémon is at half HP: 1 Bonus Success.
 Target Pokémon is at 1 HP: 2 Bonus Successes.
-Target Pokémon has a Status Condition: 1 Bonus Success per Status Condition.""",
-    """__Fainted Pokémon__
+Target Pokémon has a Status Condition: 1 Bonus Success per Status Condition.
+
+__Fainted Pokémon__
 All Bonuses are removed. Only the base Seal Check Dice Pool is used.
-The captured Pokémon's Happiness and Loyalty are reduced to 0.""",
-    """__Happiness and Loyalty Reductions__
+The captured Pokémon's Happiness and Loyalty are reduced to 0.
+
+__Happiness and Loyalty Reductions__
 If a Captured Pokémon is on 1 HP, reduce its Happiness and Loyalty by 1.
 If a Captured Pokémon is suffering from any Status Conditions reduce its Happiness and Loyalty by 1 for each Status Condition.
-If there where more Active Combatants on the capturing Trainer's side reduce its Happiness and Loyalty by 1 for each Status Condition.""",
-    """__Encounter Luck Checks__
+If there where more Active Combatants on the capturing Trainer's side reduce its Happiness and Loyalty by 1 for each Status Condition.
+
+__Encounter Luck Checks__
 Use /roll_luck_check: If this Roll is above 90 the Pokémon has its Hidden Ability! (In addition to its regular one(s).
 Use /roll_luck_check: If this Roll is above 95 the Pokémon is Shiny!
 Use /roll_nature: This Roll determines the Pokémon's Nature. However, if you have 3 or more Points in Luck, you may choose to re-roll it once.""",
-    """__Poke Balls__
-Standard Balls:
+    """**Poke Balls**
+
+__Standard Balls:__
 Poke Ball (4d6)
 Great Ball (6d6)
 Ultra Ball (8d6)
 Premier Ball (5d6)
 
-Artisan Balls:
+__Artisan Balls:__
 All "Artisan Balls" have a base Seal Check of 4d6.
 Aurora Ball (+3d6 if used on Ice-Type Pokémon)
 Dive Ball (+3d6 if used on water dwelling Pokémon)
@@ -106,7 +112,7 @@ Heavy Ball (+1d6 for each 50lbs above 200lbs up to max of +10)
 Timer Ball (+1d6 per rounds in battle up to max of +10)
 Luxury Ball (+4d6 caught Pokémon regain 1 Will Point each day)
 
-Other Balls:
+__Other Balls:__
 Beast Ball (9d6 if used on Ultra Beasts, 2d6 if used on other Pokémon)
 Cherish Ball (8d6, Captured Pokémon gains +2 base Happiness / Loyalty)
 Dark Ball (Current Will + Intimidate, captured Pokémon becomes Shadow-Type)
