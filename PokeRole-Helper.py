@@ -555,9 +555,14 @@ async def ensure_required_global_commands_registered():
                     f'({", ".join(sorted(name for name in option_names if name)) or "none"})'
                 )
 
-        foraging_command = registered_by_name.get('foraging')
+        if 'foraging' in registered_by_name:
+            reasons.append('obsolete /foraging is still registered')
+        if 'rollnature' in registered_by_name:
+            reasons.append('obsolete /rollnature is still registered')
+
+        foraging_command = registered_by_name.get('roll_foraging')
         if foraging_command is None:
-            reasons.append('/foraging is missing')
+            reasons.append('/roll_foraging is missing')
         else:
             foraging_options = {
                 getattr(option, 'name', None)
@@ -565,9 +570,15 @@ async def ensure_required_global_commands_registered():
             }
             if foraging_options != {'dice'}:
                 reasons.append(
-                    '/foraging has stale options '
+                    '/roll_foraging has stale options '
                     f'({", ".join(sorted(name for name in foraging_options if name)) or "none"})'
                 )
+
+        if 'roll_nature' not in registered_by_name:
+            reasons.append('/roll_nature is missing')
+
+        if 'catching_rules' not in registered_by_name:
+            reasons.append('/catching_rules is missing')
 
         shop_command = registered_by_name.get('shop')
         if shop_command is None:
@@ -645,7 +656,7 @@ async def ensure_required_global_commands_registered():
             getattr(option, 'name', None)
             for option in (getattr(encounter_command, 'options', []) or [])
         } if encounter_command else set()
-        foraging_command = synced_by_name.get('foraging')
+        foraging_command = synced_by_name.get('roll_foraging')
         foraging_options = {
             getattr(option, 'name', None)
             for option in (getattr(foraging_command, 'options', []) or [])
@@ -682,6 +693,10 @@ async def ensure_required_global_commands_registered():
 
         if (
             'roll_luck_check' in synced_by_name
+            and 'roll_nature' in synced_by_name
+            and 'catching_rules' in synced_by_name
+            and 'foraging' not in synced_by_name
+            and 'rollnature' not in synced_by_name
             and encounter_options == {'table', 'roll', 'exclude'}
             and foraging_options == {'dice'}
             and shop_options == {'shop', 'display_all_stock'}

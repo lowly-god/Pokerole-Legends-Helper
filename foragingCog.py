@@ -331,9 +331,9 @@ class Foraging(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @app_commands.command(name="foraging", description="Roll an Insight + Nature check to see what you find on the foraging table")
+    @app_commands.command(name="roll_foraging", description="Roll an Insight + Nature check to see what you find on the foraging table")
     @app_commands.describe(dice="Number of d6s in the Insight + Nature pool")
-    async def foraging(self, interaction: discord.Interaction, dice: app_commands.Range[int, 1, 50]):
+    async def roll_foraging(self, interaction: discord.Interaction, dice: app_commands.Range[int, 1, 50]):
         rolls = [random.randint(1, 6) for _ in range(dice)]
         successes = sum(r >= 4 for r in rolls)
         disp = ', '.join(f"**{r}**" if r >= 4 else str(r) for r in rolls)

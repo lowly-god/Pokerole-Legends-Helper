@@ -31,6 +31,7 @@ HELP_CATEGORIES = [
         ("crafting_pokeballs", "Display Poké Ball crafting rules and recipes"),
         ("crafting_healing_items", "Display Healing Item crafting rules and recipes"),
         ("cooking", "Display Cooking rules and recipes"),
+        ("catching_rules", "Display rules for catching wild Pokémon"),
         ("colosseum_rules", "Display rules for participating in the Colosseum Challenge"),
         ("stabling", "Display Pokémon Stabling options"),
         ("stamina", "Display Stamina Point rules and example uses"),
@@ -43,7 +44,7 @@ HELP_CATEGORIES = [
         ("encounter_human", "Generate a human NPC based on various statblocks"),
         ("human_npc", "Display a human NPC's statblock"),
         ("encounter_table", "Display a curated, rollable encounter table for a specific biome"),
-        ("foraging", "Roll an Insight + Nature check to see what you find on the foraging table"),
+        ("roll_foraging", "Roll an Insight + Nature check to see what you find on the foraging table"),
         ("quest", "Generate a simple quest-hook"),
     ]),
     ("Shops", [
@@ -53,7 +54,7 @@ HELP_CATEGORIES = [
     ("Utilities", [
         ("roll", "Roll a single D6 by default. You can change the number of dice and/or the number of sides"),
         ("training_session", "Roll a Pokémon training session"),
-        ("rollnature", "Roll 1D100 for a Pokémon's Nature."),
+        ("roll_nature", "Roll 1D100 for a Pokémon's Nature."),
         ("settings", "Change the settings"),
         ("get_pokerole_legends", "Here you'll find the latest version of the Pokerole Legends Rules Supplement, Legends Roll20 Sheets, PNGs for Legends Pokémon and more"),
         ("invite", "Get an invite link for the bot"),

@@ -51,6 +51,98 @@ Example monthly uses and their Stamina Point costs:
 • Repairing a damaged space ship: 110."""
 
 
+CATCHING_RULE_SECTIONS = [
+    """**Catching Wild Pokémon**""",
+    """__Required Successes by Rank__
+Starter: 3.
+Rookie: 4.
+Standard: 6.
+Advanced: 8.
+Expert: 9.
+Ace: 10.""",
+    """__Seal Check Bonus Dice__
+Trainer Crits their Throw (Dexterity + Athletics) Check: 1 Bonus Success.
+Target Pokémon is at half HP: 1 Bonus Success.
+Target Pokémon is at 1 HP: 2 Bonus Successes.
+Target Pokémon has a Status Condition: 1 Bonus Success per Status Condition.""",
+    """__Fainted Pokémon__
+All Bonuses are removed. Only the base Seal Check Dice Pool is used.
+The captured Pokémon's Happiness and Loyalty are reduced to 0.""",
+    """__Happiness and Loyalty Reductions__
+If a Captured Pokémon is on 1 HP, reduce its Happiness and Loyalty by 1.
+If a Captured Pokémon is suffering from any Status Conditions reduce its Happiness and Loyalty by 1 for each Status Condition.
+If there where more Active Combatants on the capturing Trainer's side reduce its Happiness and Loyalty by 1 for each Status Condition.""",
+    """__Encounter Luck Checks__
+Use /roll_luck_check: If this Roll is above 90 the Pokémon has its Hidden Ability! (In addition to its regular one(s).
+Use /roll_luck_check: If this Roll is above 95 the Pokémon is Shiny!
+Use /roll_nature: This Roll determines the Pokémon's Nature. However, if you have 3 or more Points in Luck, you may choose to re-roll it once.""",
+    """__Poke Balls__
+Standard Balls:
+Poke Ball (4d6)
+Great Ball (6d6)
+Ultra Ball (8d6)
+Premier Ball (5d6)
+
+Artisan Balls:
+All "Artisan Balls" have a base Seal Check of 4d6.
+Aurora Ball (+3d6 if used on Ice-Type Pokémon)
+Dive Ball (+3d6 if used on water dwelling Pokémon)
+Fast Ball (+3d6 if used on "fast" Pokémon)
+Fae Ball (+3d6 if used on Fairy-Type Pokémon)
+Feather Ball (+3d6 if used on flying / levitating Pokémon)
+Level Ball (+1d6 for each rank below your Trainer Rank)
+Love Ball (+3d6 if used on an infatuated Pokémon)
+Lure Ball (+3d6 if used when fishing)
+Moon Ball (+3d6 if used on Pokémon that evolve by moonstone)
+Nest Ball (+3d6 if used on baby Pokémon)
+Net Ball (+3d6 if used on Bug-Type Pokémon)
+Repeat Ball (+3d6 if used on a Pokémon you have caught before)
+Tech Ball (+3d6 if used on "inorganic" Pokémon)
+Dawn Ball (+3d6 if used in the morning / bright location)
+Dusk Ball (+3d6 if used at night / dark location)
+Quick Ball (+3d6 if used before a battle)
+Friend Ball (+1 base loyalty / happiness)
+Heavy Ball (+1d6 for each 50lbs above 200lbs up to max of +10)
+Timer Ball (+1d6 per rounds in battle up to max of +10)
+Luxury Ball (+4d6 caught Pokémon regain 1 Will Point each day)
+
+Other Balls:
+Beast Ball (9d6 if used on Ultra Beasts, 2d6 if used on other Pokémon)
+Cherish Ball (8d6, Captured Pokémon gains +2 base Happiness / Loyalty)
+Dark Ball (Current Will + Intimidate, captured Pokémon becomes Shadow-Type)
+Neura Ball (4d6, or if Trainer has Neural Augmentation they may roll Current Will + 4d6)
+Park Ball (7d6, Only given out during special events)
+Safari Ball (7d6, Only given out at the Safari Zone)
+Sport Ball (7d6, Only given out during Pokémon catching contests)
+Master Ball (Guaranteed capture)""",
+]
+
+
+def split_sections(sections, max_chars=1900):
+    """Pack complete authored sections into Discord-safe messages."""
+    chunks = []
+    current = ""
+
+    for section in sections:
+        section = section.strip()
+        if len(section) > max_chars:
+            raise ValueError(
+                "A catching-rules section exceeds Discord's safe message size; "
+                "split the authored section deliberately rather than truncating it."
+            )
+
+        addition = section if not current else "\\n\\n" + section
+        if current and len(current) + len(addition) > max_chars:
+            chunks.append(current)
+            current = section
+        else:
+            current += addition
+
+    if current:
+        chunks.append(current)
+    return chunks
+
+
 def split_text(title, text, max_chars=1900):
     paragraphs = text.split("\n\n")
     chunks = []
@@ -97,6 +189,15 @@ class ReferenceRulesCog(commands.Cog):
         await interaction.response.send_message(chunks[0])
         for chunk in chunks[1:]:
             await interaction.followup.send(chunk)
+
+
+    @app_commands.command(name="catching_rules", description="Display rules for catching wild Pokémon")
+    async def catching_rules(self, interaction: discord.Interaction):
+        chunks = split_sections(CATCHING_RULE_SECTIONS)
+        await interaction.response.send_message(chunks[0])
+        for chunk in chunks[1:]:
+            await interaction.followup.send(chunk)
+
 
 
 async def setup(bot):

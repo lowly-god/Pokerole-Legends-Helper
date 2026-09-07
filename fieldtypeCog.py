@@ -78,10 +78,15 @@ class FieldTypeLookup(commands.Cog):
     async def fieldtype(self, interaction: discord.Interaction, name: str):
         field = self.lookup.get(normalize(name))
         if not field:
-            await interaction.response.send_message(
-                f'Field-Type "{name}" was not found.',
-                ephemeral=True
+            field_names = sorted(
+                (entry["name"] for entry in self.data["field_types"]),
+                key=str.casefold,
             )
+            output = (
+                f'`{name}` wasn\'t found in the Field-Type list:\n- '
+                + '\n- '.join(field_names)
+            )
+            await interaction.response.send_message(output)
             return
 
         blocks = [f"# {field['name']}"]
