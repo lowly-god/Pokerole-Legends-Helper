@@ -114,8 +114,8 @@ Luxury Ball (+4d6 caught Pokémon regains +1 additional Will Point each day)""",
     """__Other Balls:__
 Beast Ball (9d6 if used on Ultra Beasts, 2d6 if used on other Pokémon)
 Cherish Ball (8d6, caught Pokémon gains +2 base Happiness and Loyalty)
-Dark Ball (Current Will + Intimidate, caught Pokémon becomes Shadow-Type)
-Neura Ball (4d6, or if Trainer has Neural Augmentation they may roll Current Will + 4d6)
+Dark Ball (4d6, or Current Will + Intimidate, caught Pokémon becomes Shadow-Type)
+Neura Ball (4d6, or if Trainer has Neural Augmentation they may roll Current Will + Empathy)
 Park Ball (7d6, only given out during special events)
 Safari Ball (7d6, only given out at the Safari Zone)
 Sport Ball (7d6, only given out during Pokémon catching contests)
