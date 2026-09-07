@@ -75,7 +75,7 @@ The captured Pokémon's Happiness and Loyalty are reduced to 0.
 __Happiness and Loyalty Reductions__
 If a Captured Pokémon is on 1 HP, reduce its Happiness and Loyalty by 1.
 If a Captured Pokémon is suffering from any Status Conditions reduce its Happiness and Loyalty by 1 for each Status Condition.
-If there where more Active Combatants on the capturing Trainer's side reduce its Happiness and Loyalty by 1 for each Status Condition.
+If there where more Active Combatants on the capturing Trainer's side reduce its Happiness and Loyalty by 1.
 
 __Encounter Luck Checks__
 Use /roll_luck_check: If this Roll is above 90 the Pokémon has its Hidden Ability! (In addition to its regular one(s).
@@ -92,34 +92,33 @@ Premier Ball (5d6)
 __Artisan Balls:__
 All "Artisan Balls" have a base Seal Check of 4d6.
 Aurora Ball (+3d6 if used on Ice-Type Pokémon)
-Dive Ball (+3d6 if used on water dwelling Pokémon)
+Dive Ball (+3d6 if used on Water-Type or Pokémon found underwater)
 Fast Ball (+3d6 if used on "fast" Pokémon)
 Fae Ball (+3d6 if used on Fairy-Type Pokémon)
-Feather Ball (+3d6 if used on flying / levitating Pokémon)
-Level Ball (+1d6 for each rank below your Trainer Rank)
-Love Ball (+3d6 if used on an infatuated Pokémon)
-Lure Ball (+3d6 if used when fishing)
-Moon Ball (+3d6 if used on Pokémon that evolve by moonstone)
-Nest Ball (+3d6 if used on baby Pokémon)
+Feather Ball (+3d6 if used on Flying-Type or Levitating Pokémon)
+Level Ball (+1d6 for each Rank the Pokémon is below your Trainer Rank)
+Love Ball (+3d6 if used on a Pokémon who has the In Love Status Condition)
+Lure Ball (+3d6 if used when Fishing)
+Moon Ball (+3d6 if used on Pokémon that Evolve by Moonstone)
+Nest Ball (+3d6 if used on Pokémon who are on their first Stage of Evolution, and aren't fully Evolved)
 Net Ball (+3d6 if used on Bug-Type Pokémon)
-Repeat Ball (+3d6 if used on a Pokémon you have caught before)
+Repeat Ball (+3d6 if used on a Pokémon species you have caught before)
 Tech Ball (+3d6 if used on "inorganic" Pokémon)
-Dawn Ball (+3d6 if used in the morning / bright location)
-Dusk Ball (+3d6 if used at night / dark location)
-Quick Ball (+3d6 if used before a battle)
-Friend Ball (+1 base loyalty / happiness)
+Dawn Ball (+3d6 if used in the morning or bright locations)
+Dusk Ball (+3d6 if used at night or in dark locations)
+Quick Ball (+3d6 if used before a Battle or in social encounters)
+Friend Ball (+2d6 caught Pokémon gains +1 base Happiness and Loyalty)
 Heavy Ball (+1d6 for each 50lbs above 200lbs up to max of +10)
 Timer Ball (+1d6 per rounds in battle up to max of +10)
-Luxury Ball (+4d6 caught Pokémon regain 1 Will Point each day)
-
-__Other Balls:__
+Luxury Ball (+4d6 caught Pokémon regains +1 additional Will Point each day)""",
+    """__Other Balls:__
 Beast Ball (9d6 if used on Ultra Beasts, 2d6 if used on other Pokémon)
-Cherish Ball (8d6, Captured Pokémon gains +2 base Happiness / Loyalty)
-Dark Ball (Current Will + Intimidate, captured Pokémon becomes Shadow-Type)
+Cherish Ball (8d6, caught Pokémon gains +2 base Happiness and Loyalty)
+Dark Ball (Current Will + Intimidate, caught Pokémon becomes Shadow-Type)
 Neura Ball (4d6, or if Trainer has Neural Augmentation they may roll Current Will + 4d6)
-Park Ball (7d6, Only given out during special events)
-Safari Ball (7d6, Only given out at the Safari Zone)
-Sport Ball (7d6, Only given out during Pokémon catching contests)
+Park Ball (7d6, only given out during special events)
+Safari Ball (7d6, only given out at the Safari Zone)
+Sport Ball (7d6, only given out during Pokémon catching contests)
 Master Ball (Guaranteed capture)""",
 ]
 

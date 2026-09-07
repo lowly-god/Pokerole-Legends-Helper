@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "Other Balls",
   "Category": "Other Balls",
-  "Description": "8d6, Captured Pokémon gains +2 base Happiness / Loyalty",
+  "Description": "8d6, caught Pokémon gains +2 base Happiness and Loyalty",
   "OneUse": true,
   "TrainerPrice": "N/A",
   "Cures": "",

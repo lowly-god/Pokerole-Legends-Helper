@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "Artisan Balls",
   "Category": "Artisan Balls",
-  "Description": "4d6 base; +3d6 if used in the morning / bright location",
+  "Description": "4d6 base; +3d6 if used in the morning or bright locations",
   "OneUse": true,
   "TrainerPrice": "700",
   "Cures": "",

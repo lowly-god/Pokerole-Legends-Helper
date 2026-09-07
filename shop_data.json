@@ -113,121 +113,121 @@
         {
           "name": "Aurora Ball",
           "price": "500",
-          "effect": "+3d6 if used on Ice-Type Pokémon",
+          "effect": "4d6 base; +3d6 if used on Ice-Type Pokémon",
           "category": "Artisan Balls"
         },
         {
           "name": "Dive Ball",
           "price": "500",
-          "effect": "+3d6 if used on water dwelling Pokémon",
+          "effect": "4d6 base; +3d6 if used on Water-Type or Pokémon found underwater",
           "category": "Artisan Balls"
         },
         {
           "name": "Fast Ball",
           "price": "500",
-          "effect": "+3d6 if used on \"fast\" Pokémon",
+          "effect": "4d6 base; +3d6 if used on \"fast\" Pokémon",
           "category": "Artisan Balls"
         },
         {
           "name": "Fae Ball",
           "price": "500",
-          "effect": "+3d6 if used on Fairy-Type Pokémon",
+          "effect": "4d6 base; +3d6 if used on Fairy-Type Pokémon",
           "category": "Artisan Balls"
         },
         {
           "name": "Feather Ball",
           "price": "500",
-          "effect": "+3d6 if used on flying / levitating Pokémon",
+          "effect": "4d6 base; +3d6 if used on Flying-Type or Levitating Pokémon",
           "category": "Artisan Balls"
         },
         {
           "name": "Level Ball",
           "price": "500",
-          "effect": "+1d6 for each rank below your Trainer Rank",
+          "effect": "4d6 base; +1d6 for each Rank the Pokémon is below your Trainer Rank",
           "category": "Artisan Balls"
         },
         {
           "name": "Love Ball",
           "price": "500",
-          "effect": "+3d6 if used on an infatuated Pokémon",
+          "effect": "4d6 base; +3d6 if used on a Pokémon who has the In Love Status Condition",
           "category": "Artisan Balls"
         },
         {
           "name": "Lure Ball",
           "price": "500",
-          "effect": "+3d6 if used when fishing",
+          "effect": "4d6 base; +3d6 if used when Fishing",
           "category": "Artisan Balls"
         },
         {
           "name": "Moon Ball",
           "price": "500",
-          "effect": "+3d6 if used on Pokémon that evolve by moonstone",
+          "effect": "4d6 base; +3d6 if used on Pokémon that Evolve by Moonstone",
           "category": "Artisan Balls"
         },
         {
           "name": "Nest Ball",
           "price": "500",
-          "effect": "+3d6 if used on baby Pokémon",
+          "effect": "4d6 base; +3d6 if used on Pokémon who are on their first Stage of Evolution, and aren't fully Evolved",
           "category": "Artisan Balls"
         },
         {
           "name": "Net Ball",
           "price": "500",
-          "effect": "+3d6 if used on Bug-Type Pokémon",
+          "effect": "4d6 base; +3d6 if used on Bug-Type Pokémon",
           "category": "Artisan Balls"
         },
         {
           "name": "Repeat Ball",
           "price": "500",
-          "effect": "+3d6 if used on a Pokémon you have caught before",
+          "effect": "4d6 base; +3d6 if used on a Pokémon species you have caught before",
           "category": "Artisan Balls"
         },
         {
           "name": "Tech Ball",
           "price": "500",
-          "effect": "+3d6 if used on \"inorganic\" Pokémon",
+          "effect": "4d6 base; +3d6 if used on \"inorganic\" Pokémon",
           "category": "Artisan Balls"
         },
         {
           "name": "Dawn Ball",
           "price": "700",
-          "effect": "+3d6 if used in the morning / bright location",
+          "effect": "4d6 base; +3d6 if used in the morning or bright locations",
           "category": "Artisan Balls"
         },
         {
           "name": "Dusk Ball",
           "price": "700",
-          "effect": "+3d6 if used at night / dark location",
+          "effect": "4d6 base; +3d6 if used at night or in dark locations",
           "category": "Artisan Balls"
         },
         {
           "name": "Quick Ball",
           "price": "700",
-          "effect": "+3d6 if used before a battle",
+          "effect": "4d6 base; +3d6 if used before a Battle or in social encounters",
           "category": "Artisan Balls"
         },
         {
           "name": "Friend Ball",
           "price": "1600",
-          "effect": "+1 base loyalty / happiness",
+          "effect": "4d6 base; +2d6 caught Pokémon gains +1 base Happiness and Loyalty",
           "category": "Artisan Balls"
         },
         {
           "name": "Heavy Ball",
           "price": "1600",
-          "effect": "+1d6 for each 50lbs above 200lbs up to max of +10",
+          "effect": "4d6 base; +1d6 for each 50lbs above 200lbs up to max of +10",
           "category": "Artisan Balls"
         },
         {
           "name": "Timer Ball",
           "price": "1600",
-          "effect": "+1d6 per rounds in battle up to max of +10",
+          "effect": "4d6 base; +1d6 per rounds in battle up to max of +10",
           "category": "Artisan Balls"
         },
         {
           "name": "Luxury Ball",
           "price": "2500",
-          "effect": "+4d6 caught Pokémon regain 1 Will Point each day",
+          "effect": "4d6 base; +4d6 caught Pokémon regains +1 additional Will Point each day",
           "category": "Artisan Balls"
         }
       ],
@@ -12475,7 +12475,7 @@
         {
           "name": "Poke Ball",
           "price": "350",
-          "effect": "",
+          "effect": "4d6",
           "category": "Wares"
         },
         {
