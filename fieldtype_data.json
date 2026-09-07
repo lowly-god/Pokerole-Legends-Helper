@@ -4,21 +4,24 @@
       "name": "Ashen Wastes",
       "sections": {
         "General Effects": [
-          "Sandstorm Weather lasts for 8 turns.",
-          "Special Flying and Ground-Type attacks cause all Active Combatant's Accuracy to be reduced by 1 Pokémon with Own Tempo, Inner Focus, Steadfast, and Keen Eye ignore this effect."
+          "Sandstorm Weather has Duration 8 Rounds.",
+          "Special Flying and Ground-Type attacks cause all Active Combatant's Accuracy to be reduced by -1. This effect stacks up to 3 times. Pokémon with Mind's Eye, Own Tempo, Inner Focus, Steadfast, and Keen Eye ignore this effect."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Typeless."
+          "The Ability Mimicry changes the User’s Type to Typeless."
         ],
         "Moves Affected": [
-          "The Moves Mud Shot, Mud Slap, Sand Tomb, Fire Spin and Muddy Water gain +1 Damage Dice.",
-          "The Move Camouflage change the User’s type to Typeless.",
+          "The Moves Entomb, Mud Shot, Mud Slap, Mud Bomb, Sand Tomb, Fire Spin and Muddy Water gain +1 Damage Dice.",
+          "The Move Camouflage change the User’s Type to Typeless.",
           "The Move Nature Power becomes Earth Power.",
+          "The Move Secret Power becomes Flame Charge.",
           "The Moves Terrain Pulse and Embody Element become Ground-Type."
         ],
         "Changing The Field-Type": [
-          "The Moves Acid Rain, Sludge Wave, Sludge Bomb, Acid Downpour change the Field-Type to Poisonous Wastes.",
-          "After 2 uses Moves Grassy Terrain, Frenzy Plant, Forest’s Curse, Grass Pledge and Jungle Healing change the Field-Type to Neutral."
+          "After 2 uses the Moves Sludge Wave, Sludge Bomb, Acid Downpour change the Field-Type to Poisonous Wastes.",
+          "After 2 uses Moves Frenzy Plant, Forest’s Curse, Grass Pledge and Jungle Healing change the Field-Type to Neutral.",
+          "If Acid Rain Weather is active for 3 Rounds the Field-Type changes to Poisonous Wastes.",
+          "If Grassy Terrain is active for 3 Rounds the Field-Type changes to Neutral."
         ]
       },
       "aliases": [
@@ -29,33 +32,33 @@
       "name": "Aquatic",
       "sections": {
         "General Effects": [
-          "Water and Electric-Type attacks gain +1 Damage Dice.",
-          "Fire-Type Moves against grounded Active Combatants get -1 Damage Dice.",
-          "Ground-Type Moves always fail to activate."
+          "Damaging Water-Type and Electric-Type attacks gain +1 Damage Dice.",
+          "Damaging Fire-Type attacks used against grounded Active Combatants have -1 Damage Dice.",
+          "Ground-Type Moves always fail to activate.",
+          "Rain Weather has Duration 8 Rounds."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Water.",
-          "The abilities Surge Surfer, Swift Swim, Hydration, Schooling, Torrent and Hydration activate when the User is sent in.",
-          "Pokémon with the abilities Water Absorb and Dry Skin heal 1HP at the end of the Round.",
-          "The ability Water Veil cures all Status Conditions.",
-          "The ability Steam Engine activates at the end of every Round.",
-          "Pokémon with the ability Propeller Tail gain +1 Damage Dice to Reaction attacks."
+          "The Ability Mimicry changes the User’s Type to Water.",
+          "The Abilities Surge Surfer, Swift Swim, Hydration, Schooling, Steam Engine, and Torrent activate when the User is sent in.",
+          "Pokémon with the Abilities Water Absorb and Dry Skin heal 1 HP at the end of the Round.",
+          "The Ability Water Veil cures all Status Conditions affecting the User, at the end of each Round.",
+          "Pokémon with the Ability Propeller Tail gain +1 Damage Dice on their Damaging Reaction Moves."
         ],
         "Moves Affected": [
-          "The Move Camouflage change the User’s type to Water.",
-          "The Move Nature Power becomes Whirpool.",
+          "The Move Camouflage change the User’s Type to Water.",
+          "The Move Nature Power becomes Whirlpool.",
+          "The Move Secret Power becomes Flip Turn.",
           "The Moves Terrain Pulse and Embody Element become Water-Type.",
-          "The Move Life Dew grants the effects of Aqua Ring to the User.",
-          "The Move Aqua Ring heals for 2HP at the end of the Round.",
-          "The Move Splash becomes Power 1.",
-          "The Move Shore Up activates the ability Water Compaction.",
-          "The Move Dive loses its charge phase.",
-          "The Moves Surf, Shadow Tide and Muddy Water become Never Miss."
+          "The Moves Aqua Ring and Life Dew Heal for 2 HP at the end of the Round.",
+          "The Move Splash becomes Physical, Base Power 1.",
+          "Using the Move Shore Up activates the Ability Water Compaction (if the User has it).",
+          "The Move Dive loses its Charge Phase.",
+          "The Moves Surf, Shadow Tide, Sludge Wave, and Muddy Water become Never Miss."
         ],
         "Changing The Field-Type": [
           "The Moves Dive, Gravity, Anchor Shot and Grav Apple change the Field-Type to Underwater.",
-          "The Moves Pollution, Sludge Wave, and Acid Downpour change the Field-Type to Murkwater.",
-          "The Moves Blizzard, Glaciate, Subzero Slammer and Black Ice change the Field-Type to Frozen."
+          "After 2 uses the Moves Pollution, Sludge Wave, and Acid Downpour change the Field-Type to Murkwater.",
+          "After 2 uses the Moves Blizzard, Glaciate, Subzero Slammer and Black Ice change the Field-Type to Frozen."
         ]
       },
       "aliases": [
@@ -66,27 +69,30 @@
       "name": "Cavern",
       "sections": {
         "General Effects": [
-          "Ground-Type attacks can hit Flying/Levitating Pokémon.",
-          "Ground, Rock and Sound Move attacks gain +1 additional Damage Dice.",
-          "Special Flying-Type attacks get -1 Damage Dice."
+          "Damaging Ground-Type and Rock-Type attacks gain +1 Damage Dice.",
+          "Damaging Sound Move attacks gain +1 Damage Dice.",
+          "Rock-Type attacks with reduced Accuracy have no reduced Accuracy.",
+          "Special Flying-Type attacks have -1 Damage Dice.",
+          "Flying-Type and Levitating Active Combatants lose their Immunity to Ground-Type Damage."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Rock.",
-          "Pokémon with the Sturdy ability are immune to Field Damage."
+          "The Ability Mimicry changes the User’s Type to Rock.",
+          "Pokémon with the Sturdy Ability are immune to Field Damage."
         ],
         "Moves Affected": [
-          "The Move Camouflage change the User’s type to Rock.",
+          "The Move Camouflage change the User’s Type to Rock.",
           "The Move Nature Power becomes Ancient Power.",
+          "The Move Secret Power becomes Rock Tomb.",
           "The Moves Terrain Pulse and Embody Element become Rock-Type.",
-          "The Moves Earthquake, Bulldoze, Magnitude Continental Crush and Tectonic Rage cause all Active Combatants to take 2 Dice of Damage at the end of each Round.",
           "The Move Sky Drop fails to activate.",
-          "The Move Fly loses its charge phase."
+          "The Move Fly loses its Charge Phase.",
+          "Using The Moves Earthquake, Earth Power, Bulldoze, Magnitude Continental Crush and Tectonic Rage; cause all Active Combatants to take 2 Dice of Rock-Type Field Damage at the end of each Round. (This effect stacks)."
         ],
         "Changing The Field-Type": [
           "The Moves Power Gem and Diamond Storm change the Field-Type to Crystal Cavern.",
-          "After Two uses the Moves Dragon Pulse, Dragon Dance and Imperial Majesty change the Field-Type to Dragon’s Den.",
-          "The Moves Magma Drift, Eruption, Lava Plume, Heat Wave and Fusion Flare change the Field-Type to Volcanic.",
-          "After Two uses the Moves Blizzard, Icy Wind and Snowy Terrain change the Field-Type to Frozen."
+          "After 2 uses the Moves Dragon Pulse, Dragon Dance and Imperial Majesty change the Field-Type to Dragon’s Den.",
+          "After 2 uses the Moves Magma Drift, Eruption, Lava Plume, Heat Wave and Fusion Flare change the Field-Type to Volcanic.",
+          "After 2 uses the Moves Blizzard, Glaciate, Snowy Terrain, Subzero Slammer change the Field-Type to Frozen."
         ]
       },
       "aliases": [
@@ -97,19 +103,20 @@
       "name": "Colosseum",
       "sections": {
         "General Effects": [
-          "Whenever an Active Combatant defeats a Foe with a Damaging Move it gets +1 to either its Strength or Special (Whichever is higher).",
-          "Whenever an Active Combatant defeats a Foe by using a Status Condition, Weather-Type, or ability it gets -1 to either its Strength or Special (Whichever is higher)."
+          "Whenever an Active Combatant defeats a Foe with a Damaging Move it gains +1 to either its Strength or Special. (Whichever is higher).",
+          "Whenever an Active Combatant defeats a Foe by using a Status Condition, Terrain effect, Weather effect, or Ability it gets -1 to either its Strength or Special. (Whichever is higher).",
+          "Damaging Cutter Moves, Fist Moves, Hammer Moves, Kick Moves, and Retaliatory Moves gain +1 Damage Dice."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Fighting.",
-          "The abilities Battle Armor, Shell Armor, Mirror Armor, Intrepid Sword, Justified,",
-          "No Guard and Dauntless Shield activate when the User is sent out."
+          "The Ability Mimicry changes the User’s Type to Fighting.",
+          "The Abilities Battle Armor, Shell Armor, Mirror Armor, Intrepid Sword, Justified, No Guard and Dauntless Shield activate when the User is sent in."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Fighting.",
+          "The Move Camouflage changes the User’s Type to Fighting.",
           "The Move Nature Power becomes No Retreat.",
+          "The Move Secret Power becomes Flying Press.",
           "The Moves Terrain Pulse and Embody Element become Steel-Type.",
-          "The Moves Wood Hammer, Dragon Hammer, Ice Hammer, Power Whip, Electro Whip, Spirit Shackle, Drill Run, Drill Peck, Ice Hammer, Icicle Spear, Anchor Shot, Crabhammer, Shadow Bone, Fire Lash, Sucker Punch, Throat Chop, Storm Throw, Electroweb, Vine Whip, Smart Strike, Smack Down, Sacred Sword, Secret Sword, Psycho Cut, Night Slash, Submission, Bonemerang, Bone Rush, Bone Club, Leaf Blade, Payback, Punishment, Meteor Mash, Bullet Punch, Clanging Scales, Steamroller, Brutal Swing, Meteor Assault, Bitter Blade, Armor Cannon, Stone Axe, Fin Blade, Spectral Slash, Frost Slash, Honor Blade, Sawblade Strike, Paper Cutter, Chivalrous Stab, Fell Stinger, Beat Up, Pay Day and Pursuit gain +1 Damage Dice."
+          "The Moves Power Whip, Electro Whip, Spirit Shackle, Drill Run, Drill Peck, Icicle Spear, Anchor Shot, Fire Lash, Throat Chop, Storm Throw, Electroweb, Vine Whip, Smart Strike, Smack Down, Bonemerang, Punishment, Clanging Scales, Steamroller, Brutal Swing, Meteor Assault, Armor Cannon, Fell Stinger, Beat Up, Pay Day and Pursuit gain +1 Damage Dice."
         ],
         "Changing The Field-Type": []
       },
@@ -121,27 +128,29 @@
       "name": "Corrosive Mist",
       "sections": {
         "General Effects": [
-          "All active Non-Poison or Steel-Type combatants become Poisoned after 3 rounds.",
-          "Poison and Fire-Type attacks gain +1 Damage Dice.",
-          "Fairy-Type attacks get -1 Damage Dice.",
-          "Acid Rain Weather lasts for 8 rounds."
+          "All non Poison-Type or Steel-Type Active Combatants become Poisoned at the end of the Round.",
+          "Damaging Poison-Type and Fire-Type attacks gain +1 Damage Dice.",
+          "Damaging Fairy-Type attacks get -1 Damage Dice.",
+          "Acid Rain Weather and Dense Fog Weather have Duration 8 Rounds."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Poison.",
-          "Pokémon with Dry skin take 1 Damage each Turn unless they are Poison-Type.",
-          "Pokémon with the Corrosion ability’s Moves gain +1 Damage Dice.",
-          "The abilities Poison Heal and Toxic Boost activate as if Poisoned."
+          "The Ability Mimicry changes the User’s Type to Poison.",
+          "Pokémon with the Ability Dry Skin receive 1 Damage at the end of the Round, unless they are Poison-Type.",
+          "Pokémon with the Ability Corrosion’s Damaging Moves gain +1 Damage Dice.",
+          "The Abilities Poison Heal and Toxic Boost activate when the User is sent in."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Poison.",
+          "The Move Camouflage changes the User’s Type to Poison.",
           "The Move Nature Power becomes Acid Spray.",
+          "The Move Secret Power becomes Poison Jab.",
           "The Moves Terrain Pulse and Embody Element become Poison-Type.",
-          "Additional effects of the Moves Venoshock and Venom Drench activate.",
-          "Pokémon using the Moves Life Dew and Aqua Ring take 1 Damage instead of healing, unless they are Poison-Type."
+          "The Moves Smog and Poison Gas have no reduced Accuracy.",
+          "Additional effects of the Moves Venoshock and Venom Drench activate, regardless of if the Target is Poisoned.",
+          "Non Poison-Type Active Combatants benefitting from the Moves Life Dew and Aqua Ring take 1 Damage instead of Healing."
         ],
         "Changing The Field-Type": [
-          "The Moves Purify, Cleansing Fire, Whirlwind, Razor Wind, Hurricane, Twister, and Defog change the Field-Type to Neutral Ground.",
-          "The Moves Sludge Wave, Surf, Muddy Water and Gravity change the Field-Type to Poisonous Wastes."
+          "After 2 uses the Moves Purify, Cleansing Fire, Whirlwind, Razor Wind, Hurricane, Twister, and Defog change the Field-Type to Neutral.",
+          "After 2 uses the Moves Sludge Wave, Surf, Muddy Water and Gravity change the Field-Type to Poisonous Wastes."
         ]
       },
       "aliases": [
@@ -149,31 +158,66 @@
       ]
     },
     {
+      "name": "Cosmic",
+      "sections": {
+        "General Effects": [
+          "Damaging Psychic-Type, Steel-Type, Dark-Type, and Fairy-Type attacks gain +1 Damage Dice.",
+          "Damaging Darkness Moves, Light Moves and Lunar Moves gain +1 Damage Dice.",
+          "If any Weather except for Midnight Weather or Strong Wind Weather is Active, any bonuses granted by the Field-Type are removed."
+        ],
+        "Abilities Affected": [
+          "The Ability Mimicry changes the User’s Type to Psychic.",
+          "The Ability Illuminate also increases the User's Special by +2.",
+          "The effects of Ability Shadow Shield is always active.",
+          "The Ability Victory Star also increases the User and Allies Dexterity by +1, when the User is sent in.",
+          "The Ability Shields Down also increases the User's Special by +1 when it activates.",
+          "The Abilities All Consuming Void, Minds Eye, Nocturnal, Night Cloak, and Radiant Defender activate when the User is sent in."
+        ],
+        "Moves Affected": [
+          "The Move Camouflage changes the User’s Type to Dark.",
+          "The Move Nature Power becomes Moonblast.",
+          "The Move Secret Power becomes Meteor Assault.",
+          "The Moves Terrain Pulse and Embody Element become Psychic-Type.",
+          "The Move Cosmic Power increases the User's Defense and Special Defense by +2.",
+          "The Moves Healing Wish, and Wish, become Complete Heal.",
+          "The Moves Meteor Assault and Meteor Beam, lose their Charge / Recharge Phases.",
+          "All Healing Lunar Moves also increase the Defense and Special Defense of the Target by +1.",
+          "The Moves Asteroid Shot, Black Hole Eclipse, Comet Punch, Draco Meteor, Hyperspace Fury, Hyperspace Hole, Light that Burns the Sky, Menacing Moonraze Maelstrom, Meteor Mash, Moongeist Beam, Spacial Rend, Searing Sunraze Smash, Sunsteel Strike and Tera Starstorm gain +1 Damage Dice."
+        ],
+        "Changing The Field-Type": []
+      },
+      "aliases": [
+        "Cosmic"
+      ]
+    },
+    {
       "name": "Crystal Cavern",
       "sections": {
         "General Effects": [
-          "Fairy, Ground, Rock and Sound Move attacks gain +1 Damage Dice.",
-          "Ground-Type attacks can hit Flying-Types."
+          "Damaging Fairy-Type, Ground-Type, Rock-Type, Stellar-Type attacks gain +1 Damage Dice.",
+          "Damaging Beam Moves, Light Moves and Sound Moves gain +1 Damage Dice.",
+          "Rock-Type attacks with reduced Accuracy have no reduced Accuracy.",
+          "Flying-Type and Levitating Active Combatants lose their Immunity to Ground-Type Damage.",
+          "Special Flying-Type attacks have -1 Damage Dice.",
+          "Terastallized Pokémon's attacks gain +1 Damage Dice."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Rock.",
-          "Pokémon with the ability Prism Armor take 1 less Damage from all attacks.",
-          "The ability Radiant Defender activates when the User is sent in.",
-          "The ability Prism Refraction activates when the User is sent in, it also has a chance to activate midnight Weather (turning the field to Dark Crystal Cavern)."
+          "The Ability Mimicry changes the User’s Type to Stellar.",
+          "Pokémon with the Ability Prism Armor additionally receive -1 Damage from non Super-Effective attacks.",
+          "The Abilities Radiant Defender and Prism Refraction activate when the User is sent in."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Rock.",
+          "The Move Camouflage changes the User’s Type to Rock.",
           "The Move Nature Power becomes Power Gem.",
-          "The Moves Terrain Pulse and Embody Element become Rock-Type.",
-          "Moves with the keyword “Beam” gain +1 Damage Dice.",
-          "The Move Dazzling Gleam gains +2 additional Damage Dice.",
-          "The Move Rock Polish also increase Strength and Special by 1.",
+          "The Move Secret Power becomes Rock Blast.",
+          "The Moves Terrain Pulse and Embody Element become Stellar-Type.",
+          "The Move Rock Polish also increases the User's Strength and Special by 1.",
           "The Move Sky Drop fails to activate.",
-          "The Move Fly loses its charge phase."
+          "The Move Fly loses its Charge Phase."
         ],
         "Changing The Field-Type": [
-          "After 2 uses the Moves Earthquake, Bulldoze, Magnitude and Rock Smash change the Field-Type Changes to Cavern.",
-          "The Moves Dark Pulse, Night Daze, Shadow Tide, Twilight Zone and Dark Void change the Field-Type to Dark Crystal Cavern."
+          "Darkness Moves change the Field-Type to Dark Crystal Cavern.",
+          "After 2 uses the Moves Earthquake, Earth Power, Bulldoze, Magnitude and Rock Smash change the Field-Type Changes to Cavern."
         ]
       },
       "aliases": [
@@ -181,31 +225,63 @@
       ]
     },
     {
+      "name": "Dance Floor",
+      "sections": {
+        "General Effects": [
+          "Whenever an Active Combatant defeats a Foe with a Damaging Sound Move or Dance Move it gains +1 to either its Strength or Special. (Whichever is higher).",
+          "Whenever an Active Combatant defeats a Foe by using a Status Condition, Terrain effect, Weather effect, or Ability it gets -1 to either its Strength or Special. (Whichever is higher).",
+          "Damaging Dance Moves, Sound Moves and Light Moves gain +1 Damage Dice.",
+          "Attribute increasing and decreasing Dance Moves have their effects increased by +1."
+        ],
+        "Abilities Affected": [
+          "The Ability Mimicry changes the User’s Type to Fighting.",
+          "The Abilities Dancer and Own Tempo increase the User's Strength and Special by +1, when the User is sent in.",
+          "The Abilities Illuminate and Insomnia increases the User's Defense and Special Defense by +1, when the User is sent in."
+        ],
+        "Moves Affected": [
+          "The Move Camouflage changes the User’s Type to Fairy.",
+          "The Move Nature Power becomes Revelation Dance.",
+          "The Move Secret Power becomes Moonveil Dance.",
+          "The Moves Terrain Pulse and Embody Element become Fighting-Type.",
+          "The Move Teeter Dance additionally reduces by -1 the Defense of those affected.",
+          "The Move Lunar Dance only Rolls half of the User's HP against itself. (Rounded Down).",
+          "The Moves Make It Rain, Beat Up, Pay Day and Pursuit gain +1 Damage Dice."
+        ],
+        "Changing The Field-Type": []
+      },
+      "aliases": [
+        "Dance Floor"
+      ]
+    },
+    {
       "name": "Dark Crystal Cavern",
       "sections": {
         "General Effects": [
-          "Dark, Ground, Rock and Sound Move attacks gain +1 additional Damage Dice.",
-          "Ground-Type attacks can hit Flying-Types."
+          "Damaging Dark-Type, Ground-Type, Rock-Type, Stellar-Type attacks gain +1 Damage Dice.",
+          "Damaging Beam Moves, Darkness Moves and Sound Moves gain +1 Damage Dice.",
+          "Damaging Solar Moves fail to activate.",
+          "Healing Solar Moves become Minor Heal.",
+          "Rock-Type attacks with reduced Accuracy have no reduced Accuracy.",
+          "Flying-Type and Levitating Active Combatants lose their Immunity to Ground-Type Damage.",
+          "Special Flying-Type attacks have -1 Damage Dice.",
+          "Terastallized Pokémon's Damaging attacks gain +1 Damage Dice."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Dark.",
-          "Pokémon with the ability Prism Armor take 1 less Damage from all attacks.",
-          "The abilities Prism Refraction, Nocturnal, Veil of Night, Invisibility and All Consuming Void activate when the User is sent in."
+          "The Ability Mimicry changes the User’s Type to Stellar.",
+          "Pokémon with the Ability Prism Armor additionally receive -1 Damage from non Super-Effective attacks.",
+          "The Abilities Prism Refraction, Nocturnal, Veil Of Night, Invisibility and All Consuming Void activate when the User is sent in."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Dark.",
-          "The Move Nature Power becomes Dark Pulse.",
-          "The Moves Terrain Pulse and Embody Element become Dark-Type.",
-          "Moves with the keyword “Shadow” gain +1 additional Damage Dice.",
-          "Moves with the keyword “Beam” gain +1 additional Damage Dice.",
-          "Moves with the Keyword “Solar” fail to activate.",
-          "The Moves Synthesis and Morning Sun heal for 1HP.",
+          "The Move Camouflage changes the User’s Type to Rock.",
+          "The Move Nature Power becomes Power Gem.",
+          "The Move Secret Power becomes Rock Blast.",
+          "The Moves Terrain Pulse and Embody Element become Stellar-Type.",
           "The Move Sky Drop fails to activate.",
-          "The Move Fly loses its charge phase."
+          "The Move Fly loses its Charge Phase."
         ],
         "Changing The Field-Type": [
-          "The Moves Flash, Sunny Day and Dazzling Gleam change the Field-Type to Crystal Cavern.",
-          "After 2 uses the Moves Earthquake, Bulldoze, Magnitude and Rock Smash change the Field-Type Changes to Cavern."
+          "Light Moves change the Field-Type to Crystal Cavern.",
+          "After 2 uses the Moves Earthquake, Earth Power, Bulldoze, Magnitude and Rock Smash change the Field-Type to Cavern."
         ]
       },
       "aliases": [
@@ -216,24 +292,27 @@
       "name": "Desert",
       "sections": {
         "General Effects": [
-          "Ground-Type Pokémon’s Defense and Special Defense increases by 1.",
-          "Ground-Type attacks gain +1 Damage Dice.",
-          "Water-Type attacks (except Scald, Hydro Steam and Steam Eruption) get -1 Damage Dice.",
-          "Electric attacks against grounded Pokémon get -1 Damage Dice.",
-          "Sandstorm and Sunny Weather last 8 rounds.",
-          "Water and Gras-Type Pokémon (except Cacnea, Cacturne, Maractus, Bramblin, Brambleghast, Capsakid, Scovillain and Scornovillain) take 1 Damage at the end of the Round if Sunny Weather is active."
+          "Increase by 1 the Defense and Special Defense of Ground-Type Pokémon.",
+          "Damaging Ground-Type attacks gain +1 Damage Dice.",
+          "Damaging Water-Type attacks (except Scald, Hydro Steam and Steam Eruption) have -1 Damage Dice.",
+          "Water-Type and Grass-Type Pokémon (except Eruptoise, Volcanion, Cacnea, Cacturne, Maractus, Bramblin, Brambleghast, Capsakid, Scovillain and Mega Scovillain) take 1 Damage at the end of the Round if Sunny Weather is active.",
+          "Sandstorm Weather and Sunny Weather have Duration 8 Rounds."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Ground.",
-          "The abilities Sand Veil, Sand Rush, Sand Force and Sand Spit activate when the User is sent out."
+          "The Ability Mimicry changes the User’s Type to Ground.",
+          "The Abilities Sand Veil, Sand Rush, Sand Force and Sand Spit activate when the User is sent in."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Ground.",
-          "Nature Power becomes Sand Tomb.",
+          "The Move Camouflage changes the User’s Type to Ground.",
+          "The Move Nature Power becomes Dust Devil.",
+          "The Move Secret Power becomes Needle Arm.",
           "The Moves Terrain Pulse and Embody Element become Ground-Type.",
-          "The Moves Heat Wave, Needle Arm, Pin Missile, Burn Up, Scald, Hydro Steam and Steam Eruption get +1 Damage Dice."
+          "The Moves Heat Wave, Needle Arm, Pin Missile and Burn Up gain +1 Damage Dice."
         ],
-        "Changing The Field-Type": []
+        "Changing The Field-Type": [
+          "After 2 uses Moves Frenzy Plant, Forest’s Curse, Grass Pledge and Jungle Healing change the Field-Type to Neutral.",
+          "If Grassy Terrain is active for 3 Rounds the Field-Type changes to Neutral."
+        ]
       },
       "aliases": [
         "Desert"
@@ -243,25 +322,26 @@
       "name": "Dimensional Rift",
       "sections": {
         "General Effects": [
-          "Dark and Ghost-Type attacks gain +1 Damage Dice.",
-          "Fairy and Normal-Type attacks get -1 Damage Dice.",
+          "Damaging Dark-Type, Ghost-Type and Shadow-Type attacks gain +1 Damage Dice.",
+          "Damaging Fairy-Type and Normal-Type attacks have -1 Damage Dice.",
           "Ghost-Types and Pokémon with Shadow Tag lose their immunity to Shadow Tag.",
-          "Weather and Terrain setting Moves and abilities fail to activate.",
-          "Sleeping Pokémon take 1 Damage at the end of the Round."
+          "Weather and Terrain setting Moves and Abilities fail to activate, unless used by Rift Pokémon.",
+          "Sleeping Active Combatants take 1 Damage at the end of the Round."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Ghost.",
-          "The ability Rattled is activated when the User is sent out.",
-          "The ability Perish Body blocks the Foe upon activation.",
-          "The ability Shadow Shield always works as if the User was at full HP."
+          "The Ability Mimicry changes the User’s Type to Ghost.",
+          "The Ability Rattled activates when the User is sent in.",
+          "The Ability Perish Body blocks the Foe upon activation.",
+          "The Ability Shadow Shield always works as if the User was at full HP."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Ghost.",
+          "The Move Camouflage changes the User’s Type to Dark.",
           "The Move Nature Power becomes Shadow Tide.",
+          "The Move Secret Power becomes Harrowing Wrath.",
           "The Moves Terrain Pulse and Embody Element become Ghost-Type.",
           "The Move Embargo also Blocks the Target.",
-          "The Move Dark Void has no reduced accuracy.",
-          "The Moves Tea Time and Lucky Chant fail to activate."
+          "The Move Dark Void has no reduced Accuracy.",
+          "The Moves Tea Time and Lucky Chant fail to activate, unless used by Rift Pokémon."
         ],
         "Changing The Field-Type": []
       },
@@ -273,27 +353,30 @@
       "name": "Dragon’s Den",
       "sections": {
         "General Effects": [
-          "Dragon, Fire and Rock-Type attacks gain +1 Damage Dice.",
-          "Water and Ice-Type attacks get -1 Damage Dice.",
-          "Weather setting Moves and abilities fail to activate.",
-          "Amulet Coin protects the Holder from Status Effects."
+          "Damaging Dragon-Type, Fire-Type and Rock-Type attacks gain +1 Damage Dice.",
+          "Damaging Water-Type and Ice-Type attacks get -1 Damage Dice.",
+          "Dragon-Types receive neutral Damage from Fairy-Type attacks.",
+          "Weather and Terrain setting Moves and Abilities fail to activate, unless used by Dragon-Types.",
+          "The Item Amulet Coin protects the Holder from Status Conditions."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Dragon.",
-          "Effects of the abilities Multiscale and Marvel Scale are always active.",
-          "The ability Berserk boosts Special attack by 2.",
-          "The ability Magma Armor grants immunity to Fire-Type attacks."
+          "The Ability Mimicry changes the User’s Type to Dragon.",
+          "The effects of the Abilities Multiscale and Marvel Scale are always active.",
+          "The Ability Berserk increases the User's Special by +2, when the User is sent in.",
+          "Pokémon with the Ability Magma Armor gain immunity to Fire-Type Damage."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Dragon.",
+          "The Move Camouflage changes the User’s Type to Dragon.",
           "The Move Nature Power becomes Dragon Pulse.",
+          "The Move Secret Power becomes Dragon Rush.",
           "The Moves Terrain Pulse and Embody Element become Dragon-Type.",
-          "The Move Pay Day gets +1 Damage Dice and grants 10x the usual money.",
+          "The Moves Pay Day and Make It Rain gain +1 Damage Dice and grant 5x the usual money.",
           "The Move Dragon Slayer gains Reaction 1.",
-          "The Moves Dragon Dance, Imperial Majesty, Coil and Noble Roar Increase their stat changing effects by 1."
+          "The Moves Dragon Dance, Imperial Majesty, Coil and Noble Roar have their effects increased by +1."
         ],
         "Changing The Field-Type": [
-          "The Moves Misty Terrain, Misty Explosion, Mist and Mist Ball change the Field-Type to Misty Haze."
+          "After 2 Uses the Moves Strange Steam, Misty Explosion, Haze, Mist and Mist Ball change the Field-Type to Misty Haze.",
+          "If Misty Terrain or Dense Fog Weather is active for 3 Rounds the Field-Type changes to Misty Haze."
         ]
       },
       "aliases": [
@@ -304,25 +387,28 @@
       "name": "Electrically Charged",
       "sections": {
         "General Effects": [
-          "Electric-Type attacks gain +1 Damage Dice.",
-          "Electric Terrain, Rain Weather and Strong Wind Weather last for 8 rounds."
+          "Damaging Electric-Type attacks gain +1 Damage Dice.",
+          "Electric-Type attacks with reduced Accuracy have no reduced Accuracy.",
+          "Electric Terrain, Rain Weather and Strong Wind Weather have Duration 8 Rounds."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Electric.",
-          "The ability Static’s chance Dice is increased to 6.",
-          "The abilities Surge Surfer, Motor Drive, Lightning Rod, Plus and Minus activate when the User is sent out.",
-          "The ability Steel Worker makes all Steel-Type attacks gain an Electric Sub-Typing.",
-          "Pokémon with the ability Volt Absorb heal 1HP at the end of the Round.",
-          "The ability Battery increases the Special of allies by 2."
+          "The Ability Mimicry changes the User’s Type to Electric.",
+          "The Ability Static’s Chance Dice is increased to 6.",
+          "The Abilities Surge Surfer, Motor Drive, Lightning Rod, Plus and Minus activate when the User is sent in.",
+          "The Ability Steel Worker makes all Steel-Type Moves affected by it gain the Electric Sub-Type.",
+          "Pokémon with the Ability Volt Absorb heal 1 HP at the end of the Round.",
+          "The Ability Battery has its effect increased by +1."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Electric.",
-          "The Move Nature Power becomes Thunderbolt.",
+          "The Move Camouflage changes the User’s Type to Electric.",
+          "The Move Nature Power becomes Thunder.",
+          "The Move Secret Power becomes Volt Tackle.",
           "The Moves Terrain Pulse and Embody Element become Electric-Type.",
-          "The Moves Thunder, Charge Beam, Thunder Wave, Bolt Strike, and Zap Cannon do not suffer from reduced accuracy.",
           "The effects of the Move Magnet Rise last for 8 turns."
         ],
-        "Changing The Field-Type": []
+        "Changing The Field-Type": [
+          "After 2 uses the Moves Earth Power, Mud Sport and Shelter change the Field-Type to Neutral."
+        ]
       },
       "aliases": [
         "Electrically Charged"
@@ -331,76 +417,103 @@
     {
       "name": "Enchanted Woods",
       "sections": {
-        "General Effects": [],
-        "Abilities Affected": [],
-        "Moves Affected": [],
-        "Changing The Field-Type": []
+        "General Effects": [
+          "Damaging Fairy-Type, Grass-Type and Dark-Type attacks gain +1 Damage Dice.",
+          "Damaging Dark-Type and Fairy-Type attacks hit Dark-Types and Fairy-Types neutrally.",
+          "Damaging Fairy and Grass-Type attacks hit Steel-Types Super-Effectively.",
+          "Powder Moves with reduced Accuracy have no reduced Accuracy."
+        ],
+        "Abilities Affected": [
+          "The Ability Mimicry changes the User’s Type to Fairy.",
+          "The Ability Power Spot increases Allies Damage Dice by an additional +1.",
+          "The Ability Effect Spore has its Chance Dice increased to 6.",
+          "The Ability Cotton Down reduces Dexterity by -2 when activated.",
+          "The Ability Natural Cure always cures all Status Conditions at the end of the Round.",
+          "The Abilities Flower Gift, Overgrow, Chlorophyll, Nocturnal, Veil Of Night, Invisibility and Fury Of The Hive activate when the User is sent in.",
+          "The Abilities Bad Luck and Super Luck have their effects increased by +1."
+        ],
+        "Moves Affected": [
+          "The Move Camouflage changes the User’s Type to Grass.",
+          "The Move Nature Power becomes Draining Kiss.",
+          "The Move Secret Power becomes Foul Play.",
+          "The Moves Terrain Pulse and Embody Element become Dark-Type.",
+          "The Move Strange Brew has its Chance Dice increased to 3 for each Status Condition.",
+          "The Move Forest’s Curse also afflicts the Foe with the effects of the Move Curse (from a Ghost-Type User)."
+        ],
+        "Changing The Field-Type": [
+          "After 2 uses the Moves Uncontrolled Burn Off, Heat Wave, Flame Burst, Eruption, Lava Plume, Magma Drift, Fire Pledge and Inferno Overdrive change the Field-Type to Inferno.",
+          "After 2 uses the Moves Purify and Cleansing Fire changes the Field-Type to Forest.",
+          "If Dense Fog Weather is active for 3 Rounds the Field-Type changes to Haunted."
+        ]
       },
       "aliases": [
         "Enchanted Woods"
       ]
     },
     {
-      "name": "General Affects",
+      "name": "Facility",
       "sections": {
         "General Effects": [
-          "Fairy, Grass and Dark-Type attacks gain +1 additional Damage Dice.",
-          "Dark and Fairy-Type attacks now hit Dark and Fairy-Types neutrally.",
-          "Fairy and Gras-Type attacks hit Steel-Types super effectively."
+          "Damaging Electric-Type, Normal-Type and Steel-Type attacks gain +1 Damage Dice.",
+          "Damaging Pulse Moves gain +1 Damage Dice."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Fairy.",
-          "The ability Power Spot gives +2 additional Damage Dice instead of 1.",
-          "The ability Flower Gift activates when the User is sent out.",
-          "The ability Effect Spore has its chance Dice increased to 6.",
-          "The ability Cotton Down also reduces Dexterity by 1.",
-          "The ability Natural Cure always cures Status effects at the end of the Round.",
-          "The abilities Overgrow, Chlorophyll, Nocturnal, Veil of Night, Invisibility and Fury Of The Hive activate when the User is sent in.",
-          "The abilities Bad Luck and Super Luck have their effects increased by 1."
+          "The Ability Mimicry changes the User’s Type to Electric.",
+          "The Ability Static’s Chance Dice is increased to 5.",
+          "The Abilities Surge Surfer, Motor Drive, Lightning Rod, Plus and Minus activate when the User is sent in.",
+          "The Abilities Battery, Download, Technician, and Motor Drive's effects are increased by +1.",
+          "The Abilities Steel Worker and Galvanize make all Moves affected by them gain either the Electric or Steel Sub-Type.",
+          "Pokémon with the Ability Volt Absorb heal 1 HP at the end of the Round."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Grass.",
-          "The Move Nature Power becomes Moonblast.",
-          "The Moves Terrain Pulse and Embody Element become Dark-Type.",
-          "The Move Forest’s Curse also afflicts the Foe with the effects of the Move Curse."
+          "The Move Camouflage changes the User’s Type to Steel.",
+          "The Move Nature Power becomes Techno Blast.",
+          "The Move Secret Power becomes Zap Cannon.",
+          "The Moves Terrain Pulse and Embody Element become Electric-Type.",
+          "The Moves Thunder, Charge Beam, Gear Grind, Thunder Wave, Bolt Strike, and Zap Cannon have no reduced Accuracy.",
+          "The Moves Charge, Metal Sound, Iron Defense, Swords Dance, Gear Up and Autotomize have their effects increased by +1.",
+          "The effects of the Moves Electric Terrain, Magnet Rise, Gravity, Anti-Gravity, Magic Room, Trick Room, Wonder Room, and Singularity have duration 8 Rounds.",
+          "The Move Shift gear increases Strength by +2.",
+          "The Moves Tri Attack, Multi-Attack and Meltdown gain +1 Damage Dice.",
+          "The Move Recover becomes Complete Heal."
         ],
         "Changing The Field-Type": [
-          "The Moves Cleansing Fire and Uncontrolled Burn Off change the Field-Type to Inferno.",
-          "The Move Purify changes the Field-Type to Forest."
+          "After 2 uses the Moves Earthquake, Bulldoze, Earth Power, and Tectonic Rage change the Field-Type to Ruins."
         ]
       },
       "aliases": [
-        "General Affects"
+        "Facility"
       ]
     },
     {
       "name": "Fairy Tale",
       "sections": {
         "General Effects": [
-          "Fairy, Steel and Dragon-Type attacks gain +1 Damage Dice.",
-          "Steel-Type attacks hit Dragon-Types for super effective Damage.",
-          "Misty Terrain, Grassy Terrain, Midnight Weather and Hail Weather last for 8 rounds."
+          "Damaging Fairy-Type, Steel-Type and Dragon-Type attacks gain +1 Damage Dice.",
+          "Damaging Cutter Moves gain +1 Damage Dice when used against Dragon-Types.",
+          "Misty Terrain, Grassy Terrain, Midnight Weather and Snowy Weather have Duration 8 Rounds."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Fairy.",
-          "Pokémon with the abilities Queenly Majesty, Magician and Intrepid Sword have their Strength and Special boosted by 1.",
-          "Pokémon with the abilities Battle Armor, Magma Armor, Mirror Armor, Prism Armor,",
-          "Shell Armor and Weak Armor have their Defense and Special Defense boosted by 1."
+          "The Ability Mimicry changes the User’s Type to Fairy.",
+          "The Abilities Queenly Majesty, Magician and Intrepid Sword increase the User's Strength and Special by +1, when the User is sent in.",
+          "The Abilities Battle Armor, Magma Armor, Mirror Armor, Prism Armor, Shell Armor and Weak Armor increase the User's Defense and Special Defense by +1, when the User is sent in."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Fairy.",
+          "The Move Camouflage changes the User’s Type to Fairy.",
           "The Move Nature Power becomes Secret Sword.",
-          "The Move Vorpal Blade has it’s Chance Dice Increased to 3.",
-          "The Move Healing Wish additionally boosts the Target’s Strength and Special by 1.",
+          "The Move Secret Power becomes Heart Breaker.",
           "The Moves Terrain Pulse and Embody Element become Fairy-Type.",
+          "The Move Vorpal Blade has it’s Chance Dice Increased to 3.",
+          "The Move Healing Wish also boosts the Target’s Strength and Special by +1.",
           "The Moves Cut, Slash, Sacred Sword, and Secret Sword become Steel-Type.",
           "The Moves Sweet Kiss, Draining Kiss and Flirty Kiss cure Sleep.",
-          "The Moves Sing, Grass Whistle, Hypnosis and Sleep Powder have no reduced accuracy.",
-          "The Moves Mystical Fire, Ancient Power, Magical Leaf, Relic Song, Sparkling Aria, Moongeist Beam, Fleur Cannon, Hoarfrost Moon, incredible Feat, Strange Brew, Eerie Spell, Chivalrous Stab, Dragon Slayer, Spectral Slash, Draining Kiss, Flirty Kiss and Heart Breaker gain +1 Damage Dice.",
+          "The Moves Grass Whistle, Hypnosis, Mirror Shield, Sing and Sleep Powder have no reduced Accuracy.",
+          "The Moves Mystical Fire, Ancient Power, Magical Leaf, Relic Song, Sparkling Aria, Pay Day, Grav Apple, Apple Acid, Hoarfrost Moon, Incredible Feat, Strange Brew, Eerie Spell and Spectral Slash gain +1 Damage Dice.",
           "The Moves Floral Healing and Wish become Complete Heal."
         ],
         "Changing The Field-Type": [
-          "After 2 uses the Moves Gigaton Hammer, Gear Grind and Autotomize change the Field-Type to Foundry."
+          "After 2 uses the Moves Autotomize, Gear Grind, Gigaton Hammer, Pollution and Scrap Metal change the Field-Type to Foundry.",
+          "After 2 uses the Moves Frenzy Plant, Forest’s Curse, Grass Pledge and Jungle Healing change the Field-Type to Enchanted Woods."
         ]
       },
       "aliases": [
@@ -411,29 +524,31 @@
       "name": "Forest",
       "sections": {
         "General Effects": [
-          "Grass and Bug-Type attacks gain +1 Damage Dice.",
-          "Grassy Terrain lasts for 8 rounds."
+          "Damaging Grass and Bug-Type attacks gain +1 Damage Dice.",
+          "Damaging Cutter Moves gain the Grass Sub-Type.",
+          "Powder Moves have no reduced Accuracy.",
+          "Grassy Terrain has Duration 8 Rounds."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Bug.",
-          "The ability Effect Spore’s chance Dice increase to 5",
-          "The abilities Overgrow, Swarm, Grass Pelt, Fury Of The Hive and Leaf Guard activate when the User is sent in.",
-          "Pokémon with the ability Sap Sipper heal for 1HP at the end of the Round."
+          "The Ability Mimicry changes the User’s Type to Bug.",
+          "The Ability Effect Spore’s Chance Dice increases to 5.",
+          "The Abilities Overgrow, Swarm, Grass Pelt, Fury Of The Hive and Leaf Guard activate when the User is sent in.",
+          "Pokémon with the Ability Sap Sipper heal for 1 HP at the end of the Round."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Grass.",
+          "The Move Camouflage changes the User’s Type to Grass.",
           "The Move Nature Power becomes Petal Blizzard.",
-          "The Moves Cut, Slash, Air Slash, Fury Cutter, Psycho Cut, Iron Edge and Breaking Swipe gain the Grass Sub-Typing.",
-          "The Move Forest’s Curse also afflicts the Foe with the effects of the Move Curse.",
-          "The Move Ingrain heals for 2HP at the end of the Round.",
-          "The Moves Growth, Leaf Shield, Defend Order, Swarm Buff and Swarm Defend have their effects increased by 1.",
-          "The Moves Jungle Healing and Floral Healing become complete heal.",
-          "The Moves Terrain Pulse and Embody Element become Gras-Type."
+          "The Move Secret Power becomes X-Scissor.",
+          "The Moves Terrain Pulse and Embody Element become Grass-Type.",
+          "The Move Forest’s Curse also afflicts the Foe with the effects of the Move Curse (from a Ghost-Type User).",
+          "The Move Ingrain instead Heals for 2 HP at the end of the Round.",
+          "The Moves Growth, Leaf Shield, Defend Order, Heal Order, Swarm Buff and Swarm Defend have their effects increased by +1.",
+          "The Moves Jungle Healing and Floral Healing become Complete Heal."
         ],
         "Changing The Field-Type": [
-          "The Moves Uncontrolled Burn Off, Heat Wave, Flame Burst, Eruption, Lava Plume, Magma Drift, Fire Pledge and Inferno Overdrive change the Field-Type to Inferno.",
-          "The Moves Blizzard, Glaciate, Snowy Terrain, Subzero Slammer change the Field-Type to Frozen.",
-          "The Moves Eerie Spell, Magic Coat, Magic Room, Magic Powder, Magical Leaf,  Miasma, Strange Brew, Shadow Tide, Twilight Zone, Dark Magic change the Field-Type to Enchanted Woods."
+          "After 2 Uses the Moves Uncontrolled Burn Off, Heat Wave, Flame Burst, Eruption, Lava Plume, Magma Drift, Fire Pledge and Inferno Overdrive change the Field-Type to Inferno.",
+          "After 2 Uses the Moves Black Ice, Blizzard, Glaciate, Snowy Terrain, Subzero Slammer change the Field-Type to Frozen.",
+          "After 2 Uses the Moves Eerie Spell, Magic Coat, Magic Room, Magic Powder, Magical Leaf, Miasma, Strange Brew, Twilight Zone, Shadow Tide, Dark Magic change the Field-Type to Enchanted Woods."
         ]
       },
       "aliases": [
@@ -444,27 +559,28 @@
       "name": "Frozen",
       "sections": {
         "General Effects": [
-          "Ice-Type attacks gain +1 Damage Dice.",
-          "Fire-Type attacks get -1 Damage Dice.",
-          "Water-Type Moves (except Scald, Hydro Steam and Steam Eruption) become Ice-Type.",
-          "Snowy Terrain and Hail Weather last for 8 turns."
+          "Damaging Ice-Type attacks gain +1 Damage Dice.",
+          "Damaging Fighting-Type and Fire-Type attacks get -1 Damage Dice.",
+          "Damaging Water-Type attacks (except Scald, Hydro Steam and Steam Eruption) deal Ice-Type Damage.",
+          "Physical Non-Ranged Reaction attacks also increase the User’s Dexterity by +1 if used by a grounded Active Combatant. (This effect does not stack).",
+          "Snowy Terrain, Hail Weather and Snowy Weather have Duration 8 Rounds."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Ice.",
-          "The ability Refrigerate increases the Moves power by 2 Damage Dice.",
-          "The abilities Sub-Zero Surfer, Snow Cloak, Ice Body and Slush Rush activate when the User enters combat."
+          "The Ability Mimicry changes the User’s Type to Ice.",
+          "The Ability Refrigerate increases the Damage Dice of Moves affected by it by an additional +1.",
+          "The Abilities Sub-Zero Surfer, Snow Cloak, Ice Body and Slush Rush activate when the User is sent in."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Ice.",
+          "The Move Camouflage changes the User’s Type to Ice.",
           "The Move Nature Power becomes Ice Beam.",
+          "The Move Secret Power becomes Frozen Crash.",
           "The Moves Terrain Pulse and Embody Element become Ice-Type.",
-          "Non-Ranged Physical Reaction Moves increase the User’s Dexterity by 1 if used by a grounded Pokémon.",
-          "The Move Aurora Veil can be activated without Hail Weather being active.",
-          "The Moves Blizzard and Absolute Zero’s accuracy increases by 2."
+          "The Move Aurora Veil can be activated without Hail Weather or Snowy Weather being active.",
+          "The Moves Blizzard and Absolute Zero have no reduced Accuracy."
         ],
         "Changing The Field-Type": [
-          "If the Field-Type was Aquatic or Murkwater before it was changed to Frozen, the Moves Earthquake, Magnitude, Bulldoze, and Tectonic Rage change the Field-Type to whichever was present before.",
-          "The Moves Uncontrolled Burn Off, Heat Wave, Flame Burst, Eruption, Lava Plume, Magma Drift, Fire Pledge and Inferno Overdrive change the Field-Type to Neutral or Whichever Field-Type was present before Frozen."
+          "If the Field-Type was Aquatic or Murkwater before being changed to Frozen, the Moves Earthquake, Magnitude, Bulldoze, and Tectonic Rage change the Field-Type to whichever was present before.",
+          "After 2 Uses the Moves Uncontrolled Burn Off, Heat Wave, Flame Burst, Eruption, Lava Plume, Magma Drift, Fire Pledge and Inferno Overdrive change the Field-Type to Neutral or Whichever Field-Type was present before Frozen."
         ]
       },
       "aliases": [
@@ -475,26 +591,31 @@
       "name": "Foundry",
       "sections": {
         "General Effects": [
-          "Steel and Fire-Type attacks gain +1 Damage Dice.",
-          "Fairy-Type attacks get -1 Damage Dice.",
-          "Steel-Types are immune to the Burn condition."
+          "Damaging Steel-Type and Fire-Type attacks gain +1 Damage Dice.",
+          "Damaging Fairy-Type attacks have -1 Damage Dice.",
+          "Steel-Type Active Combatants are immune to the Burned Status Condition."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Steel.",
-          "The abilities Steelworker, Steam Engine, Technician, Motor Drive, Galvanise and Download’s effects are increased by 1."
+          "The Ability Mimicry changes the User’s Type to Steel.",
+          "The Abilities Steam Engine, Technician, and Motor Drive's effects are increased by +1.",
+          "The Ability Steel Worker makes all Steel-Type Moves affected by it gain the Fire Sub-Type."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Steel.",
-          "The Move Nature Power becomes Gear Grind.",
+          "The Move Camouflage changes the User’s Type to Steel.",
+          "The Move Nature Power becomes Scrap Metal",
+          "The Move Secret Power becomes Gear Grind.",
           "The Moves Terrain Pulse and Embody Element become Steel-Type.",
           "The Moves Techno Blast, Explosion, Self Destruct and Steam Roller gain +1 Damage Dice.",
-          "The Move Gigaton Hammer may be used each Round.",
-          "The Moves Metal Sound, Iron Defense, Swords Dance, Gear Up and Autotomize have their effects increased by 1.",
-          "The Move Gear Grind does not suffer from lowered accuracy.",
-          "The Move Shift gear boosts Strength by 2.",
-          "The effects of the Move Magnet Rise lasts for 8 rounds."
+          "The Move Gigaton Hammer does not fail to activate, if used the previous Round.",
+          "The Moves Metal Sound, Iron Defense, Swords Dance, Gear Up and Autotomize have their effects increased by +1.",
+          "The Move Gear Grind does not suffer from lowered Accuracy.",
+          "The Move Shift gear boosts Strength by an additional +1.",
+          "The effects of the Move Magnet Rise lasts for 8 Rounds."
         ],
-        "Changing The Field-Type": []
+        "Changing The Field-Type": [
+          "After 2 uses the Moves Breach, Conversion, Conversion 2, Electrify, Electro Web, Firewall, Techno Blast, and Singularity change the Field-Type to Facility.",
+          "If Electric Terrain is active for 3 Rounds the Field-Type changes to Electrically Charged."
+        ]
       },
       "aliases": [
         "Foundry"
@@ -504,32 +625,34 @@
       "name": "Haunted",
       "sections": {
         "General Effects": [
-          "Ghost-Type attacks gain +1 Damage Dice.",
-          "Ghost-Type attacks hit Normal-Types for super effective Damage.",
-          "Non Ghost-Type sleeping Pokémon take 1 Damage at the end of the Round.",
-          "Midnight Weather, Misty Terrain and the effects of the Moves Mist last for 8 rounds."
+          "Damaging Ghost-Type attacks gain +1 Damage Dice.",
+          "Damaging Ghost-Type attacks hit Normal-Types Super-Effectively.",
+          "Non Ghost-Type Sleeping Active Combatants take 1 Damage at the end of the Round.",
+          "Dense Fog Weather, Midnight Weather, Misty Terrain and the effects of the Move Mist have Duration 8 Rounds."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Ghost.",
-          "The ability Cursed Body’s chance Dice is increased to 5.",
-          "The ability Perish Body blocks the Foe upon triggering.",
-          "Non Ghost-Type Pokémon with the abilities Wandering Spirit and Mummy are blocked."
+          "The Ability Mimicry changes the User’s Type to Ghost.",
+          "The Ability Cursed Body’s Chance Dice is increased to 5.",
+          "The Ability Perish Body Blocks the Foe upon activation.",
+          "Non Ghost-Type Pokémon with the Abilities Wandering Spirit and Mummy are Blocked.",
+          "When a Ghost-Type Active Combatant Damages a Pokémon with the Ability Purifying Salt, it receives 1 Damage."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Ghost.",
+          "The Move Camouflage changes the User’s Type to Ghost.",
           "The Move Nature Power becomes Shadow Ball.",
+          "The Move Secret Power becomes Last Respects.",
           "The Moves Terrain Pulse and Embody Element become Ghost-Type.",
-          "The Move Ominous Wind has its chance Dice increased to 3.",
-          "The Move Curse only uses 1/4 of the User’s HP to activate.",
-          "The Move Spirit Break hits Ghost-Types for super effective Damage.",
-          "The Moves Phantom Force and Shadow Force do not have a charging phase.",
-          "The Moves Will-o-Wisp, Hypnosis have their accuracy increased by 2.",
+          "The Move Ominous Wind has its Chance Dice increased to 3.",
+          "The Move Curse (from a Ghost-Type User) only uses 1/4 of the User’s HP to activate, and its effects are doubled.",
+          "The Move Spirit Break hits Ghost-Types Super-Effectively.",
+          "The Moves Phantom Force and Shadow Force do not have a Charge Phase.",
+          "The Moves Absolute Zero, Will-o-Wisp,and Hypnosis have no reduced Accuracy.",
           "The Move Miasma gains +1 Damage Dice.",
-          "The Move Spiritual Static has its chance Dice increased to 5."
+          "The Move Spiritual Static has its Chance Dice increased to 5."
         ],
         "Changing The Field-Type": [
-          "The Moves Flash, Dazzling Gleam, Cleansing Fire and Purify change the Field-Type to Neutral.",
-          "The Moves Judgement, Mystical Power, Sacred Fire, Sacred Sword and Relic Song change the Field-Type to Holy Ground."
+          "After 2 Uses the Moves Flash, Dazzling Gleam, Cleansing Fire and Purify change the Field-Type to Neutral.",
+          "After 2 Uses the Moves Judgement, Mystical Power, Sacred Fire, Sacred Sword and Relic Song change the Field-Type to Holy Ground."
         ]
       },
       "aliases": [
@@ -540,27 +663,28 @@
       "name": "Holy Ground",
       "sections": {
         "General Effects": [
-          "Normal-Type attacks hit Dark and Ghost-Types super effectively.",
-          "Dragon and Psychic-Type attacks gain +1 Damage Dice."
+          "Damaging Normal-Type attacks hit Dark-Types, Ghost-Types and Shadow-Types Super-Effectively.",
+          "Damaging Dragon-Type, Normal-Type and Psychic-Type attacks gain +1 Damage Dice."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Normal.",
-          "The ability RKS System always changes to the User’s type to Dark.",
-          "The ability Improved RKS System always changes the User’s type to Dark / Ghost.",
-          "The abilities Cursed Body and Perish Body have no effect.",
-          "The ability Power Spot gives +2 Damage Dice to User and allies.",
-          "The ability Justified gives +2 to Strength and Special when activated."
+          "The Ability Mimicry changes the User’s Type to Normal.",
+          "The Ability RKS System always changes to the User’s Type to Dark.",
+          "The Ability Improved RKS System always changes the User’s Type to Dark / Ghost.",
+          "The Abilities Cursed Body and Perish Body have no effect.",
+          "The Ability Power Spot grants an additional +1 Damage Dice to the User and Allies Damaging Moves.",
+          "The Ability Justified grants an additional +1 to Strength when activated."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Psychic.",
-          "The Move Nature Power becomes Judgement.",
+          "The Move Camouflage changes the User’s Type to Psychic.",
+          "The Move Nature Power becomes Judgement (Normal-Type. Target: Foe. Accuracy Dice: Insight + Intimidate. Damage Dice: Special +2. Ignore Defenses. Must Recharge).",
+          "The Move Secret Power becomes Judgement (Normal-Type. Target: Foe. Accuracy Dice: Insight + Intimidate. Damage Dice: Physical +2. Ignore Defenses. Must Recharge).",
           "The Moves Terrain Pulse and Embody Element become Psychic-Type.",
-          "The signature Moves of Legendary / Mythic Pokémon gain +2 additional Damage Dice (Only if used by that Pokémon).",
-          "The Move Spirit Break deals super effective Damage to Ghost-Types.",
-          "The Move Cosmic Power’s effects are doubled."
+          "The Unique Moves of Legendary / Mythic Pokémon gain +2 Damage Dice. (Only if used by that Pokémon).",
+          "The Move Spirit Break hits Ghost-Types Super-Effectively.",
+          "The Move Cosmic Power’s effects are increased by an additional +1."
         ],
         "Changing The Field-Type": [
-          "After 2 uses the Moves Bitter Malice, Necromancy, Terrorize, Curse, Phantom Force and Ominous Wind change the Field-Type to Haunted."
+          "After 2 uses the Moves Bitter Malice, Necromancy, Terrorize, Curse (from a Ghost-Type User), Phantom Force and Ominous Wind change the Field-Type to Haunted."
         ]
       },
       "aliases": [
@@ -571,27 +695,28 @@
       "name": "Inferno",
       "sections": {
         "General Effects": [
-          "Fire-Type attacks gain +1 Damage Dice.",
-          "Special Water and Ice-Type attacks (except Scald, Hydro Steam and Steam Eruption) get -1 Damage Dice.",
-          "Pokémon who have used the Move Burn Up regain their fire typing at the end of the Round."
+          "Damaging Fire-Type attacks gain +1 Damage Dice.",
+          "Damaging Water-Type and Ice-Type attacks (except Scald, Hydro Steam and Steam Eruption) have -1 Damage Dice."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Fire.",
-          "Pokémon with the ability Dry Skin take 1 Damage at the end of the Round.",
-          "The abilities Blaze, Flash Fire, and Flare Boost activate when the User is sent in.",
-          "Pokémon with the ability Flame Body heal 1HP at the end of the Round.",
-          "The ability Ice Face melts upon entry."
+          "The Ability Mimicry changes the User’s Type to Fire.",
+          "Pokémon with the Ability Dry Skin take 1 Damage at the end of the Round.",
+          "The Abilities Blaze, Flash Fire, and Flare Boost activate when the User is sent in.",
+          "Pokémon with the Ability Flame Body heal 1 HP at the end of the Round.",
+          "Pokémon with the Ability Ice Face immediately change to their No-Ice form when the User is sent in."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Fire.",
+          "The Move Camouflage changes the User’s Type to Fire.",
           "The Move Nature Power becomes Flamethrower.",
+          "The Move Secret Power becomes Heat Crash.",
           "The Moves Terrain Pulse and Embody Element become Fire-Type.",
-          "The Moves Scald, Hydro Steam and Steam Eruption gain +1 Damage Dice."
+          "The Moves Scald, Hydro Steam and Steam Eruption gain +1 Damage Dice.",
+          "Pokémon who have used the Move Burn Up regain their Fire-Type at the end of the Round."
         ],
         "Changing The Field-Type": [
-          "If Rain Weather is active for 4 rounds the Field-Type changes to Ashen Wastes.",
-          "If Acid Rain Weather is active for 4 rounds the Field-Type changes to Poisonous Wastes.",
-          "After 2 uses the Moves Hydro Pump, Water Gun and Surf changes the Field-Type Neutral.",
+          "If Rain Weather is active for 3 Rounds the Field-Type changes to Ashen Wastes.",
+          "If Acid Rain Weather is active for 3 Rounds the Field-Type changes to Poisonous Wastes.",
+          "After 2 uses the Moves Hydro Pump, Muddy Water, Surf and Water Sport changes the Field-Type Neutral.",
           "After 2 uses the Move Sludge Wave changes the Field-Type to Poisonous Wastes."
         ]
       },
@@ -604,26 +729,29 @@
       "sections": {
         "General Effects": [
           "No Active Combatant’s stats can be reduced.",
-          "Fairy, Psychic and Ghost-Type attacks gain +1 Damage Dice.",
-          "Misty Terrain lasts for 8 rounds."
+          "Damaging Fairy-Type, Psychic-Type and Ghost-Type attacks gain +1 Damage Dice.",
+          "Damaging Aura Moves gain +1 Damage Dice.",
+          "Explosive Moves fail to activate.",
+          "Misty Terrain and Dense Fog Weather have Duration 8 Rounds."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Fairy.",
-          "Pokémon with Dry Skin are healed for 1HP each Round.",
-          "The abilities Marvel Scale and Water CompAction activate when the User is sent out.",
-          "The ability Pastel Veil gives resistance to Poison-Type attacks.",
-          "The ability Pixilate adds 2 Damage Dice to Fairy-Type Moves."
+          "The Ability Mimicry changes the User’s Type to Fairy.",
+          "Pokémon with Dry Skin are healed for 1 HP at the end of each Round.",
+          "The Abilities Marvel Scale and Water Compaction activate when the User is sent in.",
+          "The Ability Pastel Veil gives resistance to Poison-Type Damage."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Fairy.",
-          "The Move Nature Power becomes Mist Ball.",
+          "The Move Camouflage changes the User’s Type to Fairy.",
+          "The Move Nature Power becomes Strange Steam.",
+          "The Move Secret Power becomes Zen Headbutt.",
           "The Moves Terrain Pulse and Embody Element become Fairy-Type.",
-          "The Moves Misty Explosion, Mist Ball, Mystical Fire, Magical Leaf, Icy Wind, Aura Sphere, Aura Strike, Steam Eruption, Clear Smog, Smog, Silver Wind and Strange Steam gain +1 Damage Dice. •  The Move Wish becomes a Complete Heal.",
-          "The Moves Self Destruct, Explosion and Mind Blown fail to activate."
+          "The Moves Misty Explosion, Mist Ball, Mystical Fire, Magical Leaf, Icy Wind, Steam Eruption, Clear Smog, Smog, Silver Wind and Strange Steam gain +1 Damage Dice.",
+          "The Move Wish becomes a Complete Heal."
         ],
         "Changing The Field-Type": [
-          "After 2 uses the Moves Smog, Clear Smog, Poison Gas and Acid Rain change the Field-Type to Corrosive Mist.",
-          "The Moves Whirlwind, Razor Wind, Hurricane, Twister, and Defog change the field to Neutral Ground."
+          "After 2 uses the Moves Smog, Clear Smog, and Poison Gas change the Field-Type to Corrosive Mist.",
+          "After 2 Uses the Moves Whirlwind, Razor Wind, Hurricane, Twister, and Defog change the field to Neutral.",
+          "If Acid Rain Weather is active for 3 Rounds the Field-Type changes to Corrosive Mist."
         ]
       },
       "aliases": [
@@ -635,25 +763,25 @@
       "sections": {
         "General Effects": [
           "Fighting, Flying, Ground, Ice, Rock and Psychic-Type attacks gain +1 Damage Dice.",
-          "Snowy Terrain and Strong Wind Weather lasts 8 turns."
+          "Snowy Terrain and Strong Wind Weather have Duration 8 Rounds."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Fighting.",
-          "Pokémon with the abilities Long Reach, Desolate Land, Forewarn, Gale Wings,",
-          "No Guard, Power Spot, Stalwart, Steadfast, Telepathy, Flinty Spirit, Vital Spirit, and Fighting Spirit gain +1 Damage Dice."
+          "The Ability Mimicry changes the User’s Type to Fighting.",
+          "Pokémon with the Abilities Long Reach, Desolate Land, Forewarn, Gale Wings, No Guard, Power Spot, Stalwart, Steadfast, Telepathy, Flinty Spirit, Vital Spirit, and Fighting Spirit's Damaging Moves gain +1 Damage Dice."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Ground.",
+          "The Move Camouflage changes the User’s Type to Ground.",
           "The Move Nature Power becomes Razor Wind.",
+          "The Move Secret Power becomes Rock Slide.",
           "The Moves Terrain Pulse and Embody Element become Rock-Type.",
-          "The effects of the Move Tailwind lasts for 6 turns.",
-          "The Moves Blizzard, Thunder and Hurricane have their accuracy increased by 1.",
+          "The effects of the Move Tailwind has Duration 6 Rounds.",
+          "The Moves Blizzard, Hurricane and Thunder have their Accuracy increased by +1.",
           "The Moves Terrain Pulse and Embody Element become Fighting-Type."
         ],
         "Changing The Field-Type": [
-          "The Moves Fly, Whirlwind, Hurricane, Dragon Ascent and Oblivion Wing change the Field-Type to Skies.",
-          "The Moves Lava Plume, Magma Drift, Eruption and Inferno Overdrive change the Field-Type to Volcanic.",
-          "The Moves Blizzard, Glaciate, Snowy Terrain and Subzero Slammer change the Field-Type to Frozen."
+          "After 2 Uses the Moves Fly, Whirlwind, Hurricane, Dragon Ascent and Oblivion Wing change the Field-Type to Skies.",
+          "After 2 Uses the Moves Lava Plume, Magma Drift, Eruption and Inferno Overdrive change the Field-Type to Volcanic.",
+          "After 2 Uses the Moves Blizzard, Glaciate, Snowy Terrain and Subzero Slammer change the Field-Type to Frozen."
         ]
       },
       "aliases": [
@@ -664,33 +792,33 @@
       "name": "Murkwater",
       "sections": {
         "General Effects": [
-          "Water, Poison and Electric attacks gain +1 Damage Dice.",
-          "Water-Type attacks gain the Poison Sub-Type.",
+          "Water, Poison and Electric-Type attacks gain +1 Damage Dice.",
+          "Damaging Water-Type attacks gain the Poison Sub-Type.",
           "Ground-Type Moves always fail to activate.",
-          "Non Dark, Steel and Poison-Types take 1 Damage at the end of the Round. Pokémon with the abilities Immunity, Magic Guard, Pastel Veil, Poison Heal, Surge Surfer, Toxin Tax, Toxic Boost and Wonder Guard."
+          "Non Dark-Types, Steel-Types and Poison-Types take 1 Damage at the end of the Round. Pokémon with the Abilities Immunity, Magic Guard, Pastel Veil, Poison Heal, Surge Surfer, Toxin Tax, Toxic Boost and Wonder Guard ignore this effect."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Poison.",
-          "The abilities Surge Surfer, Swift Swim, Merciless, Toxic Boost, Poison Heal, Plague Pack, Schooling, and Torrent activate when the User is sent in.",
-          "The abilities Water Absorb and Dry Skin heal 1HP at the end of the Round if the User is Poison-Type.",
-          "The ability Liquid Ooze’s effect is now doubled on activation.",
-          "The ability Stench’s chance Dice increase to 3."
+          "The Ability Mimicry changes the User’s Type to Poison.",
+          "The Abilities Surge Surfer, Swift Swim, Merciless, Toxic Boost, Poison Heal, Plague Pack, Schooling, and Torrent activate when the User is sent in.",
+          "The Abilities Water Absorb and Dry Skin heal 1 HP at the end of the Round if the User is Poison-Type.",
+          "The Ability Liquid Ooze’s effect is now doubled upon activation.",
+          "The Ability Stench’s Chance Dice increases to 3."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Poison.",
+          "The Move Camouflage changes the User’s Type to Poison.",
           "The Move Nature Power becomes Sludge Wave.",
-          "The Move Camouflage changes the User’s type to Poison.",
+          "The Move Secret Power becomes Gunk Shot.",
           "The Moves Terrain Pulse and Embody Element become Poison-Type.",
-          "The Move Venom Drench can be activated at any time.",
-          "The Move Aqua Ring heals for 2HP at the end of the Round if the User is Poison-Type.",
+          "The effects of the Moves Venom Drench, and Venoshock activate, regardless of if the Target is Poisoned.",
+          "The Move Aqua Ring heals for 2 HP at the end of the Round if the User is Poison-Type.",
           "The Move Splash becomes Power 1.",
-          "The Move Shore Up activates the ability Water CompAction.",
-          "Non Steel or Poison-Type Pokémon using the Move Dive take 3 Damage at the end of the Round.",
+          "The Move Shore Up activates the Ability Water Compaction.",
+          "Non Steel or Poison-Type Pokémon using the Move Dive take 3 Damage during their Charge Phase.",
           "The Moves Surf, Shadow Tide, Sludge Wave and Muddy Water become Never Miss."
         ],
         "Changing The Field-Type": [
-          "The Moves Purify or Whirpool change the Field-Type to Aquatic.",
-          "The Moves Blizzard, Glaciate, Subzero Slammer and Black Ice change the Field-Type to Frozen."
+          "After 2 Uses the Moves Purify or Whirlpool change the Field-Type to Aquatic.",
+          "After 2 Uses the Moves Blizzard, Glaciate, Subzero Slammer and Black Ice change the Field-Type to Frozen."
         ]
       },
       "aliases": [
@@ -698,31 +826,37 @@
       ]
     },
     {
-      "name": "Neutral Field",
+      "name": "Neutral",
       "sections": {
         "General Effects": [],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Normal."
+          "The Ability Mimicry changes the User’s Type to Normal."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Normal.",
-          "The Move Nature Power becomes Rainbow Beam.",
+          "The Move Camouflage changes the User’s Type to Normal.",
+          "The Move Nature Power becomes Hyper Beam.",
+          "The Move Secret Power becomes Giga Impact.",
           "The Moves Terrain Pulse and Embody Element become Normal-Type."
         ],
         "Changing The Field-Type": [
-          "After 2 uses the Move Surf changes the Field-Type to Aquatic.",
-          "After 2 uses the Moves Blizzard, Glaciate, Snowy Terrain, Subzero Slammer change the Field-Type to Frozen.",
-          "After 2 uses the Moves Bitter Malice, Necromancy, Terrorize, Curse, Phantom Force and Ominous Wind change the Field-Type to Haunted.",
+          "After 2 uses the Moves Surf and Muddy Water changes the Field-Type to Aquatic.",
+          "After 2 uses the Moves Blizzard, Glaciate, Subzero Slammer change the Field-Type to Frozen.",
+          "After 2 uses the Moves Bitter Malice, Necromancy, Terrorize, Curse (from a Ghost-Type User), Phantom Force and Ominous Wind change the Field-Type to Haunted.",
           "After 2 uses the Moves Heat Wave, Flame Burst, Eruption, Lava Plume, Magma Drift, Fire Pledge and Inferno Overdrive change the Field-Type to Inferno.",
-          "After 2 uses the Moves Acid Rain, Pollution, Sludge Wave and Acid Downpour changes the Field-Type to Poison Wastes.",
-          "After 2 uses the Moves Misty Terrain, Aromatic Mist, Misty Explosion, Mist and Mist Ball change the Field-Type to Misty Haze.",
-          "After 2 uses the Moves Electric Terrain, Thunder, Parabolic Charge, Electrify and Discharge change the Field-Type to Electrically Charged.",
-          "After 2 uses the Moves Grassy Terrain, Frenzy Plant, Forest’s Curse, Grass Pledge and Jungle Healing change the Field-Type to Forest."
+          "After 2 uses the Moves Pollution, Sludge Wave and Acid Downpour changes the Field-Type to Poisonous Wastes.",
+          "After 2 uses the Moves Aromatic Mist, Misty Explosion, Mist and Mist Ball change the Field-Type to Misty Haze.",
+          "After 2 uses the Moves Thunder, Parabolic Charge, Electrify and Discharge change the Field-Type to Electrically Charged.",
+          "After 2 uses the Moves Frenzy Plant, Forest’s Curse, Grass Pledge and Jungle Healing change the Field-Type to Forest.",
+          "If Sandstorm Weather is Active for 3 Rounds the Field-Type changes to Desert.",
+          "If Snowy Terrain, Hail or Snowy Weather is Active for 3 Rounds the Field-Type changes to Frozen.",
+          "If Electric Terrain is Active for 3 Rounds the Field-Type changes to Electrically Charged.",
+          "If Grassy Terrain is Active for 3 Rounds the Field-Type changes to Forest.",
+          "If Dense Fog Weather is Active for 3 Rounds the Field-Type changes to Haunted."
         ]
       },
       "aliases": [
-        "Neutral Field",
         "Neutral",
+        "Neutral Field",
         "Neutral Ground"
       ]
     },
@@ -730,26 +864,27 @@
       "name": "Poisonous Wastes",
       "sections": {
         "General Effects": [
-          "Grounded Active Combatants become Poisoned after 3 rounds.",
+          "Non Poison-Type and Steel-Type Grounded Active Combatants become Poisoned at the end of the Round.",
           "Poison-Type attacks gain +1 Damage Dice.",
-          "Ground and Water-Type attacks gain 3 chance Dice to Poison the Foe.",
-          "Acid Rain Weather lasts for 8 rounds.",
-          "Additional effects of the Moves Venoshock and Venom Drench activate."
+          "Ground and Water-Type attacks gain \"Roll 3 Chance Dice to Poison the Target.\"",
+          "Acid Rain Weather has Duration 8 Rounds."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Poison.",
-          "Pokémon with the Corrosion ability’s Moves gain +1 Damage Dice.",
-          "The abilities Poison Heal and Toxic Boost activate as if Poisoned."
+          "The Ability Mimicry changes the User’s Type to Poison.",
+          "Pokémon with the Ability Corrosion's Moves gain +1 Damage Dice.",
+          "The Abilities Poison Heal and Toxic Boost activate as if the User was Poisoned."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Poison.",
+          "The Move Camouflage changes the User’s Type to Poison.",
           "The Move Nature Power becomes Sludge Bomb.",
+          "The Move Secret Power becomes Vile Assault.",
           "The Moves Terrain Pulse and Embody Element become Poison-Type.",
-          "The Move Ingrain Damages the User for 1HP instead of its usual effect.",
-          "The Moves Toxic, Poison Powder, Sleep Powder and Stun Spore have their accuracy increased by 1."
+          "The Move Ingrain Damages non Poison-Type Users for 1 HP at the end of the Round, instead of Healing them.",
+          "The Moves Toxic, Poison Powder, Sleep Powder and Stun Spore have their Accuracy increased by 1.",
+          "The effects of the Moves Venom Drench and Venoshock activate, regardless of if the Target is Poisoned."
         ],
         "Changing The Field-Type": [
-          "The Moves Purify, Cleansing Fire and Jungle Healing change the Field-Type to Swamp."
+          "After 2 uses the Moves Purify, Cleansing Fire and Jungle Healing change the Field-Type to Swamp."
         ]
       },
       "aliases": [
@@ -757,35 +892,70 @@
       ]
     },
     {
+      "name": "Ruins",
+      "sections": {
+        "General Effects": [
+          "Damaging Ghost, Psychic and Rock-Type attacks gain +1 Damage Dice.",
+          "Grassy and Psychic Terrain, Dense Fog and Sandstorm Weather have Duration 8 Rounds."
+        ],
+        "Abilities Affected": [
+          "The Ability Mimicry changes the User’s Type to Psychic.",
+          "The Ability Perish Body Blocks the Foe upon activating.",
+          "Non Ghost-Type Pokémon with the Abilities Wandering Spirit and Mummy are Blocked.",
+          "The Abilities Beads of Ruin, Sword of Ruin, Tablets of Ruin and Vessel of Ruin do not reduce Allies Attributes.",
+          "Pokémon with the Ability Sturdy are immune to Field Damage."
+        ],
+        "Moves Affected": [
+          "The Move Camouflage changes the User’s Type to Rock.",
+          "The Move Nature Power becomes Ancient Power.",
+          "The Move Secret Power becomes Shadow Bone.",
+          "The Moves Terrain Pulse and Embody Element become Psychic-Type.",
+          "Using The Moves Earthquake, Earth Power, Bulldoze, Magnitude Continental Crush and Tectonic Rage; cause all Active Combatants to take 2 Dice of Rock-Type Field Damage at the end of each Round. (This effect stacks).",
+          "The Moves Ancient Power and Ominous Wind's Chance Dice are Increased to 3.",
+          "The Move Recycle also boosts either Strength, Dexterity, Special, Defense or Special Defense at random, by 1."
+        ],
+        "Changing The Field-Type": [
+          "After 2 Uses the Moves Judgement, Mystical Power, Sacred Fire, Sacred Sword and Relic Song change the Field-Type to Holy Ground.",
+          "After 2 uses the Moves Dragon Pulse, Dragon Dance and Imperial Majesty change the Field-Type to Dragon’s Den.",
+          "After 2 uses the Moves Bitter Malice, Necromancy, Terrorize, Curse (from a Ghost-Type User), Phantom Force and Ominous Wind change the Field-Type to Haunted.",
+          "If Dense Fog Weather is active for 3 Rounds the Field-Type changes to Haunted."
+        ]
+      },
+      "aliases": [
+        "Ruins"
+      ]
+    },
+    {
       "name": "Skies",
       "sections": {
         "General Effects": [
-          "Flying-Type attacks gain +1 Damage Dice.",
-          "Flying-Types Dexterity is boosted by 1.",
-          "All Weather effects last 8 turns.",
-          "Terrain effects cannot be activated.",
-          "Moves with the Keyword Wind gain +1 Damage Dice.",
-          "The Moves Magnitude, Earthquake, Dig, Rototiller, Bulldoze, Spikes, Toxic Spikes, Sticky Web, Spider Web, Black Ice fail to activate."
+          "Damaging Flying-Type attacks gain +1 Damage Dice. (Does not stack with Wind Move Bonus).",
+          "Damaging Wind Moves gain +1 Damage Dice. (Does not stack with Flying-Type Bonus).",
+          "Flying-Types Dexterity is increased by +1, when the User is sent in.",
+          "All Weather-Types have Duration 8 Rounds.",
+          "All Terrain setting Moves and Abilities fail to activate.",
+          "All Entry Hazard setting Moves and Abilities fail to activate. (Except Stealth Rock).",
+          "All Ground-Type attacks fail to activate."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Flying.",
-          "The ability Big Pecks boosts Defense by 1 when the User is sent in.",
-          "The ability Levitate boosts Strength and Special by 1 when the User is sent in.",
-          "The ability Wind Rider activates when the User is sent in.",
-          "The ability Aerilate gains +1 Damage Dice.",
-          "The ability Cloud Nine removes Weather-Types instead of nullifying them."
+          "The Ability Mimicry changes the User’s Type to Flying.",
+          "The Ability Big Pecks additionally increases the User's Defense by +1, when the User is sent in.",
+          "The Ability Levitate additionally increases the User's Strength and Special by +1, when the User is sent in.",
+          "The Ability Wind Rider activates when the User is sent in.",
+          "The Ability Cloud Nine removes any active Weather and prevents Weather from being activated."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Flying.",
-          "The Move Nature Power becomes Aero Blast.",
+          "The Move Camouflage changes the User’s Type to Flying.",
+          "The Move Nature Power becomes Air Slash.",
+          "The Move Secret Power becomes Sky Attack.",
           "The Moves Terrain Pulse and Embody Element become Flying-Type.",
           "The effects of the Move Tailwind last for 8 turns.",
-          "The Move Sky Drop gains 4 chance Dice to OHKO grounded Pokémon.",
+          "The Move Sky Drop gains \"Roll 3 Chance Dice to OHKO grounded Active Combatants.\"",
           "The Moves Hurricane and Thunder gain Never Miss.",
           "The Move Dive gains the Flying Sub-Type."
         ],
         "Changing The Field-Type": [
-          "The Moves Gravity, Smack Down, Grav Apple and Thousand Arrows change the Field-Type to Mountainous."
+          "After 2 uses the Moves Gravity, Smack Down, Grav Apple and Thousand Arrows change the Field-Type to Mountainous."
         ]
       },
       "aliases": [
@@ -796,27 +966,27 @@
       "name": "Swamp",
       "sections": {
         "General Effects": [
-          "Ground, Water and Gras-Type attacks gain +1 Damage Dice.",
-          "Grassy Terrain, Rain Weather last 8 turns.",
-          "At the end of each Round the dexterity of grounded Active Combatants decreases by 1.",
-          "Pokémon with the abilities Quick Feet, Gooey, Bubble Vision, Liquid Ooze, Clear Body, Swift Swim and Propeller Tail are immune to this effect.",
-          "All Moves effected by the Damp ability fail to activate."
+          "Damaging Bug-Type, Grass-Type, Ground-Type, and Water-Type attacks gain +1 Damage Dice.",
+          "Grassy Terrain and Rain Weather have Duration 8 Rounds.",
+          "All Drain Moves Heal the User for the Total Damage / Attribute reduction dealt.",
+          "All Explosive Moves fail to activate.",
+          "At the end of each Round the Dexterity of grounded Active Combatants decreases by -1. Pokémon with the Abilities Quick Feet, Gooey, Bubble Vision, Liquid Ooze, Clear Body, Swift Swim and Propeller Tail are immune to this effect."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Grass.",
-          "The abilities Gooey and Swampound’s effects are increased by 1.",
-          "Pokémon with the Dry Skin ability heal 1HP at the end of each Round."
+          "The Ability Mimicry changes the User’s Type to Grass.",
+          "The Abilities Gooey and Swampound’s effects are increased by +1.",
+          "Pokémon with the Ability Dry Skin Heal 1 HP at the end of each Round."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Ground.",
+          "The Move Camouflage changes the User’s Type to Ground.",
           "Nature Power becomes Muddy Water.",
+          "The Move Secret Power becomes Snap Trap.",
           "The Moves Terrain Pulse and Embody Element become Ground-Type.",
-          "The Moves Muddy Water, Mud Shot, Mud Slap, Mud Bomb, have no reduced accuracy and",
-          "gain +1 Damage Dice.",
-          "The Moves Strength Sap, Leech Life, Absorb, Mega Drain and Giga Drain heal for the total stat reduction / Damage dealt."
+          "The Moves Muddy Water, Mud Shot, Mud Slap, Mud Bomb, have no reduced Accuracy and gain +1 Damage Dice."
         ],
         "Changing The Field-Type": [
-          "The Moves Acid Rain, Pollution, Sludge Bomb, Sludge Wave and Acid Downpour change the Field-Type to Murkwater."
+          "After 2 uses the Moves Pollution, Sludge Bomb, Sludge Wave and Acid Downpour change the Field-Type to Murkwater.",
+          "If Acid Rain Weather is active for 3 Rounds the Field-Type changes to Murkwater."
         ]
       },
       "aliases": [
@@ -827,28 +997,30 @@
       "name": "Urbanized",
       "sections": {
         "General Effects": [
-          "Bug, Dark, Electric, Normal, Poison and Steel-Type attacks gain +1 additional Damage Dice.",
-          "Fairy-Type attacks get -1 Damage Dice."
+          "Damaging Bug-Type, Dark-Type, Electric-Type, Normal-Type, Poison-Type and Steel-Type attacks gain +1 Damage Dice.",
+          "Damaging Fairy-Type and Grass-Type attacks have -1 Damage Dice."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Dark.",
-          "The abilities Merciless, Toxic Boost, activate when the User is sent out.",
-          "The abilities Poison Point, Stench and Effect Spore have their chance Dice increased to 5.",
-          "The ability Adaptability’s effect is doubled.",
-          "The ability Download’s boost is doubled.",
-          "The abilities Anticipation, Early Bird, Frisk, Pick Pocket and Unnerve boost Dexterity, Strength and Special by 1."
+          "The Ability Mimicry changes the User’s Type to Dark.",
+          "The Abilities Merciless and Toxic Boost activate when the User is sent in.",
+          "The Abilities Poison Touch, Poison Point, Stench and Effect Spore have their Chance Dice increased to 5.",
+          "The Abilities Adaptability and Download's effects are increased by +1.",
+          "The Abilities Anticipation, Early Bird, Frisk, Pick Pocket and Unnerve additionally increase the User's Dexterity, Strength and Special by +1."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Normal.",
+          "The Move Camouflage changes the User’s Type to Normal.",
           "The Move Nature Power becomes Smog.",
+          "The Move Secret Power becomes Covet.",
           "The Moves Terrain Pulse and Embody Element become Steel-Type.",
-          "The Moves Beat Up, Pay Day, Smog, Steamroller, Techno Blast gain +1 Damage Dice.",
-          "The Move Smokescreen lowers accuracy by 2.",
-          "The Move Recycle additionally boosts a random stat.",
-          "The Move Shift Gear increases Strength by 2.",
-          "The Move Autotomize increases Dexterity by 2."
+          "The Moves Beat Up, Pay Day, Make It Rain, Smog, Steamroller, Techno Blast gain +1 Damage Dice.",
+          "The Moves Smog and Poison Gas have no reduced Accuracy.",
+          "The Move Smokescreen lowers Accuracy by an additional -1.",
+          "The Move Recycle also increases either the User's Strength, Dexterity, Special, Defense or Special Defense at random, by +1.",
+          "The Move Shift Gear increases the User's Strength by an additional +1."
         ],
-        "Changing The Field-Type": []
+        "Changing The Field-Type": [
+          "After 2 uses the Moves Earthquake, Bulldoze, Earth Power, and Tectonic Rage change the Field-Type to Ruins."
+        ]
       },
       "aliases": [
         "Urbanized"
@@ -858,19 +1030,19 @@
       "name": "Ultra Space",
       "sections": {
         "General Effects": [
-          "Ultra Beasts gain +1 Damage Dice to their Moves.",
-          "Beast Balls gain +2 Dice to their seal checks.",
-          "A chosen or random terrain or Weather-Type activates at the start of the battle.",
-          "1D10: 1. Electric Terrain, 2. Grassy Terrain, 3. Misty Terrain, 4. Psychic Terrain, 5. Snowy Terrain, 6. Sunny Weather, 7. Rain Weather, 8. Acid Rain Weather, 9. Midnight Weather, 10. Sandstorm Weather."
+          "Ultra Beasts' Damaging Moves gain +1 Damage Dice.",
+          "Beast Balls gain +1 Dice to their Seal Checks.",
+          "A chosen or random Terrain or Weather-Type activates at the start of the Battle. 1D10: 1. Electric Terrain, 2. Grassy Terrain, 3. Misty Terrain, 4. Psychic Terrain, 5. Snowy Terrain, 6. Sunny Weather, 7. Rain Weather, 8. Acid Rain Weather, 9. Midnight Weather, 10. Sandstorm Weather."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to whichever Terrain or Weather is active.",
-          "The ability Beast Boost does not suffer from a limit of times it can activate."
+          "The Ability Mimicry changes the User’s Type to whichever Terrain or Weather is active.",
+          "The Ability Beast Boost does not suffer from a limit of the times it can activate."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to whichever Terrain or Weather is active.",
-          "Nature Power becomes a signature Move of an Ultra Beast (At the Storytellers discretion).",
-          "The Moves Terrain Pulse and Embody Element become the type of whichever Terrain or Weather is active."
+          "The Move Camouflage changes the User’s Type to whichever Terrain or Weather is active.",
+          "Nature Power becomes the signature Move of an Ultra Beast (At the Storytellers discretion).",
+          "The Move Secret Power becomes the signature Move of an Ultra Beast (At the Storytellers discretion).",
+          "The Moves Terrain Pulse and Embody Element become the Type of whichever Terrain or Weather is active."
         ],
         "Changing The Field-Type": []
       },
@@ -882,31 +1054,32 @@
       "name": "Underwater",
       "sections": {
         "General Effects": [
-          "Non Water-Types Dexterity is halved (rounded down). Except for Pokémon with Swift Swim.",
-          "Fire-Type Moves fail to activate.",
-          "Physical Moves used by non Water-Types get -2 Damage Dice.",
-          "Ground-Type attacks gain the Water Sub-Type.",
-          "Weather effects fail to activate.",
-          "Electric-Type attacks gain +2 Damage Dice."
+          "Non Water-Types and/or Pokémon not usually found in aquatic locations' Dexterity is halved. (Rounded down).",
+          "Physical Moves used by non Water-Types and/or Pokémon not usually found in aquatic locations' have -1 Damage Dice.",
+          "Damaging Ground-Type attacks gain the Water Sub-Type.",
+          "Damaging Electric-Type attacks gain +1 Damage Dice and Target: Area.",
+          "Fire-Type attacks fail to activate.",
+          "Weather setting Moves and Abilities fail to activate."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Water.",
-          "The abilities Torrent, Hydration, Swift Swim and Schooling activate when the User is sent out.",
-          "Pokémon with the abilities Flame Body and Magma Armor take 2 Damage at the end of the Round.",
-          "The ability Water Veil gives immunity to all Status Conditions.",
-          "Pokémon with the ability Water Absorb heal for 1HP at the end of the Round."
+          "The Ability Mimicry changes the User’s Type to Water.",
+          "The Abilities Torrent, Hydration, Swift Swim and Schooling activate when the User is sent in.",
+          "Pokémon with the Abilities Flame Body and Magma Armor take 2 Damage at the end of the Round.",
+          "The Ability Water Veil gives immunity to all Status Conditions.",
+          "Pokémon with the Ability Water Absorb heal for 1 HP at the end of the Round."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Fire.",
+          "The Move Camouflage changes the User’s Type to Water.",
           "The Move Nature Power becomes Water Pulse.",
+          "The Move Secret Power becomes Triple Dive.",
           "The Moves Terrain Pulse and Embody Element become Water-Type.",
           "The Moves Anchor Shot and Dragon Darts gain +1 Damage Dice.",
-          "The Move Whirpool deals 4 Damage Dice at the end of the Round.",
-          "The Move Dive loses its charge phase and gains Never Miss."
+          "The Move Whirlpool deals double Ongoing Damage at the end of the Round.",
+          "The Move Dive loses its Charge Phase and gains Never Miss."
         ],
         "Changing The Field-Type": [
-          "The Moves Dive, Bounce, Fly, Sky Drop and Shore Up change the Field-Type to Aquatic.",
-          "The Moves Pollution, Sludge Wave and Acid Downpour change the Field-Type to Murkwater."
+          "After 2 uses the Moves Anti-Gravity, Dive, Bounce, Fly, Sky Drop and Shore Up change the Field-Type to Aquatic.",
+          "After 2 uses the Moves Pollution, Sludge Wave and Acid Downpour change the Field-Type to Murkwater."
         ]
       },
       "aliases": [
@@ -917,33 +1090,33 @@
       "name": "Volcanic",
       "sections": {
         "General Effects": [
-          "Grounded non Fire or Rock-Type Pokémon take 1 Fire Damage at the end of the Round.",
-          "Pokémon with the abilities Magma Armor, Flame Body, Flash Fire, Flare Boost, White Smoke, Water Veil, Heatproof and Heat Exchange are immune to this effect.",
-          "Active Combatants cannot become Frozen/Frostbitten.",
-          "Fire, Ground and Rock-Type attacks gain +1 Damage Dice.",
-          "Grass, Ice and Water-Type attacks (except Seed Bomb, Solar Beam, Solar Blade, Scald, Hydro Steam and Steam Eruption) get -1 Damage Dice.",
-          "Hail Weather fails to activate.",
-          "Pokémon who have used the Move Burn Up regain their Fire typing at the end of the Round."
+          "Grounded non Fire-Type or Rock-Type Active Combatants take 2 Dice of Fire-Type Field Damage at the end of the Round. Pokémon with the Abilities Magma Armor, Flame Body, Flash Fire, Flare Boost, White Smoke, Water Veil, Heatproof and Heat Exchange are immune to this effect.",
+          "Damaging Fire-Type, Ground-Type and Rock-Type attacks gain +1 Damage Dice.",
+          "Grass-Type, Ice-Type and Water-Type attacks (except Seed Bomb, Solar Beam, Solar Blade, Scald, Hydro Steam and Steam Eruption) have -1 Damage Dice.",
+          "Active Combatants cannot become Frostbitten.",
+          "Grassy Terrain, Snowy Terrain, Hail Weather and Snowy Weather fail to activate.",
+          "Sunny Weather lasts 8 Rounds."
         ],
         "Abilities Affected": [
-          "The ability Mimicry changes the User’s type to Fire.",
-          "Pokémon with the ability Dry Skin take 1 Damage at the end of the Round.",
-          "The abilities Blaze, Flash Fire, and Flare Boost activate when the User is sent in.",
-          "Pokémon with the ability Flame Body heal 1HP at the end of the Round.",
-          "The ability Ice Face melts upon entry."
+          "The Ability Mimicry changes the User’s Type to Fire.",
+          "Pokémon with the Ability Dry Skin take 1 Damage at the end of the Round.",
+          "The Abilities Blaze, Flash Fire, and Flare Boost activate when the User is sent in.",
+          "Pokémon with the Ability Flame Body heal 1 HP at the end of the Round.",
+          "Pokémon with the Ability Ice Face immediately change to their No-Ice form when the User is sent in."
         ],
         "Moves Affected": [
-          "The Move Camouflage changes the User’s type to Fire.",
+          "The Move Camouflage changes the User’s Type to Fire.",
           "The Move Nature Power becomes Lava Plume.",
+          "The Move Secret Power becomes Raging Fury.",
           "The Moves Terrain Pulse and Embody Element become Fire-Type.",
           "The Moves Smog and Clear Smog gain the Fire Sub-Type.",
-          "The Move Aqua Ring prevents Damage from the Field-Type.",
-          "The Moves Scald, Hydro Steam and Steam Eruption gain +1 Damage Dice.",
-          "The Move Stealth Rock’s Damage changes to Fire-Type."
+          "The Move Aqua Ring grants the User immunity to Field Damage for its duration.",
+          "The Move Stealth Rock’s Damage gains the Fire Sub-Type.",
+          "Pokémon who have used the Move Burn Up regain their Fire-Type at the end of the Round."
         ],
         "Changing The Field-Type": [
-          "If Rain Weather is active for 8 rounds the Field-Type changes to Mountainous.",
-          "After 2 uses the Moves Surf and Muddy Water change the Field-Type to Mountainous."
+          "After 2 uses the Moves Hydro Pump, Surf, Muddy Water and Water Sport change the Field-Type to Mountainous.",
+          "If Acid Rain Weather or Rain Weather is active for 3 Rounds the Field-Type changes to Mountainous."
         ]
       },
       "aliases": [
