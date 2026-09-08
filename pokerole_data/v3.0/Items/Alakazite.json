@@ -7,7 +7,7 @@
   "Category": "MegaStone",
   "Description": "Mega Stone. Affects: Alakazam → Alakazam (Mega Form).",
   "OneUse": false,
-  "TrainerPrice": "Not for Sale",
+  "TrainerPrice": "30000",
   "ForPokemon": "alakazam",
   "Image": "alakazite.png"
 }

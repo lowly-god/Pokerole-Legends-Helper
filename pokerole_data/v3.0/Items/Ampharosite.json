@@ -7,7 +7,7 @@
   "Category": "MegaStone",
   "Description": "Mega Stone. Affects: Ampharos → Ampharos (Mega Form).",
   "OneUse": false,
-  "TrainerPrice": "Not for Sale",
+  "TrainerPrice": "30000",
   "ForPokemon": "ampharos",
   "Image": "ampharosite.png"
 }

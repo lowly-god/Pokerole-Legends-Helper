@@ -84,59 +84,6 @@ def _load_moved_lookup_names(filename):
 ACCESSORY_LOOKUP_NAMES = _load_moved_lookup_names('accessories_data.json')
 TOOL_LOOKUP_NAMES = _load_moved_lookup_names('tools_data.json')
 MOVED_ITEM_LOOKUP_NAMES = ACCESSORY_LOOKUP_NAMES | TOOL_LOOKUP_NAMES
-REMOVED_ITEM_LOOKUP_NAMES = {
-    'power increasers',
-    'power increasers [various]',
-    'tm - basic',
-    'tr - basic',
-    'tm - support',
-    'tr - support',
-    'tm - high power',
-    'tr - high power',
-    'garbocean crest',
-    'manaphy crest',
-    'fishing rod',
-    'greatball',
-    'pokeball',
-    'ultraball',
-    'masterball',
-    'never-melt ice',
-    'kings rock',
-    'bugium-z',
-    'darkium-z',
-    'buginium z',
-    'darkinium z',
-    'dragonium z',
-    'electrium z',
-    'fairium z',
-    'fightinium z',
-    'firium z',
-    'flyinium z',
-    'ghostium z',
-    'grassium z',
-    'groundium z',
-    'icium z',
-    'poisonium z',
-    'psychium z',
-    'rockium z',
-    'steelium z',
-    'waterium z',
-    'normalium z',
-    'alakazamite',
-    'altarionite',
-    'amphorosite',
-    'banetite',
-    'beedrilite',
-    'blastoisonite',
-    'kangaskahnite',
-    'salamancite',
-    'mewtownite x',
-    'mewtownite y',
-    'telekenis',
-    'telekenis - tm',
-    'telekenis - tr',
-    'telekenis - hm',
-}
 
 restartError = True
 
@@ -172,10 +119,8 @@ ranks_v3 = ['Starter', 'Rookie', 'Standard', 'Advanced', 'Expert', 'Ace', 'Maste
 POKEMON_ALIASES = {
     "UB-01 Symbiont": "Nihilego",
     "UB-02 Absorption": "Buzzwole",
-    "UB-02 Absorbtion": "Buzzwole",
     "UB-03 Beauty": "Pheromosa",
     "UB-04 Lightning": "Xurkitree",
-    "UB-04 Lighting": "Xurkitree",
     "UB-05 Blaster": "Celesteela",
     "UB-06 Blade": "Kartana",
     "UB-07 Glutton": "Guzzlord",
@@ -289,136 +234,6 @@ def load_obj(name):
 files = [('pkmnLists', pkmnLists), ('pokebotsettings', pokebotsettings)]
 
 
-def cleanup_legacy_item_files():
-    """Normalize/remove legacy item JSON before anything opens the v3 database.
-
-    The old implementation printed one line per removed machine file, which
-    could flood the console with hundreds of lines on hosts that restore the
-    packaged source on restart. Keep the cleanup defensive, but report only a
-    compact summary.
-    """
-    item_dir = os.path.join('pokerole_data', 'v3.0', 'Items')
-    # Remove the obsolete Homebrew Big Root duplicate before data is loaded.
-    homebrew_big_root = os.path.join('pokerole_data', 'Homebrew', 'Items', 'Big Root.json')
-    normalized_count = 0
-    removed_count = 0
-    error_count = 0
-
-    if os.path.isfile(homebrew_big_root):
-        try:
-            os.remove(homebrew_big_root)
-            removed_count += 1
-        except Exception as exc:
-            error_count += 1
-            print(f'Legacy item cleanup could not remove Homebrew Big Root: {exc}')
-
-    canonical_item_renames = {
-        'Alakazamite': 'Alakazite',
-        'Altarionite': 'Altarianite',
-        'Amphorosite': 'Ampharosite',
-        'Banetite': 'Banettite',
-        'Beedrilite': 'Beedrillite',
-        'Blastoisonite': 'Blastoisinite',
-        'Kangaskahnite': 'Kangaskhanite',
-        'Salamancite': 'Salamencite',
-        'Mewtownite X': 'Mewtwonite X',
-        'Mewtownite Y': 'Mewtwonite Y',
-    }
-    for old_name, new_name in canonical_item_renames.items():
-        old_path = os.path.join(item_dir, f'{old_name}.json')
-        new_path = os.path.join(item_dir, f'{new_name}.json')
-        if not os.path.isfile(old_path):
-            continue
-        try:
-            with open(old_path, 'r', encoding='utf-8') as f:
-                old_data = json.load(f)
-            if os.path.isfile(new_path):
-                with open(new_path, 'r', encoding='utf-8') as f:
-                    new_data = json.load(f)
-            else:
-                new_data = dict(old_data)
-            old_price = str(old_data.get('TrainerPrice', '')).strip()
-            if old_price and old_price.lower() not in {'n/a', 'not for sale', 'none'}:
-                new_data['TrainerPrice'] = old_price
-            new_data['Name'] = new_name
-            new_data['_id'] = re.sub(r'[^a-z0-9]+', '-', new_name.lower()).strip('-')
-            with open(new_path, 'w', encoding='utf-8') as f:
-                json.dump(new_data, f, indent=2, ensure_ascii=False)
-                f.write('\n')
-            os.remove(old_path)
-            normalized_count += 1
-        except Exception as exc:
-            error_count += 1
-            print(f'Legacy item cleanup could not normalize {old_name}: {exc}')
-
-    obsolete_files = (
-        'Garbocean Crest.json', 'Manaphy Crest.json',
-        'Power Increasers [Various].json', 'Power Increasers.json',
-        'Fishing Rod.json', 'Greatball.json', 'Pokeball.json', 'Ultraball.json',
-        'Masterball.json', 'Never-Melt Ice.json', 'Kings Rock.json',
-        'Bugium-Z.json', 'Darkium-Z.json', 'Buginium Z.json', 'Darkinium Z.json',
-        'Dragonium Z.json', 'Electrium Z.json', 'Fairium Z.json',
-        'Fightinium Z.json', 'Firium Z.json', 'Flyinium Z.json',
-        'Ghostium Z.json', 'Grassium Z.json', 'Groundium Z.json', 'Icium Z.json',
-        'Poisonium Z.json', 'Psychium Z.json', 'Rockium Z.json',
-        'Steelium Z.json', 'Waterium Z.json', 'Normalium Z.json',
-        'Alakazamite.json', 'Altarionite.json', 'Amphorosite.json',
-        'Banetite.json', 'Beedrilite.json', 'Blastoisonite.json',
-        'Kangaskahnite.json', 'Salamancite.json', 'Mewtownite X.json',
-        'Mewtownite Y.json', 'Telekenis - TM.json', 'Telekenis - TR.json',
-        'Telekenis - HM.json', 'TM - Telekenis.json', 'TR - Telekenis.json',
-        'HM - Telekenis.json',
-    )
-    for filename in obsolete_files:
-        path = os.path.join(item_dir, filename)
-        if os.path.isfile(path):
-            try:
-                os.remove(path)
-                removed_count += 1
-            except Exception as exc:
-                error_count += 1
-                print(f'Legacy item cleanup could not remove {filename}: {exc}')
-
-    # HM-designated moves must exist only as HMs, never as TM/TR machine items.
-    hm_only_moves = {
-        'Cut', 'Defog', 'Dive', 'Flash', 'Fly', 'Magma Drift', 'Rock Climb',
-        'Rock Smash', 'Strength', 'Surf', 'Teleport', 'Waterfall', 'Whirlpool',
-    }
-    for move_name in hm_only_moves:
-        for suffix in ('TM', 'TR'):
-            filename = f'{move_name} - {suffix}.json'
-            path = os.path.join(item_dir, filename)
-            if os.path.isfile(path):
-                try:
-                    os.remove(path)
-                    removed_count += 1
-                except Exception as exc:
-                    error_count += 1
-                    print(f'Legacy item cleanup could not remove {filename}: {exc}')
-
-    # Older patches named generated machine items "TM - Move" / "TR - Move".
-    if os.path.isdir(item_dir):
-        for filename in os.listdir(item_dir):
-            if re.match(r'^(?:TM|TR|HM) - .+\.json$', filename, flags=re.I):
-                path = os.path.join(item_dir, filename)
-                if os.path.isfile(path):
-                    try:
-                        os.remove(path)
-                        removed_count += 1
-                    except Exception as exc:
-                        error_count += 1
-                        print(f'Legacy item cleanup could not remove {filename}: {exc}')
-
-    if normalized_count or removed_count or error_count:
-        summary = (
-            f'Legacy item cleanup: normalized {normalized_count}, '
-            f'removed {removed_count} obsolete file(s)'
-        )
-        if error_count:
-            summary += f', {error_count} error(s)'
-        print(summary + '.')
-
-
 def ensure_roll_luck_check_help_entry():
     """Add /roll_luck_check immediately below /roll in the custom help Utilities category."""
     try:
@@ -451,11 +266,6 @@ async def on_ready():
 
     if not await checkFilesExist(extra_files):
         await init_extra_files()
-
-    # Clean legacy item sources before loading any cog. questCog constructs a
-    # Database during extension setup, so doing cleanup later caused one DB
-    # rebuild before cleanup and a second rebuild immediately afterwards.
-    cleanup_legacy_item_files()
 
     for cog in cogs:
         if cog not in bot.extensions:
@@ -1252,7 +1062,6 @@ async def item_autocomplete(
         result = [
             x[0] for x in database.custom_query(query, version=version)
             if x[0].casefold() not in MOVED_ITEM_LOOKUP_NAMES
-            and x[0].casefold() not in REMOVED_ITEM_LOOKUP_NAMES
         ][:25]
         return [
             app_commands.Choice(name=m_list, value=m_list)
@@ -1680,8 +1489,6 @@ def machine_item_view(itemname: str, version: str):
 
 async def pkmnitemhelper(item, version: str):
     global database
-    if str(item).casefold() in REMOVED_ITEM_LOOKUP_NAMES:
-        raise KeyError(f'{item} wasn\'t recognized as an item.')
     try:
         return list(database.query_table('pkmnItems', 'name', item, version=version)[0])[2:]
     except:
@@ -1730,7 +1537,6 @@ async def pkmn_search_item(ctx, itemname: str = ''):
                 temp = [
                     x[0] for x in temp
                     if x[0].casefold() not in MOVED_ITEM_LOOKUP_NAMES
-                    and x[0].casefold() not in REMOVED_ITEM_LOOKUP_NAMES
                 ]
                 for x in temp:
                     output += f' - {x}\n'
@@ -2253,41 +2059,76 @@ def _machine_moves_text(pokemon):
         return ""
 
 
-async def pkmnlearnshelper(poke: str, rank: ensure_rank = 'Master', version: str = "v3.0"):
+async def pkmnlearnshelper(
+        poke: str,
+        rank: typing.Optional[str] = None,
+        version: str = "v3.0"
+) -> dict:
+    """Return natural Moves grouped in canonical rank order.
+
+    Source learnsets are not guaranteed to be stored in rank order. Group every
+    Move first, then filter by the requested rank, so a higher-rank Move appearing
+    early never hides valid lower-rank Moves that occur later in the source data.
+
+    rank=None means all ranks, as used by /poke_learns displays.
+    """
     global database
     poke = resolve_pokemon_alias(poke)
     which_ranks = ranks_v3
+
     try:
         found = list(database.query_table('pkmnLearns', 'name', poke, version=version)[0][2:])
     except (IndexError, TypeError):
         raise KeyError(poke)
-    # truncate the list to just the valid members
+
     try:
         found = found[:found.index(None)]
-    except:
+    except ValueError:
         pass
-    # works if the ranks are 'starter', etc, or numbers
-    try:
-        found[1::2] = [which_ranks[x] for x in found[1::2]]
-    except:
-        pass
-    done = False
-    moves = dict()
-    for x in range(0, len(found), 2):
-        if done:
-            break
-        if found[x + 1] not in moves:
-            if rank == 'Master' or which_ranks.index(found[x + 1]) <= which_ranks.index(rank):
-                moves[found[x + 1]] = [found[x]]
-            else:
-                done = True
+
+    # Rank values may be stored as numeric indexes or rank-name strings.
+    normalized_pairs = []
+    for index in range(0, len(found) - 1, 2):
+        move_name = found[index]
+        move_rank = found[index + 1]
+
+        if isinstance(move_rank, int) or str(move_rank).isdigit():
+            try:
+                move_rank = which_ranks[int(move_rank)]
+            except (IndexError, ValueError):
+                continue
         else:
-            moves[found[x + 1]].append(found[x])
-    return moves
+            move_rank = str(move_rank).title()
+
+        if move_rank not in which_ranks:
+            continue
+
+        normalized_pairs.append((move_name, move_rank))
+
+    max_rank_index = None
+    if rank is not None:
+        normalized_rank = str(rank).title()
+        if normalized_rank not in which_ranks:
+            raise KeyError(f'Unknown rank: {rank}')
+        max_rank_index = which_ranks.index(normalized_rank)
+
+    grouped = {rank_name: [] for rank_name in which_ranks}
+
+    for move_name, move_rank in normalized_pairs:
+        rank_index = which_ranks.index(move_rank)
+        if max_rank_index is None or rank_index <= max_rank_index:
+            grouped[move_rank].append(move_name)
+
+    # Dict insertion order gives every caller the canonical rank progression.
+    return {
+        rank_name: grouped[rank_name]
+        for rank_name in which_ranks
+        if grouped[rank_name]
+    }
 
 
 # returns the moves of a pokemon + all it's devolutions
-async def move_aggregator_tmp(poke: str, rank: str, denote_moves: bool = False, version: str = "v3.0") -> dict:
+async def move_aggregator_tmp(poke: str, rank: typing.Optional[str], denote_moves: bool = False, version: str = "v3.0") -> dict:
     poke = resolve_pokemon_alias(poke)
     movelist = {}  # init final dict
     allPokes = [poke]
@@ -2313,7 +2154,11 @@ async def move_aggregator_tmp(poke: str, rank: str, denote_moves: bool = False, 
                     movelist[x] = set([r'\*' + z for z in y])
                 else:
                     movelist[x] = set(y)
-    return movelist
+    return {
+        rank_name: movelist[rank_name]
+        for rank_name in ranks_v3
+        if rank_name in movelist
+    }
 
 
 @bot.command(name='poke_learns',
@@ -2386,13 +2231,13 @@ async def pkmn_search_learns_slash(inter, *, pokemon: str, previous_evo_moves: i
             if not previous_evo_moves:
                 moves = await pkmnlearnshelper(pokemon, version=version)
             else:
-                moves = await move_aggregator_tmp(pokemon, 'Master', denote_moves=previous_evo_moves, version=version)
+                moves = await move_aggregator_tmp(pokemon, None, denote_moves=previous_evo_moves, version=version)
         except:
             pokemon = lookup_poke(pokemon)
             if not previous_evo_moves:
                 moves = await pkmnlearnshelper(pokemon, version=version)
             else:
-                moves = await move_aggregator_tmp(pokemon, 'Master', denote_moves=previous_evo_moves, version=version)
+                moves = await move_aggregator_tmp(pokemon, None, denote_moves=previous_evo_moves, version=version)
 
         output = f'__{pokemon.title()}__\n'
 
@@ -2439,7 +2284,11 @@ async def move_aggregator(poke: str, rank: str, version: str) -> dict:
                     movelist[x].add(name)
             else:
                 movelist[x] = set(y)
-    return movelist
+    return {
+        rank_name: movelist[rank_name]
+        for rank_name in ranks_v3
+        if rank_name in movelist
+    }
 
 
 async def calcStats(rank: str, attr: list, maxAttr: list,

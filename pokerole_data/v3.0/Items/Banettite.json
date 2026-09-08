@@ -7,7 +7,7 @@
   "Category": "MegaStone",
   "Description": "Mega Stone. Affects: Banette → Banette (Mega Form).",
   "OneUse": false,
-  "TrainerPrice": "Not for Sale",
+  "TrainerPrice": "30000",
   "ForPokemon": "banette",
   "Image": "banettite.png"
 }
