@@ -390,6 +390,11 @@ async def ensure_required_global_commands_registered():
         if 'catching_rules' not in registered_by_name:
             reasons.append('/catching_rules is missing')
 
+        if 'training_session' in registered_by_name:
+            reasons.append('obsolete /training_session is still registered')
+        if 'roll_training_session' not in registered_by_name:
+            reasons.append('/roll_training_session is missing')
+
         shop_command = registered_by_name.get('shop')
         if shop_command is None:
             reasons.append('/shop is missing')
@@ -505,6 +510,8 @@ async def ensure_required_global_commands_registered():
             'roll_luck_check' in synced_by_name
             and 'roll_nature' in synced_by_name
             and 'catching_rules' in synced_by_name
+            and 'roll_training_session' in synced_by_name
+            and 'training_session' not in synced_by_name
             and 'foraging' not in synced_by_name
             and 'rollnature' not in synced_by_name
             and encounter_options == {'table', 'roll', 'exclude'}

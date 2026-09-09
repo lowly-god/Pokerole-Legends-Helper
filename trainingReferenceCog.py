@@ -112,7 +112,8 @@ class TrainerWillRerollModal(discord.ui.Modal):
         trainer_base_pool,
         trainer_rolls,
         pokemon_will_spent=0,
-        trainer_will_spent=0
+        trainer_will_spent=0,
+        will_reroll_limit=None
     ):
         super().__init__(title="Spend Will on Trainer Roll")
         self.dc = dc
@@ -123,19 +124,28 @@ class TrainerWillRerollModal(discord.ui.Modal):
         self.trainer_rolls = trainer_rolls
         self.pokemon_will_spent = pokemon_will_spent
         self.trainer_will_spent = trainer_will_spent
+        self.will_reroll_limit = (
+            will_reroll_limit
+            if will_reroll_limit is not None
+            else sum(1 for result in trainer_rolls if result < 4)
+        )
 
-        failed_dice = sum(1 for r in trainer_rolls if r < 4)
+        failed_dice = sum(1 for result in trainer_rolls if result < 4)
+        remaining_will = max(0, self.will_reroll_limit - trainer_will_spent)
+        max_spend = min(failed_dice, remaining_will)
+
         self.amount = discord.ui.TextInput(
             label="Will Points to Spend",
-            placeholder=f"Enter 1-{failed_dice}",
+            placeholder=f"Enter 1-{max_spend}",
             required=True,
             max_length=3
         )
         self.add_item(self.amount)
 
     async def on_submit(self, interaction: discord.Interaction):
-        failed_indices = [i for i, r in enumerate(self.trainer_rolls) if r < 4]
-        failed_dice = len(failed_indices)
+        failed_indices = [i for i, result in enumerate(self.trainer_rolls) if result < 4]
+        remaining_will = max(0, self.will_reroll_limit - self.trainer_will_spent)
+        max_spend = min(len(failed_indices), remaining_will)
 
         try:
             amount = int(self.amount.value)
@@ -146,9 +156,9 @@ class TrainerWillRerollModal(discord.ui.Modal):
             )
             return
 
-        if amount < 1 or amount > failed_dice:
+        if amount < 1 or amount > max_spend:
             await interaction.response.send_message(
-                f"You may spend between 1 and {failed_dice} Will Points.",
+                f"You may spend between 1 and {max_spend} Will Points.",
                 ephemeral=True
             )
             return
@@ -156,13 +166,19 @@ class TrainerWillRerollModal(discord.ui.Modal):
         new_rolls = list(self.trainer_rolls)
         rerolled = []
 
+        # Each Will Point rerolls one currently failed die.
+        # The total number of Will rerolls can never exceed the number of
+        # failures on the ORIGINAL Trainer roll.
         for index in failed_indices[:amount]:
             new_result = random.randint(1, 6)
             new_rolls[index] = new_result
             rerolled.append(new_result)
 
-        successes = sum(1 for r in new_rolls if r >= 4)
+        successes = sum(1 for result in new_rolls if result >= 4)
         total_trainer_will = self.trainer_will_spent + amount
+        remaining_after = max(0, self.will_reroll_limit - total_trainer_will)
+        current_failures = sum(1 for result in new_rolls if result < 4)
+        available_after = min(remaining_after, current_failures)
 
         embed = discord.Embed(title="Training Session — Trainer Will Reroll")
         embed.add_field(name="Set DC", value=str(self.dc), inline=False)
@@ -186,17 +202,35 @@ class TrainerWillRerollModal(discord.ui.Modal):
         )
         embed.add_field(
             name="Trainer Roll Will Spent",
-            value=f"**{total_trainer_will}**",
+            value=f"**{total_trainer_will} / {self.will_reroll_limit}**",
             inline=False
         )
-        embed.add_field(
-            name="Next Step",
-            value=(
-                "You may spend more Will Points to reroll remaining failed Trainer dice, "
-                "or finalize this result."
-            ),
-            inline=False
-        )
+
+        if available_after > 0:
+            embed.add_field(
+                name="Next Step",
+                value=(
+                    f"You may spend up to **{available_after}** more Will Point"
+                    f"{'s' if available_after != 1 else ''} to reroll failed Trainer dice, "
+                    "or finalize this result."
+                ),
+                inline=False
+            )
+        elif current_failures <= 0:
+            embed.add_field(
+                name="Next Step",
+                value="There are no failed Trainer dice left. Finalize this result.",
+                inline=False
+            )
+        else:
+            embed.add_field(
+                name="Next Step",
+                value=(
+                    "You have used the maximum Will rerolls allowed by the original "
+                    "Trainer roll. Finalize this result."
+                ),
+                inline=False
+            )
 
         await interaction.response.send_message(
             embed=embed,
@@ -208,10 +242,10 @@ class TrainerWillRerollModal(discord.ui.Modal):
                 self.trainer_base_pool,
                 new_rolls,
                 self.pokemon_will_spent,
-                total_trainer_will
+                total_trainer_will,
+                self.will_reroll_limit
             )
         )
-
 
 class TrainerResultView(discord.ui.View):
     def __init__(
@@ -223,7 +257,8 @@ class TrainerResultView(discord.ui.View):
         trainer_base_pool,
         trainer_rolls,
         pokemon_will_spent=0,
-        trainer_will_spent=0
+        trainer_will_spent=0,
+        will_reroll_limit=None
     ):
         super().__init__(timeout=120)
         self.dc = dc
@@ -234,6 +269,11 @@ class TrainerResultView(discord.ui.View):
         self.trainer_rolls = trainer_rolls
         self.pokemon_will_spent = pokemon_will_spent
         self.trainer_will_spent = trainer_will_spent
+        self.will_reroll_limit = (
+            will_reroll_limit
+            if will_reroll_limit is not None
+            else sum(1 for result in trainer_rolls if result < 4)
+        )
 
     @discord.ui.button(
         label="Spend Will Points",
@@ -244,10 +284,20 @@ class TrainerResultView(discord.ui.View):
         interaction: discord.Interaction,
         button: discord.ui.Button
     ):
-        failed_dice = sum(1 for r in self.trainer_rolls if r < 4)
+        failed_dice = sum(1 for result in self.trainer_rolls if result < 4)
+        remaining_will = max(0, self.will_reroll_limit - self.trainer_will_spent)
+        available = min(failed_dice, remaining_will)
+
         if failed_dice <= 0:
             await interaction.response.send_message(
                 "There are no failed Trainer dice left to reroll.",
+                ephemeral=True
+            )
+            return
+
+        if available <= 0:
+            await interaction.response.send_message(
+                "You have already used the maximum Will rerolls allowed by the original Trainer roll.",
                 ephemeral=True
             )
             return
@@ -261,7 +311,8 @@ class TrainerResultView(discord.ui.View):
                 self.trainer_base_pool,
                 self.trainer_rolls,
                 self.pokemon_will_spent,
-                self.trainer_will_spent
+                self.trainer_will_spent,
+                self.will_reroll_limit
             )
         )
 
@@ -320,7 +371,6 @@ class TrainerResultView(discord.ui.View):
 
         await interaction.response.send_message(embed=embed)
 
-
 class ContinueTrainingView(discord.ui.View):
     def __init__(self, dc, pokemon_pool, pokemon_rolls, pokemon_successes, will_spent=0):
         super().__init__(timeout=120)
@@ -351,25 +401,41 @@ class ContinueTrainingView(discord.ui.View):
 
 
 class WillRerollModal(discord.ui.Modal):
-    def __init__(self, dc, pokemon_pool, pokemon_rolls, will_spent=0):
+    def __init__(
+        self,
+        dc,
+        pokemon_pool,
+        pokemon_rolls,
+        will_spent=0,
+        will_reroll_limit=None
+    ):
         super().__init__(title="Spend Will Points")
         self.dc = dc
         self.pokemon_pool = pokemon_pool
         self.pokemon_rolls = pokemon_rolls
         self.will_spent = will_spent
+        self.will_reroll_limit = (
+            will_reroll_limit
+            if will_reroll_limit is not None
+            else sum(1 for result in pokemon_rolls if result < 4)
+        )
 
-        failed_dice = sum(1 for r in pokemon_rolls if r < 4)
+        failed_dice = sum(1 for result in pokemon_rolls if result < 4)
+        remaining_will = max(0, self.will_reroll_limit - will_spent)
+        max_spend = min(failed_dice, remaining_will)
+
         self.amount = discord.ui.TextInput(
             label="Will Points to Spend",
-            placeholder=f"Enter 1-{failed_dice}",
+            placeholder=f"Enter 1-{max_spend}",
             required=True,
             max_length=3
         )
         self.add_item(self.amount)
 
     async def on_submit(self, interaction: discord.Interaction):
-        failed_indices = [i for i, r in enumerate(self.pokemon_rolls) if r < 4]
-        failed_dice = len(failed_indices)
+        failed_indices = [i for i, result in enumerate(self.pokemon_rolls) if result < 4]
+        remaining_will = max(0, self.will_reroll_limit - self.will_spent)
+        max_spend = min(len(failed_indices), remaining_will)
 
         try:
             amount = int(self.amount.value)
@@ -380,9 +446,9 @@ class WillRerollModal(discord.ui.Modal):
             )
             return
 
-        if amount < 1 or amount > failed_dice:
+        if amount < 1 or amount > max_spend:
             await interaction.response.send_message(
-                f"You may spend between 1 and {failed_dice} Will Points.",
+                f"You may spend between 1 and {max_spend} Will Points.",
                 ephemeral=True
             )
             return
@@ -395,8 +461,11 @@ class WillRerollModal(discord.ui.Modal):
             new_rolls[index] = new_result
             rerolled.append(new_result)
 
-        successes = sum(1 for r in new_rolls if r >= 4)
+        successes = sum(1 for result in new_rolls if result >= 4)
         total_will = self.will_spent + amount
+        remaining_after = max(0, self.will_reroll_limit - total_will)
+        current_failures = sum(1 for result in new_rolls if result < 4)
+        available_after = min(remaining_after, current_failures)
 
         embed = discord.Embed(title="Training Session — Pokémon Will Reroll")
         embed.add_field(name="Set DC", value=str(self.dc), inline=False)
@@ -407,7 +476,11 @@ class WillRerollModal(discord.ui.Modal):
             value=f"{format_rolls(new_rolls)}\n**{successes} successes**",
             inline=False
         )
-        embed.add_field(name="Total Pokémon Roll Will Spent", value=f"**{total_will}**", inline=False)
+        embed.add_field(
+            name="Total Pokémon Roll Will Spent",
+            value=f"**{total_will} / {self.will_reroll_limit}**",
+            inline=False
+        )
 
         if successes >= self.dc:
             embed.add_field(
@@ -425,30 +498,59 @@ class WillRerollModal(discord.ui.Modal):
                 )
             )
         else:
+            if available_after > 0:
+                result_text = (
+                    f"The Pokémon still has not met **DC {self.dc}**.\n"
+                    f"You may spend up to **{available_after}** more Will Point"
+                    f"{'s' if available_after != 1 else ''} to reroll failed dice, "
+                    "or accept the failure."
+                )
+            elif current_failures <= 0:
+                result_text = (
+                    f"The Pokémon still has not met **DC {self.dc}**.\n"
+                    "There are no failed dice left to reroll."
+                )
+            else:
+                result_text = (
+                    f"The Pokémon still has not met **DC {self.dc}**.\n"
+                    "You have used the maximum Will rerolls allowed by the original roll."
+                )
+
             embed.add_field(
                 name="Result",
-                value=(
-                    f"The Pokémon still has not met **DC {self.dc}**.\n"
-                    "You may spend more Will Points to reroll additional failed dice, "
-                    "or accept the failure."
-                ),
+                value=result_text,
                 inline=False
             )
             await interaction.response.send_message(
                 embed=embed,
                 view=FailedTrainingView(
-                    self.dc, self.pokemon_pool, new_rolls, total_will
+                    self.dc,
+                    self.pokemon_pool,
+                    new_rolls,
+                    total_will,
+                    self.will_reroll_limit
                 )
             )
 
-
 class FailedTrainingView(discord.ui.View):
-    def __init__(self, dc, pokemon_pool, pokemon_rolls, will_spent=0):
+    def __init__(
+        self,
+        dc,
+        pokemon_pool,
+        pokemon_rolls,
+        will_spent=0,
+        will_reroll_limit=None
+    ):
         super().__init__(timeout=120)
         self.dc = dc
         self.pokemon_pool = pokemon_pool
         self.pokemon_rolls = pokemon_rolls
         self.will_spent = will_spent
+        self.will_reroll_limit = (
+            will_reroll_limit
+            if will_reroll_limit is not None
+            else sum(1 for result in pokemon_rolls if result < 4)
+        )
 
     @discord.ui.button(
         label="Spend Will Points",
@@ -459,10 +561,20 @@ class FailedTrainingView(discord.ui.View):
         interaction: discord.Interaction,
         button: discord.ui.Button
     ):
-        failed_dice = sum(1 for r in self.pokemon_rolls if r < 4)
+        failed_dice = sum(1 for result in self.pokemon_rolls if result < 4)
+        remaining_will = max(0, self.will_reroll_limit - self.will_spent)
+        available = min(failed_dice, remaining_will)
+
         if failed_dice <= 0:
             await interaction.response.send_message(
-                "There are no failed dice left to reroll.",
+                "There are no failed Pokémon dice left to reroll.",
+                ephemeral=True
+            )
+            return
+
+        if available <= 0:
+            await interaction.response.send_message(
+                "You have already used the maximum Will rerolls allowed by the original Pokémon roll.",
                 ephemeral=True
             )
             return
@@ -472,7 +584,8 @@ class FailedTrainingView(discord.ui.View):
                 self.dc,
                 self.pokemon_pool,
                 self.pokemon_rolls,
-                self.will_spent
+                self.will_spent,
+                self.will_reroll_limit
             )
         )
 
@@ -510,7 +623,6 @@ class FailedTrainingView(discord.ui.View):
             inline=False
         )
         await interaction.response.send_message(embed=embed)
-
 
 class PokemonPoolModal(discord.ui.Modal):
     def __init__(self, dc):
@@ -613,10 +725,10 @@ class TrainingReferenceCog(commands.Cog):
             self.data = json.load(f)
 
     @app_commands.command(
-        name="training_session",
+        name="roll_training_session",
         description="Roll a Pokémon training session"
     )
-    async def trainingsession(self, interaction: discord.Interaction):
+    async def roll_training_session(self, interaction: discord.Interaction):
         await interaction.response.send_message(
             "**Training Session**\nChoose the Training DC:",
             view=DCView()

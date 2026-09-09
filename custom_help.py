@@ -53,7 +53,7 @@ HELP_CATEGORIES = [
     ]),
     ("Utilities", [
         ("roll", "Roll a single D6 by default. You can change the number of dice and/or the number of sides"),
-        ("training_session", "Roll a Pokémon training session"),
+        ("roll_training_session", "Roll a Pokémon training session"),
         ("roll_nature", "Roll 1D100 for a Pokémon's Nature."),
         ("settings", "Change the settings"),
         ("get_pokerole_legends", "Here you'll find the latest version of the Pokerole Legends Rules Supplement, Legends Roll20 Sheets, PNGs for Legends Pokémon and more"),
