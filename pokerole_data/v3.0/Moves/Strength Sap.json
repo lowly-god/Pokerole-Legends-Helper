@@ -7,10 +7,12 @@
   "Accuracy1": "Vitality",
   "Accuracy2": "Nature",
   "Target": "Foe",
-  "Effect": "Reduce Target's Strength by 1. Heal 1 HP to the user. If successful, spend 1 Will Point to activate.",
+  "Effect": "Drain Move. Reduce Target's Strength by 1. Heal 1 HP to the user. If successful, spend 1 Will Point to activate.",
   "Description": "The Pokémon looks for a weak point on its foe, then feeds on its vital energy. The foe is left feeling feeble.",
   "_id": "strength-sap",
-  "Attributes": {},
+  "Attributes": {
+    "DrainMove": true
+  },
   "AddedEffects": {
     "Heal": {
       "Type": "Basic",

@@ -17,6 +17,7 @@ Clash,"- A Clash is a Reaction 6 Maneuver that ignores Multiple Action Difficult
 Complete Heal,"Heals the Target to Full HP or for 5 HP of Lethal Damage. After a successful Accuracy Roll, spend 1 Will Point to activate unless the effect states otherwise. Complete Heal may exceed the normal 3 HP-per-Round healing limit."
 Copy Move,"Copies another Move/Maneuver as stated by the effect; copied properties use the Copied Move/Maneuver's own Accuracy Roll. Unique Moves/Maneuvers and already-copied Moves/Maneuvers cannot be copied unless specifically stated otherwise. Pokémon cannot copy Human Specific Maneuvers and likewise Humans cannot copy Pokémon Moves, except at the Storyteller's discretion."
 Cover,"1/4, 1/2, and 3/4 Cover grant +1, +2, and +3 Defense and Sp. Defense against incoming attacks; Added Effects still apply at the Storyteller's discretion. Full Cover must be destroyed before the Target can be damaged, and prevents most Added Effects while intact."
+Crash Damage,"The Crash Damage keyword means if the Accuracy roll of the Move or Maneuver fails, Roll 4 Dice of Typeless Damage against the user, ignoring defenses."
 Critical Failure,"A Roll that scores 3 or more successes fewer than required Roll is considered a Critical Failure. The Action fails and an additional serious consequence occurs at the Storyteller's discretion. These effects may include; Receiving Damage, Damaging an Ally, Rendering the task completely impossible, Getting a Status Condition, etc."
 Cure Status,"Cures Burn, Frostbite, Paralysis, Poison / Badly Poisoned, and Sleep unless the effect states otherwise."
 Cutter Move,A Move or Maneuver based on cutting or slashing. Interacts with the Ability Sharpness and other effects that reference Cutter Moves/Maneuvers.
@@ -35,6 +36,7 @@ Evade,"- Evade is a Reaction 6 Maneuver that ignores Multiple Action Difficulty.
 - Usually you may only Evade once per-Round, though certain effects may grant additional Evades per-Round, modify or prevent Evasion entirely.
 - Battlefield-Targeting and Never Miss Moves/Maneuvers cannot be Evaded, unless stated otherwise."
 Explosive Move,An Explosive-category Move or Maneuver. Interacts with effects that reference Explosive Moves or Maneuvers.
+Field Damage,"Damage that is received from the active Field-Type, Terrain or Weather. It happens simultaneously to all non-immune Active Combatants at the end of the Round, after all other Actions and effects have been resolved."
 Field-Type,"Field-Types are Battlefield-wide conditions that occur naturally. They effect many areas of Battle, including but not limited to Battlefield effects, Type-Effectiveness, Abilities and Moves. Often they can be changed to a different Field-Type via the use of certain Moves. Use /field\_type for the exact rules of each Field-Type."
 Fist Move,A Move or Maneuver based on punches. Interacts with Iron Fist and other effects that reference Fist Moves or Maneuvers.
 Force Field,"A persistent defensive effect, usually placed on a side of the Battlefield. Its source states who it protects, its Duration, and what Damage or effects it reduces or prevents. Force Fields that reduce the same Damage category do not stack."
@@ -95,9 +97,10 @@ Move Targets,"- Target Self: the User.
 - Target Foe's Battlefield: the opposing side. (Cannot be Evaded or Clashed unless stated otherwise)."
 Must Recharge,"After this Move/Maneuver successfully hits, the User must spend its first Action of the next Round recharging. This stacks if used more than once and remains if the User is recalled. No recharge is required if the Move/Maneuver misses, is Clashed or Evaded, or is used to Clash."
 Never Miss,"Cannot be Evaded, but can still be Clashed. The Move or Maneuver can still fail its own Accuracy Roll."
+OHKO,"One Hit Knockout. Seen on certain Moves or Maneuvers as ""Roll X Chance Dice to OHKO the Target."" It refers to the effect: ""Deal Damage equal to the Target’s remaining HP +1."""
 Ongoing Damage,"At the end of each Round, roll 2 Dice of Typeless Damage against the Target. Multiple sources do not stack; the first source takes priority."
-Overheat,"After making an attack with this Weapon, Roll a Luck Check; on a 25 or lower, the Weapon Overheats and the wielder must spend their next Action waiting for it to cool down, before it can be used again."
 Out of Range while Charging,"While charging, the User is Out of Range and cannot be targeted by Moves or Maneuvers except effects that specifically state they can reach it."
+Overheat,"After making an attack with this Weapon, Roll a Luck Check; on a 25 or lower, the Weapon Overheats and the wielder must spend their next Action waiting for it to cool down, before it can be used again."
 Physical Move,"Physical Moves/Maneuvers normally use Strength for Damage and are almost always resisted by Defense. They are considered Full-Contact, Non-Ranged unless they also have the 'Ranged' keyword, or another effect stated otherwise."
 Powder Move,"A Move or Maneuver using powder, dust, or spores. Grass-Type Pokémon are immune to its Damage and harmful effects."
 Projectile Move,A Move or Maneuver based on firing a projectile. Interacts with Bulletproof and other effects that reference Projectile Moves or Maneuvers.

@@ -1,6 +1,6 @@
 {
   "Name": "Inner Focus",
-  "Effect": "This Pokémon does not Flinch. The Ability Intimidate does not have any effect against this Pokémon. Outside of battle this Pokémon is able to resist intimidation tactics, fear and stress better than others.",
+  "Effect": "This Pokémon cannot be Flinched and the Ability Intimidate does not have any effect against it. Damaging Aura Moves used by this Pokémon gain +1 additional Damage Dice.\nOutside of battle this Pokémon is able to resist intimidation tactics, fear and stress better than others.",
   "Description": "The Pokémon is extremely serious and focused on everything it does. It remains calm and never backs down, even if it's getting severly injured.",
   "_id": "inner-focus"
 }

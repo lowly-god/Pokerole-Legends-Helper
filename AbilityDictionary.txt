@@ -243,6 +243,7 @@ Parasomnia$100
 Parental Bond$100
 Pastel Veil$100
 Pendulum$100
+Perfect Imitation$100
 Periodic Orbit$100
 Perish Body$100
 Phototroph$100
@@ -357,6 +358,7 @@ Stance Change$100
 Static$100
 Steadfast$100
 Steam Engine$100
+Steel Foot$100
 Steel-Shell Carapace$100
 Steelworker$100
 Steely Spirit$100
@@ -396,6 +398,7 @@ Thermal Exchange$100
 Thick Fat$100
 Time Split$100
 Tinted Lens$100
+Titanium Toe$100
 Torrent$100
 Tough Claws$100
 Toxic Boost$100

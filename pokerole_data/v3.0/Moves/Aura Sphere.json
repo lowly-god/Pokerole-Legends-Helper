@@ -5,7 +5,7 @@
   "Damage1": "Special",
   "Damage2": "",
   "Accuracy1": "Dexterity",
-  "Accuracy2": "Channel",
+  "Accuracy2": "Channel / Aura",
   "Target": "Foe",
   "Effect": "Aura Move. Projectile Move. Never Miss.",
   "Description": "By channeling their own aura, the user launches an energy sphere that causes harm on a spiritual level more than a physical one.",

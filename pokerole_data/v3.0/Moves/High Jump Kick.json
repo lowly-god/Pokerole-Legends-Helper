@@ -7,12 +7,13 @@
   "Accuracy1": "Dexterity",
   "Accuracy2": "Athletic",
   "Target": "Foe",
-  "Effect": "Accuracy -2. Kick Move. If the Accuracy roll fails, Roll 5 Dice of Typeless Damage against the user, ignoring defenses.",
+  "Effect": "Accuracy -2. Kick Move. Crash Damage.",
   "Description": "The user launches itself up three stories high to pummel down with a brutal kick. Let’s just trust it’s got a good aim from that distance.",
   "_id": "high-jump-kick",
   "Attributes": {
     "AccuracyReduction": -2,
-    "KickMove": true
+    "KickMove": true,
+    "CrashDamage": true
   },
   "AddedEffects": {},
   "Category": "Physical"
