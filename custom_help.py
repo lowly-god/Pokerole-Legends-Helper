@@ -44,7 +44,6 @@ HELP_CATEGORIES = [
         ("encounter_human", "Generate a human NPC based on various statblocks"),
         ("human_npc", "Display a human NPC's statblock"),
         ("encounter_table", "Display a curated, rollable encounter table for a specific biome"),
-        ("roll_foraging", "Roll an Insight + Nature check to see what you find on the foraging table"),
         ("quest", "Generate a simple quest-hook"),
     ]),
     ("Shops", [
@@ -53,6 +52,8 @@ HELP_CATEGORIES = [
     ]),
     ("Utilities", [
         ("roll", "Roll a single D6 by default. You can change the number of dice and/or the number of sides"),
+        ("roll_luck_check", "Roll a 1D100 Luck Check, with input for Luck Skill modifier"),
+        ("roll_foraging", "Roll an Insight + Nature check to see what you find on the foraging table"),
         ("roll_training_session", "Roll a Pokémon training session"),
         ("roll_nature", "Roll 1D100 for a Pokémon's Nature."),
         ("settings", "Change the settings"),

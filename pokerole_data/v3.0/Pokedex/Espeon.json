@@ -37,7 +37,7 @@
   "Evolutions": [
     {
       "From": "Eevee",
-      "DisplayMethod": "Use Dawn Stone OR Happiness 4 during sunlight.",
+      "DisplayMethod": "Use Dawn Stone.",
       "Kind": "Stone",
       "Item": "Dawn Stone"
     }

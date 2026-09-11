@@ -37,9 +37,9 @@
   "Evolutions": [
     {
       "To": "Sirfetch'd",
-      "DisplayMethod": "Score 5 critical hits in one battle. STONE EVOLUTIONS",
+      "DisplayMethod": "Score 5 critical hits in one battle.",
       "Kind": "Special",
-      "Special": "Score 5 critical hits in one battle. STONE EVOLUTIONS"
+      "Special": "Score 5 critical hits in one battle."
     }
   ],
   "Image": "farfetchd-galarian-form.png",

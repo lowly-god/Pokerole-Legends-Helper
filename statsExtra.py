@@ -1,5 +1,6 @@
 import json
 import os
+import re
 
 _pokemon_meta_cache = {}
 
@@ -130,32 +131,18 @@ def _feet_inches_text(value):
     if inches >= 12:
         feet += inches // 12
         inches %= 12
-    return f"{feet}'{inches:02d}\""
+    return f"{feet}'{inches}\""
 
 def _size_weight(meta):
     height = meta.get("Height") or {}
     weight = meta.get("Weight") or {}
 
-    meters = _number_text(height.get("Meters")) if isinstance(height, dict) else None
     feet = _feet_inches_text(height.get("Feet")) if isinstance(height, dict) else None
-    kg = _number_text(weight.get("Kilograms")) if isinstance(weight, dict) else None
     pounds = _number_text(weight.get("Pounds")) if isinstance(weight, dict) else None
 
-    size_parts = []
-    weight_parts = []
-
-    if meters is not None:
-        size_parts.append(f"{meters} m")
-    if feet is not None:
-        size_parts.append(feet)
-    if kg is not None:
-        weight_parts.append(f"{kg} kg")
-    if pounds is not None:
-        weight_parts.append(f"{pounds} lb")
-
     return (
-        " / ".join(size_parts) if size_parts else "Unknown",
-        " / ".join(weight_parts) if weight_parts else "Unknown"
+        feet if feet is not None else "Unknown",
+        f"{pounds} lb" if pounds is not None else "Unknown"
     )
 
 
@@ -220,7 +207,8 @@ def pokemon_extra_stats_text(pokemon, type1, type2, version):
     mega_stone = meta.get("MegaStone")
 
     output = (
-        f"**Size / Weight**: {size} | {weight}\n"
+        f"**Size**: {size}\n"
+        f"**Weight**: {weight}\n"
         f"**Species**: {species}\n"
         f"**Weaknesses**: {weaknesses}\n"
         f"**Resistances**: {resistances}\n"
@@ -229,6 +217,62 @@ def pokemon_extra_stats_text(pokemon, type1, type2, version):
     if mega_stone:
         output += f"**Mega Stone**: {mega_stone}\n"
     return output
+
+
+def _is_progression_form(meta):
+    """True for stat blocks reached through Mega Evolution or a reversible transformation."""
+    for evo in meta.get("Evolutions", []) or []:
+        if not isinstance(evo, dict):
+            continue
+        if evo.get("From") and str(evo.get("Kind") or "") in {"Mega", "Form", "Transform"}:
+            return True
+    return False
+
+
+def pokemon_other_forms(pokemon, version):
+    """Return static sibling forms that share this Pokémon's Pokédex number.
+
+    Mega/form-transformation targets are intentionally excluded because they are
+    displayed by the progression section instead.
+    """
+    all_meta = _load_pokemon_meta(version)
+    meta = all_meta.get(str(pokemon).casefold(), {})
+    if not meta or _is_progression_form(meta):
+        return []
+
+    number = meta.get("Number")
+    if number in (None, ""):
+        return []
+
+    current_name = str(meta.get("Name") or pokemon)
+    forms = []
+    for candidate in all_meta.values():
+        name = str(candidate.get("Name") or "")
+        if not name or name.casefold() == current_name.casefold():
+            continue
+        if candidate.get("Number") != number:
+            continue
+        if _is_progression_form(candidate):
+            continue
+        forms.append(name)
+
+    return sorted(dict.fromkeys(forms), key=str.casefold)
+
+
+def pokemon_other_forms_text(pokemon, version):
+    forms = pokemon_other_forms(pokemon, version)
+    if not forms:
+        return ""
+    return f"**Other Forms**: {', '.join(forms)}\n"
+
+
+def pokemon_pokedex_text(pokemon, version):
+    meta = _load_pokemon_meta(version).get(str(pokemon).casefold(), {})
+    description = str(meta.get("DexDescription") or "").strip()
+    if not description:
+        return ""
+    description = re.sub(r"\s+", " ", description)
+    return f"**Pokedex**: {description}\n"
 
 
 
@@ -333,25 +377,20 @@ def pokemon_progression_text(pokemon, version):
     for key in groups:
         groups[key] = collapse(groups[key])
 
+    def format_group(label, rows):
+        if not rows:
+            return ""
+        entries = []
+        for name, method in rows:
+            clean_method = str(method or "").strip().rstrip(".")
+            entries.append(f"{name}, {clean_method}" if clean_method else name)
+        return f"**{label}**: " + "; ".join(entries) + "\n"
+
     output = ""
-    if groups["normal_to"]:
-        for target, method in groups["normal_to"]:
-            output += f"**Evolves Into**: {target}, {method}\n"
-    else:
-        output += "**Can Evolve**: No\n"
-
-    if groups["normal_from"]:
-        for source, method in groups["normal_from"]:
-            output += f"**Evolves From**: {source}, {method}\n"
-    else:
-        output += "**Evolves From**: No\n"
-
-    for target, method in groups["mega_to"]:
-        output += f"**Mega Evolves Into**: {target}, {method}\n"
-    for source, method in groups["mega_from"]:
-        output += f"**Mega Evolves From**: {source}, {method}\n"
-    for target, method in groups["transform_to"]:
-        output += f"**Transforms Into**: {target}, {method}\n"
-    for source, method in groups["transform_from"]:
-        output += f"**Transforms From**: {source}, {method}\n"
+    output += format_group("Evolves Into", groups["normal_to"])
+    output += format_group("Evolves From", groups["normal_from"])
+    output += format_group("Mega Evolves Into", groups["mega_to"])
+    output += format_group("Mega Evolves From", groups["mega_from"])
+    output += format_group("Transforms Into", groups["transform_to"])
+    output += format_group("Transforms From", groups["transform_from"])
     return output

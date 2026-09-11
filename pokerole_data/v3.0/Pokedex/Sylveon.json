@@ -37,7 +37,7 @@
   "Evolutions": [
     {
       "From": "Eevee",
-      "DisplayMethod": "Use Shiny Stone OR Loyalty 5.",
+      "DisplayMethod": "Use Shiny Stone.",
       "Kind": "Stone",
       "Item": "Shiny Stone"
     }

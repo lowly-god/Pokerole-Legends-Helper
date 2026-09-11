@@ -25,7 +25,7 @@ from numpy.random import choice
 from bisect import bisect
 
 from dbhelper import Database
-from statsExtra import pokemon_extra_stats_text, pokemon_progression_text, pokemon_additional_hidden_abilities
+from statsExtra import pokemon_extra_stats_text, pokemon_progression_text, pokemon_additional_hidden_abilities, pokemon_other_forms_text, pokemon_pokedex_text
 from machineLearnsets import machine_moves_section, get_teachable_pokemon, get_move_type
 
 # for my testing environment
@@ -235,25 +235,37 @@ files = [('pkmnLists', pkmnLists), ('pokebotsettings', pokebotsettings)]
 
 
 def ensure_roll_luck_check_help_entry():
-    """Add /roll_luck_check immediately below /roll in the custom help Utilities category."""
+    """Keep /roll_luck_check and /roll_foraging together in Utilities below /roll."""
     try:
         import custom_help
 
-        tagline = "Roll a 1D100 Luck Check, with input for Luck Skill modifier"
+        luck_tagline = "Roll a 1D100 Luck Check, with input for Luck Skill modifier"
+        forage_tagline = "Roll an Insight + Nature check to see what you find on the foraging table"
+
+        # Remove stale copies from every category before reinserting in Utilities.
+        for _, rows in custom_help.HELP_CATEGORIES:
+            rows[:] = [
+                row for row in rows
+                if row[0] not in {"roll_luck_check", "roll_foraging"}
+            ]
+
         for category_name, rows in custom_help.HELP_CATEGORIES:
             if category_name != "Utilities":
                 continue
 
-            rows[:] = [row for row in rows if row[0] != "roll_luck_check"]
             insert_at = next(
                 (index + 1 for index, row in enumerate(rows) if row[0] == "roll"),
                 len(rows),
             )
-            rows.insert(insert_at, ("roll_luck_check", tagline))
-            custom_help.HELP_TAGLINES["roll_luck_check"] = tagline
+            rows[insert_at:insert_at] = [
+                ("roll_luck_check", luck_tagline),
+                ("roll_foraging", forage_tagline),
+            ]
+            custom_help.HELP_TAGLINES["roll_luck_check"] = luck_tagline
+            custom_help.HELP_TAGLINES["roll_foraging"] = forage_tagline
             return
     except Exception as exc:
-        print(f'Failed to add /roll_luck_check to /help: {exc}')
+        print(f'Failed to place utility roll commands in /help: {exc}')
 
 
 @bot.event
@@ -1941,7 +1953,8 @@ async def pkmn_stat_msg_helper(pokemon, found, version: str):
         output += f' <{found[17]}>'
     output += '\n'
     output += pokemon_progression_text(pokemon, version)
-    output += f'**Other Forms**: {(found[19] or "No")}\n'
+    output += pokemon_other_forms_text(pokemon, version)
+    output += pokemon_pokedex_text(pokemon, version)
 
     buttons = Timeout_View()
 

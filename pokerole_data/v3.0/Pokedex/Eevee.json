@@ -74,7 +74,7 @@
     },
     {
       "To": "Umbreon",
-      "DisplayMethod": "Use Moon Stone OR Happiness 4 during moonlight.",
+      "DisplayMethod": "Use Moon Stone.",
       "Kind": "Stone",
       "Item": "Moon Stone"
     },
@@ -86,13 +86,13 @@
     },
     {
       "To": "Sylveon",
-      "DisplayMethod": "Use Shiny Stone OR Loyalty 5.",
+      "DisplayMethod": "Use Shiny Stone.",
       "Kind": "Stone",
       "Item": "Shiny Stone"
     },
     {
       "To": "Espeon",
-      "DisplayMethod": "Use Dawn Stone OR Happiness 4 during sunlight.",
+      "DisplayMethod": "Use Dawn Stone.",
       "Kind": "Stone",
       "Item": "Dawn Stone"
     },
