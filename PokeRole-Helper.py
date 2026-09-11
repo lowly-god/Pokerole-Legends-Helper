@@ -25,7 +25,7 @@ from numpy.random import choice
 from bisect import bisect
 
 from dbhelper import Database
-from statsExtra import pokemon_extra_stats_text, pokemon_progression_text, pokemon_additional_hidden_abilities, pokemon_other_forms_text, pokemon_pokedex_text
+from statsExtra import pokemon_extra_stats_text, pokemon_progression_text, pokemon_additional_hidden_abilities, pokemon_pokedex_text
 from machineLearnsets import machine_moves_section, get_teachable_pokemon, get_move_type
 
 # for my testing environment
@@ -1922,7 +1922,7 @@ async def pkmn_stat_msg_helper(pokemon, found, version: str):
         found[x + 1] = "⭘" * (int(found[x + 1]) - int(found[x]))
         found[x] = "⬤" * int(found[x])
 
-    output = f'{found[0]} __{pokemon.title()}__\n'
+    output = f'## **{pokemon.title()}**\n'
     output += f'**Suggested Rank**: {found[20]}\n'
     output += f'**Type**: {found[1].capitalize()}'
     if found[2] == '':
@@ -1953,7 +1953,6 @@ async def pkmn_stat_msg_helper(pokemon, found, version: str):
         output += f' <{found[17]}>'
     output += '\n'
     output += pokemon_progression_text(pokemon, version)
-    output += pokemon_other_forms_text(pokemon, version)
     output += pokemon_pokedex_text(pokemon, version)
 
     buttons = Timeout_View()
@@ -1993,7 +1992,7 @@ async def pkmn_stat_msg_helper(pokemon, found, version: str):
     buttons.add_item(b_abilities)
 
     b_forms = Button(
-        style=discord.ButtonStyle.gray,
+        style=discord.ButtonStyle.blurple,
         label='Forms'
     )
 

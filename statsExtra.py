@@ -294,10 +294,21 @@ def pokemon_other_forms_text(pokemon, version):
 def pokemon_pokedex_text(pokemon, version):
     meta = _load_pokemon_meta(version).get(str(pokemon).casefold(), {})
     description = str(meta.get("DexDescription") or "").strip()
-    if not description:
+    description = re.sub(r"\s+", " ", description) if description else ""
+
+    number = meta.get("Number")
+    number_text = ""
+    if number not in (None, ""):
+        try:
+            number_text = f"#{int(number)}."
+        except (TypeError, ValueError):
+            number_text = f"#{number}."
+
+    if not number_text and not description:
         return ""
-    description = re.sub(r"\s+", " ", description)
-    return f"**Pokedex**: {description}\n"
+
+    body = " ".join(part for part in (number_text, description) if part)
+    return f"**Pokedex**: {body}\n"
 
 
 
