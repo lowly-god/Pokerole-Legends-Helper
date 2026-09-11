@@ -309,58 +309,152 @@ def pokemon_additional_hidden_abilities(pokemon, version):
     return list(values or [])
 
 
-def _progression_method(evo):
-    authored = str(evo.get("DisplayMethod") or "").strip()
-    if authored:
-        return authored.rstrip(".") + "."
+def _clean_progression_phrase(text):
+    """Turn authored evolution wording into compact /stats display wording."""
+    text = str(text or "").strip().rstrip(".")
+    if not text:
+        return ""
 
-    kind = str(evo.get("Kind") or "")
+    # Keep the author's actual requirements, but shorten the repetitive
+    # "Evolution" wording used in the data files.
+    replacements = [
+        (r"\bFast level Evolution\b", "Fast Speed"),
+        (r"\bMedium level Evolution\b", "Medium Speed"),
+        (r"\bSlow level Evolution\b", "Slow Speed"),
+        (r"\bFast level evolution\b", "Fast Speed"),
+        (r"\bMedium level evolution\b", "Medium Speed"),
+        (r"\bSlow level evolution\b", "Slow Speed"),
+        (r"\bFast Evolution\b", "Fast Speed"),
+        (r"\bMedium Evolution\b", "Medium Speed"),
+        (r"\bSlow Evolution\b", "Slow Speed"),
+        (r"\bFast evolution\b", "Fast Speed"),
+        (r"\bMedium evolution\b", "Medium Speed"),
+        (r"\bSlow evolution\b", "Slow Speed"),
+        (r"\bUse ([^;]+?)\b", r"via \1"),
+    ]
+    for pattern, replacement in replacements:
+        text = re.sub(pattern, replacement, text, flags=re.IGNORECASE)
+
+    text = re.sub(r"\s+OR\s+", " or ", text, flags=re.IGNORECASE)
+    text = re.sub(r"\s*;\s*", ", ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"\bwhile Holding\b", "while holding", text)
+    text = re.sub(r"\bor Complete\b", "or complete", text)
+    text = re.sub(r"\band Play\b", "and play", text)
+    text = re.sub(r"\bor Medium\b", "or Medium", text)
+
+    # After "or", make repeated "via" wording read naturally.
+    text = re.sub(r"\bor via\b", "or via", text, flags=re.IGNORECASE)
+    return text
+
+
+def _progression_method(evo):
+    kind = str(evo.get("Kind") or "").strip()
+
     if kind == "Level":
+        # Special-authored level methods carry conditions that cannot always
+        # be reconstructed from the structured fields alone.
+        authored = str(evo.get("DisplayMethod") or evo.get("Special") or "").strip()
+        if authored:
+            return _clean_progression_phrase(authored)
+
         speed = str(evo.get("Speed") or "").strip()
-        text = f"{speed} Evolution" if speed else "Level Evolution"
+        text = f"{speed} Speed" if speed else "Level Evolution"
+        conditions = []
         if evo.get("Gender"):
-            text = f"{evo['Gender']} only. {text}"
+            conditions.append(f"{evo['Gender']} only")
         if evo.get("Move"):
-            text += f" while knowing {evo['Move']}"
+            conditions.append(f"while knowing {evo['Move']}")
         if evo.get("Item"):
-            text += f" while holding {evo['Item']}"
+            conditions.append(f"while holding {evo['Item']}")
         if evo.get("Region"):
-            text += f" while in {evo['Region']}"
-        special = str(evo.get("Special") or "").strip()
-        if special and special.casefold() not in text.casefold():
-            text += f"; {special}"
-        return text.rstrip(".") + "."
+            conditions.append(f"while in {evo['Region']}")
+        if conditions:
+            if conditions[0].endswith("only"):
+                text = f"{conditions[0]}, {text}"
+                conditions = conditions[1:]
+            if conditions:
+                text += " " + " ".join(conditions)
+        return text
+
     if kind == "Stone":
-        return f"Use {evo.get('Item') or evo.get('Stone') or 'Evolution Stone'}."
+        authored = str(evo.get("DisplayMethod") or "").strip()
+        # Preserve explicitly-authored alternate methods.
+        if " OR " in authored.upper():
+            return _clean_progression_phrase(authored)
+        item = evo.get("Item") or evo.get("Stone") or "Evolution Stone"
+        text = f"via {item}"
+        if evo.get("Region"):
+            text += f" in {evo['Region']}"
+        if evo.get("Gender"):
+            text = f"{evo['Gender']} only, {text}"
+        return text
+
     if kind == "Item":
-        return f"Use {evo.get('Item') or 'required item'}."
+        authored = str(evo.get("DisplayMethod") or "").strip()
+        if " OR " in authored.upper():
+            return _clean_progression_phrase(authored)
+        item = evo.get("Item") or "required item"
+        return f"via {item}"
+
     if kind == "Trade":
-        return f"Trade or Use {evo['Item']}." if evo.get("Item") == "Link Stone" else (
-            f"Trade with {evo['Item']}." if evo.get("Item") else "Trade."
-        )
+        item = evo.get("Item")
+        if item == "Link Stone":
+            return "via Trade or Link Stone"
+        if item:
+            return f"via Trade while holding {item}"
+        return "via Trade"
+
     if kind == "Stat":
         stat = evo.get("Stat") or "Stat"
         value = evo.get("Value")
-        return f"{stat} {value}." if value not in (None, "", -1) else f"{stat} requirement."
+        return f"via {stat} {value}" if value not in (None, "", -1) else f"via {stat} requirement"
+
     if kind == "Mega":
         if evo.get("Item"):
-            return f"Mega Evolution using {evo['Item']}."
-        if evo.get("Special"):
-            return str(evo['Special']).rstrip(".") + "."
-        return "Mega Evolution."
+            return f"using {evo['Item']}"
+        special = str(evo.get("Special") or evo.get("DisplayMethod") or "").strip()
+        if special:
+            cleaned = _clean_progression_phrase(special)
+            cleaned = re.sub(r"^Mega Evolution\s+", "", cleaned, flags=re.IGNORECASE)
+            return cleaned
+        return ""
+
     if kind in {"Form", "Transform"}:
         if evo.get("Item"):
-            return f"Use {evo['Item']}."
-        if evo.get("Ability"):
-            return f"Activate {evo['Ability']}."
+            return f"using {evo['Item']}"
+        if evo.get("Ability") and str(evo.get("Ability")).casefold() != "ability":
+            return f"by activating {evo['Ability']}"
         if evo.get("Move"):
-            return f"Use {evo['Move']}."
-        if evo.get("Special"):
-            return str(evo['Special']).rstrip(".") + "."
-        return "Transform."
-    if evo.get("Special"):
-        return str(evo["Special"]).rstrip(".") + "."
-    return "Special requirement."
+            return f"using {evo['Move']}"
+        special = str(evo.get("Special") or evo.get("DisplayMethod") or "").strip()
+        if special:
+            return _clean_progression_phrase(special)
+        return ""
+
+    special = str(evo.get("Special") or evo.get("DisplayMethod") or "").strip()
+    if special:
+        return _clean_progression_phrase(special)
+    return ""
+
+
+def _pretty_mega_name(name):
+    """Render internal '(Mega ... Form)' stat-block names naturally."""
+    name = str(name or "").strip()
+
+    # Standard: Charizard (Mega X Form) -> Mega Charizard X
+    match = re.fullmatch(r"(.+?) \(Mega(?: ([^)]+?))? Form\)", name)
+    if match:
+        base = match.group(1)
+        qualifier = (match.group(2) or "").strip()
+        return f"Mega {base}" + (f" {qualifier}" if qualifier else "")
+
+    # Tatsugiri uses '(Curly Mega Form)' rather than '(Mega Curly Form)'.
+    match = re.fullmatch(r"(.+?) \((.+?) Mega Form\)", name)
+    if match:
+        return f"Mega {match.group(1)} {match.group(2)}"
+
+    return name
 
 
 def pokemon_progression_text(pokemon, version):
@@ -373,11 +467,16 @@ def pokemon_progression_text(pokemon, version):
         "transform_to": [], "transform_from": [],
     }
     transform_kinds = {"Form", "Transform"}
+
     for evo in evolutions:
         kind = str(evo.get("Kind") or "")
-        if kind == "Mega": prefix = "mega"
-        elif kind in transform_kinds: prefix = "transform"
-        else: prefix = "normal"
+        if kind == "Mega":
+            prefix = "mega"
+        elif kind in transform_kinds:
+            prefix = "transform"
+        else:
+            prefix = "normal"
+
         if evo.get("To"):
             groups[f"{prefix}_to"].append((evo["To"], _progression_method(evo)))
         if evo.get("From"):
@@ -390,32 +489,38 @@ def pokemon_progression_text(pokemon, version):
             if name not in by_name:
                 by_name[name] = []
                 ordered.append(name)
-            if method not in by_name[name]:
-                by_name[name].append(method)
-        result=[]
+            clean = str(method or "").strip().rstrip(".")
+            if clean and clean not in by_name[name]:
+                by_name[name].append(clean)
+
+        result = []
         for name in ordered:
-            methods=by_name[name]
-            method = " OR ".join(m.rstrip(".") for m in methods) + "." if methods else ""
-            result.append((name,method))
+            methods = by_name[name]
+            method = " or ".join(methods)
+            result.append((name, method))
         return result
 
     for key in groups:
         groups[key] = collapse(groups[key])
 
-    def format_group(label, rows):
+    def format_group(label, rows, mega=False):
         if not rows:
             return ""
+
         entries = []
         for name, method in rows:
-            clean_method = str(method or "").strip().rstrip(".")
-            entries.append(f"{name}, {clean_method}" if clean_method else name)
-        return f"**{label}**: " + "; ".join(entries) + "\n"
+            display_name = _pretty_mega_name(name) if mega else str(name)
+            if method:
+                entries.append(f"{display_name}, {method}.")
+            else:
+                entries.append(f"{display_name}.")
+        return f"**{label}**: " + " ".join(entries) + "\n"
 
     output = ""
     output += format_group("Evolves Into", groups["normal_to"])
     output += format_group("Evolves From", groups["normal_from"])
-    output += format_group("Mega Evolves Into", groups["mega_to"])
-    output += format_group("Mega Evolves From", groups["mega_from"])
+    output += format_group("Mega Evolves Into", groups["mega_to"], mega=True)
+    output += format_group("Mega Evolves From", groups["mega_from"], mega=True)
     output += format_group("Transforms Into", groups["transform_to"])
     output += format_group("Transforms From", groups["transform_from"])
     return output
