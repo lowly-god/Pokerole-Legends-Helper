@@ -37,27 +37,45 @@
   "Evolutions": [
     {
       "To": "Rotom (Heat Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Interact with Microwave Oven.",
+      "Special": "Interact with Microwave Oven."
     },
     {
       "To": "Rotom (Fan Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Interact with Electric Fan.",
+      "Special": "Interact with Electric Fan."
     },
     {
       "To": "Rotom (Mow Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Interact with Lawn Mower.",
+      "Special": "Interact with Lawn Mower."
     },
     {
       "To": "Rotom (Frost Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Interact with Refrigerator.",
+      "Special": "Interact with Refrigerator."
     },
     {
       "To": "Rotom (Wash Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Interact with Washing Machine.",
+      "Special": "Interact with Washing Machine."
     },
     {
       "To": "Rotom (Dex Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Have Rotom inhabit a custom-made Pokedex.",
+      "Special": "Have Rotom inhabit a custom-made Pokedex."
+    },
+    {
+      "To": "Rotom (Drone Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Have Rotom inhabit a custom-made drone.",
+      "Special": "Have Rotom inhabit a custom-made drone."
     }
   ],
   "Image": "rotom.png",

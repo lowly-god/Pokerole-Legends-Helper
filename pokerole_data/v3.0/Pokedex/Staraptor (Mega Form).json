@@ -38,7 +38,8 @@
     {
       "From": "Staraptor",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Staraptite.",
+      "Item": "Staraptite"
     }
   ],
   "Image": "",

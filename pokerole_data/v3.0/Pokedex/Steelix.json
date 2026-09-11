@@ -37,12 +37,14 @@
   "Evolutions": [
     {
       "From": "Onix",
-      "Kind": "Trade",
+      "DisplayMethod": "Use Metal Coat.",
+      "Kind": "Item",
       "Item": "Metal Coat"
     },
     {
       "To": "Steelix (Mega Form)",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Steelixite.",
       "Item": "Steelixite"
     }
   ],

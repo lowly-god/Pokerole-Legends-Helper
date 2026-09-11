@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "To": "Vespiquen",
+      "DisplayMethod": "Female only. Slow Evolution.",
       "Kind": "Level",
       "Speed": "Slow",
       "Gender": "Female"

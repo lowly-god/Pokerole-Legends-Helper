@@ -38,7 +38,8 @@
     {
       "From": "Heatran",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Heatranite.",
+      "Item": "Heatranite"
     }
   ],
   "Image": "",

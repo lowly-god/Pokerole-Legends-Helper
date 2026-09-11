@@ -37,7 +37,10 @@
   "Evolutions": [
     {
       "To": "Minior Core",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Activate Shields Down.",
+      "Ability": "Shields Down",
+      "Special": "Activate Shields Down."
     }
   ],
   "Image": "minior.png",

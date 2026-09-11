@@ -38,7 +38,8 @@
     {
       "From": "Accelgor",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Accelgorite.",
+      "Item": "Accelgorite"
     }
   ],
   "Image": "",

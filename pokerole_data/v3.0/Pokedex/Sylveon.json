@@ -37,12 +37,7 @@
   "Evolutions": [
     {
       "From": "Eevee",
-      "Kind": "Stat",
-      "Stat": "Loyalty",
-      "Value": 5
-    },
-    {
-      "From": "Eevee",
+      "DisplayMethod": "Use Shiny Stone OR Loyalty 5.",
       "Kind": "Stone",
       "Item": "Shiny Stone"
     }

@@ -37,7 +37,10 @@
   "Evolutions": [
     {
       "From": "Palkia",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Mega Evolution using Lustrous Globe.",
+      "Item": "Lustrous Globe",
+      "Special": "Mega Evolution using Lustrous Globe."
     }
   ],
   "Image": "palkia-origin-form.png",

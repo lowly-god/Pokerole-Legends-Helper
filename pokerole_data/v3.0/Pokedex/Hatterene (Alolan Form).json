@@ -34,7 +34,14 @@
     "Pounds": 106.0
   },
   "DexDescription": "It is said that its voice has the power to control and influence others. It is deeply protective of the waters it calls home.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Hatterene (Mega Alolan Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using (Alolan) Hatterenite.",
+      "Item": "(Alolan) Hatterenite"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

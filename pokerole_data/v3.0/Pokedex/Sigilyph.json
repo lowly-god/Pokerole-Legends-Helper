@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "To": "Sigileye",
+      "DisplayMethod": "Use Rune Stone.",
       "Kind": "Stone",
       "Item": "Rune Stone"
     }

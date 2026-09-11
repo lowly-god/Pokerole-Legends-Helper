@@ -36,18 +36,14 @@
   "DexDescription": "These Pokémon taste awful, and they are incredibly ugly, smelly, kind of dumb, and terrible fighters. To make things worse, they rarely reproduce as they don't find each other attractive; for this reason, they are extremely rare.",
   "Evolutions": [
     {
-      "To": "Milotic",
-      "Kind": "Stat",
-      "Stat": "Beauty",
-      "Value": 5
-    },
-    {
       "To": "Milotic (Orrean Form)",
+      "DisplayMethod": "Use Tarnished Scale.",
       "Kind": "Item",
       "Item": "Tarnished Scale"
     },
     {
       "To": "Milotic",
+      "DisplayMethod": "Use Prism Scale.",
       "Kind": "Item",
       "Item": "Prism Scale"
     }

@@ -38,7 +38,8 @@
     {
       "From": "Lokix",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Lokixite.",
+      "Item": "Lokixite"
     }
   ],
   "Image": "",

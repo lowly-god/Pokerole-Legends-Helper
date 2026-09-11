@@ -42,20 +42,15 @@
     },
     {
       "To": "Ursaluna",
+      "DisplayMethod": "Use Peat Block.",
       "Kind": "Item",
-      "Item": "Peat Moss",
-      "Special": "Moon Ritual"
+      "Item": "Peat Block"
     },
     {
       "To": "Ursaluna (Kitakami Form)",
+      "DisplayMethod": "Use Peat Moss during a Blood Moon.",
       "Kind": "Item",
-      "Item": "Peat Moss",
-      "Special": "Moon Ritual"
-    },
-    {
-      "To": "Ursaluna",
-      "Kind": "Item",
-      "Item": "Peat Block"
+      "Item": "Peat Moss"
     }
   ],
   "Image": "ursaring.png",

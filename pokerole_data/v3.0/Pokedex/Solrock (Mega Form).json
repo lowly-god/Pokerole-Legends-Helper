@@ -38,7 +38,8 @@
     {
       "From": "Solrock",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Solrockite.",
+      "Item": "Solrockite"
     }
   ],
   "Image": "",

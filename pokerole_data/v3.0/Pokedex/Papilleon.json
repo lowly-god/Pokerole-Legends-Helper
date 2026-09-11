@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Eevee",
+      "DisplayMethod": "Use Amber Onyx.",
       "Kind": "Stone",
       "Item": "Amber Onyx"
     }

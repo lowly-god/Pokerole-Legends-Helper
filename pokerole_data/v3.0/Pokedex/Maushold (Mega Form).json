@@ -38,7 +38,8 @@
     {
       "From": "Maushold",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Mauseholdite.",
+      "Item": "Mauseholdite"
     }
   ],
   "Image": "",

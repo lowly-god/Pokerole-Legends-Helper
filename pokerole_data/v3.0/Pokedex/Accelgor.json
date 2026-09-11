@@ -39,6 +39,12 @@
       "From": "Shelmet",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Accelgor (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Accelgorite.",
+      "Item": "Accelgorite"
     }
   ],
   "Image": "accelgor.png",

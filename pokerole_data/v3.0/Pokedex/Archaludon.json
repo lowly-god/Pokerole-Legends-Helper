@@ -37,11 +37,7 @@
   "Evolutions": [
     {
       "From": "Duraludon",
-      "Kind": "Level",
-      "Speed": "Slow"
-    },
-    {
-      "From": "Duraludon",
+      "DisplayMethod": "Use Metal Alloy.",
       "Kind": "Item",
       "Item": "Metal Alloy"
     }

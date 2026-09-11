@@ -37,11 +37,7 @@
   "Evolutions": [
     {
       "From": "Clamperl",
-      "Kind": "Trade",
-      "Item": "Dragon Fang"
-    },
-    {
-      "From": "Clamperl",
+      "DisplayMethod": "Use Deep Sea Tooth.",
       "Kind": "Item",
       "Item": "Deep Sea Tooth"
     }

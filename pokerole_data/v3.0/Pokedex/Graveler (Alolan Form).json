@@ -42,7 +42,9 @@
     },
     {
       "To": "Golem (Alolan Form)",
-      "Kind": "Trade"
+      "Kind": "Trade",
+      "Item": "Link Stone",
+      "DisplayMethod": "Trade OR Use Link Stone"
     }
   ],
   "Image": "graveler-alolan-form.png",

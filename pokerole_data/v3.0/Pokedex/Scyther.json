@@ -37,12 +37,14 @@
   "Evolutions": [
     {
       "To": "Scizor",
-      "Kind": "Trade",
+      "DisplayMethod": "Use Metal Coat.",
+      "Kind": "Item",
       "Item": "Metal Coat"
     },
     {
       "To": "Kleavor",
-      "Kind": "Trade",
+      "DisplayMethod": "Use Black Augurite.",
+      "Kind": "Item",
       "Item": "Black Augurite"
     }
   ],

@@ -38,7 +38,8 @@
     {
       "From": "Weavile",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Weavilite.",
+      "Item": "Weavilite"
     }
   ],
   "Image": "",

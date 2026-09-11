@@ -39,6 +39,12 @@
       "From": "Golett",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Golurk (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Golurkite.",
+      "Item": "Golurkite"
     }
   ],
   "Image": "golurk.png",

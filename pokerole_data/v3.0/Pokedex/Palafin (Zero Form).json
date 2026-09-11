@@ -42,7 +42,10 @@
     },
     {
       "To": "Palafin (Hero Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Activate Zero to Hero.",
+      "Ability": "Zero to Hero",
+      "Special": "Activate Zero to Hero."
     }
   ],
   "Image": "palafin-zero-form.png",

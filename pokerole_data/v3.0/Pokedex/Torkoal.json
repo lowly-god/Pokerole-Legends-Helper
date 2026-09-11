@@ -37,8 +37,9 @@
   "Evolutions": [
     {
       "To": "Eruptoise",
-      "Kind": "Special",
-      "Special": "Torkoal (Slow)"
+      "Kind": "Level",
+      "Speed": "Slow",
+      "DisplayMethod": "Slow Evolution."
     }
   ],
   "Image": "torkoal.png",

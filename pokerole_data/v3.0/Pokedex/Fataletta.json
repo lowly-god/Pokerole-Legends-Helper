@@ -34,7 +34,16 @@
     "Pounds": 78.0
   },
   "DexDescription": "During its mating season many Pirouby follow it. If it doesn't like one of them, it eats it.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Pirouby",
+      "DisplayMethod": "Female only. Medium Evolution while knowing Quiver Dance.",
+      "Kind": "Level",
+      "Speed": "Medium",
+      "Move": "Quiver Dance",
+      "Gender": "Female"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

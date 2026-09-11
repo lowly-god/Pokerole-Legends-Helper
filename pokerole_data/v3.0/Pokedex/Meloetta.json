@@ -1,130 +1,146 @@
 {
-    "Number": 648,
-    "DexID": "0648",
-    "Name": "Meloetta",
-    "Type1": "Normal",
-    "Type2": "Psychic",
-    "BaseHP": 6,
-    "Strength": 2,
-    "MaxStrength": 5,
-    "Dexterity": 2,
-    "MaxDexterity": 5,
-    "Vitality": 2,
-    "MaxVitality": 5,
-    "Special": 3,
-    "MaxSpecial": 7,
-    "Insight": 3,
-    "MaxInsight": 7,
-    "Ability1": "Serene Grace",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "meloetta",
-    "DexCategory": "Pokedex has no Data.",
-    "Height": {
-        "Meters": 0.6,
-        "Feet": 2.0
+  "Number": 648,
+  "DexID": "0648",
+  "Name": "Meloetta",
+  "Type1": "Normal",
+  "Type2": "Psychic",
+  "BaseHP": 6,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 3,
+  "MaxInsight": 7,
+  "Ability1": "Serene Grace",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "meloetta",
+  "DexCategory": "Pokedex has no Data.",
+  "Height": {
+    "Meters": 0.6,
+    "Feet": 2.0
+  },
+  "Weight": {
+    "Kilograms": 6.0,
+    "Pounds": 14.0
+  },
+  "DexDescription": "There are old songs about a beautiful Pokémon that inspired the hearts of artists through its graceful dance and singing.",
+  "Evolutions": [
+    {
+      "To": "Meloetta (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Meloettite.",
+      "Item": "Meloettite"
     },
-    "Weight": {
-        "Kilograms": 6.0,
-        "Pounds": 14.0
+    {
+      "To": "Meloetta (Pirouette Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Use Relic Song in Battle.",
+      "Move": "Relic Song",
+      "Special": "Use Relic Song in Battle."
     },
-    "DexDescription": "There are old songs about a beautiful Pokémon that inspired the hearts of artists through its graceful dance and singing.",
-    "Evolutions": [
-        {
-            "To": "Meloetta (Pirouette Form)",
-            "Kind": "Form"
-        }
-    ],
-    "Image": "meloetta.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Quick Attack"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Confusion"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Echoed Voice"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Disarming Voice"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Round"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Sing"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Psybeam"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Rainbow Beam"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Teeter Dance"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Acrobatics"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "U-Turn"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Psychic"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Role Play"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Captivate"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Wake-Up Slap"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Hyper Voice"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Close Combat"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Boomburst"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Perish Song"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Lucky Chant"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Relic Song"
-        }
-    ]
+    {
+      "From": "Meloetta (Pirouette Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Use Relic Song in Battle.",
+      "Move": "Relic Song",
+      "Special": "Use Relic Song in Battle."
+    }
+  ],
+  "Image": "meloetta.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Quick Attack"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Echoed Voice"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Disarming Voice"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Round"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sing"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybeam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rainbow Beam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Teeter Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Acrobatics"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "U-Turn"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Role Play"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Captivate"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Wake-Up Slap"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hyper Voice"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Boomburst"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Perish Song"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Lucky Chant"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Relic Song"
+    }
+  ]
 }

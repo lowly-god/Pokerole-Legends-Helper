@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Pikachu",
+      "DisplayMethod": "Use Thunder Stone in Alola.",
       "Kind": "Stone",
       "Item": "Thunder Stone",
       "Region": "Alola"

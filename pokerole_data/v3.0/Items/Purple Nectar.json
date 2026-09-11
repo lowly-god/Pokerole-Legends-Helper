@@ -1,0 +1,13 @@
+{
+  "Name": "Purple Nectar",
+  "_id": "purple-nectar",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Consumable. Transforms Oricorio into Oricorio (Sensu Form).",
+  "OneUse": true,
+  "TrainerPrice": "500",
+  "Cures": "",
+  "Image": ""
+}

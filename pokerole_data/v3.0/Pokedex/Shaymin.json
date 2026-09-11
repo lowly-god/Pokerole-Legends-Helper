@@ -1,127 +1,129 @@
 {
-    "Number": 492,
-    "DexID": "0492",
-    "Name": "Shaymin",
-    "Type1": "Grass",
-    "Type2": "",
-    "BaseHP": 6,
-    "Strength": 3,
-    "MaxStrength": 6,
-    "Dexterity": 3,
-    "MaxDexterity": 6,
-    "Vitality": 3,
-    "MaxVitality": 6,
-    "Special": 3,
-    "MaxSpecial": 6,
-    "Insight": 3,
-    "MaxInsight": 6,
-    "Ability1": "Natural Cure",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "shaymin",
-    "DexCategory": "Pokédex has no data",
-    "Height": {
-        "Meters": 0.2,
-        "Feet": 0.7
+  "Number": 492,
+  "DexID": "0492",
+  "Name": "Shaymin",
+  "Type1": "Grass",
+  "Type2": "",
+  "BaseHP": 6,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Natural Cure",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "shaymin",
+  "DexCategory": "Pokédex has no data",
+  "Height": {
+    "Meters": 0.2,
+    "Feet": 0.7
+  },
+  "Weight": {
+    "Kilograms": 2.0,
+    "Pounds": 4.0
+  },
+  "DexDescription": "There are remains of gigantic trees that once grew all over the earth. They were called the “Trees of Life” and it is believed they were all planted by a kind Pokémon who brought plants and flowers to life.",
+  "Evolutions": [
+    {
+      "To": "Shaymin (Sky Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Use Gracidea Flower.",
+      "Item": "Gracidea Flower",
+      "Special": "Use Gracidea Flower."
+    }
+  ],
+  "Image": "shaymin.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Sweet Kiss"
     },
-    "Weight": {
-        "Kilograms": 2.0,
-        "Pounds": 4.0
+    {
+      "Learned": "Starter",
+      "Name": "Growth"
     },
-    "DexDescription": "There are remains of gigantic trees that once grew all over the earth. They were called the “Trees of Life” and it is believed they were all planted by a kind Pokémon who brought plants and flowers to life.",
-    "Evolutions": [
-        {
-            "To": "Shaymin (Sky Form)",
-            "Kind": "Special",
-            "Item": "Gracidea flower"
-        }
-    ],
-    "Image": "shaymin.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Sweet Kiss"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Growth"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Magical Leaf"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Leech Seed"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Sweet Scent"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Natural Gift"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Synthesis"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Recover"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Aromatherapy"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Worry Seed"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Energy Ball"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Nature Power"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Earth Power"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Zen Headbutt"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Giga Drain"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Healing Wish"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Endeavor"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Substitute"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Jungle Healing"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Seed Flare"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Magical Leaf"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Leech Seed"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sweet Scent"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Natural Gift"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Synthesis"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aromatherapy"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Worry Seed"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Energy Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Nature Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Earth Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Zen Headbutt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Giga Drain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Healing Wish"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Endeavor"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Substitute"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Jungle Healing"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Seed Flare"
+    }
+  ]
 }

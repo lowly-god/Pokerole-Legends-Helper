@@ -34,7 +34,14 @@
     "Pounds": 20.0
   },
   "DexDescription": "It's body seems to be a gel like exterior coating the skeleton. It carries with it a stone blade made of chipped flint.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Tinkatuff (Johtonian Form)",
+      "DisplayMethod": "Medium level Evolution.",
+      "Kind": "Level",
+      "Speed": "Medium"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

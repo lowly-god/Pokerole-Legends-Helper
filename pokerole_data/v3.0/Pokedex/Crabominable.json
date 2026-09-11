@@ -37,8 +37,15 @@
   "Evolutions": [
     {
       "From": "Crabrawler",
-      "Kind": "Level",
-      "Speed": "Medium"
+      "DisplayMethod": "Use Ice Stone.",
+      "Kind": "Stone",
+      "Item": "Ice Stone"
+    },
+    {
+      "To": "Crabominable (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Crabominite.",
+      "Item": "Crabominite"
     }
   ],
   "Image": "crabominable.png",

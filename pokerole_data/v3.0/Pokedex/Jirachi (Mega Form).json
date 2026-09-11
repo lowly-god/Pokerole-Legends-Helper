@@ -1,132 +1,133 @@
 {
-    "Number": 385,
-    "DexID": "0385F1",
-    "Name": "Jirachi (Mega Form)",
-    "Type1": "Steel",
-    "Type2": "Psychic",
-    "BaseHP": 6,
-    "Strength": 3,
-    "MaxStrength": 6,
-    "Dexterity": 3,
-    "MaxDexterity": 6,
-    "Vitality": 3,
-    "MaxVitality": 7,
-    "Special": 4,
-    "MaxSpecial": 8,
-    "Insight": 4,
-    "MaxInsight": 8,
-    "Ability1": "Serendipitous Wishes",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Champion",
-    "GenderType": "N",
-    "Legendary": false,
-    "GoodStarter": false,
-    "_id": "jirachi-mega-form",
-    "DexCategory": "Wish Pokémon",
-    "Height": {
-        "Meters": 0.46,
-        "Feet": 1.5
+  "Number": 385,
+  "DexID": "0385F1",
+  "Name": "Jirachi (Mega Form)",
+  "Type1": "Steel",
+  "Type2": "Psychic",
+  "BaseHP": 6,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 3,
+  "MaxVitality": 7,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 4,
+  "MaxInsight": 8,
+  "Ability1": "Serendipitous Wishes",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Champion",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "jirachi-mega-form",
+  "DexCategory": "Wish Pokémon",
+  "Height": {
+    "Meters": 0.46,
+    "Feet": 1.5
+  },
+  "Weight": {
+    "Kilograms": 3.2,
+    "Pounds": 7.0
+  },
+  "DexDescription": "It is said that every 1000 years, a shooting star appears in the sky for 7 days, granting wishes to those of pure heart. Another common saying is: 'Be careful what you wish for.'",
+  "Evolutions": [
+    {
+      "From": "Jirachi",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Jirachicite.",
+      "Item": "Jirachicite"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Confide"
     },
-    "Weight": {
-        "Kilograms": 3.2,
-        "Pounds": 7.0
+    {
+      "Learned": "Starter",
+      "Name": "Confusion"
     },
-    "DexDescription": "It is said that every 1000 years, a shooting star appears in the sky for 7 days, granting wishes to those of pure heart. Another common saying is: 'Be careful what you wish for.'",
-    "Evolutions": [
-        {
-            "From": "Jirachi",
-            "Kind": "Mega",
-            "Item": ""
-        }
-    ],
-    "Image": "",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Confide"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Confusion"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Helping Hand"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Psybolt"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Swift"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Psychic"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Rest"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Zen Headbutt"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Cosmic Power"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Trick"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Meteor Mash"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Lucky Chant"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Double-Edge"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Gravity"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Healing Wish"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Future Sight"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Last Resort"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Refresh"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Wish"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Trick Room"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Doom Desire"
-        }
-    ],
-    "MegaStone": "Jirachicite"
+    {
+      "Learned": "Rookie",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Psybolt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Swift"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rest"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Zen Headbutt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cosmic Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Trick"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Meteor Mash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lucky Chant"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Double-Edge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Gravity"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Healing Wish"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Future Sight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Last Resort"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Refresh"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wish"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Trick Room"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Doom Desire"
+    }
+  ],
+  "MegaStone": "Jirachicite"
 }

@@ -38,7 +38,8 @@
     {
       "From": "Victreebel",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Victreebelite.",
+      "Item": "Victreebelite"
     }
   ],
   "Image": "",

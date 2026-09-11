@@ -38,6 +38,7 @@
     {
       "From": "Medicham",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Medichamite.",
       "Item": "Medichamite"
     }
   ],

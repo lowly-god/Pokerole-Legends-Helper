@@ -39,6 +39,12 @@
       "From": "Ledyba",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Ledian (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Ledianite.",
+      "Item": "Ledianite"
     }
   ],
   "Image": "ledian.png",

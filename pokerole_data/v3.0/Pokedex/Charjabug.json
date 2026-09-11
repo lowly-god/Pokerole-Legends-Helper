@@ -42,8 +42,9 @@
     },
     {
       "To": "Vikavolt",
-      "Kind": "Level",
-      "Speed": "Medium"
+      "DisplayMethod": "Use Thunder Stone.",
+      "Kind": "Stone",
+      "Item": "Thunder Stone"
     }
   ],
   "Image": "charjabug.png",

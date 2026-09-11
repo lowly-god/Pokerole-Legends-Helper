@@ -37,8 +37,10 @@
   "Evolutions": [
     {
       "From": "Rayquaza",
-      "Kind": "Mega",
-      "Special": "Learning Dragon Ascent"
+      "Kind": "Transform",
+      "DisplayMethod": "Mega Evolution using Dragon Ascent.",
+      "Move": "Dragon Ascent",
+      "Special": "Mega Evolution using Dragon Ascent."
     }
   ],
   "Image": "rayquaza-mega-form.png",

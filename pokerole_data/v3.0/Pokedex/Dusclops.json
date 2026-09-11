@@ -42,7 +42,8 @@
     },
     {
       "To": "Dusknoir",
-      "Kind": "Trade",
+      "DisplayMethod": "Use Reaper Cloth.",
+      "Kind": "Item",
       "Item": "Reaper Cloth"
     }
   ],

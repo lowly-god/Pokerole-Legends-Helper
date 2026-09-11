@@ -34,7 +34,14 @@
     "Pounds": 407.0
   },
   "DexDescription": "It lives alone at the top of high mountains but comes down in the morning to eat berries. It is a caring Pokémon, especially towards children, and will fiercely protect any children it cares for with tremendous force.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Drampa (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Drampanite.",
+      "Item": "Drampanite"
+    }
+  ],
   "Image": "drampa.png",
   "Moves": [
     {

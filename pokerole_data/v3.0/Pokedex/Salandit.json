@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "To": "Salazzle",
+      "DisplayMethod": "Female only. Medium Evolution.",
       "Kind": "Level",
       "Speed": "Medium",
       "Gender": "Female"

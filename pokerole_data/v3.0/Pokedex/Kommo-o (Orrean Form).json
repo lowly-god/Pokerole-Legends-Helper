@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Hakamo-o (Orrean Form)",
+      "DisplayMethod": "Use Toxin Stone.",
       "Kind": "Stone",
       "Item": "Toxin Stone"
     }

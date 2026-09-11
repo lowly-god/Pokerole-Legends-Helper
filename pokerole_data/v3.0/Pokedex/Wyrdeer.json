@@ -37,8 +37,10 @@
   "Evolutions": [
     {
       "From": "Stantler",
-      "Kind": "Special",
-      "Special": "Learning Psyshield Bash"
+      "DisplayMethod": "Slow Evolution while knowing Psyshield Bash.",
+      "Kind": "Level",
+      "Speed": "Slow",
+      "Move": "Psyshield Bash"
     }
   ],
   "Image": "wyrdeer.png",

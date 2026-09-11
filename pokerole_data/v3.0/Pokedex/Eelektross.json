@@ -37,8 +37,15 @@
   "Evolutions": [
     {
       "From": "Eelektrik",
+      "DisplayMethod": "Use Thunder Stone.",
       "Kind": "Stone",
       "Item": "Thunder Stone"
+    },
+    {
+      "To": "Eelektross (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Elektrossite.",
+      "Item": "Elektrossite"
     }
   ],
   "Image": "eelektross.png",

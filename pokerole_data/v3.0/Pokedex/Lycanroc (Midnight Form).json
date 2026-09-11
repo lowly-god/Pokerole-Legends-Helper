@@ -37,9 +37,10 @@
   "Evolutions": [
     {
       "From": "Rockruff",
+      "DisplayMethod": "Slow evolution at night.",
       "Kind": "Level",
       "Speed": "Slow",
-      "Special": "Night"
+      "Special": "Slow evolution at night."
     }
   ],
   "Image": "lycanroc-midnight-form.png",

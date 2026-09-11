@@ -37,11 +37,13 @@
   "Evolutions": [
     {
       "To": "Armarouge",
+      "DisplayMethod": "Use Auspicious Armor.",
       "Kind": "Item",
       "Item": "Auspicious Armor"
     },
     {
       "To": "Ceruledge",
+      "DisplayMethod": "Use Malicious Armor.",
       "Kind": "Item",
       "Item": "Malicious Armor"
     }

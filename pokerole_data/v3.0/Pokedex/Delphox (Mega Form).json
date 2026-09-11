@@ -38,7 +38,8 @@
     {
       "From": "Delphox",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Delphoxite.",
+      "Item": "Delphoxite"
     }
   ],
   "Image": "",

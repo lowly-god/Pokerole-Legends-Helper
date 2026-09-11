@@ -37,7 +37,8 @@
   "Evolutions": [
     {
       "From": "Magmar",
-      "Kind": "Trade",
+      "DisplayMethod": "Use Magmarizer.",
+      "Kind": "Item",
       "Item": "Magmarizer"
     }
   ],

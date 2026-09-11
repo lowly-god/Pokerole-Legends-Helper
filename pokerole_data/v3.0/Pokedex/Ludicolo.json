@@ -37,8 +37,15 @@
   "Evolutions": [
     {
       "From": "Lombre",
+      "DisplayMethod": "Use Water Stone.",
       "Kind": "Stone",
       "Item": "Water Stone"
+    },
+    {
+      "To": "Ludicolo (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Ludicolonite.",
+      "Item": "Ludicolonite"
     }
   ],
   "Image": "ludicolo.png",

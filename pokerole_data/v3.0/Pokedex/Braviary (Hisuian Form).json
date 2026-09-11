@@ -37,9 +37,16 @@
   "Evolutions": [
     {
       "From": "Rufflet",
-      "Kind": "Level",
-      "Speed": "Slow",
+      "DisplayMethod": "Use Feather Stone OR Medium while in Hisui.",
+      "Kind": "Stone",
+      "Item": "Feather Stone",
       "Region": "Hisui"
+    },
+    {
+      "To": "Braviary (Mega Hisuian Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Bravialite.",
+      "Item": "Bravialite"
     }
   ],
   "Image": "braviary-hisuian-form.png",

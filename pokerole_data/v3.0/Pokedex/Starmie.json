@@ -37,8 +37,15 @@
   "Evolutions": [
     {
       "From": "Staryu",
+      "DisplayMethod": "Use Water Stone.",
       "Kind": "Stone",
       "Item": "Water Stone"
+    },
+    {
+      "To": "Starmie (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Starminite.",
+      "Item": "Starminite"
     }
   ],
   "Image": "starmie.png",

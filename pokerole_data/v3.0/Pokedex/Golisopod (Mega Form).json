@@ -38,7 +38,8 @@
     {
       "From": "Golisopod",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Golisopite.",
+      "Item": "Golisopite"
     }
   ],
   "Image": "",

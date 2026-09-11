@@ -38,7 +38,8 @@
     {
       "From": "Braviary (Hisuian Form)",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Bravialite.",
+      "Item": "Bravialite"
     }
   ],
   "Image": "",

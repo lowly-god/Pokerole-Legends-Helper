@@ -36,112 +36,111 @@
   "DexDescription": "Eevee has an unstable genetic makeup that suddenly mutates to fit its environment. Radiation from various stones causes it to evolve.",
   "Evolutions": [
     {
-      "To": "Vaporeon",
-      "Kind": "Stone",
-      "Item": "Water Stone"
-    },
-    {
-      "To": "Jolteon",
-      "Kind": "Stone",
-      "Item": "Thunder Stone"
-    },
-    {
-      "To": "Flareon",
-      "Kind": "Stone",
-      "Item": "Fire Stone"
-    },
-    {
-      "To": "Espeon",
-      "Kind": "Special",
-      "Stat": "Happiness",
-      "Value": 4,
-      "Special": "Sunlight"
-    },
-    {
-      "To": "Umbreon",
-      "Kind": "Special",
-      "Stat": "Happiness",
-      "Value": 4,
-      "Special": "Moonlight"
-    },
-    {
-      "To": "Leafeon",
-      "Kind": "Stone",
-      "Item": "Leaf Stone"
-    },
-    {
-      "To": "Glaceon",
-      "Kind": "Stone",
-      "Item": "Ice Stone"
-    },
-    {
-      "To": "Sylveon",
+      "To": "Eevoleon",
+      "DisplayMethod": "Loyalty 5.",
       "Kind": "Stat",
       "Stat": "Loyalty",
       "Value": 5
     },
     {
-      "To": "Eevoleon",
-      "Kind": "Special",
-      "Special": "Loyalty 5"
+      "To": "Flareon",
+      "DisplayMethod": "Use Fire Stone.",
+      "Kind": "Stone",
+      "Item": "Fire Stone"
+    },
+    {
+      "To": "Vaporeon",
+      "DisplayMethod": "Use Water Stone.",
+      "Kind": "Stone",
+      "Item": "Water Stone"
+    },
+    {
+      "To": "Jolteon",
+      "DisplayMethod": "Use Thunder Stone.",
+      "Kind": "Stone",
+      "Item": "Thunder Stone"
+    },
+    {
+      "To": "Leafeon",
+      "DisplayMethod": "Use Leaf Stone.",
+      "Kind": "Stone",
+      "Item": "Leaf Stone"
+    },
+    {
+      "To": "Glaceon",
+      "DisplayMethod": "Use Ice Stone.",
+      "Kind": "Stone",
+      "Item": "Ice Stone"
+    },
+    {
+      "To": "Umbreon",
+      "DisplayMethod": "Use Moon Stone OR Happiness 4 during moonlight.",
+      "Kind": "Stone",
+      "Item": "Moon Stone"
+    },
+    {
+      "To": "Mummeon",
+      "DisplayMethod": "Use Dusk Stone.",
+      "Kind": "Stone",
+      "Item": "Dusk Stone"
+    },
+    {
+      "To": "Sylveon",
+      "DisplayMethod": "Use Shiny Stone OR Loyalty 5.",
+      "Kind": "Stone",
+      "Item": "Shiny Stone"
+    },
+    {
+      "To": "Espeon",
+      "DisplayMethod": "Use Dawn Stone OR Happiness 4 during sunlight.",
+      "Kind": "Stone",
+      "Item": "Dawn Stone"
+    },
+    {
+      "To": "Glaveon",
+      "DisplayMethod": "Use Adamantite Stone.",
+      "Kind": "Stone",
+      "Item": "Adamantite Stone"
     },
     {
       "To": "Noxeon",
+      "DisplayMethod": "Use Toxin Stone.",
       "Kind": "Stone",
       "Item": "Toxin Stone"
     },
     {
       "To": "Orreon",
+      "DisplayMethod": "Use Precious Stone.",
       "Kind": "Stone",
       "Item": "Precious Stone"
     },
     {
       "To": "Champeon",
+      "DisplayMethod": "Use Brave Stone.",
       "Kind": "Stone",
       "Item": "Brave Stone"
     },
     {
       "To": "Dusteon",
+      "DisplayMethod": "Use Desert Rose.",
       "Kind": "Stone",
       "Item": "Desert Rose"
     },
     {
       "To": "Papilleon",
+      "DisplayMethod": "Use Amber Onyx.",
       "Kind": "Stone",
       "Item": "Amber Onyx"
     },
     {
-      "To": "Mummeon",
-      "Kind": "Stone",
-      "Item": "Dusk Stone"
-    },
-    {
       "To": "Nimbeon",
+      "DisplayMethod": "Use Feather Stone.",
       "Kind": "Stone",
       "Item": "Feather Stone"
     },
     {
-      "To": "Glaveon",
-      "Kind": "Stone",
-      "Item": "Adamantite Stone"
-    },
-    {
-      "To": "Umbreon",
-      "Kind": "Stone",
-      "Item": "Moon Stone"
-    },
-    {
-      "To": "Espeon",
-      "Kind": "Stone",
-      "Item": "Dawn Stone"
-    },
-    {
-      "To": "Sylveon",
-      "Kind": "Stone",
-      "Item": "Shiny Stone"
-    },
-    {
       "To": "Drakeon",
+      "DisplayMethod": "Use Rune Stone.",
       "Kind": "Stone",
       "Item": "Rune Stone"
     }

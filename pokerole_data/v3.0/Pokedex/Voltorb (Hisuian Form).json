@@ -37,8 +37,9 @@
   "Evolutions": [
     {
       "To": "Electrode (Hisuian Form)",
-      "Kind": "Level",
-      "Speed": "Slow"
+      "DisplayMethod": "Use Leaf Stone.",
+      "Kind": "Stone",
+      "Item": "Leaf Stone"
     }
   ],
   "Image": "voltorb-hisuian-form.png",

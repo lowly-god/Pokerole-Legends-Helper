@@ -42,8 +42,9 @@
     },
     {
       "To": "Gigalanche",
-      "Kind": "Special",
-      "Special": "Avalugg (Slow)"
+      "Kind": "Level",
+      "Speed": "Slow",
+      "DisplayMethod": "Slow Evolution."
     }
   ],
   "Image": "avalugg.png",

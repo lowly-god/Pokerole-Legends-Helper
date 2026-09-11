@@ -37,18 +37,16 @@
   "Evolutions": [
     {
       "To": "Slowbro",
-      "Kind": "Special",
-      "Special": "Shellder Biting Tail"
+      "DisplayMethod": "Medium Evolution with Shellder in the Party.",
+      "Kind": "Level",
+      "Speed": "Medium",
+      "Special": "Medium Evolution with Shellder in the Party."
     },
     {
       "To": "Slowking",
-      "Kind": "Trade",
-      "Item": "King's Rock"
-    },
-    {
-      "To": "Slowking",
+      "DisplayMethod": "Use King's Rock.",
       "Kind": "Item",
-      "Item": "Kings Rock"
+      "Item": "King's Rock"
     }
   ],
   "Image": "slowpoke.png",

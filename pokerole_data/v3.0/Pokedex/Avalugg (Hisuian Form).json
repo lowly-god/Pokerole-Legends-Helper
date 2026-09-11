@@ -37,8 +37,9 @@
   "Evolutions": [
     {
       "From": "Bergmite",
-      "Kind": "Level",
-      "Speed": "Slow",
+      "DisplayMethod": "Use Precious Stone OR Slow Evolution while in Hisui.",
+      "Kind": "Stone",
+      "Item": "Precious Stone",
       "Region": "Hisui"
     }
   ],

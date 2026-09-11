@@ -39,6 +39,12 @@
       "From": "Skrelp",
       "Kind": "Level",
       "Speed": "Slow"
+    },
+    {
+      "To": "Dragalge (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Dragalgite.",
+      "Item": "Dragalgite"
     }
   ],
   "Image": "dragalge.png",

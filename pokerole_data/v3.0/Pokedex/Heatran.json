@@ -34,7 +34,14 @@
     "Pounds": 948.0
   },
   "DexDescription": "An old painting showed a similar Pokémon standing atop an erupting volcano.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Heatran (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Heatranite.",
+      "Item": "Heatranite"
+    }
+  ],
   "Image": "heatran.png",
   "Moves": [
     {

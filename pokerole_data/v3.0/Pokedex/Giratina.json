@@ -37,7 +37,10 @@
   "Evolutions": [
     {
       "To": "Giratina (Origin Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Mega Evolution using Griseous Core.",
+      "Item": "Griseous Core",
+      "Special": "Mega Evolution using Griseous Core."
     }
   ],
   "Image": "giratina.png",

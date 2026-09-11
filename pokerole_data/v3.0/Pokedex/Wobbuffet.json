@@ -39,6 +39,12 @@
       "From": "Wynaut",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Wobbuffet (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Wobbuffetite.",
+      "Item": "Wobbuffetite"
     }
   ],
   "Image": "wobbuffet.png",

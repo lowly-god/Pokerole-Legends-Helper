@@ -37,7 +37,8 @@
   "Evolutions": [
     {
       "From": "Dusclops",
-      "Kind": "Trade",
+      "DisplayMethod": "Use Reaper Cloth.",
+      "Kind": "Item",
       "Item": "Reaper Cloth"
     }
   ],

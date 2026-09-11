@@ -37,12 +37,16 @@
   "Evolutions": [
     {
       "From": "Darumaka (Galarian Form)",
+      "DisplayMethod": "Use Ice Stone.",
       "Kind": "Stone",
       "Item": "Ice Stone"
     },
     {
       "To": "Darmanitan (Galarian Zen Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Activate Ability.",
+      "Ability": "Ability",
+      "Special": "Activate Ability."
     }
   ],
   "Image": "darmanitan-galarian-form.png",

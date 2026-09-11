@@ -37,9 +37,10 @@
   "Evolutions": [
     {
       "From": "Basculin (Hisuian Form)",
+      "DisplayMethod": "Male form. Slow evolution.",
       "Kind": "Level",
       "Speed": "Slow",
-      "Special": "Male"
+      "Gender": "Male"
     }
   ],
   "Image": "basculegion-male-form.png",

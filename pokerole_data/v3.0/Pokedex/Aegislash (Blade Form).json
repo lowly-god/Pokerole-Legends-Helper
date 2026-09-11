@@ -37,7 +37,10 @@
   "Evolutions": [
     {
       "From": "Aegislash",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Activate Ability.",
+      "Ability": "Ability",
+      "Special": "Activate Ability."
     }
   ],
   "Image": "aegislash-blade-form.png",

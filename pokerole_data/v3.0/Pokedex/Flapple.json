@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Applin",
+      "DisplayMethod": "Use Tart Apple.",
       "Kind": "Item",
       "Item": "Tart Apple"
     }

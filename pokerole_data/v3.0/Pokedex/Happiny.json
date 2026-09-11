@@ -37,8 +37,11 @@
   "Evolutions": [
     {
       "To": "Chansey",
+      "DisplayMethod": "Medium Evolution while Holding Oval Stone.",
       "Kind": "Level",
-      "Item": "Oval Stone"
+      "Speed": "Medium",
+      "Item": "Oval Stone",
+      "Special": "Medium Evolution while Holding Oval Stone."
     }
   ],
   "Image": "happiny.png",

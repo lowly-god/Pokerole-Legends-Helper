@@ -42,6 +42,7 @@
     },
     {
       "To": "Florges",
+      "DisplayMethod": "Use Shiny Stone.",
       "Kind": "Stone",
       "Item": "Shiny Stone"
     }

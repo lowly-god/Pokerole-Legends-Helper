@@ -38,7 +38,8 @@
     {
       "From": "Pyroar",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Pyroarite.",
+      "Item": "Pyroarite"
     }
   ],
   "Image": "",

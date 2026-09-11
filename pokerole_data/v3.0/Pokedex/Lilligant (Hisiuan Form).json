@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Petilil",
+      "DisplayMethod": "Use Sun Stone in Hisui.",
       "Kind": "Stone",
       "Item": "Sun Stone",
       "Region": "Hisui"

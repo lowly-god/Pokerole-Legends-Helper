@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Cracolite",
+      "DisplayMethod": "Use Water Stone.",
       "Kind": "Stone",
       "Item": "Water Stone"
     }

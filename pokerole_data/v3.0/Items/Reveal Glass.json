@@ -1,0 +1,13 @@
+{
+  "Name": "Reveal Glass",
+  "_id": "reveal-glass",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Items",
+  "Category": "Special Items",
+  "Description": "Transforms Landorus, Tornadus, Thundurus and Enamorus between their Incarnate and Therian Forms.",
+  "OneUse": false,
+  "TrainerPrice": "80000",
+  "Cures": "",
+  "Image": ""
+}

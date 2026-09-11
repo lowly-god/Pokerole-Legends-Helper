@@ -36,12 +36,14 @@
   "DexDescription": "There's actually two Pokémon living inside the candied apple, but they are very sweet to each other and don't mind sharing space. It is very unusual for Applin to evolve into this, as it requires a special apple.",
   "Evolutions": [
     {
-      "From": "Applin",
-      "Kind": "Item",
-      "Item": "Candy Apple"
+      "To": "Hydrapple",
+      "DisplayMethod": "Slow Evolution requiring Dragon Cheer.",
+      "Kind": "Level",
+      "Speed": "Slow"
     },
     {
-      "To": "Hydrapple",
+      "From": "Applin",
+      "DisplayMethod": "Use Syrupy Apple.",
       "Kind": "Item",
       "Item": "Syrupy Apple"
     }

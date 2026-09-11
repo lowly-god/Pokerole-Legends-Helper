@@ -39,6 +39,12 @@
       "From": "Croconaw",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Feraligatr (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Feraligite.",
+      "Item": "Feraligite"
     }
   ],
   "Image": "feraligatr.png",

@@ -37,7 +37,9 @@
   "Evolutions": [
     {
       "To": "Sudowoodo",
+      "DisplayMethod": "Medium Evolution while knowing Mimic.",
       "Kind": "Level",
+      "Speed": "Medium",
       "Move": "Mimic"
     }
   ],

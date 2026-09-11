@@ -38,6 +38,7 @@
     {
       "To": "Aerodactyl (Mega Form)",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Aerodactylite.",
       "Item": "Aerodactylite"
     }
   ],

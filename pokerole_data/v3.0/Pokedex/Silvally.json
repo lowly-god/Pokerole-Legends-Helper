@@ -39,6 +39,13 @@
       "From": "Type: Null",
       "Kind": "Level",
       "Speed": "Slow"
+    },
+    {
+      "To": "Silvally (Improved RKS System Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Use Improved RKS System.",
+      "Item": "Improved RKS System",
+      "Special": "Use Improved RKS System."
     }
   ],
   "Image": "silvally.png",

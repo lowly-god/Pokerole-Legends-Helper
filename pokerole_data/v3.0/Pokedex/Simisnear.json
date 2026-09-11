@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Pansnear",
+      "DisplayMethod": "Use Dusk Stone.",
       "Kind": "Stone",
       "Item": "Dusk Stone"
     }

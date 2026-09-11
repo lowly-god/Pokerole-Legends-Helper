@@ -43,7 +43,14 @@
     {
       "To": "Garchomp (Mega Form)",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Garchompite.",
       "Item": "Garchompite"
+    },
+    {
+      "To": "Garchomp (Mega Z Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Garchompite Z.",
+      "Item": "Garchompite Z"
     }
   ],
   "Image": "garchomp.png",

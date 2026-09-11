@@ -37,9 +37,9 @@
   "Evolutions": [
     {
       "From": "Cubone",
-      "Kind": "Level",
-      "Speed": "Slow",
-      "Region": "Alola"
+      "DisplayMethod": "Use Dusk Stone OR Medium Evolution Alola.",
+      "Kind": "Stone",
+      "Item": "Dusk Stone"
     }
   ],
   "Image": "marowak-alolan-form.png",

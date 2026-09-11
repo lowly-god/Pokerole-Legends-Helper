@@ -38,7 +38,8 @@
     {
       "From": "Skarmory",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Skarmorite.",
+      "Item": "Skarmorite"
     }
   ],
   "Image": "",

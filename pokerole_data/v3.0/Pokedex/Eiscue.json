@@ -37,7 +37,10 @@
   "Evolutions": [
     {
       "To": "Eiscue (No Ice Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Activate Ability.",
+      "Ability": "Ability",
+      "Special": "Activate Ability."
     }
   ],
   "Image": "eiscue.png",

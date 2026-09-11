@@ -39,6 +39,12 @@
       "From": "Inkay",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Malamar (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Malamarite.",
+      "Item": "Malamarite"
     }
   ],
   "Image": "malamar.png",

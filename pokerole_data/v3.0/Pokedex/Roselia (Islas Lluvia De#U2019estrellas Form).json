@@ -34,7 +34,21 @@
     "Pounds": 10.0
   },
   "DexDescription": "When Budew managed to control its sleepwalking it evolves into Roselia. They do almost everything while asleep, so they can often wander away from their original home. When they detect enemies nearby, they wake up and swiftly run away back home.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Budew (Islas Lluvia De’estrellas Form)",
+      "DisplayMethod": "Happiness 4.",
+      "Kind": "Stat",
+      "Stat": "Happiness",
+      "Value": 4
+    },
+    {
+      "To": "Roserade (Islas Lluvia De’estrellas Form)",
+      "DisplayMethod": "Use Adamantite Stone.",
+      "Kind": "Stone",
+      "Item": "Adamantite Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

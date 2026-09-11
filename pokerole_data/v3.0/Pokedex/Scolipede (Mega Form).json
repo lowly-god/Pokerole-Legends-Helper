@@ -38,7 +38,8 @@
     {
       "From": "Scolipede",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Scolipite.",
+      "Item": "Scolipite"
     }
   ],
   "Image": "",

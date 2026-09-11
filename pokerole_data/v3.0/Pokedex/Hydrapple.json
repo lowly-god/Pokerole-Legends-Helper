@@ -37,13 +37,15 @@
   "Evolutions": [
     {
       "From": "Dipplin",
-      "Kind": "Item",
-      "Item": "Syrupy Seed"
+      "DisplayMethod": "Slow Evolution requiring Dragon Cheer.",
+      "Kind": "Level",
+      "Speed": "Slow"
     },
     {
-      "From": "Dipplin",
-      "Kind": "Item",
-      "Item": "Syrupy Apple"
+      "To": "Hydrapple (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Hydrappicite.",
+      "Item": "Hydrappicite"
     }
   ],
   "Image": "hydrapple.png",

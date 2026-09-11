@@ -42,8 +42,9 @@
     },
     {
       "To": "Weezing (Galarian Form)",
-      "Kind": "Level",
-      "Speed": "Slow",
+      "DisplayMethod": "Use Toxin Stone OR Slow Evolution in Galar.",
+      "Kind": "Stone",
+      "Item": "Toxin Stone",
       "Region": "Galar"
     }
   ],

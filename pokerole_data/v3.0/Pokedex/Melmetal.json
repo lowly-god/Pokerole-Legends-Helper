@@ -1,135 +1,136 @@
 {
-    "Number": 809,
-    "DexID": "0809",
-    "Name": "Melmetal",
-    "Type1": "Steel",
-    "Type2": "",
-    "BaseHP": 7,
-    "Strength": 4,
-    "MaxStrength": 8,
-    "Dexterity": 1,
-    "MaxDexterity": 3,
-    "Vitality": 4,
-    "MaxVitality": 8,
-    "Special": 2,
-    "MaxSpecial": 5,
-    "Insight": 2,
-    "MaxInsight": 4,
-    "Ability1": "Iron Fist",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "N",
-    "Legendary": false,
-    "GoodStarter": false,
-    "_id": "melmetal",
-    "DexCategory": "Hex Nut Pokémon",
-    "Height": {
-        "Meters": 2.5,
-        "Feet": 8.2
+  "Number": 809,
+  "DexID": "0809",
+  "Name": "Melmetal",
+  "Type1": "Steel",
+  "Type2": "",
+  "BaseHP": 7,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 1,
+  "MaxDexterity": 3,
+  "Vitality": 4,
+  "MaxVitality": 8,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 4,
+  "Ability1": "Iron Fist",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "melmetal",
+  "DexCategory": "Hex Nut Pokémon",
+  "Height": {
+    "Meters": 2.5,
+    "Feet": 8.2
+  },
+  "Weight": {
+    "Kilograms": 800.0,
+    "Pounds": 1765.0
+  },
+  "DexDescription": "There is an ancient myth that a Pokémon once taught a group of humans how to work the iron, melt it, and shape it into tools; but it was punished for this and cast away, never to be seen again.",
+  "Evolutions": [
+    {
+      "From": "Meltan",
+      "DisplayMethod": "Use Adamantite Stone.",
+      "Kind": "Stone",
+      "Item": "Adamantite Stone"
+    }
+  ],
+  "Image": "melmetal.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Harden"
     },
-    "Weight": {
-        "Kilograms": 800.0,
-        "Pounds": 1765.0
+    {
+      "Learned": "Starter",
+      "Name": "Tail Whip"
     },
-    "DexDescription": "There is an ancient myth that a Pokémon once taught a group of humans how to work the iron, melt it, and shape it into tools; but it was punished for this and cast away, never to be seen again.",
-    "Evolutions": [
-        {
-            "From": "Meltan",
-            "Kind": "Level",
-            "Speed": "Unknown"
-        }
-    ],
-    "Image": "melmetal.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Harden"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Tail Whip"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Thunder Shock"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Headbutt"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Thunder Wave"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Protect"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Acid Armor"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Flash Cannon"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Mega Punch"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Self Destruct"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "High Horsepower"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Discharge"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Gyro Ball"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Dynamic Punch"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Superpower"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Hyper Beam"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Giga Impact"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Shield Bash"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Double Iron Bash"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Thunder Punch"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Steel Roller"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Steel Beam"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Thunder Shock"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Headbutt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thunder Wave"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Acid Armor"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flash Cannon"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mega Punch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Self Destruct"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "High Horsepower"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Discharge"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Gyro Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dynamic Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Superpower"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hyper Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Giga Impact"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Shield Bash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Double Iron Bash"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Thunder Punch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Steel Roller"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Steel Beam"
+    }
+  ]
 }

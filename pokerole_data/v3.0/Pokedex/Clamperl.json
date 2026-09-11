@@ -37,21 +37,13 @@
   "Evolutions": [
     {
       "To": "Huntail",
-      "Kind": "Trade",
-      "Item": "Dragon Fang"
-    },
-    {
-      "To": "Gorebyss",
-      "Kind": "Trade",
-      "Item": "Dragon Scale"
-    },
-    {
-      "To": "Huntail",
+      "DisplayMethod": "Use Deep Sea Tooth.",
       "Kind": "Item",
       "Item": "Deep Sea Tooth"
     },
     {
       "To": "Gorebyss",
+      "DisplayMethod": "Use Deep Sea Scale.",
       "Kind": "Item",
       "Item": "Deep Sea Scale"
     }

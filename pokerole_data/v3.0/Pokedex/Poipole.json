@@ -37,7 +37,9 @@
   "Evolutions": [
     {
       "To": "Naganadel",
+      "DisplayMethod": "Slow Evolution while knowing Dragon Pulse.",
       "Kind": "Level",
+      "Speed": "Slow",
       "Move": "Dragon Pulse"
     }
   ],

@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Skiploom (Unovan Form)",
+      "DisplayMethod": "Use Toxin Stone.",
       "Kind": "Stone",
       "Item": "Toxin Stone"
     }

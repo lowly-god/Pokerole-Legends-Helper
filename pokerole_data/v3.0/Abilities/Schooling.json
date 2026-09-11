@@ -1,6 +1,6 @@
 {
   "Name": "Schooling",
-  "Effect": "When this Pokémon is at half HP or less it will call for its allies, when the allied Pokémon arrive replace Wishiwashi with Wishiwashi (Swarm Form) at full HP. Increase its Rank two above your own. Restore Wishiwashi to its base Form at the end of the Battle. Healing/Fainting/Recalling prevents the allied Pokémon from arriving. Unique Ability.",
+  "Effect": "Only Wishiwashi may have this Ability. Spend 3 Will Points to activate. Replace Wishiwashi with Wishiwashi (Swarm Form) at full HP. Revert after battle.",
   "Description": "When this Pokémon is threatened, it calls thousands of allies to create an uncontrollable monster. The closer to the sea, the faster they arrive.",
   "_id": "schooling"
 }

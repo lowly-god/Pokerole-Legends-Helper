@@ -1,142 +1,152 @@
 {
-    "Number": 645,
-    "DexID": "0645",
-    "Name": "Landorus",
-    "Type1": "Ground",
-    "Type2": "Flying",
-    "BaseHP": 5,
-    "Strength": 3,
-    "MaxStrength": 7,
-    "Dexterity": 3,
-    "MaxDexterity": 6,
-    "Vitality": 2,
-    "MaxVitality": 5,
-    "Special": 3,
-    "MaxSpecial": 6,
-    "Insight": 2,
-    "MaxInsight": 5,
-    "Ability1": "Sand Force",
-    "Ability2": "",
-    "HiddenAbility": "Sheer Force",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "M",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "landorus",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 1.5,
-        "Feet": 4.9
+  "Number": 645,
+  "DexID": "0645",
+  "Name": "Landorus",
+  "Type1": "Ground",
+  "Type2": "Flying",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Sand Force",
+  "Ability2": "",
+  "HiddenAbility": "Sheer Force",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "M",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "landorus",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 1.5,
+    "Feet": 4.9
+  },
+  "Weight": {
+    "Kilograms": 68.0,
+    "Pounds": 150.0
+  },
+  "DexDescription": "Earthquakes and landslides raze Unova with frequency, but the places that suffer them are left with a plentiful harvest that year. The mythical 'land ravager' is both feared and revered.",
+  "Evolutions": [
+    {
+      "To": "Landorus (Therian Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Use Reveal Glass.",
+      "Item": "Reveal Glass",
+      "Special": "Use Reveal Glass."
     },
-    "Weight": {
-        "Kilograms": 68.0,
-        "Pounds": 150.0
+    {
+      "From": "Landorus (Therian Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Use Reveal Glass.",
+      "Item": "Reveal Glass",
+      "Special": "Use Reveal Glass."
+    }
+  ],
+  "Image": "landorus.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
     },
-    "DexDescription": "Earthquakes and landslides raze Unova with frequency, but the places that suffer them are left with a plentiful harvest that year. The mythical 'land ravager' is both feared and revered.",
-    "Evolutions": [
-        {
-            "To": "Landorus (Therian Form)",
-            "Kind": "Form"
-        }
-    ],
-    "Image": "landorus.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Leer"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Sand Tomb"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Rock Throw"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Bulldoze"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Rock Tomb"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Mud Shot"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Jet Strike"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Block"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Dig"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Rock Slide"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Earth Power"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Rototiller"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Extrasensory"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Sandstorm"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Lapidify"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Imprison"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Swords Dance"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Punishment"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Stone Edge"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Outrage"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Fissure"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Earthquake"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Hammer Arm"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Gaia Force"
-        }
-    ]
+    {
+      "Learned": "Starter",
+      "Name": "Sand Tomb"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Rock Throw"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bulldoze"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rock Tomb"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mud Shot"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Jet Strike"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Block"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dig"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rock Slide"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Earth Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Rototiller"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Extrasensory"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sandstorm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Lapidify"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imprison"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Punishment"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Stone Edge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fissure"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Earthquake"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Hammer Arm"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Gaia Force"
+    }
+  ]
 }

@@ -38,7 +38,8 @@
     {
       "From": "Magearna",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Magearnite.",
+      "Item": "Magearnite"
     }
   ],
   "Image": "",

@@ -42,6 +42,7 @@
     },
     {
       "To": "Chandelure",
+      "DisplayMethod": "Use Dusk Stone.",
       "Kind": "Stone",
       "Item": "Dusk Stone"
     }

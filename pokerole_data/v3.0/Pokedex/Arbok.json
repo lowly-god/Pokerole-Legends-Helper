@@ -39,6 +39,12 @@
       "From": "Ekans",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Arbok (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Arbokinite.",
+      "Item": "Arbokinite"
     }
   ],
   "Image": "arbok.png",

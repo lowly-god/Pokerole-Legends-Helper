@@ -37,13 +37,9 @@
   "Evolutions": [
     {
       "To": "Polteageist",
+      "DisplayMethod": "Use Cracked Pot or Chipped Pot.",
       "Kind": "Item",
       "Item": "Cracked Pot"
-    },
-    {
-      "To": "Polteageist",
-      "Kind": "Item",
-      "Item": "Chipped Pot"
     }
   ],
   "Image": "sinistea.png",

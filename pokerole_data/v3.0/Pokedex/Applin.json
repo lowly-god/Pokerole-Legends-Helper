@@ -37,18 +37,21 @@
   "Evolutions": [
     {
       "To": "Flapple",
+      "DisplayMethod": "Use Tart Apple.",
       "Kind": "Item",
       "Item": "Tart Apple"
     },
     {
       "To": "Appletun",
+      "DisplayMethod": "Use Sweet Apple.",
       "Kind": "Item",
       "Item": "Sweet Apple"
     },
     {
       "To": "Dipplin",
+      "DisplayMethod": "Use Syrupy Apple.",
       "Kind": "Item",
-      "Item": "Candy Apple"
+      "Item": "Syrupy Apple"
     }
   ],
   "Image": "applin.png",

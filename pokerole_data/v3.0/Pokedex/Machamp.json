@@ -37,7 +37,15 @@
   "Evolutions": [
     {
       "From": "Machoke",
-      "Kind": "Trade"
+      "Kind": "Trade",
+      "Item": "Link Stone",
+      "DisplayMethod": "Trade OR Use Link Stone"
+    },
+    {
+      "To": "Machamp (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Machamptite.",
+      "Item": "Machamptite"
     }
   ],
   "Image": "machamp.png",

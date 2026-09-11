@@ -1,170 +1,183 @@
 {
-    "Number": 646,
-    "DexID": "0646",
-    "Name": "Kyurem",
-    "Type1": "Dragon",
-    "Type2": "Ice",
-    "BaseHP": 6,
-    "Strength": 3,
-    "MaxStrength": 7,
-    "Dexterity": 3,
-    "MaxDexterity": 6,
-    "Vitality": 2,
-    "MaxVitality": 5,
-    "Special": 3,
-    "MaxSpecial": 7,
-    "Insight": 2,
-    "MaxInsight": 5,
-    "Ability1": "Pressure",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Master",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "kyurem",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 3.0,
-        "Feet": 9.8
+  "Number": 646,
+  "DexID": "0646",
+  "Name": "Kyurem",
+  "Type1": "Dragon",
+  "Type2": "Ice",
+  "BaseHP": 6,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Pressure",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "kyurem",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 3.0,
+    "Feet": 9.8
+  },
+  "Weight": {
+    "Kilograms": 325.0,
+    "Pounds": 716.0
+  },
+  "DexDescription": "Inside a remote and frozen cave there are some old paintings. They depict a giant dragon being torn apart into black and white shards. Of the rest of the picture, only shattered ice fragments remain.",
+  "Evolutions": [
+    {
+      "To": "Kyurem (Primal Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Use DNA Splicers.",
+      "Item": "DNA Splicers",
+      "Special": "Use DNA Splicers."
     },
-    "Weight": {
-        "Kilograms": 325.0,
-        "Pounds": 716.0
+    {
+      "To": "Kyurem (Black Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Use DNA Splicers.",
+      "Item": "DNA Splicers",
+      "Special": "Use DNA Splicers."
     },
-    "DexDescription": "Inside a remote and frozen cave there are some old paintings. They depict a giant dragon being torn apart into black and white shards. Of the rest of the picture, only shattered ice fragments remain.",
-    "Evolutions": [
-        {
-            "To": "Kyurem (Black Form)",
-            "Kind": "Form"
-        },
-        {
-            "To": "Kyurem (White Form)",
-            "Kind": "Form"
-        }
-    ],
-    "Image": "kyurem.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Dragon Rage"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Dragon Breath"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Noble Roar"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Ancient Power"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Icy Wind"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Scary Face"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Absolute Zero"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Haze"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Mist"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Slash"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Ice Beam"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Hail"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Recover"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Imperial Majesty"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Aurora Veil"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Imprison"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Endeavor"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Dragon Pulse"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Hyper Voice"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Blizzard"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Sheer Cold"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Power Split"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Outrage"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Velvet Scales"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Frozen Crash"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Hoarfrost Moon"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Glaciate"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Freeze Dry"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Substitute"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Draco Meteor"
-        }
-    ]
+    {
+      "To": "Kyurem (White Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Use DNA Splicers.",
+      "Item": "DNA Splicers",
+      "Special": "Use DNA Splicers."
+    }
+  ],
+  "Image": "kyurem.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Dragon Rage"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Dragon Breath"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Noble Roar"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Icy Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Absolute Zero"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Haze"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mist"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Ice Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imperial Majesty"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aurora Veil"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imprison"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Endeavor"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hyper Voice"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Blizzard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sheer Cold"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Power Split"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Frozen Crash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hoarfrost Moon"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Glaciate"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Freeze Dry"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Substitute"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Draco Meteor"
+    }
+  ]
 }

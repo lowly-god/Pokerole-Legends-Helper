@@ -38,6 +38,7 @@
     {
       "From": "Charizard",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Charizardite Y.",
       "Item": "Charizardite Y"
     }
   ],

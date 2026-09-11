@@ -38,7 +38,8 @@
     {
       "From": "Butterfree",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Butterfreeite.",
+      "Item": "Butterfreeite"
     }
   ],
   "Image": "",

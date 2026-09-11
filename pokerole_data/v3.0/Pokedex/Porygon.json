@@ -37,7 +37,8 @@
   "Evolutions": [
     {
       "To": "Porygon2",
-      "Kind": "Trade",
+      "DisplayMethod": "Use Upgrade.",
+      "Kind": "Item",
       "Item": "Upgrade"
     }
   ],

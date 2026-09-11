@@ -37,8 +37,19 @@
   "Evolutions": [
     {
       "To": "Noxial (Exothermic Form)",
-      "Kind": "Item",
-      "Item": "Burn Heal"
+      "DisplayMethod": "Medium Evolution while holding a Burn Heal.",
+      "Kind": "Level",
+      "Speed": "Medium",
+      "Item": "Burn Heal",
+      "Special": "Medium Evolution while holding a Burn Heal."
+    },
+    {
+      "To": "Noxial (Endothermic Form)",
+      "DisplayMethod": "Medium Evolution while holding Ice Heal.",
+      "Kind": "Level",
+      "Speed": "Medium",
+      "Item": "Ice Heal",
+      "Special": "Medium Evolution while holding Ice Heal."
     }
   ],
   "Image": "",

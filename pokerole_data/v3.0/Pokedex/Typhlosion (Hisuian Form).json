@@ -37,8 +37,9 @@
   "Evolutions": [
     {
       "From": "Quilava",
-      "Kind": "Level",
-      "Speed": "Medium",
+      "DisplayMethod": "Use Dusk Stone OR Medium Evolution while in Hisui.",
+      "Kind": "Stone",
+      "Item": "Dusk Stone",
       "Region": "Hisui"
     }
   ],

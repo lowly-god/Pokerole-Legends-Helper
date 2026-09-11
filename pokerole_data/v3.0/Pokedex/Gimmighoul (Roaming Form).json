@@ -34,7 +34,15 @@
     "Pounds": 0.2
   },
   "DexDescription": "A Pokémon born from a coin infused with passion. Carrying that coin on its back, it seeks to return to the treasure chest it once inhabited. It survives by draining the life from humans who try to pick up its coin.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Gholdengo",
+      "DisplayMethod": "Slow Evolution and Have ₽100,000.",
+      "Kind": "Level",
+      "Speed": "Slow",
+      "Special": "Slow Evolution and Have ₽100,000."
+    }
+  ],
   "Image": "gimmighoul-roaming-form.png",
   "Moves": [
     {

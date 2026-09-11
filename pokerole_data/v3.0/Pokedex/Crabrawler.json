@@ -37,8 +37,9 @@
   "Evolutions": [
     {
       "To": "Crabominable",
-      "Kind": "Level",
-      "Speed": "Medium"
+      "DisplayMethod": "Use Ice Stone.",
+      "Kind": "Stone",
+      "Item": "Ice Stone"
     }
   ],
   "Image": "crabrawler.png",

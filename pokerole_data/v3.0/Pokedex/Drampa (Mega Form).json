@@ -38,7 +38,8 @@
     {
       "From": "Drampa",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Drampanite.",
+      "Item": "Drampanite"
     }
   ],
   "Image": "",

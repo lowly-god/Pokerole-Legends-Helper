@@ -34,7 +34,14 @@
     "Pounds": 224.0
   },
   "DexDescription": "Boldore lives in deep dark caves. Even on the stone of the depths its feet leave the ground scorched and smoking. If it stays in one place to long it can begins to melt through the floor.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Gigalith (Orrean Form)",
+      "DisplayMethod": "Use Precious Stone.",
+      "Kind": "Stone",
+      "Item": "Precious Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

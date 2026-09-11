@@ -38,7 +38,8 @@
     {
       "From": "Inteleon",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Inteleonite.",
+      "Item": "Inteleonite"
     }
   ],
   "Image": "",

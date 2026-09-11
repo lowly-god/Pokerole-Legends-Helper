@@ -39,6 +39,12 @@
       "From": "Monferno",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Infernape (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Infernapetite.",
+      "Item": "Infernapetite"
     }
   ],
   "Image": "infernape.png",

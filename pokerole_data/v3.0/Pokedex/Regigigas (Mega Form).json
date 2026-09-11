@@ -38,7 +38,8 @@
     {
       "From": "Regigigas",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Regigasite.",
+      "Item": "Regigasite"
     }
   ],
   "Image": "",

@@ -37,7 +37,8 @@
   "Evolutions": [
     {
       "From": "Electabuzz",
-      "Kind": "Trade",
+      "DisplayMethod": "Use Electirizer.",
+      "Kind": "Item",
       "Item": "Electirizer"
     }
   ],

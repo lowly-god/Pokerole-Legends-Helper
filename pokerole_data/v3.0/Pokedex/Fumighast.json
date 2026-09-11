@@ -36,9 +36,16 @@
   "DexDescription": "Within Fumighast are residual chemicals from its time as a Noxial. Using them as catalysts, Fumighast can recreate spontaneous, volatile Reactions at will.",
   "Evolutions": [
     {
-      "From": "Noxial",
-      "Kind": "Special",
-      "Special": "Noxial"
+      "From": "Noxial (Exothermic Form)",
+      "DisplayMethod": "Medium level evolution.",
+      "Kind": "Level",
+      "Speed": "Medium"
+    },
+    {
+      "From": "Noxial (Endothermic Form)",
+      "DisplayMethod": "Medium level evolution.",
+      "Kind": "Level",
+      "Speed": "Medium"
     }
   ],
   "Image": "",

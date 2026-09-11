@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Tyrogue",
+      "DisplayMethod": "Strength requirement.",
       "Kind": "Stat",
       "Stat": "Strength",
       "Value": -1

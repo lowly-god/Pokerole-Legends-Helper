@@ -38,7 +38,8 @@
     {
       "From": "Azumarill",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Azumarillite.",
+      "Item": "Azumarillite"
     }
   ],
   "Image": "",

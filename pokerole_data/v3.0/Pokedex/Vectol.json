@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "To": "Vectol.2",
+      "DisplayMethod": "Use Corrupted Drive.",
       "Kind": "Item",
       "Item": "Corrupted Drive"
     }

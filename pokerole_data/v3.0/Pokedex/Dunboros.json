@@ -37,8 +37,16 @@
   "Evolutions": [
     {
       "From": "Dunsparce",
-      "Kind": "Special",
-      "Special": "Dunsparce (Mastering Dragon Rush)"
+      "DisplayMethod": "Slow Evolution while knowing Dragon Rush.",
+      "Kind": "Level",
+      "Speed": "Slow",
+      "Move": "Dragon Rush"
+    },
+    {
+      "To": "Dunboros (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Dunborosite.",
+      "Item": "Dunborosite"
     }
   ],
   "Image": "",

@@ -37,8 +37,11 @@
   "Evolutions": [
     {
       "From": "Gligar",
+      "DisplayMethod": "Medium Evolution while Holding Razor Fang.",
       "Kind": "Level",
-      "Item": "Razor Fang"
+      "Speed": "Medium",
+      "Item": "Razor Fang",
+      "Special": "Medium Evolution while Holding Razor Fang."
     }
   ],
   "Image": "gliscor.png",

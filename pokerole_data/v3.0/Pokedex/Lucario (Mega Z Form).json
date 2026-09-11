@@ -38,7 +38,8 @@
     {
       "From": "Lucario",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Lucarionite Z.",
+      "Item": "Lucarionite Z"
     }
   ],
   "Image": "",

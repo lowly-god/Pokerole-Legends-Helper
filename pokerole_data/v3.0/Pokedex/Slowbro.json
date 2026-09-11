@@ -37,12 +37,15 @@
   "Evolutions": [
     {
       "From": "Slowpoke",
-      "Kind": "Special",
-      "Special": "Shellder Biting Tail"
+      "DisplayMethod": "Medium Evolution with Shellder in the Party.",
+      "Kind": "Level",
+      "Speed": "Medium",
+      "Special": "Medium Evolution with Shellder in the Party."
     },
     {
       "To": "Slowbro (Mega Form)",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Slowbronite.",
       "Item": "Slowbronite"
     }
   ],

@@ -34,7 +34,14 @@
     "Pounds": 98.0
   },
   "DexDescription": "The blade glows with a baleful blue light, its edge honed to an impossibly sharp edge. Some say it is able to cut the fabric of reality itself when it swings it.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Tinkatuff (Johtonian Form)",
+      "DisplayMethod": "Medium level Evolution.",
+      "Kind": "Level",
+      "Speed": "Medium"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

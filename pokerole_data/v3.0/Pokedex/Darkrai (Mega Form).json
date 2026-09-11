@@ -1,148 +1,149 @@
 {
-    "Number": 491,
-    "DexID": "0491F1",
-    "Name": "Darkrai (Mega Form)",
-    "Type1": "Dark",
-    "Type2": "Ghost",
-    "BaseHP": 6,
-    "Strength": 3,
-    "MaxStrength": 6,
-    "Dexterity": 4,
-    "MaxDexterity": 8,
-    "Vitality": 3,
-    "MaxVitality": 6,
-    "Special": 4,
-    "MaxSpecial": 8,
-    "Insight": 3,
-    "MaxInsight": 6,
-    "Ability1": "Veil of Night",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Champion",
-    "GenderType": "N",
-    "Legendary": false,
-    "GoodStarter": false,
-    "_id": "darkrai-mega-form",
-    "DexCategory": "Nightmare Pokémon",
-    "Height": {
-        "Meters": 1.7,
-        "Feet": 5.58
+  "Number": 491,
+  "DexID": "0491F1",
+  "Name": "Darkrai (Mega Form)",
+  "Type1": "Dark",
+  "Type2": "Ghost",
+  "BaseHP": 6,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 4,
+  "MaxDexterity": 8,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Veil of Night",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Champion",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "darkrai-mega-form",
+  "DexCategory": "Nightmare Pokémon",
+  "Height": {
+    "Meters": 1.7,
+    "Feet": 5.58
+  },
+  "Weight": {
+    "Kilograms": 59.9,
+    "Pounds": 132.0
+  },
+  "DexDescription": "All around the world, young children have depicted a similar figure in their drawings. They call it 'The Boogeyman'. People say it will make all your nightmares come true.",
+  "Evolutions": [
+    {
+      "From": "Darkrai",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Darkrainite.",
+      "Item": "Darkrainite"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Quick Attack"
     },
-    "Weight": {
-        "Kilograms": 59.9,
-        "Pounds": 132.0
+    {
+      "Learned": "Starter",
+      "Name": "Ominous Wind"
     },
-    "DexDescription": "All around the world, young children have depicted a similar figure in their drawings. They call it 'The Boogeyman'. People say it will make all your nightmares come true.",
-    "Evolutions": [
-        {
-            "From": "Darkrai",
-            "Kind": "Mega",
-            "Item": ""
-        }
-    ],
-    "Image": "",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Quick Attack"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Ominous Wind"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Shadow Sneak"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Disable"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Hypnosis"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Confuse Ray"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Feint Attack"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Nightmare"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Icy Wind"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Double Team"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Absolute Zero"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Haze"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Sucker Punch"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Shadow Ball"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Hex"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Foul Play"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Wake-Up Slap"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Nasty Plot"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Dream Eater"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Dark Pulse"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Torment"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Wonder Room"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Decimation"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Spite"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Dark Void"
-        }
-    ],
-    "MegaStone": "Darkrainite"
+    {
+      "Learned": "Rookie",
+      "Name": "Shadow Sneak"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Disable"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Hypnosis"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Confuse Ray"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Feint Attack"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Nightmare"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Icy Wind"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Double Team"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Absolute Zero"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Haze"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Sucker Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hex"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Foul Play"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wake-Up Slap"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Nasty Plot"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dream Eater"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wonder Room"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Decimation"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Dark Void"
+    }
+  ],
+  "MegaStone": "Darkrainite"
 }

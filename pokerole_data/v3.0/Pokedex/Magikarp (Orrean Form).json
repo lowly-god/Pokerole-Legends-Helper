@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "To": "Gyarados (Orrean Form)",
+      "DisplayMethod": "Use Precious Stone.",
       "Kind": "Stone",
       "Item": "Precious Stone"
     }

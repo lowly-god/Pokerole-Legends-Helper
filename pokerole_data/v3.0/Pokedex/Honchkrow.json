@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Murkrow",
+      "DisplayMethod": "Use Dusk Stone.",
       "Kind": "Stone",
       "Item": "Dusk Stone"
     }

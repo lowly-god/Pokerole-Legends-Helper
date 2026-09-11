@@ -34,7 +34,14 @@
     "Pounds": 313.0
   },
   "DexDescription": "Rare and fearsome, Garchomp dominates the wintry landscapes of Ruskova. It prowls low, its powerful form traversing the icy terrain. Trespassers face its relentless fury, heightened by the chill of the region's unforgiving landscapes.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Garchomp (Mega Ruskovan Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using (Ruskovan) Garchompite.",
+      "Item": "(Ruskovan) Garchompite"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

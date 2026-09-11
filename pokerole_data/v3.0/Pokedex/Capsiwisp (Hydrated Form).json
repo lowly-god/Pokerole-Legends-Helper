@@ -37,8 +37,10 @@
   "Evolutions": [
     {
       "From": "Capsighoul",
-      "Kind": "Special",
-      "Special": "Rain Weather"
+      "DisplayMethod": "Medium Evolution while in Rain Weather.",
+      "Kind": "Level",
+      "Speed": "Medium",
+      "Special": "Medium Evolution while in Rain Weather."
     }
   ],
   "Image": "",

@@ -43,6 +43,7 @@
     {
       "To": "Gyarados (Mega Form)",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Gyaradosite.",
       "Item": "Gyaradosite"
     }
   ],

@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Eevee",
+      "DisplayMethod": "Use Precious Stone.",
       "Kind": "Stone",
       "Item": "Precious Stone"
     }

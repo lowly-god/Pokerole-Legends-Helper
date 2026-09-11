@@ -37,8 +37,10 @@
   "Evolutions": [
     {
       "From": "Girafarig",
-      "Kind": "Special",
-      "Special": "Mastering Twin Beam"
+      "DisplayMethod": "Slow Evolution while knowing Twin Beam.",
+      "Kind": "Level",
+      "Speed": "Slow",
+      "Move": "Twin Beam"
     }
   ],
   "Image": "farigiraf.png",

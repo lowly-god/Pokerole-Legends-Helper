@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Sizzlipede",
+      "DisplayMethod": "Use Amber Onyx.",
       "Kind": "Stone",
       "Item": "Amber Onyx"
     }

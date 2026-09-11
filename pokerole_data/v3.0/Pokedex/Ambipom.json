@@ -37,8 +37,10 @@
   "Evolutions": [
     {
       "From": "Aipom",
+      "DisplayMethod": "Slow Evolution while knowing Double Hit.",
       "Kind": "Level",
-      "Speed": "Medium"
+      "Speed": "Slow",
+      "Move": "Double Hit"
     }
   ],
   "Image": "ambipom.png",

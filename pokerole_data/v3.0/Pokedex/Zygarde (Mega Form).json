@@ -38,7 +38,8 @@
     {
       "From": "Zygarde 100%",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Zygardite.",
+      "Item": "Zygardite"
     }
   ],
   "Image": "",

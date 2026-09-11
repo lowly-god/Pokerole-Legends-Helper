@@ -38,7 +38,8 @@
     {
       "From": "Lunatone",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Lunatonite.",
+      "Item": "Lunatonite"
     }
   ],
   "Image": "",

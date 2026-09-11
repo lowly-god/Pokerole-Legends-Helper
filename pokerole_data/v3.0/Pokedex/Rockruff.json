@@ -37,21 +37,24 @@
   "Evolutions": [
     {
       "To": "Lycanroc (Midday Form)",
+      "DisplayMethod": "Slow evolution during the day.",
       "Kind": "Level",
       "Speed": "Slow",
-      "Special": "Day"
+      "Special": "Slow evolution during the day."
     },
     {
       "To": "Lycanroc (Dusk Form)",
+      "DisplayMethod": "Slow evolution at dawn or dusk.",
       "Kind": "Level",
       "Speed": "Slow",
-      "Special": "Dawn"
+      "Special": "Slow evolution at dawn or dusk."
     },
     {
       "To": "Lycanroc (Midnight Form)",
+      "DisplayMethod": "Slow evolution at night.",
       "Kind": "Level",
       "Speed": "Slow",
-      "Special": "Night"
+      "Special": "Slow evolution at night."
     }
   ],
   "Image": "rockruff.png",

@@ -38,7 +38,8 @@
     {
       "From": "Malamar",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Malamarite.",
+      "Item": "Malamarite"
     }
   ],
   "Image": "",

@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Chatot",
+      "DisplayMethod": "Use Feather Stone.",
       "Kind": "Stone",
       "Item": "Feather Stone"
     }

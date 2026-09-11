@@ -1,162 +1,168 @@
 {
-    "Number": 800,
-    "DexID": "0800",
-    "Name": "Necrozma",
-    "Type1": "Psychic",
-    "Type2": "",
-    "BaseHP": 6,
-    "Strength": 3,
-    "MaxStrength": 6,
-    "Dexterity": 2,
-    "MaxDexterity": 5,
-    "Vitality": 3,
-    "MaxVitality": 6,
-    "Special": 3,
-    "MaxSpecial": 7,
-    "Insight": 2,
-    "MaxInsight": 5,
-    "Ability1": "Prism Armor",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "necrozma",
-    "DexCategory": "Aether Foundation Log #179",
-    "Height": {
-        "Meters": 2.4,
-        "Feet": 7.9
+  "Number": 800,
+  "DexID": "0800",
+  "Name": "Necrozma",
+  "Type1": "Psychic",
+  "Type2": "",
+  "BaseHP": 6,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Prism Armor",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "necrozma",
+  "DexCategory": "Aether Foundation Log #179",
+  "Height": {
+    "Meters": 2.4,
+    "Feet": 7.9
+  },
+  "Weight": {
+    "Kilograms": 230.0,
+    "Pounds": 507.1
+  },
+  "DexDescription": "First it was just a passing shadow, a shady lurker on the other side of the abyss, but then today it made an appearance. The creature attached itself to our light sources, depleting them until it was all in darkness.",
+  "Evolutions": [
+    {
+      "To": "Necrozma (Ultra Burst Form)",
+      "Kind": "Special"
     },
-    "Weight": {
-        "Kilograms": 230.0,
-        "Pounds": 507.1
+    {
+      "To": "Necrozma (Dusk Mane Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Use N-Solarizer.",
+      "Item": "N-Solarizer",
+      "Special": "Use N-Solarizer."
     },
-    "DexDescription": "First it was just a passing shadow, a shady lurker on the other side of the abyss, but then today it made an appearance. The creature attached itself to our light sources, depleting them until it was all in darkness.",
-    "Evolutions": [
-        {
-            "To": "Necrozma (Dusk Mane Form)",
-            "Kind": "Special"
-        },
-        {
-            "To": "Necrozma (Dawn Wings Form)",
-            "Kind": "Special"
-        },
-        {
-            "To": "Necrozma (Ultra Burst Form)",
-            "Kind": "Special"
-        }
-    ],
-    "Image": "necrozma.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Confusion"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Metal Claw"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Psybolt"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Charge Beam"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Rock Blast"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Mirror Shot"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Stealth Rock"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Slash"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Stored Power"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Iron Defense"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Power Gem"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Autotomize"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Light Screen"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Reflect"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Cosmic Power"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Shadow Claw"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Moonlight"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Morning Sun"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Gravity"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Psycho Cut"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Night Slash"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Wring Out"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Outrage"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Photon Geyser"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Anti-Gravity"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Singularity"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Prismatic Laser"
-        }
-    ]
+    {
+      "To": "Necrozma (Dawn Wings Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Use N-Lunarizer.",
+      "Item": "N-Lunarizer",
+      "Special": "Use N-Lunarizer."
+    }
+  ],
+  "Image": "necrozma.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Psybolt"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Charge Beam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rock Blast"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mirror Shot"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Stealth Rock"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Stored Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Power Gem"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Autotomize"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cosmic Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Moonlight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Morning Sun"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gravity"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psycho Cut"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wring Out"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Photon Geyser"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Anti-Gravity"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Singularity"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Prismatic Laser"
+    }
+  ]
 }

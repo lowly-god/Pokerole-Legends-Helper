@@ -38,7 +38,8 @@
     {
       "From": "Baxcalibur",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Baxcalibrite.",
+      "Item": "Baxcalibrite"
     }
   ],
   "Image": "",

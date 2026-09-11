@@ -37,11 +37,13 @@
   "Evolutions": [
     {
       "To": "Arcanine",
+      "DisplayMethod": "Use Fire Stone.",
       "Kind": "Stone",
       "Item": "Fire Stone"
     },
     {
       "To": "Arcanine (Orrean Form)",
+      "DisplayMethod": "Use Ice Stone.",
       "Kind": "Stone",
       "Item": "Ice Stone"
     }

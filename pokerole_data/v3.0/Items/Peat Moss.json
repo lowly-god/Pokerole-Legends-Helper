@@ -1,0 +1,13 @@
+{
+  "Name": "Peat Moss",
+  "_id": "peat-moss",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Consumable evolution item. Evolves Ursaring into Ursaluna (Kitakami Form) during a Blood Moon.",
+  "OneUse": true,
+  "TrainerPrice": "8000",
+  "Cures": "",
+  "Image": ""
+}

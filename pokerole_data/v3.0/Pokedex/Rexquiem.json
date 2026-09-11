@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Peckabone",
+      "DisplayMethod": "Use Reaper Cloth.",
       "Kind": "Item",
       "Item": "Reaper Cloth"
     }

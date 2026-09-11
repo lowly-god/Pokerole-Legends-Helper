@@ -38,7 +38,8 @@
     {
       "From": "Slowking",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Slowkingite.",
+      "Item": "Slowkingite"
     }
   ],
   "Image": "",

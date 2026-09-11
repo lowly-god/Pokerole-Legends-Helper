@@ -39,6 +39,12 @@
       "From": "Bayleef",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Meganium (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Meganiumite.",
+      "Item": "Meganiumite"
     }
   ],
   "Image": "meganium.png",

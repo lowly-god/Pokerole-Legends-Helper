@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "To": "Leavanny (Orrean Form)",
+      "DisplayMethod": "Use Rune Stone.",
       "Kind": "Stone",
       "Item": "Rune Stone"
     }

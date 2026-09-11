@@ -38,7 +38,8 @@
     {
       "From": "Infernape",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Infernapetite.",
+      "Item": "Infernapetite"
     }
   ],
   "Image": "",

@@ -1,122 +1,125 @@
 {
-    "Number": 889,
-    "DexID": "0889",
-    "Name": "Zamazenta",
-    "Type1": "Fighting",
-    "Type2": "",
-    "BaseHP": 5,
-    "Strength": 3,
-    "MaxStrength": 7,
-    "Dexterity": 3,
-    "MaxDexterity": 7,
-    "Vitality": 3,
-    "MaxVitality": 6,
-    "Special": 2,
-    "MaxSpecial": 5,
-    "Insight": 3,
-    "MaxInsight": 6,
-    "Ability1": "Dauntless Shield",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "zamazenta",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 2.9,
-        "Feet": 9.5
+  "Number": 889,
+  "DexID": "0889",
+  "Name": "Zamazenta",
+  "Type1": "Fighting",
+  "Type2": "",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 7,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Dauntless Shield",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "zamazenta",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 2.9,
+    "Feet": 9.5
+  },
+  "Weight": {
+    "Kilograms": 210.0,
+    "Pounds": 463.0
+  },
+  "DexDescription": "There is a legend of a hero who through sheer might wielded the shield of heroes to protect the people from the greatest evil.",
+  "Evolutions": [
+    {
+      "To": "Zamazenta (Crown Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Mega Evolution using Holding Rusted Shield.",
+      "Item": "Rusted Shield",
+      "Special": "Mega Evolution using Holding Rusted Shield."
+    }
+  ],
+  "Image": "zamazenta.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Quick Attack"
     },
-    "Weight": {
-        "Kilograms": 210.0,
-        "Pounds": 463.0
+    {
+      "Learned": "Starter",
+      "Name": "Howl"
     },
-    "DexDescription": "There is a legend of a hero who through sheer might wielded the shield of heroes to protect the people from the greatest evil.",
-    "Evolutions": [
-        {
-            "To": "Zamazenta (Crown Form)",
-            "Kind": "Form"
-        }
-    ],
-    "Image": "zamazenta.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Quick Attack"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Howl"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Metal Claw"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Bite"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Slash"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Iron Head"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Laser Focus"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Crunch"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Light Screen"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Reflect"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Safeguard"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Brace"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Metal Burst"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Swords Dance"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Moonblast"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Close Combat"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Giga Impact"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Shield Bash"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Wide Guard"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Iron Head"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Laser Focus"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Brace"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Metal Burst"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Giga Impact"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Shield Bash"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wide Guard"
+    }
+  ]
 }

@@ -37,8 +37,15 @@
   "Evolutions": [
     {
       "From": "Capsakid",
+      "DisplayMethod": "Use Fire Stone.",
       "Kind": "Stone",
       "Item": "Fire Stone"
+    },
+    {
+      "To": "Scovillain (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Scovillainite.",
+      "Item": "Scovillainite"
     }
   ],
   "Image": "scovillain.png",

@@ -34,7 +34,14 @@
     "Pounds": 9.0
   },
   "DexDescription": "Rotom inhabited a custom made drone. It is widely used for capturing footage in colosseum and tournament battles among other things.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Rotom",
+      "Kind": "Transform",
+      "DisplayMethod": "Have Rotom inhabit a custom-made drone.",
+      "Special": "Have Rotom inhabit a custom-made drone."
+    }
+  ],
   "Image": "",
   "Moves": [
     {

@@ -37,9 +37,11 @@
   "Evolutions": [
     {
       "From": "Sneasel (Hisuian Form)",
+      "DisplayMethod": "Medium Evolution while Holding Razor Claw in sunlight.",
       "Kind": "Level",
+      "Speed": "Medium",
       "Item": "Razor Claw",
-      "Special": "Sunlight"
+      "Special": "Medium Evolution while Holding Razor Claw in sunlight."
     }
   ],
   "Image": "sneasler.png",

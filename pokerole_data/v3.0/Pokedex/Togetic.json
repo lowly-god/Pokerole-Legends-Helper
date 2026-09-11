@@ -37,12 +37,14 @@
   "Evolutions": [
     {
       "From": "Togepi",
+      "DisplayMethod": "Happiness 5.",
       "Kind": "Stat",
       "Stat": "Happiness",
       "Value": 5
     },
     {
       "To": "Togekiss",
+      "DisplayMethod": "Use Shiny Stone.",
       "Kind": "Stone",
       "Item": "Shiny Stone"
     }

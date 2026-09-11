@@ -37,8 +37,15 @@
   "Evolutions": [
     {
       "From": "Minccino",
+      "DisplayMethod": "Use Shiny Stone.",
       "Kind": "Stone",
       "Item": "Shiny Stone"
+    },
+    {
+      "To": "Cinccino (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Cinccinite.",
+      "Item": "Cinccinite"
     }
   ],
   "Image": "cinccino.png",

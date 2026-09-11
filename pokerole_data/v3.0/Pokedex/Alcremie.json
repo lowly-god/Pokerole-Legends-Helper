@@ -37,11 +37,7 @@
   "Evolutions": [
     {
       "From": "Milcery",
-      "Kind": "Special",
-      "Special": "Berry & Whisk"
-    },
-    {
-      "From": "Milcery",
+      "DisplayMethod": "Use Various Sweets.",
       "Kind": "Item",
       "Item": "Sweets [Various]"
     }

@@ -39,6 +39,12 @@
       "From": "Quilladin",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Chesnaught (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Chesnaughtite.",
+      "Item": "Chesnaughtite"
     }
   ],
   "Image": "chesnaught.png",

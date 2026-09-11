@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "To": "Rexquiem",
+      "DisplayMethod": "Use Reaper Cloth.",
       "Kind": "Item",
       "Item": "Reaper Cloth"
     }

@@ -1,154 +1,157 @@
 {
-    "Number": 487,
-    "DexID": "0487F1",
-    "Name": "Giratina (Origin Form)",
-    "Type1": "Ghost",
-    "Type2": "Dragon",
-    "BaseHP": 9,
-    "Strength": 5,
-    "MaxStrength": 11,
-    "Dexterity": 5,
-    "MaxDexterity": 11,
-    "Vitality": 5,
-    "MaxVitality": 11,
-    "Special": 5,
-    "MaxSpecial": 11,
-    "Insight": 5,
-    "MaxInsight": 11,
-    "Ability1": "Levitate",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Champion",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "giratina-origin-form",
-    "DexCategory": "Plot Device",
-    "Height": {
-        "Meters": 6.9,
-        "Feet": 22.7
+  "Number": 487,
+  "DexID": "0487F1",
+  "Name": "Giratina (Origin Form)",
+  "Type1": "Ghost",
+  "Type2": "Dragon",
+  "BaseHP": 9,
+  "Strength": 5,
+  "MaxStrength": 11,
+  "Dexterity": 5,
+  "MaxDexterity": 11,
+  "Vitality": 5,
+  "MaxVitality": 11,
+  "Special": 5,
+  "MaxSpecial": 11,
+  "Insight": 5,
+  "MaxInsight": 11,
+  "Ability1": "Levitate",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Champion",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "giratina-origin-form",
+  "DexCategory": "Plot Device",
+  "Height": {
+    "Meters": 6.9,
+    "Feet": 22.7
+  },
+  "Weight": {
+    "Kilograms": 650.0,
+    "Pounds": 1433.0
+  },
+  "DexDescription": "Plot Device",
+  "Evolutions": [
+    {
+      "From": "Giratina",
+      "Kind": "Transform",
+      "DisplayMethod": "Mega Evolution using Griseous Core.",
+      "Item": "Griseous Core",
+      "Special": "Mega Evolution using Griseous Core."
+    }
+  ],
+  "Image": "giratina-origin-form.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Dragon Breath"
     },
-    "Weight": {
-        "Kilograms": 650.0,
-        "Pounds": 1433.0
+    {
+      "Learned": "Starter",
+      "Name": "Scary Face"
     },
-    "DexDescription": "Plot Device",
-    "Evolutions": [
-        {
-            "From": "Giratina",
-            "Kind": "Form"
-        }
-    ],
-    "Image": "giratina-origin-form.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Dragon Breath"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Scary Face"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Ominous Wind"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Ancient Power"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Shadow Sneak"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Icy Wind"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Protect"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Slash"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Dragon Claw"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Aura Sphere"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Earth Power"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Hidden Power"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Psych Up"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Shadow Ball"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Hex"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Shadow Claw"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Destiny Bond"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Pain Split"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Dragon Pulse"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Dark Pulse"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Gravity"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Hyper Beam"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Velvet Scales"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Spite"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Trick Room"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Draco Meteor"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Shadow Force"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Ominous Wind"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Shadow Sneak"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Icy Wind"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dragon Claw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aura Sphere"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Earth Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hidden Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psych Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hex"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Destiny Bond"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Pain Split"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dark Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gravity"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hyper Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spite"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Trick Room"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Draco Meteor"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Shadow Force"
+    }
+  ]
 }

@@ -38,7 +38,8 @@
     {
       "From": "Milotic (Orrean Form)",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using (Orrean) Miloticite.",
+      "Item": "(Orrean) Miloticite"
     }
   ],
   "Image": "",

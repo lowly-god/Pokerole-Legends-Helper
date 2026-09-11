@@ -38,7 +38,8 @@
     {
       "From": "Dunboros",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Dunborosite.",
+      "Item": "Dunborosite"
     }
   ],
   "Image": "",

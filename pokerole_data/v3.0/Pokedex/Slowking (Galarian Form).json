@@ -37,16 +37,7 @@
   "Evolutions": [
     {
       "From": "Slowpoke (Galarian Form)",
-      "Kind": "Special",
-      "Special": "Wear Shellder as a Hat"
-    },
-    {
-      "From": "Slowpoke (Galarian Form)",
-      "Kind": "Item",
-      "Item": "King's Rock"
-    },
-    {
-      "From": "Slowpoke (Galarian Form)",
+      "DisplayMethod": "Use Galarica Wreath.",
       "Kind": "Item",
       "Item": "Galarica Wreath"
     }

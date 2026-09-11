@@ -37,7 +37,10 @@
   "Evolutions": [
     {
       "To": "Keldeo (Resolute Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Learn Secret Sword.",
+      "Move": "Secret Sword",
+      "Special": "Learn Secret Sword."
     }
   ],
   "Image": "keldeo.png",

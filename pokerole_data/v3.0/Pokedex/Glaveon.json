@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Eevee",
+      "DisplayMethod": "Use Adamantite Stone.",
       "Kind": "Stone",
       "Item": "Adamantite Stone"
     }

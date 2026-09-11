@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Beheeyem",
+      "DisplayMethod": "Use Rune Stone.",
       "Kind": "Stone",
       "Item": "Rune Stone"
     }

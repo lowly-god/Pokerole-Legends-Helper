@@ -1,173 +1,180 @@
 {
-    "Number": 493,
-    "DexID": "0493",
-    "Name": "Arceus",
-    "Type1": "Normal",
-    "Type2": "",
-    "BaseHP": 10,
-    "Strength": 6,
-    "MaxStrength": 12,
-    "Dexterity": 6,
-    "MaxDexterity": 12,
-    "Vitality": 6,
-    "MaxVitality": 12,
-    "Special": 6,
-    "MaxSpecial": 12,
-    "Insight": 6,
-    "MaxInsight": 12,
-    "Ability1": "Multitype",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Champion",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "arceus",
-    "DexCategory": "Plot Device",
-    "Height": {
-        "Meters": 3.2,
-        "Feet": 10.5
+  "Number": 493,
+  "DexID": "0493",
+  "Name": "Arceus",
+  "Type1": "Normal",
+  "Type2": "",
+  "BaseHP": 10,
+  "Strength": 6,
+  "MaxStrength": 12,
+  "Dexterity": 6,
+  "MaxDexterity": 12,
+  "Vitality": 6,
+  "MaxVitality": 12,
+  "Special": 6,
+  "MaxSpecial": 12,
+  "Insight": 6,
+  "MaxInsight": 12,
+  "Ability1": "Multitype",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Champion",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "arceus",
+  "DexCategory": "Plot Device",
+  "Height": {
+    "Meters": 3.2,
+    "Feet": 10.5
+  },
+  "Weight": {
+    "Kilograms": 320.0,
+    "Pounds": 705.0
+  },
+  "DexDescription": "Plot Device",
+  "Evolutions": [
+    {
+      "To": "Arceus (True Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Mega Evolve. (No requirements).",
+      "Special": "Mega Evolve. (No requirements)."
+    }
+  ],
+  "Image": "arceus.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Ancient Power"
     },
-    "Weight": {
-        "Kilograms": 320.0,
-        "Pounds": 705.0
+    {
+      "Learned": "Starter",
+      "Name": "Absolute Zero"
     },
-    "DexDescription": "Plot Device",
-    "Evolutions": [],
-    "Image": "arceus.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Ancient Power"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Absolute Zero"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Rainbow Beam"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Natural Gift"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Infestation"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Detect"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Seismic Toss"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Cosmic Power"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Earth Power"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Recover"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Sludge Bomb"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Extreme Speed"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Punishment"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Gravity"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Hyper Voice"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Future Sight"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Hyper Beam"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Perish Song"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Zap Cannon"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Inferno"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Hurricane"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Phantom Force"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Sheer Cold"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Gaia Force"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Refresh"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Sunsteel Strike"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Draco Meteor"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Frenzy Plant"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Anti-Gravity"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Singularity"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Judgment"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Light Of Ruin"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Origin Pulse"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Rainbow Beam"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Natural Gift"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Infestation"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Detect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Seismic Toss"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cosmic Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Earth Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Sludge Bomb"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Extreme Speed"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Punishment"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Gravity"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hyper Voice"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Future Sight"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hyper Beam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Perish Song"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Zap Cannon"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Inferno"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hurricane"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Phantom Force"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sheer Cold"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Gaia Force"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Refresh"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sunsteel Strike"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Draco Meteor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Frenzy Plant"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Anti-Gravity"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Singularity"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Judgment"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Light Of Ruin"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Origin Pulse"
+    }
+  ]
 }

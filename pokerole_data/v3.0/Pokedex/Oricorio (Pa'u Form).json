@@ -37,15 +37,17 @@
   "Evolutions": [
     {
       "From": "Oricorio (Baile Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Use Pink Nectar",
+      "Item": "Pink Nectar",
+      "Special": "Use Pink Nectar"
     },
     {
-      "To": "Oricorio (Pom-Pom Form)",
-      "Kind": "Form"
-    },
-    {
-      "To": "Oricorio (Sensu Form)",
-      "Kind": "Form"
+      "To": "Oricorio (Baile Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Use Red Nectar.",
+      "Item": "Red Nectar",
+      "Special": "Use Red Nectar."
     }
   ],
   "Image": "oricorio-pau-form.png",

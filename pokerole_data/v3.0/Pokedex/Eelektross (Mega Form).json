@@ -38,7 +38,8 @@
     {
       "From": "Eelektross",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Elektrossite.",
+      "Item": "Elektrossite"
     }
   ],
   "Image": "",

@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Burmy",
+      "DisplayMethod": "Female only. Fast Evolution.",
       "Kind": "Level",
       "Speed": "Fast",
       "Gender": "Female"

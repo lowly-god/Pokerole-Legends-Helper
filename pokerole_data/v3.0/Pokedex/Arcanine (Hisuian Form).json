@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Growlithe (Hisuian Form)",
+      "DisplayMethod": "Use Fire Stone.",
       "Kind": "Stone",
       "Item": "Fire Stone"
     }

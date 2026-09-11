@@ -1,152 +1,153 @@
 {
-    "Number": 150,
-    "DexID": "0150M1",
-    "Name": "Mewtwo (Mega X Form)",
-    "Type1": "Psychic",
-    "Type2": "Fighting",
-    "BaseHP": 6,
-    "Strength": 4,
-    "MaxStrength": 9,
-    "Dexterity": 3,
-    "MaxDexterity": 7,
-    "Vitality": 3,
-    "MaxVitality": 6,
-    "Special": 4,
-    "MaxSpecial": 8,
-    "Insight": 3,
-    "MaxInsight": 6,
-    "Ability1": "Steadfast",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Master",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "mewtwo-mega-x-form",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 2.3,
-        "Feet": 7.6
+  "Number": 150,
+  "DexID": "0150M1",
+  "Name": "Mewtwo (Mega X Form)",
+  "Type1": "Psychic",
+  "Type2": "Fighting",
+  "BaseHP": 6,
+  "Strength": 4,
+  "MaxStrength": 9,
+  "Dexterity": 3,
+  "MaxDexterity": 7,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Steadfast",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "mewtwo-mega-x-form",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 2.3,
+    "Feet": 7.6
+  },
+  "Weight": {
+    "Kilograms": 127.0,
+    "Pounds": 280.0
+  },
+  "DexDescription": "The power of the Mega Stone was absorbed into its muscles. If it grapples you and its Psychic force does not crack, you its strong arms will.",
+  "Evolutions": [
+    {
+      "From": "Mewtwo",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Mewtwonite X.",
+      "Item": "Mewtwonite X"
+    }
+  ],
+  "Image": "mewtwo-mega-x-form.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Psywave"
     },
-    "Weight": {
-        "Kilograms": 127.0,
-        "Pounds": 280.0
+    {
+      "Learned": "Starter",
+      "Name": "Confusion"
     },
-    "DexDescription": "The power of the Mega Stone was absorbed into its muscles. If it grapples you and its Psychic force does not crack, you its strong arms will.",
-    "Evolutions": [
-        {
-            "From": "Mewtwo",
-            "Kind": "Mega",
-            "Item": "Mewtwonite X"
-        }
-    ],
-    "Image": "mewtwo-mega-x-form.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Psywave"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Confusion"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Disable"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Miracle Eye"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Life Dew"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Mist"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Laser Focus"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Safeguard"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Swift"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Psych Up"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Power Swap"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Guard Swap"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Recover"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Psychic"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Barrier"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Aura Sphere"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Amnesia"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Me First"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Self Destruct"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Telekinesis"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Future Sight"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Psycho Cut"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Blizzard"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Snatch"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Psystrike"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Drain Punch"
-        }
-    ],
-    "MegaStone": "Mewtownite X"
+    {
+      "Learned": "Rookie",
+      "Name": "Disable"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Miracle Eye"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Life Dew"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mist"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Laser Focus"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Swift"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psych Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Power Swap"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Guard Swap"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Barrier"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aura Sphere"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Amnesia"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Me First"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Self Destruct"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Telekinesis"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Future Sight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psycho Cut"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Blizzard"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Snatch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Psystrike"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Drain Punch"
+    }
+  ],
+  "MegaStone": "Mewtownite X"
 }

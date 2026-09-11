@@ -34,7 +34,14 @@
     "Pounds": 82.0
   },
   "DexDescription": "Masters of awareness, this kind of Roserade spend 22 Hours sleeping per day. They utilise piercing attacks and their precision is unmatched while they are asleep. They only wake up to reposition themselves under the sunlight of the sub-tropical forests they call home.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Roselia (Islas Lluvia De’estrellas Form)",
+      "DisplayMethod": "Use Adamantite Stone.",
+      "Kind": "Stone",
+      "Item": "Adamantite Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

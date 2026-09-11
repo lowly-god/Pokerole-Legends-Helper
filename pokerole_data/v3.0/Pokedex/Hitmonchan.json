@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Tyrogue",
+      "DisplayMethod": "Vitality requirement.",
       "Kind": "Stat",
       "Stat": "Vitality",
       "Value": -1

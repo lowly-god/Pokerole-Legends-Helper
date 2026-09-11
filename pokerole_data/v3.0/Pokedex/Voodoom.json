@@ -34,7 +34,14 @@
     "Pounds": 33.9
   },
   "DexDescription": "Using powerful sorcery they are said to curse, those who have wronged them, channelling the spirits of powerful practitioners from beyond the grave.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Voodoom (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Voodoomite.",
+      "Item": "Voodoomite"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

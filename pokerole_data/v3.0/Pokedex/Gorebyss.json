@@ -37,11 +37,7 @@
   "Evolutions": [
     {
       "From": "Clamperl",
-      "Kind": "Trade",
-      "Item": "Dragon Scale"
-    },
-    {
-      "From": "Clamperl",
+      "DisplayMethod": "Use Deep Sea Scale.",
       "Kind": "Item",
       "Item": "Deep Sea Scale"
     }

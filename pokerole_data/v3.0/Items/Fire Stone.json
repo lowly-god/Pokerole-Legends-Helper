@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "Evolutionary Stones",
   "Category": "Evolutionary Stones",
-  "Description": "Evolutionary Stone. Evolves: Capsakid → Scovillain; Eevee → Flareon; Electabuzz (Alolan Form) → Electivire (Alolan Form); Growlithe → Arcanine; Growlithe (Hisuian Form) → Arcanine (Hisuian Form); Pansear → Simisear; Toxel → Toxtricity (Orrean Smouldering Form); Vulpix → Ninetales.",
+  "Description": "Evolutionary Stone. Evolves: Capsakid → Scovillain; Eevee → Flareon; Electabuzz (Alolan Form) → Electivire (Alolan Form); Growlithe → Arcanine; Growlithe (Hisuian Form) → Arcanine (Hisuian Form); Pansear → Simisear; Toxel → Toxtricity (Smouldering Form); Vulpix → Ninetales.",
   "OneUse": true,
   "TrainerPrice": "5000",
   "Cures": "",

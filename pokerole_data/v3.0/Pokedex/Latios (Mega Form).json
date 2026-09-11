@@ -1,136 +1,137 @@
 {
-    "Number": 381,
-    "DexID": "0381M1",
-    "Name": "Latios (Mega Form)",
-    "Type1": "Dragon",
-    "Type2": "Psychic",
-    "BaseHP": 6,
-    "Strength": 3,
-    "MaxStrength": 7,
-    "Dexterity": 3,
-    "MaxDexterity": 6,
-    "Vitality": 3,
-    "MaxVitality": 6,
-    "Special": 4,
-    "MaxSpecial": 8,
-    "Insight": 3,
-    "MaxInsight": 7,
-    "Ability1": "Levitate",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Master",
-    "GenderType": "M",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "latios-mega-form",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 2.3,
-        "Feet": 7.5
+  "Number": 381,
+  "DexID": "0381M1",
+  "Name": "Latios (Mega Form)",
+  "Type1": "Dragon",
+  "Type2": "Psychic",
+  "BaseHP": 6,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 7,
+  "Ability1": "Levitate",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "M",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "latios-mega-form",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 2.3,
+    "Feet": 7.5
+  },
+  "Weight": {
+    "Kilograms": 70.0,
+    "Pounds": 154.0
+  },
+  "DexDescription": "Latios is very in sync with human logic; it can communicate using telepathy. With the power of the Mega Stone, all of its capabilities are enhanced, although its personality becomes more caring than usual.",
+  "Evolutions": [
+    {
+      "From": "Latios",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Latiosite.",
+      "Item": "Latiosite"
+    }
+  ],
+  "Image": "latios-mega-form.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Psywave"
     },
-    "Weight": {
-        "Kilograms": 70.0,
-        "Pounds": 154.0
+    {
+      "Learned": "Starter",
+      "Name": "Helping Hand"
     },
-    "DexDescription": "Latios is very in sync with human logic; it can communicate using telepathy. With the power of the Mega Stone, all of its capabilities are enhanced, although its personality becomes more caring than usual.",
-    "Evolutions": [
-        {
-            "From": "Latios",
-            "Kind": "Mega",
-            "Item": "Latiasite"
-        }
-    ],
-    "Image": "latios-mega-form.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Psywave"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Helping Hand"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Protect"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Dragon Breath"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Safeguard"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Dragon Dance"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Stored Power"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Psycho Shift"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Recover"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Telekinesis"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Zen Headbutt"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Psychic"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Role Play"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Heal Block"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Heal Pulse"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Power Split"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Dragon Pulse"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Memento"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Velvet Scales"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Luster Purge"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Refresh"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Camouflage"
-        }
-    ],
-    "MegaStone": "Latiosite"
+    {
+      "Learned": "Rookie",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Dragon Breath"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Stored Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psycho Shift"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Telekinesis"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Zen Headbutt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Role Play"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heal Block"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heal Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Power Split"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Memento"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Luster Purge"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Refresh"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Camouflage"
+    }
+  ],
+  "MegaStone": "Latiosite"
 }

@@ -37,9 +37,10 @@
   "Evolutions": [
     {
       "From": "Rockruff",
+      "DisplayMethod": "Slow evolution during the day.",
       "Kind": "Level",
       "Speed": "Slow",
-      "Special": "Day"
+      "Special": "Slow evolution during the day."
     }
   ],
   "Image": "lycanroc-midday-form.png",

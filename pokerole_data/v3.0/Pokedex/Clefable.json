@@ -37,8 +37,15 @@
   "Evolutions": [
     {
       "From": "Clefairy",
+      "DisplayMethod": "Use Moon Stone.",
       "Kind": "Stone",
       "Item": "Moon Stone"
+    },
+    {
+      "To": "Clefable (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Clefablite.",
+      "Item": "Clefablite"
     }
   ],
   "Image": "clefable.png",

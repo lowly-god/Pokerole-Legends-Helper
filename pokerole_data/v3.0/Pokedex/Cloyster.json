@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Shellder",
+      "DisplayMethod": "Use Water Stone.",
       "Kind": "Stone",
       "Item": "Water Stone"
     }

@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Mienshao",
+      "DisplayMethod": "Use Brave Stone.",
       "Kind": "Stone",
       "Item": "Brave Stone"
     }

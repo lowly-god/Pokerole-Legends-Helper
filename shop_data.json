@@ -11050,7 +11050,7 @@
         {
           "name": "Satellite Parts",
           "price": "8000",
-          "effect": "Evolves Porygon 2 into Porygon 3",
+          "effect": "Evolves Porygon 2 into Porygon3",
           "category": "General Items"
         },
         {
@@ -11280,6 +11280,36 @@
           "price": "10000",
           "effect": "If the holder is after the Foe in Initiative, it gains +2 Accuracy Dice to Moves targetting that Foe",
           "category": "General Items"
+        },
+        {
+          "name": "Peat Moss",
+          "price": "8000",
+          "effect": "Consumable evolution item. Evolves Ursaring into Ursaluna (Kitakami Form) during a Blood Moon.",
+          "category": "General Items"
+        },
+        {
+          "name": "Yellow Nectar",
+          "price": "500",
+          "effect": "Consumable. Transforms Oricorio into Oricorio (Pom-pom Form).",
+          "category": "General Items"
+        },
+        {
+          "name": "Pink Nectar",
+          "price": "500",
+          "effect": "Consumable. Transforms Oricorio into Oricorio (Pa'u Form).",
+          "category": "General Items"
+        },
+        {
+          "name": "Purple Nectar",
+          "price": "500",
+          "effect": "Consumable. Transforms Oricorio into Oricorio (Sensu Form).",
+          "category": "General Items"
+        },
+        {
+          "name": "Red Nectar",
+          "price": "500",
+          "effect": "Consumable. Transforms Oricorio into Oricorio (Baile Form).",
+          "category": "General Items"
         }
       ],
       "special_pool": [
@@ -11419,6 +11449,42 @@
           "name": "Yochuin Shard",
           "price": "60000",
           "effect": "When paired with Yinchuo Shard allows Nixuss and Rixorra to fuse into Gixurra",
+          "category": "Special Items"
+        },
+        {
+          "name": "Prison Bottle",
+          "price": "80000",
+          "effect": "Allows Hoopa to transform into Hoopa (Unbound Form).",
+          "category": "Special Items"
+        },
+        {
+          "name": "Gracidea Flower",
+          "price": "80000",
+          "effect": "Transforms Shaymin into Shaymin (Sky Form).",
+          "category": "Special Items"
+        },
+        {
+          "name": "N-Solarizer",
+          "price": "80000",
+          "effect": "Fuses Solgaleo and Necrozma into Necrozma (Dusk Mane Form).",
+          "category": "Special Items"
+        },
+        {
+          "name": "N-Lunarizer",
+          "price": "80000",
+          "effect": "Fuses Lunala and Necrozma into Necrozma (Dawn Wings Form).",
+          "category": "Special Items"
+        },
+        {
+          "name": "Reveal Glass",
+          "price": "80000",
+          "effect": "Transforms Landorus, Tornadus, Thundurus and Enamorus between their Incarnate and Therian Forms.",
+          "category": "Special Items"
+        },
+        {
+          "name": "Improved RKS System",
+          "price": "50000",
+          "effect": "Transforms Silvally into Silvally (Improved RKS System Form).",
           "category": "Special Items"
         }
       ],
@@ -13239,7 +13305,7 @@
         {
           "name": "Satellite Parts",
           "price": "8000",
-          "effect": "Evolves Porygon 2 into Porygon 3",
+          "effect": "Evolves Porygon 2 into Porygon3",
           "category": "General Items"
         },
         {

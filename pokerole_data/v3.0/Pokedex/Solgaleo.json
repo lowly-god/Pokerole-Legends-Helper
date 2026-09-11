@@ -37,8 +37,10 @@
   "Evolutions": [
     {
       "From": "Cosmoem",
+      "DisplayMethod": "Slow level evolution and Play Sun Flute at the Altar of the Sunne.",
       "Kind": "Level",
-      "Game": "Sword"
+      "Speed": "Slow",
+      "Special": "Slow level evolution and Play Sun Flute at the Altar of the Sunne."
     }
   ],
   "Image": "solgaleo.png",

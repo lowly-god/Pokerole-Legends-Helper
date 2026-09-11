@@ -38,7 +38,8 @@
     {
       "From": "Lurantis",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Lurantisite.",
+      "Item": "Lurantisite"
     }
   ],
   "Image": "",

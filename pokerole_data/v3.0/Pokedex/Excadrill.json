@@ -39,6 +39,12 @@
       "From": "Drilbur",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Excadrill (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Excadrite.",
+      "Item": "Excadrite"
     }
   ],
   "Image": "excadrill.png",

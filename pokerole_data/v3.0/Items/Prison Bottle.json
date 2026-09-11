@@ -1,0 +1,13 @@
+{
+  "Name": "Prison Bottle",
+  "_id": "prison-bottle",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Special Items",
+  "Category": "Special Items",
+  "Description": "Allows Hoopa to transform into Hoopa (Unbound Form).",
+  "OneUse": false,
+  "TrainerPrice": "80000",
+  "Cures": "",
+  "Image": ""
+}

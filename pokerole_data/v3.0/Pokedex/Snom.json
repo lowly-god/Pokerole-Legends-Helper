@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "To": "Frosmoth",
+      "DisplayMethod": "Happiness 5.",
       "Kind": "Stat",
       "Stat": "Happiness",
       "Value": 5

@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Eevee",
+      "DisplayMethod": "Use Fire Stone.",
       "Kind": "Stone",
       "Item": "Fire Stone"
     }

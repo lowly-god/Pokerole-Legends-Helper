@@ -39,6 +39,12 @@
       "From": "Espurr",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Meowstic (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Meowsicite.",
+      "Item": "Meowsicite"
     }
   ],
   "Image": "meowstic.png",

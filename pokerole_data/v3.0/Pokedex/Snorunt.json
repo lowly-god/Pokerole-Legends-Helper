@@ -42,6 +42,7 @@
     },
     {
       "To": "Froslass",
+      "DisplayMethod": "Use Dawn Stone.",
       "Kind": "Stone",
       "Item": "Dawn Stone"
     }

@@ -42,7 +42,8 @@
     },
     {
       "To": "Rhyperior",
-      "Kind": "Trade",
+      "DisplayMethod": "Use Protector.",
+      "Kind": "Item",
       "Item": "Protector"
     }
   ],

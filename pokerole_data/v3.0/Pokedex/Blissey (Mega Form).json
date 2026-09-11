@@ -38,7 +38,8 @@
     {
       "From": "Blissey",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Blisseyite.",
+      "Item": "Blisseyite"
     }
   ],
   "Image": "",

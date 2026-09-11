@@ -38,7 +38,8 @@
     {
       "From": "Parasect (Kalosian Form)",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Parasectite.",
+      "Item": "Parasectite"
     }
   ],
   "Image": "",

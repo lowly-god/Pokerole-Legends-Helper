@@ -1,188 +1,190 @@
 {
-    "Number": 150,
-    "DexID": "0150",
-    "Name": "Mewtwo",
-    "Type1": "Psychic",
-    "Type2": "",
-    "BaseHP": 6,
-    "Strength": 3,
-    "MaxStrength": 6,
-    "Dexterity": 3,
-    "MaxDexterity": 7,
-    "Vitality": 2,
-    "MaxVitality": 5,
-    "Special": 4,
-    "MaxSpecial": 8,
-    "Insight": 2,
-    "MaxInsight": 5,
-    "Ability1": "Pressure",
-    "Ability2": "",
-    "HiddenAbility": "Unnerve",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "mewtwo",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 2.0,
-        "Feet": 6.6
+  "Number": 150,
+  "DexID": "0150",
+  "Name": "Mewtwo",
+  "Type1": "Psychic",
+  "Type2": "",
+  "BaseHP": 6,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 3,
+  "MaxDexterity": 7,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Pressure",
+  "Ability2": "",
+  "HiddenAbility": "Unnerve",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "mewtwo",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 2.0,
+    "Feet": 6.6
+  },
+  "Weight": {
+    "Kilograms": 122.0,
+    "Pounds": 270.0
+  },
+  "DexDescription": "An article in a science magazine talked about how much cloning research was progressing, but... could it be?",
+  "Evolutions": [
+    {
+      "To": "Mewtwo (Mega X Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Mewtwonite X.",
+      "Item": "Mewtwonite X"
     },
-    "Weight": {
-        "Kilograms": 122.0,
-        "Pounds": 270.0
+    {
+      "To": "Mewtwo (Mega Y Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Mewtwonite Y.",
+      "Item": "Mewtwonite Y"
+    }
+  ],
+  "Image": "mewtwo.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Psywave"
     },
-    "DexDescription": "An article in a science magazine talked about how much cloning research was progressing, but... could it be?",
-    "Evolutions": [
-        {
-            "To": "Mewtwo (Mega Y Form)",
-            "Kind": "Mega",
-            "Item": "Mewtwonite Y"
-        },
-        {
-            "To": "Mewtwo (Mega X Form)",
-            "Kind": "Mega",
-            "Item": "Mewtwonite X"
-        }
-    ],
-    "Image": "mewtwo.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Psywave"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Confusion"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Disable"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Miracle Eye"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Rainbow Beam"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Psybolt"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Pulse Strike"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Life Dew"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Mist"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Laser Focus"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Safeguard"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Swift"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Psych Up"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Power Swap"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Guard Swap"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Recover"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Psychic"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Barrier"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Aura Sphere"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Amnesia"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Me First"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Self Destruct"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Telekinesis"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Aura Strike"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Future Sight"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Psycho Cut"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Blizzard"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Snatch"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Null Room"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Psystrike"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Drain Punch"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Anti-Gravity"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Beguiling Influence"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Singularity"
-        }
-    ]
+    {
+      "Learned": "Starter",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Disable"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Miracle Eye"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Rainbow Beam"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psybolt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Pulse Strike"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Life Dew"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mist"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Laser Focus"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swift"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psych Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Power Swap"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Guard Swap"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Barrier"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aura Sphere"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Amnesia"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Me First"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Self Destruct"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Telekinesis"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Aura Strike"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Future Sight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psycho Cut"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Blizzard"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Snatch"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Null Room"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psystrike"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Drain Punch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Anti-Gravity"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Beguiling Influence"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Singularity"
+    }
+  ]
 }

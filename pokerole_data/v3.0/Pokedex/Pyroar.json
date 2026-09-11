@@ -39,6 +39,12 @@
       "From": "Litleo",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Pyroar (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Pyroarite.",
+      "Item": "Pyroarite"
     }
   ],
   "Image": "pyroar.png",

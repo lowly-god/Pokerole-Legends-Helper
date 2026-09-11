@@ -39,6 +39,12 @@
       "From": "Krabby",
       "Kind": "Level",
       "Speed": "Slow"
+    },
+    {
+      "To": "Kingler (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Kinglerite.",
+      "Item": "Kinglerite"
     }
   ],
   "Image": "kingler.png",

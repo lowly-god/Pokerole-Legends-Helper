@@ -39,6 +39,12 @@
       "From": "Metapod",
       "Kind": "Level",
       "Speed": "Fast"
+    },
+    {
+      "To": "Butterfree (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Butterfreeite.",
+      "Item": "Butterfreeite"
     }
   ],
   "Image": "butterfree.png",

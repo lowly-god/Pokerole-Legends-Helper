@@ -43,6 +43,7 @@
     {
       "To": "Medicham (Mega Form)",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Medichamite.",
       "Item": "Medichamite"
     }
   ],

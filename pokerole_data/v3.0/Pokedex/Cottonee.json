@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "To": "Whimsicott",
+      "DisplayMethod": "Use Sun Stone.",
       "Kind": "Stone",
       "Item": "Sun Stone"
     }

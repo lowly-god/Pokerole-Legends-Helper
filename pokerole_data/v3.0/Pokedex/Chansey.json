@@ -36,15 +36,19 @@
   "DexDescription": "There are only females in this species. Chansey lays a nutritious egg every day. These eggs are fed to the sick to give them strength. It is a loving and smart Pokémon, but it's pretty rare and elusive in the wild.",
   "Evolutions": [
     {
-      "From": "Happiny",
-      "Kind": "Level",
-      "Item": "Oval Stone"
-    },
-    {
       "To": "Blissey",
+      "DisplayMethod": "Happiness 5.",
       "Kind": "Stat",
       "Stat": "Happiness",
       "Value": 5
+    },
+    {
+      "From": "Happiny",
+      "DisplayMethod": "Medium Evolution while Holding Oval Stone.",
+      "Kind": "Level",
+      "Speed": "Medium",
+      "Item": "Oval Stone",
+      "Special": "Medium Evolution while Holding Oval Stone."
     }
   ],
   "Image": "chansey.png",

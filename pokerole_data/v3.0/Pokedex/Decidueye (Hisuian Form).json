@@ -37,8 +37,9 @@
   "Evolutions": [
     {
       "From": "Dartrix",
-      "Kind": "Level",
-      "Speed": "Medium",
+      "DisplayMethod": "Use Feather Stone OR Medium while in Hisui.",
+      "Kind": "Stone",
+      "Item": "Feather Stone",
       "Region": "Hisui"
     }
   ],

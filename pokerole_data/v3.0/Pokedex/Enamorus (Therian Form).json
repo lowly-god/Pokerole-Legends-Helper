@@ -1,126 +1,136 @@
 {
-    "Number": 905,
-    "DexID": "0905F1",
-    "Name": "Enamorus (Therian Form)",
-    "Type1": "Fairy",
-    "Type2": "Flying",
-    "BaseHP": 5,
-    "Strength": 3,
-    "MaxStrength": 6,
-    "Dexterity": 2,
-    "MaxDexterity": 4,
-    "Vitality": 3,
-    "MaxVitality": 6,
-    "Special": 3,
-    "MaxSpecial": 7,
-    "Insight": 3,
-    "MaxInsight": 6,
-    "Ability1": "Cute Charm",
-    "Ability2": "Overcoat",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "F",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "enamorus-therian-form",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 1.6,
-        "Feet": 5.3
+  "Number": 905,
+  "DexID": "0905F1",
+  "Name": "Enamorus (Therian Form)",
+  "Type1": "Fairy",
+  "Type2": "Flying",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Cute Charm",
+  "Ability2": "Overcoat",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "F",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "enamorus-therian-form",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 1.6,
+    "Feet": 5.3
+  },
+  "Weight": {
+    "Kilograms": 48.0,
+    "Pounds": 105.0
+  },
+  "DexDescription": "Some Pokémon reveal their true forms after recovering power lost to them. Great forces of nature can help them recover their strength such as tornadoes, lightning, and even... the power of love?",
+  "Evolutions": [
+    {
+      "From": "Enamorus",
+      "Kind": "Transform",
+      "DisplayMethod": "Use Reveal Glass.",
+      "Item": "Reveal Glass",
+      "Special": "Use Reveal Glass."
     },
-    "Weight": {
-        "Kilograms": 48.0,
-        "Pounds": 105.0
+    {
+      "To": "Enamorus",
+      "Kind": "Transform",
+      "DisplayMethod": "Use Reveal Glass.",
+      "Item": "Reveal Glass",
+      "Special": "Use Reveal Glass."
+    }
+  ],
+  "Image": "enamorus-therian-form.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Astonish"
     },
-    "DexDescription": "Some Pokémon reveal their true forms after recovering power lost to them. Great forces of nature can help them recover their strength such as tornadoes, lightning, and even... the power of love?",
-    "Evolutions": [
-        {
-            "From": "Enamorus",
-            "Kind": "Form"
-        }
-    ],
-    "Image": "enamorus-therian-form.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Astonish"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Leer"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Fairy Wind"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Draining Kiss"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Flatter"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Uproar"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Iron Defense"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Extrasensory"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Power Shift"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Crunch"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Springtide Storm"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Imprison"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Torment"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Dazzling Gleam"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Superpower"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Healing Wish"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Moonblast"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Outrage"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Twister"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Mystical Fire"
-        }
-    ]
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Fairy Wind"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Draining Kiss"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flatter"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Uproar"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Extrasensory"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Power Shift"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Springtide Storm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imprison"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dazzling Gleam"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Superpower"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Healing Wish"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Twister"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Mystical Fire"
+    }
+  ]
 }

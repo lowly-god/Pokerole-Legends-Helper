@@ -34,7 +34,15 @@
     "Pounds": 110.0
   },
   "DexDescription": "It's gel like fins have hard cartilage inside, the edges are sharp and can cause nasty wounds if it slices with them. The gel contains a stinging toxin that can be lethal if left untreated. Its a fast swimmer and fast on land too.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Kirlia (Johtonian Form)",
+      "DisplayMethod": "Male only. Use Brave Stone.",
+      "Kind": "Stone",
+      "Item": "Brave Stone",
+      "Gender": "Male"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

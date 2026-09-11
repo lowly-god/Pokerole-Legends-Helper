@@ -37,12 +37,7 @@
   "Evolutions": [
     {
       "From": "Ursaring",
-      "Kind": "Item",
-      "Item": "Peat Moss",
-      "Special": "Moon Ritual"
-    },
-    {
-      "From": "Ursaring",
+      "DisplayMethod": "Use Peat Block.",
       "Kind": "Item",
       "Item": "Peat Block"
     }

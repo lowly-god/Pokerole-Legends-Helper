@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "To": "Simisnear",
+      "DisplayMethod": "Use Dusk Stone.",
       "Kind": "Stone",
       "Item": "Dusk Stone"
     }

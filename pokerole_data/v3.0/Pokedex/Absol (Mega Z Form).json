@@ -38,7 +38,8 @@
     {
       "From": "Absol",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Absolite Z.",
+      "Item": "Absolite Z"
     }
   ],
   "Image": "",

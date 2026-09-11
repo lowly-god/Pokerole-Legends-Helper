@@ -38,7 +38,8 @@
     {
       "From": "Chandelure",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Chandelurite.",
+      "Item": "Chandelurite"
     }
   ],
   "Image": "",

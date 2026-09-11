@@ -336,7 +336,7 @@ class Database:
                     tmp = ','.join('?' * 2)
                     canEvolve = False
                     for evo in evolutions:
-                        if "To" in evo and evo["Kind"] != "Mega": canEvolve = True
+                        if "To" in evo and evo.get("Kind") not in {"Mega", "Form", "Transform"}: canEvolve = True
                         if "From" in evo:
                             evo_info = [tmp_info['Name'], evo["From"]]
                             pkmn_cursor.execute(f'INSERT OR REPLACE INTO {evo_table} values ({tmp})', evo_info)

@@ -38,7 +38,8 @@
     {
       "From": "Garchomp",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Garchompite Z.",
+      "Item": "Garchompite Z"
     }
   ],
   "Image": "",

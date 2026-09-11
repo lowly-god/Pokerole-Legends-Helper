@@ -41,19 +41,16 @@
       "Speed": "Medium"
     },
     {
-      "To": "Poliwrath",
-      "Kind": "Stone",
-      "Item": "Water Stone"
-    },
-    {
       "To": "Politoed",
-      "Kind": "Trade",
+      "DisplayMethod": "Use King's Rock.",
+      "Kind": "Item",
       "Item": "King's Rock"
     },
     {
-      "To": "Politoed",
-      "Kind": "Item",
-      "Item": "Kings Rock"
+      "To": "Poliwrath",
+      "DisplayMethod": "Use Water Stone.",
+      "Kind": "Stone",
+      "Item": "Water Stone"
     }
   ],
   "Image": "poliwhirl.png",

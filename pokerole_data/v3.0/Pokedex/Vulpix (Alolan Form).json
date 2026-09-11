@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "To": "Ninetales (Alolan Form)",
+      "DisplayMethod": "Use Ice Stone.",
       "Kind": "Stone",
       "Item": "Ice Stone"
     }

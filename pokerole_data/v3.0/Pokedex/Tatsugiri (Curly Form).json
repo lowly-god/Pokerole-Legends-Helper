@@ -34,7 +34,14 @@
     "Pounds": 17.0
   },
   "DexDescription": "These small dragon Pokémon are very cunning: they hide inside the mouths of Dondozo, then feign weakness to lure prey and order their partner to attack. Orange Tatsugiri focus on offensive tactics.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Tatsugiri (Curly Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Tatsugirinite.",
+      "Item": "Tatsugirinite"
+    }
+  ],
   "Image": "tatsugiri-curly-form.png",
   "Moves": [
     {

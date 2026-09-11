@@ -38,7 +38,8 @@
     {
       "From": "Chimecho",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Chimechite.",
+      "Item": "Chimechite"
     }
   ],
   "Image": "",

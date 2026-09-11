@@ -42,6 +42,7 @@
     },
     {
       "To": "Centirage",
+      "DisplayMethod": "Use Amber Onyx.",
       "Kind": "Stone",
       "Item": "Amber Onyx"
     }

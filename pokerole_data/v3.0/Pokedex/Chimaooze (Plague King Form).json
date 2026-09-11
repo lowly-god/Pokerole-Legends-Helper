@@ -34,7 +34,15 @@
     "Pounds": 261.0
   },
   "DexDescription": "Chimaooze is a strange ooze like Pokémon often found in rubbish dumps, middens and sewers. In small numbers they are not too dangerous but when they swarm they can become a plague on a town or settlement. Raiding food stores and causing illness. The ooze its body is made of is incredibly toxic to most other living things. It's rumoured that when many Chimaooze gather a king emerges as they combine into one giant form.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Chimaooze",
+      "Kind": "Transform",
+      "DisplayMethod": "Activate Plague Pack.",
+      "Ability": "Plague Pack",
+      "Special": "Activate Plague Pack."
+    }
+  ],
   "Image": "",
   "Moves": [
     {

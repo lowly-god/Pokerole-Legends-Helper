@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "To": "Lucario",
+      "DisplayMethod": "Loyalty 5.",
       "Kind": "Stat",
       "Stat": "Loyalty",
       "Value": 5

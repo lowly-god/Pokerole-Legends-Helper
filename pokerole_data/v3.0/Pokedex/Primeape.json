@@ -42,8 +42,10 @@
     },
     {
       "To": "Annihilape",
-      "Kind": "Special",
-      "Special": "Learning Rage Fist"
+      "DisplayMethod": "Slow Evolution while knowing Rage Fist.",
+      "Kind": "Level",
+      "Speed": "Slow",
+      "Move": "Rage Fist"
     }
   ],
   "Image": "primeape.png",

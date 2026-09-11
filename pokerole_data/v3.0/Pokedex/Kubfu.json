@@ -36,22 +36,14 @@
   "DexDescription": "This little but fierce Pokémon takes its training very seriously. Every day it trains a little longer than the day before. The Moves it masters during this stage will determine the way it evolves.",
   "Evolutions": [
     {
-      "To": "Urshifu (Single Strike Style Form)",
-      "Kind": "Special",
-      "Special": "Finishing Trials of Darkness"
-    },
-    {
       "To": "Urshifu (Rapid Strike Style Form)",
-      "Kind": "Special",
-      "Special": "Finishing Trials of Water"
-    },
-    {
-      "To": "Urshifu (Rapid Strike Style Form)",
+      "DisplayMethod": "Use Scroll of Waters OR Complete the Trials of Water.",
       "Kind": "Item",
       "Item": "Scroll of Waters"
     },
     {
       "To": "Urshifu (Single Strike Style Form)",
+      "DisplayMethod": "Use Scroll of Darkness OR Complete the Trials of Darkness.",
       "Kind": "Item",
       "Item": "Scroll of Darkness"
     }

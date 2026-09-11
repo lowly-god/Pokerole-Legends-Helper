@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Panpour",
+      "DisplayMethod": "Use Water Stone.",
       "Kind": "Stone",
       "Item": "Water Stone"
     }

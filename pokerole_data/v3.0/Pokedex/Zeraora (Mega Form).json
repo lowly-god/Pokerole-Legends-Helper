@@ -1,140 +1,141 @@
 {
-    "Number": 807,
-    "DexID": "0807F1",
-    "Name": "Zeraora (Mega Form)",
-    "Type1": "Electric",
-    "Type2": "",
-    "BaseHP": 4,
-    "Strength": 4,
-    "MaxStrength": 8,
-    "Dexterity": 4,
-    "MaxDexterity": 8,
-    "Vitality": 3,
-    "MaxVitality": 6,
-    "Special": 3,
-    "MaxSpecial": 7,
-    "Insight": 2,
-    "MaxInsight": 5,
-    "Ability1": "Electromorphosis",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Champion",
-    "GenderType": "N",
-    "Legendary": false,
-    "GoodStarter": false,
-    "_id": "zeraora-mega-form",
-    "DexCategory": "Thunderclap Pokémon",
-    "Height": {
-        "Meters": 1.5,
-        "Feet": 4.92
+  "Number": 807,
+  "DexID": "0807F1",
+  "Name": "Zeraora (Mega Form)",
+  "Type1": "Electric",
+  "Type2": "",
+  "BaseHP": 4,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 4,
+  "MaxDexterity": 8,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Electromorphosis",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Champion",
+  "GenderType": "N",
+  "Legendary": false,
+  "GoodStarter": false,
+  "_id": "zeraora-mega-form",
+  "DexCategory": "Thunderclap Pokémon",
+  "Height": {
+    "Meters": 1.5,
+    "Feet": 4.92
+  },
+  "Weight": {
+    "Kilograms": 44.5,
+    "Pounds": 98.0
+  },
+  "DexDescription": "An unfriendly creature was spotted in Alola. Witnesses mentioned it electrified its claws and tore its foes apart with them. It disappeared into the wilderness and has not been sighted again.",
+  "Evolutions": [
+    {
+      "From": "Zeraora",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Zeraorite.",
+      "Item": "Zeraorite"
+    }
+  ],
+  "Image": "",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Scratch"
     },
-    "Weight": {
-        "Kilograms": 44.5,
-        "Pounds": 98.0
+    {
+      "Learned": "Starter",
+      "Name": "Quick Attack"
     },
-    "DexDescription": "An unfriendly creature was spotted in Alola. Witnesses mentioned it electrified its claws and tore its foes apart with them. It disappeared into the wilderness and has not been sighted again.",
-    "Evolutions": [
-        {
-            "From": "Zeraora",
-            "Kind": "Mega",
-            "Item": ""
-        }
-    ],
-    "Image": "",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Scratch"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Quick Attack"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Spark"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Hone Claws"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Fury Swipes"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Snarl"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Charge"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Power-Up Punch"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Agility"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Slash"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Quick Guard"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Fire Punch"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Plasma Fists"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Mega Punch"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Volt Switch"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Discharge"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Wild Charge"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Close Combat"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Outrage"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Electro Whip"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Fake Out"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Thunder Punch"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Drain Punch"
-        }
-    ],
-    "MegaStone": "Zeraorite"
+    {
+      "Learned": "Rookie",
+      "Name": "Spark"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fury Swipes"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Snarl"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Charge"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Power-Up Punch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Quick Guard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fire Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Plasma Fists"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mega Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Volt Switch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Discharge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wild Charge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Electro Whip"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Thunder Punch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Drain Punch"
+    }
+  ],
+  "MegaStone": "Zeraorite"
 }

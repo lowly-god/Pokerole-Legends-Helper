@@ -38,7 +38,8 @@
     {
       "From": "Kingler",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Kinglerite.",
+      "Item": "Kinglerite"
     }
   ],
   "Image": "",

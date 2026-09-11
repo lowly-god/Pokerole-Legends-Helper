@@ -39,6 +39,12 @@
       "From": "Pignite",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Emboar (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Emboarite.",
+      "Item": "Emboarite"
     }
   ],
   "Image": "emboar.png",

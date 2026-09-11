@@ -34,7 +34,15 @@
     "Pounds": 40.0
   },
   "DexDescription": "Cramorant's Gulping Form. It dove in the sea and caught an Arrokuda. Can use the Move Bite.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Cramorant",
+      "Kind": "Transform",
+      "DisplayMethod": "Activate Gulp Missile.",
+      "Ability": "Gulp Missile",
+      "Special": "Activate Gulp Missile."
+    }
+  ],
   "Image": "cramorant-gulping-form.png",
   "Moves": [
     {

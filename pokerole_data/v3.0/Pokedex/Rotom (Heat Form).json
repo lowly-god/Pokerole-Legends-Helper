@@ -37,7 +37,9 @@
   "Evolutions": [
     {
       "From": "Rotom",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Interact with Microwave Oven.",
+      "Special": "Interact with Microwave Oven."
     }
   ],
   "Image": "rotom-heat-form.png",

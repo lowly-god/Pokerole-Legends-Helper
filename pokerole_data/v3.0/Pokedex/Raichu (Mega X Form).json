@@ -38,7 +38,8 @@
     {
       "From": "Raichu",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Raichunite X.",
+      "Item": "Raichunite X"
     }
   ],
   "Image": "",

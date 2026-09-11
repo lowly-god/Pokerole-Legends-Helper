@@ -37,7 +37,8 @@
   "Evolutions": [
     {
       "To": "Slurpuff",
-      "Kind": "Trade",
+      "DisplayMethod": "Use Whipped Dream.",
+      "Kind": "Item",
       "Item": "Whipped Dream"
     }
   ],

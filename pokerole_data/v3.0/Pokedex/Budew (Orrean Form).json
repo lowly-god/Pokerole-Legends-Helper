@@ -34,7 +34,15 @@
     "Pounds": 2.0
   },
   "DexDescription": "Having to suddenly adapt to the desert climate lead to Budew drying out and barely surviving. It hides itself in the dunes and scrubland of its new home, hiding from predators.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Roselia (Orrean Form)",
+      "DisplayMethod": "Happiness 4.",
+      "Kind": "Stat",
+      "Stat": "Happiness",
+      "Value": 4
+    }
+  ],
   "Image": "",
   "Moves": [
     {

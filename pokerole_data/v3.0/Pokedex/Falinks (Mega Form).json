@@ -38,7 +38,8 @@
     {
       "From": "Falinks",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Falinksite.",
+      "Item": "Falinksite"
     }
   ],
   "Image": "",

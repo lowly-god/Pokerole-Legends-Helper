@@ -37,7 +37,9 @@
   "Evolutions": [
     {
       "To": "Gourgeist",
-      "Kind": "Trade"
+      "Kind": "Trade",
+      "Item": "Link Stone",
+      "DisplayMethod": "Trade OR Use Link Stone"
     }
   ],
   "Image": "pumpkaboo.png",

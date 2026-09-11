@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "To": "Scovillain",
+      "DisplayMethod": "Use Fire Stone.",
       "Kind": "Stone",
       "Item": "Fire Stone"
     }

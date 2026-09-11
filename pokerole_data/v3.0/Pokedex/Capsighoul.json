@@ -34,7 +34,22 @@
     "Pounds": 28.0
   },
   "DexDescription": "This elusive Pokémon roams fields at night, leaving behind a faint ghost of a spicy aroma. Its presence is known to enhance the spiciness of nearby peppers.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Capsiwisp (Dessicated Form)",
+      "DisplayMethod": "Medium Evolution while in Sunny Weather.",
+      "Kind": "Level",
+      "Speed": "Medium",
+      "Special": "Medium Evolution while in Sunny Weather."
+    },
+    {
+      "To": "Capsiwisp (Hydrated Form)",
+      "DisplayMethod": "Medium Evolution while in Rain Weather.",
+      "Kind": "Level",
+      "Speed": "Medium",
+      "Special": "Medium Evolution while in Rain Weather."
+    }
+  ],
   "Image": "",
   "Moves": [
     {

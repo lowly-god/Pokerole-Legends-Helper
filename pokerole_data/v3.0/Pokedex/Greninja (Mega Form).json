@@ -38,7 +38,8 @@
     {
       "From": "Greninja",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Greninjite.",
+      "Item": "Greninjite"
     }
   ],
   "Image": "",

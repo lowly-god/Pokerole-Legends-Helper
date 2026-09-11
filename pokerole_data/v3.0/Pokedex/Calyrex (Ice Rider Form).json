@@ -1,155 +1,156 @@
 {
-    "Number": 898,
-    "DexID": "0898F1",
-    "Name": "Calyrex (Ice Rider Form)",
-    "Type1": "Psychic",
-    "Type2": "Ice",
-    "BaseHP": 6,
-    "Strength": 4,
-    "MaxStrength": 8,
-    "Dexterity": 2,
-    "MaxDexterity": 4,
-    "Vitality": 4,
-    "MaxVitality": 8,
-    "Special": 2,
-    "MaxSpecial": 5,
-    "Insight": 3,
-    "MaxInsight": 7,
-    "Ability1": "As One",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Master",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "calyrex-ice-rider-form",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 2.4,
-        "Feet": 7.8
+  "Number": 898,
+  "DexID": "0898F1",
+  "Name": "Calyrex (Ice Rider Form)",
+  "Type1": "Psychic",
+  "Type2": "Ice",
+  "BaseHP": 6,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 2,
+  "MaxDexterity": 4,
+  "Vitality": 4,
+  "MaxVitality": 8,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 3,
+  "MaxInsight": 7,
+  "Ability1": "As One",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "calyrex-ice-rider-form",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 2.4,
+    "Feet": 7.8
+  },
+  "Weight": {
+    "Kilograms": 809.0,
+    "Pounds": 1783.0
+  },
+  "DexDescription": "Ancient texts depict the Pokémon King Calyrex I as a warrior no one could oppose when it rode into battle. Yet it was said it healed its enemies' wounds after defeating them in a magnanimous show of mercy.",
+  "Evolutions": [
+    {
+      "From": "Calyrex and Glastrier",
+      "Kind": "Transform",
+      "DisplayMethod": "Mounts Glastrier.",
+      "Special": "Mounts Glastrier."
+    }
+  ],
+  "Image": "calyrex-ice-rider-form.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Confusion"
     },
-    "Weight": {
-        "Kilograms": 809.0,
-        "Pounds": 1783.0
+    {
+      "Learned": "Starter",
+      "Name": "Growth"
     },
-    "DexDescription": "Ancient texts depict the Pokémon King Calyrex I as a warrior no one could oppose when it rode into battle. Yet it was said it healed its enemies' wounds after defeating them in a magnanimous show of mercy.",
-    "Evolutions": [
-        {
-            "From": "Calyrex",
-            "Kind": "Special",
-            "Special": "???"
-        }
-    ],
-    "Image": "calyrex-ice-rider-form.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Confusion"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Growth"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Double Kick"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Mega Drain"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Helping Hand"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Leech Seed"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Avalanche"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Life Dew"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Mist"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Taunt"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Iron Defense"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Psyshock"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Aromatherapy"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Energy Ball"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Psychic"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Hail"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Giga Drain"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Torment"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Icicle Crash"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Thrash"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Swords Dance"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Double-Edge"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Heal Pulse"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Solar Beam"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Future Sight"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Expanding Force"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Glacial Lance"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Double Kick"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Mega Drain"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Leech Seed"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Avalanche"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Life Dew"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mist"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psyshock"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aromatherapy"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Energy Ball"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Giga Drain"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Torment"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Icicle Crash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Thrash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Double-Edge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heal Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Solar Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Future Sight"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Expanding Force"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Glacial Lance"
+    }
+  ]
 }

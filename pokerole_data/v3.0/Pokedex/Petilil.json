@@ -37,11 +37,13 @@
   "Evolutions": [
     {
       "To": "Lilligant",
+      "DisplayMethod": "Use Sun Stone.",
       "Kind": "Stone",
       "Item": "Sun Stone"
     },
     {
       "To": "Lilligant (Hisuian Form)",
+      "DisplayMethod": "Use Sun Stone in Hisui.",
       "Kind": "Stone",
       "Item": "Sun Stone",
       "Region": "Hisui"

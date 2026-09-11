@@ -38,7 +38,8 @@
     {
       "From": "Escavalier",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Escavalierite.",
+      "Item": "Escavalierite"
     }
   ],
   "Image": "",

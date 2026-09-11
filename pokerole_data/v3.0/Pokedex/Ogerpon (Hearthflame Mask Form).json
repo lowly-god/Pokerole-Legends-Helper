@@ -1,162 +1,170 @@
 {
-    "Number": 1017,
-    "DexID": "1017F2",
-    "Name": "Ogerpon (Hearthflame Mask Form)",
-    "Type1": "Grass",
-    "Type2": "Fire",
-    "BaseHP": 5,
-    "Strength": 3,
-    "MaxStrength": 7,
-    "Dexterity": 3,
-    "MaxDexterity": 6,
-    "Vitality": 2,
-    "MaxVitality": 5,
-    "Special": 2,
-    "MaxSpecial": 4,
-    "Insight": 3,
-    "MaxInsight": 6,
-    "Ability1": "Mold Breaker",
-    "Ability2": "Embody Aspect",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "F",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "ogerpon-hearthflame-mask-form",
-    "DexCategory": "Mask Pokémon",
-    "Height": {
-        "Meters": 1.2,
-        "Feet": 4.0
+  "Number": 1017,
+  "DexID": "1017F2",
+  "Name": "Ogerpon (Hearthflame Mask Form)",
+  "Type1": "Grass",
+  "Type2": "Fire",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 2,
+  "MaxSpecial": 4,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Mold Breaker",
+  "Ability2": "Embody Aspect",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "F",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "ogerpon-hearthflame-mask-form",
+  "DexCategory": "Mask Pokémon",
+  "Height": {
+    "Meters": 1.2,
+    "Feet": 4.0
+  },
+  "Weight": {
+    "Kilograms": 40.0,
+    "Pounds": 88.0
+  },
+  "DexDescription": "Ancient myths and legends remain alive to this day. It is said Kitakami is visited by an angry creature during the festival of masks. The creature looks menacing and sets the town's decoration on fire.",
+  "Evolutions": [
+    {
+      "To": "Ogerpon (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Ogerponite.",
+      "Item": "Ogerponite"
     },
-    "Weight": {
-        "Kilograms": 40.0,
-        "Pounds": 88.0
+    {
+      "From": "Ogerpon (Teal Mask Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Hold Hearthflame Mask.",
+      "Item": "Hearthflame Mask",
+      "Special": "Hold Hearthflame Mask."
     },
-    "DexDescription": "Ancient myths and legends remain alive to this day. It is said Kitakami is visited by an angry creature during the festival of masks. The creature looks menacing and sets the town's decoration on fire.",
-    "Evolutions": [
-        {
-            "To": "Ogerpon (Cornerstone Mask Form)",
-            "Kind": "Form"
-        },
-        {
-            "To": "Ogerpon (Teal Mask Form)",
-            "Kind": "Form"
-        },
-        {
-            "To": "Ogerpon (Wellspring Mask Form)",
-            "Kind": "Form"
-        }
-    ],
-    "Image": "ogerpon-hearthflame-mask-form.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Vine Whip"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Quick Attack"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Focus Energy"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Growth"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Leech Seed"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Double Kick"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Scary Face"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Low Sweep"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Protect"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Ivy Cudgel"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Cauterize"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Asteroid Shot"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Taunt"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Follow Me"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "U-Turn"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Charm"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Slam"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Sunny Day"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Synthesis"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Throat Chop"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Blaze Kick"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Spiky Shield"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Superpower"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Power Whip"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Wood Hammer"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Solar Blade"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Jungle Healing"
-        }
-    ]
+    {
+      "To": "Ogerpon (Teal Mask Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Hold Teal Mask.",
+      "Item": "Teal Mask",
+      "Special": "Hold Teal Mask."
+    }
+  ],
+  "Image": "ogerpon-hearthflame-mask-form.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Vine Whip"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Quick Attack"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Focus Energy"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Growth"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Leech Seed"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Kick"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Low Sweep"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ivy Cudgel"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cauterize"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Asteroid Shot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Taunt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Follow Me"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "U-Turn"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Charm"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Slam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Sunny Day"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Synthesis"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Throat Chop"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Blaze Kick"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Spiky Shield"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Superpower"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Power Whip"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wood Hammer"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Solar Blade"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Jungle Healing"
+    }
+  ]
 }

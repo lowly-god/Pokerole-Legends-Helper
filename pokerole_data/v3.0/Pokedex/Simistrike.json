@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Panstrike",
+      "DisplayMethod": "Use Brave Stone.",
       "Kind": "Stone",
       "Item": "Brave Stone"
     }

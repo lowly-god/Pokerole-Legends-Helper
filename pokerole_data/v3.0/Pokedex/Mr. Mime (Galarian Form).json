@@ -36,15 +36,17 @@
   "DexDescription": "Mime Jr. that endure the harsh winter of Galar are able to create invisible walls that suddenly turn to ice. As they evolve, they start creating ice floors that allow them to tap-dance, which they enjoy more than anything.",
   "Evolutions": [
     {
-      "From": "Mime Jr",
-      "Kind": "Level",
-      "Move": "Mimic",
-      "Region": "Galar"
-    },
-    {
       "To": "Mr. Rime",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "From": "Mime Jr",
+      "DisplayMethod": "Male only. Medium Evolution while knowing Copycat.",
+      "Kind": "Level",
+      "Speed": "Medium",
+      "Move": "Copycat",
+      "Gender": "Male"
     }
   ],
   "Image": "mr-mime-galarian-form.png",

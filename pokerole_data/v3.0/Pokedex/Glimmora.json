@@ -39,6 +39,12 @@
       "From": "Glimmet",
       "Kind": "Level",
       "Speed": "Slow"
+    },
+    {
+      "To": "Glimmora (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Glimmoranite.",
+      "Item": "Glimmoranite"
     }
   ],
   "Image": "glimmora.png",

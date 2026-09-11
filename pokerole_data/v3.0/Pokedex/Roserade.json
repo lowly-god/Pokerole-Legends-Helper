@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Roselia",
+      "DisplayMethod": "Use Shiny Stone.",
       "Kind": "Stone",
       "Item": "Shiny Stone"
     }

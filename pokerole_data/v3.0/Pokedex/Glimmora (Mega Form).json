@@ -38,7 +38,8 @@
     {
       "From": "Glimmora",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Glimmoranite.",
+      "Item": "Glimmoranite"
     }
   ],
   "Image": "",

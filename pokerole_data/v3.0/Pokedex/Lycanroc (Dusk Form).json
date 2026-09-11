@@ -37,9 +37,10 @@
   "Evolutions": [
     {
       "From": "Rockruff",
+      "DisplayMethod": "Slow evolution at dawn or dusk.",
       "Kind": "Level",
       "Speed": "Slow",
-      "Special": "Dusk"
+      "Special": "Slow evolution at dawn or dusk."
     }
   ],
   "Image": "lycanroc-dusk-form.png",

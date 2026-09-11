@@ -37,8 +37,17 @@
   "Evolutions": [
     {
       "From": "Gimmighoul (Chest Form)",
-      "Kind": "Special",
-      "Special": "Fill the gold chest"
+      "DisplayMethod": "Slow Evolution and Collect 999 Gimmighoul Coins.",
+      "Kind": "Level",
+      "Speed": "Slow",
+      "Special": "Slow Evolution and Collect 999 Gimmighoul Coins."
+    },
+    {
+      "From": "Gimmighoul (Roaming Form)",
+      "DisplayMethod": "Slow Evolution and Have ₽100,000.",
+      "Kind": "Level",
+      "Speed": "Slow",
+      "Special": "Slow Evolution and Have ₽100,000."
     }
   ],
   "Image": "gholdengo.png",

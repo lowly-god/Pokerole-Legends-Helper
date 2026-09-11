@@ -37,7 +37,10 @@
   "Evolutions": [
     {
       "From": "Groudon",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Mega Evolution using Red Orb.",
+      "Item": "Red Orb",
+      "Special": "Mega Evolution using Red Orb."
     }
   ],
   "Image": "groudon-primal-form.png",

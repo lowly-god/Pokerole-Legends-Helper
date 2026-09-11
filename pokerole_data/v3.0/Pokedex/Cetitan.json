@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Cetoddle",
+      "DisplayMethod": "Use Ice Stone.",
       "Kind": "Stone",
       "Item": "Ice Stone"
     }

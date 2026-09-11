@@ -38,6 +38,7 @@
     {
       "From": "Venusaur",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Venusaurite.",
       "Item": "Venusaurite"
     }
   ],

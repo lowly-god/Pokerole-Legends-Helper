@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Stonjourner",
+      "DisplayMethod": "Use Rune Stone.",
       "Kind": "Stone",
       "Item": "Rune Stone"
     }

@@ -37,7 +37,10 @@
   "Evolutions": [
     {
       "To": "Wishiwashi (Swarm Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Activate Schooling.",
+      "Ability": "Schooling",
+      "Special": "Activate Schooling."
     }
   ],
   "Image": "wishiwashi.png",

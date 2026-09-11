@@ -39,6 +39,12 @@
       "From": "Whirlipede",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Scolipede (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Scolipite.",
+      "Item": "Scolipite"
     }
   ],
   "Image": "scolipede.png",

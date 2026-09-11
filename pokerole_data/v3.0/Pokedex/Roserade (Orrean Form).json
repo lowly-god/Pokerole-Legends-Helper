@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Roselia (Orrean Form)",
+      "DisplayMethod": "Use Desert Rose.",
       "Kind": "Stone",
       "Item": "Desert Rose"
     }

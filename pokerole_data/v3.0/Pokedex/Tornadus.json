@@ -37,7 +37,17 @@
   "Evolutions": [
     {
       "To": "Tornadus (Therian Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Use Reveal Glass.",
+      "Item": "Reveal Glass",
+      "Special": "Use Reveal Glass."
+    },
+    {
+      "From": "Tornadus (Therian Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Use Reveal Glass.",
+      "Item": "Reveal Glass",
+      "Special": "Use Reveal Glass."
     }
   ],
   "Image": "tornadus.png",

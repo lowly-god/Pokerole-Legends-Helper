@@ -38,7 +38,8 @@
     {
       "From": "Voodoom",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Voodoomite.",
+      "Item": "Voodoomite"
     }
   ],
   "Image": "",

@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Skitty",
+      "DisplayMethod": "Use Moon Stone.",
       "Kind": "Stone",
       "Item": "Moon Stone"
     }

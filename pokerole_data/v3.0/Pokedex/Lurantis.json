@@ -39,6 +39,12 @@
       "From": "Fomantis",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Lurantis (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Lurantisite.",
+      "Item": "Lurantisite"
     }
   ],
   "Image": "lurantis.png",

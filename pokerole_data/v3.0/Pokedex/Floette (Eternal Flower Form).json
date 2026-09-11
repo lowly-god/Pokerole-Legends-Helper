@@ -34,7 +34,14 @@
     "Pounds": 2.0
   },
   "DexDescription": "An ancient king used a terrifying Weapon to revive his friend. Sacrificing many lives to bring it back. This Floette holds the “Eternal Flower” and is functionally immortal.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Floette (Mega Eternal Flower Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Floettite.",
+      "Item": "Floettite"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

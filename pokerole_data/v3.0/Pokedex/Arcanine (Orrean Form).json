@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Growlithe",
+      "DisplayMethod": "Use Ice Stone.",
       "Kind": "Stone",
       "Item": "Ice Stone"
     }

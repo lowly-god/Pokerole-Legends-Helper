@@ -37,11 +37,7 @@
   "Evolutions": [
     {
       "From": "Kubfu",
-      "Kind": "Special",
-      "Special": "Finishing Trials of Darkness"
-    },
-    {
-      "From": "Kubfu",
+      "DisplayMethod": "Use Scroll of Darkness OR Complete the Trials of Darkness.",
       "Kind": "Item",
       "Item": "Scroll of Darkness"
     }

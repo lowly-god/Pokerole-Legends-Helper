@@ -37,12 +37,15 @@
   "Evolutions": [
     {
       "From": "Kirlia",
+      "DisplayMethod": "Female only. Use Dawn Stone.",
       "Kind": "Stone",
-      "Item": "Dawn Stone"
+      "Item": "Dawn Stone",
+      "Gender": "Female"
     },
     {
       "To": "Gardevoir (Mega Form)",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Gardevoirite.",
       "Item": "Gardevoirite"
     }
   ],

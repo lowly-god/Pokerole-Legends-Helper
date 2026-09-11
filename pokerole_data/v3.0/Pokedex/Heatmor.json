@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "To": "Heatmega",
+      "DisplayMethod": "Use Adamantite Stone.",
       "Kind": "Stone",
       "Item": "Adamantite Stone"
     }

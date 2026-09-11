@@ -38,7 +38,8 @@
     {
       "From": "Arbok",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Arbokinite.",
+      "Item": "Arbokinite"
     }
   ],
   "Image": "",

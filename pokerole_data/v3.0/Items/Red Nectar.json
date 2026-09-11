@@ -1,0 +1,13 @@
+{
+  "Name": "Red Nectar",
+  "_id": "red-nectar",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "Consumable. Transforms Oricorio into Oricorio (Baile Form).",
+  "OneUse": true,
+  "TrainerPrice": "500",
+  "Cures": "",
+  "Image": ""
+}

@@ -37,7 +37,9 @@
   "Evolutions": [
     {
       "From": "Boldore",
-      "Kind": "Trade"
+      "Kind": "Trade",
+      "Item": "Link Stone",
+      "DisplayMethod": "Trade OR Use Link Stone"
     }
   ],
   "Image": "gigalith.png",

@@ -41,14 +41,16 @@
       "Speed": "Medium"
     },
     {
-      "To": "Charizard (Mega Y Form)",
-      "Kind": "Mega",
-      "Item": "Charizardite Y"
-    },
-    {
       "To": "Charizard (Mega X Form)",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Charizardite X.",
       "Item": "Charizardite X"
+    },
+    {
+      "To": "Charizard (Mega Y Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Charizardite Y.",
+      "Item": "Charizardite Y"
     }
   ],
   "Image": "charizard.png",

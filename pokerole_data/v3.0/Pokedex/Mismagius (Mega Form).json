@@ -38,7 +38,8 @@
     {
       "From": "Mismagius",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Mismagisite.",
+      "Item": "Mismagisite"
     }
   ],
   "Image": "",

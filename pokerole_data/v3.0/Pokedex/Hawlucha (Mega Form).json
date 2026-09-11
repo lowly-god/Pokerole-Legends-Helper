@@ -38,7 +38,8 @@
     {
       "From": "Hawlucha",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Hawluchinite.",
+      "Item": "Hawluchinite"
     }
   ],
   "Image": "",

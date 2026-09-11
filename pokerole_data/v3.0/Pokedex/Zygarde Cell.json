@@ -37,18 +37,21 @@
   "Evolutions": [
     {
       "To": "Zygarde 10%",
-      "Kind": "Special",
-      "Item": "Zygarde cells"
+      "Kind": "Transform",
+      "DisplayMethod": "Requires Zygarde Cells.",
+      "Special": "Requires Zygarde Cells."
     },
     {
       "To": "Zygarde 50%",
-      "Kind": "Special",
-      "Item": "Zygarde cells"
+      "Kind": "Transform",
+      "DisplayMethod": "Requires Zygarde Cells.",
+      "Special": "Requires Zygarde Cells."
     },
     {
       "To": "Zygarde 100%",
-      "Kind": "Special",
-      "Item": "Zygarde cells"
+      "Kind": "Transform",
+      "DisplayMethod": "Requires Zygarde Cells.",
+      "Special": "Requires Zygarde Cells."
     }
   ],
   "Image": "zygarde-cell.png",

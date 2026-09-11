@@ -38,7 +38,8 @@
     {
       "From": "Scrafty",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Scraftinite.",
+      "Item": "Scraftinite"
     }
   ],
   "Image": "",

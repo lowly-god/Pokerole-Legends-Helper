@@ -37,11 +37,14 @@
   "Evolutions": [
     {
       "From": "Kadabra",
-      "Kind": "Trade"
+      "Kind": "Trade",
+      "Item": "Link Stone",
+      "DisplayMethod": "Trade OR Use Link Stone"
     },
     {
       "To": "Alakazam (Mega Form)",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Alakazite.",
       "Item": "Alakazite"
     }
   ],

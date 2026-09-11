@@ -37,7 +37,9 @@
   "Evolutions": [
     {
       "To": "Eternatus (Eternamax Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Mega Evolve when the Darkest Day occurs.",
+      "Special": "Mega Evolve when the Darkest Day occurs."
     }
   ],
   "Image": "eternatus.png",

@@ -38,7 +38,8 @@
     {
       "From": "Wobbuffet",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Wobbuffetite.",
+      "Item": "Wobbuffetite"
     }
   ],
   "Image": "",

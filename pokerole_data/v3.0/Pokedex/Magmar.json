@@ -42,7 +42,8 @@
     },
     {
       "To": "Magmortar",
-      "Kind": "Trade",
+      "DisplayMethod": "Use Magmarizer.",
+      "Kind": "Item",
       "Item": "Magmarizer"
     }
   ],

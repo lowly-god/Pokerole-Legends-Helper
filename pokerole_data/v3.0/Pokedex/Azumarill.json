@@ -39,6 +39,12 @@
       "From": "Marill",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Azumarill (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Azumarillite.",
+      "Item": "Azumarillite"
     }
   ],
   "Image": "azumarill.png",

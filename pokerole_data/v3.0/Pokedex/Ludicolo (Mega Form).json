@@ -38,7 +38,8 @@
     {
       "From": "Ludicolo",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Ludicolonite.",
+      "Item": "Ludicolonite"
     }
   ],
   "Image": "",

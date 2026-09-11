@@ -37,15 +37,17 @@
   "Evolutions": [
     {
       "To": "Basculegion (Female Form)",
+      "DisplayMethod": "Female form. Slow evolution.",
       "Kind": "Level",
       "Speed": "Slow",
-      "Special": "Female"
+      "Gender": "Female"
     },
     {
       "To": "Basculegion (Male Form)",
+      "DisplayMethod": "Male form. Slow evolution.",
       "Kind": "Level",
       "Speed": "Slow",
-      "Special": "Male"
+      "Gender": "Male"
     }
   ],
   "Image": "basculin-hisuian-form.png",

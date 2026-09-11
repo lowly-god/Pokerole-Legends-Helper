@@ -39,6 +39,12 @@
       "From": "Scraggy",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Scrafty (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Scraftinite.",
+      "Item": "Scraftinite"
     }
   ],
   "Image": "scrafty.png",

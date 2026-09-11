@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Riolu",
+      "DisplayMethod": "Loyalty 5.",
       "Kind": "Stat",
       "Stat": "Loyalty",
       "Value": 5
@@ -44,7 +45,14 @@
     {
       "To": "Lucario (Mega Form)",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Lucarionite.",
       "Item": "Lucarionite"
+    },
+    {
+      "To": "Lucario (Mega Z Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Lucarionite Z.",
+      "Item": "Lucarionite Z"
     }
   ],
   "Image": "lucario.png",

@@ -38,7 +38,8 @@
     {
       "From": "Excadrill",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Excadrite.",
+      "Item": "Excadrite"
     }
   ],
   "Image": "",

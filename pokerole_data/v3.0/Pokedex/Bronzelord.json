@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Bronzong",
+      "DisplayMethod": "Use Rune Stone.",
       "Kind": "Stone",
       "Item": "Rune Stone"
     }

@@ -38,7 +38,8 @@
     {
       "From": "Ariados",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Ariadosite.",
+      "Item": "Ariadosite"
     }
   ],
   "Image": "",

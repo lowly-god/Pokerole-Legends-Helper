@@ -37,9 +37,16 @@
   "Evolutions": [
     {
       "From": "Golbat",
+      "DisplayMethod": "Happiness 4.",
       "Kind": "Stat",
       "Stat": "Happiness",
       "Value": 4
+    },
+    {
+      "To": "Crobat (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Crobatite.",
+      "Item": "Crobatite"
     }
   ],
   "Image": "crobat.png",

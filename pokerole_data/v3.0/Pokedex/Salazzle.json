@@ -37,9 +37,16 @@
   "Evolutions": [
     {
       "From": "Salandit",
+      "DisplayMethod": "Female only. Medium Evolution.",
       "Kind": "Level",
       "Speed": "Medium",
       "Gender": "Female"
+    },
+    {
+      "To": "Salazzle (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Salazzlite.",
+      "Item": "Salazzlite"
     }
   ],
   "Image": "salazzle.png",

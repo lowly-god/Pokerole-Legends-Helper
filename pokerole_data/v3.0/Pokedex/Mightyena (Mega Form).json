@@ -38,7 +38,8 @@
     {
       "From": "Mightyena",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Mightyenite.",
+      "Item": "Mightyenite"
     }
   ],
   "Image": "",

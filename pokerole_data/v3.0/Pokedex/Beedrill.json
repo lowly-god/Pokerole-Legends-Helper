@@ -43,6 +43,7 @@
     {
       "To": "Beedrill (Mega Form)",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Beedrillite.",
       "Item": "Beedrillite"
     }
   ],

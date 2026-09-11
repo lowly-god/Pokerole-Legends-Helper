@@ -37,9 +37,16 @@
   "Evolutions": [
     {
       "From": "Chansey",
+      "DisplayMethod": "Happiness 5.",
       "Kind": "Stat",
       "Stat": "Happiness",
       "Value": 5
+    },
+    {
+      "To": "Blissey (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Blisseyite.",
+      "Item": "Blisseyite"
     }
   ],
   "Image": "blissey.png",

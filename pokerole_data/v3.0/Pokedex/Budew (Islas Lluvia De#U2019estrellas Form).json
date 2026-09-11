@@ -34,7 +34,15 @@
     "Pounds": 5.0
   },
   "DexDescription": "The original native Orrelboroun species of Budew, they can now only be found on the Islas Lluvia De'estrellas. They are often hidden away in the deepest parts of forest, fast asleep. They only wake up when they need sunlight. Their skin is very tough and its spiked hair can feel metallic.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Roselia (Islas Lluvia De’estrellas Form)",
+      "DisplayMethod": "Happiness 4.",
+      "Kind": "Stat",
+      "Stat": "Happiness",
+      "Value": 4
+    }
+  ],
   "Image": "",
   "Moves": [
     {

@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Kirlia",
+      "DisplayMethod": "Male only. Use Dawn Stone.",
       "Kind": "Stone",
       "Item": "Dawn Stone",
       "Gender": "Male"
@@ -44,6 +45,7 @@
     {
       "To": "Gallade (Mega Form)",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Galladite.",
       "Item": "Galladite"
     }
   ],

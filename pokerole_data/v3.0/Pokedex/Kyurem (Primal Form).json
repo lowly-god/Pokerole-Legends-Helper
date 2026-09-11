@@ -34,7 +34,15 @@
     "Pounds": 813.0
   },
   "DexDescription": "Through the use of more powerful Gene Splicer technology, Kyurem has been perfected, the way it was meant to be. It has now been fused with both Reshiram and Zekrom.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Kyurem and Reshiram and Zekrom",
+      "Kind": "Transform",
+      "DisplayMethod": "Use DNA Splicers.",
+      "Item": "DNA Splicers",
+      "Special": "Use DNA Splicers."
+    }
+  ],
   "Image": "",
   "Moves": [
     {

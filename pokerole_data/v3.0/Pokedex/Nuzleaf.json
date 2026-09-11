@@ -42,6 +42,7 @@
     },
     {
       "To": "Shiftry",
+      "DisplayMethod": "Use Leaf Stone.",
       "Kind": "Stone",
       "Item": "Leaf Stone"
     }

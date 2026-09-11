@@ -37,17 +37,20 @@
   "Evolutions": [
     {
       "From": "Pichu",
+      "DisplayMethod": "Happiness 4.",
       "Kind": "Stat",
       "Stat": "Happiness",
       "Value": 4
     },
     {
       "To": "Raichu",
+      "DisplayMethod": "Use Thunder Stone.",
       "Kind": "Stone",
       "Item": "Thunder Stone"
     },
     {
       "To": "Raichu (Alolan Form)",
+      "DisplayMethod": "Use Thunder Stone in Alola.",
       "Kind": "Stone",
       "Item": "Thunder Stone",
       "Region": "Alola"

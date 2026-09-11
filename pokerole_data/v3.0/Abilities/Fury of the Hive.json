@@ -1,6 +1,6 @@
 {
-    "Name": "Fury of the Hive",
-    "Effect": "Only male Combee can use this Ability. Costs 3 Will Points to activate. Replace your Pokémon with Combee Swarm-Form at full HP. Increase its Rank to Ace. At the end of the battle restore Combee to its base form.",
-    "Description": "",
-    "_id": "fury-of-the-hive"
+  "Name": "Fury of the Hive",
+  "Effect": "Only Combee (Male Form) may have this Ability. Spend 3 Will Points to activate. Replace Combee (Male Form) with Combee (Swarm Form) at full HP. Revert after battle.",
+  "Description": "",
+  "_id": "fury-of-the-hive"
 }

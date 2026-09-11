@@ -37,18 +37,23 @@
   "Evolutions": [
     {
       "From": "Cosmog",
+      "DisplayMethod": "Slow level evolution.",
       "Kind": "Level",
-      "Speed": "Unknown"
-    },
-    {
-      "To": "Solgaleo",
-      "Kind": "Level",
-      "Game": "Sword"
+      "Speed": "Slow"
     },
     {
       "To": "Lunala",
+      "DisplayMethod": "Slow level evolution and Play Moon Flute at the Altar of the Moone.",
       "Kind": "Level",
-      "Game": "Shield"
+      "Speed": "Slow",
+      "Special": "Slow level evolution and Play Moon Flute at the Altar of the Moone."
+    },
+    {
+      "To": "Solgaleo",
+      "DisplayMethod": "Slow level evolution and Play Sun Flute at the Altar of the Sunne.",
+      "Kind": "Level",
+      "Speed": "Slow",
+      "Special": "Slow level evolution and Play Sun Flute at the Altar of the Sunne."
     }
   ],
   "Image": "cosmoem.png",

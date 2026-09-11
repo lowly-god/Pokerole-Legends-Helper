@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "To": "Seraphish",
+      "DisplayMethod": "Use Shiny Stone.",
       "Kind": "Stone",
       "Item": "Shiny Stone"
     }

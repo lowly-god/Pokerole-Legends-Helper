@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "To": "Arcanine (Hisuian Form)",
+      "DisplayMethod": "Use Fire Stone.",
       "Kind": "Stone",
       "Item": "Fire Stone"
     }

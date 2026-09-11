@@ -39,6 +39,12 @@
       "From": "Yanma",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Yanmega (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Yanmegarite.",
+      "Item": "Yanmegarite"
     }
   ],
   "Image": "yanmega.png",

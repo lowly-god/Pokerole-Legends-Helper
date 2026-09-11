@@ -37,11 +37,13 @@
   "Evolutions": [
     {
       "To": "Exeggutor",
+      "DisplayMethod": "Use Leaf Stone.",
       "Kind": "Stone",
       "Item": "Leaf Stone"
     },
     {
       "To": "Exeggutor (Alolan Form)",
+      "DisplayMethod": "Use Leaf Stone in Alola.",
       "Kind": "Stone",
       "Item": "Leaf Stone",
       "Region": "Alola"

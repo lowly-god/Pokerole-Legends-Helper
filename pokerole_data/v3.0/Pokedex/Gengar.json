@@ -37,11 +37,14 @@
   "Evolutions": [
     {
       "From": "Haunter",
-      "Kind": "Trade"
+      "Kind": "Trade",
+      "Item": "Link Stone",
+      "DisplayMethod": "Trade OR Use Link Stone"
     },
     {
       "To": "Gengar (Mega Form)",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Gengarite.",
       "Item": "Gengarite"
     }
   ],

@@ -37,7 +37,10 @@
   "Evolutions": [
     {
       "From": "Darmanitan",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Activate Ability.",
+      "Ability": "Ability",
+      "Special": "Activate Ability."
     }
   ],
   "Image": "darmanitan-zen-form.png",

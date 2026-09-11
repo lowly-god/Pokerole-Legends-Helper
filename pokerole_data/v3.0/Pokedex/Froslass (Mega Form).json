@@ -38,7 +38,8 @@
     {
       "From": "Froslass",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Froslassite.",
+      "Item": "Froslassite"
     }
   ],
   "Image": "",

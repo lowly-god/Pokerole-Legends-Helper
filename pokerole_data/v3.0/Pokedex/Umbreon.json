@@ -37,13 +37,7 @@
   "Evolutions": [
     {
       "From": "Eevee",
-      "Kind": "Special",
-      "Stat": "Happiness",
-      "Value": 4,
-      "Special": "Moonlight"
-    },
-    {
-      "From": "Eevee",
+      "DisplayMethod": "Use Moon Stone OR Happiness 4 during moonlight.",
       "Kind": "Stone",
       "Item": "Moon Stone"
     }

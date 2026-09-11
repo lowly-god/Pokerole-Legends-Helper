@@ -37,8 +37,15 @@
   "Evolutions": [
     {
       "From": "Snorunt",
+      "DisplayMethod": "Use Dawn Stone.",
       "Kind": "Stone",
       "Item": "Dawn Stone"
+    },
+    {
+      "To": "Froslass (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Froslassite.",
+      "Item": "Froslassite"
     }
   ],
   "Image": "froslass.png",

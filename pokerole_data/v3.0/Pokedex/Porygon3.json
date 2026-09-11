@@ -1,7 +1,7 @@
 {
   "Number": 1078,
   "DexID": "1078",
-  "Name": "Porygon 3",
+  "Name": "Porygon3",
   "Type1": "Normal",
   "Type2": "Psychic",
   "BaseHP": 6,
@@ -23,7 +23,7 @@
   "GenderType": "",
   "Legendary": false,
   "GoodStarter": false,
-  "_id": "porygon-3",
+  "_id": "porygon3",
   "DexCategory": "Satellite Pokémon",
   "Height": {
     "Meters": 1.35,
@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Porygon2",
+      "DisplayMethod": "Use Satellite Parts.",
       "Kind": "Item",
       "Item": "Satellite Parts"
     }

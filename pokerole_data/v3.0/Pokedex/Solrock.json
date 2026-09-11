@@ -34,7 +34,14 @@
     "Pounds": 339.0
   },
   "DexDescription": "People say it came from space. They release the purest light when they get angry. Usually found absorbing solar light during the day, Solrock can emit blinding lights and burning heat while spinning.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Solrock (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Solrockite.",
+      "Item": "Solrockite"
+    }
+  ],
   "Image": "solrock.png",
   "Moves": [
     {

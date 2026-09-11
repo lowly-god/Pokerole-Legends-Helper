@@ -39,6 +39,12 @@
       "From": "Staravia",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Staraptor (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Staraptite.",
+      "Item": "Staraptite"
     }
   ],
   "Image": "staraptor.png",

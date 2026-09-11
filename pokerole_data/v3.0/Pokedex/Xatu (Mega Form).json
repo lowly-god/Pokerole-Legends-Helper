@@ -38,7 +38,8 @@
     {
       "From": "Xatu",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Xatunite.",
+      "Item": "Xatunite"
     }
   ],
   "Image": "",

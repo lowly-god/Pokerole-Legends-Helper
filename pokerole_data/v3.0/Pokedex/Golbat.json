@@ -42,6 +42,7 @@
     },
     {
       "To": "Crobat",
+      "DisplayMethod": "Happiness 4.",
       "Kind": "Stat",
       "Stat": "Happiness",
       "Value": 4

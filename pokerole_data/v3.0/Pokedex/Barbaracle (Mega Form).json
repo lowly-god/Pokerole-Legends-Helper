@@ -38,7 +38,8 @@
     {
       "From": "Barbaracle",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Barbaracite.",
+      "Item": "Barbaracite"
     }
   ],
   "Image": "",

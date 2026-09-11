@@ -37,8 +37,15 @@
   "Evolutions": [
     {
       "From": "Weepinbell",
+      "DisplayMethod": "Use Leaf Stone.",
       "Kind": "Stone",
       "Item": "Leaf Stone"
+    },
+    {
+      "To": "Victreebel (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Victreebelite.",
+      "Item": "Victreebelite"
     }
   ],
   "Image": "victreebel.png",

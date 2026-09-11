@@ -34,7 +34,15 @@
     "Pounds": 234.0
   },
   "DexDescription": "The original RKS system has been improved upon. Granting Silvally the ability to use multiple drives at once.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Silvally",
+      "Kind": "Transform",
+      "DisplayMethod": "Use Improved RKS System.",
+      "Item": "Improved RKS System",
+      "Special": "Use Improved RKS System."
+    }
+  ],
   "Image": "",
   "Moves": [
     {

@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Cottonee",
+      "DisplayMethod": "Use Sun Stone.",
       "Kind": "Stone",
       "Item": "Sun Stone"
     }

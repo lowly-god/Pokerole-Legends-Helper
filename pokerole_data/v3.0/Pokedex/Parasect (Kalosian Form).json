@@ -34,7 +34,14 @@
     "Pounds": 71.0
   },
   "DexDescription": "The colony of mushrooms on Parasect's back produce a dull bioluminescence. Waving its claws it can manipulate objects with psionic power, crushing them with a force of 180 PSI.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Parasect (Mega Kalosian Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Parasectite.",
+      "Item": "Parasectite"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

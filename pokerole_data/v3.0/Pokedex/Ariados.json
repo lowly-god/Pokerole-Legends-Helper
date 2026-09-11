@@ -39,6 +39,12 @@
       "From": "Spinarak",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Ariados (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Ariadosite.",
+      "Item": "Ariadosite"
     }
   ],
   "Image": "ariados.png",

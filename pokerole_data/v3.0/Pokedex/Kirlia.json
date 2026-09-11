@@ -42,13 +42,17 @@
     },
     {
       "To": "Gardevoir",
+      "DisplayMethod": "Female only. Use Dawn Stone.",
       "Kind": "Stone",
-      "Item": "Dawn Stone"
+      "Item": "Dawn Stone",
+      "Gender": "Female"
     },
     {
       "To": "Gallade",
+      "DisplayMethod": "Male only. Use Dawn Stone.",
       "Kind": "Stone",
-      "Item": "Dawn Stone"
+      "Item": "Dawn Stone",
+      "Gender": "Male"
     }
   ],
   "Image": "kirlia.png",

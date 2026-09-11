@@ -37,8 +37,11 @@
   "Evolutions": [
     {
       "From": "Mime Jr",
-      "Kind": "Special",
-      "Special": "Mime Jr. (Female / Using Double Slap)"
+      "DisplayMethod": "Female only. Medium Evolution while knowing Double Slap.",
+      "Kind": "Level",
+      "Speed": "Medium",
+      "Move": "Double Slap",
+      "Gender": "Female"
     }
   ],
   "Image": "",

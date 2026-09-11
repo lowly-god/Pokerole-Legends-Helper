@@ -42,6 +42,7 @@
     },
     {
       "To": "Nidoqueen",
+      "DisplayMethod": "Use Moon Stone.",
       "Kind": "Stone",
       "Item": "Moon Stone"
     }

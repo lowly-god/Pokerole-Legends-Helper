@@ -34,7 +34,15 @@
     "Pounds": 10.0
   },
   "DexDescription": "Appearing amidst the laughter of children and the warmth of homes, it seeks love, though often does not receive it due to its rather scary appearance.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Fauxpunny",
+      "DisplayMethod": "Happiness 4.",
+      "Kind": "Stat",
+      "Stat": "Happiness",
+      "Value": 4
+    }
+  ],
   "Image": "",
   "Moves": [
     {

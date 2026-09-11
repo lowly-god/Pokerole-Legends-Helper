@@ -37,8 +37,10 @@
   "Evolutions": [
     {
       "From": "Cosmoem",
+      "DisplayMethod": "Slow level evolution and Play Moon Flute at the Altar of the Moone.",
       "Kind": "Level",
-      "Game": "Shield"
+      "Speed": "Slow",
+      "Special": "Slow level evolution and Play Moon Flute at the Altar of the Moone."
     }
   ],
   "Image": "lunala.png",

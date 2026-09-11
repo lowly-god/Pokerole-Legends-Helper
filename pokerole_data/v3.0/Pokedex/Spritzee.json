@@ -37,7 +37,8 @@
   "Evolutions": [
     {
       "To": "Aromatisse",
-      "Kind": "Trade",
+      "DisplayMethod": "Use Sachet.",
+      "Kind": "Item",
       "Item": "Sachet"
     }
   ],

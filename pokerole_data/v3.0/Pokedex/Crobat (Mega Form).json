@@ -38,7 +38,8 @@
     {
       "From": "Crobat",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Crobatite.",
+      "Item": "Crobatite"
     }
   ],
   "Image": "",

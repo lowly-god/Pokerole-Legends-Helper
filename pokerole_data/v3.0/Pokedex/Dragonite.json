@@ -39,6 +39,12 @@
       "From": "Dragonair",
       "Kind": "Level",
       "Speed": "Slow"
+    },
+    {
+      "To": "Dragonite (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Dragoninite.",
+      "Item": "Dragoninite"
     }
   ],
   "Image": "dragonite.png",

@@ -42,6 +42,7 @@
     },
     {
       "To": "Victreebel",
+      "DisplayMethod": "Use Leaf Stone.",
       "Kind": "Stone",
       "Item": "Leaf Stone"
     }

@@ -36,9 +36,16 @@
   "DexDescription": "The complete form of Zygarde",
   "Evolutions": [
     {
+      "To": "Zygarde (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Zygardite.",
+      "Item": "Zygardite"
+    },
+    {
       "From": "Zygarde Cell",
-      "Kind": "Special",
-      "Item": "Zygarde cells"
+      "Kind": "Transform",
+      "DisplayMethod": "Requires Zygarde Cells.",
+      "Special": "Requires Zygarde Cells."
     }
   ],
   "Image": "zygarde-100.png",

@@ -38,6 +38,7 @@
     {
       "From": "Gyarados",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Gyaradosite.",
       "Item": "Gyaradosite"
     }
   ],

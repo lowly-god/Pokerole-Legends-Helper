@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "To": "Durengine",
+      "DisplayMethod": "Use Adamantite Stone.",
       "Kind": "Stone",
       "Item": "Adamantite Stone"
     }

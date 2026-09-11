@@ -38,7 +38,8 @@
     {
       "From": "Garchomp (Ruskovan Form)",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using (Ruskovan) Garchompite.",
+      "Item": "(Ruskovan) Garchompite"
     }
   ],
   "Image": "",

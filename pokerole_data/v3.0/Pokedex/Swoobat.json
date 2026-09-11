@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Woobat",
+      "DisplayMethod": "Happiness 4.",
       "Kind": "Stat",
       "Stat": "Happiness",
       "Value": 4

@@ -38,7 +38,8 @@
     {
       "From": "Feraligatr",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Feraligite.",
+      "Item": "Feraligite"
     }
   ],
   "Image": "",

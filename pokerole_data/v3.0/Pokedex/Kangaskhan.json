@@ -38,6 +38,7 @@
     {
       "To": "Kangaskhan (Mega Form)",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Kangaskhanite.",
       "Item": "Kangaskhanite"
     }
   ],

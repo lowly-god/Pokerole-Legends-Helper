@@ -42,6 +42,7 @@
     },
     {
       "To": "Leavanny",
+      "DisplayMethod": "Happiness 4.",
       "Kind": "Stat",
       "Stat": "Happiness",
       "Value": 4

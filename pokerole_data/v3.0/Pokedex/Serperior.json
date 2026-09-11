@@ -39,6 +39,12 @@
       "From": "Servine",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Serperior (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Serpiorite.",
+      "Item": "Serpiorite"
     }
   ],
   "Image": "serperior.png",

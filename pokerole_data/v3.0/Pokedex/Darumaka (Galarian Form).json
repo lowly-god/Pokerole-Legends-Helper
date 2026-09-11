@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "To": "Darmanitan (Galarian Form)",
+      "DisplayMethod": "Use Ice Stone.",
       "Kind": "Stone",
       "Item": "Ice Stone"
     }

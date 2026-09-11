@@ -34,7 +34,15 @@
     "Pounds": 44.0
   },
   "DexDescription": "It's clear bioluminescent frills are made of a similar substance to the bodies of Jellicent and Tentacruel. It dances in the shallows as it hones its powers.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Gallade (Johtonian Form)",
+      "DisplayMethod": "Male only. Use Brave Stone.",
+      "Kind": "Stone",
+      "Item": "Brave Stone",
+      "Gender": "Male"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

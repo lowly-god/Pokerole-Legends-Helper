@@ -37,7 +37,9 @@
   "Evolutions": [
     {
       "From": "Terapagos (Terastal Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Terastallize Terapagos (Terastal Form).",
+      "Special": "Terastallize Terapagos (Terastal Form)."
     }
   ],
   "Image": "terapagos-stellar-form.png",

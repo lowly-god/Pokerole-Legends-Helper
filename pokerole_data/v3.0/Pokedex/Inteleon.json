@@ -39,6 +39,12 @@
       "From": "Drizzile",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Inteleon (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Inteleonite.",
+      "Item": "Inteleonite"
     }
   ],
   "Image": "inteleon.png",

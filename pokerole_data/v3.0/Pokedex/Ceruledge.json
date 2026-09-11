@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Charcadet",
+      "DisplayMethod": "Use Malicious Armor.",
       "Kind": "Item",
       "Item": "Malicious Armor"
     }

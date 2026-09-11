@@ -37,7 +37,8 @@
   "Evolutions": [
     {
       "From": "Rhydon",
-      "Kind": "Trade",
+      "DisplayMethod": "Use Protector.",
+      "Kind": "Item",
       "Item": "Protector"
     }
   ],

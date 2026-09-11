@@ -1,162 +1,176 @@
 {
-    "Number": 800,
-    "DexID": "0800F3",
-    "Name": "Necrozma (Ultra Burst Form)",
-    "Type1": "Psychic",
-    "Type2": "Dragon",
-    "BaseHP": 6,
-    "Strength": 4,
-    "MaxStrength": 8,
-    "Dexterity": 3,
-    "MaxDexterity": 7,
-    "Vitality": 3,
-    "MaxVitality": 6,
-    "Special": 4,
-    "MaxSpecial": 8,
-    "Insight": 3,
-    "MaxInsight": 6,
-    "Ability1": "Neuroforce",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Master",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "necrozma-ultra-burst-form",
-    "DexCategory": "Aether Foundation S.O.S Message (Recovered)",
-    "Height": {
-        "Meters": 7.5,
-        "Feet": 24.6
+  "Number": 800,
+  "DexID": "0800F3",
+  "Name": "Necrozma (Ultra Burst Form)",
+  "Type1": "Psychic",
+  "Type2": "Dragon",
+  "BaseHP": 6,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 3,
+  "MaxDexterity": 7,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Neuroforce",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "necrozma-ultra-burst-form",
+  "DexCategory": "Aether Foundation S.O.S Message (Recovered)",
+  "Height": {
+    "Meters": 7.5,
+    "Feet": 24.6
+  },
+  "Weight": {
+    "Kilograms": 230,
+    "Pounds": 507
+  },
+  "DexDescription": "Alert to all international authorities! There’s been a (White Noise) serious breach of security! This is an emergency! Close the port-(White Noise). NOW! (White Noise).",
+  "Evolutions": [
+    {
+      "From": "Necrozma",
+      "Kind": "Special"
     },
-    "Weight": {
-        "Kilograms": 230,
-        "Pounds": 507
+    {
+      "From": "Necrozma (Dawn Wings Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Mega Evolution using Ultranecrozium-Z.",
+      "Item": "Ultranecrozium Z",
+      "Special": "Mega Evolution using Ultranecrozium-Z."
     },
-    "DexDescription": "Alert to all international authorities! There’s been a (White Noise) serious breach of security! This is an emergency! Close the port-(White Noise). NOW! (White Noise).",
-    "Evolutions": [
-        {
-            "From": "Necrozma",
-            "Kind": "Special"
-        }
-    ],
-    "Image": "necrozma-ultra-burst-form.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Confusion"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Metal Claw"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Charge Beam"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Rock Blast"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Mirror Shot"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Stealth Rock"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Slash"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Stored Power"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Iron Defense"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Power Gem"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Autotomize"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Light Screen"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Reflect"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Cosmic Power"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Shadow Claw"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Moonlight"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Morning Sun"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Gravity"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Psycho Cut"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Night Slash"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Wring Out"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Outrage"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Solar Beam"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Velvet Scales"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Photon Geyser"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Heat Wave"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Moongeist Beam"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Sunsteel Strike"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Prismatic Laser"
-        }
-    ]
+    {
+      "From": "Necrozma (Dusk Mane Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Mega Evolution using Ultranecrozium-Z.",
+      "Item": "Ultranecrozium Z",
+      "Special": "Mega Evolution using Ultranecrozium-Z."
+    }
+  ],
+  "Image": "necrozma-ultra-burst-form.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Confusion"
+    },
+    {
+      "Learned": "Starter",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Charge Beam"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Rock Blast"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mirror Shot"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Stealth Rock"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Stored Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Power Gem"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Autotomize"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Cosmic Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Shadow Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Moonlight"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Morning Sun"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Gravity"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psycho Cut"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wring Out"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Solar Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Photon Geyser"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heat Wave"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Moongeist Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Sunsteel Strike"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Prismatic Laser"
+    }
+  ]
 }

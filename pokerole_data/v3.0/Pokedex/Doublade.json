@@ -42,6 +42,7 @@
     },
     {
       "To": "Aegislash",
+      "DisplayMethod": "Use Dusk Stone.",
       "Kind": "Stone",
       "Item": "Dusk Stone"
     }

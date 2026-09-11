@@ -1,7 +1,7 @@
 {
   "Number": 849,
   "DexID": "0849F2",
-  "Name": "Toxtricity (Orrean Smouldering Form)",
+  "Name": "Toxtricity (Smouldering Form)",
   "Type1": "Fire",
   "Type2": "Poison",
   "BaseHP": 5,
@@ -23,7 +23,7 @@
   "GenderType": "",
   "Legendary": false,
   "GoodStarter": false,
-  "_id": "toxtricity-orrean-smouldering-form",
+  "_id": "toxtricity-smouldering-form",
   "DexCategory": "Punk Rock Pokémon",
   "Height": {
     "Meters": 1.6,
@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Toxel",
+      "DisplayMethod": "Use Fire Stone.",
       "Kind": "Stone",
       "Item": "Fire Stone"
     }

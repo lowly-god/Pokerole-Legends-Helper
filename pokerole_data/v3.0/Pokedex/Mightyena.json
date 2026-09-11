@@ -39,6 +39,12 @@
       "From": "Poochyena",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Mightyena (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Mightyenite.",
+      "Item": "Mightyenite"
     }
   ],
   "Image": "mightyena.png",

@@ -37,18 +37,21 @@
   "Evolutions": [
     {
       "To": "Toxtricity (Amped Form)",
+      "DisplayMethod": "Slow evolution. Requires an Extroverted Nature.",
       "Kind": "Level",
       "Speed": "Slow",
-      "Special": "Extrovert"
+      "Special": "Slow evolution. Requires an Extroverted Nature."
     },
     {
       "To": "Toxtricity (Low Key Form)",
+      "DisplayMethod": "Slow evolution. Requires an Introverted Nature.",
       "Kind": "Level",
       "Speed": "Slow",
-      "Special": "Introvert"
+      "Special": "Slow evolution. Requires an Introverted Nature."
     },
     {
-      "To": "Toxtricity (Orrean Smouldering Form)",
+      "To": "Toxtricity (Smouldering Form)",
+      "DisplayMethod": "Use Fire Stone.",
       "Kind": "Stone",
       "Item": "Fire Stone"
     }

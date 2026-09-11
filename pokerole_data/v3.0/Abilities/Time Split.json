@@ -1,6 +1,6 @@
 {
-    "Name": "Time Split",
-    "Effect": "Only Celebi may have this ability. Costs 3 Will Points to activate. Replace Celebi with Tangled Time at full HP. At the end of the battle restore Celebi to its base form.",
-    "Description": "",
-    "_id": "time-split"
+  "Name": "Time Split",
+  "Effect": "Only Celebi may have this Ability. Spend 3 Will Points to activate. Replace Celebi with Tangled Time at Full HP. Revert it to its base Form, after the Battle.",
+  "Description": "",
+  "_id": "time-split"
 }

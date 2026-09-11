@@ -37,14 +37,15 @@
   "Evolutions": [
     {
       "From": "Feebas",
-      "Kind": "Stat",
-      "Stat": "Beauty",
-      "Value": 5
-    },
-    {
-      "From": "Feebas",
+      "DisplayMethod": "Use Prism Scale.",
       "Kind": "Item",
       "Item": "Prism Scale"
+    },
+    {
+      "To": "Milotic (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Miloticite.",
+      "Item": "Miloticite"
     }
   ],
   "Image": "milotic.png",

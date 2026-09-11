@@ -37,8 +37,11 @@
   "Evolutions": [
     {
       "From": "Mime Jr",
+      "DisplayMethod": "Male only. Medium Evolution while knowing Mimic.",
       "Kind": "Level",
-      "Move": "Mimic"
+      "Speed": "Medium",
+      "Move": "Mimic",
+      "Gender": "Male"
     }
   ],
   "Image": "mr-mime.png",

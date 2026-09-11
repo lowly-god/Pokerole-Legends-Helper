@@ -37,12 +37,14 @@
   "Evolutions": [
     {
       "From": "Scyther",
-      "Kind": "Trade",
+      "DisplayMethod": "Use Metal Coat.",
+      "Kind": "Item",
       "Item": "Metal Coat"
     },
     {
       "To": "Scizor (Mega Form)",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Scizorite.",
       "Item": "Scizorite"
     }
   ],

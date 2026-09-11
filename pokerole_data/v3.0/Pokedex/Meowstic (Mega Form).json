@@ -38,7 +38,8 @@
     {
       "From": "Meowstic",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Meowsicite.",
+      "Item": "Meowsicite"
     }
   ],
   "Image": "",

@@ -34,7 +34,21 @@
     "Pounds": 73.0
   },
   "DexDescription": "Fauxpunny evolves from Fauxeary due to the profound connection shared with a human companion. Its evolution reflects the thoughts and emotions of those it bonds with, resulting in a form resembling that of a real Lopunny.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Fauxeary",
+      "DisplayMethod": "Happiness 4.",
+      "Kind": "Stat",
+      "Stat": "Happiness",
+      "Value": 4
+    },
+    {
+      "To": "Fauxpunny (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Fauxpunnite.",
+      "Item": "Fauxpunnite"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

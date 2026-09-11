@@ -38,7 +38,8 @@
     {
       "From": "Clefable",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Clefablite.",
+      "Item": "Clefablite"
     }
   ],
   "Image": "",

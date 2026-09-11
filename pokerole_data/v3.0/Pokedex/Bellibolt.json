@@ -37,8 +37,9 @@
   "Evolutions": [
     {
       "From": "Tadbulb",
+      "DisplayMethod": "Use Thunder Stone.",
       "Kind": "Stone",
-      "Stone": "Thunder Stone"
+      "Item": "Thunder Stone"
     }
   ],
   "Image": "bellibolt.png",

@@ -38,7 +38,8 @@
     {
       "From": "Starmie",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Starminite.",
+      "Item": "Starminite"
     }
   ],
   "Image": "",

@@ -38,6 +38,7 @@
     {
       "From": "Aggron",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Aggronite.",
       "Item": "Aggronite"
     }
   ],

@@ -38,7 +38,8 @@
     {
       "From": "Fauxpunny",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Fauxpunnite.",
+      "Item": "Fauxpunnite"
     }
   ],
   "Image": "",

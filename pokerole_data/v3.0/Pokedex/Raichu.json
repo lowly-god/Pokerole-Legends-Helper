@@ -37,8 +37,21 @@
   "Evolutions": [
     {
       "From": "Pikachu",
+      "DisplayMethod": "Use Thunder Stone.",
       "Kind": "Stone",
       "Item": "Thunder Stone"
+    },
+    {
+      "To": "Raichu (Mega X Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Raichunite X.",
+      "Item": "Raichunite X"
+    },
+    {
+      "To": "Raichu (Mega Y Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Raichunite Y.",
+      "Item": "Raichunite Y"
     }
   ],
   "Image": "raichu.png",

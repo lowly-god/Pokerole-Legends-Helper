@@ -37,15 +37,39 @@
   "Evolutions": [
     {
       "To": "Deoxys (Attack Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Interact With Meteorite.",
+      "Special": "Interact With Meteorite."
     },
     {
       "To": "Deoxys (Defense Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Interact With Meteorite.",
+      "Special": "Interact With Meteorite."
     },
     {
       "To": "Deoxys (Speed Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Interact With Meteorite.",
+      "Special": "Interact With Meteorite."
+    },
+    {
+      "From": "Deoxys (Attack Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Interact With Meteorite.",
+      "Special": "Interact With Meteorite."
+    },
+    {
+      "From": "Deoxys (Defense Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Interact With Meteorite.",
+      "Special": "Interact With Meteorite."
+    },
+    {
+      "From": "Deoxys (Speed Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Interact With Meteorite.",
+      "Special": "Interact With Meteorite."
     }
   ],
   "Image": "deoxys.png",

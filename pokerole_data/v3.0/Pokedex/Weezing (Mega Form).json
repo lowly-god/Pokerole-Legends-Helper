@@ -38,7 +38,8 @@
     {
       "From": "Weezing",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Weezingtite.",
+      "Item": "Weezingtite"
     }
   ],
   "Image": "",

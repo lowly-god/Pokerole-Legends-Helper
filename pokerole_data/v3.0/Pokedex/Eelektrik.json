@@ -42,6 +42,7 @@
     },
     {
       "To": "Eelektross",
+      "DisplayMethod": "Use Thunder Stone.",
       "Kind": "Stone",
       "Item": "Thunder Stone"
     }

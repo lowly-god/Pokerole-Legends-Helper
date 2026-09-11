@@ -37,9 +37,16 @@
   "Evolutions": [
     {
       "From": "Chingling",
+      "DisplayMethod": "Happiness 4.",
       "Kind": "Stat",
       "Stat": "Happiness",
       "Value": 4
+    },
+    {
+      "To": "Chimecho (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Chimechite.",
+      "Item": "Chimechite"
     }
   ],
   "Image": "chimecho.png",

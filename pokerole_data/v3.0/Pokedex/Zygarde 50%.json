@@ -37,8 +37,9 @@
   "Evolutions": [
     {
       "From": "Zygarde Cell",
-      "Kind": "Special",
-      "Item": "Zygarde cells"
+      "Kind": "Transform",
+      "DisplayMethod": "Requires Zygarde Cells.",
+      "Special": "Requires Zygarde Cells."
     }
   ],
   "Image": "zygarde-50.png",

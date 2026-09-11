@@ -37,8 +37,10 @@
   "Evolutions": [
     {
       "From": "Dragonair",
-      "Kind": "Special",
-      "Special": "Dragonair (Loyalty 5)"
+      "DisplayMethod": "Loyalty 5.",
+      "Kind": "Stat",
+      "Stat": "Loyalty",
+      "Value": 5
     }
   ],
   "Image": "",

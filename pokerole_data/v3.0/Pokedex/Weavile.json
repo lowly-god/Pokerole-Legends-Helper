@@ -37,8 +37,17 @@
   "Evolutions": [
     {
       "From": "Sneasel",
+      "DisplayMethod": "Medium Evolution while Holding Razor Claw in moonlight.",
       "Kind": "Level",
-      "Item": "Razor Claw"
+      "Speed": "Medium",
+      "Item": "Razor Claw",
+      "Special": "Medium Evolution while Holding Razor Claw in moonlight."
+    },
+    {
+      "To": "Weavile (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Weavilite.",
+      "Item": "Weavilite"
     }
   ],
   "Image": "weavile.png",

@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Eevee",
+      "DisplayMethod": "Use Desert Rose.",
       "Kind": "Stone",
       "Item": "Desert Rose"
     }

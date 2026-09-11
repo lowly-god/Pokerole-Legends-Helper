@@ -39,6 +39,12 @@
       "From": "Koffing",
       "Kind": "Level",
       "Speed": "Slow"
+    },
+    {
+      "To": "Weezing (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Weezingtite.",
+      "Item": "Weezingtite"
     }
   ],
   "Image": "weezing.png",

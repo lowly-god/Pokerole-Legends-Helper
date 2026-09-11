@@ -38,6 +38,7 @@
     {
       "From": "Metagross",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Metagrossite.",
       "Item": "Metagrossite"
     }
   ],

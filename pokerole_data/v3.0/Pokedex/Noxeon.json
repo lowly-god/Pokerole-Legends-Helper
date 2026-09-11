@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Eevee",
+      "DisplayMethod": "Use Toxin Stone.",
       "Kind": "Stone",
       "Item": "Toxin Stone"
     }

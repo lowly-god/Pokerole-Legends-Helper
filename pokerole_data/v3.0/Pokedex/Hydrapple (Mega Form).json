@@ -38,7 +38,8 @@
     {
       "From": "Hydrapple",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Hydrappicite.",
+      "Item": "Hydrappicite"
     }
   ],
   "Image": "",

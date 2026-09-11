@@ -37,12 +37,14 @@
   "Evolutions": [
     {
       "From": "Cleffa",
+      "DisplayMethod": "Happiness 4.",
       "Kind": "Stat",
       "Stat": "Happiness",
       "Value": 4
     },
     {
       "To": "Clefable",
+      "DisplayMethod": "Use Moon Stone.",
       "Kind": "Stone",
       "Item": "Moon Stone"
     }

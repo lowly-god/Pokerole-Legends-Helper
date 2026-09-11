@@ -1,133 +1,140 @@
 {
-    "Number": 807,
-    "DexID": "0807",
-    "Name": "Zeraora",
-    "Type1": "Electric",
-    "Type2": "",
-    "BaseHP": 4,
-    "Strength": 3,
-    "MaxStrength": 6,
-    "Dexterity": 4,
-    "MaxDexterity": 8,
-    "Vitality": 2,
-    "MaxVitality": 5,
-    "Special": 3,
-    "MaxSpecial": 6,
-    "Insight": 2,
-    "MaxInsight": 5,
-    "Ability1": "Volt Absorb",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "zeraora",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 1.5,
-        "Feet": 5.0
+  "Number": 807,
+  "DexID": "0807",
+  "Name": "Zeraora",
+  "Type1": "Electric",
+  "Type2": "",
+  "BaseHP": 4,
+  "Strength": 3,
+  "MaxStrength": 6,
+  "Dexterity": 4,
+  "MaxDexterity": 8,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 6,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Volt Absorb",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "zeraora",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 1.5,
+    "Feet": 5.0
+  },
+  "Weight": {
+    "Kilograms": 44.0,
+    "Pounds": 98.0
+  },
+  "DexDescription": "An unfriendly creature was spotted in Alola. Witnesses mentioned it electrified its claws and tore its foes apart with them. It disappeared into the wilderness and has not been sighted again.",
+  "Evolutions": [
+    {
+      "To": "Zeraora (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Zeraorite.",
+      "Item": "Zeraorite"
+    }
+  ],
+  "Image": "zeraora.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Scratch"
     },
-    "Weight": {
-        "Kilograms": 44.0,
-        "Pounds": 98.0
+    {
+      "Learned": "Starter",
+      "Name": "Quick Attack"
     },
-    "DexDescription": "An unfriendly creature was spotted in Alola. Witnesses mentioned it electrified its claws and tore its foes apart with them. It disappeared into the wilderness and has not been sighted again.",
-    "Evolutions": [],
-    "Image": "zeraora.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Scratch"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Quick Attack"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Spark"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Hone Claws"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Fury Swipes"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Snarl"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Charge"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Power-Up Punch"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Agility"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Slash"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Quick Guard"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Fire Punch"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Plasma Fists"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Mega Punch"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Volt Switch"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Discharge"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Wild Charge"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Close Combat"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Outrage"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Electro Whip"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Fake Out"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Thunder Punch"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Drain Punch"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Spark"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Hone Claws"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fury Swipes"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Snarl"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Charge"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Power-Up Punch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Agility"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Quick Guard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fire Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Plasma Fists"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Mega Punch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Volt Switch"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Discharge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wild Charge"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Electro Whip"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Fake Out"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Thunder Punch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Drain Punch"
+    }
+  ]
 }

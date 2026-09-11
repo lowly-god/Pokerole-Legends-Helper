@@ -38,6 +38,7 @@
     {
       "From": "Blastoise",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Blastoisinite.",
       "Item": "Blastoisinite"
     }
   ],

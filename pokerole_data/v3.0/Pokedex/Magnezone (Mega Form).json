@@ -38,7 +38,8 @@
     {
       "From": "Magnezone",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Magnezonite.",
+      "Item": "Magnezonite"
     }
   ],
   "Image": "",

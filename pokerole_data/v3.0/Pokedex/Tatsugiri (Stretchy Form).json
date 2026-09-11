@@ -34,7 +34,14 @@
     "Pounds": 17.0
   },
   "DexDescription": "These small dragon Pokémon are very cunning: they hide inside the mouths of Dondozo, then feign weakness to lure prey and order their partner to attack. Yellow Tatsugiri focus on speed tactics.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Tatsugiri (Stretchy Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Tatsugirinite.",
+      "Item": "Tatsugirinite"
+    }
+  ],
   "Image": "tatsugiri-stretchy-form.png",
   "Moves": [
     {

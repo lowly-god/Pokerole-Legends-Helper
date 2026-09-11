@@ -43,6 +43,7 @@
     {
       "To": "Banette (Mega Form)",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Banettite.",
       "Item": "Banettite"
     }
   ],

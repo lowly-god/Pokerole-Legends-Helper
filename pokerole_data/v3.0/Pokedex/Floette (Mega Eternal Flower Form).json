@@ -38,7 +38,8 @@
     {
       "From": "Floette (Eternal Flower Form)",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Floettite.",
+      "Item": "Floettite"
     }
   ],
   "Image": "",

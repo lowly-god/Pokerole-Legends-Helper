@@ -38,7 +38,8 @@
     {
       "From": "Dragonite",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Dragoninite.",
+      "Item": "Dragoninite"
     }
   ],
   "Image": "",

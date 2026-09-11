@@ -47,8 +47,9 @@
     },
     {
       "To": "Samurott (Hisuian Form)",
-      "Kind": "Level",
-      "Speed": "Medium",
+      "DisplayMethod": "Use Brave Stone OR Medium while in Hisui.",
+      "Kind": "Stone",
+      "Item": "Brave Stone",
       "Region": "Hisui"
     }
   ],

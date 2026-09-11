@@ -37,8 +37,15 @@
   "Evolutions": [
     {
       "From": "Feebas",
+      "DisplayMethod": "Use Tarnished Scale.",
       "Kind": "Item",
       "Item": "Tarnished Scale"
+    },
+    {
+      "To": "Milotic (Mega Orrean Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using (Orrean) Miloticite.",
+      "Item": "(Orrean) Miloticite"
     }
   ],
   "Image": "",

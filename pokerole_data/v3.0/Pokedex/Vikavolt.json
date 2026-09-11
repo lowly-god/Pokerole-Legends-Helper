@@ -37,8 +37,9 @@
   "Evolutions": [
     {
       "From": "Charjabug",
-      "Kind": "Level",
-      "Speed": "Medium"
+      "DisplayMethod": "Use Thunder Stone.",
+      "Kind": "Stone",
+      "Item": "Thunder Stone"
     }
   ],
   "Image": "vikavolt.png",

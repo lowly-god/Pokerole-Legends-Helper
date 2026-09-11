@@ -37,7 +37,10 @@
   "Evolutions": [
     {
       "To": "Kyogre (Primal Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Mega Evolution using Blue Orb.",
+      "Item": "Blue Orb",
+      "Special": "Mega Evolution using Blue Orb."
     }
   ],
   "Image": "kyogre.png",

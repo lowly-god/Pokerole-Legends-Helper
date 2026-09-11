@@ -37,8 +37,9 @@
   "Evolutions": [
     {
       "From": "Nosepass",
-      "Kind": "Level",
-      "Speed": "Slow"
+      "DisplayMethod": "Use Thunder Stone.",
+      "Kind": "Stone",
+      "Item": "Thunder Stone"
     }
   ],
   "Image": "probopass.png",

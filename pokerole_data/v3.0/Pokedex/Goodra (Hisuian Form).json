@@ -37,8 +37,9 @@
   "Evolutions": [
     {
       "From": "Sliggoo (Hisuian Form)",
-      "Kind": "Level",
-      "Speed": "Medium",
+      "DisplayMethod": "Use Adamantite Stone OR Medium Evolution in Hisui.",
+      "Kind": "Stone",
+      "Item": "Adamantite Stone",
       "Region": "Hisui"
     }
   ],

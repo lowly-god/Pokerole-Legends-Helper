@@ -38,7 +38,8 @@
     {
       "From": "Chesnaught",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Chesnaughtite.",
+      "Item": "Chesnaughtite"
     }
   ],
   "Image": "",

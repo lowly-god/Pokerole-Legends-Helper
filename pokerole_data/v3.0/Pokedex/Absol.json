@@ -38,7 +38,14 @@
     {
       "To": "Absol (Mega Form)",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Absolite.",
       "Item": "Absolite"
+    },
+    {
+      "To": "Absol (Mega Z Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Absolite Z.",
+      "Item": "Absolite Z"
     }
   ],
   "Image": "absol.png",

@@ -39,6 +39,12 @@
       "From": "Tandemaus",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Maushold (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Mauseholdite.",
+      "Item": "Mauseholdite"
     }
   ],
   "Image": "maushold.png",

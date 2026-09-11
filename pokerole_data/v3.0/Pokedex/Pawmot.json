@@ -36,14 +36,10 @@
   "DexDescription": "Pawmot's fluffy fur acts as a battery, able to power an electric car for hundreds of miles on a single charge. They are patient and hard to anger, but once they are in the mood for a fight, they won't back down.",
   "Evolutions": [
     {
-      "From": "Pawmot",
+      "From": "Pawmo",
       "Kind": "Level",
-      "Speed": "Slow"
-    },
-    {
-      "To": "Pawmot",
-      "Kind": "Level",
-      "Speed": "Slow"
+      "Speed": "Medium",
+      "DisplayMethod": "Medium Evolution."
     }
   ],
   "Image": "pawmot.png",

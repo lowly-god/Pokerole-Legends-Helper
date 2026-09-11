@@ -36,9 +36,18 @@
   "DexDescription": "Noxial have been discovered in both endothermic and exothermic forms. The more extreme the temperature, the more volatile the Noxial.",
   "Evolutions": [
     {
+      "To": "Fumighast",
+      "DisplayMethod": "Medium level evolution.",
+      "Kind": "Level",
+      "Speed": "Medium"
+    },
+    {
       "From": "Phlask",
-      "Kind": "Item",
-      "Item": "Burn Heal"
+      "DisplayMethod": "Medium Evolution while holding a Burn Heal.",
+      "Kind": "Level",
+      "Speed": "Medium",
+      "Item": "Burn Heal",
+      "Special": "Medium Evolution while holding a Burn Heal."
     }
   ],
   "Image": "",

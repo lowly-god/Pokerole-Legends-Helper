@@ -37,11 +37,7 @@
   "Evolutions": [
     {
       "From": "Kubfu",
-      "Kind": "Special",
-      "Special": "Finishing Trials of Water"
-    },
-    {
-      "From": "Kubfu",
+      "DisplayMethod": "Use Scroll of Waters OR Complete the Trials of Water.",
       "Kind": "Item",
       "Item": "Scroll of Waters"
     }

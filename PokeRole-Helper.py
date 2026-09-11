@@ -25,7 +25,7 @@ from numpy.random import choice
 from bisect import bisect
 
 from dbhelper import Database
-from statsExtra import pokemon_extra_stats_text
+from statsExtra import pokemon_extra_stats_text, pokemon_progression_text, pokemon_additional_hidden_abilities
 from machineLearnsets import machine_moves_section, get_teachable_pokemon, get_move_type
 
 # for my testing environment
@@ -784,6 +784,9 @@ async def getPokemonAbilities(pkmn, version="v3.0"):
     ability = list(query)
     while '' in ability:
         ability.remove('')
+    for extra in pokemon_additional_hidden_abilities(pkmn, version):
+        if extra not in ability:
+            ability.append(extra)
     ability_expanded = [(await pkmnabilitieshelper(x, version=version)) for x in ability]
 
     output = ''
@@ -1925,12 +1928,19 @@ async def pkmn_stat_msg_helper(pokemon, found, version: str):
     output += f'**Ability**: {found[14]}'
     if found[15] != '':  # secondary
         output += f' / {found[15]}'
-    if found[16] != '':  # hidden
-        output += f' ({found[16]})'
+    hidden_abilities = []
+    if found[16] != '':
+        hidden_abilities.append(found[16])
+    hidden_abilities.extend(
+        x for x in pokemon_additional_hidden_abilities(pokemon, version)
+        if x not in hidden_abilities
+    )
+    if hidden_abilities:
+        output += f' ({" / ".join(hidden_abilities)})'
     if found[17] != '':  # event
         output += f' <{found[17]}>'
     output += '\n'
-    output += f'**Can Evolve**: {"Yes" if str(found[18]) == "1" else "No"}\n'
+    output += pokemon_progression_text(pokemon, version)
     output += f'**Other Forms**: {(found[19] or "No")}\n'
 
     buttons = Timeout_View()

@@ -34,7 +34,14 @@
     "Pounds": 19.0
   },
   "DexDescription": "Legends surrounding the Unown speak of how they inspired written language. Maybe there was a singular first symbol, representing the first sound made when Arceus created the world, or maybe when many Unown gather in a single place a leader of sorts emerges to control and guide the cluster.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Unown",
+      "Kind": "Transform",
+      "DisplayMethod": "Interact with Codex of the Unown.",
+      "Special": "Interact with Codex of the Unown."
+    }
+  ],
   "Image": "",
   "Moves": [
     {

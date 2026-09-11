@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Gloom",
+      "DisplayMethod": "Use Leaf Stone.",
       "Kind": "Stone",
       "Item": "Leaf Stone"
     }

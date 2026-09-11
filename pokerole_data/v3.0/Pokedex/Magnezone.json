@@ -37,8 +37,15 @@
   "Evolutions": [
     {
       "From": "Magneton",
-      "Kind": "Level",
-      "Speed": "Slow"
+      "DisplayMethod": "Use Thunder Stone.",
+      "Kind": "Stone",
+      "Item": "Thunder Stone"
+    },
+    {
+      "To": "Magnezone (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Magnezonite.",
+      "Item": "Magnezonite"
     }
   ],
   "Image": "magnezone.png",

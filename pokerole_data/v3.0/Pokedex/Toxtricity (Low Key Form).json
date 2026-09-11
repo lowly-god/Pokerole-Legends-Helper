@@ -37,9 +37,10 @@
   "Evolutions": [
     {
       "From": "Toxel",
+      "DisplayMethod": "Slow evolution. Requires an Introverted Nature.",
       "Kind": "Level",
       "Speed": "Slow",
-      "Special": "Introvert"
+      "Special": "Slow evolution. Requires an Introverted Nature."
     }
   ],
   "Image": "toxtricity-low-key-form.png",

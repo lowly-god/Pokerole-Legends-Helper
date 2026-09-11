@@ -38,6 +38,7 @@
     {
       "From": "Gallade",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Galladite.",
       "Item": "Galladite"
     }
   ],

@@ -37,8 +37,9 @@
   "Evolutions": [
     {
       "From": "Yamask (Galarian Form)",
-      "Kind": "Special",
-      "Special": "Train near a rune painting"
+      "DisplayMethod": "Use Rune Stone.",
+      "Kind": "Stone",
+      "Item": "Rune Stone"
     }
   ],
   "Image": "runerigus.png",

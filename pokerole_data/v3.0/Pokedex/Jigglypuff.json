@@ -37,12 +37,14 @@
   "Evolutions": [
     {
       "From": "Igglybuff",
+      "DisplayMethod": "Happiness 4.",
       "Kind": "Stat",
       "Stat": "Happiness",
       "Value": 4
     },
     {
       "To": "Wigglytuff",
+      "DisplayMethod": "Use Moon Stone.",
       "Kind": "Stone",
       "Item": "Moon Stone"
     }

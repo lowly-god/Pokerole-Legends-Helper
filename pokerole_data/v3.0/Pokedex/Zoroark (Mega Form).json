@@ -38,7 +38,8 @@
     {
       "From": "Zoroark",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using (Hissuian) Zoroarkite.",
+      "Item": "(Hissuian) Zoroarkite"
     }
   ],
   "Image": "",

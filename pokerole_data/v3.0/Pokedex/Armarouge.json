@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Charcadet",
+      "DisplayMethod": "Use Auspicious Armor.",
       "Kind": "Item",
       "Item": "Auspicious Armor"
     }

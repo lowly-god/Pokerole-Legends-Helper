@@ -43,7 +43,8 @@
     {
       "To": "Pawmot",
       "Kind": "Level",
-      "Speed": "Slow"
+      "Speed": "Medium",
+      "DisplayMethod": "Medium Evolution."
     }
   ],
   "Image": "pawmo.png",

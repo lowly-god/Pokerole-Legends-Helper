@@ -37,11 +37,7 @@
   "Evolutions": [
     {
       "To": "Alcremie",
-      "Kind": "Special",
-      "Special": "Berry & Whisk"
-    },
-    {
-      "To": "Alcremie",
+      "DisplayMethod": "Use Various Sweets.",
       "Kind": "Item",
       "Item": "Sweets [Various]"
     }

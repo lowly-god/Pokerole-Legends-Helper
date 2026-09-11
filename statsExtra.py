@@ -229,3 +229,129 @@ def pokemon_extra_stats_text(pokemon, type1, type2, version):
     if mega_stone:
         output += f"**Mega Stone**: {mega_stone}\n"
     return output
+
+
+
+def pokemon_additional_hidden_abilities(pokemon, version):
+    meta = _load_pokemon_meta(version).get(str(pokemon).casefold(), {})
+    values = meta.get("AdditionalHiddenAbilities", [])
+    if isinstance(values, str):
+        values = [x.strip() for x in values.split(";") if x.strip()]
+    return list(values or [])
+
+
+def _progression_method(evo):
+    authored = str(evo.get("DisplayMethod") or "").strip()
+    if authored:
+        return authored.rstrip(".") + "."
+
+    kind = str(evo.get("Kind") or "")
+    if kind == "Level":
+        speed = str(evo.get("Speed") or "").strip()
+        text = f"{speed} Evolution" if speed else "Level Evolution"
+        if evo.get("Gender"):
+            text = f"{evo['Gender']} only. {text}"
+        if evo.get("Move"):
+            text += f" while knowing {evo['Move']}"
+        if evo.get("Item"):
+            text += f" while holding {evo['Item']}"
+        if evo.get("Region"):
+            text += f" while in {evo['Region']}"
+        special = str(evo.get("Special") or "").strip()
+        if special and special.casefold() not in text.casefold():
+            text += f"; {special}"
+        return text.rstrip(".") + "."
+    if kind == "Stone":
+        return f"Use {evo.get('Item') or evo.get('Stone') or 'Evolution Stone'}."
+    if kind == "Item":
+        return f"Use {evo.get('Item') or 'required item'}."
+    if kind == "Trade":
+        return f"Trade or Use {evo['Item']}." if evo.get("Item") == "Link Stone" else (
+            f"Trade with {evo['Item']}." if evo.get("Item") else "Trade."
+        )
+    if kind == "Stat":
+        stat = evo.get("Stat") or "Stat"
+        value = evo.get("Value")
+        return f"{stat} {value}." if value not in (None, "", -1) else f"{stat} requirement."
+    if kind == "Mega":
+        if evo.get("Item"):
+            return f"Mega Evolution using {evo['Item']}."
+        if evo.get("Special"):
+            return str(evo['Special']).rstrip(".") + "."
+        return "Mega Evolution."
+    if kind in {"Form", "Transform"}:
+        if evo.get("Item"):
+            return f"Use {evo['Item']}."
+        if evo.get("Ability"):
+            return f"Activate {evo['Ability']}."
+        if evo.get("Move"):
+            return f"Use {evo['Move']}."
+        if evo.get("Special"):
+            return str(evo['Special']).rstrip(".") + "."
+        return "Transform."
+    if evo.get("Special"):
+        return str(evo["Special"]).rstrip(".") + "."
+    return "Special requirement."
+
+
+def pokemon_progression_text(pokemon, version):
+    meta = _load_pokemon_meta(version).get(str(pokemon).casefold(), {})
+    evolutions = meta.get("Evolutions", []) or []
+
+    groups = {
+        "normal_to": [], "normal_from": [],
+        "mega_to": [], "mega_from": [],
+        "transform_to": [], "transform_from": [],
+    }
+    transform_kinds = {"Form", "Transform"}
+    for evo in evolutions:
+        kind = str(evo.get("Kind") or "")
+        if kind == "Mega": prefix = "mega"
+        elif kind in transform_kinds: prefix = "transform"
+        else: prefix = "normal"
+        if evo.get("To"):
+            groups[f"{prefix}_to"].append((evo["To"], _progression_method(evo)))
+        if evo.get("From"):
+            groups[f"{prefix}_from"].append((evo["From"], _progression_method(evo)))
+
+    def collapse(rows):
+        ordered = []
+        by_name = {}
+        for name, method in rows:
+            if name not in by_name:
+                by_name[name] = []
+                ordered.append(name)
+            if method not in by_name[name]:
+                by_name[name].append(method)
+        result=[]
+        for name in ordered:
+            methods=by_name[name]
+            method = " OR ".join(m.rstrip(".") for m in methods) + "." if methods else ""
+            result.append((name,method))
+        return result
+
+    for key in groups:
+        groups[key] = collapse(groups[key])
+
+    output = ""
+    if groups["normal_to"]:
+        for target, method in groups["normal_to"]:
+            output += f"**Evolves Into**: {target}, {method}\n"
+    else:
+        output += "**Can Evolve**: No\n"
+
+    if groups["normal_from"]:
+        for source, method in groups["normal_from"]:
+            output += f"**Evolves From**: {source}, {method}\n"
+    else:
+        output += "**Evolves From**: No\n"
+
+    for target, method in groups["mega_to"]:
+        output += f"**Mega Evolves Into**: {target}, {method}\n"
+    for source, method in groups["mega_from"]:
+        output += f"**Mega Evolves From**: {source}, {method}\n"
+    for target, method in groups["transform_to"]:
+        output += f"**Transforms Into**: {target}, {method}\n"
+    for source, method in groups["transform_from"]:
+        output += f"**Transforms From**: {source}, {method}\n"
+    return output

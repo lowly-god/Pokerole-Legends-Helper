@@ -38,7 +38,8 @@
     {
       "From": "Milotic",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Miloticite.",
+      "Item": "Miloticite"
     }
   ],
   "Image": "",

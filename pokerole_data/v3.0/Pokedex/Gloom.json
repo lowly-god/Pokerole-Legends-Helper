@@ -42,11 +42,13 @@
     },
     {
       "To": "Vileplume",
+      "DisplayMethod": "Use Leaf Stone.",
       "Kind": "Stone",
       "Item": "Leaf Stone"
     },
     {
       "To": "Bellossom",
+      "DisplayMethod": "Use Sun Stone.",
       "Kind": "Stone",
       "Item": "Sun Stone"
     }

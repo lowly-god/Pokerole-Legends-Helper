@@ -38,7 +38,8 @@
     {
       "From": "Clawitzer",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Clawitzerite.",
+      "Item": "Clawitzerite"
     }
   ],
   "Image": "",

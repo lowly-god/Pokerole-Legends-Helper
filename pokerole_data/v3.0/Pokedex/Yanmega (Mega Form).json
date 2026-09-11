@@ -38,7 +38,8 @@
     {
       "From": "Yanmega",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Yanmegarite.",
+      "Item": "Yanmegarite"
     }
   ],
   "Image": "",

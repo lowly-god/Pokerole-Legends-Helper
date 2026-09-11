@@ -39,6 +39,12 @@
       "From": "Karrablast",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Escavalier (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Escavalierite.",
+      "Item": "Escavalierite"
     }
   ],
   "Image": "escavalier.png",

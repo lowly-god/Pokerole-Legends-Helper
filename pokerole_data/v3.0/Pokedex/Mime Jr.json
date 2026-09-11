@@ -37,14 +37,27 @@
   "Evolutions": [
     {
       "To": "Mr. Mime",
+      "DisplayMethod": "Male only. Medium Evolution while knowing Mimic.",
       "Kind": "Level",
-      "Move": "Mimic"
+      "Speed": "Medium",
+      "Move": "Mimic",
+      "Gender": "Male"
+    },
+    {
+      "To": "Ms. Mime",
+      "DisplayMethod": "Female only. Medium Evolution while knowing Double Slap.",
+      "Kind": "Level",
+      "Speed": "Medium",
+      "Move": "Double Slap",
+      "Gender": "Female"
     },
     {
       "To": "Mr. Mime (Galarian Form)",
+      "DisplayMethod": "Male only. Medium Evolution while knowing Copycat.",
       "Kind": "Level",
-      "Move": "Mimic",
-      "Region": "Galar"
+      "Speed": "Medium",
+      "Move": "Copycat",
+      "Gender": "Male"
     }
   ],
   "Image": "mime-jr.png",

@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "To": "Cetitan",
+      "DisplayMethod": "Use Ice Stone.",
       "Kind": "Stone",
       "Item": "Ice Stone"
     }

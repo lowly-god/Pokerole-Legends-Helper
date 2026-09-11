@@ -1,152 +1,153 @@
 {
-    "Number": 150,
-    "DexID": "0150M2",
-    "Name": "Mewtwo (Mega Y Form)",
-    "Type1": "Psychic",
-    "Type2": "",
-    "BaseHP": 6,
-    "Strength": 4,
-    "MaxStrength": 8,
-    "Dexterity": 3,
-    "MaxDexterity": 7,
-    "Vitality": 2,
-    "MaxVitality": 5,
-    "Special": 5,
-    "MaxSpecial": 10,
-    "Insight": 3,
-    "MaxInsight": 7,
-    "Ability1": "Insomnia",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Master",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "mewtwo-mega-y-form",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 1.5,
-        "Feet": 5.0
+  "Number": 150,
+  "DexID": "0150M2",
+  "Name": "Mewtwo (Mega Y Form)",
+  "Type1": "Psychic",
+  "Type2": "",
+  "BaseHP": 6,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 3,
+  "MaxDexterity": 7,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 5,
+  "MaxSpecial": 10,
+  "Insight": 3,
+  "MaxInsight": 7,
+  "Ability1": "Insomnia",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "mewtwo-mega-y-form",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 1.5,
+    "Feet": 5.0
+  },
+  "Weight": {
+    "Kilograms": 33.0,
+    "Pounds": 72.0
+  },
+  "DexDescription": "With the power of the Mega Stone, its body got smaller but its power grew immensely. It can blow up even a skyscraper with just its thoughts.",
+  "Evolutions": [
+    {
+      "From": "Mewtwo",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Mewtwonite Y.",
+      "Item": "Mewtwonite Y"
+    }
+  ],
+  "Image": "mewtwo-mega-y-form.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Psywave"
     },
-    "Weight": {
-        "Kilograms": 33.0,
-        "Pounds": 72.0
+    {
+      "Learned": "Starter",
+      "Name": "Confusion"
     },
-    "DexDescription": "With the power of the Mega Stone, its body got smaller but its power grew immensely. It can blow up even a skyscraper with just its thoughts.",
-    "Evolutions": [
-        {
-            "From": "Mewtwo",
-            "Kind": "Mega",
-            "Item": "Mewtwonite Y"
-        }
-    ],
-    "Image": "mewtwo-mega-y-form.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Psywave"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Confusion"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Disable"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Miracle Eye"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Life Dew"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Mist"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Laser Focus"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Safeguard"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Swift"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Psych Up"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Power Swap"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Guard Swap"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Recover"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Psychic"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Barrier"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Aura Sphere"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Amnesia"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Me First"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Self Destruct"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Telekinesis"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Future Sight"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Psycho Cut"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Blizzard"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Snatch"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Psystrike"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Drain Punch"
-        }
-    ],
-    "MegaStone": "Mewtownite Y"
+    {
+      "Learned": "Rookie",
+      "Name": "Disable"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Miracle Eye"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Life Dew"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Mist"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Laser Focus"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Swift"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psych Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Power Swap"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Guard Swap"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Barrier"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aura Sphere"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Amnesia"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Me First"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Self Destruct"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Telekinesis"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Future Sight"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Psycho Cut"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Blizzard"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Snatch"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Psystrike"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Drain Punch"
+    }
+  ],
+  "MegaStone": "Mewtownite Y"
 }

@@ -39,6 +39,12 @@
       "From": "Arctibax",
       "Kind": "Level",
       "Speed": "Slow"
+    },
+    {
+      "To": "Baxcalibur (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Baxcalibrite.",
+      "Item": "Baxcalibrite"
     }
   ],
   "Image": "baxcalibur.png",

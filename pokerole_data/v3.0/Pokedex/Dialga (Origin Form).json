@@ -1,154 +1,157 @@
 {
-    "Number": 483,
-    "DexID": "0483F1",
-    "Name": "Dialga (Origin Form)",
-    "Type1": "Steel",
-    "Type2": "Dragon",
-    "BaseHP": 8,
-    "Strength": 4,
-    "MaxStrength": 8,
-    "Dexterity": 3,
-    "MaxDexterity": 6,
-    "Vitality": 5,
-    "MaxVitality": 10,
-    "Special": 5,
-    "MaxSpecial": 11,
-    "Insight": 5,
-    "MaxInsight": 10,
-    "Ability1": "Pressure",
-    "Ability2": "",
-    "HiddenAbility": "Telepathy",
-    "EventAbilities": "",
-    "RecommendedRank": "Champion",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "dialga-origin-form",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 7.0,
-        "Feet": 23.0
+  "Number": 483,
+  "DexID": "0483F1",
+  "Name": "Dialga (Origin Form)",
+  "Type1": "Steel",
+  "Type2": "Dragon",
+  "BaseHP": 8,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 5,
+  "MaxVitality": 10,
+  "Special": 5,
+  "MaxSpecial": 11,
+  "Insight": 5,
+  "MaxInsight": 10,
+  "Ability1": "Pressure",
+  "Ability2": "",
+  "HiddenAbility": "Telepathy",
+  "EventAbilities": "",
+  "RecommendedRank": "Champion",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "dialga-origin-form",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 7.0,
+    "Feet": 23.0
+  },
+  "Weight": {
+    "Kilograms": 850.0,
+    "Pounds": 1874.0
+  },
+  "DexDescription": "Religious lore talks about Arceus' secondborn, the ruler of time. The creator made its children in its image, but slightly less powerful so as not to repeat the mistake of its destructive firstborn.",
+  "Evolutions": [
+    {
+      "From": "Dialga",
+      "Kind": "Transform",
+      "DisplayMethod": "Mega Evolution using Adamant Crystal.",
+      "Item": "Adamant Crystal",
+      "Special": "Mega Evolution using Adamant Crystal."
+    }
+  ],
+  "Image": "dialga-origin-form.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Echoed Voice"
     },
-    "Weight": {
-        "Kilograms": 850.0,
-        "Pounds": 1874.0
+    {
+      "Learned": "Starter",
+      "Name": "Dragon Breath"
     },
-    "DexDescription": "Religious lore talks about Arceus' secondborn, the ruler of time. The creator made its children in its image, but slightly less powerful so as not to repeat the mistake of its destructive firstborn.",
-    "Evolutions": [
-        {
-            "From": "Dialga",
-            "Kind": "Form"
-        }
-    ],
-    "Image": "dialga-origin-form.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Echoed Voice"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Dragon Breath"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Scary Face"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Metal Claw"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Ancient Power"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Protect"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Slash"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Power Gem"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Flash Cannon"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Dragon Claw"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Aura Sphere"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Earth Power"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Iron Tail"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Safeguard"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Hidden Power"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Psych Up"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Iron Defense"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Metal Burst"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Heavy Slam"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Dragon Pulse"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Hyper Beam"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Velvet Scales"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Magnet Rise"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Trick Room"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Draco Meteor"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Steel Beam"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Roar Of Time"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Scary Face"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Power Gem"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flash Cannon"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dragon Claw"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Aura Sphere"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Earth Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Tail"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hidden Power"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psych Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Metal Burst"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heavy Slam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Hyper Beam"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Magnet Rise"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Trick Room"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Draco Meteor"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Steel Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Roar Of Time"
+    }
+  ]
 }

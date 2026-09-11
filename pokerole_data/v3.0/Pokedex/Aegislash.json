@@ -37,12 +37,16 @@
   "Evolutions": [
     {
       "From": "Doublade",
+      "DisplayMethod": "Use Dusk Stone.",
       "Kind": "Stone",
       "Item": "Dusk Stone"
     },
     {
       "To": "Aegislash (Blade Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Activate Ability.",
+      "Ability": "Ability",
+      "Special": "Activate Ability."
     }
   ],
   "Image": "aegislash.png",

@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Panpsych",
+      "DisplayMethod": "Use Dawn Stone.",
       "Kind": "Stone",
       "Item": "Dawn Stone"
     }

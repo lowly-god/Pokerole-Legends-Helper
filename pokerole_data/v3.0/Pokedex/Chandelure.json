@@ -37,8 +37,15 @@
   "Evolutions": [
     {
       "From": "Lampent",
+      "DisplayMethod": "Use Dusk Stone.",
       "Kind": "Stone",
       "Item": "Dusk Stone"
+    },
+    {
+      "To": "Chandelure (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Chandelurite.",
+      "Item": "Chandelurite"
     }
   ],
   "Image": "chandelure.png",

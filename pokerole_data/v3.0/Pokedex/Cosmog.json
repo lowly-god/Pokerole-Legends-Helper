@@ -37,8 +37,9 @@
   "Evolutions": [
     {
       "To": "Cosmoem",
+      "DisplayMethod": "Slow level evolution.",
       "Kind": "Level",
-      "Speed": "Unknown"
+      "Speed": "Slow"
     }
   ],
   "Image": "cosmog.png",

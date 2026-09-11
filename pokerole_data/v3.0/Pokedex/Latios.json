@@ -1,139 +1,140 @@
 {
-    "Number": 381,
-    "DexID": "0381",
-    "Name": "Latios",
-    "Type1": "Dragon",
-    "Type2": "Psychic",
-    "BaseHP": 5,
-    "Strength": 2,
-    "MaxStrength": 5,
-    "Dexterity": 3,
-    "MaxDexterity": 6,
-    "Vitality": 2,
-    "MaxVitality": 5,
-    "Special": 3,
-    "MaxSpecial": 7,
-    "Insight": 3,
-    "MaxInsight": 6,
-    "Ability1": "Levitate",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "M",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "latios",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 2.0,
-        "Feet": 6.6
+  "Number": 381,
+  "DexID": "0381",
+  "Name": "Latios",
+  "Type1": "Dragon",
+  "Type2": "Psychic",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 2,
+  "MaxVitality": 5,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Levitate",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "M",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "latios",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 2.0,
+    "Feet": 6.6
+  },
+  "Weight": {
+    "Kilograms": 60.0,
+    "Pounds": 132.0
+  },
+  "DexDescription": "The legend tells about two Pokémon that could take human shapes, use psychic powers and become invisible. They were raised by an old couple as their own children. The boy was the oldest and wore a blue shirt.",
+  "Evolutions": [
+    {
+      "To": "Latios (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Latiosite.",
+      "Item": "Latiosite"
+    }
+  ],
+  "Image": "latios.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Psywave"
     },
-    "Weight": {
-        "Kilograms": 60.0,
-        "Pounds": 132.0
+    {
+      "Learned": "Starter",
+      "Name": "Helping Hand"
     },
-    "DexDescription": "The legend tells about two Pokémon that could take human shapes, use psychic powers and become invisible. They were raised by an old couple as their own children. The boy was the oldest and wore a blue shirt.",
-    "Evolutions": [
-        {
-            "To": "Latios (Mega Form)",
-            "Kind": "Mega",
-            "Item": "Latiasite"
-        }
-    ],
-    "Image": "latios.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Psywave"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Helping Hand"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Protect"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Dragon Breath"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Safeguard"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Dragon Dance"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Stored Power"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Psycho Shift"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Recover"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Telekinesis"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Zen Headbutt"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Psychic"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Role Play"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Imperial Majesty"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Heal Block"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Heal Pulse"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Power Split"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Dragon Pulse"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Memento"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Velvet Scales"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Luster Purge"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Refresh"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Camouflage"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Protect"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Dragon Breath"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Dragon Dance"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Stored Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psycho Shift"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Recover"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Telekinesis"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Zen Headbutt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psychic"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Role Play"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imperial Majesty"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heal Block"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Heal Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Power Split"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Memento"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Luster Purge"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Refresh"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Camouflage"
+    }
+  ]
 }

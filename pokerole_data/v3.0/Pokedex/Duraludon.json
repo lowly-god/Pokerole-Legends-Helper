@@ -37,11 +37,7 @@
   "Evolutions": [
     {
       "To": "Archaludon",
-      "Kind": "Level",
-      "Speed": "Slow"
-    },
-    {
-      "To": "Archaludon",
+      "DisplayMethod": "Use Metal Alloy.",
       "Kind": "Item",
       "Item": "Metal Alloy"
     }

@@ -37,8 +37,10 @@
   "Evolutions": [
     {
       "From": "Shaymin",
-      "Kind": "Special",
-      "Item": "Gracidea flower"
+      "Kind": "Transform",
+      "DisplayMethod": "Use Gracidea Flower.",
+      "Item": "Gracidea Flower",
+      "Special": "Use Gracidea Flower."
     }
   ],
   "Image": "shaymin-sky-form.png",

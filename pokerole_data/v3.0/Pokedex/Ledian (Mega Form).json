@@ -38,7 +38,8 @@
     {
       "From": "Ledian",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Ledianite.",
+      "Item": "Ledianite"
     }
   ],
   "Image": "",

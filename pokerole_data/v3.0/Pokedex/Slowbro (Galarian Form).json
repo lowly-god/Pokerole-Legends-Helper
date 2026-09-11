@@ -37,11 +37,7 @@
   "Evolutions": [
     {
       "From": "Slowpoke (Galarian Form)",
-      "Kind": "Special",
-      "Special": "Grab Shellder by Tongue"
-    },
-    {
-      "From": "Slowpoke (Galarian Form)",
+      "DisplayMethod": "Use Galarica Cuff.",
       "Kind": "Item",
       "Item": "Galarica Cuff"
     }

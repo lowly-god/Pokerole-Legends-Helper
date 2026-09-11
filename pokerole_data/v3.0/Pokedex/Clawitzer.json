@@ -39,6 +39,12 @@
       "From": "Clauncher",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Clawitzer (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Clawitzerite.",
+      "Item": "Clawitzerite"
     }
   ],
   "Image": "clawitzer.png",

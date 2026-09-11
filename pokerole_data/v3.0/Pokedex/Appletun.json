@@ -37,6 +37,7 @@
   "Evolutions": [
     {
       "From": "Applin",
+      "DisplayMethod": "Use Sweet Apple.",
       "Kind": "Item",
       "Item": "Sweet Apple"
     }

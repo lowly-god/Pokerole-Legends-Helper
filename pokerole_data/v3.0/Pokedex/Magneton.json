@@ -42,11 +42,13 @@
     },
     {
       "To": "Magnezone",
-      "Kind": "Level",
-      "Speed": "Slow"
+      "DisplayMethod": "Use Thunder Stone.",
+      "Kind": "Stone",
+      "Item": "Thunder Stone"
     },
     {
       "To": "Magnework",
+      "DisplayMethod": "Use Rune Stone.",
       "Kind": "Stone",
       "Item": "Rune Stone"
     }

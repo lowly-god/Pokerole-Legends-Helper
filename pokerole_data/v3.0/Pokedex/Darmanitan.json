@@ -42,7 +42,10 @@
     },
     {
       "To": "Darmanitan (Zen Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Activate Ability.",
+      "Ability": "Ability",
+      "Special": "Activate Ability."
     }
   ],
   "Image": "darmanitan.png",

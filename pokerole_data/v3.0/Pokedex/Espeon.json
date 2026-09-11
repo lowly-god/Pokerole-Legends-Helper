@@ -37,13 +37,7 @@
   "Evolutions": [
     {
       "From": "Eevee",
-      "Kind": "Special",
-      "Stat": "Happiness",
-      "Value": 4,
-      "Special": "Sunlight"
-    },
-    {
-      "From": "Eevee",
+      "DisplayMethod": "Use Dawn Stone OR Happiness 4 during sunlight.",
       "Kind": "Stone",
       "Item": "Dawn Stone"
     }

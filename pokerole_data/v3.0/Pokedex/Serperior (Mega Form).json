@@ -38,7 +38,8 @@
     {
       "From": "Serperior",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Serpiorite.",
+      "Item": "Serpiorite"
     }
   ],
   "Image": "",

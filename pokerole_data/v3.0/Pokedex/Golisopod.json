@@ -39,6 +39,12 @@
       "From": "Wimpod",
       "Kind": "Level",
       "Speed": "Slow"
+    },
+    {
+      "To": "Golisopod (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Golisopite.",
+      "Item": "Golisopite"
     }
   ],
   "Image": "golisopod.png",

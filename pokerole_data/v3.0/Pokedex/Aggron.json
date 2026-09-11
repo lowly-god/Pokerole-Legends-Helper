@@ -43,6 +43,7 @@
     {
       "To": "Aggron (Mega Form)",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Aggronite.",
       "Item": "Aggronite"
     }
   ],

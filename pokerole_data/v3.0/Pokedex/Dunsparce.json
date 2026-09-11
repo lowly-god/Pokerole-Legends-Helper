@@ -37,13 +37,17 @@
   "Evolutions": [
     {
       "To": "Dudunsparce",
-      "Kind": "Special",
-      "Special": "Learn Hyper Drill"
+      "DisplayMethod": "Slow Evolution while knowing Hyper Drill.",
+      "Kind": "Level",
+      "Speed": "Slow",
+      "Move": "Hyper Drill"
     },
     {
       "To": "Dunboros",
-      "Kind": "Special",
-      "Special": "Dunsparce (Mastering Dragon Rush)"
+      "DisplayMethod": "Slow Evolution while knowing Dragon Rush.",
+      "Kind": "Level",
+      "Speed": "Slow",
+      "Move": "Dragon Rush"
     }
   ],
   "Image": "dunsparce.png",

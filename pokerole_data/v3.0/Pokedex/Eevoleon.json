@@ -34,7 +34,15 @@
     "Pounds": 64.0
   },
   "DexDescription": "Eevoleon, was discovered recently. This evolution of Eevee seems to have a completely stabilized DNA. It can harness the power of the entire type spectrum.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Eevee",
+      "DisplayMethod": "Loyalty 5.",
+      "Kind": "Stat",
+      "Stat": "Loyalty",
+      "Value": 5
+    }
+  ],
   "Image": "",
   "Moves": [
     {

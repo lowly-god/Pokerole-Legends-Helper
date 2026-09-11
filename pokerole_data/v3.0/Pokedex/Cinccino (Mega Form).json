@@ -38,7 +38,8 @@
     {
       "From": "Cinccino",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Cinccinite.",
+      "Item": "Cinccinite"
     }
   ],
   "Image": "",

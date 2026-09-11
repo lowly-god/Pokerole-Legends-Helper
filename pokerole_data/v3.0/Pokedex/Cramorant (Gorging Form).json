@@ -34,7 +34,15 @@
     "Pounds": 40.0
   },
   "DexDescription": "Cramorant's Gorging Form. Somehow it caught a Pikachu after diving. Can use the Move Thunderbolt.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Cramorant",
+      "Kind": "Transform",
+      "DisplayMethod": "Activate Gulp Missile.",
+      "Ability": "Gulp Missile",
+      "Special": "Activate Gulp Missile."
+    }
+  ],
   "Image": "cramorant-gorging-form.png",
   "Moves": [
     {

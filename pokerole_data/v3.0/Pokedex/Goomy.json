@@ -42,9 +42,11 @@
     },
     {
       "To": "Sliggoo (Hisuian Form)",
+      "DisplayMethod": "Medium Evolution while holding Metal Coat OR Medium Evolution while in Hisui.",
       "Kind": "Level",
       "Speed": "Medium",
-      "Region": "Hisui"
+      "Item": "Metal Coat",
+      "Special": "Medium Evolution while holding Metal Coat OR Medium Evolution while in Hisui."
     }
   ],
   "Image": "goomy.png",

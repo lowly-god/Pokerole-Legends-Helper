@@ -37,13 +37,9 @@
   "Evolutions": [
     {
       "From": "Poliwhirl",
-      "Kind": "Trade",
-      "Item": "King's Rock"
-    },
-    {
-      "From": "Poliwhirl",
+      "DisplayMethod": "Use King's Rock.",
       "Kind": "Item",
-      "Item": "Kings Rock"
+      "Item": "King's Rock"
     }
   ],
   "Image": "politoed.png",

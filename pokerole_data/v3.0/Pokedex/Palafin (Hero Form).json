@@ -36,8 +36,11 @@
   "DexDescription": "When true danger comes, this hero rises from the sea to save the day. This hero will come to the rescue of anyone crying for help. No one knows their secret identity, as they disappear after danger passes.",
   "Evolutions": [
     {
-      "To": "Palafin (Zero Form)",
-      "Kind": "Form"
+      "From": "Palafin (Zero Form)",
+      "Kind": "Transform",
+      "DisplayMethod": "Activate Zero to Hero.",
+      "Ability": "Zero to Hero",
+      "Special": "Activate Zero to Hero."
     }
   ],
   "Image": "palafin-hero-form.png",

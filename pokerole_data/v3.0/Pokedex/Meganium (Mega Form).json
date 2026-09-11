@@ -38,7 +38,8 @@
     {
       "From": "Meganium",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Meganiumite.",
+      "Item": "Meganiumite"
     }
   ],
   "Image": "",

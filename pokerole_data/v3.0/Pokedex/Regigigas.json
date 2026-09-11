@@ -34,7 +34,14 @@
     "Pounds": 2204.0
   },
   "DexDescription": "A very old legend tells about the King of Giants, who could crush a mountain with its grip and mold living titans from the rubble.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Regigigas (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Regigasite.",
+      "Item": "Regigasite"
+    }
+  ],
   "Image": "regigigas.png",
   "Moves": [
     {

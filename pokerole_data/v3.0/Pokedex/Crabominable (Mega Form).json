@@ -38,7 +38,8 @@
     {
       "From": "Crabominable",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Crabominite.",
+      "Item": "Crabominite"
     }
   ],
   "Image": "",

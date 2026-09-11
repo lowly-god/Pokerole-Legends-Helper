@@ -38,6 +38,7 @@
     {
       "From": "Ampharos",
       "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Ampharosite.",
       "Item": "Ampharosite"
     }
   ],

@@ -37,13 +37,17 @@
   "Evolutions": [
     {
       "From": "Goomy",
+      "DisplayMethod": "Medium Evolution while holding Metal Coat OR Medium Evolution while in Hisui.",
       "Kind": "Level",
-      "Region": "Hisui"
+      "Speed": "Medium",
+      "Item": "Metal Coat",
+      "Special": "Medium Evolution while holding Metal Coat OR Medium Evolution while in Hisui."
     },
     {
       "To": "Goodra (Hisuian Form)",
-      "Kind": "Level",
-      "Speed": "Medium",
+      "DisplayMethod": "Use Adamantite Stone OR Medium Evolution in Hisui.",
+      "Kind": "Stone",
+      "Item": "Adamantite Stone",
       "Region": "Hisui"
     }
   ],

@@ -37,16 +37,19 @@
   "Evolutions": [
     {
       "From": "Porygon",
-      "Kind": "Trade",
+      "DisplayMethod": "Use Upgrade.",
+      "Kind": "Item",
       "Item": "Upgrade"
     },
     {
       "To": "Porygon-Z",
-      "Kind": "Trade",
+      "DisplayMethod": "Use Dubious Disc.",
+      "Kind": "Item",
       "Item": "Dubious Disc"
     },
     {
-      "To": "Porygon 3",
+      "To": "Porygon3",
+      "DisplayMethod": "Use Satellite Parts.",
       "Kind": "Item",
       "Item": "Satellite Parts"
     }

@@ -34,7 +34,20 @@
     "Pounds": 43.0
   },
   "DexDescription": "Having evolved it now manifests a ghostly edge to its stone blade. It silently works on its swordsmanship all throughout the night.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Tinkatink (Johtonian Form)",
+      "DisplayMethod": "Medium level Evolution.",
+      "Kind": "Level",
+      "Speed": "Medium"
+    },
+    {
+      "To": "Tinkaton (Johtonian Form)",
+      "DisplayMethod": "Medium level Evolution.",
+      "Kind": "Level",
+      "Speed": "Medium"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

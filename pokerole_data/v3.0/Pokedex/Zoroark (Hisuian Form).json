@@ -39,6 +39,12 @@
       "From": "Zorua (Hisuian Form)",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Zoroark (Mega Hisuian Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using (Hissuian) Zoroarkite.",
+      "Item": "(Hissuian) Zoroarkite"
     }
   ],
   "Image": "zoroark-hisuian-form.png",

@@ -38,7 +38,8 @@
     {
       "From": "Machamp",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Machamptite.",
+      "Item": "Machamptite"
     }
   ],
   "Image": "",

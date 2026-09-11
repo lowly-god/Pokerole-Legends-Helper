@@ -42,6 +42,7 @@
     },
     {
       "To": "Garbocean",
+      "DisplayMethod": "Use Water Stone.",
       "Kind": "Stone",
       "Item": "Water Stone"
     }

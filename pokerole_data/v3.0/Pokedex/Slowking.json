@@ -37,13 +37,15 @@
   "Evolutions": [
     {
       "From": "Slowpoke",
-      "Kind": "Trade",
+      "DisplayMethod": "Use King's Rock.",
+      "Kind": "Item",
       "Item": "King's Rock"
     },
     {
-      "From": "Slowpoke",
-      "Kind": "Item",
-      "Item": "Kings Rock"
+      "To": "Slowking (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Slowkingite.",
+      "Item": "Slowkingite"
     }
   ],
   "Image": "slowking.png",

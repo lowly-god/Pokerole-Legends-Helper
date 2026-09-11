@@ -41,8 +41,17 @@
       "Speed": "Medium"
     },
     {
+      "To": "Greninja (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Greninjite.",
+      "Item": "Greninjite"
+    },
+    {
       "To": "Greninja (Battle Bond Form)",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Activate Battle Bond.",
+      "Ability": "Battle Bond",
+      "Special": "Activate Battle Bond."
     }
   ],
   "Image": "greninja.png",
@@ -159,5 +168,8 @@
       "Learned": "Standard",
       "Name": "Pulse Strike"
     }
+  ],
+  "AdditionalHiddenAbilities": [
+    "Battle Bond"
   ]
 }

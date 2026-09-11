@@ -36,7 +36,15 @@
   "DexDescription": "Roselia has begun to find its place in its new environment. It carries the desert with it now, wearing a veil of sand.",
   "Evolutions": [
     {
+      "From": "Budew (Orrean Form)",
+      "DisplayMethod": "Happiness 4.",
+      "Kind": "Stat",
+      "Stat": "Happiness",
+      "Value": 4
+    },
+    {
       "To": "Roserade (Orrean Form)",
+      "DisplayMethod": "Use Desert Rose.",
       "Kind": "Stone",
       "Item": "Desert Rose"
     }

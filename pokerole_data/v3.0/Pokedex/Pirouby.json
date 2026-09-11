@@ -34,7 +34,16 @@
     "Pounds": 33.0
   },
   "DexDescription": "It dances in graceful Movements as it spins its web. Appearing innocent it attracts its prey.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "To": "Fataletta",
+      "DisplayMethod": "Female only. Medium Evolution while knowing Quiver Dance.",
+      "Kind": "Level",
+      "Speed": "Medium",
+      "Move": "Quiver Dance",
+      "Gender": "Female"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

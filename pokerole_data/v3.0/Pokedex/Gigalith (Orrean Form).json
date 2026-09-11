@@ -34,7 +34,14 @@
     "Pounds": 1144.0
   },
   "DexDescription": "Steam vents from the obsidian protrusions on its body. It drinks from lava flows in its volcanic home, energising it.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Boldore (Orrean Form)",
+      "DisplayMethod": "Use Precious Stone.",
+      "Kind": "Stone",
+      "Item": "Precious Stone"
+    }
+  ],
   "Image": "",
   "Moves": [
     {

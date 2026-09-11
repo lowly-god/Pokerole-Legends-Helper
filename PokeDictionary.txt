@@ -1331,8 +1331,7 @@ Politoed$100
 Poliwag$100
 Poliwhirl$100
 Poliwrath$100
-Poltchageist (Artisan Form)$100
-Poltchageist (Counterfeit Form)$100
+Poltchageist$100
 Polteageist$100
 Polteageist (Delta Form)$100
 Ponyta$100
@@ -1340,7 +1339,7 @@ Ponyta (Galarian Form)$100
 Poochyena$100
 Popplio$100
 Porygon$100
-Porygon 3$100
+Porygon3$100
 Porygon-Z$100
 Porygon2$100
 Primal Groudon$100
@@ -1519,8 +1518,7 @@ Simisage$100
 Simisear$100
 Simisnear$100
 Simistrike$100
-Sinistcha (Masterpiece Form)$100
-Sinistcha (Unremarkable Form)$100
+Sinistcha$100
 Sinistea$100
 Sirfetch'd$100
 Sizzlipede$100
@@ -1698,7 +1696,7 @@ Toxel$100
 Toxicroak$100
 Toxtricity (Amped Form)$100
 Toxtricity (Low Key Form)$100
-Toxtricity (Orrean Smouldering Form)$100
+Toxtricity (Smouldering Form)$100
 Toxtricity Amped$100
 Toxtricity Low Key$100
 Tranquill$100

@@ -37,24 +37,28 @@
   "Evolutions": [
     {
       "To": "Wormadam (Grass Form)",
+      "DisplayMethod": "Female only. Fast Evolution.",
       "Kind": "Level",
       "Speed": "Fast",
       "Gender": "Female"
     },
     {
       "To": "Wormadam (Steel Form)",
+      "DisplayMethod": "Female only. Fast Evolution.",
       "Kind": "Level",
       "Speed": "Fast",
       "Gender": "Female"
     },
     {
       "To": "Wormadam (Ground Form)",
+      "DisplayMethod": "Female only. Fast Evolution.",
       "Kind": "Level",
       "Speed": "Fast",
       "Gender": "Female"
     },
     {
       "To": "Mothim",
+      "DisplayMethod": "Male only. Fast Evolution.",
       "Kind": "Level",
       "Speed": "Fast",
       "Gender": "Male"

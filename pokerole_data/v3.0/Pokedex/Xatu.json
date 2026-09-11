@@ -39,6 +39,12 @@
       "From": "Natu",
       "Kind": "Level",
       "Speed": "Medium"
+    },
+    {
+      "To": "Xatu (Mega Form)",
+      "Kind": "Mega",
+      "DisplayMethod": "Mega Evolution using Xatunite.",
+      "Item": "Xatunite"
     }
   ],
   "Image": "xatu.png",

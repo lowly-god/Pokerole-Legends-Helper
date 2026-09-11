@@ -38,7 +38,8 @@
     {
       "From": "Emboar",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using Emboarite.",
+      "Item": "Emboarite"
     }
   ],
   "Image": "",

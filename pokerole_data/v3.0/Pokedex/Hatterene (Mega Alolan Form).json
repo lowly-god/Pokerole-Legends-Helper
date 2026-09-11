@@ -38,7 +38,8 @@
     {
       "From": "Hatterene (Alolan Form)",
       "Kind": "Mega",
-      "Item": ""
+      "DisplayMethod": "Mega Evolution using (Alolan) Hatterenite.",
+      "Item": "(Alolan) Hatterenite"
     }
   ],
   "Image": "",

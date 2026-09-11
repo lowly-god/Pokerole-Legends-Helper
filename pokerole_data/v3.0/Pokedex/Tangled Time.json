@@ -34,7 +34,15 @@
     "Pounds": 12.0
   },
   "DexDescription": "A mysterious group of terrorists in the Orrelborous region funded a scientist to experiment on Celebi. This creature was the product of that.",
-  "Evolutions": [],
+  "Evolutions": [
+    {
+      "From": "Celebi",
+      "Kind": "Transform",
+      "DisplayMethod": "Activate Time Split.",
+      "Ability": "Time Split",
+      "Special": "Activate Time Split."
+    }
+  ],
   "Image": "",
   "Moves": [
     {

@@ -37,7 +37,15 @@
   "Evolutions": [
     {
       "From": "Deoxys",
-      "Kind": "Form"
+      "Kind": "Transform",
+      "DisplayMethod": "Interact With Meteorite.",
+      "Special": "Interact With Meteorite."
+    },
+    {
+      "To": "Deoxys",
+      "Kind": "Transform",
+      "DisplayMethod": "Interact With Meteorite.",
+      "Special": "Interact With Meteorite."
     }
   ],
   "Image": "deoxys-attack-form.png",

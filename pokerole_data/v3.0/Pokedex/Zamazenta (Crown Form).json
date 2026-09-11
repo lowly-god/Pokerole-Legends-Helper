@@ -1,122 +1,125 @@
 {
-    "Number": 889,
-    "DexID": "0889F1",
-    "Name": "Zamazenta (Crown Form)",
-    "Type1": "Fighting",
-    "Type2": "Steel",
-    "BaseHP": 5,
-    "Strength": 3,
-    "MaxStrength": 7,
-    "Dexterity": 3,
-    "MaxDexterity": 7,
-    "Vitality": 4,
-    "MaxVitality": 8,
-    "Special": 2,
-    "MaxSpecial": 5,
-    "Insight": 4,
-    "MaxInsight": 8,
-    "Ability1": "Dauntless Shield",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Master",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "zamazenta-crown-form",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 2.9,
-        "Feet": 9.5
+  "Number": 889,
+  "DexID": "0889F1",
+  "Name": "Zamazenta (Crown Form)",
+  "Type1": "Fighting",
+  "Type2": "Steel",
+  "BaseHP": 5,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 7,
+  "Vitality": 4,
+  "MaxVitality": 8,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 4,
+  "MaxInsight": 8,
+  "Ability1": "Dauntless Shield",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "zamazenta-crown-form",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 2.9,
+    "Feet": 9.5
+  },
+  "Weight": {
+    "Kilograms": 210.0,
+    "Pounds": 463.0
+  },
+  "DexDescription": "There is a legend about a mighty shield able to deflect any attack. It became known as the Fighting Master's Shield; not even the largest creatures could go through it.",
+  "Evolutions": [
+    {
+      "From": "Zamazenta",
+      "Kind": "Transform",
+      "DisplayMethod": "Mega Evolution using Holding Rusted Shield.",
+      "Item": "Rusted Shield",
+      "Special": "Mega Evolution using Holding Rusted Shield."
+    }
+  ],
+  "Image": "zamazenta-crown-form.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Quick Attack"
     },
-    "Weight": {
-        "Kilograms": 210.0,
-        "Pounds": 463.0
+    {
+      "Learned": "Starter",
+      "Name": "Howl"
     },
-    "DexDescription": "There is a legend about a mighty shield able to deflect any attack. It became known as the Fighting Master's Shield; not even the largest creatures could go through it.",
-    "Evolutions": [
-        {
-            "From": "Zamazenta",
-            "Kind": "Form"
-        }
-    ],
-    "Image": "zamazenta-crown-form.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Quick Attack"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Howl"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Metal Claw"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Bite"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Slash"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Iron Head"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Laser Focus"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Crunch"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Light Screen"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Reflect"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Safeguard"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Metal Burst"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Swords Dance"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Moonblast"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Close Combat"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Giga Impact"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Wide Guard"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Steel Beam"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Behemoth Bash"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Bite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Iron Head"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Laser Focus"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Safeguard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Metal Burst"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Giga Impact"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Wide Guard"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Steel Beam"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Behemoth Bash"
+    }
+  ]
 }
