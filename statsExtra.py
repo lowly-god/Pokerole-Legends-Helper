@@ -118,7 +118,7 @@ def _number_text(value):
 
 
 def _feet_inches_text(value):
-    """Render decimal feet as conventional feet/inches, e.g. 4.52 -> 4'06"."""
+    """Render decimal feet as conventional feet/inches with padded inches, e.g. 4.67 -> 4'08"."""
     if value is None or value == "":
         return None
     try:
@@ -131,18 +131,43 @@ def _feet_inches_text(value):
     if inches >= 12:
         feet += inches // 12
         inches %= 12
-    return f"{feet}'{inches}\""
+    return f"{feet}'{inches:02d}\""
+
+
+def _metric_height_text(value):
+    """Render height in metres, or centimetres for sub-metre Pokémon."""
+    if value is None or value == "":
+        return None
+    try:
+        meters = float(value)
+    except (TypeError, ValueError):
+        return str(value)
+
+    if 0 < meters < 1:
+        centimeters = meters * 100
+        return f"{_number_text(centimeters)} cm"
+    return f"{_number_text(meters)} m"
+
 
 def _size_weight(meta):
     height = meta.get("Height") or {}
     weight = meta.get("Weight") or {}
 
+    meters = _metric_height_text(height.get("Meters")) if isinstance(height, dict) else None
     feet = _feet_inches_text(height.get("Feet")) if isinstance(height, dict) else None
+    kilograms = _number_text(weight.get("Kilograms")) if isinstance(weight, dict) else None
     pounds = _number_text(weight.get("Pounds")) if isinstance(weight, dict) else None
 
+    size_parts = [part for part in (meters, feet) if part is not None]
+    weight_parts = []
+    if kilograms is not None:
+        weight_parts.append(f"{kilograms} kg")
+    if pounds is not None:
+        weight_parts.append(f"{pounds} lb")
+
     return (
-        feet if feet is not None else "Unknown",
-        f"{pounds} lb" if pounds is not None else "Unknown"
+        " / ".join(size_parts) if size_parts else "Unknown",
+        " / ".join(weight_parts) if weight_parts else "Unknown"
     )
 
 

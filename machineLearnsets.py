@@ -504,19 +504,16 @@ def machine_moves_section(pokemon):
 
     sections = []
 
-    if learnsets["tm"]:
+    # Display TM, TR and Tutor compatibility as one learn pool. Keep the
+    # underlying compatibility/item data separate so /item, shops and machine
+    # handling continue to distinguish TMs and TRs normally.
+    teachable = sorted(
+        dict.fromkeys(learnsets["tm"] + learnsets["tr"] + learnsets["tutor"]),
+        key=str.casefold,
+    )
+    if teachable:
         sections.append(
-            "**TM**\n" + "  |  ".join(learnsets["tm"])
-        )
-
-    if learnsets["tr"]:
-        sections.append(
-            "**TR**\n" + "  |  ".join(learnsets["tr"])
-        )
-
-    if learnsets["tutor"]:
-        sections.append(
-            "**Tutor**\n" + "  |  ".join(learnsets["tutor"])
+            "**TM / TR / Tutor**\n" + "  |  ".join(teachable)
         )
 
     if learnsets["hm"]:
