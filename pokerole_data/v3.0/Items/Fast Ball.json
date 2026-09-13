@@ -5,9 +5,9 @@
   "PMD": false,
   "Pocket": "Artisan Balls",
   "Category": "Artisan Balls",
-  "Description": "4d6 base; +3d6 if used on \"fast\" Pokémon",
+  "Description": "3D6; at < 4 Max Dexterity. 4D6; at 4 Max Dexterity. 5D6; at 5 Max Dexterity. 6D6; at 6 Max Dexterity. 8D6; at 7 Max Dexterity. 10D6; at 8+ Max Dexterity",
   "OneUse": true,
-  "TrainerPrice": "500",
+  "TrainerPrice": "1500",
   "Cures": "",
   "Image": ""
 }

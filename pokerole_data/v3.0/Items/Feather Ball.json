@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "Artisan Balls",
   "Category": "Artisan Balls",
-  "Description": "4d6 base; +3d6 if used on Flying-Type or Levitating Pokémon",
+  "Description": "4D6; +3D6 if used on Flying-Type Pokémon, or Pokémon with the Ability Levitate",
   "OneUse": true,
   "TrainerPrice": "500",
   "Cures": "",

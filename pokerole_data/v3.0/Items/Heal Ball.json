@@ -1,0 +1,13 @@
+{
+  "Name": "Heal Ball",
+  "_id": "heal-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Artisan Balls",
+  "Category": "Artisan Balls",
+  "Description": "7D6; caught Pokémon heals 1 HP every hour",
+  "OneUse": true,
+  "TrainerPrice": "1500",
+  "Cures": "",
+  "Image": ""
+}

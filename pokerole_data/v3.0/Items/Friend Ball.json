@@ -5,9 +5,9 @@
   "PMD": false,
   "Pocket": "Artisan Balls",
   "Category": "Artisan Balls",
-  "Description": "4d6 base; +2d6 caught Pokémon gains +1 base Happiness and Loyalty",
+  "Description": "7D6; caught Pokémon gains +2 Happiness and Loyalty",
   "OneUse": true,
-  "TrainerPrice": "1600",
+  "TrainerPrice": "1500",
   "Cures": "",
   "Image": ""
 }

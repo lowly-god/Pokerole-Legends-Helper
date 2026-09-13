@@ -1,0 +1,13 @@
+{
+  "Name": "Dream Ball",
+  "_id": "dream-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Artisan Balls",
+  "Category": "Artisan Balls",
+  "Description": "4D6; +3D6 if used on a Pokémon who has the Sleep Status Condition, or in dream-like locations",
+  "OneUse": true,
+  "TrainerPrice": "800",
+  "Cures": "",
+  "Image": ""
+}

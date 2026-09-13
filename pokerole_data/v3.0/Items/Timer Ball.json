@@ -5,9 +5,9 @@
   "PMD": false,
   "Pocket": "Artisan Balls",
   "Category": "Artisan Balls",
-  "Description": "4d6 base; +1d6 per rounds in battle up to max of +10",
+  "Description": "4D6; +2D6 per each full Round spent in Battle. Capped at +10D6",
   "OneUse": true,
-  "TrainerPrice": "1600",
+  "TrainerPrice": "2500",
   "Cures": "",
   "Image": ""
 }

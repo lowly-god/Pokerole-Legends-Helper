@@ -1,0 +1,13 @@
+{
+  "Name": "Team Rocket Ball",
+  "_id": "team-rocket-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Other Balls",
+  "Category": "Other Balls",
+  "Description": "6D6; +3D6 if another Pokémon has already been caught this scene",
+  "OneUse": true,
+  "TrainerPrice": "N/A",
+  "Cures": "",
+  "Image": ""
+}

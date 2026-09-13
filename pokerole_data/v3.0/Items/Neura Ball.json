@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "Other Balls",
   "Category": "Other Balls",
-  "Description": "4d6, or if Trainer has Neural Augmentation they may roll Current Will + Empathy",
+  "Description": "6D6; or with Neural Augmentation, use Trainer's Current Will + Empathy",
   "OneUse": true,
   "TrainerPrice": "N/A",
   "Cures": "",

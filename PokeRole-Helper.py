@@ -1958,7 +1958,7 @@ async def pkmn_stat_msg_helper(pokemon, found, version: str):
     buttons = Timeout_View()
 
     b_moves = Button(
-        style=discord.ButtonStyle.blurple,
+        style=discord.ButtonStyle.gray,
         label='Moves'
     )
 

@@ -1,0 +1,13 @@
+{
+  "Name": "Team Plasma Ball",
+  "_id": "team-plasma-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Other Balls",
+  "Category": "Other Balls",
+  "Description": "6D6; +3D6 if used on Pokémon with Loyalty and Happiness 0. Caught Pokémon gains +1 Happiness and Loyalty",
+  "OneUse": true,
+  "TrainerPrice": "N/A",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Team Aqua Ball",
+  "_id": "team-aqua-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Other Balls",
+  "Category": "Other Balls",
+  "Description": "6D6; +3D6 if used on Water-Type or Dark-Type Pokémon",
+  "OneUse": true,
+  "TrainerPrice": "N/A",
+  "Cures": "",
+  "Image": ""
+}

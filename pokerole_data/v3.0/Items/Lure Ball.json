@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "Artisan Balls",
   "Category": "Artisan Balls",
-  "Description": "4d6 base; +3d6 if used when Fishing",
+  "Description": "4D6; +3D6 if used when Fishing, or when using Honey or the Move Sweet Scent",
   "OneUse": true,
   "TrainerPrice": "500",
   "Cures": "",

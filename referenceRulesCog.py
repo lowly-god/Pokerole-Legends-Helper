@@ -84,42 +84,51 @@ Use /roll_nature: This Roll determines the Pokémon's Nature. However, if you ha
     """**Poke Balls**
 
 __Standard Balls:__
-Poke Ball (4d6)
-Great Ball (6d6)
-Ultra Ball (8d6)
-Premier Ball (5d6)
-
-__Artisan Balls:__
-All "Artisan Balls" have a base Seal Check of 4d6.
-Aurora Ball (+3d6 if used on Ice-Type Pokémon)
-Dive Ball (+3d6 if used on Water-Type or Pokémon found underwater)
-Fast Ball (+3d6 if used on "fast" Pokémon)
-Fae Ball (+3d6 if used on Fairy-Type Pokémon)
-Feather Ball (+3d6 if used on Flying-Type or Levitating Pokémon)
-Level Ball (+1d6 for each Rank the Pokémon is below your Trainer Rank)
-Love Ball (+3d6 if used on a Pokémon who has the In Love Status Condition)
-Lure Ball (+3d6 if used when Fishing)
-Moon Ball (+3d6 if used on Pokémon that Evolve by Moonstone)
-Nest Ball (+3d6 if used on Pokémon who are on their first Stage of Evolution, and aren't fully Evolved)
-Net Ball (+3d6 if used on Bug-Type Pokémon)
-Repeat Ball (+3d6 if used on a Pokémon species you have caught before)
-Tech Ball (+3d6 if used on "inorganic" Pokémon)
-Dawn Ball (+3d6 if used in the morning or bright locations)
-Dusk Ball (+3d6 if used at night or in dark locations)
-Quick Ball (+3d6 if used before a Battle or in social encounters)
-Friend Ball (+2d6 caught Pokémon gains +1 base Happiness and Loyalty)
-Heavy Ball (+1d6 for each 50lbs above 200lbs up to max of +10)
-Timer Ball (+1d6 per rounds in battle up to max of +10)
-Luxury Ball (+4d6 caught Pokémon regains +1 additional Will Point each day)""",
+Poke Ball: 4D6.
+Great Ball: 6D6.
+Ultra Ball: 8D6.
+Premier Ball: 5D6; +1D6 every 2 Trainer Ranks.""",
+    """__Artisan Balls:__
+Aurora Ball: 4D6; +3D6 if used on Ice-Type Pokémon.
+Dive Ball: 4D6; +3D6 if used on Water-Type Pokémon or while Diving.
+Fae Ball: 4D6; +3D6 if used on Fairy-Type Pokémon.
+Feather Ball: 4D6; +3D6 if used on Flying-Type Pokémon, or Pokémon with the Ability Levitate.
+Level Ball: 4D6; +1D6 for each Rank the Pokémon is below your Trainer Rank.
+Lure Ball: 4D6; +3D6 if used when Fishing, or when using Honey or the Move Sweet Scent.
+Nest Ball: 4D6; +3D6 if used on Pokémon in their first Evolution Stage, that can still evolve.
+Net Ball: 4D6; +3D6 if used on Bug-Type Pokémon.
+Repeat Ball: 4D6; +3D6 if used on a Pokémon species or evolution line you have caught before.
+Tech Ball: 4D6; +3D6 if used on "inorganic" Pokémon.
+Dream Ball: 4D6; +3D6 if used on a Pokémon who has the Sleep Status Condition, or in dream-like locations.""",
+    """__Artisan Balls (cont.):__
+Love Ball: 4D6; +3D6 if used on a Pokémon who has the In Love Status Condition.
+Dawn Ball: 4D6; +3D6 if used while Sunny Weather is in effect, on Pokémon who evolve by Sun Stone, or Pokémon who have a Light Move.
+Dusk Ball: 4D6; +3D6 if used while Dense Fog Weather is in effect, on Pokémon who evolve by Dusk Stone, or while in dark locations.
+Moon Ball: 4D6; +3D6 if used while Midnight Weather is in effect, on Pokémon that Evolve by Moon Stone, or Pokémon who have a Lunar Move.
+Quick Ball: 9D6; if used before the Pokémon has received Damage or Status Conditions. 4D6; otherwise.
+Friend Ball: 7D6; caught Pokémon gains +2 Happiness and Loyalty.
+Fast Ball: 3D6; at < 4 Max Dexterity. 4D6; at 4 Max Dexterity. 5D6; at 5 Max Dexterity. 6D6; at 6 Max Dexterity. 8D6; at 7 Max Dexterity. 10D6; at 8+ Max Dexterity.
+Heal Ball: 7D6; caught Pokémon heals 1 HP every hour.
+Heavy Ball: 3D6; at < 150 lbs. 4D6; at > 150 lbs. 5D6; at > 250 lbs. 6D6; at > 400 lbs. 8D6; at > 600 lbs. 10D6; at > 1,000 lbs.
+Timer Ball: 4D6; +2D6 per each full Round spent in Battle. Capped at +10D6.
+Luxury Ball: 8D6; caught Pokémon regains +2 Will Points each day.""",
     """__Other Balls:__
-Beast Ball (9d6 if used on Ultra Beasts, 2d6 if used on other Pokémon)
-Cherish Ball (8d6, caught Pokémon gains +2 base Happiness and Loyalty)
-Dark Ball (4d6, or Current Will + Intimidate, caught Pokémon becomes Shadow-Type)
-Neura Ball (4d6, or if Trainer has Neural Augmentation they may roll Current Will + Empathy)
-Park Ball (7d6, only given out during special events)
-Safari Ball (7d6, only given out at the Safari Zone)
-Sport Ball (7d6, only given out during Pokémon catching contests)
-Master Ball (Guaranteed capture)""",
+Beast Ball: 9D6; if used on Ultra Beasts. 4D6; otherwise.
+Blackwire Ball: 6D6; or with Neural Augmentation, use Trainer's Current Will + Technology. Does not register to Trainer ID.
+Celebrity Ball: 4D6; +1D6 every Contest / Colosseum Rank. Given as rewards for Contests / Colosseums.
+Cherish Ball: 9D6; caught Pokémon gains +2 Happiness and Loyalty.
+Dark Ball: 6D6; or use Trainer's Current Will + Intimidate. Caught Pokémon becomes a Shadow Pokémon. Does not register to Trainer ID.
+Keystone Ball: 12D6; Acts as a Keystone for Mega Evolution.
+Neura Ball: 6D6; or with Neural Augmentation, use Trainer's Current Will + Empathy.
+Origin Ball: May capture Origin or Primal Form Legendary Pokémon. Guaranteed Capture.
+Park Ball: 5D6; +1D6 every 2 Trainer Ranks. Given out only during special events.
+Safari Ball: 5D6; +1D6 every 2 Trainer Ranks. Given out only in the Safari Zone.
+Sport Ball: 5D6; +1D6 every 2 Trainer Ranks. Given out only during catching contests.
+Team Aqua Ball: 6D6; +3D6 if used on Water-Type or Dark-Type Pokémon.
+Team Magma Ball: 6D6; +3D6 if used on Fire-Type or Ground-Type Pokémon.
+Team Plasma Ball: 6D6; +3D6 if used on Pokémon with Loyalty and Happiness 0. Caught Pokémon gains +1 Happiness and Loyalty.
+Team Rocket Ball: 6D6; +3D6 if another Pokémon has already been caught this scene.
+Master Ball: Guaranteed capture.""",
 ]
 
 

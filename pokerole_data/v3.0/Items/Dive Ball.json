@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "Artisan Balls",
   "Category": "Artisan Balls",
-  "Description": "4d6 base; +3d6 if used on Water-Type or Pokémon found underwater",
+  "Description": "4D6; +3D6 if used on Water-Type Pokémon or while Diving",
   "OneUse": true,
   "TrainerPrice": "500",
   "Cures": "",

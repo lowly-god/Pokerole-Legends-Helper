@@ -1,0 +1,13 @@
+{
+  "Name": "Blackwire Ball",
+  "_id": "blackwire-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Other Balls",
+  "Category": "Other Balls",
+  "Description": "6D6; or with Neural Augmentation, use Trainer's Current Will + Technology. Does not register to Trainer ID",
+  "OneUse": true,
+  "TrainerPrice": "N/A",
+  "Cures": "",
+  "Image": ""
+}

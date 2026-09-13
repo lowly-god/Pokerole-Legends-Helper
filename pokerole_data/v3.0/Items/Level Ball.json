@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "Artisan Balls",
   "Category": "Artisan Balls",
-  "Description": "4d6 base; +1d6 for each Rank the Pokémon is below your Trainer Rank",
+  "Description": "4D6; +1D6 for each Rank the Pokémon is below your Trainer Rank",
   "OneUse": true,
   "TrainerPrice": "500",
   "Cures": "",

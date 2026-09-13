@@ -5,9 +5,9 @@
   "PMD": false,
   "Pocket": "Artisan Balls",
   "Category": "Artisan Balls",
-  "Description": "4d6 base; +3d6 if used in the morning or bright locations",
+  "Description": "4D6; +3D6 if used while Sunny Weather is in effect, on Pokémon who evolve by Sun Stone, or Pokémon who have a Light Move",
   "OneUse": true,
-  "TrainerPrice": "700",
+  "TrainerPrice": "800",
   "Cures": "",
   "Image": ""
 }

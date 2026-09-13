@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "Other Balls",
   "Category": "Other Balls",
-  "Description": "4d6, or Current Will + Intimidate, caught Pokémon becomes Shadow-Type",
+  "Description": "6D6; or use Trainer's Current Will + Intimidate. Caught Pokémon becomes a Shadow Pokémon. Does not register to Trainer ID",
   "OneUse": true,
   "TrainerPrice": "N/A",
   "Cures": "",

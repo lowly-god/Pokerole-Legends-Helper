@@ -5,9 +5,9 @@
   "PMD": false,
   "Pocket": "Artisan Balls",
   "Category": "Artisan Balls",
-  "Description": "4d6 base; +1d6 for each 50lbs above 200lbs up to max of +10",
+  "Description": "3D6; at < 150 lbs. 4D6; at > 150 lbs. 5D6; at > 250 lbs. 6D6; at > 400 lbs. 8D6; at > 600 lbs. 10D6; at > 1,000 lbs",
   "OneUse": true,
-  "TrainerPrice": "1600",
+  "TrainerPrice": "1500",
   "Cures": "",
   "Image": ""
 }

@@ -1,0 +1,13 @@
+{
+  "Name": "Origin Ball",
+  "_id": "origin-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Other Balls",
+  "Category": "Other Balls",
+  "Description": "May capture Origin or Primal Form Legendary Pokémon. Guaranteed Capture",
+  "OneUse": true,
+  "TrainerPrice": "N/A",
+  "Cures": "",
+  "Image": ""
+}

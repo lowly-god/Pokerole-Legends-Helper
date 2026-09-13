@@ -1,0 +1,13 @@
+{
+  "Name": "Celebrity Ball",
+  "_id": "celebrity-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Other Balls",
+  "Category": "Other Balls",
+  "Description": "4D6; +1D6 every Contest / Colosseum Rank. Given as rewards for Contests / Colosseums",
+  "OneUse": true,
+  "TrainerPrice": "N/A",
+  "Cures": "",
+  "Image": ""
+}
