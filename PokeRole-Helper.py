@@ -50,7 +50,7 @@ intents.message_content = True
 bot = commands.Bot(command_prefix=cmd_prefix, intents=intents)
 
 # note that 'custom help' needs to load last
-cogs = ['diceCog', 'luckCheckCog', 'miscCommands', 'questCog', 'maneuverCog', 'fieldtypeCog', 'natureRollCog', 'foragingCog', 'perkCog', 'armorCog', 'accessoriesCog', 'toolsCog', 'shopCog', 'humanNpcCog', 'rankUpCog', 'encounterTableCog', 'referenceRulesCog', 'trainingReferenceCog', 'craftingReferenceCog', 'custom_help']
+cogs = ['diceCog', 'luckCheckCog', 'miscCommands', 'questCog', 'maneuverCog', 'vehicleCog', 'fieldtypeCog', 'natureRollCog', 'foragingCog', 'perkCog', 'armorCog', 'accessoriesCog', 'toolsCog', 'shopCog', 'humanNpcCog', 'rankUpCog', 'encounterTableCog', 'referenceRulesCog', 'trainingReferenceCog', 'craftingReferenceCog', 'custom_help']
 
 # TODO: compress more of the data in working memory
 #   ++PokeLearns ranks complete
@@ -240,7 +240,7 @@ def ensure_roll_luck_check_help_entry():
         import custom_help
 
         luck_tagline = "Roll a 1D100 Luck Check, with input for Luck Skill modifier"
-        forage_tagline = "Roll an Insight + Nature check to see what you find on the foraging table"
+        forage_tagline = "Roll an Insight + Nature check on a selected foraging table"
 
         # Remove stale copies from every category before reinserting in Utilities.
         for _, rows in custom_help.HELP_CATEGORIES:
@@ -390,7 +390,7 @@ async def ensure_required_global_commands_registered():
                 getattr(option, 'name', None)
                 for option in (getattr(foraging_command, 'options', []) or [])
             }
-            if foraging_options != {'dice'}:
+            if foraging_options != {'dice', 'location'}:
                 reasons.append(
                     '/roll_foraging has stale options '
                     f'({", ".join(sorted(name for name in foraging_options if name)) or "none"})'
@@ -398,6 +398,21 @@ async def ensure_required_global_commands_registered():
 
         if 'roll_nature' not in registered_by_name:
             reasons.append('/roll_nature is missing')
+
+        for command_name in ('equipment_module', 'vehicle_commands'):
+            vehicle_command = registered_by_name.get(command_name)
+            if vehicle_command is None:
+                reasons.append(f'/{command_name} is missing')
+            else:
+                option_names = {
+                    getattr(option, 'name', None)
+                    for option in (getattr(vehicle_command, 'options', []) or [])
+                }
+                if option_names != {'name'}:
+                    reasons.append(
+                        f'/{command_name} has stale options '
+                        f'({", ".join(sorted(name for name in option_names if name)) or "none"})'
+                    )
 
         if 'catching_rules' not in registered_by_name:
             reasons.append('/catching_rules is missing')

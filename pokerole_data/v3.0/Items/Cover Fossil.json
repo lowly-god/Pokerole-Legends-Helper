@@ -1,0 +1,13 @@
+{
+  "Name": "Cover Fossil",
+  "_id": "cover-fossil",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Fossils",
+  "Description": "A fossilized shell from a prehistoric marine Pokémon. Can be restored into Tirtouga.",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

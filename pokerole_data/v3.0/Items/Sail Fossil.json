@@ -1,0 +1,13 @@
+{
+  "Name": "Sail Fossil",
+  "_id": "sail-fossil",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Fossils",
+  "Description": "A fossilized impression of the sail of a prehistoric land Pokémon. Can be restored into Amaura.",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

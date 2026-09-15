@@ -1,0 +1,13 @@
+{
+  "Name": "Old Amber",
+  "_id": "old-amber",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Fossils",
+  "Description": "A piece of amber containing genetic material from a prehistoric Pokémon. Can be restored into Aerodactyl.",
+  "OneUse": false,
+  "TrainerPrice": "10000",
+  "Cures": "",
+  "Image": ""
+}

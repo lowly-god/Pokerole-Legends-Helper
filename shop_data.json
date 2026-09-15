@@ -1221,7 +1221,7 @@
           "category": "Equipment Modules"
         },
         {
-          "name": "Ceruldege-Pattern Blade",
+          "name": "Ceruledge-Pattern Blade",
           "price": "45000",
           "effect": "",
           "category": "Equipment Modules"
@@ -1263,19 +1263,19 @@
           "category": "Equipment Modules"
         },
         {
-          "name": "Cryoganal-Pattern Cryogun",
+          "name": "Cryogonal-Pattern Cryogun",
           "price": "60000",
           "effect": "",
           "category": "Equipment Modules"
         },
         {
-          "name": "Heavy Laser Cannon",
+          "name": "Heavy Laser-Cannon",
           "price": "60000",
           "effect": "",
           "category": "Equipment Modules"
         },
         {
-          "name": "Ion Pulse Cannon",
+          "name": "Ion Pulse-Cannon",
           "price": "60000",
           "effect": "",
           "category": "Equipment Modules"
@@ -1293,13 +1293,13 @@
           "category": "Equipment Modules"
         },
         {
-          "name": "Dedicated Power Supply",
+          "name": "Dedicated Power-Supply",
           "price": "70000",
           "effect": "",
           "category": "Equipment Modules"
         },
         {
-          "name": "Deflector Shields",
+          "name": "Deflector-Shields",
           "price": "70000",
           "effect": "",
           "category": "Equipment Modules"
@@ -1317,7 +1317,7 @@
           "category": "Equipment Modules"
         },
         {
-          "name": "Energy Shields",
+          "name": "Energy-Shields",
           "price": "70000",
           "effect": "",
           "category": "Equipment Modules"
@@ -11168,7 +11168,43 @@
           "category": "General Items"
         },
         {
-          "name": "Sweets [Various]",
+          "name": "Strawberry Sweet",
+          "price": "5000",
+          "effect": "Evolves Milcery into Alcremie",
+          "category": "General Items"
+        },
+        {
+          "name": "Love Sweet",
+          "price": "5000",
+          "effect": "Evolves Milcery into Alcremie",
+          "category": "General Items"
+        },
+        {
+          "name": "Berry Sweet",
+          "price": "5000",
+          "effect": "Evolves Milcery into Alcremie",
+          "category": "General Items"
+        },
+        {
+          "name": "Clover Sweet",
+          "price": "5000",
+          "effect": "Evolves Milcery into Alcremie",
+          "category": "General Items"
+        },
+        {
+          "name": "Flower Sweet",
+          "price": "5000",
+          "effect": "Evolves Milcery into Alcremie",
+          "category": "General Items"
+        },
+        {
+          "name": "Star Sweet",
+          "price": "5000",
+          "effect": "Evolves Milcery into Alcremie",
+          "category": "General Items"
+        },
+        {
+          "name": "Ribbon Sweet",
           "price": "5000",
           "effect": "Evolves Milcery into Alcremie",
           "category": "General Items"
@@ -12438,7 +12474,25 @@
       "mode": "full",
       "stock": [
         {
-          "name": "Shards [Various]",
+          "name": "Red Shard",
+          "price": "500",
+          "effect": "",
+          "category": "Stock"
+        },
+        {
+          "name": "Blue Shard",
+          "price": "500",
+          "effect": "",
+          "category": "Stock"
+        },
+        {
+          "name": "Green Shard",
+          "price": "500",
+          "effect": "",
+          "category": "Stock"
+        },
+        {
+          "name": "Yellow Shard",
           "price": "500",
           "effect": "",
           "category": "Stock"
@@ -12544,6 +12598,96 @@
           "price": "6000",
           "effect": "",
           "category": "Stock"
+        },
+        {
+          "name": "Old Amber",
+          "price": "10000",
+          "effect": "",
+          "category": "Fossils"
+        },
+        {
+          "name": "Dome Fossil",
+          "price": "7000",
+          "effect": "",
+          "category": "Fossils"
+        },
+        {
+          "name": "Helix Fossil",
+          "price": "7000",
+          "effect": "",
+          "category": "Fossils"
+        },
+        {
+          "name": "Root Fossil",
+          "price": "7000",
+          "effect": "",
+          "category": "Fossils"
+        },
+        {
+          "name": "Claw Fossil",
+          "price": "7000",
+          "effect": "",
+          "category": "Fossils"
+        },
+        {
+          "name": "Skull Fossil",
+          "price": "7000",
+          "effect": "",
+          "category": "Fossils"
+        },
+        {
+          "name": "Armor Fossil",
+          "price": "7000",
+          "effect": "",
+          "category": "Fossils"
+        },
+        {
+          "name": "Cover Fossil",
+          "price": "7000",
+          "effect": "",
+          "category": "Fossils"
+        },
+        {
+          "name": "Plume Fossil",
+          "price": "7000",
+          "effect": "",
+          "category": "Fossils"
+        },
+        {
+          "name": "Sail Fossil",
+          "price": "7000",
+          "effect": "",
+          "category": "Fossils"
+        },
+        {
+          "name": "Jaw Fossil",
+          "price": "7000",
+          "effect": "",
+          "category": "Fossils"
+        },
+        {
+          "name": "Fossilized Drake",
+          "price": "2500",
+          "effect": "",
+          "category": "Fossils"
+        },
+        {
+          "name": "Fossilized Fish",
+          "price": "2500",
+          "effect": "",
+          "category": "Fossils"
+        },
+        {
+          "name": "Fossilized Dino",
+          "price": "2500",
+          "effect": "",
+          "category": "Fossils"
+        },
+        {
+          "name": "Fossilized Bird",
+          "price": "2500",
+          "effect": "",
+          "category": "Fossils"
         }
       ]
     },
@@ -13423,7 +13567,43 @@
           "category": "General Items"
         },
         {
-          "name": "Sweets [Various]",
+          "name": "Strawberry Sweet",
+          "price": "5000",
+          "effect": "Evolves Milcery into Alcremie",
+          "category": "General Items"
+        },
+        {
+          "name": "Love Sweet",
+          "price": "5000",
+          "effect": "Evolves Milcery into Alcremie",
+          "category": "General Items"
+        },
+        {
+          "name": "Berry Sweet",
+          "price": "5000",
+          "effect": "Evolves Milcery into Alcremie",
+          "category": "General Items"
+        },
+        {
+          "name": "Clover Sweet",
+          "price": "5000",
+          "effect": "Evolves Milcery into Alcremie",
+          "category": "General Items"
+        },
+        {
+          "name": "Flower Sweet",
+          "price": "5000",
+          "effect": "Evolves Milcery into Alcremie",
+          "category": "General Items"
+        },
+        {
+          "name": "Star Sweet",
+          "price": "5000",
+          "effect": "Evolves Milcery into Alcremie",
+          "category": "General Items"
+        },
+        {
+          "name": "Ribbon Sweet",
           "price": "5000",
           "effect": "Evolves Milcery into Alcremie",
           "category": "General Items"

@@ -1,0 +1,13 @@
+{
+  "Name": "Claw Fossil",
+  "_id": "claw-fossil",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Fossils",
+  "Description": "A fossilized claw from a prehistoric marine Pokémon. Can be restored into Anorith.",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

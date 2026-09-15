@@ -1,0 +1,13 @@
+{
+  "Name": "Fossilized Dino",
+  "_id": "fossilized-dino",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Fossils",
+  "Description": "A fossilized fragment of an unidentified prehistoric marine Pokémon. Combine with a Fossilized Bird to restore Arctozolt, or a Fossilized Fish to restore Arctovish.",
+  "OneUse": false,
+  "TrainerPrice": "2500",
+  "Cures": "",
+  "Image": ""
+}

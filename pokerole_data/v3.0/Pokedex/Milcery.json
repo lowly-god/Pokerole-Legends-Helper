@@ -37,9 +37,9 @@
   "Evolutions": [
     {
       "To": "Alcremie",
-      "DisplayMethod": "Use Various Sweets.",
+      "DisplayMethod": "Use one of the seven Sweets.",
       "Kind": "Item",
-      "Item": "Sweets [Various]"
+      "Item": "Strawberry Sweet, Love Sweet, Berry Sweet, Clover Sweet, Flower Sweet, Star Sweet, or Ribbon Sweet"
     }
   ],
   "Image": "milcery.png",

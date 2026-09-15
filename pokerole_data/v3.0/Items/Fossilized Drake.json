@@ -1,0 +1,13 @@
+{
+  "Name": "Fossilized Drake",
+  "_id": "fossilized-drake",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Fossils",
+  "Description": "A fossilized fragment of an unidentified prehistoric land Pokémon. Combine with a Fossilized Bird to restore Dracozolt, or a Fossilized Fish to restore Dracovish.",
+  "OneUse": false,
+  "TrainerPrice": "2500",
+  "Cures": "",
+  "Image": ""
+}

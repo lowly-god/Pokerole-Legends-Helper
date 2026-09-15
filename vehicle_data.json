@@ -1,0 +1,888 @@
+{
+  "modules": [
+    {
+      "name": "Additional Armor",
+      "aliases": [],
+      "description": "It can be made from scrap metal or anything else the crew can get their hands on and fit to purpose.",
+      "requires": "3 Module Slots.",
+      "traits": "",
+      "benefit": "Increases Vehicle’s Defense by 2 and Special Defense by 1.",
+      "negative": "Reduces Vehicle’s Dexterity by 2.",
+      "commands": []
+    },
+    {
+      "name": "Armarouge-Pattern Plasma Cannon",
+      "aliases": [],
+      "description": "This smaller variant of the Clawitzer-Pattern Plasma Cannon still packs a hefty punch. Originally designed for Mechs, it can be modified for other Vehicles easily enough.",
+      "requires": "4 Module Slots. Powered Trait.",
+      "traits": "Overheat. Grants the Armed Trait.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Plasma Shot",
+          "type": "Electric",
+          "category": "Special",
+          "target": "Foe",
+          "power": "4",
+          "accuracy": "SPECIAL / INSIGHT + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. Must Recharge. If the Target is a human or Pokémon: Roll 3 Chance Dice to Burn (2). If the Target is an applicable Vehicle: Roll 3 Chance Dice to Breach.",
+          "requires": "1 Crew.",
+          "module": "Armarouge-Pattern Plasma Cannon"
+        }
+      ]
+    },
+    {
+      "name": "Ballista",
+      "aliases": [],
+      "description": "This powerful Weapon resembling a giant crossbow can be mounted on any suitably large Vehicle.",
+      "requires": "4 Module Slots. Size Category Medium or above.",
+      "traits": "Grants the Armed Trait.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Ballistae Shot",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. High Critical.",
+          "requires": "2 Crew.",
+          "module": "Ballista"
+        }
+      ]
+    },
+    {
+      "name": "Boarding Teleporter",
+      "aliases": [],
+      "description": "This highly advanced device allows instant short range transmission of up to 3 Crew, aboard a nearby vessel or location. Once teleported, the device stores their bio-signature so they may be recalled safely at will.",
+      "requires": "10 Module Slots. Size Category Large or above. Z-Space Drive and either Powered or Eldritch Traits.",
+      "traits": "Boarding. Mishap Prone.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Boarding Teleport",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Allies in Range",
+          "power": "0",
+          "accuracy": "CLEVER + ALERT",
+          "effect": "Allow up to 3 Crew to Board the Target Vehicle or location.",
+          "requires": "1 Crew.",
+          "module": "Boarding Teleporter"
+        }
+      ]
+    },
+    {
+      "name": "Cannon Battery",
+      "aliases": [],
+      "description": "Three cannons that fire large rounds towards the enemy.",
+      "requires": "8 Module Slots. Size Category Large or above.",
+      "traits": "Explosive. Grants the Armed Trait.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Broadside Blitz",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "STRENGTH + WEAPONS",
+          "effect": "Ranged. Projectile. Successive Actions. If the Target is an applicable Vehicle: Roll 1 Chance Dice to Breach.",
+          "requires": "10 Crew; 16 Crew if Size Category Huge or above.",
+          "module": "Cannon Battery"
+        }
+      ]
+    },
+    {
+      "name": "Ceruledge-Pattern Blade",
+      "aliases": [
+        "Ceruldege-Pattern Blade"
+      ],
+      "description": "A huge powered sword-like attachment designed to be fitted to Mechs.",
+      "requires": "4 Module Slots. Powered and Mech Traits.",
+      "traits": "Grants the Armed Trait.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Power Cutter",
+          "type": "Electric",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+          "effect": "Cutter Command. If the Target is an applicable Vehicle: Roll 3 Chance Dice to Disable the Foe Vehicle’s last Command.",
+          "requires": "1 Crew.",
+          "module": "Ceruledge-Pattern Blade"
+        }
+      ]
+    },
+    {
+      "name": "Charizard’s Breath Cannon",
+      "aliases": [],
+      "description": "This elegant Weapon, often styled to look like the head of a Charizard, emits a gout of white-hot flame and can be mounted on any suitable Vehicle.",
+      "requires": "5 Module Slots. Size Category Medium or above.",
+      "traits": "Explosive. Grants the Armed Trait.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Charizard’s Breath",
+          "type": "Fire",
+          "category": "Special",
+          "target": "All Foes",
+          "power": "2",
+          "accuracy": "SPECIAL / INSIGHT + WEAPONS",
+          "effect": "Ranged. If the Target is a human or Pokémon: Roll 5 Chance Dice to Burn (1). If the Target is an applicable Vehicle: Roll 5 Chance Dice to Set Ablaze.",
+          "requires": "1 Crew.",
+          "module": "Charizard’s Breath Cannon"
+        }
+      ]
+    },
+    {
+      "name": "Cryogonal-Pattern Cryogun",
+      "aliases": [
+        "Cryoganal-Pattern Cryogun"
+      ],
+      "description": "This unusual Weapon is designed more for taking out infantry than other Vehicles, though it can still seize the moving parts of enemy Vehicles if applied directly.",
+      "requires": "3 Module Slots. Powered Trait.",
+      "traits": "Grants the Armed Trait.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Cryofreeze",
+          "type": "Ice",
+          "category": "Special",
+          "target": "All Foes",
+          "power": "3",
+          "accuracy": "SPECIAL / INSIGHT + WEAPONS",
+          "effect": "Ranged. Roll 3 Chance Dice to Frostbite the Foe. If the Target is an applicable Vehicle: Roll 3 Chance Dice to make the Foe Vehicle Stuck.",
+          "requires": "1 Crew.",
+          "module": "Cryogonal-Pattern Cryogun"
+        }
+      ]
+    },
+    {
+      "name": "Clawitzer-Pattern Plasma Cannon",
+      "aliases": [],
+      "description": "This arcane Weapon launches high-energy ionized gas at the Foe, melting through titanium or steel as if they were butter.",
+      "requires": "9 Module Slots. Size Category Large or above. Powered Trait.",
+      "traits": "Overheat. Grants the Armed Trait.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Plasma Blast",
+          "type": "Electric",
+          "category": "Special",
+          "target": "Foe",
+          "power": "6",
+          "accuracy": "SPECIAL / INSIGHT + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. Must Recharge. If the Target is a human or Pokémon: Roll 4 Chance Dice to Burn (2). If the Target is an applicable Vehicle: Roll 4 Chance Dice to Breach.",
+          "requires": "1 Crew.",
+          "module": "Clawitzer-Pattern Plasma Cannon"
+        }
+      ]
+    },
+    {
+      "name": "Dedicated Power-Supply",
+      "aliases": [
+        "Dedicated Power Supply"
+      ],
+      "description": "This bulky power storage system generates and stores power slowly over time, ready for when you absolutely need that extra jolt.",
+      "requires": "8 Module Slots. Size Category Large or above. Powered Trait.",
+      "traits": "",
+      "benefit": "Other Equipment Modules with the Slow Charge (X) Trait become Slow Charge (1).",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Divert Power to Shields",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "CLEVER + ETIQUETTE",
+          "effect": "Increase the Vehicle’s Defense and Special Defense by 2. Decrease the Vehicle’s Strength and Special by 2.",
+          "requires": "Deflector-Shields or Energy-Shields Equipment Module. 2 Crew.",
+          "module": "Dedicated Power-Supply"
+        },
+        {
+          "name": "Divert Power to Weapons",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "CLEVER + ETIQUETTE",
+          "effect": "Increase the Vehicle’s Strength and Special by 2. Decrease the Vehicle’s Defense and Special Defense by 2.",
+          "requires": "Armed Trait. 2 Crew.",
+          "module": "Dedicated Power-Supply"
+        }
+      ]
+    },
+    {
+      "name": "Deflector-Shields",
+      "aliases": [
+        "Deflector Shields"
+      ],
+      "description": "These are the most common type of shields. They can soften the blow or, in many cases, entirely prevent Damage from everything from physical projectiles and explosions to space-debris collisions.",
+      "requires": "6 Module Slots. Size Category Medium or above. Powered Trait.",
+      "traits": "Slow Charge (4).",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Activate Deflector-Shields",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "CLEVER + CHANNEL / TECHNOLOGY",
+          "effect": "Shield Command. Reaction 5. Reduce by 5 the Damage from a Physical source.",
+          "requires": "1 Crew; 2 Crew if Size Category Large or above.",
+          "module": "Deflector-Shields"
+        }
+      ]
+    },
+    {
+      "name": "Dragapult-Pattern Missile Launcher",
+      "aliases": [],
+      "description": "This missile launcher is a favourite among battle-worn captains. Its missiles home in on their Target via an encrypted tracking signal; even the best pilots or hackers would struggle to survive both shots.",
+      "requires": "6 Module Slots. Size Category Medium or above. Powered Trait.",
+      "traits": "Explosive. Grants the Armed Trait.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Missile Barrage",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "INSIGHT + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. Never Miss. Double Action. Must Recharge. If the Target is an applicable Vehicle: Roll 3 Chance Dice to Breach.",
+          "requires": "1 Crew; 4 Crew if Size Category Large or above.",
+          "module": "Dragapult-Pattern Missile Launcher"
+        }
+      ]
+    },
+    {
+      "name": "Dreepy-Pattern Torpedo Launcher",
+      "aliases": [],
+      "description": "This Weapon, patterned after the Dreepy line, is deadly and sends out many torpedoes in quick succession. “At least one of ’em’s gotta hit something, right?”",
+      "requires": "6 Module Slots. Size Category Medium or above. Powered Trait.",
+      "traits": "Explosive. Grants the Armed Trait.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Torpedo Barrage",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "INSIGHT + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. Successive Actions. If the Target is an applicable Vehicle: Roll 3 Chance Dice to Breach.",
+          "requires": "1 Crew; 4 Crew if Size Category Large or above.",
+          "module": "Dreepy-Pattern Torpedo Launcher"
+        }
+      ]
+    },
+    {
+      "name": "Dual Lasers",
+      "aliases": [],
+      "description": "Two smaller laser weapons that can be fitted easily, either on swivels or facing forward.",
+      "requires": "3 Module Slots. Size Category Medium or above. Powered Trait.",
+      "traits": "Slow Charge (3). Grants the Armed Trait.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Dual Shot",
+          "type": "Typeless",
+          "category": "Special",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "SPECIAL + WEAPONS",
+          "effect": "Ranged. Lethal. High Critical. Double Action. Roll 1 Chance Dice to ignore Defenses.",
+          "requires": "1 Crew.",
+          "module": "Dual Lasers"
+        }
+      ]
+    },
+    {
+      "name": "Energy-Shields",
+      "aliases": [
+        "Energy Shields"
+      ],
+      "description": "These are the most common type of energy shields. They can soften the blow or, in many cases, entirely prevent Damage from everything from energy weapons and Pokémon attacks to plasma storms.",
+      "requires": "6 Module Slots. Size Category Medium or above. Powered Trait.",
+      "traits": "Slow Charge (4).",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Activate Energy-Shields",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "CLEVER + CHANNEL / TECHNOLOGY",
+          "effect": "Shield Command. Reaction 5. Reduce by 5 the Damage from a Special source.",
+          "requires": "1 Crew; 2 Crew if Size Category Large or above.",
+          "module": "Energy-Shields"
+        }
+      ]
+    },
+    {
+      "name": "Excadrill-Pattern Mining Drill",
+      "aliases": [],
+      "description": "A large drill-like attachment designed for Mechs. More than a few asteroid miners have used them as improvised weapons when their operations came under attack.",
+      "requires": "3 Module Slots. Powered and Mech Traits.",
+      "traits": "",
+      "benefit": "May be used to mine ore or dig tunnels.",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Drill-Punch",
+          "type": "Electric",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "STRENGTH + WEAPONS",
+          "effect": "Fist Command. If the Target is an applicable Vehicle: Roll 3 Chance Dice to Breach.",
+          "requires": "1 Crew.",
+          "module": "Excadrill-Pattern Mining Drill"
+        }
+      ]
+    },
+    {
+      "name": "Heavy Cannon",
+      "aliases": [],
+      "description": "This large cannon fires explosive-filled rounds that detonate on impact.",
+      "requires": "7 Module Slots. Size Category Large or above.",
+      "traits": "Explosive.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Explosive Round",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "4",
+          "accuracy": "STRENGTH + WEAPONS",
+          "effect": "Explosive Command. Ranged. Projectile. Lethal. If the Target is a human or Pokémon: Roll 2 Dice of Damage against 2 other Targets. If the Target is an applicable Vehicle: Roll 4 Chance Dice to Breach.",
+          "requires": "2 Crew.",
+          "module": "Heavy Cannon"
+        }
+      ]
+    },
+    {
+      "name": "Heavy Laser-Cannon",
+      "aliases": [
+        "Heavy Laser Cannon"
+      ],
+      "description": "This robust cannon is commonplace, its hard-wearing nature and reliability make it a favourite.",
+      "requires": "8 Module Slots. Size Category Medium or above. Powered Trait.",
+      "traits": "Slow Charge (3). Grants the Armed Trait.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Heavy Laser",
+          "type": "Typeless",
+          "category": "Special",
+          "target": "Foe",
+          "power": "5",
+          "accuracy": "SPECIAL + WEAPONS",
+          "effect": "Ranged. Lethal. High Critical. Roll 1 Chance Dice to ignore Defenses.",
+          "requires": "1 Crew.",
+          "module": "Heavy Laser-Cannon"
+        }
+      ]
+    },
+    {
+      "name": "Grappling Harpoons",
+      "aliases": [],
+      "description": "Simple grapples that allow the Crew to climb onto an enemy vessel or abseil down to a nearby location.",
+      "requires": "2 Module Slots.",
+      "traits": "Boarding. Grants the Armed Trait.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Harpoon",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "0",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Blocks. Allows Crew to climb aboard the Foe Vehicle.",
+          "requires": "1 Crew; 3 Crew if Size Category Large or above.",
+          "module": "Grappling Harpoons"
+        }
+      ]
+    },
+    {
+      "name": "Heavy Machine Gun",
+      "aliases": [],
+      "description": "Deadly against infantry or lightly armored Vehicles, but less effective against heavily armored foes.",
+      "requires": "4 Module Slots. Size Category Medium or above.",
+      "traits": "Grants the Armed Trait.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Gun Them Down",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. Successive Actions.",
+          "requires": "1 Crew.",
+          "module": "Heavy Machine Gun"
+        }
+      ]
+    },
+    {
+      "name": "Ion Pulse-Cannon",
+      "aliases": [
+        "Ion Pulse Cannon"
+      ],
+      "description": "This unique Weapon does not Damage Vehicles directly; instead, it disables them temporarily. It is a favourite among pirate captains and those looking to capture an enemy craft.",
+      "requires": "3 Module Slots. Size Category Medium or above. Powered Trait.",
+      "traits": "Energy Weapon (Ion). Grants the Armed Trait.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Ion Pulse",
+          "type": "Electric",
+          "category": "Support",
+          "target": "Foe",
+          "power": "0",
+          "accuracy": "SPECIAL + WEAPONS / TECHNOLOGY",
+          "effect": "Pulse Command. If the Target is an applicable Vehicle: Disable the Foe Vehicle’s last Command.",
+          "requires": "Powered Trait. 1 Crew.",
+          "module": "Ion Pulse-Cannon"
+        }
+      ]
+    },
+    {
+      "name": "Joltik-Pattern Power Leechers",
+      "aliases": [],
+      "description": "A strange series of projectile cables that sap the energy of enemy Vehicles.",
+      "requires": "2 Module Slots. Powered Trait.",
+      "traits": "Grants the Armed Trait.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Power Steal",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "Foe",
+          "power": "0",
+          "accuracy": "CLEVER + CHANNEL / TECHNOLOGY",
+          "effect": "Blocks. Reduce the Foe’s Dexterity by 1. If the Target is an applicable Vehicle: Leech the Target.",
+          "requires": "1 Crew.",
+          "module": "Joltik-Pattern Power Leechers"
+        }
+      ]
+    },
+    {
+      "name": "Machamp-Pattern Power Gauntlet",
+      "aliases": [],
+      "description": "A huge powered fist-like attachment designed to be fitted to Mechs.",
+      "requires": "3 Module Slots. Powered and Mech Traits.",
+      "traits": "Grants the Armed Trait.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Lightning Punch",
+          "type": "Electric",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "STRENGTH / DEXTERITY + BRAWL",
+          "effect": "Fist Command. If the Target is a human or Pokémon: Roll 4 Chance Dice to Paralyze the Foe. If the Target is an applicable Vehicle: Roll 4 Chance Dice to Overload the Foe.",
+          "requires": "1 Crew.",
+          "module": "Machamp-Pattern Power Gauntlet"
+        }
+      ]
+    },
+    {
+      "name": "Mini Cannon",
+      "aliases": [],
+      "description": "This small cannon fires solid shot that can still deal severe Damage.",
+      "requires": "3 Module Slots. Size Category Medium or above.",
+      "traits": "Explosive. Grants the Armed Trait.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Cannon Shot",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. If the Target is an applicable Vehicle: Roll 3 Chance Dice to Breach.",
+          "requires": "2 Crew.",
+          "module": "Mini Cannon"
+        }
+      ]
+    },
+    {
+      "name": "Multi-Laser",
+      "aliases": [],
+      "description": "Great against infantry or smaller Vehicles. Occasionally, a skilled shot will get lucky and manage to down something bigger.",
+      "requires": "5 Module Slots. Powered Trait.",
+      "traits": "Grants the Armed Trait.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Double Blast",
+          "type": "Typeless",
+          "category": "Special",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY / SPECIAL + WEAPONS",
+          "effect": "Ranged. High Critical. Double Action. Roll 1 Chance Dice to ignore Defenses.",
+          "requires": "1 Crew.",
+          "module": "Multi-Laser"
+        }
+      ]
+    },
+    {
+      "name": "Pintle Mounted Gun",
+      "aliases": [],
+      "description": "It can’t compete with larger scale weapons, but it will certainly deter those who may approach.",
+      "requires": "3 Module Slots. Size Category Medium or above.",
+      "traits": "Grants the Armed Trait.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Burst Fire",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. Double Action.",
+          "requires": "1 Crew.",
+          "module": "Pintle Mounted Gun"
+        }
+      ]
+    },
+    {
+      "name": "Shipboard Armory",
+      "aliases": [],
+      "description": "“A well-stocked armory and troops who know how to use it. We’ll see off our enemies any day they try and pick a fight with us, Ma’am.”",
+      "requires": "7 Module Slots. Size Category Large or above.",
+      "traits": "",
+      "benefit": "NPC Crew may be outfitted with Firearms and Leather / Flak Armor (at the Storyteller’s discretion).",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Arquebus Volley",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "All Foes",
+          "power": "Varies",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Lethal. Roll Damage Dice according to the Vehicle’s Rank.",
+          "requires": "Crew equal to the Vehicle’s Current Rank.",
+          "module": "Shipboard Armory"
+        }
+      ]
+    },
+    {
+      "name": "Shipboard Archers",
+      "aliases": [],
+      "description": "“Pick your targets... Hold... On my signal... Fire!”",
+      "requires": "6 Module Slots. Size Category Medium or above.",
+      "traits": "",
+      "benefit": "NPC Crew may be outfitted with Bows and Leather Armor, with braziers lit for fire arrows.",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Fire-Arrow Volley",
+          "type": "Fire",
+          "category": "Physical",
+          "target": "All Foes",
+          "power": "Varies",
+          "accuracy": "DEXTERITY + WEAPONS",
+          "effect": "Ranged. Projectile. Roll Damage Dice according to the Vehicle’s Rank. If the Target is an applicable Vehicle: Roll 3 Chance Dice to Set Ablaze. If the Target is a human or Pokémon: Roll 3 Chance Dice to Burn (1).",
+          "requires": "Crew equal to the Vehicle’s Current Rank.",
+          "module": "Shipboard Archers"
+        }
+      ]
+    },
+    {
+      "name": "Weavile-Pattern Power Claw",
+      "aliases": [],
+      "description": "Powered, bladed claw-like attachments designed to be fitted to Mechs.",
+      "requires": "4 Module Slots. Powered Trait.",
+      "traits": "Grants the Armed Trait.",
+      "benefit": "",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Power Claw",
+          "type": "Electric",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "2",
+          "accuracy": "DEXTERITY + BRAWL / CHANNEL",
+          "effect": "Successive Actions. If the Target is an applicable Vehicle: Roll 1 Chance Dice to Disable.",
+          "requires": "1 Crew.",
+          "module": "Weavile-Pattern Power Claw"
+        }
+      ]
+    },
+    {
+      "name": "Z-Space Drive",
+      "aliases": [],
+      "description": "The invention that took humanity (and their Pokémon companions) beyond the reach of the solar system and out into the galaxy. It allows a ship to bypass the distances needed for conventional travel, by venturing through the mysterious realm known as Z-Space, a place originally only accessible through Ultra Wormholes.",
+      "requires": "12 Module Slots. Size Category Large or above. Powered and Space Traits.",
+      "traits": "",
+      "benefit": "Grants the Z-Space Drive Trait.",
+      "negative": "",
+      "commands": [
+        {
+          "name": "Z-Space Shift",
+          "type": "Typeless",
+          "category": "Support",
+          "target": "User",
+          "power": "0",
+          "accuracy": "DEXTERITY + CHANNEL / PERFORM",
+          "effect": "Reaction 1. The Vehicle can now make up to 3 Evades this Round.",
+          "requires": "1 Crew; 3 Crew if Size Category Large or above.",
+          "module": "Z-Space Drive"
+        }
+      ]
+    }
+  ],
+  "general_commands": [
+    {
+      "name": "Cunning Maneuver",
+      "type": "Typeless",
+      "category": "Support",
+      "target": "User",
+      "power": "0",
+      "accuracy": "INSIGHT / CLEVER + PERFORM",
+      "effect": "Increase the User’s Strength and Dexterity by 1. Reduce the User’s Defense and Special Defense by 1. Duration 3 Turns.",
+      "requires": "1 Crew; 3 Crew if Size Category Large or above.",
+      "module": null
+    },
+    {
+      "name": "Feign Defeat",
+      "type": "Typeless",
+      "category": "Support",
+      "target": "User",
+      "power": "0",
+      "accuracy": "INSIGHT + ETIQUETTE / STEALTH",
+      "effect": "This Command can only be used after the Target rolls Damage against the User. User’s next 3 Commands gain Reaction 3.",
+      "requires": "1 Crew; 3 Crew if Size Category Large or above.",
+      "module": null
+    },
+    {
+      "name": "Horrifying Presence",
+      "type": "Ghost",
+      "category": "Support",
+      "target": "All Foes",
+      "power": "0",
+      "accuracy": "TOUGH + INTIMIDATE / MEDIUM",
+      "effect": "Reduce the Will of those affected by half (rounded down). Reset any effects the Targets received from spending Will previously.",
+      "requires": "Eldritch Trait. 0 Crew.",
+      "module": null
+    },
+    {
+      "name": "Insightful Maneuver",
+      "type": "Typeless",
+      "category": "Support",
+      "target": "User",
+      "power": "0",
+      "accuracy": "INSIGHT + EVASION / PERFORM",
+      "effect": "Shield Command. Reaction 1. Reduce by 3 the Damage this Vehicle would receive from a Damaging attack.",
+      "requires": "1 Crew; 3 Crew if Size Category Large or above.",
+      "module": null
+    },
+    {
+      "name": "Man The Oars",
+      "type": "Typeless",
+      "category": "Support",
+      "target": "User",
+      "power": "0",
+      "accuracy": "STRENGTH / VITALITY + ATHLETIC",
+      "effect": "Increase the Vehicle’s Dexterity and Evasion by 2. Reduce the Vehicle’s Strength by 2. Duration 3 Turns.",
+      "requires": "1 Crew; 6 Crew if Medium, 12 Crew if Large, or 22 Crew if Huge.",
+      "module": null
+    },
+    {
+      "name": "Overclock",
+      "type": "Typeless",
+      "category": "Support",
+      "target": "User",
+      "power": "0",
+      "accuracy": "INSIGHT / COOL + PERFORM",
+      "effect": "Reaction 1. Increase the Vehicle’s Dexterity by 2. Duration 3 Turns.",
+      "requires": "Powered Trait. 1 Crew; 3 Crew if Size Category Large or above.",
+      "module": null
+    },
+    {
+      "name": "Pokémon Assault",
+      "type": "Typeless",
+      "category": "Physical",
+      "target": "All Foes",
+      "power": "Varies",
+      "accuracy": "STRENGTH / SPECIAL + BRAWL / CHANNEL",
+      "effect": "Ranged. Roll Damage Dice according to the Vehicle’s Rank. The Damage Type is decided by the specific Pokémon Types chosen, or roll 1d18 to determine the Damage Type. (1. Fire, 2. Fighting, 3. Rock, 4. Ground, 5. Electric, 6. Bug, 7. Grass, 8. Flying, 9. Ice, 10. Water, 11. Dragon, 12. Ghost, 13. Poison, 14. Psychic, 15. Fairy, 16. Normal, 17. Steel, 18. Dark).",
+      "requires": "Pokémon Crew equal to the Vehicle’s Current Rank.",
+      "module": null
+    },
+    {
+      "name": "Possessed Rigging",
+      "type": "Ghost",
+      "category": "Support",
+      "target": "All Foes",
+      "power": "0",
+      "accuracy": "DEXTERITY + CHANNEL / MEDIUM",
+      "effect": "Reduce the Dexterity of those affected by 1. This Command may only Target Active Combatants aboard the Vehicle itself.",
+      "requires": "Eldritch Trait.",
+      "module": null
+    },
+    {
+      "name": "Quick-Fix",
+      "type": "Typeless",
+      "category": "Support",
+      "target": "User",
+      "power": "0",
+      "accuracy": "CLEVER + CRAFTS / TECHNOLOGY",
+      "effect": "Basic Heal. Heal 3 HP when used by a Small or Medium Size Category Vehicle. Heal 6 HP when used by a Large or Huge Size Category Vehicle.",
+      "requires": "1 Crew; 5 Crew if Size Category Large or above.",
+      "module": null
+    },
+    {
+      "name": "Ram",
+      "type": "Typeless",
+      "category": "Physical",
+      "target": "Foe",
+      "power": "5",
+      "accuracy": "STRENGTH + BRAWL",
+      "effect": "Recoil. If the Target is an applicable Vehicle: Roll 2 Chance Dice to Breach.",
+      "requires": "1 Crew; 4 Crew if Size Category Large or above.",
+      "module": null
+    },
+    {
+      "name": "Restore Power",
+      "type": "Typeless",
+      "category": "Support",
+      "target": "User",
+      "power": "0",
+      "accuracy": "COOL / CLEVER + TECHNOLOGY",
+      "effect": "Remove the Disabled Status Condition.",
+      "requires": "Powered Trait. 2 Crew.",
+      "module": null
+    },
+    {
+      "name": "Roto-Recover",
+      "type": "Typeless",
+      "category": "Support",
+      "target": "One Ally",
+      "power": "0",
+      "accuracy": "INSIGHT / CLEVER + NATURE",
+      "effect": "Remove one Status Condition from the Target Vehicle.",
+      "requires": "Rotom Repair Drone. 1 Rotom Crew.",
+      "module": null
+    },
+    {
+      "name": "Roto-Repair",
+      "type": "Typeless",
+      "category": "Support",
+      "target": "One Ally",
+      "power": "0",
+      "accuracy": "INSIGHT / CLEVER + NATURE",
+      "effect": "Heal the Target Vehicle for 5 HP.",
+      "requires": "Rotom Repair Drone. 1 Rotom Crew.",
+      "module": null
+    },
+    {
+      "name": "Roto-Restore",
+      "type": "Electric",
+      "category": "Support",
+      "target": "One Ally",
+      "power": "0",
+      "accuracy": "INSIGHT / SPECIAL + CHANNEL",
+      "effect": "Remove the Disabled Status from the Target Vehicle.",
+      "requires": "Rotom Repair Drone. 1 Rotom Crew.",
+      "module": null
+    },
+    {
+      "name": "Run Down",
+      "type": "Typeless",
+      "category": "Physical",
+      "target": "Foe",
+      "power": "3",
+      "accuracy": "DEXTERITY + BRAWL",
+      "effect": "Increase this Command’s Damage Dice by 1 for each additional point the Vehicle has in Dexterity.",
+      "requires": "1 Crew.",
+      "module": null
+    },
+    {
+      "name": "Toxic Artillery",
+      "type": "Poison",
+      "category": "Physical",
+      "target": "Foe",
+      "power": "4",
+      "accuracy": "STRENGTH / DEXTERITY + WEAPONS",
+      "effect": "Ranged. Projectile. Roll 4 Chance Dice to Poison the Foe and 2 other Targets.",
+      "requires": "Revaroom Tank. 2 Human Crew, 1 Revaroom.",
+      "module": null
+    },
+    {
+      "name": "Trim The Main Sails",
+      "type": "Typeless",
+      "category": "Support",
+      "target": "User",
+      "power": "0",
+      "accuracy": "DEXTERITY + ETIQUETTE",
+      "effect": "Increase the Vehicle's Dexterity by 2. Reduce its Defense and Special Defense by 1. Duration 3 Turns.",
+      "requires": "Sail Trait. 1 Crew; 6 Crew if Size Category Large or above.",
+      "module": null
+    },
+    {
+      "name": "Unearthly Sublimation",
+      "type": "Shadow",
+      "category": "Special",
+      "target": "Foe",
+      "power": "3",
+      "accuracy": "DEXTERITY + CHANNEL / MEDIUM",
+      "effect": "Charge Command. Reaction 1. While in the Charge Phase, the Vehicle, any Active Combatants, or objects aboard it are immune to all Damage and other effects from sources not aboard the Vehicle itself.",
+      "requires": "Eldritch Trait.",
+      "module": null
+    },
+    {
+      "name": "Wave Crest",
+      "type": "Water",
+      "category": "Physical",
+      "target": "Foe",
+      "power": "2",
+      "accuracy": "DEXTERITY + BRAWL / CHANNEL",
+      "effect": "",
+      "requires": "1 Crew; 5 Crew if Size Category Large or above.",
+      "module": null
+    }
+  ]
+}

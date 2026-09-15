@@ -1,0 +1,13 @@
+{
+  "Name": "Fossilized Fish",
+  "_id": "fossilized-fish",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Fossils",
+  "Description": "A fossilized fragment of an unidentified prehistoric marine Pokémon. Combine with a Fossilized Drake to restore Dracovish, or a Fossilized Dino to restore Arctovish.",
+  "OneUse": false,
+  "TrainerPrice": "2500",
+  "Cures": "",
+  "Image": ""
+}

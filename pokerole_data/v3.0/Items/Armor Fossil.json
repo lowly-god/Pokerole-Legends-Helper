@@ -1,0 +1,13 @@
+{
+  "Name": "Armor Fossil",
+  "_id": "armor-fossil",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Fossils",
+  "Description": "A fossilized piece of protective armor from a prehistoric land Pokémon. Can be restored into Shieldon.",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

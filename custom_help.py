@@ -18,6 +18,10 @@ HELP_CATEGORIES = [
         ("accessory", "Display an Accessory's traits and Maneuver if relevant"),
         ("tools", "Display a Tool and its traits"),
     ]),
+    ("Vehicle Reference", [
+        ("equipment_module", "Display a Vehicle Equipment Module and its related Commands"),
+        ("vehicle_commands", "Display an individual Vehicle Command"),
+    ]),
     ("General Reference", [
         ("rank_up", "Display Rank-Up requirements and benefits."),
         ("nature", "Display information about a Nature"),
@@ -53,7 +57,7 @@ HELP_CATEGORIES = [
     ("Utilities", [
         ("roll", "Roll a single D6 by default. You can change the number of dice and/or the number of sides"),
         ("roll_luck_check", "Roll a 1D100 Luck Check, with input for Luck Skill modifier"),
-        ("roll_foraging", "Roll an Insight + Nature check to see what you find on the foraging table"),
+        ("roll_foraging", "Roll an Insight + Nature check on a selected foraging table"),
         ("roll_training_session", "Roll a Pokémon training session"),
         ("roll_nature", "Roll 1D100 for a Pokémon's Nature."),
         ("settings", "Change the settings"),

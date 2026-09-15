@@ -1,0 +1,13 @@
+{
+  "Name": "Star Sweet",
+  "_id": "star-sweet",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "A star-shaped sweet. Evolves Milcery into Alcremie when held while it spins.",
+  "OneUse": true,
+  "TrainerPrice": "5000",
+  "Cures": "",
+  "Image": ""
+}

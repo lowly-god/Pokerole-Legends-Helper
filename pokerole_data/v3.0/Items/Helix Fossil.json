@@ -1,0 +1,13 @@
+{
+  "Name": "Helix Fossil",
+  "_id": "helix-fossil",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Fossils",
+  "Description": "A spiral-shaped fossil from a prehistoric marine Pokémon. Can be restored into Omanyte.",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

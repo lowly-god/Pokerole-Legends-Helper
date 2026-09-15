@@ -1,0 +1,13 @@
+{
+  "Name": "Dome Fossil",
+  "_id": "dome-fossil",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Fossils",
+  "Description": "A fossilized shell from a prehistoric marine Pokémon. Can be restored into Kabuto.",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

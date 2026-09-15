@@ -1,0 +1,13 @@
+{
+  "Name": "Ribbon Sweet",
+  "_id": "ribbon-sweet",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "A ribbon-shaped sweet. Evolves Milcery into Alcremie when held while it spins.",
+  "OneUse": true,
+  "TrainerPrice": "5000",
+  "Cures": "",
+  "Image": ""
+}

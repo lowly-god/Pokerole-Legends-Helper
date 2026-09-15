@@ -1,0 +1,13 @@
+{
+  "Name": "Fossilized Bird",
+  "_id": "fossilized-bird",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Fossils",
+  "Description": "A fossilized fragment of an unidentified prehistoric Pokémon. Combine with a Fossilized Drake to restore Dracozolt, or a Fossilized Dino to restore Arctozolt.",
+  "OneUse": false,
+  "TrainerPrice": "2500",
+  "Cures": "",
+  "Image": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Jaw Fossil",
+  "_id": "jaw-fossil",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Fossils",
+  "Description": "A fossilized piece of a massive prehistoric jaw. Can be restored into Tyrunt.",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}

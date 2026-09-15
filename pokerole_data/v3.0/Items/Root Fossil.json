@@ -1,0 +1,13 @@
+{
+  "Name": "Root Fossil",
+  "_id": "root-fossil",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Miscellaneous",
+  "Category": "Fossils",
+  "Description": "A fossil resembling part of an ancient plant root. Can be restored into Lileep.",
+  "OneUse": false,
+  "TrainerPrice": "7000",
+  "Cures": "",
+  "Image": ""
+}
