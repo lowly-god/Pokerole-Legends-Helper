@@ -6,6 +6,8 @@ from discord import app_commands
 from discord.ext import commands
 
 
+HIDDEN_POWER_TYPES = {'Adamant': 'Fighting', 'Bashful': 'Fairy', 'Bold': 'Flying', 'Brave': 'Dragon', 'Calm': 'Water', 'Careful': 'Psychic', 'Docile': 'Grass', 'Gentle': 'Fairy', 'Hardy': 'Ground', 'Hasty': 'Electric', 'Impish': 'Ghost', 'Jolly': 'Electric', 'Lax': 'Normal', 'Lonely': 'Ghost', 'Mild': 'Grass', 'Modest': 'Steel', 'Naive': 'Bug', 'Naughty': 'Dark', 'Quiet': 'Ice', 'Quirky': 'Psychic', 'Rash': 'Fire', 'Relaxed': 'Water', 'Sassy': 'Poison', 'Serious': 'Rock', 'Timid': 'Ice'}
+
 NATURE_TABLE = [(1, 4, 'Adamant', '+1 Maximum Strength, -1 Maximum Special', 4), (5, 8, 'Bashful', 'Neutral', 6), (9, 12, 'Bold', '+1 Maximum Vitality, -1 Maximum Strength', 9), (13, 16, 'Brave', '+1 Maximum Strength, -1 Maximum Dexterity', 9), (17, 20, 'Calm', '+1 Maximum Insight, -1 Maximum Strength', 8), (21, 24, 'Careful', '+1 Maximum Insight, -1 Maximum Special', 5), (25, 28, 'Docile', 'Neutral', 7), (29, 32, 'Gentle', '+1 Maximum Insight, -1 Maximum Vitality', 10), (33, 36, 'Hardy', 'Neutral', 9), (37, 40, 'Hasty', '+1 Maximum Dexterity, -1 Maximum Vitality', 7), (41, 44, 'Impish', '+1 Maximum Vitality, -1 Maximum Special', 7), (45, 48, 'Jolly', '+1 Maximum Dexterity, -1 Maximum Special', 10), (49, 52, 'Lax', '+1 Maximum Vitality, -1 Maximum Insight', 8), (53, 56, 'Lonely', '+1 Maximum Strength, -1 Maximum Vitality', 5), (57, 60, 'Mild', '+1 Maximum Special, -1 Maximum Vitality', 8), (61, 64, 'Modest', '+1 Maximum Special, -1 Maximum Strength', 10), (65, 68, 'Naive', '+1 Maximum Dexterity, -1 Maximum Insight', 7), (69, 72, 'Naughty', '+1 Maximum Strength, -1 Maximum Insight', 6), (73, 76, 'Quiet', '+1 Maximum Special, -1 Maximum Dexterity', 5), (77, 80, 'Quirky', 'Neutral', 9), (81, 84, 'Rash', '+1 Maximum Special, -1 Maximum Insight', 6), (85, 88, 'Relaxed', '+1 Maximum Vitality, -1 Maximum Dexterity', 8), (89, 92, 'Sassy', '+1 Maximum Insight, -1 Maximum Dexterity', 7), (93, 96, 'Serious', 'Neutral', 4), (97, 100, 'Timid', '+1 Maximum Dexterity, -1 Maximum Strength', 4)]
 
 
@@ -58,10 +60,12 @@ class NatureRoll(commands.Cog):
         if keywords:
             output += f"*{keywords}*\n\n"
 
+        hidden_power_type = HIDDEN_POWER_TYPES.get(name, 'Unknown')
         output += (
             f"**Roll Range:** {low}–{high}\n"
             f"**Maximum Attributes:** {modifier}\n"
-            f"**Confidence:** {confidence}"
+            f"**Confidence:** {confidence}\n"
+            f"**Hidden Power Type:** {hidden_power_type}"
         )
 
         await interaction.response.send_message(output)

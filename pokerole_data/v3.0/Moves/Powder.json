@@ -7,7 +7,7 @@
   "Accuracy1": "Insight",
   "Accuracy2": "Nature",
   "Target": "Foe",
-  "Effect": "Powder Move. The next time the Target uses a Fire-Type Move, Roll Typeless Damage Dice equal to that Move's power, ignore defenses.",
+  "Effect": "Powder Move. The next time the Target uses a Fire-Type Move, it fails to activate. Roll Typeless Damage Dice equal to that Move's power against them, ignore Defenses.",
   "Description": "The foe gets covered by a very flammable powder, the smallest source of fire will ignite it with explosive results.",
   "_id": "powder",
   "Attributes": {

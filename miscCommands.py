@@ -64,6 +64,8 @@ natures = [
     'Timid'
 ]
 
+HIDDEN_POWER_TYPES = {'Adamant': 'Fighting', 'Bashful': 'Fairy', 'Bold': 'Flying', 'Brave': 'Dragon', 'Calm': 'Water', 'Careful': 'Psychic', 'Docile': 'Grass', 'Gentle': 'Fairy', 'Hardy': 'Ground', 'Hasty': 'Electric', 'Impish': 'Ghost', 'Jolly': 'Electric', 'Lax': 'Normal', 'Lonely': 'Ghost', 'Mild': 'Grass', 'Modest': 'Steel', 'Naive': 'Bug', 'Naughty': 'Dark', 'Quiet': 'Ice', 'Quirky': 'Psychic', 'Rash': 'Fire', 'Relaxed': 'Water', 'Sassy': 'Poison', 'Serious': 'Rock', 'Timid': 'Ice'}
+
 # Legends 3.0 nature mechanics
 NATURE_DETAILS = {'Adamant': ('1-4', '+1 Maximum Strength, -1 Maximum Special', 4), 'Bashful': ('5-8', 'Neutral', 6), 'Bold': ('9-12', '+1 Maximum Vitality, -1 Maximum Strength', 9), 'Brave': ('13-16', '+1 Maximum Strength, -1 Maximum Dexterity', 9), 'Calm': ('17-20', '+1 Maximum Insight, -1 Maximum Strength', 8), 'Careful': ('21-24', '+1 Maximum Insight, -1 Maximum Special', 5), 'Docile': ('25-28', 'Neutral', 7), 'Gentle': ('29-32', '+1 Maximum Insight, -1 Maximum Vitality', 10), 'Hardy': ('33-36', 'Neutral', 9), 'Hasty': ('37-40', '+1 Maximum Dexterity, -1 Maximum Vitality', 7), 'Impish': ('41-44', '+1 Maximum Vitality, -1 Maximum Special', 7), 'Jolly': ('45-48', '+1 Maximum Dexterity, -1 Maximum Special', 10), 'Lax': ('49-52', '+1 Maximum Vitality, -1 Maximum Insight', 8), 'Lonely': ('53-56', '+1 Maximum Strength, -1 Maximum Vitality', 5), 'Mild': ('57-60', '+1 Maximum Special, -1 Maximum Vitality', 8), 'Modest': ('61-64', '+1 Maximum Special, -1 Maximum Strength', 10), 'Naive': ('65-68', '+1 Maximum Dexterity, -1 Maximum Insight', 7), 'Naughty': ('69-72', '+1 Maximum Strength, -1 Maximum Insight', 6), 'Quiet': ('73-76', '+1 Maximum Special, -1 Maximum Dexterity', 5), 'Quirky': ('77-80', 'Neutral', 9), 'Rash': ('81-84', '+1 Maximum Special, -1 Maximum Insight', 6), 'Relaxed': ('85-88', '+1 Maximum Vitality, -1 Maximum Dexterity', 8), 'Sassy': ('89-92', '+1 Maximum Insight, -1 Maximum Dexterity', 7), 'Serious': ('93-96', 'Neutral', 4), 'Timid': ('97-100', '+1 Maximum Dexterity, -1 Maximum Strength', 4)}
 
@@ -591,11 +593,13 @@ class Misc(commands.Cog):
             # list all natures with Legends mechanical information
             for k, v in list(self.nature.items()):
                 roll, modifier, confidence = NATURE_DETAILS.get(k, ('?', 'Unknown', '?'))
+                hidden_power_type = HIDDEN_POWER_TYPES.get(k, 'Unknown')
                 output += (
                     f'**{k}** (Roll {roll})\n'
                     f'\t-*{v[0]}*\n'
                     f'\t-{modifier}\n'
                     f'\t-Confidence: {confidence}\n'
+                    f'\t-Hidden Power Type: {hidden_power_type}\n'
                 )
         else:
             # list a single nature description with Legends mechanics
@@ -603,11 +607,13 @@ class Misc(commands.Cog):
             if nature in self.nature:
                 effect = self.nature[nature][1]
                 roll, modifier, confidence = NATURE_DETAILS.get(nature, ('?', 'Unknown', '?'))
+                hidden_power_type = HIDDEN_POWER_TYPES.get(nature, 'Unknown')
                 output = (
                     f'**{nature}**  |  Roll **{roll}**\n'
                     f'*{self.nature[nature][0]}*\n\n'
                     f'**Maximum Attributes:** {modifier}\n'
-                    f'**Confidence:** {confidence}\n\n'
+                    f'**Confidence:** {confidence}\n'
+                    f'**Hidden Power Type:** {hidden_power_type}\n\n'
                     f'{effect}'
                 )
             else:
