@@ -198,5 +198,105 @@
     "Rank": "Advanced / Expert",
     "Description": "You’re able to spot value where others aren’t, and create treasure from trash.",
     "Effect": "You gain +1 point in the Crafts Skill. You may break down unneeded items, such as Adventuring Equipment, Armor, Weapons, Poke Balls, Healing or Held Items into useful parts, then make a Crafts Skill Check to remake them into something different (at the Storyteller’s discretion)."
+  },
+  "Bloodthirsty Rage": {
+    "Rank": "Ace / Master / Champion",
+    "Description": "When you enter combat you fly into a red tinted rage. Maybe your clan are famous and feared berserkers or maybe you just have anger issues.",
+    "Effect": "You may make 3 Clash Actions per Round (as long as you have the Actions to do so) but you may not make Evade Actions. Your Damaging Maneuvers gain +1 Damage Dice for each Pain Penalty you’re on (regardless of if Will was Spent to nullify the negative effects)."
+  },
+  "Cataphract": {
+    "Rank": "Ace / Master / Champion",
+    "Description": "You and your Pokémon mount are well versed in the art of mounted, armored warfare.",
+    "Effect": "Your Damaging Maneuvers gain +1 Damage Dice while you are Mounted. Additionally your Pokémon steed does not suffer from the negative Attribute reductions normally applied from wearing Armor."
+  },
+  "Colosseum Star": {
+    "Rank": "Ace / Master / Champion",
+    "Description": "When you step into the arena your fans go wild and your foes know they’re in for a tough fight.",
+    "Effect": "You gain +3 Notoriety Skill points. You and your Pokémon each restore +1 Will Point when your side Knocks out a Foe in Colosseum matches."
+  },
+  "Enlightenment": {
+    "Rank": "Ace / Master / Champion",
+    "Description": "Somehow you have reached a point of enlightenment or been blessed by legendary beast only spoken of in fables and myths. Since then, something about you has changed.",
+    "Effect": "You are able to understand Pokémon and converse with them as you would other human characters."
+  },
+  "Evasive Training": {
+    "Rank": "Ace / Master / Champion",
+    "Description": "G: “So what are you going to teach me today? A brand new technique? How to sense energy? What about how to fly?” P: “Dooooodddddggggeeee!”",
+    "Effect": "You gain +1 point to your Evasion Skill and may make 2 additional Evade Actions per Round (as long you have the Actions to do so)."
+  },
+  "Expert Captain": {
+    "Rank": "Ace / Master / Champion",
+    "Description": "You have been just about everywhere, fought many a hard battle and still lived to tell the tale.",
+    "Effect": "Vehicles you captain or drive get +1 Bonus Dice to all Accuracy and Skill Checks. They also gain +2 Equipment Module Slots or +4 Slots at Size Category Large or above."
+  },
+  "Ghost Touched": {
+    "Rank": "Ace / Master / Champion",
+    "Description": "Perhaps the time you have spent with your Ghost-Type Pokémon has rubbed off on you? Or maybe you died some time ago and just didn’t realise...",
+    "Effect": "You get +2 points in the Stealth Skill. You may make a DC4 Stealth Skill Check to pass through solid objects such as doors and walls."
+  },
+  "Got Your Back": {
+    "Rank": "Ace / Master / Champion",
+    "Description": "You’ve built up an amazing bond with your team and your allies over the course of your adventures, and as such, you’ve got each other’s backs until the end.",
+    "Effect": "If an attack would bring yourself, your Pokémon or an Ally to 0HP or kill them, you or one of your Active Pokémon may take a Free Action (even if you are out of Actions) to Clash that attack, this Perk may only be used once per Battle."
+  },
+  "Healing Nanobots": {
+    "Rank": "Ace / Master / Champion",
+    "Description": "“Nanomachines, son!”",
+    "Effect": "At the beginning of each Round, remove one Status Condition currently affecting you."
+  },
+  "Hit And Run": {
+    "Rank": "Ace / Master / Champion",
+    "Description": "You’re a master at constantly switching in and out Pokémon while fighting in a melee.",
+    "Effect": "The Reckless Switch rule does not apply to Pokémon you control."
+  },
+  "Intensive Training Regime": {
+    "Rank": "Ace / Master / Champion",
+    "Description": "You and your Pokémon train hard every day and its paying off.",
+    "Effect": "You get +2 Bonus Dice to Training Rolls. When successfully making a Training Roll you get double the amount of Training Points. Getting an Overank Move only requires half the normal amount of Training Points to be spent (rounded down)."
+  },
+  "Know Thy Enemy": {
+    "Rank": "Ace / Master / Champion",
+    "Description": "You're adept at gauging your foe's body language, strength and ascertaining any exploitable weaknesses.",
+    "Effect": "Once per Scene you may ask a single yes or no answerable question about a character. The Storyteller must give an answer if possible, and at their discretion. Additionally, your damaging attacks gain: Roll 2 Chance Dice to Disable."
+  },
+  "Last Stand": {
+    "Rank": "Ace / Master / Champion",
+    "Description": "“Why won’t you die!? Just what are you!?”",
+    "Effect": "The first time you would reach 0HP or max Lethal Damage during a battle you remain on 2HP or 2 less Lethal Damage Instead."
+  },
+  "Master Tactician": {
+    "Rank": "Ace / Master / Champion",
+    "Description": "Your command of Battlefield is unparalleled.",
+    "Effect": "You or one of your Active Pokémon may make an additional Action once per Round. This requires 6 successes to be successful."
+  },
+  "Meditations on Levitation": {
+    "Rank": "Ace / Master / Champion",
+    "Description": "Through spiritual or psionic means you have managed to leave the ground itself.",
+    "Effect": "You are immune to Ground-Type attacks and are able to float through the air the same speed you would normally move on the ground."
+  },
+  "Pack Rattata": {
+    "Rank": "Ace / Master / Champion",
+    "Description": "You always seem to know just what to pack, for wherever you’re travelling to.",
+    "Effect": "You do not suffer Damage or negative Effects from Field-Types, Terrain or Weather Conditions. You always have the necessary mundane items such as rope, pitons or basic useful tools in your bag to traverse difficult terrain."
+  },
+  "Posthuman": {
+    "Rank": "Ace / Master / Champion",
+    "Description": "You have surpassed the ordinary limitations of the human body.",
+    "Effect": "You no longer suffer the negative in-combat effects of Pain Penalties."
+  },
+  "Rift Walker": {
+    "Rank": "Ace / Master / Champion",
+    "Description": "The rift left you changed and you are able to step between the very barriers of reality itself.",
+    "Effect": "You may choose to make a single Maneuver of your choice per Round as a Charge Move. While you are in the charging phase, you are Immune to all Damage and other Effects. You ignore Shield  and Barrier Moves, Maneuvers and Commands when performing a Maneuver in this way."
+  },
+  "Ultima": {
+    "Rank": "Ace / Master / Champion",
+    "Description": "When all it looks like the end is near and death is close, you fight the hardest.",
+    "Effect": "If you are on 2 Pain Penalities your Damaging Maneuvers gain +3 Additional Damage Dice."
+  },
+  "Unbreakable Will": {
+    "Rank": "Ace / Master / Champion",
+    "Description": "You and your team are unbreakable and unshakeable.",
+    "Effect": "You do not fall unconscious after spending all your Will Points. Additionally you and your Pokémon regain half of your max Will Points, rounded down, after a successful nights rest."
   }
 }
