@@ -1,0 +1,13 @@
+{
+  "Name": "Rift Ball",
+  "_id": "rift-ball",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Other Balls",
+  "Category": "Other Balls",
+  "Description": "9D6; if used on Rift Pokémon. 4D6; otherwise",
+  "OneUse": true,
+  "TrainerPrice": "6000",
+  "Cures": "",
+  "Image": ""
+}

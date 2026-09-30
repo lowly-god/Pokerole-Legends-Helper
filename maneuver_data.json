@@ -4052,7 +4052,7 @@
           "target": "Foe",
           "power": "0",
           "accuracy": "Clever + Brawl",
-          "effect": "Roll 1D6 to Reduce a Target's Stat by 1. 1. Strength, 2. Dexterity, 3. Vitality, 4. Insight, 5. Accuracy, 6. Defense / Special Defense.",
+          "effect": "Roll 1D6 to Reduce the Target's Attribute by 1 at random: 1. Strength, 2. Dexterity, 3. Special, 4. Accuracy, 5. Defense, 6. Special Defense.",
           "notes": "Suggested: Standard Rank, Bard, Pokémon Hunter, Pugilist, Ranger, Rogue, Technomancer, Warrior.",
           "source": "Non-Weapon Maneuver",
           "source_kind": "Non-Weapon",

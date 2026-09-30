@@ -1,0 +1,6 @@
+{
+  "Name": "Infernal Flames",
+  "Effect": "When this Pokémon Damages a Target with a Physical or Special Fire-Type Move, roll 3 Chance Dice to inflict Ongoing Damage, Duration 4 Rounds.",
+  "Description": "",
+  "_id": "infernal-flames"
+}

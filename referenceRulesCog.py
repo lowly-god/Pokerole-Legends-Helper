@@ -122,6 +122,7 @@ Keystone Ball: 12D6; Acts as a Keystone for Mega Evolution.
 Neura Ball: 6D6; or with Neural Augmentation, use Trainer's Current Will + Empathy.
 Origin Ball: May capture Origin or Primal Form Legendary Pokémon. Guaranteed Capture.
 Park Ball: 5D6; +1D6 every 2 Trainer Ranks. Given out only during special events.
+Rift Ball: 9D6; if used on Rift Pokémon. 4D6; otherwise.
 Safari Ball: 5D6; +1D6 every 2 Trainer Ranks. Given out only in the Safari Zone.
 Sport Ball: 5D6; +1D6 every 2 Trainer Ranks. Given out only during catching contests.
 Team Aqua Ball: 6D6; +3D6 if used on Water-Type or Dark-Type Pokémon.

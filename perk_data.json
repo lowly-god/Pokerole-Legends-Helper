@@ -287,7 +287,7 @@
   "Rift Walker": {
     "Rank": "Ace / Master / Champion",
     "Description": "The rift left you changed and you are able to step between the very barriers of reality itself.",
-    "Effect": "You may choose to make a single Maneuver of your choice per Round as a Charge Move. While you are in the charging phase, you are Immune to all Damage and other Effects. You ignore Shield  and Barrier Moves, Maneuvers and Commands when performing a Maneuver in this way."
+    "Effect": "You may choose to make a single Maneuver of your choice per Round as a Charge Maneuver. While you are in the charging phase, you are Immune to all Damage and other effects. You ignore Shield and Force Field Moves, Maneuvers and Commands when performing a Maneuver in this way."
   },
   "Ultima": {
     "Rank": "Ace / Master / Champion",

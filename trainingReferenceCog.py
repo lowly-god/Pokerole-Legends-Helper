@@ -407,13 +407,15 @@ class WillRerollModal(discord.ui.Modal):
         pokemon_pool,
         pokemon_rolls,
         will_spent=0,
-        will_reroll_limit=None
+        will_reroll_limit=None,
+        repeat_state=None
     ):
         super().__init__(title="Spend Will Points")
         self.dc = dc
         self.pokemon_pool = pokemon_pool
         self.pokemon_rolls = pokemon_rolls
         self.will_spent = will_spent
+        self.repeat_state = repeat_state if repeat_state is not None else {"used": False}
         self.will_reroll_limit = (
             will_reroll_limit
             if will_reroll_limit is not None
@@ -528,7 +530,8 @@ class WillRerollModal(discord.ui.Modal):
                     self.pokemon_pool,
                     new_rolls,
                     total_will,
-                    self.will_reroll_limit
+                    self.will_reroll_limit,
+                    self.repeat_state
                 )
             )
 
@@ -539,18 +542,22 @@ class FailedTrainingView(discord.ui.View):
         pokemon_pool,
         pokemon_rolls,
         will_spent=0,
-        will_reroll_limit=None
+        will_reroll_limit=None,
+        repeat_state=None
     ):
         super().__init__(timeout=120)
         self.dc = dc
         self.pokemon_pool = pokemon_pool
         self.pokemon_rolls = pokemon_rolls
         self.will_spent = will_spent
+        self.repeat_state = repeat_state if repeat_state is not None else {"used": False}
         self.will_reroll_limit = (
             will_reroll_limit
             if will_reroll_limit is not None
             else sum(1 for result in pokemon_rolls if result < 4)
         )
+        if self.repeat_state["used"]:
+            self.repeat_training.disabled = True
 
     @discord.ui.button(
         label="Spend Will Points",
@@ -585,8 +592,72 @@ class FailedTrainingView(discord.ui.View):
                 self.pokemon_pool,
                 self.pokemon_rolls,
                 self.will_spent,
-                self.will_reroll_limit
+                self.will_reroll_limit,
+                self.repeat_state
             )
+        )
+
+    @discord.ui.button(
+        label="Repeat Training Session",
+        style=discord.ButtonStyle.primary
+    )
+    async def repeat_training(
+        self,
+        interaction: discord.Interaction,
+        button: discord.ui.Button
+    ):
+        if self.repeat_state["used"]:
+            await interaction.response.send_message(
+                "You have already repeated this Training Session once.",
+                ephemeral=True
+            )
+            return
+
+        self.repeat_state["used"] = True
+        button.disabled = True
+        rolls, successes = roll_d6(self.pokemon_pool)
+
+        embed = discord.Embed(title="Training Session — Repeated Pokémon Roll")
+        embed.add_field(name="Set DC", value=str(self.dc), inline=False)
+        embed.add_field(
+            name="Pokémon's Dice Pool",
+            value=(
+                f"{self.pokemon_pool}d6\n"
+                f"{format_rolls(rolls)}\n"
+                f"**{successes} successes**"
+            ),
+            inline=False
+        )
+
+        if successes < self.dc:
+            embed.add_field(
+                name="Result",
+                value=(
+                    f"The Pokémon failed to meet **DC {self.dc}**.\n"
+                    "You may spend Will Points to reroll failed dice, or accept the failure."
+                ),
+                inline=False
+            )
+            await interaction.response.send_message(
+                embed=embed,
+                view=FailedTrainingView(
+                    self.dc,
+                    self.pokemon_pool,
+                    rolls,
+                    repeat_state=self.repeat_state
+                )
+            )
+            return
+
+        embed.title = "Training Session — Pokémon Passed"
+        embed.add_field(
+            name="Next Step",
+            value="The Pokémon met the DC. Click below to enter the Trainer's Dice Pool.",
+            inline=False
+        )
+        await interaction.response.send_message(
+            embed=embed,
+            view=ContinueTrainingView(self.dc, self.pokemon_pool, rolls, successes)
         )
 
     @discord.ui.button(
