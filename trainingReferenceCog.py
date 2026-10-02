@@ -854,6 +854,7 @@ class TrainingReferenceCog(commands.Cog):
         sections = [
             "**Training Points from Battle**\n" + self.data["battletrainingpoints"],
             "**Evolution Time**\n" + evolution,
+            "**Ranking Up**\n" + self.data["rankingup"],
             "**Retraining**\n" + retraining,
             "**Learning New Moves**\n" + learning,
         ]
