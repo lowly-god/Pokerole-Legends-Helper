@@ -194,6 +194,10 @@ class ReferenceRulesCog(commands.Cog):
     async def standardsofliving(self, interaction: discord.Interaction):
         await self.send_reference(interaction, "standardsofliving", "Standards of Living")
 
+    @app_commands.command(name="mounted_combat_rules", description="Display Mounted Combat rules")
+    async def mounted_combat_rules(self, interaction: discord.Interaction):
+        await self.send_reference(interaction, "mountedcombatrules", "Mounted Combat")
+
     @app_commands.command(name="stabling", description="Display Pokémon Stabling options")
     async def stabling(self, interaction: discord.Interaction):
         await self.send_reference(interaction, "stabling", "Stabling")

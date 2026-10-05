@@ -145,8 +145,8 @@ def _metric_height_text(value):
 
     if 0 < meters < 1:
         centimeters = meters * 100
-        return f"{_number_text(centimeters)} cm"
-    return f"{_number_text(meters)} m"
+        return f"{_number_text(centimeters)}cm"
+    return f"{_number_text(meters)}m"
 
 
 def _size_weight(meta):
@@ -161,9 +161,9 @@ def _size_weight(meta):
     size_parts = [part for part in (meters, feet) if part is not None]
     weight_parts = []
     if kilograms is not None:
-        weight_parts.append(f"{kilograms} kg")
+        weight_parts.append(f"{kilograms}kg")
     if pounds is not None:
-        weight_parts.append(f"{pounds} lb")
+        weight_parts.append(f"{pounds}lb")
 
     return (
         " / ".join(size_parts) if size_parts else "Unknown",
@@ -224,24 +224,26 @@ def _type_matchups(type1, type2=""):
 
 
 def pokemon_extra_stats_text(pokemon, type1, type2, version):
+    """Render the non-attribute portion of the Pokémon /stats statblock."""
     meta = _load_pokemon_meta(version).get(str(pokemon).casefold(), {})
 
     species = meta.get("DexCategory") or "Unknown"
     size, weight = _size_weight(meta)
     weaknesses, resistances, immunities = _type_matchups(type1, type2)
-    mega_stone = meta.get("MegaStone")
 
-    output = (
+    type_text = str(type1 or "Unknown").capitalize()
+    if type2:
+        type_text += f" / {str(type2).capitalize()}"
+
+    return (
+        f"**Species**: {species}\n"
+        f"**Type**: {type_text}\n"
         f"**Size**: {size}\n"
         f"**Weight**: {weight}\n"
-        f"**Species**: {species}\n"
         f"**Weaknesses**: {weaknesses}\n"
         f"**Resistances**: {resistances}\n"
         f"**Immunities**: {immunities}\n"
     )
-    if mega_stone:
-        output += f"**Mega Stone**: {mega_stone}\n"
-    return output
 
 
 def _is_progression_form(meta):
@@ -528,10 +530,10 @@ def pokemon_progression_text(pokemon, version):
         return f"**{label}**: " + " ".join(entries) + "\n"
 
     output = ""
-    output += format_group("Evolves Into", groups["normal_to"])
     output += format_group("Evolves From", groups["normal_from"])
-    output += format_group("Mega Evolves Into", groups["mega_to"], mega=True)
+    output += format_group("Evolves Into", groups["normal_to"])
     output += format_group("Mega Evolves From", groups["mega_from"], mega=True)
-    output += format_group("Transforms Into", groups["transform_to"])
+    output += format_group("Mega Evolves Into", groups["mega_to"], mega=True)
     output += format_group("Transforms From", groups["transform_from"])
+    output += format_group("Transforms Into", groups["transform_to"])
     return output

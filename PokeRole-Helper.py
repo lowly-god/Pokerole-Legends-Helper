@@ -1939,11 +1939,6 @@ async def pkmn_stat_msg_helper(pokemon, found, version: str):
 
     output = f'## **{pokemon.title()}**\n'
     output += f'**Suggested Rank**: {found[20]}\n'
-    output += f'**Type**: {found[1].capitalize()}'
-    if found[2] == '':
-        output += '\n'
-    else:
-        output += f' / {found[2].capitalize()}\n'
     output += pokemon_extra_stats_text(pokemon, found[1], found[2], version)
     exStats = [f'`({len(found[x])}/{len(found[x]) + len(found[x + 1])})`' for x in range(4, 14, 2)]
     output += f'**Base HP**: {found[3]}\n'
@@ -1952,6 +1947,7 @@ async def pkmn_stat_msg_helper(pokemon, found, version: str):
     output += f'**Vitality**: {found[8]}{found[9]} {exStats[2]}\n'
     output += f'**Special**: {found[10]}{found[11]} {exStats[3]}\n'
     output += f'**Insight**: {found[12]}{found[13]} {exStats[4]}\n'
+    output += pokemon_progression_text(pokemon, version)
     output += f'**Ability**: {found[14]}'
     if found[15] != '':  # secondary
         output += f' / {found[15]}'
@@ -1967,7 +1963,6 @@ async def pkmn_stat_msg_helper(pokemon, found, version: str):
     if found[17] != '':  # event
         output += f' <{found[17]}>'
     output += '\n'
-    output += pokemon_progression_text(pokemon, version)
     output += pokemon_pokedex_text(pokemon, version)
 
     buttons = Timeout_View()

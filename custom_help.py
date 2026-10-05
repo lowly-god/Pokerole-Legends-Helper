@@ -40,6 +40,7 @@ HELP_CATEGORIES = [
         ("stabling", "Display Pokémon Stabling options"),
         ("stamina", "Display Stamina Point rules and example uses"),
         ("standards_of_living", "Display Standards of Living costs, benefits and negatives"),
+        ("mounted_combat_rules", "Display Mounted Combat rules"),
     ]),
     ("Encounter and NPCs", [
         ("encounter_pokemon", "Generate one or more Pokémon"),
@@ -125,14 +126,21 @@ class Help(commands.Cog):
         return "\n".join(lines)
 
     async def _send_chunks(self, ctx, text):
+        """Split long help output cleanly, preferring whole category/paragraph breaks."""
         while text:
             if len(text) <= 1950:
                 await ctx.send(text)
                 return
-            split = text.rfind("\n", 0, 1950)
+
+            # /help categories and detailed-help sections are separated by blank
+            # lines. Prefer those boundaries so a category is not cut in half.
+            split = text.rfind("\n\n", 0, 1950)
+            if split < 1:
+                split = text.rfind("\n", 0, 1950)
             if split < 1:
                 split = 1950
-            await ctx.send(text[:split])
+
+            await ctx.send(text[:split].rstrip())
             text = text[split:].lstrip("\n")
 
     @commands.hybrid_command(
