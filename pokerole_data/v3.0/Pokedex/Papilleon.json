@@ -152,5 +152,45 @@
       "Learned": "Standard",
       "Name": "Parasitize"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "After You",
+    "Air Slash",
+    "Ally Switch",
+    "Attract",
+    "Body Slam",
+    "Bug Bite",
+    "Caustic Breath",
+    "Dazzling Gleam",
+    "Double Team",
+    "Dreamweave",
+    "Encore",
+    "Endeavor",
+    "Endure",
+    "Hidden Power",
+    "Hyper Beam",
+    "Imperial Majesty",
+    "Leech Life",
+    "Mud Slap",
+    "Pollen Puff",
+    "Pounce",
+    "Psych Up",
+    "Rest",
+    "Round",
+    "Shadow Ball",
+    "Sleep Talk",
+    "Snore",
+    "Sunny Day",
+    "Swagger",
+    "Swift",
+    "Take Down",
+    "Taunt",
+    "Tera Blast",
+    "Thief",
+    "Zen Headbutt"
+  ],
+  "HM": [
+    "Flash"
   ]
 }

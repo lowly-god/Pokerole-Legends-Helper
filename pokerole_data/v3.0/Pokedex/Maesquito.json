@@ -141,5 +141,47 @@
       "Learned": "Ace",
       "Name": "Quiver Dance"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Acrobatics",
+    "Aerial Ace",
+    "Attract",
+    "Bug Bite",
+    "Confide",
+    "Echoed Voice",
+    "Endeavor",
+    "Facade",
+    "Frustration",
+    "Giga Impact",
+    "Hidden Power",
+    "Nasty Plot",
+    "Protect",
+    "Psych Up",
+    "Psychic Noise",
+    "Rain Dance",
+    "Recover",
+    "Rest",
+    "Return",
+    "Role Play",
+    "Shadow Ball",
+    "Signal Beam",
+    "Skitter Smack",
+    "Sleep Talk",
+    "Snore",
+    "Sunny Day",
+    "Swagger",
+    "Synchronoise",
+    "Tailwind",
+    "Taunt",
+    "Thief",
+    "Toxic",
+    "U-Turn",
+    "Venoshock",
+    "Work Up"
+  ],
+  "HM": [
+    "Defog",
+    "Flash"
   ]
 }

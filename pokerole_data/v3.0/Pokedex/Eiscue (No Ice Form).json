@@ -149,5 +149,32 @@
   "HM": [
     "Surf",
     "Whirlpool"
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Body Slam",
+    "Chilling Water",
+    "Double-Edge",
+    "Endure",
+    "Facade",
+    "Feather Dance",
+    "Flip Turn",
+    "Giga Impact",
+    "Hydro Pump",
+    "Hyper Beam",
+    "Ice Beam",
+    "Ice Punch",
+    "Ice Spinner",
+    "Icicle Spear",
+    "Rain Dance",
+    "Reflect",
+    "Rest",
+    "Reversal",
+    "Sleep Talk",
+    "Snowscape",
+    "Take Down",
+    "Tera Blast",
+    "Water Pulse",
+    "Zen Headbutt"
   ]
 }

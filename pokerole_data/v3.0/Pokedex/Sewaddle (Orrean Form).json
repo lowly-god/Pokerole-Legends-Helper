@@ -89,5 +89,35 @@
       "Learned": "Expert",
       "Name": "Velvet Scales"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Charm",
+    "Dragon Cheer",
+    "Dragon Pulse",
+    "Electroweb",
+    "Endure",
+    "Energy Ball",
+    "Facade",
+    "Focus Energy",
+    "Grass Knot",
+    "Leech Life",
+    "Parasitize",
+    "Protect",
+    "Recover",
+    "Scary Face",
+    "Signal Beam",
+    "Skitter Smack",
+    "Solar Beam",
+    "Struggle Bug",
+    "Substitute",
+    "Sunny Day",
+    "Superpower",
+    "Take Down",
+    "Taunt",
+    "Tera Blast",
+    "Trailblaze",
+    "Uproar"
+  ],
+  "HM": []
 }

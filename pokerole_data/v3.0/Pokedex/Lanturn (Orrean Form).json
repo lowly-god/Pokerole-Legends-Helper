@@ -163,15 +163,60 @@
     }
   ],
   "HM": [
-    "Flash"
+    "Dive",
+    "Flash",
+    "Surf",
+    "Whirlpool"
   ],
-  "TM": [
-    "Mourning Mist"
-  ],
-  "TR": [
-    "Mourning Mist"
-  ],
-  "Tutor": [
-    "Mourning Mist"
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Agility",
+    "Ally Switch",
+    "Amnesia",
+    "Body Slam",
+    "Calm Mind",
+    "Charge Beam",
+    "Chilling Water",
+    "Crunch",
+    "Curse",
+    "Dazzling Gleam",
+    "Double-Edge",
+    "Electric Terrain",
+    "Electroweb",
+    "Endure",
+    "Facade",
+    "Flip Turn",
+    "Focus Energy",
+    "Foul Play",
+    "Giga Impact",
+    "Helping Hand",
+    "Hyper Beam",
+    "Ice Beam",
+    "Light Screen",
+    "Liquidation",
+    "Mourning Mist",
+    "Muddy Water",
+    "Night Shade",
+    "Pain Split",
+    "Poltergeist",
+    "Protect",
+    "Rain Dance",
+    "Reflect",
+    "Scald",
+    "Scary Face",
+    "Siphon Life-Force",
+    "Spite",
+    "Stored Power",
+    "Substitute",
+    "Supercell Slam",
+    "Swift",
+    "Tera Blast",
+    "Thief",
+    "Thunder",
+    "Thunder Fang",
+    "Thunderbolt",
+    "Water Pulse",
+    "Wild Charge",
+    "Work Up"
   ]
 }

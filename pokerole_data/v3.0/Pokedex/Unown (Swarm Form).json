@@ -41,5 +41,8 @@
       "Learned": "Starter",
       "Name": "Hidden Power Of The Swarm"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [],
+  "HM": []
 }

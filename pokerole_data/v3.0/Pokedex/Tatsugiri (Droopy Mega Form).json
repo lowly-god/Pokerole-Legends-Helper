@@ -124,5 +124,25 @@
   "MegaStone": "Tatsugirinite",
   "HM": [
     "Surf"
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Baton Pass",
+    "Chilling Water",
+    "Dragon Dance",
+    "Endure",
+    "Facade",
+    "Giga Impact",
+    "Hydro Pump",
+    "Hyper Beam",
+    "Icy Wind",
+    "Lunge",
+    "Outrage",
+    "Protect",
+    "Rest",
+    "Sleep Talk",
+    "Substitute",
+    "Take Down",
+    "Tera Blast"
   ]
 }

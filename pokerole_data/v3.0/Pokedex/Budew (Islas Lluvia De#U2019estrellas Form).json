@@ -97,5 +97,37 @@
       "Learned": "Ace",
       "Name": "Curse"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Acrobatics",
+    "Amnesia",
+    "Bullet Seed",
+    "Charm",
+    "Cheap Shot",
+    "Dazzling Gleam",
+    "Encore",
+    "Energy Ball",
+    "Facade",
+    "Fling",
+    "Follow Me",
+    "Giga Drain",
+    "Grass Knot",
+    "Grassy Glide",
+    "Grassy Terrain",
+    "Helping Hand",
+    "Iron Head",
+    "Leaf Storm",
+    "Pin Missile",
+    "Protect",
+    "Seed Bomb",
+    "Solar Beam",
+    "Sunny Day",
+    "Synthesis",
+    "Take Down",
+    "Tera Blast",
+    "Trailblaze",
+    "Zen Headbutt"
+  ],
+  "HM": []
 }

@@ -1,0 +1,14 @@
+{
+  "Name": "Follow Me - TM",
+  "_id": "follow-me-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Follow Me to multiple Pokémon",
+  "Rank": "Ace",
+  "OneUse": false,
+  "TrainerPrice": "16500",
+  "Cures": "",
+  "Image": ""
+}

@@ -146,5 +146,37 @@
       "Learned": "Ace",
       "Name": "Land's Wrath"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Body Slam",
+    "Brick Break",
+    "Draco Meteor",
+    "Earth Power",
+    "Endure",
+    "Facade",
+    "Fissure",
+    "Focus Blast",
+    "Giga Impact",
+    "Hyper Beam",
+    "Hyper Voice",
+    "Iron Head",
+    "Magnet Bomb",
+    "Poison Fang",
+    "Protect",
+    "Psychic Fangs",
+    "Rock Slide",
+    "Scale Shot",
+    "Scorching Sands",
+    "Skitter Smack",
+    "Stone Edge",
+    "Substitute",
+    "Swift",
+    "Tri Attack",
+    "Zen Headbutt"
+  ],
+  "HM": [
+    "Rock Smash",
+    "Strength"
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "Name": "Haze - TM",
+  "_id": "haze-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Haze to multiple Pokémon",
+  "Rank": "Advanced",
+  "OneUse": false,
+  "TrainerPrice": "13500",
+  "Cures": "",
+  "Image": ""
+}

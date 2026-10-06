@@ -132,5 +132,45 @@
       "Learned": "Ace",
       "Name": "Destiny Bond"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Agility",
+    "Ally Switch",
+    "Attract",
+    "Brick Break",
+    "Cheap Shot",
+    "Close Combat",
+    "Endure",
+    "Facade",
+    "Harrowing Wrath",
+    "Heavy Slam",
+    "Hex",
+    "Hidden Power",
+    "Iron Defense",
+    "Iron Head",
+    "Metal Claw",
+    "Night Shade",
+    "Poltergeist",
+    "Protect",
+    "Rain Dance",
+    "Reflect",
+    "Rest",
+    "Reversal",
+    "Rock Slide",
+    "Screech",
+    "Secret Power",
+    "Shadow Ball",
+    "Sleep Talk",
+    "Snore",
+    "Substitute",
+    "Tera Blast",
+    "Uproar",
+    "Work Up"
+  ],
+  "HM": [
+    "Cut",
+    "Rock Smash",
+    "Strength"
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "Name": "Laser Focus - TR",
+  "_id": "laser-focus-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Laser Focus to one Pokémon",
+  "Rank": "Advanced",
+  "OneUse": true,
+  "TrainerPrice": "5000",
+  "Cures": "",
+  "Image": ""
+}

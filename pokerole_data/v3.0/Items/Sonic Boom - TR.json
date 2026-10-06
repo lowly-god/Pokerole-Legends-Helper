@@ -1,0 +1,14 @@
+{
+  "Name": "Sonic Boom - TR",
+  "_id": "sonic-boom-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Sonic Boom to one Pokémon",
+  "Rank": "Standard",
+  "OneUse": true,
+  "TrainerPrice": "4000",
+  "Cures": "",
+  "Image": ""
+}

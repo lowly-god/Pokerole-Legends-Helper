@@ -1,0 +1,14 @@
+{
+  "Name": "Tail Glow - TM",
+  "_id": "tail-glow-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Tail Glow to multiple Pokémon",
+  "Rank": "Ace",
+  "OneUse": false,
+  "TrainerPrice": "19500",
+  "Cures": "",
+  "Image": ""
+}

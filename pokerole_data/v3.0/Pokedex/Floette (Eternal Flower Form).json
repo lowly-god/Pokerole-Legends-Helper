@@ -120,5 +120,32 @@
       "Learned": "Ace",
       "Name": "Magic Coat"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "After You",
+    "Ally Switch",
+    "Calm Mind",
+    "Covet",
+    "Dazzling Gleam",
+    "Endeavor",
+    "Endure",
+    "Energy Ball",
+    "Facade",
+    "Giga Drain",
+    "Grass Knot",
+    "Helping Hand",
+    "Protect",
+    "Psychic",
+    "Rain Dance",
+    "Rest",
+    "Seed Bomb",
+    "Sleep Talk",
+    "Snore",
+    "Substitute",
+    "Sunny Day",
+    "Synthesis",
+    "Worry Seed"
+  ],
+  "HM": []
 }

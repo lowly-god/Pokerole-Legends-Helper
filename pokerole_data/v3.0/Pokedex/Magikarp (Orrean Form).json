@@ -68,5 +68,15 @@
       "Learned": "Ace",
       "Name": "Endure"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Dazzling Gleam",
+    "Facade",
+    "Hydro Pump",
+    "Power Gem"
+  ],
+  "HM": [
+    "Flash"
   ]
 }

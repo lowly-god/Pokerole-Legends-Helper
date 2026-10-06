@@ -145,5 +145,47 @@
       "Learned": "Ace",
       "Name": "Z-Energy Reflection"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Ally Switch",
+    "Body Slam",
+    "Calm Mind",
+    "Charm",
+    "Cosmic Power",
+    "Counter",
+    "Curse",
+    "Dark Pulse",
+    "Dazzling Gleam",
+    "Encore",
+    "Endeavor",
+    "Endure",
+    "Energy Ball",
+    "Facade",
+    "Fling",
+    "Focus Blast",
+    "Focus Energy",
+    "Foul Play",
+    "Future Sight",
+    "Giga Impact",
+    "Grass Knot",
+    "Hex",
+    "Light Screen",
+    "Magic Room",
+    "Pain Split",
+    "Phantom Force",
+    "Protect",
+    "Psych Up",
+    "Reflect",
+    "Siphon Life-Force",
+    "Skill Swap",
+    "Stored Power",
+    "Taunt",
+    "Tri Attack",
+    "Trick Room"
+  ],
+  "HM": [
+    "Rock Smash",
+    "Strength"
   ]
 }

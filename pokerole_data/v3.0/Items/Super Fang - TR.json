@@ -1,0 +1,14 @@
+{
+  "Name": "Super Fang - TR",
+  "_id": "super-fang-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Super Fang to one Pokémon",
+  "Rank": "Expert",
+  "OneUse": true,
+  "TrainerPrice": "6000",
+  "Cures": "",
+  "Image": ""
+}

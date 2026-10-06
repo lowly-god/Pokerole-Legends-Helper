@@ -297,6 +297,8 @@ def pokemon_pokedex_text(pokemon, version):
     meta = _load_pokemon_meta(version).get(str(pokemon).casefold(), {})
     description = str(meta.get("DexDescription") or "").strip()
     description = re.sub(r"\s+", " ", description) if description else ""
+    note = str(meta.get("PokedexNote") or "").strip()
+    note = re.sub(r"\s+", " ", note) if note else ""
 
     number = meta.get("Number")
     number_text = ""
@@ -306,11 +308,16 @@ def pokemon_pokedex_text(pokemon, version):
         except (TypeError, ValueError):
             number_text = f"#{number}."
 
-    if not number_text and not description:
+    if not number_text and not description and not note:
         return ""
 
+    result = ""
     body = " ".join(part for part in (number_text, description) if part)
-    return f"**Pokedex**: {body}\n"
+    if body:
+        result += f"**Pokedex**: {body}\n"
+    if note:
+        result += f"**Note**: {note}\n"
+    return result
 
 
 

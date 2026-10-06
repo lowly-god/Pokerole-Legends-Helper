@@ -160,5 +160,37 @@
   ],
   "HM": [
     "Dive"
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Blizzard",
+    "Confuse Ray",
+    "Endure",
+    "Facade",
+    "Flip Turn",
+    "Giga Impact",
+    "Hex",
+    "Hydro Pump",
+    "Hyper Beam",
+    "Ice Beam",
+    "Ice Fang",
+    "Icy Wind",
+    "Liquidation",
+    "Mud Shot",
+    "Muddy Water",
+    "Night Shade",
+    "Pain Split",
+    "Protect",
+    "Rain Dance",
+    "Rest",
+    "Scale Shot",
+    "Sleep Talk",
+    "Snowscape",
+    "Spite",
+    "Substitute",
+    "Swift",
+    "Tera Blast",
+    "Water Pulse",
+    "Zen Headbutt"
   ]
 }

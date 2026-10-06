@@ -1,0 +1,14 @@
+{
+  "Name": "Healing Wish - TR",
+  "_id": "healing-wish-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Healing Wish to one Pokémon",
+  "Rank": "Expert",
+  "OneUse": true,
+  "TrainerPrice": "6000",
+  "Cures": "",
+  "Image": ""
+}

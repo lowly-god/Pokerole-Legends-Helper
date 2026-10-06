@@ -165,5 +165,37 @@
       "Learned": "Standard",
       "Name": "Cauterize"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Ally Switch",
+    "Amnesia",
+    "Bullet Seed",
+    "Calm Mind",
+    "Energy Ball",
+    "Fire Blast",
+    "Focus Energy",
+    "Growth",
+    "Haze",
+    "Heat Crash",
+    "Helping Hand",
+    "Lash Out",
+    "Leech Seed",
+    "Mystical Fire",
+    "Phantom Force",
+    "Poltergeist",
+    "Protect",
+    "Psywave",
+    "Skitter Smack",
+    "Solar Beam",
+    "Substitute",
+    "Sunny Day",
+    "Take Down",
+    "Taunt",
+    "Temper Flare",
+    "Tera Blast",
+    "Thief",
+    "Trick"
+  ],
+  "HM": []
 }

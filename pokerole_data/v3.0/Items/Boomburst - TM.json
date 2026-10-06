@@ -1,0 +1,14 @@
+{
+  "Name": "Boomburst - TM",
+  "_id": "boomburst-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Boomburst to multiple Pokémon",
+  "Rank": "Expert",
+  "OneUse": false,
+  "TrainerPrice": "24000",
+  "Cures": "",
+  "Image": ""
+}

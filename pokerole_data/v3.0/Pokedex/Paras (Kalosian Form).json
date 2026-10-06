@@ -149,5 +149,45 @@
       "Learned": "Ace",
       "Name": "Moonlight"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Bug Bite",
+    "Calm Mind",
+    "Confide",
+    "Crush Claw",
+    "Endeavor",
+    "Energy Ball",
+    "Facade",
+    "False Swipe",
+    "Frustration",
+    "Hidden Power",
+    "Knock Off",
+    "Nasty Plot",
+    "Nature Power",
+    "Protect",
+    "Psyshock",
+    "Return",
+    "Round",
+    "Secret Power",
+    "Seed Bomb",
+    "Signal Beam",
+    "Skill Swap",
+    "Skitter Smack",
+    "Sludge Bomb",
+    "Substitute",
+    "Swords Dance",
+    "Synthesis",
+    "Thief",
+    "Toxic",
+    "U-Turn",
+    "Venoshock",
+    "Worry Seed",
+    "Zen Headbutt"
+  ],
+  "HM": [
+    "Cut",
+    "Flash",
+    "Rock Smash"
   ]
 }

@@ -148,5 +148,47 @@
       "Learned": "Ace",
       "Name": "Nasty Plot"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Acid Spray",
+    "Ally Switch",
+    "Baton Pass",
+    "Bounce",
+    "Bullet Seed",
+    "Charm",
+    "Dark Pulse",
+    "Dreamweave",
+    "Encore",
+    "Endeavor",
+    "Energy Ball",
+    "Grass Knot",
+    "Grassy Terrain",
+    "Helping Hand",
+    "Hex",
+    "Magic Coat",
+    "Magical Leaf",
+    "Natural Gift",
+    "Nature Power",
+    "Night Shade",
+    "Pollen Puff",
+    "Protect",
+    "Psybolt",
+    "Psyshock",
+    "Psywave",
+    "Role Play",
+    "Seed Bomb",
+    "Shadow Ball",
+    "Sweet Scent",
+    "Synthesis",
+    "Take Down",
+    "Telekinesis",
+    "Tera Blast",
+    "Thief",
+    "Trailblaze",
+    "Worry Seed"
+  ],
+  "HM": [
+    "Flash"
   ]
 }

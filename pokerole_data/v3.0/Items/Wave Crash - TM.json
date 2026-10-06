@@ -1,0 +1,14 @@
+{
+  "Name": "Wave Crash - TM",
+  "_id": "wave-crash-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Wave Crash to multiple Pokémon",
+  "Rank": "Expert",
+  "OneUse": false,
+  "TrainerPrice": "18000",
+  "Cures": "",
+  "Image": ""
+}

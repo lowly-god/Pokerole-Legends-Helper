@@ -1,0 +1,14 @@
+{
+  "Name": "Double Kick - TM",
+  "_id": "double-kick-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Double Kick to multiple Pokémon",
+  "Rank": "Standard",
+  "OneUse": false,
+  "TrainerPrice": "10500",
+  "Cures": "",
+  "Image": ""
+}

@@ -149,6 +149,10 @@
       "Name": "Shield Bash"
     },
     {
+      "Learned": "Expert",
+      "Name": "Wide Guard"
+    },
+    {
       "Learned": "Ace",
       "Name": "Aurora Veil"
     },
@@ -168,5 +172,47 @@
       "Learned": "Advanced",
       "Name": "Black Ice"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "After You",
+    "Avalanche",
+    "Bulldoze",
+    "Chilling Water",
+    "Endure",
+    "Facade",
+    "Flash Cannon",
+    "Frost Breath",
+    "Giga Impact",
+    "Gyro Ball",
+    "High Horsepower",
+    "Hoarfrost Moon",
+    "Hydro Pump",
+    "Hyper Beam",
+    "Ice Ball",
+    "Ice Beam",
+    "Ice Spinner",
+    "Icicle Spear",
+    "Iron Tail",
+    "Megahorn",
+    "Rain Dance",
+    "Rest",
+    "Rock Slide",
+    "Rock Tomb",
+    "Scary Face",
+    "Sleep Talk",
+    "Snore",
+    "Snowscape",
+    "Stomping Tantrum",
+    "Stone Edge",
+    "Substitute",
+    "Take Down",
+    "Tera Blast",
+    "Water Pulse"
+  ],
+  "HM": [
+    "Rock Smash",
+    "Strength",
+    "Surf"
   ]
 }

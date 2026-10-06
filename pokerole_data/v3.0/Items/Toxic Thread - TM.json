@@ -1,0 +1,14 @@
+{
+  "Name": "Toxic Thread - TM",
+  "_id": "toxic-thread-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Toxic Thread to multiple Pokémon",
+  "Rank": "Advanced",
+  "OneUse": false,
+  "TrainerPrice": "16500",
+  "Cures": "",
+  "Image": ""
+}

@@ -153,5 +153,39 @@
       "Learned": "Ace",
       "Name": "Discombobulate"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Absolute Zero",
+    "Amnesia",
+    "Attract",
+    "Avalanche",
+    "Blizzard",
+    "Body Slam",
+    "Brick Break",
+    "Earth Power",
+    "Endure",
+    "Facade",
+    "Fissure",
+    "Fling",
+    "Icy Wind",
+    "Low Kick",
+    "Mega Kick",
+    "Mud Shot",
+    "Payback",
+    "Protect",
+    "Rock Slide",
+    "Rock Tomb",
+    "Snowscape",
+    "Stomping Tantrum",
+    "Superpower",
+    "Thief",
+    "U-Turn",
+    "Uproar",
+    "Work Up"
+  ],
+  "HM": [
+    "Rock Smash",
+    "Strength"
   ]
 }

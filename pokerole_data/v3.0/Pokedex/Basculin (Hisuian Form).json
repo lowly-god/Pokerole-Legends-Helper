@@ -139,5 +139,31 @@
   ],
   "HM": [
     "Dive"
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Blizzard",
+    "Chilling Water",
+    "Endure",
+    "Facade",
+    "Hydro Pump",
+    "Ice Beam",
+    "Ice Fang",
+    "Icy Wind",
+    "Liquidation",
+    "Mud Shot",
+    "Muddy Water",
+    "Protect",
+    "Psychic Fangs",
+    "Rain Dance",
+    "Rest",
+    "Scale Shot",
+    "Sleep Talk",
+    "Snowscape",
+    "Substitute",
+    "Swift",
+    "Tera Blast",
+    "Water Pulse",
+    "Zen Headbutt"
   ]
 }

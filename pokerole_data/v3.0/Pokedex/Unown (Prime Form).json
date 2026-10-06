@@ -48,5 +48,8 @@
       "Learned": "Starter",
       "Name": "Hidden Power"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [],
+  "HM": []
 }

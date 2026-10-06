@@ -151,5 +151,45 @@
       "Learned": "Ace",
       "Name": "Curse"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Acrobatics",
+    "Amnesia",
+    "Attract",
+    "Bullet Seed",
+    "Charm",
+    "Cheap Shot",
+    "Dazzling Gleam",
+    "Encore",
+    "Energy Ball",
+    "Facade",
+    "Fling",
+    "Flirty Kiss",
+    "Follow Me",
+    "Giga Drain",
+    "Grass Knot",
+    "Grassy Glide",
+    "Grassy Terrain",
+    "Heart Breaker",
+    "Helping Hand",
+    "Leaf Storm",
+    "Pin Missile",
+    "Protect",
+    "Rest",
+    "Seed Bomb",
+    "Solar Beam",
+    "Sunny Day",
+    "Swords Dance",
+    "Synthesis",
+    "Take Down",
+    "Tera Blast",
+    "Trailblaze",
+    "Zen Headbutt"
+  ],
+  "HM": [
+    "Cut",
+    "Rock Smash",
+    "Strength"
   ]
 }

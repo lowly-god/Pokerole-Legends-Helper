@@ -141,5 +141,43 @@
       "Learned": "Advanced",
       "Name": "Lapidify"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Aerial Ace",
+    "Agility",
+    "Brick Break",
+    "Close Combat",
+    "Dark Pulse",
+    "Double-Edge",
+    "Earthquake",
+    "Endure",
+    "Facade",
+    "False Swipe",
+    "Hex",
+    "Lunge",
+    "Phantom Force",
+    "Protect",
+    "Rain Dance",
+    "Reversal",
+    "Rock Blast",
+    "Rock Slide",
+    "Sandstorm",
+    "Shadow Claw",
+    "Slash",
+    "Smack Down",
+    "Substitute",
+    "Take Down",
+    "Taunt",
+    "Tera Blast",
+    "Thief",
+    "Trailblaze",
+    "U-Turn",
+    "X-Scissor"
+  ],
+  "HM": [
+    "Cut",
+    "Rock Smash",
+    "Strength"
   ]
 }

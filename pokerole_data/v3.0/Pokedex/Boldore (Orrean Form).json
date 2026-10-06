@@ -142,6 +142,35 @@
     }
   ],
   "HM": [
-    "Magma Drift"
+    "Rock Smash",
+    "Strength"
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Body Press",
+    "Body Slam",
+    "Bulldoze",
+    "Earth Power",
+    "Earthquake",
+    "Endure",
+    "Facade",
+    "Flash Cannon",
+    "Giga Impact",
+    "Gyro Ball",
+    "Heat Wave",
+    "High Horsepower",
+    "Iron Head",
+    "Meteor Beam",
+    "Overheat",
+    "Power Gem",
+    "Protect",
+    "Rock Polish",
+    "Rock Tomb",
+    "Sand Tomb",
+    "Scald",
+    "Solar Beam",
+    "Substitute",
+    "Sunny Day",
+    "Weather Ball"
   ]
 }

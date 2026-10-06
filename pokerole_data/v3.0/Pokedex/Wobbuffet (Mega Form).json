@@ -69,5 +69,10 @@
       "Name": "Destiny Bond"
     }
   ],
-  "MegaStone": "Wobbuffetite"
+  "MegaStone": "Wobbuffetite",
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Charm"
+  ],
+  "HM": []
 }

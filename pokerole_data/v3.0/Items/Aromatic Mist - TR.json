@@ -1,0 +1,14 @@
+{
+  "Name": "Aromatic Mist - TR",
+  "_id": "aromatic-mist-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Aromatic Mist to one Pokémon",
+  "Rank": "Advanced",
+  "OneUse": true,
+  "TrainerPrice": "4500",
+  "Cures": "",
+  "Image": ""
+}

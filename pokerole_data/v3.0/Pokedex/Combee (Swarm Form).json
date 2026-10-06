@@ -165,5 +165,41 @@
       "Learned": "Ace",
       "Name": "Hyper Beam"
     }
+  ],
+  "PokedexNote": "Combee (Male Form) may learn Combee (Swarm Form)'s Moves, but may not use them unless in its Swarm Form.",
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Acrobatics",
+    "Aerial Ace",
+    "Agility",
+    "Dual Wingbeat",
+    "Facade",
+    "Helping Hand",
+    "Hurricane",
+    "Lunge",
+    "Pollen Puff",
+    "Pounce",
+    "Protect",
+    "Rain Dance",
+    "Rest",
+    "Scary Face",
+    "Skitter Smack",
+    "Sleep Talk",
+    "Spite",
+    "Substitute",
+    "Sunny Day",
+    "Take Down",
+    "Taunt",
+    "Tera Blast",
+    "Thief",
+    "U-Turn",
+    "Uproar",
+    "Venoshock",
+    "Virus Pulse",
+    "X-Scissor"
+  ],
+  "HM": [
+    "Cut",
+    "Defog"
   ]
 }

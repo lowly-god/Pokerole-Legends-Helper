@@ -143,6 +143,44 @@
     }
   ],
   "HM": [
-    "Flash"
+    "Cut",
+    "Flash",
+    "Rock Climb",
+    "Rock Smash",
+    "Strength"
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Attract",
+    "Calm Mind",
+    "Charm",
+    "Close Combat",
+    "Dig",
+    "Eerie Impulse",
+    "Electro Ball",
+    "Facade",
+    "Fire Fang",
+    "Flash Cannon",
+    "Focus Energy",
+    "Giga Impact",
+    "Helping Hand",
+    "Hyper Beam",
+    "Ice Fang",
+    "Iron Head",
+    "Iron Tail",
+    "Moonblast",
+    "Protect",
+    "Psychic Fangs",
+    "Rest",
+    "Sleep Talk",
+    "Snarl",
+    "Snore",
+    "Swift",
+    "Tail Glow",
+    "Thunder",
+    "Thunder Wave",
+    "Thunderbolt",
+    "Uproar",
+    "Volt Switch"
   ]
 }

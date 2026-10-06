@@ -1,0 +1,14 @@
+{
+  "Name": "Rage Powder - TM",
+  "_id": "rage-powder-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Rage Powder to multiple Pokémon",
+  "Rank": "Ace",
+  "OneUse": false,
+  "TrainerPrice": "16500",
+  "Cures": "",
+  "Image": ""
+}

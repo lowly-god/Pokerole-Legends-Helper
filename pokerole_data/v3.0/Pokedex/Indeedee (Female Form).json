@@ -148,5 +148,37 @@
       "Learned": "Expert",
       "Name": "Null Room"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Alluring Voice",
+    "Ally Switch",
+    "Body Slam",
+    "Charm",
+    "Dazzling Gleam",
+    "Drain Punch",
+    "Draining Kiss",
+    "Energy Ball",
+    "Expanding Force",
+    "Facade",
+    "Future Sight",
+    "Hyper Voice",
+    "Imprison",
+    "Magical Leaf",
+    "Metronome",
+    "Play Rough",
+    "Protect",
+    "Psyshock",
+    "Rest",
+    "Skill Swap",
+    "Sleep Talk",
+    "Substitute",
+    "Swift",
+    "Take Down",
+    "Tera Blast",
+    "Trick",
+    "Trick Room",
+    "Zen Headbutt"
+  ],
+  "HM": []
 }

@@ -145,5 +145,45 @@
       "Learned": "Ace",
       "Name": "Meltdown"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Acid Spray",
+    "Agility",
+    "Ally Switch",
+    "Body Slam",
+    "Charge",
+    "Confuse Ray",
+    "Cosmic Power",
+    "Dazzling Gleam",
+    "Electro Ball",
+    "Energy Ball",
+    "Fire Blast",
+    "Fling",
+    "Focus Blast",
+    "Grass Knot",
+    "Hyper Beam",
+    "Iron Head",
+    "Metal Sound",
+    "Play Rough",
+    "Protect",
+    "Psychic Noise",
+    "Psychic Terrain",
+    "Rising Voltage",
+    "Stored Power",
+    "Sunny Day",
+    "Swift",
+    "Take Down",
+    "Tera Blast",
+    "Thunder",
+    "Thunder Punch",
+    "Toxic",
+    "Toxic Spikes",
+    "U-Turn",
+    "Venoshock",
+    "Volt Switch"
+  ],
+  "HM": [
+    "Flash"
   ]
 }

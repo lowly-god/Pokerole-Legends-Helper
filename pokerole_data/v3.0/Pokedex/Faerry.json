@@ -148,5 +148,37 @@
       "Learned": "Standard",
       "Name": "Sugar Rush"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Attract",
+    "Bullet Seed",
+    "Charm",
+    "Dazzling Gleam",
+    "Draining Kiss",
+    "Endure",
+    "Energy Ball",
+    "Facade",
+    "Giga Drain",
+    "Giga Impact",
+    "Grass Knot",
+    "Grassy Glide",
+    "Grassy Terrain",
+    "Hyper Beam",
+    "Ingrain",
+    "Play Rough",
+    "Pollen Puff",
+    "Protect",
+    "Rest",
+    "Round",
+    "Safeguard",
+    "Seed Bomb",
+    "Sleep Talk",
+    "Snore",
+    "Solar Blade",
+    "Substitute",
+    "Swords Dance",
+    "Uproot"
+  ],
+  "HM": []
 }

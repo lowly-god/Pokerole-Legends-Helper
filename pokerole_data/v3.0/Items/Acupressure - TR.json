@@ -1,0 +1,14 @@
+{
+  "Name": "Acupressure - TR",
+  "_id": "acupressure-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Acupressure to one Pokémon",
+  "Rank": "Standard",
+  "OneUse": true,
+  "TrainerPrice": "3500",
+  "Cures": "",
+  "Image": ""
+}

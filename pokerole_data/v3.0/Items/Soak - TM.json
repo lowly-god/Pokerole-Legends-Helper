@@ -1,0 +1,14 @@
+{
+  "Name": "Soak - TM",
+  "_id": "soak-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Soak to multiple Pokémon",
+  "Rank": "Advanced",
+  "OneUse": false,
+  "TrainerPrice": "13500",
+  "Cures": "",
+  "Image": ""
+}

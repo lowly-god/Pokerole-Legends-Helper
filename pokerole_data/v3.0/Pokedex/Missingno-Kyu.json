@@ -145,5 +145,47 @@
       "Learned": "Ace",
       "Name": "Lapidify"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Agility",
+    "Amnesia",
+    "Bitter Malice",
+    "Charge",
+    "Charge Beam",
+    "Confuse Ray",
+    "Dark Pulse",
+    "Double-Edge",
+    "Edgestitch",
+    "Eerie Impulse",
+    "Endure",
+    "Facade",
+    "Foul Play",
+    "Magic Coat",
+    "Necromancy",
+    "Poltergeist",
+    "Power Whip",
+    "Protect",
+    "Psyshock",
+    "Recycle",
+    "Shock Wave",
+    "Signal Beam",
+    "Siphon Life-Force",
+    "Substitute",
+    "Swift",
+    "Take Down",
+    "Tera Blast",
+    "Thief",
+    "Thunder Wave",
+    "Tri Attack",
+    "Trick",
+    "Trick Room",
+    "Wonder Room",
+    "Work Up",
+    "Zen Headbutt"
+  ],
+  "HM": [
+    "Flash",
+    "Teleport"
   ]
 }

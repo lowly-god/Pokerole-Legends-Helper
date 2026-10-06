@@ -1,0 +1,14 @@
+{
+  "Name": "Pain Split - TR",
+  "_id": "pain-split-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Pain Split to one Pokémon",
+  "Rank": "Expert",
+  "OneUse": true,
+  "TrainerPrice": "5500",
+  "Cures": "",
+  "Image": ""
+}

@@ -125,5 +125,31 @@
       "Learned": "Standard",
       "Name": "Parasitize"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Double-Edge",
+    "Endure",
+    "Facade",
+    "Focus Energy",
+    "Iron Head",
+    "Leech Life",
+    "Mud Shot",
+    "Protect",
+    "Rest",
+    "Scorching Sands",
+    "Sleep Talk",
+    "Struggle Bug",
+    "Substitute",
+    "Sunny Day",
+    "Swords Dance",
+    "Take Down",
+    "Tera Blast",
+    "Thief",
+    "Work Up"
+  ],
+  "HM": [
+    "Rock Smash",
+    "Strength"
   ]
 }

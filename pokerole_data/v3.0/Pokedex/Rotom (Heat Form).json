@@ -136,5 +136,34 @@
       "Learned": "Standard",
       "Name": "Cauterize"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Ally Switch",
+    "Charge Beam",
+    "Electric Terrain",
+    "Electroweb",
+    "Endure",
+    "Facade",
+    "Foul Play",
+    "Helping Hand",
+    "Hyper Voice",
+    "Light Screen",
+    "Night Shade",
+    "Pain Split",
+    "Protect",
+    "Rain Dance",
+    "Reflect",
+    "Rest",
+    "Rising Voltage",
+    "Sleep Talk",
+    "Spite",
+    "Stored Power",
+    "Sunny Day",
+    "Swift",
+    "Tera Blast",
+    "Thief",
+    "Will-O-Wisp"
+  ],
+  "HM": []
 }

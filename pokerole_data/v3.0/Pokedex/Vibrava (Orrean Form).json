@@ -145,5 +145,43 @@
       "Learned": "Expert",
       "Name": "Velvet Scales"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Aerial Ace",
+    "Agility",
+    "Ally Switch",
+    "Dark Pulse",
+    "Dragon Breath",
+    "Dragon Cheer",
+    "Dragon Dance",
+    "Earth Power",
+    "Focus Energy",
+    "Helping Hand",
+    "Leech Life",
+    "Mud Shot",
+    "Protect",
+    "Psychic Noise",
+    "Rest",
+    "Sand Tomb",
+    "Scale Shot",
+    "Scorching Sands",
+    "Shadow Ball",
+    "Signal Beam",
+    "Sleep Talk",
+    "Struggle Bug",
+    "Sunny Day",
+    "Swift",
+    "Take Down",
+    "Tera Blast",
+    "U-Turn",
+    "Venom Drench",
+    "Work Up"
+  ],
+  "HM": [
+    "Defog",
+    "Fly",
+    "Rock Smash",
+    "Strength"
   ]
 }

@@ -133,5 +133,33 @@
       "Learned": "Ace",
       "Name": "Electroweb"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Dig",
+    "Double Team",
+    "Dream Eater",
+    "Endure",
+    "Facade",
+    "Flash Cannon",
+    "Giga Drain",
+    "Giga Impact",
+    "Gyro Ball",
+    "Hyper Beam",
+    "Psych Up",
+    "Rain Dance",
+    "Rest",
+    "Safeguard",
+    "Shadow Ball",
+    "Skill Swap",
+    "Sleep Talk",
+    "Solar Beam",
+    "Stealth Rock",
+    "Steel Beam",
+    "Substitute",
+    "Sunny Day",
+    "Swagger",
+    "Thief"
+  ],
+  "HM": []
 }

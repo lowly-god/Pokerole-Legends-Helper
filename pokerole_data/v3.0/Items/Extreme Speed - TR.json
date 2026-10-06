@@ -1,0 +1,14 @@
+{
+  "Name": "Extreme Speed - TR",
+  "_id": "extreme-speed-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Extreme Speed to one Pokémon",
+  "Rank": "Ace",
+  "OneUse": true,
+  "TrainerPrice": "6500",
+  "Cures": "",
+  "Image": ""
+}

@@ -147,6 +147,35 @@
     }
   ],
   "HM": [
-    "Dive"
+    "Dive",
+    "Rock Smash",
+    "Strength",
+    "Surf",
+    "Waterfall",
+    "Whirlpool"
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Ancient Power",
+    "Blizzard",
+    "Close Combat",
+    "Dark Pulse",
+    "Double-Edge",
+    "Earthquake",
+    "Endure",
+    "Facade",
+    "Giga Impact",
+    "Hyper Beam",
+    "Ice Beam",
+    "Icy Wind",
+    "Liquidation",
+    "Poison Jab",
+    "Protect",
+    "Rock Tomb",
+    "Scald",
+    "Scale Shot",
+    "Substitute",
+    "Swift",
+    "Zen Headbutt"
   ]
 }

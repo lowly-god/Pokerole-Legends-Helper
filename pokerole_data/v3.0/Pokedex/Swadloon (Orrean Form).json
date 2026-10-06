@@ -104,5 +104,32 @@
       "Learned": "Advanced",
       "Name": "Embody Element"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Charm",
+    "Dragon Pulse",
+    "Electroweb",
+    "Energy Ball",
+    "Facade",
+    "Focus Energy",
+    "Grass Knot",
+    "Leech Life",
+    "Lunge",
+    "Parasitize",
+    "Recover",
+    "Scary Face",
+    "Signal Beam",
+    "Solar Beam",
+    "Struggle Bug",
+    "Substitute",
+    "Sunny Day",
+    "Superpower",
+    "Take Down",
+    "Taunt",
+    "Tera Blast",
+    "Trailblaze",
+    "Uproar"
+  ],
+  "HM": []
 }

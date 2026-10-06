@@ -137,5 +137,42 @@
       "Learned": "Ace",
       "Name": "Alluring Voice"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Acrobatics",
+    "Aerial Ace",
+    "Agility",
+    "Ally Switch",
+    "Amnesia",
+    "Charge",
+    "Charge Beam",
+    "Disarming Voice",
+    "Double-Edge",
+    "Dual Wingbeat",
+    "Eerie Impulse",
+    "Electric Terrain",
+    "Endeavor",
+    "Endure",
+    "Focus Energy",
+    "Helping Hand",
+    "Play Rough",
+    "Protect",
+    "Rest",
+    "Rising Voltage",
+    "Shock Wave",
+    "Sleep Talk",
+    "Swift",
+    "Take Down",
+    "Taunt",
+    "Tera Blast",
+    "Tri Attack",
+    "U-Turn",
+    "Uproar",
+    "Weather Ball",
+    "Work Up"
+  ],
+  "HM": [
+    "Flash"
   ]
 }

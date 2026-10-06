@@ -141,5 +141,43 @@
       "Learned": "Ace",
       "Name": "Steel Beam"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Air Slash",
+    "Body Slam",
+    "Bullet Seed",
+    "Charge Beam",
+    "Double-Edge",
+    "Dragon Pulse",
+    "Dragon Tail",
+    "Dual Wingbeat",
+    "Earth Power",
+    "Energy Ball",
+    "Focus Blast",
+    "Giga Drain",
+    "Grassy Terrain",
+    "Hurricane",
+    "Hyper Beam",
+    "Leaf Storm",
+    "Metal Sound",
+    "Protect",
+    "Roar",
+    "Rock Tomb",
+    "Scary Face",
+    "Seed Bomb",
+    "Smart Strike",
+    "Steel Wing",
+    "Sunny Day",
+    "Take Down",
+    "Taunt",
+    "Tera Blast",
+    "Zen Headbutt"
+  ],
+  "HM": [
+    "Defog",
+    "Flash",
+    "Rock Smash",
+    "Strength"
   ]
 }

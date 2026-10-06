@@ -93,5 +93,30 @@
       "Learned": "Advanced",
       "Name": "Embody Element"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Amnesia",
+    "Baton Pass",
+    "Bullet Seed",
+    "Encore",
+    "Energy Ball",
+    "Facade",
+    "Helping Hand",
+    "Natural Gift",
+    "Nature Power",
+    "Pain Split",
+    "Protect",
+    "Rage Powder",
+    "Seed Bomb",
+    "Sunny Day",
+    "Superpower",
+    "Synthesis",
+    "Take Down",
+    "Tera Blast",
+    "Weather Ball"
+  ],
+  "HM": [
+    "Rock Smash"
   ]
 }

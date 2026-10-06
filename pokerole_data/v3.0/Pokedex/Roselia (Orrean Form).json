@@ -163,5 +163,45 @@
       "Learned": "Standard",
       "Name": "Asteroid Shot"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Amnesia",
+    "Aura Strike",
+    "Baton Pass",
+    "Beat Up",
+    "Bullet Seed",
+    "Coaching",
+    "Earth Power",
+    "Encore",
+    "Endure",
+    "Energy Ball",
+    "Facade",
+    "Flash Cannon",
+    "Fling",
+    "Heart Breaker",
+    "Helping Hand",
+    "Mud Shot",
+    "Natural Gift",
+    "Pain Split",
+    "Protect",
+    "Rage Powder",
+    "Seed Bomb",
+    "Solar Beam",
+    "Stone Edge",
+    "Submission",
+    "Sunny Day",
+    "Superpower",
+    "Swift",
+    "Swords Dance",
+    "Synthesis",
+    "Take Down",
+    "Tera Blast",
+    "Weather Ball"
+  ],
+  "HM": [
+    "Cut",
+    "Rock Smash",
+    "Strength"
   ]
 }

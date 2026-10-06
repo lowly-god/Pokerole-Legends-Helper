@@ -1,11 +1,11 @@
 {
-  "Name": "Tri attack - TR",
+  "Name": "Tri Attack - TR",
   "_id": "tri-attack-tr",
   "Source": "Legends Rules Expansion",
   "PMD": false,
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
-  "Description": "A single use TR that can teach Tri attack to one Pokémon",
+  "Description": "A single use TR that can teach Tri Attack to one Pokémon",
   "Rank": "Advanced",
   "OneUse": true,
   "TrainerPrice": "5500",

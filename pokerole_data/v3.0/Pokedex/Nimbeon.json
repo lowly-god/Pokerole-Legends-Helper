@@ -153,7 +153,43 @@
       "Name": "Thunder"
     }
   ],
-  "HM": [
-    "Defog"
+  "HM": [],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Acrobatics",
+    "After You",
+    "Agility",
+    "Alluring Voice",
+    "Baton Pass",
+    "Bounce",
+    "Draining Kiss",
+    "Dual Wingbeat",
+    "Endeavor",
+    "Endure",
+    "Facade",
+    "Focus Blast",
+    "Hidden Power",
+    "Hyper Beam",
+    "Icy Wind",
+    "Imprison",
+    "Jet Strike",
+    "Light Screen",
+    "Me First",
+    "Play Rough",
+    "Pluck",
+    "Psych Up",
+    "Reflect",
+    "Rest",
+    "Return",
+    "Sky Attack",
+    "Sleep Talk",
+    "Snore",
+    "Take Down",
+    "Taunt",
+    "Tera Blast",
+    "Thief",
+    "U-Turn",
+    "Weather Ball",
+    "Zen Headbutt"
   ]
 }

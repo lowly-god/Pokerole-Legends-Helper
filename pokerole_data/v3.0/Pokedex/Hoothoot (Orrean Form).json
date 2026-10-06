@@ -145,5 +145,39 @@
       "Learned": "Ace",
       "Name": "Extrasensory"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Acrobatics",
+    "Aerial Ace",
+    "Agility",
+    "Air Cutter",
+    "Amnesia",
+    "Cosmic Power",
+    "Curse",
+    "Dazzling Gleam",
+    "Double-Edge",
+    "Dual Wingbeat",
+    "Future Sight",
+    "Helping Hand",
+    "Hex",
+    "Icy Wind",
+    "Light Screen",
+    "Parting Shot",
+    "Phantom Force",
+    "Pluck",
+    "Protect",
+    "Psychic",
+    "Psyshock",
+    "Reflect",
+    "Roost",
+    "Shadow Claw",
+    "Swift",
+    "Taunt",
+    "Tera Blast"
+  ],
+  "HM": [
+    "Defog",
+    "Flash"
   ]
 }

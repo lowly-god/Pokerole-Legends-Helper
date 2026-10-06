@@ -93,5 +93,16 @@
       "Learned": "Advanced",
       "Name": "Breach"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Light Screen",
+    "Protect",
+    "Reflect",
+    "Rest",
+    "Sleep Talk",
+    "Substitute",
+    "Tera Blast"
+  ],
+  "HM": []
 }

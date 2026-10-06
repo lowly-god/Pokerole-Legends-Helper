@@ -143,6 +143,45 @@
     }
   ],
   "HM": [
-    "Rock Smash"
+    "Cut",
+    "Rock Smash",
+    "Strength"
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Aerial Ace",
+    "Agility",
+    "Amnesia",
+    "Aura Sphere",
+    "Body Press",
+    "Body Slam",
+    "Brick Break",
+    "Bulk Up",
+    "Calm Mind",
+    "Coaching",
+    "Dazzling Gleam",
+    "Drill Run",
+    "Earthquake",
+    "Encore",
+    "Facade",
+    "False Swipe",
+    "Flash Cannon",
+    "Focus Blast",
+    "Helping Hand",
+    "Imprison",
+    "Leaf Blade",
+    "Low Sweep",
+    "Megahorn",
+    "Protect",
+    "Psych Up",
+    "Reversal",
+    "Smart Strike",
+    "Stone Edge",
+    "Stored Power",
+    "Superpower",
+    "Tera Blast",
+    "Throat Chop",
+    "X-Scissor",
+    "Zen Headbutt"
   ]
 }

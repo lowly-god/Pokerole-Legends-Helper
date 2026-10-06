@@ -61,5 +61,25 @@
       "Learned": "Ace",
       "Name": "Lunge"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Bug Bite",
+    "Endure",
+    "Facade",
+    "Hail",
+    "Leech Life",
+    "Mud Shot",
+    "Mud Slap",
+    "Pounce",
+    "Protect",
+    "Rain Dance",
+    "Rest",
+    "Skitter Smack",
+    "Substitute",
+    "Take Down",
+    "Tera Blast",
+    "Thief"
+  ],
+  "HM": []
 }

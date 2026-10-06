@@ -1,14 +1,14 @@
 {
-  "Name": "Feint attack - TR",
+  "Name": "Feint Attack - TR",
   "_id": "feint-attack-tr",
   "Source": "Legends Rules Expansion",
   "PMD": false,
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
-  "Description": "A single use TR that can teach Feint attack to one Pokémon",
+  "Description": "A single use TR that can teach Feint Attack to one Pokémon",
   "Rank": "Standard",
   "OneUse": true,
-  "TrainerPrice": "4000",
+  "TrainerPrice": "3500",
   "Cures": "",
   "Image": ""
 }

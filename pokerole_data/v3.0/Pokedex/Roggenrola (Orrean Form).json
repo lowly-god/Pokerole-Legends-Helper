@@ -129,5 +129,28 @@
       "Learned": "Standard",
       "Name": "Cauterize"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Body Press",
+    "Body Slam",
+    "Endure",
+    "Facade",
+    "Flash Cannon",
+    "Gyro Ball",
+    "Iron Head",
+    "Overheat",
+    "Power Gem",
+    "Protect",
+    "Rock Polish",
+    "Rock Throw",
+    "Sand Tomb",
+    "Scald",
+    "Solar Beam",
+    "Sunny Day"
+  ],
+  "HM": [
+    "Rock Smash",
+    "Strength"
   ]
 }

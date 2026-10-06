@@ -151,6 +151,42 @@
     }
   ],
   "HM": [
-    "Defog"
+    "Flash"
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Acrobatics",
+    "Aerial Ace",
+    "Blizzard",
+    "Bubble Beam",
+    "Disarming Voice",
+    "Double-Edge",
+    "Endeavor",
+    "Endure",
+    "Facade",
+    "Fling",
+    "Flip Turn",
+    "Helping Hand",
+    "Hidden Power",
+    "Ice Beam",
+    "Icy Wind",
+    "Jet Strike",
+    "Knock Off",
+    "Liquidation",
+    "Protect",
+    "Rest",
+    "Sleep Talk",
+    "Snore",
+    "Substitute",
+    "Swift",
+    "Take Down",
+    "Tera Blast",
+    "Thief",
+    "Toxic",
+    "Twin Jolt",
+    "U-Turn",
+    "Uproar",
+    "Venoshock",
+    "Weather Ball"
   ]
 }

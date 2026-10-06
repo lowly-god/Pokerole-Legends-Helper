@@ -145,5 +145,35 @@
       "Learned": "Ace",
       "Name": "Dark Pulse"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Autotomize",
+    "Breach",
+    "Calm Mind",
+    "Charge Beam",
+    "Eerie Impulse",
+    "Electroweb",
+    "Endure",
+    "Energy Ball",
+    "Flash Cannon",
+    "Imprison",
+    "Iron Defense",
+    "Magnet Rise",
+    "Poltergeist",
+    "Protect",
+    "Psychic",
+    "Siphon Life-Force",
+    "Skill Swap",
+    "Stored Power",
+    "Substitute",
+    "Swift",
+    "Thunder",
+    "Thunderbolt",
+    "Trick",
+    "Volt Switch"
+  ],
+  "HM": [
+    "Flash"
   ]
 }

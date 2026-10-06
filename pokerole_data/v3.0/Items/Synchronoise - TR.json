@@ -1,0 +1,14 @@
+{
+  "Name": "Synchronoise - TR",
+  "_id": "synchronoise-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Synchronoise to one Pokémon",
+  "Rank": "Expert",
+  "OneUse": true,
+  "TrainerPrice": "6000",
+  "Cures": "",
+  "Image": ""
+}

@@ -156,5 +156,40 @@
       "Learned": "Ace",
       "Name": "Pain Split"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Acid Spray",
+    "Ally Switch",
+    "Amnesia",
+    "Body Slam",
+    "Dark Pulse",
+    "Facade",
+    "Fire Blast",
+    "Focus Energy",
+    "Gastro Acid",
+    "Gunk Shot",
+    "Hyper Beam",
+    "Play Rough",
+    "Protect",
+    "Psybeam",
+    "Rest",
+    "Scary Face",
+    "Shadow Ball",
+    "Sleep Talk",
+    "Sludge Bomb",
+    "Spite",
+    "Substitute",
+    "Take Down",
+    "Taunt",
+    "Tera Blast",
+    "Thief",
+    "Toxic Spikes",
+    "Tri Attack",
+    "Uproar",
+    "Work Up"
+  ],
+  "HM": [
+    "Flash"
   ]
 }

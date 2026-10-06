@@ -129,5 +129,30 @@
       "Learned": "Standard",
       "Name": "Cauterize"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Bulk Up",
+    "Charge",
+    "Facade",
+    "Fire Spin",
+    "Flame Charge",
+    "Fling",
+    "Focus Energy",
+    "Helping Hand",
+    "Low Sweep",
+    "Protect",
+    "Swift",
+    "Take Down",
+    "Taunt",
+    "Tera Blast",
+    "Thief",
+    "Uproar",
+    "Volt Switch",
+    "Work Up"
+  ],
+  "HM": [
+    "Flash",
+    "Rock Smash"
   ]
 }

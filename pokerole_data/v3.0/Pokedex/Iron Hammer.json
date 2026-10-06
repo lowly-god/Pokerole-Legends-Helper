@@ -135,6 +135,42 @@
     }
   ],
   "HM": [
-    "Rock Smash"
+    "Rock Smash",
+    "Strength"
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Autotomize",
+    "Brick Break",
+    "Bulldoze",
+    "Embody Element",
+    "Encore",
+    "Endure",
+    "Facade",
+    "Fling",
+    "Focus Blast",
+    "Foul Play",
+    "Hard Press",
+    "Helping Hand",
+    "Iron Head",
+    "Light Screen",
+    "Low Sweep",
+    "Metal Sound",
+    "Pounce",
+    "Protect",
+    "Reflect",
+    "Reversal",
+    "Rock Slide",
+    "Secret Power",
+    "Skill Swap",
+    "Skitter Smack",
+    "Smack Down",
+    "Stealth Rock",
+    "Steel Beam",
+    "Stone Edge",
+    "Substitute",
+    "Tera Blast",
+    "Thief",
+    "Thunder Wave"
   ]
 }

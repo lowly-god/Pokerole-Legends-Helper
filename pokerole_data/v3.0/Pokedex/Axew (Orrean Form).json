@@ -143,6 +143,47 @@
     }
   ],
   "HM": [
-    "Rock Smash"
+    "Cut",
+    "Rock Smash",
+    "Strength"
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Body Slam",
+    "Breaking Swipe",
+    "Brick Break",
+    "Crunch",
+    "Dig",
+    "Double-Edge",
+    "Dragon Cheer",
+    "Drill Run",
+    "Endeavor",
+    "Endure",
+    "Facade",
+    "False Swipe",
+    "Fling",
+    "Focus Energy",
+    "Head Charge",
+    "Headlong Rush",
+    "Iron Head",
+    "Low Sweep",
+    "Outrage",
+    "Protect",
+    "Reversal",
+    "Roar",
+    "Rock Slide",
+    "Rock Tomb",
+    "Snarl",
+    "Stealth Rock",
+    "Stomping Tantrum",
+    "Stone Edge",
+    "Submission",
+    "Superpower",
+    "Swords Dance",
+    "Take Down",
+    "Taunt",
+    "Tera Blast",
+    "Uproar",
+    "Work Up"
   ]
 }

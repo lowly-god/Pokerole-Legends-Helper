@@ -133,5 +133,32 @@
       "Learned": "Ace",
       "Name": "Electroweb"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Bullet Seed",
+    "Dig",
+    "Double Team",
+    "Dream Eater",
+    "Endure",
+    "Energy Ball",
+    "Facade",
+    "Giga Impact",
+    "Grass Knot",
+    "Hyper Beam",
+    "Magical Leaf",
+    "Psych Up",
+    "Rain Dance",
+    "Rest",
+    "Safeguard",
+    "Shadow Ball",
+    "Skill Swap",
+    "Sleep Talk",
+    "Solar Beam",
+    "Substitute",
+    "Sunny Day",
+    "Swagger",
+    "Thief"
+  ],
+  "HM": []
 }

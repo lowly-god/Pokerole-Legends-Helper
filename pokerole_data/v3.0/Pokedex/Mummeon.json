@@ -160,5 +160,45 @@
       "Learned": "Expert",
       "Name": "Shadow Tide"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Ally Switch",
+    "Amnesia",
+    "Bitter Malice",
+    "Body Slam",
+    "Breach",
+    "Calm Mind",
+    "Dark Pulse",
+    "Endure",
+    "Energy Ball",
+    "Foul Play",
+    "Future Sight",
+    "Haze",
+    "Hidden Power",
+    "Hyper Beam",
+    "Icy Wind",
+    "Imprison",
+    "Night Shade",
+    "Phantom Force",
+    "Poltergeist",
+    "Protect",
+    "Psych Up",
+    "Psychic",
+    "Rest",
+    "Sandstorm",
+    "Shadow Claw",
+    "Skill Swap",
+    "Sleep Talk",
+    "Substitute",
+    "Swift",
+    "Taunt",
+    "Tera Blast",
+    "Terrorize",
+    "Thief"
+  ],
+  "HM": [
+    "Rock Smash",
+    "Strength"
   ]
 }

@@ -139,5 +139,33 @@
   ],
   "HM": [
     "Fly"
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Body Slam",
+    "Endure",
+    "Facade",
+    "Fire Blast",
+    "Fire Spin",
+    "Flash Cannon",
+    "Giga Impact",
+    "Gravity",
+    "Gunk Shot",
+    "Outrage",
+    "Poison Jab",
+    "Rain Dance",
+    "Rest",
+    "Scary Face",
+    "Shadow Ball",
+    "Sleep Talk",
+    "Sludge Bomb",
+    "Sludge Wave",
+    "Solar Beam",
+    "Substitute",
+    "Sunny Day",
+    "Take Down",
+    "Tera Blast",
+    "Toxic Spikes",
+    "Venom Drench"
   ]
 }

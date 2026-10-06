@@ -145,5 +145,25 @@
   "HM": [
     "Dive",
     "Whirlpool"
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Attract",
+    "Bulldoze",
+    "Endure",
+    "Facade",
+    "Hail",
+    "Ice Beam",
+    "Iron Tail",
+    "Mud Shot",
+    "Rain Dance",
+    "Rest",
+    "Round",
+    "Scald",
+    "Scale Shot",
+    "Sleep Talk",
+    "Snore",
+    "Substitute",
+    "U-Turn"
   ]
 }

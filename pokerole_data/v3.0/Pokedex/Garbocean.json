@@ -152,5 +152,45 @@
       "Learned": "Advanced",
       "Name": "Aqua Fang"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Aqua Surge",
+    "Attract",
+    "Body Slam",
+    "Bubble Beam",
+    "Chilling Water",
+    "Dark Pulse",
+    "Endure",
+    "Extrasensory",
+    "Facade",
+    "Fling",
+    "Gastro Acid",
+    "Giga Drain",
+    "Giga Impact",
+    "Hyper Beam",
+    "Liquidation",
+    "Muddy Water",
+    "Payback",
+    "Protect",
+    "Rest",
+    "Rock Blast",
+    "Round",
+    "Scald",
+    "Self Destruct",
+    "Sleep Talk",
+    "Sludge Bomb",
+    "Snore",
+    "Soak",
+    "Spikes",
+    "Substitute",
+    "Thief",
+    "Thunderbolt",
+    "Venom Drench",
+    "Venoshock",
+    "Water Sport"
+  ],
+  "HM": [
+    "Surf"
   ]
 }

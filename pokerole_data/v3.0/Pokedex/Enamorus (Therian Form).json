@@ -132,5 +132,42 @@
       "Learned": "Ace",
       "Name": "Mystical Fire"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Agility",
+    "Alluring Voice",
+    "Body Slam",
+    "Calm Mind",
+    "Disarming Voice",
+    "Earth Power",
+    "Endure",
+    "Facade",
+    "Focus Blast",
+    "Giga Impact",
+    "Grass Knot",
+    "Grassy Terrain",
+    "Hyper Beam",
+    "Iron Head",
+    "Misty Explosion",
+    "Misty Terrain",
+    "Play Rough",
+    "Protect",
+    "Psych Up",
+    "Psychic",
+    "Rain Dance",
+    "Rest",
+    "Scary Face",
+    "Sleep Talk",
+    "Sludge Bomb",
+    "Substitute",
+    "Sunny Day",
+    "Tailwind",
+    "Take Down",
+    "Taunt",
+    "Tera Blast",
+    "Weather Ball",
+    "Zen Headbutt"
+  ],
+  "HM": []
 }

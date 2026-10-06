@@ -1,0 +1,14 @@
+{
+  "Name": "Mirror Move - TR",
+  "_id": "mirror-move-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Mirror Move to one Pokémon",
+  "Rank": "Advanced",
+  "OneUse": true,
+  "TrainerPrice": "4500",
+  "Cures": "",
+  "Image": ""
+}

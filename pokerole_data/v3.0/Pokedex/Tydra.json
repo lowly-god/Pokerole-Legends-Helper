@@ -159,6 +159,36 @@
     }
   ],
   "HM": [
-    "Surf"
+    "Rock Smash",
+    "Strength"
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Amnesia",
+    "Chilling Water",
+    "Crunch",
+    "Draco Meteor",
+    "Dragon Cheer",
+    "Endure",
+    "Facade",
+    "Helping Hand",
+    "Lash Out",
+    "Muddy Water",
+    "Protect",
+    "Psych Up",
+    "Rest",
+    "Roar",
+    "Scald",
+    "Scary Face",
+    "Sleep Talk",
+    "Snarl",
+    "Superpower",
+    "Take Down",
+    "Tera Blast",
+    "Thunder Fang",
+    "Tri Attack",
+    "Uproar",
+    "Water Pulse",
+    "Zen Headbutt"
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "Name": "Ice Shard - TR",
+  "_id": "ice-shard-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Ice Shard to one Pokémon",
+  "Rank": "Advanced",
+  "OneUse": true,
+  "TrainerPrice": "5500",
+  "Cures": "",
+  "Image": ""
+}

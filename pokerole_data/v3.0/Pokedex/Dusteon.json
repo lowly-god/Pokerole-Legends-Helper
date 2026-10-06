@@ -152,5 +152,40 @@
       "Learned": "Standard",
       "Name": "Asteroid Shot"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Absolute Zero",
+    "Ally Switch",
+    "Body Slam",
+    "Charm",
+    "Cosmic Power",
+    "Double-Edge",
+    "Earth Power",
+    "Endure",
+    "Facade",
+    "Fake Tears",
+    "Focus Energy",
+    "Future Sight",
+    "Giga Impact",
+    "Hyper Beam",
+    "Ice Beam",
+    "Mud Slap",
+    "Play Rough",
+    "Psyshock",
+    "Rest",
+    "Shadow Ball",
+    "Skill Swap",
+    "Smack Down",
+    "Stealth Rock",
+    "Stone Edge",
+    "Tera Blast",
+    "Trick",
+    "Work Up",
+    "Zen Headbutt"
+  ],
+  "HM": [
+    "Rock Smash",
+    "Strength"
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "Name": "Water Sport - TM",
+  "_id": "water-sport-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Water Sport to multiple Pokémon",
+  "Rank": "Advanced",
+  "OneUse": false,
+  "TrainerPrice": "13500",
+  "Cures": "",
+  "Image": ""
+}

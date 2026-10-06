@@ -133,5 +133,40 @@
       "Learned": "Ace",
       "Name": "Earthquake"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Bulldoze",
+    "Calm Mind",
+    "Charge Beam",
+    "Dazzling Gleam",
+    "Earth Power",
+    "Endeavor",
+    "Endure",
+    "Facade",
+    "Giga Impact",
+    "Gravity",
+    "Gyro Ball",
+    "Hyper Beam",
+    "Iron Head",
+    "Last Resort",
+    "Magnet Rise",
+    "Psychic",
+    "Rest",
+    "Rock Blast",
+    "Rock Slide",
+    "Rock Tomb",
+    "Sandstorm",
+    "Scorching Sands",
+    "Sleep Talk",
+    "Snore",
+    "Solar Beam",
+    "Stone Edge",
+    "Substitute",
+    "Telekinesis",
+    "Tera Blast",
+    "U-Turn",
+    "Zen Headbutt"
+  ],
+  "HM": []
 }

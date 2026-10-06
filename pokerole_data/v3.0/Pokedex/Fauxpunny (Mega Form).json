@@ -173,5 +173,48 @@
       "Name": "Fake Out"
     }
   ],
-  "MegaStone": "Fauxpunnite"
+  "MegaStone": "Fauxpunnite",
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Absolute Zero",
+    "Acrobatics",
+    "Assurance",
+    "Attract",
+    "Aura Sphere",
+    "Brutal Swing",
+    "Confuse Ray",
+    "Drain Punch",
+    "Encore",
+    "Facade",
+    "Fire Punch",
+    "Fisticuffs",
+    "Fling",
+    "Helping Hand",
+    "Hex",
+    "Ice Punch",
+    "Low Kick",
+    "Low Sweep",
+    "Mega Kick",
+    "Night Shade",
+    "Payback",
+    "Play Rough",
+    "Protect",
+    "Rest",
+    "Retaliate",
+    "Reversal",
+    "Shadow Ball",
+    "Siphon Life-Force",
+    "Sleep Talk",
+    "Snore",
+    "Substitute",
+    "Thunder Punch",
+    "Triple Axel",
+    "U-Turn",
+    "Work Up"
+  ],
+  "HM": [
+    "Cut",
+    "Rock Smash",
+    "Strength"
+  ]
 }

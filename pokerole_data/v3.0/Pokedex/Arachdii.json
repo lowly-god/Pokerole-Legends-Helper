@@ -137,5 +137,42 @@
       "Learned": "Ace",
       "Name": "Substitute"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Acid Spray",
+    "Aerial Ace",
+    "Baton Pass",
+    "Body Slam",
+    "Brick Break",
+    "Facade",
+    "Foul Play",
+    "Fury Cutter",
+    "Knock Off",
+    "Leech Life",
+    "Night Shade",
+    "Parasitize",
+    "Poison Jab",
+    "Protect",
+    "Rock Tomb",
+    "Signal Beam",
+    "Sludge Bomb",
+    "Spikes",
+    "Stomping Tantrum",
+    "Struggle Bug",
+    "Take Down",
+    "Taunt",
+    "Tera Blast",
+    "Thief",
+    "Toxic",
+    "Trailblaze",
+    "Venoshock",
+    "X-Scissor",
+    "Zen Headbutt"
+  ],
+  "HM": [
+    "Cut",
+    "Rock Smash",
+    "Strength"
   ]
 }

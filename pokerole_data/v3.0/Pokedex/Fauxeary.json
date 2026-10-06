@@ -149,5 +149,42 @@
       "Learned": "Ace",
       "Name": "Fake Out"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Absolute Zero",
+    "Assurance",
+    "Attract",
+    "Aura Sphere",
+    "Confuse Ray",
+    "Drain Punch",
+    "Encore",
+    "Facade",
+    "Fire Punch",
+    "Fisticuffs",
+    "Fling",
+    "Helping Hand",
+    "Hex",
+    "Ice Punch",
+    "Low Sweep",
+    "Mega Kick",
+    "Night Shade",
+    "Payback",
+    "Play Rough",
+    "Protect",
+    "Rest",
+    "Reversal",
+    "Shadow Ball",
+    "Siphon Life-Force",
+    "Sleep Talk",
+    "Snore",
+    "Substitute",
+    "Thunder Punch",
+    "U-Turn",
+    "Work Up"
+  ],
+  "HM": [
+    "Rock Smash",
+    "Strength"
   ]
 }

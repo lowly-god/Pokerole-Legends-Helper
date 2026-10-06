@@ -149,5 +149,36 @@
       "Learned": "Ace",
       "Name": "Endure"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Agility",
+    "Baton Pass",
+    "Charge",
+    "Curse",
+    "Double-Edge",
+    "Electro Ball",
+    "Facade",
+    "Flamethrower",
+    "Foul Play",
+    "Giga Drain",
+    "Giga Impact",
+    "Grassy Glide",
+    "Helping Hand",
+    "Hyper Beam",
+    "Metal Sound",
+    "Overheat",
+    "Protect",
+    "Scary Face",
+    "Solar Beam",
+    "Substitute",
+    "Sunny Day",
+    "Supercell Slam",
+    "Taunt",
+    "Temper Flare",
+    "Tera Blast"
+  ],
+  "HM": [
+    "Flash"
   ]
 }

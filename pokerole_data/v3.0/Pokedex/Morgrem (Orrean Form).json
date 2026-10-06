@@ -149,5 +149,48 @@
       "Learned": "Advanced",
       "Name": "Acid Rain"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Brick Break",
+    "Bulk Up",
+    "Endure",
+    "Facade",
+    "Fake Tears",
+    "Fire Punch",
+    "Fling",
+    "Focus Energy",
+    "Focus Punch",
+    "Foul Play",
+    "Hone Claws",
+    "Ice Punch",
+    "Light Screen",
+    "Low Kick",
+    "Low Sweep",
+    "Play Rough",
+    "Protect",
+    "Reflect",
+    "Rock Slide",
+    "Rock Tomb",
+    "Sandstorm",
+    "Scary Face",
+    "Shadow Ball",
+    "Stalacbite",
+    "Stomping Tantrum",
+    "Stone Edge",
+    "Substitute",
+    "Superpower",
+    "Take Down",
+    "Tera Blast",
+    "Thief",
+    "Throat Chop",
+    "Thunder Punch",
+    "Thunder Wave",
+    "Twilight Zone"
+  ],
+  "HM": [
+    "Cut",
+    "Rock Smash",
+    "Strength"
   ]
 }

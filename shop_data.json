@@ -2069,18 +2069,6 @@
           "category": "Dark"
         },
         {
-          "name": "Feint attack - TR",
-          "price": "4000",
-          "effect": "A single use TR that can teach Feint attack to one Pokémon",
-          "category": "Dark"
-        },
-        {
-          "name": "Feint attack - TM",
-          "price": "12000",
-          "effect": "A multi-use TM that can teach Feint attack to multiple Pokémon",
-          "category": "Dark"
-        },
-        {
           "name": "Fling",
           "price": "3500",
           "effect": "",
@@ -4301,18 +4289,6 @@
           "category": "Flying"
         },
         {
-          "name": "Sky attack - TR",
-          "price": "5500",
-          "effect": "A single use TR that can teach Sky attack to one Pokémon",
-          "category": "Flying"
-        },
-        {
-          "name": "Sky attack - TM",
-          "price": "16500",
-          "effect": "A multi-use TM that can teach Sky attack to multiple Pokémon",
-          "category": "Flying"
-        },
-        {
           "name": "Sky Drop",
           "price": "3500",
           "effect": "",
@@ -5324,18 +5300,6 @@
           "name": "Mud-Slap",
           "price": "2500",
           "effect": "",
-          "category": "Ground"
-        },
-        {
-          "name": "Mud-Slap - TR",
-          "price": "2500",
-          "effect": "A single use TR that can teach Mud-Slap to one Pokémon",
-          "category": "Ground"
-        },
-        {
-          "name": "Mud-Slap - TM",
-          "price": "7500",
-          "effect": "A multi-use TM that can teach Mud-Slap to multiple Pokémon",
           "category": "Ground"
         },
         {
@@ -6659,18 +6623,6 @@
           "category": "Normal"
         },
         {
-          "name": "Self-Destruct - TR",
-          "price": "4500",
-          "effect": "A single use TR that can teach Self-Destruct to one Pokémon",
-          "category": "Normal"
-        },
-        {
-          "name": "Self-Destruct - TM",
-          "price": "13500",
-          "effect": "A multi-use TM that can teach Self-Destruct to multiple Pokémon",
-          "category": "Normal"
-        },
-        {
           "name": "Skull Bash",
           "price": "4000",
           "effect": "",
@@ -6890,18 +6842,6 @@
           "name": "Tri attack",
           "price": "5500",
           "effect": "",
-          "category": "Normal"
-        },
-        {
-          "name": "Tri attack - TR",
-          "price": "5500",
-          "effect": "A single use TR that can teach Tri attack to one Pokémon",
-          "category": "Normal"
-        },
-        {
-          "name": "Tri attack - TM",
-          "price": "16500",
-          "effect": "A multi-use TM that can teach Tri attack to multiple Pokémon",
           "category": "Normal"
         },
         {
@@ -8979,6 +8919,1194 @@
           "price": "9000",
           "effect": "A multi-use HM that can teach Whirlpool to multiple Pokémon — Allows traversal of whirlpools",
           "category": "Water"
+        },
+        {
+          "name": "Accelerock - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Accelerock to one Pokémon",
+          "category": "Rock"
+        },
+        {
+          "name": "Accelerock - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Accelerock to multiple Pokémon",
+          "category": "Rock"
+        },
+        {
+          "name": "Acid - TR",
+          "price": "3500",
+          "effect": "A single use TR that can teach Acid to one Pokémon",
+          "category": "Poison"
+        },
+        {
+          "name": "Acid - TM",
+          "price": "10500",
+          "effect": "A multi-use TM that can teach Acid to multiple Pokémon",
+          "category": "Poison"
+        },
+        {
+          "name": "Acid Armor - TR",
+          "price": "5000",
+          "effect": "A single use TR that can teach Acid Armor to one Pokémon",
+          "category": "Poison"
+        },
+        {
+          "name": "Acid Armor - TM",
+          "price": "15000",
+          "effect": "A multi-use TM that can teach Acid Armor to multiple Pokémon",
+          "category": "Poison"
+        },
+        {
+          "name": "Acupressure - TR",
+          "price": "3500",
+          "effect": "A single use TR that can teach Acupressure to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Acupressure - TM",
+          "price": "10500",
+          "effect": "A multi-use TM that can teach Acupressure to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Aqua Ring - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Aqua Ring to one Pokémon",
+          "category": "Water"
+        },
+        {
+          "name": "Aqua Ring - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Aqua Ring to multiple Pokémon",
+          "category": "Water"
+        },
+        {
+          "name": "Aromatherapy - TR",
+          "price": "4000",
+          "effect": "A single use TR that can teach Aromatherapy to one Pokémon",
+          "category": "Grass"
+        },
+        {
+          "name": "Aromatherapy - TM",
+          "price": "12000",
+          "effect": "A multi-use TM that can teach Aromatherapy to multiple Pokémon",
+          "category": "Grass"
+        },
+        {
+          "name": "Aromatic Mist - TR",
+          "price": "4500",
+          "effect": "A single use TR that can teach Aromatic Mist to one Pokémon",
+          "category": "Fairy"
+        },
+        {
+          "name": "Aromatic Mist - TM",
+          "price": "13500",
+          "effect": "A multi-use TM that can teach Aromatic Mist to multiple Pokémon",
+          "category": "Fairy"
+        },
+        {
+          "name": "Assist - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Assist to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Assist - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Assist to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Autotomize - TR",
+          "price": "5000",
+          "effect": "A single use TR that can teach Autotomize to one Pokémon",
+          "category": "Steel"
+        },
+        {
+          "name": "Autotomize - TM",
+          "price": "15000",
+          "effect": "A multi-use TM that can teach Autotomize to multiple Pokémon",
+          "category": "Steel"
+        },
+        {
+          "name": "Boomburst - TR",
+          "price": "8000",
+          "effect": "A single use TR that can teach Boomburst to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Boomburst - TM",
+          "price": "24000",
+          "effect": "A multi-use TM that can teach Boomburst to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Bullet Punch - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Bullet Punch to one Pokémon",
+          "category": "Steel"
+        },
+        {
+          "name": "Bullet Punch - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Bullet Punch to multiple Pokémon",
+          "category": "Steel"
+        },
+        {
+          "name": "Camouflage - TR",
+          "price": "4000",
+          "effect": "A single use TR that can teach Camouflage to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Camouflage - TM",
+          "price": "12000",
+          "effect": "A multi-use TM that can teach Camouflage to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Charge - TR",
+          "price": "3500",
+          "effect": "A single use TR that can teach Charge to one Pokémon",
+          "category": "Electric"
+        },
+        {
+          "name": "Charge - TM",
+          "price": "10500",
+          "effect": "A multi-use TM that can teach Charge to multiple Pokémon",
+          "category": "Electric"
+        },
+        {
+          "name": "Conversion - TR",
+          "price": "4000",
+          "effect": "A single use TR that can teach Conversion to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Conversion - TM",
+          "price": "12000",
+          "effect": "A multi-use TM that can teach Conversion to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Conversion 2 - TR",
+          "price": "5000",
+          "effect": "A single use TR that can teach Conversion 2 to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Conversion 2 - TM",
+          "price": "15000",
+          "effect": "A multi-use TM that can teach Conversion 2 to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Copycat - TR",
+          "price": "4500",
+          "effect": "A single use TR that can teach Copycat to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Copycat - TM",
+          "price": "13500",
+          "effect": "A multi-use TM that can teach Copycat to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Crush Claw - TR",
+          "price": "6000",
+          "effect": "A single use TR that can teach Crush Claw to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Crush Claw - TM",
+          "price": "18000",
+          "effect": "A multi-use TM that can teach Crush Claw to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Discharge - TR",
+          "price": "6000",
+          "effect": "A single use TR that can teach Discharge to one Pokémon",
+          "category": "Electric"
+        },
+        {
+          "name": "Discharge - TM",
+          "price": "18000",
+          "effect": "A multi-use TM that can teach Discharge to multiple Pokémon",
+          "category": "Electric"
+        },
+        {
+          "name": "Double Kick - TR",
+          "price": "3500",
+          "effect": "A single use TR that can teach Double Kick to one Pokémon",
+          "category": "Fighting"
+        },
+        {
+          "name": "Double Kick - TM",
+          "price": "10500",
+          "effect": "A multi-use TM that can teach Double Kick to multiple Pokémon",
+          "category": "Fighting"
+        },
+        {
+          "name": "Dragon Rush - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Dragon Rush to one Pokémon",
+          "category": "Dragon"
+        },
+        {
+          "name": "Dragon Rush - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Dragon Rush to multiple Pokémon",
+          "category": "Dragon"
+        },
+        {
+          "name": "Endeavor - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Endeavor to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Endeavor - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Endeavor to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Extrasensory - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Extrasensory to one Pokémon",
+          "category": "Psychic"
+        },
+        {
+          "name": "Extrasensory - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Extrasensory to multiple Pokémon",
+          "category": "Psychic"
+        },
+        {
+          "name": "Extreme Speed - TR",
+          "price": "6500",
+          "effect": "A single use TR that can teach Extreme Speed to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Extreme Speed - TM",
+          "price": "19500",
+          "effect": "A multi-use TM that can teach Extreme Speed to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Feint Attack - TR",
+          "price": "3500",
+          "effect": "A single use TR that can teach Feint Attack to one Pokémon",
+          "category": "Dark"
+        },
+        {
+          "name": "Feint Attack - TM",
+          "price": "10500",
+          "effect": "A multi-use TM that can teach Feint Attack to multiple Pokémon",
+          "category": "Dark"
+        },
+        {
+          "name": "Fire Lash - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Fire Lash to one Pokémon",
+          "category": "Fire"
+        },
+        {
+          "name": "Fire Lash - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Fire Lash to multiple Pokémon",
+          "category": "Fire"
+        },
+        {
+          "name": "First Impression - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach First Impression to one Pokémon",
+          "category": "Bug"
+        },
+        {
+          "name": "First Impression - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach First Impression to multiple Pokémon",
+          "category": "Bug"
+        },
+        {
+          "name": "Flail - TR",
+          "price": "4500",
+          "effect": "A single use TR that can teach Flail to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Flail - TM",
+          "price": "13500",
+          "effect": "A multi-use TM that can teach Flail to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Flame Wheel - TR",
+          "price": "3500",
+          "effect": "A single use TR that can teach Flame Wheel to one Pokémon",
+          "category": "Fire"
+        },
+        {
+          "name": "Flame Wheel - TM",
+          "price": "10500",
+          "effect": "A multi-use TM that can teach Flame Wheel to multiple Pokémon",
+          "category": "Fire"
+        },
+        {
+          "name": "Focus Energy - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Focus Energy to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Focus Energy - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Focus Energy to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Follow Me - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Follow Me to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Follow Me - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Follow Me to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Gravity - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Gravity to one Pokémon",
+          "category": "Psychic"
+        },
+        {
+          "name": "Gravity - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Gravity to multiple Pokémon",
+          "category": "Psychic"
+        },
+        {
+          "name": "Growth - TR",
+          "price": "5000",
+          "effect": "A single use TR that can teach Growth to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Growth - TM",
+          "price": "15000",
+          "effect": "A multi-use TM that can teach Growth to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Hard Press - TR",
+          "price": "6000",
+          "effect": "A single use TR that can teach Hard Press to one Pokémon",
+          "category": "Steel"
+        },
+        {
+          "name": "Hard Press - TM",
+          "price": "18000",
+          "effect": "A multi-use TM that can teach Hard Press to multiple Pokémon",
+          "category": "Steel"
+        },
+        {
+          "name": "Haze - TR",
+          "price": "4500",
+          "effect": "A single use TR that can teach Haze to one Pokémon",
+          "category": "Ice"
+        },
+        {
+          "name": "Haze - TM",
+          "price": "13500",
+          "effect": "A multi-use TM that can teach Haze to multiple Pokémon",
+          "category": "Ice"
+        },
+        {
+          "name": "Head Charge - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Head Charge to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Head Charge - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Head Charge to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Head Smash - TR",
+          "price": "6000",
+          "effect": "A single use TR that can teach Head Smash to one Pokémon",
+          "category": "Rock"
+        },
+        {
+          "name": "Head Smash - TM",
+          "price": "18000",
+          "effect": "A multi-use TM that can teach Head Smash to multiple Pokémon",
+          "category": "Rock"
+        },
+        {
+          "name": "Headlong Rush - TR",
+          "price": "6000",
+          "effect": "A single use TR that can teach Headlong Rush to one Pokémon",
+          "category": "Ground"
+        },
+        {
+          "name": "Headlong Rush - TM",
+          "price": "18000",
+          "effect": "A multi-use TM that can teach Headlong Rush to multiple Pokémon",
+          "category": "Ground"
+        },
+        {
+          "name": "Healing Wish - TR",
+          "price": "6000",
+          "effect": "A single use TR that can teach Healing Wish to one Pokémon",
+          "category": "Psychic"
+        },
+        {
+          "name": "Healing Wish - TM",
+          "price": "18000",
+          "effect": "A multi-use TM that can teach Healing Wish to multiple Pokémon",
+          "category": "Psychic"
+        },
+        {
+          "name": "Horn Leech - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Horn Leech to one Pokémon",
+          "category": "Grass"
+        },
+        {
+          "name": "Horn Leech - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Horn Leech to multiple Pokémon",
+          "category": "Grass"
+        },
+        {
+          "name": "Hypnosis - TR",
+          "price": "5000",
+          "effect": "A single use TR that can teach Hypnosis to one Pokémon",
+          "category": "Psychic"
+        },
+        {
+          "name": "Hypnosis - TM",
+          "price": "15000",
+          "effect": "A multi-use TM that can teach Hypnosis to multiple Pokémon",
+          "category": "Psychic"
+        },
+        {
+          "name": "Ice Hammer - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Ice Hammer to one Pokémon",
+          "category": "Ice"
+        },
+        {
+          "name": "Ice Hammer - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Ice Hammer to multiple Pokémon",
+          "category": "Ice"
+        },
+        {
+          "name": "Ice Shard - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Ice Shard to one Pokémon",
+          "category": "Ice"
+        },
+        {
+          "name": "Ice Shard - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Ice Shard to multiple Pokémon",
+          "category": "Ice"
+        },
+        {
+          "name": "Ingrain - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Ingrain to one Pokémon",
+          "category": "Grass"
+        },
+        {
+          "name": "Ingrain - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Ingrain to multiple Pokémon",
+          "category": "Grass"
+        },
+        {
+          "name": "Jet Punch - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Jet Punch to one Pokémon",
+          "category": "Water"
+        },
+        {
+          "name": "Jet Punch - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Jet Punch to multiple Pokémon",
+          "category": "Water"
+        },
+        {
+          "name": "Kinesis - TR",
+          "price": "4500",
+          "effect": "A single use TR that can teach Kinesis to one Pokémon",
+          "category": "Psychic"
+        },
+        {
+          "name": "Kinesis - TM",
+          "price": "13500",
+          "effect": "A multi-use TM that can teach Kinesis to multiple Pokémon",
+          "category": "Psychic"
+        },
+        {
+          "name": "Laser Focus - TR",
+          "price": "5000",
+          "effect": "A single use TR that can teach Laser Focus to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Laser Focus - TM",
+          "price": "15000",
+          "effect": "A multi-use TM that can teach Laser Focus to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Last Resort - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Last Resort to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Last Resort - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Last Resort to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Lock-On - TR",
+          "price": "4500",
+          "effect": "A single use TR that can teach Lock-On to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Lock-On - TM",
+          "price": "13500",
+          "effect": "A multi-use TM that can teach Lock-On to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Lucky Chant - TR",
+          "price": "6500",
+          "effect": "A single use TR that can teach Lucky Chant to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Lucky Chant - TM",
+          "price": "19500",
+          "effect": "A multi-use TM that can teach Lucky Chant to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Me First - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Me First to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Me First - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Me First to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Mean Look - TR",
+          "price": "3500",
+          "effect": "A single use TR that can teach Mean Look to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Mean Look - TM",
+          "price": "10500",
+          "effect": "A multi-use TM that can teach Mean Look to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Meteor Mash - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Meteor Mash to one Pokémon",
+          "category": "Steel"
+        },
+        {
+          "name": "Meteor Mash - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Meteor Mash to multiple Pokémon",
+          "category": "Steel"
+        },
+        {
+          "name": "Mirror Coat - TR",
+          "price": "4500",
+          "effect": "A single use TR that can teach Mirror Coat to one Pokémon",
+          "category": "Psychic"
+        },
+        {
+          "name": "Mirror Coat - TM",
+          "price": "13500",
+          "effect": "A multi-use TM that can teach Mirror Coat to multiple Pokémon",
+          "category": "Psychic"
+        },
+        {
+          "name": "Mirror Move - TR",
+          "price": "4500",
+          "effect": "A single use TR that can teach Mirror Move to one Pokémon",
+          "category": "Flying"
+        },
+        {
+          "name": "Mirror Move - TM",
+          "price": "13500",
+          "effect": "A multi-use TM that can teach Mirror Move to multiple Pokémon",
+          "category": "Flying"
+        },
+        {
+          "name": "Mist - TR",
+          "price": "4500",
+          "effect": "A single use TR that can teach Mist to one Pokémon",
+          "category": "Ice"
+        },
+        {
+          "name": "Mist - TM",
+          "price": "13500",
+          "effect": "A multi-use TM that can teach Mist to multiple Pokémon",
+          "category": "Ice"
+        },
+        {
+          "name": "Moonblast - TR",
+          "price": "6000",
+          "effect": "A single use TR that can teach Moonblast to one Pokémon",
+          "category": "Fairy"
+        },
+        {
+          "name": "Moonblast - TM",
+          "price": "18000",
+          "effect": "A multi-use TM that can teach Moonblast to multiple Pokémon",
+          "category": "Fairy"
+        },
+        {
+          "name": "Morning Sun - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Morning Sun to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Morning Sun - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Morning Sun to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Mud Bomb - TR",
+          "price": "3500",
+          "effect": "A single use TR that can teach Mud Bomb to one Pokémon",
+          "category": "Ground"
+        },
+        {
+          "name": "Mud Bomb - TM",
+          "price": "10500",
+          "effect": "A multi-use TM that can teach Mud Bomb to multiple Pokémon",
+          "category": "Ground"
+        },
+        {
+          "name": "Mud Slap - TR",
+          "price": "3500",
+          "effect": "A single use TR that can teach Mud Slap to one Pokémon",
+          "category": "Ground"
+        },
+        {
+          "name": "Mud Slap - TM",
+          "price": "10500",
+          "effect": "A multi-use TM that can teach Mud Slap to multiple Pokémon",
+          "category": "Ground"
+        },
+        {
+          "name": "Mud Sport - TR",
+          "price": "4500",
+          "effect": "A single use TR that can teach Mud Sport to one Pokémon",
+          "category": "Ground"
+        },
+        {
+          "name": "Mud Sport - TM",
+          "price": "13500",
+          "effect": "A multi-use TM that can teach Mud Sport to multiple Pokémon",
+          "category": "Ground"
+        },
+        {
+          "name": "Mystical Power - TR",
+          "price": "6500",
+          "effect": "A single use TR that can teach Mystical Power to one Pokémon",
+          "category": "Psychic"
+        },
+        {
+          "name": "Mystical Power - TM",
+          "price": "19500",
+          "effect": "A multi-use TM that can teach Mystical Power to multiple Pokémon",
+          "category": "Psychic"
+        },
+        {
+          "name": "Night Slash - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Night Slash to one Pokémon",
+          "category": "Dark"
+        },
+        {
+          "name": "Night Slash - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Night Slash to multiple Pokémon",
+          "category": "Dark"
+        },
+        {
+          "name": "Pain Split - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Pain Split to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Pain Split - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Pain Split to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Parting Shot - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Parting Shot to one Pokémon",
+          "category": "Dark"
+        },
+        {
+          "name": "Parting Shot - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Parting Shot to multiple Pokémon",
+          "category": "Dark"
+        },
+        {
+          "name": "Petal Dance - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Petal Dance to one Pokémon",
+          "category": "Grass"
+        },
+        {
+          "name": "Petal Dance - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Petal Dance to multiple Pokémon",
+          "category": "Grass"
+        },
+        {
+          "name": "Poison Fang - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Poison Fang to one Pokémon",
+          "category": "Poison"
+        },
+        {
+          "name": "Poison Fang - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Poison Fang to multiple Pokémon",
+          "category": "Poison"
+        },
+        {
+          "name": "Psychic Noise - TR",
+          "price": "4500",
+          "effect": "A single use TR that can teach Psychic Noise to one Pokémon",
+          "category": "Psychic"
+        },
+        {
+          "name": "Psychic Noise - TM",
+          "price": "13500",
+          "effect": "A multi-use TM that can teach Psychic Noise to multiple Pokémon",
+          "category": "Psychic"
+        },
+        {
+          "name": "Pursuit - TR",
+          "price": "4500",
+          "effect": "A single use TR that can teach Pursuit to one Pokémon",
+          "category": "Dark"
+        },
+        {
+          "name": "Pursuit - TM",
+          "price": "13500",
+          "effect": "A multi-use TM that can teach Pursuit to multiple Pokémon",
+          "category": "Dark"
+        },
+        {
+          "name": "Quiver Dance - TR",
+          "price": "6500",
+          "effect": "A single use TR that can teach Quiver Dance to one Pokémon",
+          "category": "Bug"
+        },
+        {
+          "name": "Quiver Dance - TM",
+          "price": "19500",
+          "effect": "A multi-use TM that can teach Quiver Dance to multiple Pokémon",
+          "category": "Bug"
+        },
+        {
+          "name": "Rage Powder - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Rage Powder to one Pokémon",
+          "category": "Bug"
+        },
+        {
+          "name": "Rage Powder - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Rage Powder to multiple Pokémon",
+          "category": "Bug"
+        },
+        {
+          "name": "Recover - TR",
+          "price": "4500",
+          "effect": "A single use TR that can teach Recover to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Recover - TM",
+          "price": "13500",
+          "effect": "A multi-use TM that can teach Recover to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Rock Throw - TR",
+          "price": "3500",
+          "effect": "A single use TR that can teach Rock Throw to one Pokémon",
+          "category": "Rock"
+        },
+        {
+          "name": "Rock Throw - TM",
+          "price": "10500",
+          "effect": "A multi-use TM that can teach Rock Throw to multiple Pokémon",
+          "category": "Rock"
+        },
+        {
+          "name": "Self Destruct - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Self Destruct to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Self Destruct - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Self Destruct to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Shadow Punch - TR",
+          "price": "4000",
+          "effect": "A single use TR that can teach Shadow Punch to one Pokémon",
+          "category": "Ghost"
+        },
+        {
+          "name": "Shadow Punch - TM",
+          "price": "12000",
+          "effect": "A multi-use TM that can teach Shadow Punch to multiple Pokémon",
+          "category": "Ghost"
+        },
+        {
+          "name": "Sing - TR",
+          "price": "4500",
+          "effect": "A single use TR that can teach Sing to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Sing - TM",
+          "price": "13500",
+          "effect": "A multi-use TM that can teach Sing to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Sky Attack - TR",
+          "price": "6000",
+          "effect": "A single use TR that can teach Sky Attack to one Pokémon",
+          "category": "Flying"
+        },
+        {
+          "name": "Sky Attack - TM",
+          "price": "18000",
+          "effect": "A multi-use TM that can teach Sky Attack to multiple Pokémon",
+          "category": "Flying"
+        },
+        {
+          "name": "Slash - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Slash to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Slash - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Slash to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Snowscape - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Snowscape to one Pokémon",
+          "category": "Ice"
+        },
+        {
+          "name": "Snowscape - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Snowscape to multiple Pokémon",
+          "category": "Ice"
+        },
+        {
+          "name": "Soak - TR",
+          "price": "4500",
+          "effect": "A single use TR that can teach Soak to one Pokémon",
+          "category": "Water"
+        },
+        {
+          "name": "Soak - TM",
+          "price": "13500",
+          "effect": "A multi-use TM that can teach Soak to multiple Pokémon",
+          "category": "Water"
+        },
+        {
+          "name": "Sonic Boom - TR",
+          "price": "4000",
+          "effect": "A single use TR that can teach Sonic Boom to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Sonic Boom - TM",
+          "price": "12000",
+          "effect": "A multi-use TM that can teach Sonic Boom to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Spider Web - TR",
+          "price": "5000",
+          "effect": "A single use TR that can teach Spider Web to one Pokémon",
+          "category": "Bug"
+        },
+        {
+          "name": "Spider Web - TM",
+          "price": "15000",
+          "effect": "A multi-use TM that can teach Spider Web to multiple Pokémon",
+          "category": "Bug"
+        },
+        {
+          "name": "Sticky Web - TR",
+          "price": "4500",
+          "effect": "A single use TR that can teach Sticky Web to one Pokémon",
+          "category": "Bug"
+        },
+        {
+          "name": "Sticky Web - TM",
+          "price": "13500",
+          "effect": "A multi-use TM that can teach Sticky Web to multiple Pokémon",
+          "category": "Bug"
+        },
+        {
+          "name": "Super Fang - TR",
+          "price": "6000",
+          "effect": "A single use TR that can teach Super Fang to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Super Fang - TM",
+          "price": "18000",
+          "effect": "A multi-use TM that can teach Super Fang to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Supercell Slam - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Supercell Slam to one Pokémon",
+          "category": "Electric"
+        },
+        {
+          "name": "Supercell Slam - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Supercell Slam to multiple Pokémon",
+          "category": "Electric"
+        },
+        {
+          "name": "Supersonic - TR",
+          "price": "3500",
+          "effect": "A single use TR that can teach Supersonic to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Supersonic - TM",
+          "price": "10500",
+          "effect": "A multi-use TM that can teach Supersonic to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Synchronoise - TR",
+          "price": "6000",
+          "effect": "A single use TR that can teach Synchronoise to one Pokémon",
+          "category": "Psychic"
+        },
+        {
+          "name": "Synchronoise - TM",
+          "price": "18000",
+          "effect": "A multi-use TM that can teach Synchronoise to multiple Pokémon",
+          "category": "Psychic"
+        },
+        {
+          "name": "Tail Glow - TR",
+          "price": "6500",
+          "effect": "A single use TR that can teach Tail Glow to one Pokémon",
+          "category": "Bug"
+        },
+        {
+          "name": "Tail Glow - TM",
+          "price": "19500",
+          "effect": "A multi-use TM that can teach Tail Glow to multiple Pokémon",
+          "category": "Bug"
+        },
+        {
+          "name": "Temper Flare - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Temper Flare to one Pokémon",
+          "category": "Fire"
+        },
+        {
+          "name": "Temper Flare - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Temper Flare to multiple Pokémon",
+          "category": "Fire"
+        },
+        {
+          "name": "Terrain Pulse - TR",
+          "price": "4500",
+          "effect": "A single use TR that can teach Terrain Pulse to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Terrain Pulse - TM",
+          "price": "13500",
+          "effect": "A multi-use TM that can teach Terrain Pulse to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Toxic Thread - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Toxic Thread to one Pokémon",
+          "category": "Poison"
+        },
+        {
+          "name": "Toxic Thread - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Toxic Thread to multiple Pokémon",
+          "category": "Poison"
+        },
+        {
+          "name": "Tri Attack - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Tri Attack to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Tri Attack - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Tri Attack to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Upper Hand - TR",
+          "price": "5500",
+          "effect": "A single use TR that can teach Upper Hand to one Pokémon",
+          "category": "Fighting"
+        },
+        {
+          "name": "Upper Hand - TM",
+          "price": "16500",
+          "effect": "A multi-use TM that can teach Upper Hand to multiple Pokémon",
+          "category": "Fighting"
+        },
+        {
+          "name": "Vice Grip - TR",
+          "price": "3500",
+          "effect": "A single use TR that can teach Vice Grip to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Vice Grip - TM",
+          "price": "10500",
+          "effect": "A multi-use TM that can teach Vice Grip to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Vorpal Blade - TR",
+          "price": "6000",
+          "effect": "A single use TR that can teach Vorpal Blade to one Pokémon",
+          "category": "Fairy"
+        },
+        {
+          "name": "Vorpal Blade - TM",
+          "price": "18000",
+          "effect": "A multi-use TM that can teach Vorpal Blade to multiple Pokémon",
+          "category": "Fairy"
+        },
+        {
+          "name": "Water Sport - TR",
+          "price": "4500",
+          "effect": "A single use TR that can teach Water Sport to one Pokémon",
+          "category": "Water"
+        },
+        {
+          "name": "Water Sport - TM",
+          "price": "13500",
+          "effect": "A multi-use TM that can teach Water Sport to multiple Pokémon",
+          "category": "Water"
+        },
+        {
+          "name": "Wave Crash - TR",
+          "price": "6000",
+          "effect": "A single use TR that can teach Wave Crash to one Pokémon",
+          "category": "Water"
+        },
+        {
+          "name": "Wave Crash - TM",
+          "price": "18000",
+          "effect": "A multi-use TM that can teach Wave Crash to multiple Pokémon",
+          "category": "Water"
+        },
+        {
+          "name": "Wing Attack - TR",
+          "price": "3500",
+          "effect": "A single use TR that can teach Wing Attack to one Pokémon",
+          "category": "Flying"
+        },
+        {
+          "name": "Wing Attack - TM",
+          "price": "10500",
+          "effect": "A multi-use TM that can teach Wing Attack to multiple Pokémon",
+          "category": "Flying"
+        },
+        {
+          "name": "Wish - TR",
+          "price": "6500",
+          "effect": "A single use TR that can teach Wish to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Wish - TM",
+          "price": "19500",
+          "effect": "A multi-use TM that can teach Wish to multiple Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Wrap - TR",
+          "price": "3500",
+          "effect": "A single use TR that can teach Wrap to one Pokémon",
+          "category": "Normal"
+        },
+        {
+          "name": "Wrap - TM",
+          "price": "10500",
+          "effect": "A multi-use TM that can teach Wrap to multiple Pokémon",
+          "category": "Normal"
         }
       ],
       "min": 8,

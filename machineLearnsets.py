@@ -89,6 +89,112 @@ def _to_id(text):
     return re.sub(r"[^a-z0-9]", "", str(text).casefold())
 
 
+# Moves introduced as campaign TR/TM items by the Legends Rules Expansion.
+# For these items, TM and TR are alternate item formats for the same
+# combined TM / TR / Tutor compatibility pool shown on each Pokémon.
+LEGENDS_EXPANSION_MACHINE_MOVE_IDS = {
+    "accelerock",
+    "acid",
+    "acidarmor",
+    "acupressure",
+    "aquaring",
+    "aromatherapy",
+    "aromaticmist",
+    "assist",
+    "autotomize",
+    "boomburst",
+    "bulletpunch",
+    "camouflage",
+    "charge",
+    "conversion",
+    "conversion2",
+    "copycat",
+    "crushclaw",
+    "discharge",
+    "doublekick",
+    "dragonrush",
+    "endeavor",
+    "extrasensory",
+    "extremespeed",
+    "feintattack",
+    "firelash",
+    "firstimpression",
+    "flail",
+    "flamewheel",
+    "focusenergy",
+    "followme",
+    "gravity",
+    "growth",
+    "hardpress",
+    "haze",
+    "headcharge",
+    "headlongrush",
+    "headsmash",
+    "healingwish",
+    "hornleech",
+    "hypnosis",
+    "icehammer",
+    "iceshard",
+    "ingrain",
+    "jetpunch",
+    "kinesis",
+    "laserfocus",
+    "lastresort",
+    "lockon",
+    "luckychant",
+    "meanlook",
+    "mefirst",
+    "meteormash",
+    "mirrorcoat",
+    "mirrormove",
+    "mist",
+    "moonblast",
+    "morningsun",
+    "mudbomb",
+    "mudslap",
+    "mudsport",
+    "mysticalpower",
+    "nightslash",
+    "painsplit",
+    "partingshot",
+    "petaldance",
+    "poisonfang",
+    "psychicnoise",
+    "pursuit",
+    "quiverdance",
+    "ragepowder",
+    "recover",
+    "rockthrow",
+    "selfdestruct",
+    "shadowpunch",
+    "sing",
+    "skyattack",
+    "slash",
+    "snowscape",
+    "soak",
+    "sonicboom",
+    "spiderweb",
+    "stickyweb",
+    "supercellslam",
+    "superfang",
+    "supersonic",
+    "synchronoise",
+    "tailglow",
+    "temperflare",
+    "terrainpulse",
+    "toxicthread",
+    "triattack",
+    "upperhand",
+    "vicegrip",
+    "vorpalblade",
+    "watersport",
+    "wavecrash",
+    "wingattack",
+    "wish",
+    "wrap",
+}
+
+
 # Legends-specific compatibility removals. Keep these outside the downloaded
 # Showdown cache so a cache refresh cannot silently restore intentionally
 # removed TM/TR/Tutor compatibility. Prefix matching deliberately applies to
@@ -382,10 +488,44 @@ def _display_names(move_ids):
 def get_machine_moves(pokemon):
     """Return separated TM, TR, Tutor and HM learnsets.
 
-    Official compatibility is merged with any explicit authored TM/TR/Tutor/HM
-    pools on the current Pokédex record. That keeps custom/regional Pokémon and
-    future hand-authored compatibility dynamic.
+    Curated campaign records marked AuthoritativeMachinePools bypass canonical
+    Showdown merging and use their authored TMTRTutor/HM pools exactly.
+    Unmarked Pokémon keep the existing dynamic canonical + authored behavior.
     """
+    record = _load_current_pokedex_record(pokemon)
+
+    # Exact curated override used by the campaign move-pool document.
+    if record and record.get("AuthoritativeMachinePools"):
+        teachable_ids = set(_authoritative_machine_pool_ids(record, "tm") or set())
+        hm_ids = set(_authoritative_machine_pool_ids(record, "hm") or set())
+
+        # TM/TR/Tutor must never duplicate natural Rank Up moves. HM is exempt.
+        rank_up_ids = set()
+        for entry in record.get("Moves", []):
+            if not isinstance(entry, dict):
+                continue
+            name = entry.get("Name") or entry.get("Move")
+            if name:
+                rank_up_ids.add(_to_id(name))
+        teachable_ids.difference_update(rank_up_ids)
+
+        # Keep Legends HMs in the dedicated HM section only.
+        teachable_ids.difference_update(ALL_HM_MOVE_IDS)
+
+        # Legends-specific compatibility removals still override curated data.
+        for denied_move_id in MACHINE_MOVE_DENYLIST:
+            if _machine_move_is_denied(pokemon, denied_move_id):
+                teachable_ids.discard(denied_move_id)
+                hm_ids.discard(denied_move_id)
+
+        return {
+            "generation": None,
+            "tm": _display_names(teachable_ids),
+            "tr": [],
+            "tutor": [],
+            "hm": _display_names(hm_ids),
+        }
+
     data = _get_data()
     species_id = _resolve_species_id(pokemon, data)
 
@@ -439,23 +579,19 @@ def get_machine_moves(pokemon):
 
     # Explicit authored pools always apply, even when the Pokémon/form has no
     # official Showdown identifier.
-    record = _load_current_pokedex_record(pokemon)
     if record:
         tm_ids.update(_explicit_machine_move_ids(record, "tm"))
         tr_ids.update(_explicit_machine_move_ids(record, "tr"))
         tutor_ids.update(_explicit_machine_move_ids(record, "tutor"))
         hm_ids.update(_explicit_machine_move_ids(record, "hm"))
 
-    # Legends HMs are a separate acquisition pool. Even when a move is also
-    # canonically available by TM/TR/Tutor (or was explicitly authored there),
-    # /poke_learns must display it only under Rank Up and HM.
+    # Legends HMs are a separate acquisition pool.
     tm_ids.difference_update(ALL_HM_MOVE_IDS)
     tr_ids.difference_update(ALL_HM_MOVE_IDS)
     tutor_ids.difference_update(ALL_HM_MOVE_IDS)
 
     # A move already learned naturally should not be offered again through a
-    # TM, TR, or Tutor pool. HMs are intentionally exempt from this rule and
-    # may appear in both Rank Up and HM.
+    # TM, TR, or Tutor pool. HMs are intentionally exempt from this rule.
     if record:
         rank_up_ids = set()
         machine_labels = {
@@ -475,8 +611,7 @@ def get_machine_moves(pokemon):
         tr_ids.difference_update(rank_up_ids)
         tutor_ids.difference_update(rank_up_ids)
 
-    # Apply Legends-specific compatibility removals after merging every source
-    # so they override Showdown, explicit authored pools, Tutors, TRs, and HMs.
+    # Apply Legends-specific compatibility removals after merging every source.
     for denied_move_id in MACHINE_MOVE_DENYLIST:
         if _machine_move_is_denied(pokemon, denied_move_id):
             tm_ids.discard(denied_move_id)
@@ -485,7 +620,6 @@ def get_machine_moves(pokemon):
             hm_ids.discard(denied_move_id)
 
     # Avoid displaying the same teachable move in multiple acquisition pools.
-    # Prefer the current TM pool, then TR, then Tutor. HM remains independent.
     tr_ids.difference_update(tm_ids)
     tutor_ids.difference_update(tm_ids)
     tutor_ids.difference_update(tr_ids)
@@ -694,6 +828,27 @@ def _move_ids_from_explicit_value(value):
     return result
 
 
+def _authoritative_machine_pool_ids(record, method):
+    """Read the exact curated machine pools authored on a Pokédex record.
+
+    Records with AuthoritativeMachinePools=true use TMTRTutor as one combined
+    TM/TR/Tutor compatibility pool and HM as an exact, separate HM pool. This
+    bypasses Showdown/canonical merging so curated campaign learnsets remain
+    the source of truth.
+    """
+    if not isinstance(record, dict) or not record.get("AuthoritativeMachinePools"):
+        return None
+
+    method = str(method).casefold()
+    if method in {"tm", "tr", "tutor"}:
+        return _move_ids_from_explicit_value(record.get("TMTRTutor", []))
+    if method == "hm":
+        # Exact authored HM list only. Do not auto-add rank-up HMs in
+        # authoritative mode; the document's HM pool is the source of truth.
+        return _move_ids_from_explicit_value(record.get("HM", []))
+    return set()
+
+
 def _explicit_machine_move_ids(record, method):
     """Read future authored TM/TR/Tutor/HM lists from a Pokédex record.
 
@@ -781,12 +936,14 @@ def _official_can_learn_machine_move(species_id, move_id, method, data):
 
 
 def get_teachable_pokemon(move_name, method):
-    """Return current Pokédex names that can learn move_name by TM/TR/HM.
+    """Return current Pokédex names compatible with a machine item.
 
     The lookup is intentionally dynamic: every click rereads current Pokédex
     records and merges explicit authored lists with official compatibility.
-    This means future TM/TR/Tutor/HM lists added to Pokémon JSON work without
-    maintaining a separate static reverse-list file.
+
+    Legends Rules Expansion TM/TR items use the combined TM / TR / Tutor pool
+    shown on a Pokémon's statblock. This makes the matching TM and TR versions
+    of one expansion move teachable to the same Pokémon.
     """
     target_id = _to_id(move_name)
     method = str(method).casefold()
@@ -796,6 +953,17 @@ def get_teachable_pokemon(move_name, method):
     pokedex_dir = Path("pokerole_data") / "v3.0" / "Pokedex"
     if not pokedex_dir.is_dir():
         return learners
+
+    expansion_machine = (
+        method in {"tm", "tr"}
+        and target_id in LEGENDS_EXPANSION_MACHINE_MOVE_IDS
+    )
+
+    machine_labels = {
+        alias
+        for aliases in _EXPLICIT_MACHINE_KEY_ALIASES.values()
+        for alias in aliases
+    }
 
     for path in pokedex_dir.glob("*.json"):
         try:
@@ -808,6 +976,74 @@ def get_teachable_pokemon(move_name, method):
             continue
 
         if _machine_move_is_denied(pokemon_name, target_id):
+            continue
+
+        if expansion_machine:
+            # Curated campaign records already define one authoritative
+            # TM/TR/Tutor pool. TM and TR item variants both use that pool.
+            authoritative = _authoritative_machine_pool_ids(record, "tm")
+            if authoritative is not None:
+                compatible_ids = set(authoritative)
+
+                # Match statblock behavior: natural Rank Up moves are not
+                # repeated in the teachable pool, while HMs stay separate.
+                rank_up_ids = set()
+                for entry in record.get("Moves", []):
+                    if not isinstance(entry, dict):
+                        continue
+                    name = entry.get("Name") or entry.get("Move")
+                    if name:
+                        rank_up_ids.add(_to_id(name))
+
+                compatible_ids.difference_update(rank_up_ids)
+                compatible_ids.difference_update(ALL_HM_MOVE_IDS)
+
+                if target_id in compatible_ids:
+                    learners.append(str(pokemon_name))
+                continue
+
+            # Uncurated Pokémon use the same combined pool that their statblock
+            # displays: any current TM, TR, or Tutor compatibility qualifies.
+            compatible = any(
+                target_id in _explicit_machine_move_ids(record, source)
+                for source in ("tm", "tr", "tutor")
+            )
+
+            if not compatible:
+                species_id = _resolve_species_id(pokemon_name, data)
+                if species_id:
+                    compatible = any(
+                        _official_can_learn_machine_move(
+                            species_id, target_id, source, data
+                        )
+                        for source in ("tm", "tr", "tutor")
+                    )
+
+            if compatible:
+                # Apply the same no-rank-up-duplication rule used by
+                # get_machine_moves for TM/TR/Tutor pools.
+                rank_up_ids = set()
+                for entry in record.get("Moves", []):
+                    if not isinstance(entry, dict):
+                        continue
+                    learned = _normalise_field_key(entry.get("Learned", ""))
+                    name = entry.get("Name") or entry.get("Move")
+                    if name and learned not in machine_labels:
+                        rank_up_ids.add(_to_id(name))
+
+                if (
+                    target_id not in rank_up_ids
+                    and target_id not in ALL_HM_MOVE_IDS
+                ):
+                    learners.append(str(pokemon_name))
+            continue
+
+        authoritative = _authoritative_machine_pool_ids(record, method)
+        if authoritative is not None:
+            if target_id in authoritative:
+                # Curated TM/TR/Tutor pools are one combined compatibility
+                # pool, while HM remains exact and separate.
+                learners.append(str(pokemon_name))
             continue
 
         explicit = _explicit_machine_move_ids(record, method)

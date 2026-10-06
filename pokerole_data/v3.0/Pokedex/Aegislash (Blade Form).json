@@ -147,6 +147,28 @@
     }
   ],
   "HM": [
-    "Cut"
+    "Cut",
+    "Rock Smash"
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Brick Break",
+    "Close Combat",
+    "Double Hit",
+    "Dual Chop",
+    "Endure",
+    "Facade",
+    "Flash Cannon",
+    "Giga Impact",
+    "Headbutt",
+    "Hyper Beam",
+    "Ominous Wind",
+    "Protect",
+    "Razor Wind",
+    "Reflect",
+    "Rock Slide",
+    "Steel Beam",
+    "Substitute",
+    "Zen Headbutt"
   ]
 }

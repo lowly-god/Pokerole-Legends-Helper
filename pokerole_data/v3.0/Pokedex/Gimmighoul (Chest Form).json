@@ -93,5 +93,16 @@
       "Learned": "Advanced",
       "Name": "Breach"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Endure",
+    "Hex",
+    "Rest",
+    "Sleep Talk",
+    "Take Down",
+    "Tera Blast",
+    "Thief"
+  ],
+  "HM": []
 }

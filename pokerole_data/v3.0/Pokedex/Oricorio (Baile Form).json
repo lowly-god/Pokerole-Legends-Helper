@@ -168,5 +168,38 @@
       "Learned": "Standard",
       "Name": "Jet Strike"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Acrobatics",
+    "Aerial Ace",
+    "Alluring Voice",
+    "Calm Mind",
+    "Charm",
+    "Covet",
+    "Dual Wingbeat",
+    "Endure",
+    "Facade",
+    "Icy Wind",
+    "Protect",
+    "Psych Up",
+    "Rain Dance",
+    "Rest",
+    "Reversal",
+    "Role Play",
+    "Sandstorm",
+    "Sky Attack",
+    "Sleep Talk",
+    "Snore",
+    "Substitute",
+    "Sunny Day",
+    "Swift",
+    "Tailwind",
+    "Take Down",
+    "Taunt",
+    "Tera Blast",
+    "Trailblaze",
+    "U-Turn"
+  ],
+  "HM": []
 }

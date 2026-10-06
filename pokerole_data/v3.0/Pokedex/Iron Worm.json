@@ -145,5 +145,38 @@
       "Learned": "Advanced",
       "Name": "Twin Jolt"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Agility",
+    "Body Press",
+    "Body Slam",
+    "Dragon Dance",
+    "Eerie Impulse",
+    "Electro Ball",
+    "Electroweb",
+    "Endure",
+    "Facade",
+    "Hyper Beam",
+    "Ice Fang",
+    "Iron Tail",
+    "Leech Life",
+    "Magnet Rise",
+    "Pin Missile",
+    "Psychic Fangs",
+    "Rising Voltage",
+    "Scary Face",
+    "Skitter Smack",
+    "Swift",
+    "Thunder",
+    "Thunderbolt",
+    "U-Turn",
+    "Volt Switch",
+    "Zap Cannon"
+  ],
+  "HM": [
+    "Cut",
+    "Rock Smash",
+    "Strength"
   ]
 }

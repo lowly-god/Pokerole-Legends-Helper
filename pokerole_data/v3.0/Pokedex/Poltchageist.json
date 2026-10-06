@@ -117,13 +117,31 @@
       "Name": "Siphon Life-Force"
     }
   ],
-  "TM": [
-    "Mourning Mist"
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Calm Mind",
+    "Curse",
+    "Endure",
+    "Energy Ball",
+    "Grassy Terrain",
+    "Imprison",
+    "Magical Leaf",
+    "Mourning Mist",
+    "Night Shade",
+    "Pain Split",
+    "Phantom Force",
+    "Poltergeist",
+    "Protect",
+    "Psych Up",
+    "Reflect",
+    "Rest",
+    "Scald",
+    "Sleep Talk",
+    "Solar Beam",
+    "Spite",
+    "Tera Blast",
+    "Trick Room",
+    "Uproar"
   ],
-  "TR": [
-    "Mourning Mist"
-  ],
-  "Tutor": [
-    "Mourning Mist"
-  ]
+  "HM": []
 }

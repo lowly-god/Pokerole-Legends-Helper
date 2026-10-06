@@ -133,5 +133,39 @@
       "Learned": "Ace",
       "Name": "Eerie Spell"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Alluring Voice",
+    "Ally Switch",
+    "Amnesia",
+    "Charm",
+    "Confuse Ray",
+    "Dreamweave",
+    "Encore",
+    "Fake Tears",
+    "Foul Play",
+    "Grass Knot",
+    "Helping Hand",
+    "Hypnosis",
+    "Icy Wind",
+    "Imprison",
+    "Metronome",
+    "Misty Terrain",
+    "Pain Split",
+    "Play Rough",
+    "Protect",
+    "Psyshock",
+    "Shadow Ball",
+    "Skill Swap",
+    "Telekinesis",
+    "Tera Blast",
+    "Thief",
+    "Trick",
+    "Trick Room",
+    "Uproar",
+    "Work Up",
+    "Zen Headbutt"
+  ],
+  "HM": []
 }

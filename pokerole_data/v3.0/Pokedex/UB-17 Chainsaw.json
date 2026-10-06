@@ -141,5 +141,46 @@
       "Learned": "Ace",
       "Name": "Close Combat"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Aerial Ace",
+    "Agility",
+    "Brick Break",
+    "Bug Bite",
+    "Bug Buzz",
+    "Dig",
+    "Double-Edge",
+    "Drill Run",
+    "Earthquake",
+    "Endure",
+    "Facade",
+    "False Swipe",
+    "Flash Cannon",
+    "Giga Impact",
+    "Head Charge",
+    "Iron Head",
+    "Metal Claw",
+    "Protect",
+    "Reversal",
+    "Rock Blast",
+    "Rock Slide",
+    "Rock Tomb",
+    "Sandstorm",
+    "Skitter Smack",
+    "Steel Beam",
+    "Stomping Tantrum",
+    "Take Down",
+    "Tera Blast",
+    "Thief",
+    "Trailblaze",
+    "U-Turn",
+    "Vacuum Wave"
+  ],
+  "HM": [
+    "Cut",
+    "Rock Climb",
+    "Rock Smash",
+    "Strength"
   ]
 }

@@ -141,5 +141,43 @@
       "Learned": "Ace",
       "Name": "Stalacbite"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Amnesia",
+    "Aqua Surge",
+    "Body Slam",
+    "Breaking Swipe",
+    "Brick Break",
+    "Bubble Beam",
+    "Bulk Up",
+    "Bulldoze",
+    "Double-Edge",
+    "Foul Play",
+    "Gunk Shot",
+    "Ice Fang",
+    "Lash Out",
+    "Low Sweep",
+    "Mud Shot",
+    "Mud Sport",
+    "Protect",
+    "Rest",
+    "Scald",
+    "Skitter Smack",
+    "Sleep Talk",
+    "Sludge Bomb",
+    "Smack Down",
+    "Snarl",
+    "Superpower",
+    "Swords Dance",
+    "Take Down",
+    "Taunt",
+    "Tera Blast",
+    "Thunder Fang",
+    "Work Up"
+  ],
+  "HM": [
+    "Rock Smash",
+    "Strength"
   ]
 }

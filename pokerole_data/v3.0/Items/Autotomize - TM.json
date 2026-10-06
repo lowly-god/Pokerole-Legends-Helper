@@ -1,0 +1,14 @@
+{
+  "Name": "Autotomize - TM",
+  "_id": "autotomize-tm",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A multi-use TM that can teach Autotomize to multiple Pokémon",
+  "Rank": "Advanced",
+  "OneUse": false,
+  "TrainerPrice": "15000",
+  "Cures": "",
+  "Image": ""
+}

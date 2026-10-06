@@ -141,5 +141,47 @@
       "Learned": "Ace",
       "Name": "Retaliate"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Aerial Ace",
+    "Air Slash",
+    "Attract",
+    "Baton Pass",
+    "Body Slam",
+    "Brick Break",
+    "Dark Pulse",
+    "Double-Edge",
+    "Dragon Slayer",
+    "Embody Element",
+    "Encore",
+    "Facade",
+    "Flash Cannon",
+    "Fling",
+    "Focus Energy",
+    "Frustration",
+    "Heavy Slam",
+    "Helping Hand",
+    "Hyper Beam",
+    "Iron Head",
+    "Lash Out",
+    "Low Kick",
+    "Protect",
+    "Return",
+    "Reversal",
+    "Scary Face",
+    "Shadow Claw",
+    "Superpower",
+    "Swagger",
+    "Take Down",
+    "Taunt",
+    "Tera Blast",
+    "Throat Chop",
+    "Zen Headbutt"
+  ],
+  "HM": [
+    "Cut",
+    "Rock Smash",
+    "Strength"
   ]
 }

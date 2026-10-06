@@ -141,5 +141,45 @@
       "Learned": "Advanced",
       "Name": "Embody Element"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Air Cutter",
+    "Air Slash",
+    "Calm Mind",
+    "Charm",
+    "Dark Pulse",
+    "Dazzling Gleam",
+    "Endure",
+    "Giga Impact",
+    "Hurricane",
+    "Hyper Beam",
+    "Icy Wind",
+    "Jet Strike",
+    "Lash Out",
+    "Light Screen",
+    "Misty Terrain",
+    "Nasty Plot",
+    "Protect",
+    "Psych Up",
+    "Rain Dance",
+    "Rest",
+    "Round",
+    "Shadow Ball",
+    "Sleep Talk",
+    "Sunny Day",
+    "Swift",
+    "Swords Dance",
+    "Take Down",
+    "Taunt",
+    "Tera Blast",
+    "Thief",
+    "Toxic",
+    "U-Turn"
+  ],
+  "HM": [
+    "Cut",
+    "Defog",
+    "Fly"
   ]
 }

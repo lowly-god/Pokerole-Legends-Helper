@@ -153,5 +153,37 @@
       "Learned": "Standard",
       "Name": "Parasitize"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Ally Switch",
+    "Attract",
+    "Beat Up",
+    "Blizzard",
+    "Explosion",
+    "Gastro Acid",
+    "Icy Wind",
+    "Light Screen",
+    "Nature Power",
+    "Poison Jab",
+    "Protect",
+    "Psychic Noise",
+    "Reflect",
+    "Scary Face",
+    "Self Destruct",
+    "Shadow Ball",
+    "Signal Beam",
+    "Sludge Bomb",
+    "Snowscape",
+    "Snowy Terrain",
+    "Substitute",
+    "Take Down",
+    "Taunt",
+    "Tera Blast",
+    "Toxic Spikes",
+    "Venom Drench",
+    "Weather Ball",
+    "Zen Headbutt"
+  ],
+  "HM": []
 }

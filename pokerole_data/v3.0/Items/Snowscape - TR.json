@@ -1,0 +1,14 @@
+{
+  "Name": "Snowscape - TR",
+  "_id": "snowscape-tr",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "TechnicalMachine",
+  "Category": "Technical Machines",
+  "Description": "A single use TR that can teach Snowscape to one Pokémon",
+  "Rank": "Advanced",
+  "OneUse": true,
+  "TrainerPrice": "5500",
+  "Cures": "",
+  "Image": ""
+}

@@ -41,5 +41,8 @@
       "Learned": "Starter",
       "Name": "Transform"
     }
-  ]
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [],
+  "HM": []
 }

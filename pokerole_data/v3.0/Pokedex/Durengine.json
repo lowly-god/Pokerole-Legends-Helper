@@ -156,5 +156,37 @@
       "Learned": "Ace",
       "Name": "Swords Dance"
     }
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Amnesia",
+    "Attract",
+    "Baton Pass",
+    "Body Slam",
+    "Endure",
+    "Energy Ball",
+    "Facade",
+    "Flash Cannon",
+    "Focus Energy",
+    "Giga Impact",
+    "Iron Tail",
+    "Protect",
+    "Retaliate",
+    "Rock Slide",
+    "Rock Tomb",
+    "Sandstorm",
+    "Scorching Sands",
+    "Shadow Claw",
+    "Shield Bash",
+    "Signal Beam",
+    "Skitter Smack",
+    "Steel Beam",
+    "Stomping Tantrum",
+    "Thunder Wave"
+  ],
+  "HM": [
+    "Cut",
+    "Rock Smash",
+    "Strength"
   ]
 }

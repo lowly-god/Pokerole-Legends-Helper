@@ -135,6 +135,44 @@
     }
   ],
   "HM": [
-    "Magma Drift"
+    "Cut",
+    "Defog",
+    "Flash",
+    "Fly",
+    "Rock Smash",
+    "Strength"
+  ],
+  "AuthoritativeMachinePools": true,
+  "TMTRTutor": [
+    "Aerial Ace",
+    "Air Cutter",
+    "Amnesia",
+    "Blast Burn",
+    "Body Slam",
+    "Breaking Swipe",
+    "Calm Mind",
+    "Cleansing Fire",
+    "Double-Edge",
+    "Dragon Cheer",
+    "Dragon Claw",
+    "Dragon Dance",
+    "Dragon Tail",
+    "Dual Wingbeat",
+    "Earth Power",
+    "Fire Blast",
+    "Firewall",
+    "Flash Cannon",
+    "Focus Blast",
+    "Heat Crash",
+    "Heat Wave",
+    "Hyper Beam",
+    "Iron Defense",
+    "Iron Head",
+    "Iron Tail",
+    "Outrage",
+    "Protect",
+    "Swift",
+    "Tera Blast",
+    "Uproar"
   ]
 }
