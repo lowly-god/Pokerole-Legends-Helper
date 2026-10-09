@@ -313,7 +313,6 @@ class Foraging(commands.Cog):
         self.tool_lookup = {}
         self.shop_lookup = {}
         self.vehicle_module_lookup = {}
-        self.apricorn_details = {}
         self._load_detail_sources()
 
     def _load_detail_sources(self):
@@ -385,22 +384,6 @@ class Foraging(commands.Cog):
                     if name:
                         self.shop_lookup.setdefault(normalize(name), (name, entry, shop_name))
 
-        # Apricorns are real crafting resources but intentionally do not have /item records.
-        try:
-            crafting = json.loads((BASE_DIR / "crafting_reference_data.json").read_text(encoding="utf-8"))
-            text = crafting.get("craftingpokeballs", "")
-            for color in ["Red", "Blue", "Cyan", "Pink", "Green", "White", "Gray", "Black"]:
-                name = f"{color} Apricorn"
-                match = re.search(
-                    rf"^{re.escape(name)}:\n(.*?)(?=\n\n[A-Z][^\n]+:|\n\nHow to craft them:|$)",
-                    text,
-                    flags=re.M | re.S,
-                )
-                if match:
-                    self.apricorn_details[normalize(name)] = (name, match.group(1).strip())
-        except Exception:
-            pass
-
     def detail_target(self, result_name: str):
         name = (result_name or "").strip()
         key = normalize(name)
@@ -442,10 +425,6 @@ class Foraging(commands.Cog):
         tool = self.tool_lookup.get(key)
         if tool:
             return {"kind": "tool", "name": tool[0], "data": tool[1], "record_type": tool[2], "label": name}
-
-        apricorn = self.apricorn_details.get(key)
-        if apricorn:
-            return {"kind": "apricorn", "name": apricorn[0], "data": apricorn[1], "label": apricorn[0]}
 
         vehicle_module = self.vehicle_module_lookup.get(key)
         if vehicle_module:
@@ -544,10 +523,6 @@ class Foraging(commands.Cog):
             if data.get("Traits"):
                 embed.add_field(name="Traits", value=data["Traits"], inline=False)
             await interaction.response.send_message(embed=embed)
-            return
-
-        if kind == "apricorn":
-            await interaction.response.send_message(f"__{target['name']}__\n{target['data']}")
             return
 
         if kind == "vehicle_module":

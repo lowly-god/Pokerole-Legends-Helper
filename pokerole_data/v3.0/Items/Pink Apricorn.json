@@ -1,0 +1,13 @@
+{
+  "Name": "Pink Apricorn",
+  "_id": "pink-apricorn",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Crafting Materials",
+  "Category": "Crafting Materials",
+  "Description": "A pink Apricorn used in Poké Ball crafting. It can be turned into a Love Ball (DC 3), Heal Ball (DC 3), or Fae Ball (DC 3).",
+  "OneUse": false,
+  "Cures": "",
+  "Image": "",
+  "TrainerPrice": "350"
+}

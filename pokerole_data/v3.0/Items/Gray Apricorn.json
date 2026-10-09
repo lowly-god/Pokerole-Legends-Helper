@@ -1,0 +1,13 @@
+{
+  "Name": "Gray Apricorn",
+  "_id": "gray-apricorn",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "Crafting Materials",
+  "Category": "Crafting Materials",
+  "Description": "A gray Apricorn used in Poké Ball crafting. It can be turned into a Moon Ball (DC 3), Tech Ball (DC 3), or Heavy Ball (DC 4).",
+  "OneUse": false,
+  "Cures": "",
+  "Image": "",
+  "TrainerPrice": "500"
+}

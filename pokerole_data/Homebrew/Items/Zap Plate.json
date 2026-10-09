@@ -1,12 +1,13 @@
 {
-    "Name": "Zap Plate",
-    "_id": "zap-plate",
-    "Source": "Homebrew",
-    "Author": "Hexa#6969",
-    "PMD": false,
-    "Pocket": "HeldItems",
-    "Category": "TypeBoosting",
-    "Description": "Adds 1 damage dice to Electric type moves. When held by Arceus, change it's type to Electric.",
-    "OneUse": false,
-    "TrainerPrice": ""
+  "Name": "Zap Plate",
+  "_id": "zap-plate",
+  "Source": "Legends Rules Expansion",
+  "PMD": false,
+  "Pocket": "General Items",
+  "Category": "General Items",
+  "Description": "The Holder's Damaging Electric-Type Moves gain +1 Damage Dice. When held by Arceus, change it's type to Electric.",
+  "OneUse": false,
+  "TrainerPrice": "2500",
+  "Cures": "",
+  "Image": ""
 }
