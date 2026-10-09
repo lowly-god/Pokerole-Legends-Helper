@@ -7,10 +7,12 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Roll 2 Chance Dice to Paralyze the Target. Roll 2 Chance Dice to inflict Burn (1) on the Target. Roll 2 Chance Dice to inflict Frostbite (1) on the Target.",
+  "Effect": "Bite Move. Roll 2 Chance Dice to Paralyze the Target. Roll 2 Chance Dice to inflict Burn (1) on the Target. Roll 2 Chance Dice to inflict Frostbite (1) on the Target.",
   "Description": "The User bites into the Target with its ancient draconic energy. The primordial forces of fire, ice and electricity permeates the attack.",
   "_id": "draco-jaw",
-  "Attributes": {},
+  "Attributes": {
+    "BiteMove": true
+  },
   "AddedEffects": {},
   "Category": "Physical"
 }

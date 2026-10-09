@@ -7,10 +7,12 @@
   "Accuracy1": "Strength",
   "Accuracy2": "Brawl",
   "Target": "Foe",
-  "Effect": "Roll 3 Chance Dice to Flinch the Target.",
+  "Effect": "Bite Move. Roll 3 Chance Dice to Flinch the Target.",
   "Description": "The User bites down on the Target with water-infused fangs.",
   "_id": "aqua-fang",
-  "Attributes": {},
+  "Attributes": {
+    "BiteMove": true
+  },
   "AddedEffects": {},
   "Category": "Physical"
 }
