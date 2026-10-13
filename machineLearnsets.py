@@ -936,134 +936,76 @@ def _official_can_learn_machine_move(species_id, move_id, method, data):
 
 
 def get_teachable_pokemon(move_name, method):
-    """Return current Pokédex names compatible with a machine item.
+    """Return all current Pokédex species that can learn this move.
 
-    The lookup is intentionally dynamic: every click rereads current Pokédex
-    records and merges explicit authored lists with official compatibility.
+    Teachable To for TM, TR and HM items is a *move-wide* learner list, not
+    just the compatibility pool for that particular kind of machine. Include
+    natural/rank-up/other authored Moves; curated combined TM/TR/Tutor and HM
+    pools; explicit acquisition lists; and official TM/TR/Tutor/HM sources.
 
-    Legends Rules Expansion TM/TR items use the combined TM / TR / Tutor pool
-    shown on a Pokémon's statblock. This makes the matching TM and TR versions
-    of one expansion move teachable to the same Pokémon.
+    All results are deduplicated after the existing form display rules are
+    applied, then sorted alphabetically. A machine-only denylist does not
+    prevent Pokémon who actually learn a move by rank-up from appearing.
     """
     target_id = _to_id(move_name)
-    method = str(method).casefold()
     data = _get_data()
-    learners = []
+    learners = set()
 
     pokedex_dir = Path("pokerole_data") / "v3.0" / "Pokedex"
     if not pokedex_dir.is_dir():
-        return learners
+        return []
 
-    expansion_machine = (
-        method in {"tm", "tr"}
-        and target_id in LEGENDS_EXPANSION_MACHINE_MOVE_IDS
-    )
-
-    machine_labels = {
-        alias
-        for aliases in _EXPLICIT_MACHINE_KEY_ALIASES.values()
-        for alias in aliases
-    }
+    methods = ("tm", "tr", "tutor", "hm")
 
     for path in pokedex_dir.glob("*.json"):
         try:
             record = json.loads(path.read_text(encoding="utf-8"))
-        except Exception:
+        except (OSError, ValueError):
             continue
 
-        pokemon_name = record.get("Name")
+        pokemon_name = str(record.get("Name", "")).strip()
         if not pokemon_name:
             continue
 
-        if _machine_move_is_denied(pokemon_name, target_id):
-            continue
+        # Every move recorded on a Pokémon, regardless of its Learned label
+        # (Starter, Rookie, Advanced, Egg, etc.), counts as a valid learner.
+        knows_move = any(
+            _to_id(entry.get("Name") or entry.get("Move")) == target_id
+            for entry in record.get("Moves", [])
+            if isinstance(entry, dict) and (entry.get("Name") or entry.get("Move"))
+        )
 
-        if expansion_machine:
-            # Curated campaign records already define one authoritative
-            # TM/TR/Tutor pool. TM and TR item variants both use that pool.
+        machine_compatible = False
+        if not _machine_move_is_denied(pokemon_name, target_id):
             authoritative = _authoritative_machine_pool_ids(record, "tm")
             if authoritative is not None:
-                compatible_ids = set(authoritative)
-
-                # Match statblock behavior: natural Rank Up moves are not
-                # repeated in the teachable pool, while HMs stay separate.
-                rank_up_ids = set()
-                for entry in record.get("Moves", []):
-                    if not isinstance(entry, dict):
-                        continue
-                    name = entry.get("Name") or entry.get("Move")
-                    if name:
-                        rank_up_ids.add(_to_id(name))
-
-                compatible_ids.difference_update(rank_up_ids)
-                compatible_ids.difference_update(ALL_HM_MOVE_IDS)
-
-                if target_id in compatible_ids:
-                    learners.append(str(pokemon_name))
-                continue
-
-            # Uncurated Pokémon use the same combined pool that their statblock
-            # displays: any current TM, TR, or Tutor compatibility qualifies.
-            compatible = any(
-                target_id in _explicit_machine_move_ids(record, source)
-                for source in ("tm", "tr", "tutor")
-            )
-
-            if not compatible:
-                species_id = _resolve_species_id(pokemon_name, data)
-                if species_id:
-                    compatible = any(
-                        _official_can_learn_machine_move(
-                            species_id, target_id, source, data
+                # AuthoritativeMachinePools means official machine learnsets
+                # must NOT be merged for this custom Pokémon.
+                machine_compatible = (
+                    target_id in authoritative
+                    or target_id in (_authoritative_machine_pool_ids(record, "hm") or set())
+                )
+            else:
+                machine_compatible = any(
+                    target_id in _explicit_machine_move_ids(record, source)
+                    for source in methods
+                )
+                if not machine_compatible:
+                    species_id = _resolve_species_id(pokemon_name, data)
+                    if species_id:
+                        machine_compatible = any(
+                            _official_can_learn_machine_move(
+                                species_id, target_id, source, data
+                            )
+                            for source in methods
                         )
-                        for source in ("tm", "tr", "tutor")
-                    )
 
-            if compatible:
-                # Apply the same no-rank-up-duplication rule used by
-                # get_machine_moves for TM/TR/Tutor pools.
-                rank_up_ids = set()
-                for entry in record.get("Moves", []):
-                    if not isinstance(entry, dict):
-                        continue
-                    learned = _normalise_field_key(entry.get("Learned", ""))
-                    name = entry.get("Name") or entry.get("Move")
-                    if name and learned not in machine_labels:
-                        rank_up_ids.add(_to_id(name))
+        if knows_move or machine_compatible:
+            display = _teachable_display_name(pokemon_name)
+            if display:
+                learners.add(display)
 
-                if (
-                    target_id not in rank_up_ids
-                    and target_id not in ALL_HM_MOVE_IDS
-                ):
-                    learners.append(str(pokemon_name))
-            continue
-
-        authoritative = _authoritative_machine_pool_ids(record, method)
-        if authoritative is not None:
-            if target_id in authoritative:
-                # Curated TM/TR/Tutor pools are one combined compatibility
-                # pool, while HM remains exact and separate.
-                learners.append(str(pokemon_name))
-            continue
-
-        explicit = _explicit_machine_move_ids(record, method)
-        if target_id in explicit:
-            learners.append(str(pokemon_name))
-            continue
-
-        species_id = _resolve_species_id(pokemon_name, data)
-        if species_id and _official_can_learn_machine_move(
-            species_id, target_id, method, data
-        ):
-            learners.append(str(pokemon_name))
-
-    display_learners = []
-    for learner in learners:
-        display = _teachable_display_name(learner)
-        if display:
-            display_learners.append(display)
-
-    return sorted(dict.fromkeys(display_learners), key=str.casefold)
+    return sorted(learners, key=str.casefold)
 
 
 def get_move_type(move_name):

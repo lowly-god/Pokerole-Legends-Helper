@@ -7,7 +7,7 @@
   "Accuracy1": "Dexterity / Special",
   "Accuracy2": "Perform",
   "Target": "All Foes",
-  "Effect": "Sound Move. In desert locations or If Sandstorm Weather is in effect: This Move gains +2 additional Damage Dice and Ground Sub-Typing.",
+  "Effect": "Sound Move. In the Desert Field-Type or If Sandstorm Weather is in effect: This Move gains +2 additional Damage Dice and Ground Sub-Typing.",
   "Description": "The User creates a strange melody with the beating of its wings, whipping up the desert sands.",
   "_id": "sandstorm-serenade",
   "Attributes": {},

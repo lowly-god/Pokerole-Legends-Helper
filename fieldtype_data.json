@@ -11,7 +11,7 @@
           "The Ability Mimicry changes the User’s Type to Typeless."
         ],
         "Moves Affected": [
-          "The Moves Entomb, Mud Shot, Mud Slap, Mud Bomb, Sand Tomb, Fire Spin and Muddy Water gain +1 Damage Dice.",
+          "The Moves Entomb, Mud Shot, Mud-Slap, Mud Bomb, Sand Tomb, Fire Spin and Muddy Water gain +1 Damage Dice.",
           "The Move Camouflage change the User’s Type to Typeless.",
           "The Move Nature Power becomes Earth Power.",
           "The Move Secret Power becomes Flame Charge.",
@@ -605,7 +605,7 @@
           "The Move Nature Power becomes Scrap Metal",
           "The Move Secret Power becomes Gear Grind.",
           "The Moves Terrain Pulse and Embody Element become Steel-Type.",
-          "The Moves Techno Blast, Explosion, Self Destruct and Steam Roller gain +1 Damage Dice.",
+          "The Moves Techno Blast, Explosion, Self-Destruct and Steam Roller gain +1 Damage Dice.",
           "The Move Gigaton Hammer does not fail to activate, if used the previous Round.",
           "The Moves Metal Sound, Iron Defense, Swords Dance, Gear Up and Autotomize have their effects increased by +1.",
           "The Move Gear Grind does not suffer from lowered Accuracy.",
@@ -982,7 +982,7 @@
           "Nature Power becomes Muddy Water.",
           "The Move Secret Power becomes Snap Trap.",
           "The Moves Terrain Pulse and Embody Element become Ground-Type.",
-          "The Moves Muddy Water, Mud Shot, Mud Slap, Mud Bomb, have no reduced Accuracy and gain +1 Damage Dice."
+          "The Moves Muddy Water, Mud Shot, Mud-Slap, Mud Bomb, have no reduced Accuracy and gain +1 Damage Dice."
         ],
         "Changing The Field-Type": [
           "After 2 uses the Moves Pollution, Sludge Bomb, Sludge Wave and Acid Downpour change the Field-Type to Murkwater.",

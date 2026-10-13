@@ -575,7 +575,7 @@ Mountain Gale$100
 Mourning Mist$100
 Mud Bomb$100
 Mud Shot$100
-Mud Slap$100
+Mud-Slap$100
 Mud Sport$100
 Muddy Water$100
 Multi-Attack$100
@@ -755,7 +755,7 @@ Secret Sword$100
 Seed Bomb$100
 Seed Flare$100
 Seismic Toss$100
-Self Destruct$100
+Self-Destruct$100
 Shadow Ball$100
 Shadow Blast$100
 Shadow Blitz$100

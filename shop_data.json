@@ -9617,15 +9617,15 @@
           "category": "Ground"
         },
         {
-          "name": "Mud Slap - TR",
-          "price": "3500",
-          "effect": "A single use TR that can teach Mud Slap to one Pokémon",
+          "name": "Mud-Slap - TR",
+          "price": "2500",
+          "effect": "A single use TR that can teach Mud-Slap to one Pokémon",
           "category": "Ground"
         },
         {
-          "name": "Mud Slap - TM",
-          "price": "10500",
-          "effect": "A multi-use TM that can teach Mud Slap to multiple Pokémon",
+          "name": "Mud-Slap - TM",
+          "price": "7500",
+          "effect": "A multi-use TM that can teach Mud-Slap to multiple Pokémon",
           "category": "Ground"
         },
         {
@@ -9785,15 +9785,15 @@
           "category": "Rock"
         },
         {
-          "name": "Self Destruct - TR",
-          "price": "5500",
-          "effect": "A single use TR that can teach Self Destruct to one Pokémon",
+          "name": "Self-Destruct - TR",
+          "price": "4500",
+          "effect": "A single use TR that can teach Self-Destruct to one Pokémon",
           "category": "Normal"
         },
         {
-          "name": "Self Destruct - TM",
-          "price": "16500",
-          "effect": "A multi-use TM that can teach Self Destruct to multiple Pokémon",
+          "name": "Self-Destruct - TM",
+          "price": "13500",
+          "effect": "A multi-use TM that can teach Self-Destruct to multiple Pokémon",
           "category": "Normal"
         },
         {
