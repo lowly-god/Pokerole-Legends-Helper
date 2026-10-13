@@ -1,157 +1,160 @@
 {
-    "Number": 643,
-    "DexID": "0643",
-    "Name": "Reshiram",
-    "Type1": "Dragon",
-    "Type2": "Fire",
-    "BaseHP": 6,
-    "Strength": 3,
-    "MaxStrength": 7,
-    "Dexterity": 2,
-    "MaxDexterity": 5,
-    "Vitality": 3,
-    "MaxVitality": 6,
-    "Special": 4,
-    "MaxSpecial": 8,
-    "Insight": 3,
-    "MaxInsight": 7,
-    "Ability1": "Turboblaze",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Master",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "reshiram",
-    "DexCategory": "Pokédex has no data",
-    "Height": {
-        "Meters": 3.2,
-        "Feet": 10.5
+  "Number": 643,
+  "DexID": "0643",
+  "Name": "Reshiram",
+  "Type1": "Dragon",
+  "Type2": "Fire",
+  "BaseHP": 6,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 4,
+  "MaxSpecial": 8,
+  "Insight": 3,
+  "MaxInsight": 7,
+  "Ability1": "Turboblaze",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "reshiram",
+  "DexCategory": "Pokédex has no data",
+  "Height": {
+    "Meters": 3.2,
+    "Feet": 10.5
+  },
+  "Weight": {
+    "Kilograms": 330.0,
+    "Pounds": 727.0
+  },
+  "DexDescription": "An incredibly old scroll written in an ancient language tells about a world of truth built by a purifying fire. It also tells about a big dispute between two brothers. The rest of the scroll was burned...",
+  "Evolutions": [],
+  "Image": "reshiram.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Dragon Rage"
     },
-    "Weight": {
-        "Kilograms": 330.0,
-        "Pounds": 727.0
+    {
+      "Learned": "Starter",
+      "Name": "Dragon Breath"
     },
-    "DexDescription": "An incredibly old scroll written in an ancient language tells about a world of truth built by a purifying fire. It also tells about a big dispute between two brothers. The rest of the scroll was burned...",
-    "Evolutions": [],
-    "Image": "reshiram.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Dragon Rage"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Dragon Breath"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Noble Roar"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Ancient Power"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Cauterize"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Fire Fang"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Slash"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Crunch"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Extrasensory"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Flamethrower"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Reflect"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Roost"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Imperial Majesty"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Uncontrolled Burn Off"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Imprison"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Dragon Pulse"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Hyper Voice"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Fire Blast"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Lucky Chant"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Overheat"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Topsy-Turvy"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Outrage"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Velvet Scales"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Fusion Flare"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Scorching Sands"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Wish"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Fire Pledge"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Draco Meteor"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Blue Flare"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Noble Roar"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Cauterize"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Fire Fang"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Extrasensory"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Flamethrower"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Roost"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imperial Majesty"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Uncontrolled Burn Off"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imprison"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hyper Voice"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Fire Blast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lucky Chant"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Overheat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Topsy-Turvy"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fusion Flare"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Scorching Sands"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wish"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Fire Pledge"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Draco Meteor"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Blue Flare"
+    }
+  ],
+  "Tutor": [
+    "Vorpal Blade"
+  ]
 }

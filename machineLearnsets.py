@@ -705,6 +705,7 @@ _DISTINCT_TEACHABLE_FORMS = {
     "Noxial (Exothermic Form)",
     "Polteageist (Delta Form)",
     "Sharpedo (Hull-Biter Form)",
+    "Kyurem (Primal Form)",
     "Silvally (Improved RKS System Form)",
     "Spectrelec (Aerodactyl Form)",
     "Spectrelec (Kabutops Form)",

@@ -137,10 +137,6 @@
       "Name": "Close Combat"
     },
     {
-      "Learned": "Expert",
-      "Name": "Vorpal Blade"
-    },
-    {
       "Learned": "Standard",
       "Name": "Cauterize"
     },
@@ -156,5 +152,8 @@
       "Learned": "Expert",
       "Name": "Dragon Slayer"
     }
+  ],
+  "Tutor": [
+    "Vorpal Blade"
   ]
 }

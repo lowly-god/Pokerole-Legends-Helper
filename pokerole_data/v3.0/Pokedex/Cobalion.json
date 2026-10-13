@@ -1,133 +1,136 @@
 {
-    "Number": 638,
-    "DexID": "0638",
-    "Name": "Cobalion",
-    "Type1": "Steel",
-    "Type2": "Fighting",
-    "BaseHP": 5,
-    "Strength": 2,
-    "MaxStrength": 5,
-    "Dexterity": 3,
-    "MaxDexterity": 6,
-    "Vitality": 3,
-    "MaxVitality": 7,
-    "Special": 2,
-    "MaxSpecial": 5,
-    "Insight": 2,
-    "MaxInsight": 5,
-    "Ability1": "Justified",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Ace",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "cobalion",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 2.1,
-        "Feet": 7.0
+  "Number": 638,
+  "DexID": "0638",
+  "Name": "Cobalion",
+  "Type1": "Steel",
+  "Type2": "Fighting",
+  "BaseHP": 5,
+  "Strength": 2,
+  "MaxStrength": 5,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 3,
+  "MaxVitality": 7,
+  "Special": 2,
+  "MaxSpecial": 5,
+  "Insight": 2,
+  "MaxInsight": 5,
+  "Ability1": "Justified",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Ace",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "cobalion",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 2.1,
+    "Feet": 7.0
+  },
+  "Weight": {
+    "Kilograms": 250.0,
+    "Pounds": 551.0
+  },
+  "DexDescription": "There is a story in Unova about four Pokémon that brought justice to the wrongdoers. Their leader was calm and composed, but unforgiving. Its cold stare forced people to obey its sacred law.",
+  "Evolutions": [],
+  "Image": "cobalion.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Leer"
     },
-    "Weight": {
-        "Kilograms": 250.0,
-        "Pounds": 551.0
+    {
+      "Learned": "Starter",
+      "Name": "Quick Attack"
     },
-    "DexDescription": "There is a story in Unova about four Pokémon that brought justice to the wrongdoers. Their leader was calm and composed, but unforgiving. Its cold stare forced people to obey its sacred law.",
-    "Evolutions": [],
-    "Image": "cobalion.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Leer"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Quick Attack"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Helping Hand"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Work Up"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Metal Claw"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Double Kick"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Aerial Ace"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Take Down"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Quick Guard"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Retaliate"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Psych Up"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Zen Headbutt"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Flash Cannon"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Iron Defense"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Iron Head"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Laser Focus"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Metal Burst"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Swords Dance"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "X-Scissor"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Close Combat"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Sacred Sword"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Coaching"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Smart Strike"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Helping Hand"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Work Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Metal Claw"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Double Kick"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aerial Ace"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Take Down"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Quick Guard"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Retaliate"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psych Up"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Zen Headbutt"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Flash Cannon"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Defense"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Iron Head"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Laser Focus"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Metal Burst"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Swords Dance"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "X-Scissor"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Sacred Sword"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Coaching"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Smart Strike"
+    }
+  ],
+  "Tutor": [
+    "Vorpal Blade"
+  ]
 }

@@ -153,10 +153,6 @@
     },
     {
       "Learned": "Expert",
-      "Name": "Vorpal Blade"
-    },
-    {
-      "Learned": "Expert",
       "Name": "Harrowing Wrath"
     },
     {
@@ -186,5 +182,8 @@
   ],
   "HM": [
     "Cut"
+  ],
+  "Tutor": [
+    "Vorpal Blade"
   ]
 }

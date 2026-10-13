@@ -1,149 +1,152 @@
 {
-    "Number": 644,
-    "DexID": "0644",
-    "Name": "Zekrom",
-    "Type1": "Dragon",
-    "Type2": "Electric",
-    "BaseHP": 6,
-    "Strength": 4,
-    "MaxStrength": 8,
-    "Dexterity": 2,
-    "MaxDexterity": 5,
-    "Vitality": 3,
-    "MaxVitality": 7,
-    "Special": 3,
-    "MaxSpecial": 7,
-    "Insight": 3,
-    "MaxInsight": 6,
-    "Ability1": "Teravolt",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Master",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "zekrom",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 2.9,
-        "Feet": 9.5
+  "Number": 644,
+  "DexID": "0644",
+  "Name": "Zekrom",
+  "Type1": "Dragon",
+  "Type2": "Electric",
+  "BaseHP": 6,
+  "Strength": 4,
+  "MaxStrength": 8,
+  "Dexterity": 2,
+  "MaxDexterity": 5,
+  "Vitality": 3,
+  "MaxVitality": 7,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Teravolt",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "zekrom",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 2.9,
+    "Feet": 9.5
+  },
+  "Weight": {
+    "Kilograms": 345.0,
+    "Pounds": 760.0
+  },
+  "DexDescription": "An old engraved rock tablet tells the story of two brothers. One of them wanted a world of ideals built with the energy of the young. The stone tablet is broken as if struck by lightning.",
+  "Evolutions": [],
+  "Image": "zekrom.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Dragon Rage"
     },
-    "Weight": {
-        "Kilograms": 345.0,
-        "Pounds": 760.0
+    {
+      "Learned": "Starter",
+      "Name": "Dragon Breath"
     },
-    "DexDescription": "An old engraved rock tablet tells the story of two brothers. One of them wanted a world of ideals built with the energy of the young. The stone tablet is broken as if struck by lightning.",
-    "Evolutions": [],
-    "Image": "zekrom.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Dragon Rage"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Dragon Breath"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Noble Roar"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Ancient Power"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Thunder Fang"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Slash"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Crunch"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Zen Headbutt"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Thunderbolt"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Light Screen"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Roost"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Electric Terrain"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Imperial Majesty"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Imprison"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Dragon Pulse"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Hyper Voice"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Thunder"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Lucky Chant"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Topsy-Turvy"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Outrage"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Velvet Scales"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Magnet Rise"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Fusion Bolt"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Wish"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Rising Voltage"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Draco Meteor"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Bolt Strike"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Noble Roar"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Ancient Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thunder Fang"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Slash"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Crunch"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Zen Headbutt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Thunderbolt"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Roost"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Electric Terrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imperial Majesty"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Imprison"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Dragon Pulse"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Hyper Voice"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Thunder"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Lucky Chant"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Topsy-Turvy"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Velvet Scales"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Magnet Rise"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Fusion Bolt"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Wish"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Rising Voltage"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Draco Meteor"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Bolt Strike"
+    }
+  ],
+  "Tutor": [
+    "Vorpal Blade"
+  ]
 }

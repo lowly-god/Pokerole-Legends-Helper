@@ -172,10 +172,6 @@
       "Name": "Heart Breaker"
     },
     {
-      "Learned": "Expert",
-      "Name": "Vorpal Blade"
-    },
-    {
       "Learned": "Advanced",
       "Name": "Aura Strike"
     },
@@ -202,5 +198,8 @@
   ],
   "HM": [
     "Teleport"
+  ],
+  "Tutor": [
+    "Vorpal Blade"
   ]
 }

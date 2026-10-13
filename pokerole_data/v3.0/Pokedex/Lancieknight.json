@@ -152,10 +152,6 @@
     {
       "Learned": "Ace",
       "Name": "Retaliate"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Vorpal Blade"
     }
   ],
   "AuthoritativeMachinePools": true,
@@ -199,6 +195,7 @@
     "Tera Blast",
     "Throat Chop",
     "Thunder Wave",
+    "Vorpal Blade",
     "Zen Headbutt"
   ],
   "HM": [

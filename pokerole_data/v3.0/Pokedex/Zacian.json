@@ -120,10 +120,9 @@
     {
       "Learned": "Ace",
       "Name": "Solar Blade"
-    },
-    {
-      "Learned": "Ace",
-      "Name": "Vorpal Blade"
     }
+  ],
+  "Tutor": [
+    "Vorpal Blade"
   ]
 }

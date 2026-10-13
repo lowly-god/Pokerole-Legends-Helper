@@ -148,10 +148,6 @@
     },
     {
       "Learned": "Expert",
-      "Name": "Vorpal Blade"
-    },
-    {
-      "Learned": "Expert",
       "Name": "Dragon Slayer"
     }
   ],
@@ -188,6 +184,7 @@
     "Substitute",
     "Tera Blast",
     "Uproar",
+    "Vorpal Blade",
     "Work Up"
   ],
   "HM": [

@@ -133,10 +133,6 @@
       "Name": "Discombobulate"
     },
     {
-      "Learned": "Expert",
-      "Name": "Vorpal Blade"
-    },
-    {
       "Learned": "Advanced",
       "Name": "Embody Element"
     }
@@ -188,7 +184,8 @@
     "Taunt",
     "Tera Blast",
     "Trailblaze",
-    "Uproar"
+    "Uproar",
+    "Vorpal Blade"
   ],
   "HM": [
     "Cut"

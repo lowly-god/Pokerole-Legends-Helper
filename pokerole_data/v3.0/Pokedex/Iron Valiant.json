@@ -134,10 +134,6 @@
       "Name": "Fisticuffs"
     },
     {
-      "Learned": "Expert",
-      "Name": "Vorpal Blade"
-    },
-    {
       "Learned": "Advanced",
       "Name": "Aura Strike"
     },
@@ -165,5 +161,8 @@
       "Learned": "Advanced",
       "Name": "Iron Edge"
     }
+  ],
+  "Tutor": [
+    "Vorpal Blade"
   ]
 }

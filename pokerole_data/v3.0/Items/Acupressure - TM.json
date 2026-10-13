@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
-  "Description": "A multi-use TM that can teach Acupressure to multiple Pokémon",
+  "Description": "A multi-use TM that can teach Acupressure to multiple Pokémon\nEffect: Increase by 1 one of the User's Attributes or Traits at Random (Strength, Dexterity, Special, Defense, Sp. Defense, Accuracy, Evasion).",
   "Rank": "Standard",
   "OneUse": false,
   "TrainerPrice": "10500",

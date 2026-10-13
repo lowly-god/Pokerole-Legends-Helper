@@ -1,0 +1,22 @@
+Pokebot70 -> Vorpal Blade Tutor + Acupressure Update
+
+Install update-only bundle:
+- Open the ZIP and merge its paths into the existing Pokerole Legends Helper directory.
+- Overwrite existing files when prompted.
+- Preserve your existing .env file; this bundle never contains it.
+
+Changes:
+- Acupressure: revised move effect and matching TM/TR item descriptions.
+- Vorpal Blade added to tutor/combined machine learnsets for all 92 unique requested Pokémon.
+- All 10 prior rank-up users converted to tutor/combined machine access, even those outside the requested list.
+- Primal Kyurem listed as a distinct form by Teachable To; existing alphabetical deduplication retained.
+- Rebuilt pokerole_v3.db.
+
+Name corrections matched to existing records:
+  Improved RKS System Silvally -> Silvally (Improved RKS System Form)
+  Primal Kyurem -> Kyurem (Primal Form)
+  Rixurra -> Rixorra
+  Roserade (Islas Lluvia Des'estrallas Form) -> Roserade (Islas Lluvia De’estrellas Form)
+
+Teachable To for both Vorpal Blade TM and TR: 101 unique, alphabetical entries;
+this includes Leavanny, which was already compatible before this update.

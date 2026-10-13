@@ -1,141 +1,144 @@
 {
-    "Number": 716,
-    "DexID": "0716",
-    "Name": "Xerneas",
-    "Type1": "Fairy",
-    "Type2": "",
-    "BaseHP": 7,
-    "Strength": 3,
-    "MaxStrength": 7,
-    "Dexterity": 3,
-    "MaxDexterity": 6,
-    "Vitality": 3,
-    "MaxVitality": 6,
-    "Special": 3,
-    "MaxSpecial": 7,
-    "Insight": 3,
-    "MaxInsight": 6,
-    "Ability1": "Fairy Aura",
-    "Ability2": "",
-    "HiddenAbility": "",
-    "EventAbilities": "",
-    "RecommendedRank": "Master",
-    "GenderType": "N",
-    "Legendary": true,
-    "GoodStarter": false,
-    "_id": "xerneas",
-    "DexCategory": "Pokédex has no data.",
-    "Height": {
-        "Meters": 3.0,
-        "Feet": 9.8
+  "Number": 716,
+  "DexID": "0716",
+  "Name": "Xerneas",
+  "Type1": "Fairy",
+  "Type2": "",
+  "BaseHP": 7,
+  "Strength": 3,
+  "MaxStrength": 7,
+  "Dexterity": 3,
+  "MaxDexterity": 6,
+  "Vitality": 3,
+  "MaxVitality": 6,
+  "Special": 3,
+  "MaxSpecial": 7,
+  "Insight": 3,
+  "MaxInsight": 6,
+  "Ability1": "Fairy Aura",
+  "Ability2": "",
+  "HiddenAbility": "",
+  "EventAbilities": "",
+  "RecommendedRank": "Master",
+  "GenderType": "N",
+  "Legendary": true,
+  "GoodStarter": false,
+  "_id": "xerneas",
+  "DexCategory": "Pokédex has no data.",
+  "Height": {
+    "Meters": 3.0,
+    "Feet": 9.8
+  },
+  "Weight": {
+    "Kilograms": 215.0,
+    "Pounds": 474.0
+  },
+  "DexDescription": "A Kalos legend about the eternal struggle between life and death tells the story of an ancient king who tried to obtain eternal life and the power to make his departed loved ones live once again.",
+  "Evolutions": [],
+  "Image": "xerneas.png",
+  "Moves": [
+    {
+      "Learned": "Starter",
+      "Name": "Take Down"
     },
-    "Weight": {
-        "Kilograms": 215.0,
-        "Pounds": 474.0
+    {
+      "Learned": "Starter",
+      "Name": "Aurora Beam"
     },
-    "DexDescription": "A Kalos legend about the eternal struggle between life and death tells the story of an ancient king who tried to obtain eternal life and the power to make his departed loved ones live once again.",
-    "Evolutions": [],
-    "Image": "xerneas.png",
-    "Moves": [
-        {
-            "Learned": "Starter",
-            "Name": "Take Down"
-        },
-        {
-            "Learned": "Starter",
-            "Name": "Aurora Beam"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Ingrain"
-        },
-        {
-            "Learned": "Rookie",
-            "Name": "Light Screen"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Nature Power"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Aromatherapy"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Psych Up"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Horn Leech"
-        },
-        {
-            "Learned": "Standard",
-            "Name": "Misty Terrain"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Psyshock"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Reflect"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Uproot"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Gravity"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Night Slash"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Geomancy"
-        },
-        {
-            "Learned": "Advanced",
-            "Name": "Moonblast"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Heal Pulse"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Megahorn"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Close Combat"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Outrage"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Giga Impact"
-        },
-        {
-            "Learned": "Expert",
-            "Name": "Thunder"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Endeavor"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Terrain Pulse"
-        },
-        {
-            "Learned": "Ace",
-            "Name": "Misty Explosion"
-        }
-    ]
+    {
+      "Learned": "Rookie",
+      "Name": "Ingrain"
+    },
+    {
+      "Learned": "Rookie",
+      "Name": "Light Screen"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Nature Power"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Aromatherapy"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Psych Up"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Horn Leech"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Misty Terrain"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Psyshock"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Reflect"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Uproot"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Gravity"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Night Slash"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Geomancy"
+    },
+    {
+      "Learned": "Advanced",
+      "Name": "Moonblast"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Heal Pulse"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Megahorn"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Close Combat"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Outrage"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Giga Impact"
+    },
+    {
+      "Learned": "Expert",
+      "Name": "Thunder"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Endeavor"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Terrain Pulse"
+    },
+    {
+      "Learned": "Ace",
+      "Name": "Misty Explosion"
+    }
+  ],
+  "Tutor": [
+    "Vorpal Blade"
+  ]
 }

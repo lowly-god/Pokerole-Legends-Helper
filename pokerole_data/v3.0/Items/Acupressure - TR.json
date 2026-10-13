@@ -5,7 +5,7 @@
   "PMD": false,
   "Pocket": "TechnicalMachine",
   "Category": "Technical Machines",
-  "Description": "A single use TR that can teach Acupressure to one Pokémon",
+  "Description": "A single use TR that can teach Acupressure to one Pokémon\nEffect: Increase by 1 one of the User's Attributes or Traits at Random (Strength, Dexterity, Special, Defense, Sp. Defense, Accuracy, Evasion).",
   "Rank": "Standard",
   "OneUse": true,
   "TrainerPrice": "3500",

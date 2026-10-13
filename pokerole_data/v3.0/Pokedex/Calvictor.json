@@ -136,10 +136,6 @@
     {
       "Learned": "Ace",
       "Name": "Endure"
-    },
-    {
-      "Learned": "Expert",
-      "Name": "Vorpal Blade"
     }
   ],
   "HM": [
@@ -181,6 +177,7 @@
     "Superpower",
     "Tera Blast",
     "Throat Chop",
+    "Vorpal Blade",
     "X-Scissor",
     "Zen Headbutt"
   ]
