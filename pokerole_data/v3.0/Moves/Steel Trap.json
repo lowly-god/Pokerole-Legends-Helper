@@ -1,0 +1,30 @@
+{
+  "Name": "Steel Trap",
+  "Type": "Steel",
+  "Power": 2,
+  "Damage1": "Strength",
+  "Damage2": "",
+  "Accuracy1": "Strength",
+  "Accuracy2": "Brawl",
+  "Target": "Foe",
+  "Effect": "Bite Move. Roll 3 Chance Dice to reduce the Target's Dexterity by 2.",
+  "Description": "Mawile catches its foe in its steel jaws, clamping down to restrict their movement.",
+  "_id": "steel-trap",
+  "Attributes": {
+    "BiteMove": true,
+    "Unique": true
+  },
+  "AddedEffects": {
+    "StatChanges": [
+      {
+        "Stats": [
+          "Dexterity"
+        ],
+        "Stages": -2,
+        "ChanceDice": 3,
+        "Affects": "Targets"
+      }
+    ]
+  },
+  "Category": "Physical"
+}

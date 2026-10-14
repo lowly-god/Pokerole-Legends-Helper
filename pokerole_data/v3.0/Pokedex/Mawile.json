@@ -143,6 +143,10 @@
     {
       "Learned": "Advanced",
       "Name": "Stalacbite"
+    },
+    {
+      "Learned": "Standard",
+      "Name": "Steel Trap"
     }
   ],
   "Tutor": [

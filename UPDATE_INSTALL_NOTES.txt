@@ -1,0 +1,11 @@
+Pokebot71 — Steel Trap / Miasma / Toxin Tax update
+
+Merge files in this ZIP into your existing Pokerole Legends Helper folder.
+Overwrite existing files when prompted. Keep your existing .env; no tokens are packaged.
+
+Changes:
+- Steel Trap added as a unique, Physical Steel-type Bite Move (Strength + 2).
+- Mawile and Mega Mawile learn Steel Trap at Standard Rank.
+- Miasma Accuracy Dice: Dexterity / Special + Channel.
+- Toxin Tax ability text updated.
+- MoveDictionary and SQLite database refreshed.

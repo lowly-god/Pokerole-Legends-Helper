@@ -4,7 +4,7 @@
   "Power": 3,
   "Damage1": "Special",
   "Damage2": "",
-  "Accuracy1": "Dexterity",
+  "Accuracy1": "Dexterity / Special",
   "Accuracy2": "Channel",
   "Target": "Foe",
   "Effect": "Roll 3 Chance Dice to reduce the Target's Special Defense by 1.",

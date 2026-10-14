@@ -575,8 +575,8 @@ Mountain Gale$100
 Mourning Mist$100
 Mud Bomb$100
 Mud Shot$100
-Mud-Slap$100
 Mud Sport$100
+Mud-Slap$100
 Muddy Water$100
 Multi-Attack$100
 Mystical Fire$100
@@ -870,6 +870,7 @@ Steamroller$100
 Steel Beam$100
 Steel Carapace$100
 Steel Roller$100
+Steel Trap$100
 Steel Wing$100
 Steelthorn Swipe$100
 Sticky Web$100
