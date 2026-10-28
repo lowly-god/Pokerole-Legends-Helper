@@ -187,7 +187,8 @@ def _has_keyword_token(effect_text, keyword):
     wanted = keyword.casefold()
     for token in _effect_tokens(effect_text):
         folded = token.casefold()
-        if folded == wanted or folded.startswith(wanted + ' for '):
+        if (folded == wanted or folded.startswith(wanted + ' for ')
+                or (wanted == 'projectile move' and folded == 'projectile')):
             return True
     return False
 

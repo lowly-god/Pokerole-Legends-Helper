@@ -1,6 +1,6 @@
 {
-    "Name": "Blank Canvas",
-    "Effect": "This Pokémon can replace a Move with Sketch as an Action. Note: (Replaces the ability Own Tempo of Smeargle)",
-    "Description": "",
-    "_id": "blank-canvas"
+  "Name": "Blank Canvas",
+  "Effect": "This Pokémon can replace a Move with Sketch as an Action.",
+  "Description": "",
+  "_id": "blank-canvas"
 }

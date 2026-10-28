@@ -7,10 +7,14 @@
   "Accuracy1": "Cool",
   "Accuracy2": "Beauty / Channel",
   "Target": "Self",
-  "Effect": "Accuracy -3. Shield Move. Reaction 3. Reduce 3 Damage this Pokémon would receive from a Damaging Special Move. Roll Damage Dice of the same Type equal to any Damage prevented in this way to a random Ally of the Target.",
+  "Effect": "Accuracy -3. Shield Move. Reaction 3. Reduce 3 Damage this Pokémon would receive from a Damaging Special Attack. Roll Damage Dice equal to any Damage prevented in this manner, of the same Type the User received, against a random Foe.",
   "Description": "The User reflects Damage off of its polished form, back at the Foe's ally.",
   "_id": "mirror-shield",
-  "Attributes": {},
+  "Attributes": {
+    "AccuracyReduction": -3,
+    "ShieldMove": true,
+    "Reaction": "3"
+  },
   "AddedEffects": {},
   "Category": "Support"
 }

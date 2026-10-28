@@ -1,22 +1,22 @@
-Pokebot70 -> Vorpal Blade Tutor + Acupressure Update
+Pokérole Legends Helper — targeted updates
 
-Install update-only bundle:
-- Open the ZIP and merge its paths into the existing Pokerole Legends Helper directory.
-- Overwrite existing files when prompted.
-- Preserve your existing .env file; this bundle never contains it.
+Based on: Pokerole Legends Helper (2).zip
 
 Changes:
-- Acupressure: revised move effect and matching TM/TR item descriptions.
-- Vorpal Blade added to tutor/combined machine learnsets for all 92 unique requested Pokémon.
-- All 10 prior rank-up users converted to tutor/combined machine access, even those outside the requested list.
-- Primal Kyurem listed as a distinct form by Teachable To; existing alphabetical deduplication retained.
-- Rebuilt pokerole_v3.db.
+- Mightyena: Ability2 changed from Quick Feet to Strong Jaw.
+  Mega Mightyena's Frightening Aura remains unchanged.
+- Mirror Shield: updated exact requested Effect and set structured
+  AccuracyReduction -3, ShieldMove true, Reaction 3.
+- Pay Day: updated exact requested Effect with ₽ currency amounts,
+  added ProjectileMove attribute, and preserved Ranged flags.
+- Make It Rain: updated exact requested Effect with ₽ currency amounts.
+- Blank Canvas: updated Ability Effect exactly as requested, removing
+  the previous trailing 'Note' text.
+- /effect Projectile Move: now recognizes the exact 'Projectile.' tag
+  used in Pay Day as well as the standard 'Projectile Move.' tag.
+- Rebuilt pokerole_v3.db and verified records.
 
-Name corrections matched to existing records:
-  Improved RKS System Silvally -> Silvally (Improved RKS System Form)
-  Primal Kyurem -> Kyurem (Primal Form)
-  Rixurra -> Rixorra
-  Roserade (Islas Lluvia Des'estrallas Form) -> Roserade (Islas Lluvia De’estrellas Form)
-
-Teachable To for both Vorpal Blade TM and TR: 101 unique, alphabetical entries;
-this includes Leavanny, which was already compatible before this update.
+UPDATE-ONLY: Merge the ZIP contents into the root of your bot folder.
+FULL CLEAN: Replace the bot files with the contents of the top-level
+'Pokerole Legends Helper' folder, but KEEP your existing .env.
+The full ZIP deliberately excludes .env and .git files.
