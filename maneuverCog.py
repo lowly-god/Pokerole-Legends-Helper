@@ -21,7 +21,7 @@ def normalize(text: str) -> str:
 def maneuver_text(m, include_source=False):
     out = f"**{m['name']}**"
     if include_source:
-        out += f" — *{m['source']}*"
+        out += f" — *{m['source']}{' (Perk)' if m.get('source_kind') == 'Perk' else ''}*"
         if m.get("tier") and m.get("tier") != "Learned":
             out += f" ({m['tier']})"
     out += "\n"

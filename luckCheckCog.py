@@ -67,7 +67,7 @@ class LuckCheckCog(commands.Cog):
             outcome = "Success!"
         else:
             outcome = "Failure! You receive one Pain Penalty."
-        await interaction.response.send_message(f"🍀 **{calculation}**\n{outcome}")
+        await interaction.response.send_message(f"💀 **{calculation}**\n{outcome}")
 
 
 async def setup(bot):
