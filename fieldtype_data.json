@@ -1024,6 +1024,7 @@
         "General Effects": [
           "Non Water-Types and/or Pokémon not usually found in aquatic locations' Dexterity is halved. (Rounded down).",
           "Physical Moves used by non Water-Types and/or Pokémon not usually found in aquatic locations' have -1 Damage Dice.",
+          "Human Physical Maneuvers have -1 Accuracy and Damage Dice. (Certain Weapons may not be able to be used at all at the Storyteller's discretion).",
           "Damaging Ground-Type attacks gain the Water Sub-Type.",
           "Damaging Electric-Type attacks gain +1 Damage Dice and Target: Area.",
           "Fire-Type attacks fail to activate.",
@@ -1060,6 +1061,7 @@
         "General Effects": [
           "Non Water-Types and/or Pokémon not usually found in aquatic locations' Dexterity is halved. (Rounded down).",
           "Physical Moves used by non Water-Types and/or Pokémon not usually found in aquatic locations' have -1 Damage Dice.",
+          "Human Physical Maneuvers have -1 Accuracy and Damage Dice. (Certain Weapons may not be able to be used at all at the Storyteller's discretion).",
           "Damaging Ground-Type attacks gain the Water Sub-Type.",
           "Damaging Electric-Type attacks gain +1 Damage Dice and Target: Area.",
           "Damaging Dark-Type, Ghost-Type and Shadow-Type attacks gain +1 Damage Dice.",

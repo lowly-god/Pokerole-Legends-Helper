@@ -800,6 +800,62 @@
       ]
     },
     {
+      "name": "Harpoons and Tridents",
+      "aliases": [
+        "harpoon",
+        "harpoons",
+        "trident",
+        "tridents",
+        "harpoons and tridents"
+      ],
+      "kind": "Weapon Category",
+      "details": "Harpoons, Tridents and other similar Weapons have no penalties when used underwater.\nTraits: Characters wielding a Weapon of this type may make Non-Ranged Physical attacks without suffering effects that would normally hinder Non-Ranged Physical attacks while underwater. Characters wielding them gain access to two basic Maneuvers.",
+      "maneuvers": [
+        {
+          "name": "Piercing Thrust",
+          "description": "The User jabs at the Foe from a distance.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "Dexterity + Weapons",
+          "effect": "Lethal.",
+          "notes": "",
+          "source": "Harpoons and Tridents",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Impale",
+          "description": "The User keeps the Foe in combat, not letting them escape.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "Dexterity + Weapons",
+          "effect": "Blocks.",
+          "notes": "",
+          "source": "Harpoons and Tridents",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Impaling Throw",
+          "description": "The User launches their Weapon at the Foe, hoping to impale them.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "Dexterity + Athletic",
+          "effect": "Ranged. Projectile Maneuver. High Critical.",
+          "notes": "",
+          "source": "Harpoons and Tridents",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        }
+      ]
+    },
+    {
       "name": "Improvised Weapons",
       "aliases": [
         "improvised weapon",
@@ -3031,6 +3087,28 @@
       ]
     },
     {
+      "name": "Impale",
+      "aliases": [
+        "Impale"
+      ],
+      "variants": [
+        {
+          "name": "Impale",
+          "description": "The User keeps the Foe in combat, not letting them escape.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "1",
+          "accuracy": "Dexterity + Weapons",
+          "effect": "Blocks.",
+          "notes": "",
+          "source": "Harpoons and Tridents",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        }
+      ]
+    },
+    {
       "name": "Impaling Throw",
       "aliases": [
         "Impaling Throw"
@@ -3047,6 +3125,20 @@
           "effect": "Ranged. Projectile Maneuver. High Critical.",
           "notes": "",
           "source": "Halberds, Spears and Polearms",
+          "source_kind": "Weapon",
+          "tier": "Advanced"
+        },
+        {
+          "name": "Impaling Throw",
+          "description": "The User launches their Weapon at the Foe, hoping to impale them.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "Dexterity + Athletic",
+          "effect": "Ranged. Projectile Maneuver. High Critical.",
+          "notes": "",
+          "source": "Harpoons and Tridents",
           "source_kind": "Weapon",
           "tier": "Advanced"
         }
@@ -3449,6 +3541,20 @@
           "effect": "Lethal. This Maneuver does not trigger effects that activate when the Target is hit by a Non-Ranged Physical attack.",
           "notes": "",
           "source": "Halberds, Spears and Polearms",
+          "source_kind": "Weapon",
+          "tier": "Basic"
+        },
+        {
+          "name": "Piercing Thrust",
+          "description": "The User jabs at the Foe from a distance.",
+          "type": "Typeless",
+          "category": "Physical",
+          "target": "Foe",
+          "power": "3",
+          "accuracy": "Dexterity + Weapons",
+          "effect": "Lethal.",
+          "notes": "",
+          "source": "Harpoons and Tridents",
           "source_kind": "Weapon",
           "tier": "Basic"
         }

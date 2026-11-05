@@ -822,6 +822,12 @@
           "category": "Weapons"
         },
         {
+          "name": "Harpoons / Tridents",
+          "price": "5000",
+          "effect": "",
+          "category": "Weapons"
+        },
+        {
           "name": "Hand Axe",
           "price": "5000",
           "effect": "",
@@ -1144,6 +1150,12 @@
         },
         {
           "name": "Halberds / Spears / Polearms",
+          "price": "5000",
+          "effect": "",
+          "category": "Weapons"
+        },
+        {
+          "name": "Harpoons / Tridents",
           "price": "5000",
           "effect": "",
           "category": "Weapons"
