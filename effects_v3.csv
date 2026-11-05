@@ -1,4 +1,4 @@
-Accuracy +/-X,Accuracy -X removes X successes from the Accuracy Roll. Accuracy +X adds X dice to the Accuracy Pool.
+﻿Accuracy +/-X,Accuracy -X removes X successes from the Accuracy Roll. Accuracy +X adds X dice to the Accuracy Pool.
 Active Combatant,"Pokémon, Humans, Vehicles, any other creatures, objects or beings who have some form of statistical Attributes and are currently on the Battlefield or in the Initiative Order are classed as Active Combatants. Fainted Pokémon, Humans, etc, who are not dead, but are still on the Battlefield also count as Active Combatants. Pokémon inside Poke Balls, people watching the Battle from the sidelines, etc, do not count."
 Aura Move,An Aura-category Move or Maneuver. Interacts with effects that reference Aura Moves or Maneuvers.
 Basic Heal,"Heals 3 HP of regular or Lethal Damage. After a successful Accuracy Roll, spend 1 Will Point to activate. In battle, normal healing is capped at 3 HP per Round."
@@ -59,8 +59,9 @@ An additional optional rule is as follows: Moves with the Lethal keyword have ""
 
 **Death Saves:**
 An Active Combatant who is Unconscious must roll a Death Save on each of their Turns.
-Death Saves are a 1D100 Luck Check. Vitality Points count as additional Luck Points for these rolls.
-Any result above a 55 is counted as a success. If an Active Combatant manages to get 3 successes in a row, or 5 total successes, they regain Consciousness at 1 HP.
+Death Saves are a 1D100 Luck Check. Vitality Points may be used instead of Luck Points for these rolls.
+Any result above a 55 is counted as a success. If an Active Combatant manages to get 3 successes before taking 3 failures, they regain Consciousness at 1 HP.
+If an Active Combatant rolls a total of 95+ on one their rolls, they immediately regain Consciousness at 1 HP.
 For each unsuccessful Death Save they receive 1 Pain Penalty.
 If another Active Combatant successfully makes a Stabilize check on the character; Insight / Clever + Medicine DC = Total Pain Penalties the Unconscious character is suffering from, they are granted one automatic Death Save success.
 

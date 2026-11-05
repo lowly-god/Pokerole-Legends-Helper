@@ -1453,87 +1453,75 @@
         },
         {
           "name": "Calcium",
-          "price": "10000",
-          "effect": "+1 Special. Lasts One Month",
+          "price": "25000",
+          "effect": "+1 Special",
           "category": "Supplements"
         },
         {
           "name": "Carbos",
-          "price": "10000",
-          "effect": "+1 Dexterity. Lasts One Month",
+          "price": "25000",
+          "effect": "+1 Dexterity",
           "category": "Supplements"
         },
         {
           "name": "Iron",
-          "price": "10000",
-          "effect": "+1 Vitality. Lasts One Month",
-          "category": "Supplements"
-        },
-        {
-          "name": "PP Up",
-          "price": "10000",
-          "effect": "+1 Will. Lasts One Month",
+          "price": "25000",
+          "effect": "+1 Vitality",
           "category": "Supplements"
         },
         {
           "name": "Protein",
-          "price": "10000",
-          "effect": "+1 Strength. Lasts One Month",
+          "price": "25000",
+          "effect": "+1 Strength",
           "category": "Supplements"
         },
         {
           "name": "Zinc",
-          "price": "10000",
-          "effect": "+1 Insight. Lasts One Month",
+          "price": "25000",
+          "effect": "+1 Insight",
           "category": "Supplements"
+        },
+        {
+          "name": "Sour Poffin",
+          "price": "20000",
+          "effect": "+1 Tough",
+          "category": "Poffins"
+        },
+        {
+          "name": "Spicy Poffin",
+          "price": "20000",
+          "effect": "+1 Cool",
+          "category": "Poffins"
+        },
+        {
+          "name": "Dry Poffin",
+          "price": "20000",
+          "effect": "+1 Beauty",
+          "category": "Poffins"
+        },
+        {
+          "name": "Bitter Poffin",
+          "price": "20000",
+          "effect": "+1 Clever",
+          "category": "Poffins"
+        },
+        {
+          "name": "Sweet Poffin",
+          "price": "20000",
+          "effect": "+1 Cute",
+          "category": "Poffins"
         },
         {
           "name": "Ability Capsule",
-          "price": "15000",
-          "effect": "Grants Hidden Ability",
-          "category": "Supplements"
-        },
-        {
-          "name": "PP Max",
-          "price": "25000",
-          "effect": "+5 Will. Lasts One Month",
-          "category": "Supplements"
+          "price": "20000",
+          "effect": "Grants a Pokémon its Hidden Ability",
+          "category": "Special"
         },
         {
           "name": "Rare Candy",
           "price": "15000",
           "effect": "Grants 10 Training Points",
-          "category": "Supplements"
-        },
-        {
-          "name": "Sour Poffin",
-          "price": "5500",
-          "effect": "+1 Tough. Lasts One Month",
-          "category": "Poffins"
-        },
-        {
-          "name": "Spicy Poffin",
-          "price": "5500",
-          "effect": "+1 Cool. Lasts One Month",
-          "category": "Poffins"
-        },
-        {
-          "name": "Dry Poffin",
-          "price": "5500",
-          "effect": "+1 Beauty. Lasts One Month",
-          "category": "Poffins"
-        },
-        {
-          "name": "Bitter Poffin",
-          "price": "5500",
-          "effect": "+1 Clever. Lasts One Month",
-          "category": "Poffins"
-        },
-        {
-          "name": "Sweet Poffin",
-          "price": "5500",
-          "effect": "+1 Cute. Lasts One Month",
-          "category": "Poffins"
+          "category": "Special"
         },
         {
           "name": "Joy Scent",
@@ -15001,12 +14989,6 @@
           "category": "Supplements"
         },
         {
-          "name": "PP Up",
-          "price": "10000",
-          "effect": "+1 Will. Lasts One Month",
-          "category": "Supplements"
-        },
-        {
           "name": "Protein",
           "price": "10000",
           "effect": "+1 Strength. Lasts One Month",
@@ -15022,12 +15004,6 @@
           "name": "Ability Capsule",
           "price": "15000",
           "effect": "Grants Hidden Ability",
-          "category": "Supplements"
-        },
-        {
-          "name": "PP Max",
-          "price": "25000",
-          "effect": "+5 Will. Lasts One Month",
           "category": "Supplements"
         },
         {

@@ -5,9 +5,9 @@
   "PMD": false,
   "Pocket": "Supplements",
   "Category": "Supplements",
-  "Description": "+1 Strength. Lasts One Month",
+  "Description": "+1 Strength",
   "OneUse": true,
-  "TrainerPrice": "10000",
+  "TrainerPrice": "25000",
   "Cures": "",
   "Image": ""
 }

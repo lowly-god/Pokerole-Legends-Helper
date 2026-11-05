@@ -1,34 +1,6 @@
 {
   "field_types": [
     {
-      "name": "Ashen Wastes",
-      "sections": {
-        "General Effects": [
-          "Sandstorm Weather has Duration 8 Rounds.",
-          "Special Flying and Ground-Type attacks cause all Active Combatant's Accuracy to be reduced by -1. This effect stacks up to 3 times. Pokémon with Mind's Eye, Own Tempo, Inner Focus, Steadfast, and Keen Eye ignore this effect."
-        ],
-        "Abilities Affected": [
-          "The Ability Mimicry changes the User’s Type to Typeless."
-        ],
-        "Moves Affected": [
-          "The Moves Entomb, Mud Shot, Mud-Slap, Mud Bomb, Sand Tomb, Fire Spin and Muddy Water gain +1 Damage Dice.",
-          "The Move Camouflage change the User’s Type to Typeless.",
-          "The Move Nature Power becomes Earth Power.",
-          "The Move Secret Power becomes Flame Charge.",
-          "The Moves Terrain Pulse and Embody Element become Ground-Type."
-        ],
-        "Changing The Field-Type": [
-          "After 2 uses the Moves Sludge Wave, Sludge Bomb, Acid Downpour change the Field-Type to Poisonous Wastes.",
-          "After 2 uses Moves Frenzy Plant, Forest’s Curse, Grass Pledge and Jungle Healing change the Field-Type to Neutral.",
-          "If Acid Rain Weather is active for 3 Rounds the Field-Type changes to Poisonous Wastes.",
-          "If Grassy Terrain is active for 3 Rounds the Field-Type changes to Neutral."
-        ]
-      },
-      "aliases": [
-        "Ashen Wastes"
-      ]
-    },
-    {
       "name": "Aquatic",
       "sections": {
         "General Effects": [
@@ -63,6 +35,34 @@
       },
       "aliases": [
         "Aquatic"
+      ]
+    },
+    {
+      "name": "Ashen Wastes",
+      "sections": {
+        "General Effects": [
+          "Sandstorm Weather has Duration 8 Rounds.",
+          "Special Flying and Ground-Type attacks cause all Active Combatant's Accuracy to be reduced by -1. This effect stacks up to 3 times. Pokémon with Mind's Eye, Own Tempo, Inner Focus, Steadfast, and Keen Eye ignore this effect."
+        ],
+        "Abilities Affected": [
+          "The Ability Mimicry changes the User’s Type to Typeless."
+        ],
+        "Moves Affected": [
+          "The Moves Entomb, Mud Shot, Mud-Slap, Mud Bomb, Sand Tomb, Fire Spin and Muddy Water gain +1 Damage Dice.",
+          "The Move Camouflage change the User’s Type to Typeless.",
+          "The Move Nature Power becomes Earth Power.",
+          "The Move Secret Power becomes Flame Charge.",
+          "The Moves Terrain Pulse and Embody Element become Ground-Type."
+        ],
+        "Changing The Field-Type": [
+          "After 2 uses the Moves Sludge Wave, Sludge Bomb, Acid Downpour change the Field-Type to Poisonous Wastes.",
+          "After 2 uses Moves Frenzy Plant, Forest’s Curse, Grass Pledge and Jungle Healing change the Field-Type to Neutral.",
+          "If Acid Rain Weather is active for 3 Rounds the Field-Type changes to Poisonous Wastes.",
+          "If Grassy Terrain is active for 3 Rounds the Field-Type changes to Neutral."
+        ]
+      },
+      "aliases": [
+        "Ashen Wastes"
       ]
     },
     {
@@ -404,6 +404,7 @@
           "The Move Nature Power becomes Thunder.",
           "The Move Secret Power becomes Volt Tackle.",
           "The Moves Terrain Pulse and Embody Element become Electric-Type.",
+          "The effects of the Move Charge are increased by +1.",
           "The effects of the Move Magnet Rise last for 8 turns."
         ],
         "Changing The Field-Type": [
@@ -556,38 +557,6 @@
       ]
     },
     {
-      "name": "Frozen",
-      "sections": {
-        "General Effects": [
-          "Damaging Ice-Type attacks gain +1 Damage Dice.",
-          "Damaging Fighting-Type and Fire-Type attacks get -1 Damage Dice.",
-          "Damaging Water-Type attacks (except Scald, Hydro Steam and Steam Eruption) deal Ice-Type Damage.",
-          "Physical Non-Ranged Reaction attacks also increase the User’s Dexterity by +1 if used by a grounded Active Combatant. (This effect does not stack).",
-          "Snowy Terrain, Hail Weather and Snowy Weather have Duration 8 Rounds."
-        ],
-        "Abilities Affected": [
-          "The Ability Mimicry changes the User’s Type to Ice.",
-          "The Ability Refrigerate increases the Damage Dice of Moves affected by it by an additional +1.",
-          "The Abilities Sub-Zero Surfer, Snow Cloak, Ice Body and Slush Rush activate when the User is sent in."
-        ],
-        "Moves Affected": [
-          "The Move Camouflage changes the User’s Type to Ice.",
-          "The Move Nature Power becomes Ice Beam.",
-          "The Move Secret Power becomes Frozen Crash.",
-          "The Moves Terrain Pulse and Embody Element become Ice-Type.",
-          "The Move Aurora Veil can be activated without Hail Weather or Snowy Weather being active.",
-          "The Moves Blizzard and Absolute Zero have no reduced Accuracy."
-        ],
-        "Changing The Field-Type": [
-          "If the Field-Type was Aquatic or Murkwater before being changed to Frozen, the Moves Earthquake, Magnitude, Bulldoze, and Tectonic Rage change the Field-Type to whichever was present before.",
-          "After 2 Uses the Moves Uncontrolled Burn Off, Heat Wave, Flame Burst, Eruption, Lava Plume, Magma Drift, Fire Pledge and Inferno Overdrive change the Field-Type to Neutral or Whichever Field-Type was present before Frozen."
-        ]
-      },
-      "aliases": [
-        "Frozen"
-      ]
-    },
-    {
       "name": "Foundry",
       "sections": {
         "General Effects": [
@@ -619,6 +588,38 @@
       },
       "aliases": [
         "Foundry"
+      ]
+    },
+    {
+      "name": "Frozen",
+      "sections": {
+        "General Effects": [
+          "Damaging Ice-Type attacks gain +1 Damage Dice.",
+          "Damaging Fighting-Type and Fire-Type attacks get -1 Damage Dice.",
+          "Damaging Water-Type attacks (except Scald, Hydro Steam and Steam Eruption) deal Ice-Type Damage.",
+          "Physical Non-Ranged Reaction attacks also increase the User’s Dexterity by +1 if used by a grounded Active Combatant. (This effect does not stack).",
+          "Snowy Terrain, Hail Weather and Snowy Weather have Duration 8 Rounds."
+        ],
+        "Abilities Affected": [
+          "The Ability Mimicry changes the User’s Type to Ice.",
+          "The Ability Refrigerate increases the Damage Dice of Moves affected by it by an additional +1.",
+          "The Abilities Sub-Zero Surfer, Snow Cloak, Ice Body and Slush Rush activate when the User is sent in."
+        ],
+        "Moves Affected": [
+          "The Move Camouflage changes the User’s Type to Ice.",
+          "The Move Nature Power becomes Ice Beam.",
+          "The Move Secret Power becomes Frozen Crash.",
+          "The Moves Terrain Pulse and Embody Element become Ice-Type.",
+          "The Move Aurora Veil can be activated without Hail Weather or Snowy Weather being active.",
+          "The Moves Blizzard and Absolute Zero have no reduced Accuracy."
+        ],
+        "Changing The Field-Type": [
+          "If the Field-Type was Aquatic or Murkwater before being changed to Frozen, the Moves Earthquake, Magnitude, Bulldoze, and Tectonic Rage change the Field-Type to whichever was present before.",
+          "After 2 Uses the Moves Uncontrolled Burn Off, Heat Wave, Flame Burst, Eruption, Lava Plume, Magma Drift, Fire Pledge and Inferno Overdrive change the Field-Type to Neutral or Whichever Field-Type was present before Frozen."
+        ]
+      },
+      "aliases": [
+        "Frozen"
       ]
     },
     {
@@ -994,39 +995,6 @@
       ]
     },
     {
-      "name": "Urbanized",
-      "sections": {
-        "General Effects": [
-          "Damaging Bug-Type, Dark-Type, Electric-Type, Normal-Type, Poison-Type and Steel-Type attacks gain +1 Damage Dice.",
-          "Damaging Fairy-Type and Grass-Type attacks have -1 Damage Dice."
-        ],
-        "Abilities Affected": [
-          "The Ability Mimicry changes the User’s Type to Dark.",
-          "The Abilities Merciless and Toxic Boost activate when the User is sent in.",
-          "The Abilities Poison Touch, Poison Point, Stench and Effect Spore have their Chance Dice increased to 5.",
-          "The Abilities Adaptability and Download's effects are increased by +1.",
-          "The Abilities Anticipation, Early Bird, Frisk, Pick Pocket and Unnerve additionally increase the User's Dexterity, Strength and Special by +1."
-        ],
-        "Moves Affected": [
-          "The Move Camouflage changes the User’s Type to Normal.",
-          "The Move Nature Power becomes Smog.",
-          "The Move Secret Power becomes Covet.",
-          "The Moves Terrain Pulse and Embody Element become Steel-Type.",
-          "The Moves Beat Up, Pay Day, Make It Rain, Smog, Steamroller, Techno Blast gain +1 Damage Dice.",
-          "The Moves Smog and Poison Gas have no reduced Accuracy.",
-          "The Move Smokescreen lowers Accuracy by an additional -1.",
-          "The Move Recycle also increases either the User's Strength, Dexterity, Special, Defense or Special Defense at random, by +1.",
-          "The Move Shift Gear increases the User's Strength by an additional +1."
-        ],
-        "Changing The Field-Type": [
-          "After 2 uses the Moves Earthquake, Bulldoze, Earth Power, and Tectonic Rage change the Field-Type to Ruins."
-        ]
-      },
-      "aliases": [
-        "Urbanized"
-      ]
-    },
-    {
       "name": "Ultra Space",
       "sections": {
         "General Effects": [
@@ -1084,6 +1052,74 @@
       },
       "aliases": [
         "Underwater"
+      ]
+    },
+    {
+      "name": "Underwater Rift",
+      "sections": {
+        "General Effects": [
+          "Non Water-Types and/or Pokémon not usually found in aquatic locations' Dexterity is halved. (Rounded down).",
+          "Physical Moves used by non Water-Types and/or Pokémon not usually found in aquatic locations' have -1 Damage Dice.",
+          "Damaging Ground-Type attacks gain the Water Sub-Type.",
+          "Damaging Electric-Type attacks gain +1 Damage Dice and Target: Area.",
+          "Damaging Dark-Type, Ghost-Type and Shadow-Type attacks gain +1 Damage Dice.",
+          "Damaging Fairy-Type and Normal-Type attacks have -1 Damage Dice.",
+          "Fire-Type attacks fail to activate.",
+          "Weather and Terrain setting Moves and Abilities fail to activate, unless used by Rift Pokémon."
+        ],
+        "Abilities Affected": [
+          "The Ability Mimicry changes the User’s Type to Ghost.",
+          "The Abilities Torrent, Hydration, Swift Swim, Schooling and Rattled activate when the User is sent in.",
+          "Pokémon with the Abilities Flame Body and Magma Armor take 2 Damage at the end of the Round.",
+          "The Ability Water Absorb heals the User for 1 HP at the end of the Round.",
+          "The Ability Shadow Shield always works as if the User was at full HP."
+        ],
+        "Moves Affected": [
+          "The Move Camouflage changes the User’s Type to Water.",
+          "The Move Nature Power becomes Shadow Tide.",
+          "The Move Secret Power becomes Harrowing Wrath.",
+          "The Moves Terrain Pulse and Embody Element become Ghost-Type.",
+          "The Move Dive loses its Charge Phase and gains Never Miss.",
+          "The Move Whirlpool deals double Ongoing Damage at the end of the Round.",
+          "The Move Dark Void has no reduced Accuracy."
+        ],
+        "Changing The Field-Type": []
+      },
+      "aliases": [
+        "Underwater Rift"
+      ]
+    },
+    {
+      "name": "Urbanized",
+      "sections": {
+        "General Effects": [
+          "Damaging Bug-Type, Dark-Type, Electric-Type, Normal-Type, Poison-Type and Steel-Type attacks gain +1 Damage Dice.",
+          "Damaging Fairy-Type and Grass-Type attacks have -1 Damage Dice."
+        ],
+        "Abilities Affected": [
+          "The Ability Mimicry changes the User’s Type to Dark.",
+          "The Abilities Merciless and Toxic Boost activate when the User is sent in.",
+          "The Abilities Poison Touch, Poison Point, Stench and Effect Spore have their Chance Dice increased to 5.",
+          "The Abilities Adaptability and Download's effects are increased by +1.",
+          "The Abilities Anticipation, Early Bird, Frisk, Pick Pocket and Unnerve additionally increase the User's Dexterity, Strength and Special by +1."
+        ],
+        "Moves Affected": [
+          "The Move Camouflage changes the User’s Type to Normal.",
+          "The Move Nature Power becomes Smog.",
+          "The Move Secret Power becomes Covet.",
+          "The Moves Terrain Pulse and Embody Element become Steel-Type.",
+          "The Moves Beat Up, Pay Day, Make It Rain, Smog, Steamroller, Techno Blast gain +1 Damage Dice.",
+          "The Moves Smog and Poison Gas have no reduced Accuracy.",
+          "The Move Smokescreen lowers Accuracy by an additional -1.",
+          "The Move Recycle also increases either the User's Strength, Dexterity, Special, Defense or Special Defense at random, by +1.",
+          "The Move Shift Gear increases the User's Strength by an additional +1."
+        ],
+        "Changing The Field-Type": [
+          "After 2 uses the Moves Earthquake, Bulldoze, Earth Power, and Tectonic Rage change the Field-Type to Ruins."
+        ]
+      },
+      "aliases": [
+        "Urbanized"
       ]
     },
     {

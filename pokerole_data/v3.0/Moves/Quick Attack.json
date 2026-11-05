@@ -3,12 +3,12 @@
   "Type": "Normal",
   "Power": 2,
   "Damage1": "Strength / Dexterity",
-  "Damage2": "",
+  "Damage2": "2",
   "Accuracy1": "Dexterity",
   "Accuracy2": "Brawl",
   "Target": "Foe",
   "Effect": "Reaction 1. Out of battle, double the Pokémon's movement speed.",
-  "Description": "An attackas fight as lightning.",
+  "Description": "An attack as fight as lightning.",
   "_id": "quick-attack",
   "Attributes": {
     "Reaction": "1"

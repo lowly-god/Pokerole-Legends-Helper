@@ -5,9 +5,9 @@
   "PMD": false,
   "Pocket": "Poffins",
   "Category": "Poffins",
-  "Description": "+1 Tough. Lasts One Month",
+  "Description": "+1 Tough",
   "OneUse": true,
-  "TrainerPrice": "5500",
+  "TrainerPrice": "20000",
   "Cures": "",
   "Image": ""
 }

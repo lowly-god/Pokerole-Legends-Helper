@@ -3,11 +3,11 @@
   "_id": "ability-capsule",
   "Source": "Legends Rules Expansion",
   "PMD": false,
-  "Pocket": "Supplements",
-  "Category": "Supplements",
-  "Description": "Grants Hidden Ability",
+  "Pocket": "Special",
+  "Category": "Special",
+  "Description": "Grants a Pokémon its Hidden Ability",
   "OneUse": true,
-  "TrainerPrice": "15000",
+  "TrainerPrice": "20000",
   "Cures": "",
   "Image": ""
 }
