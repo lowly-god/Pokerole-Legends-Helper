@@ -137,3 +137,5 @@ scripts/archive
 .vscode/settings.json
 FoundryModule
 scripts/databuilder/foundry_builder.py
+
+.env
