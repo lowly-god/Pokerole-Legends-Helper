@@ -3,6 +3,7 @@ import csv
 import json
 import os
 import pickle
+import shutil
 import random
 import re
 import typing
@@ -220,13 +221,31 @@ extra_files = [  # assuming UTF-8
 
 
 # save and load functions
+# Store live per-server settings outside the GitHub-deployed files.
+# On the first run, carry over the existing settings file from the repository.
+def _pickle_path(name: str):
+    if name != 'pokebotsettings':
+        return name + '.pkl'
+
+    root = os.path.dirname(os.path.abspath(__file__))
+    data_dir = os.path.join(root, 'data')
+    os.makedirs(data_dir, exist_ok=True)
+    saved_path = os.path.join(data_dir, 'pokebotsettings.pkl')
+    original_path = os.path.join(root, 'pokebotsettings.pkl')
+
+    if not os.path.exists(saved_path) and os.path.isfile(original_path):
+        shutil.copy2(original_path, saved_path)
+        print('Existing server settings copied into persistent data folder.')
+    return saved_path
+
+
 def save_obj(obj: object, name: str):
-    with open(name + '.pkl', 'wb') as f:
+    with open(_pickle_path(name), 'wb') as f:
         pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
 
 
 def load_obj(name):
-    with open(name + '.pkl', 'rb') as f:
+    with open(_pickle_path(name), 'rb') as f:
         return pickle.load(f)
 
 
@@ -301,7 +320,7 @@ async def on_ready():
     # load the files
     for file in files:
         # check if saved data exists
-        if os.path.isfile('{0}.pkl'.format(file[0])):
+        if os.path.isfile(_pickle_path(file[0])):
             # save the data if the file exists
             try:
                 file[1].update(load_obj(file[0]))
@@ -310,8 +329,6 @@ async def on_ready():
             print(file[0] + ' info loaded!')
         else:
             print('file ' + file[0] + ' not found, creating file')
-            tempf = open(file[0] + ".pkl", "w")
-            tempf.close()
             save_obj(file[1], file[0])
 
     # Migrate any settings saved by older builds. Version selection no longer
