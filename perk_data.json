@@ -4,6 +4,11 @@
     "Description": "Your training in alchemical reagents and natural components is unparalleled.",
     "Effect": "You gain +1 Bonus Dice to checks using the Crafting, Technology and Medicine Skills. When crafting Poke Balls 1 less success is required to create HQ versions. When crafting healing items, you Round up instead of down for the amount created."
   },
+  "Armor Shatterer": {
+    "Rank": "Advanced / Expert",
+    "Description": "Every swing is delivered with a calculated brutality, able to sunder even the toughest armor with a single strike.",
+    "Effect": "You gain +1 Point in the Weapons Skill. When dealing Damage with a Great Weapon against a Target with 5 or more Defense, you ignore 2 Points of the Target's Defense."
+  },
   "Aura Adept": {
     "Rank": "Advanced / Expert",
     "Description": "You’ve honed your aura reading and manipulating abilities.",
