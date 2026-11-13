@@ -1,1 +1,8 @@
+# Local credentials (keep the example template tracked)
 .env
+.env.*
+!.env.example
+
+# Live per-server settings; Enzonic preserves these separately
+/data/
+/pokebotsettings*.pkl
